@@ -132,6 +132,24 @@ Vérifié le 7 oct. 2026 :
 2. Sinon, photographier l'étiquette de composition (OCR), compléter catégorie, masse et prix, calculer avec Ecobalyse.
 3. Déposer le calcul sur le portail avant de l'afficher (serveur de test pour la démo).
 
+## Design visuel
+
+Six palettes candidates, aucune tranchée au 7 oct. 2026 (fond / texte / accent principal / accent secondaire).
+
+Première série :
+
+- **Indigo denim** : `#F5F6F8` / `#14161A` / `#2B3A8F` / `#E8A33D`
+- **Écru et fil rouge** : `#F3EFE6` / `#1C1B19` / `#B3261E` / `#6B655A`
+- **Vert sapin** : `#F2F4EF` / `#15201A` / `#1F5C45` / `#C8643C`
+
+Seconde série, sur la direction "moderne, luxe, éthique" donnée par Yannick :
+
+- **Noir et laiton** : `#F7F5F0` / `#111111` / `#8C6A2F` / `#3F4A36`
+- **Vert bouteille et champagne** (thème sombre) : `#0F1F1A` / `#F4F1EA` / `#D9C08A` / `#8FA595`
+- **Grège et prune** : `#EFEAE2` / `#1E1A1C` / `#4A2338` / `#8A7355`
+
+Nuanciers : https://claude.ai/artifact/2npraUEn26vKSWUCNWdq5K (cadres "Palettes" et "Palettes : moderne, luxe, éthique").
+
 ## Sources
 
 - Clear Fashion : https://us.fashionnetwork.com/news/Clear-Fashion-app-takes-off-on-mobile,1136732.html
