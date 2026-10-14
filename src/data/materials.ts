@@ -26,7 +26,7 @@ const BASE_URL = 'https://www.thegoodgoods.fr/matieres';
 export const materials: Material[] = [
   // Végétales
   { name: 'Coton', family: 'vegetal', summary: 'Fibre naturelle issue des graines du cotonnier, la fibre végétale la plus utilisée.', url: `${BASE_URL}/coton/` },
-  { name: 'Lin', family: 'vegetal', summary: 'Fibre naturelle tirée de la tige du lin. La France en est l’un des premiers producteurs mondiaux.', url: `${BASE_URL}/lin/` },
+  { name: 'Lin', family: 'vegetal', summary: 'Fibre naturelle tirée de la tige du lin.', url: `${BASE_URL}/lin/` },
   { name: 'Chanvre', family: 'vegetal', summary: 'Fibre naturelle tirée de la tige du chanvre, une plante peu exigeante en eau et en pesticides.', url: `${BASE_URL}/chanvre/` },
   { name: 'Jute', family: 'vegetal', summary: 'Fibre végétale tirée de la tige du jute, surtout utilisée pour la toile et les sacs.', url: `${BASE_URL}/jute/` },
   { name: 'Ortie (ou ramie)', family: 'vegetal', summary: 'Fibres tirées de la tige de l’ortie ou de la ramie, une plante de la même famille.', url: `${BASE_URL}/lortie-ou-la-ramie/` },
@@ -36,7 +36,7 @@ export const materials: Material[] = [
   { name: 'Cachemire', family: 'animal', summary: 'Fibre très fine issue du duvet de la chèvre cachemire.', url: `${BASE_URL}/cachemire/` },
   { name: 'Mohair', family: 'animal', summary: 'Fibre issue de la toison de la chèvre angora.', url: `${BASE_URL}/mohair/` },
   { name: 'Angora', family: 'animal', summary: 'Fibre issue du poil du lapin angora.', url: `${BASE_URL}/angora/` },
-  { name: 'Alpaga ou poils de lama', family: 'animal', summary: 'Fibres issues de la toison de l’alpaga et du lama, camélidés d’Amérique du Sud.', url: `${BASE_URL}/poils-de-lamas/` },
+  { name: 'Alpaga ou poils de lama', family: 'animal', summary: 'Fibres issues de la toison de l’alpaga et du lama.', url: `${BASE_URL}/poils-de-lamas/` },
   { name: 'Laine de chameau', family: 'animal', summary: 'Fibre issue du duvet du chameau.', url: `${BASE_URL}/poil-de-chameau/` },
   { name: 'Soie', family: 'animal', summary: 'Fibre produite par la chenille du bombyx (ver à soie) pour former son cocon.', url: `${BASE_URL}/soie/` },
   { name: 'Cuir', family: 'animal', summary: 'Peau animale traitée par tannage pour la rendre souple et imputrescible.', url: `${BASE_URL}/cuir/` },
@@ -47,8 +47,8 @@ export const materials: Material[] = [
   { name: 'Viscose de bambou', family: 'artificial', summary: 'Viscose dont la cellulose provient du bambou. Le procédé chimique reste celui de la viscose.', url: `${BASE_URL}/viscose-de-bambou/` },
   { name: 'Modal', family: 'artificial', summary: 'Variante de la viscose, le plus souvent fabriquée à partir de bois de hêtre.', url: `${BASE_URL}/modal/` },
   { name: 'Lyocell (Tencel)', family: 'artificial', summary: 'Fibre de cellulose filée avec un solvant recyclé en circuit fermé. Tencel est une marque de Lenzing.', url: `${BASE_URL}/lyocell-lyocell/` },
-  { name: 'Cupro (Bemberg)', family: 'artificial', summary: 'Fibre de cellulose issue du linter, le duvet court qui reste sur la graine de coton.', url: `${BASE_URL}/bemberg-ou-cupro/` },
-  { name: 'Acétate de cellulose', family: 'artificial', summary: 'Fibre obtenue en transformant la cellulose avec des dérivés de l’acide acétique.', url: `${BASE_URL}/acetate-de-cellulose-2/` },
+  { name: 'Cupro (Bemberg)', family: 'artificial', summary: 'Fibre artificielle à partir de la cellulose de coton, alternative à la soie naturelle.', url: `${BASE_URL}/bemberg-ou-cupro/` },
+  { name: 'Acétate de cellulose', family: 'artificial', summary: 'Fibre obtenue en transformant la cellulose avec des dérivés de l’acide acétique et de l’anhydre acétique.', url: `${BASE_URL}/acetate-de-cellulose-2/` },
   { name: 'Lenzing Ecovero', family: 'artificial', summary: 'Marque de viscose du groupe autrichien Lenzing.', url: `${BASE_URL}/lenzing-ecovero/` },
 
   // Synthétiques (issues du pétrole)
@@ -56,7 +56,7 @@ export const materials: Material[] = [
   { name: 'Polyamide et nylon', family: 'synthetic', summary: 'Fibres synthétiques issues du pétrole, très résistantes. Le nylon est un polyamide.', url: `${BASE_URL}/polyamide/` },
   { name: 'Élasthanne', family: 'synthetic', summary: 'Fibre synthétique très élastique, ajoutée en petite quantité pour rendre un tissu extensible.', url: `${BASE_URL}/elasthanne/` },
   { name: 'Acrylique', family: 'synthetic', summary: 'Fibre synthétique issue du pétrole, souvent utilisée pour imiter la laine.', url: `${BASE_URL}/acrylique/` },
-  { name: 'Aramide', family: 'synthetic', summary: 'Fibre synthétique très résistante à la chaleur et aux chocs, utilisée dans les vêtements de protection.', url: `${BASE_URL}/aramide/` },
+  { name: 'Aramide', family: 'synthetic', summary: 'Fibre chimique et synthétique très résistante à la chaleur et aux chocs, utilisée dans les vêtements de protection.', url: `${BASE_URL}/aramide/` },
   { name: 'PTFE ou ePTFE', family: 'synthetic', summary: 'Polymère fluoré (famille des PFAS) utilisé dans les membranes imperméables et respirantes.', url: `${BASE_URL}/fluorofibres/` },
   { name: 'Latex ou caoutchouc', family: 'synthetic', summary: 'Matière élastique issue de la sève de l’hévéa (naturelle) ou du pétrole (synthétique).', url: `${BASE_URL}/latex-ou-caoutchouc/` },
 

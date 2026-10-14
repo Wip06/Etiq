@@ -20,18 +20,14 @@ export default function ArticleScreen() {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      <Stack.Screen
-        options={{
-          title: article.title,
-          headerRight: () => (
-            <FavoriteButton
-              favorite={{ kind: 'article', id: article.id, title: article.title, subtitle: article.theme }}
-            />
-          ),
-        }}
-      />
+      <Stack.Screen options={{ title: article.title }} />
       <Text style={styles.theme}>{article.theme}</Text>
-      <Text style={styles.title}>{article.title}</Text>
+      <View style={styles.titleRow}>
+        <Text style={styles.title}>{article.title}</Text>
+        <FavoriteButton
+          favorite={{ kind: 'article', id: article.id, title: article.title, subtitle: article.theme }}
+        />
+      </View>
       {article.paragraphs.map((paragraph) => (
         <Text key={paragraph} style={styles.paragraph}>
           {paragraph}
@@ -71,7 +67,13 @@ const styles = StyleSheet.create({
     textTransform: 'uppercase',
     color: colors.secondary,
   },
+  titleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
   title: {
+    flex: 1,
     fontSize: 26,
     fontWeight: '700',
     color: colors.accent,

@@ -16,7 +16,6 @@
 - Afficher l'étiquette officielle du coût environnemental (SVG fourni par le portail, module noir de la charte graphique)
 
 ## Contenu
-- Faire relire par l'équipe les résumés des lexiques The Good Goods (39 matières, 50 labels)
 - Ajouter d'autres articles (liens The Good Goods + résumé écrit par nous)
 
 ## Design

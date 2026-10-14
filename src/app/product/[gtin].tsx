@@ -78,18 +78,14 @@ export default function ProductScreen() {
   const { product } = state;
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      <Stack.Screen
-        options={{
-          title: product.brand,
-          headerRight: () => (
-            <FavoriteButton
-              favorite={{ kind: 'product', id: product.gtin, title: product.reference, subtitle: product.brand }}
-            />
-          ),
-        }}
-      />
+      <Stack.Screen options={{ title: product.brand }} />
       <Text style={styles.brand}>{product.brand}</Text>
-      <Text style={styles.title}>{product.reference}</Text>
+      <View style={styles.titleRow}>
+        <Text style={[styles.title, styles.titleFlex]}>{product.reference}</Text>
+        <FavoriteButton
+          favorite={{ kind: 'product', id: product.gtin, title: product.reference, subtitle: product.brand }}
+        />
+      </View>
       <Text style={styles.meta}>{product.category}</Text>
 
       <View style={styles.costCard}>
@@ -152,6 +148,15 @@ const styles = StyleSheet.create({
     fontSize: 22,
     fontWeight: '700',
     color: colors.text,
+  },
+  titleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
+  // Le titre seul sert aussi à l'écran « Produit non déclaré » : flex uniquement dans la ligne.
+  titleFlex: {
+    flex: 1,
   },
   meta: {
     fontSize: 14,

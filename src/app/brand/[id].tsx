@@ -20,15 +20,11 @@ export default function BrandScreen() {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      <Stack.Screen
-        options={{
-          title: brand.name,
-          headerRight: () => (
-            <FavoriteButton favorite={{ kind: 'brand', id: brand.id, title: brand.name, subtitle: brand.country }} />
-          ),
-        }}
-      />
-      <Text style={styles.name}>{brand.name}</Text>
+      <Stack.Screen options={{ title: brand.name }} />
+      <View style={styles.titleRow}>
+        <Text style={styles.name}>{brand.name}</Text>
+        <FavoriteButton favorite={{ kind: 'brand', id: brand.id, title: brand.name, subtitle: brand.country }} />
+      </View>
       <Text style={styles.country}>{brand.country}</Text>
       <View style={styles.tags}>
         {brand.tags.map((tag) => (
@@ -66,7 +62,13 @@ const styles = StyleSheet.create({
     gap: 12,
     padding: 24,
   },
+  titleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+  },
   name: {
+    flex: 1,
     fontSize: 28,
     fontWeight: '700',
     color: colors.accent,

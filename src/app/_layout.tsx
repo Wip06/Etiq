@@ -47,6 +47,9 @@ function RootNavigator() {
         <Stack.Screen name="brand/[id]" options={{ title: 'Marque' }} />
         <Stack.Screen name="article/[id]" options={{ title: 'Article' }} />
         <Stack.Screen name="about" options={{ title: 'À propos' }} />
+        <Stack.Screen name="favorites/index" options={{ title: 'Favoris' }} />
+        <Stack.Screen name="favorites/[kind]" />
+        <Stack.Screen name="history" options={{ title: 'Historique' }} />
       </Stack.Protected>
 
       <Stack.Protected guard={needsOnboarding}>

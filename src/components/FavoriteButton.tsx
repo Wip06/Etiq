@@ -4,7 +4,8 @@ import { Pressable } from 'react-native';
 import { useLibrary, type Favorite } from '@/session/LibraryProvider';
 import { colors } from '@/theme/colors';
 
-// Cœur à placer dans l'en-tête d'une page. Invisible pour les invités.
+// Cœur à placer à côté du titre d'une page (pas dans l'en-tête natif : il ne s'y affiche pas
+// sur Android). Invisible pour les invités.
 export function FavoriteButton({ favorite }: { favorite: Favorite }) {
   const { enabled, isFavorite, toggleFavorite } = useLibrary();
   if (!enabled) return null;
@@ -17,7 +18,7 @@ export function FavoriteButton({ favorite }: { favorite: Favorite }) {
       hitSlop={12}
       onPress={() => toggleFavorite(favorite)}
     >
-      <Ionicons name={active ? 'heart' : 'heart-outline'} size={24} color={active ? colors.accent : colors.text} />
+      <Ionicons name={active ? 'heart' : 'heart-outline'} size={28} color={active ? colors.accent : colors.text} />
     </Pressable>
   );
 }
