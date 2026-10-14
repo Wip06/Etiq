@@ -43,7 +43,7 @@ Section revérifiée le 7 oct. 2026.
 
 - **Clear Fashion** (France, Marseille) : app gratuite "Clear Fashion - Score & Scan" lancée en 2019, 400 000+ utilisateurs, 500+ marques, 4,7/5 sur l'App Store. Note les marques avec un Fashion Score /100 maison (environnement, social, santé, animaux). **Depuis mars 2026, elle scanne le code-barres d'un vêtement en magasin et affiche son coût environnemental officiel** : 27 000 produits de 66 marques (Kiabi, Tex, Courrèges, Millet...). Revendique 17 millions de consommateurs qui la connaissent. Revenus : modules payants vendus aux marques (calcul et dépôt du coût environnemental, fiches AGEC, passeport numérique, allégations). Limite : ne couvre que les produits déclarés par les marques.
 - **Portail officiel de l'État** : recherche gratuite par code-barres, 105 545 références de 171 marques (672 148 codes-barres). Depuis octobre 2026, un citoyen peut y déclarer lui-même un vêtement via un formulaire (FranceConnect) : seulement 3 déclarations citoyennes au 7 oct. 2026.
-- **Good On You** (Australie) : note les marques de 1 à 5 (environnement, droits des travailleurs, bien-être animal), plus de 6 000 marques, app gratuite. Note des marques, pas des produits. Revenus : accès payant à ses données de notation, mise en avant des marques bien notées, commissions d'affiliation. (Partenaires Farfetch, Microsoft, Klarna : non revérifiés.)
+- **Good On You** (Australie) : note les marques de 1 à 5 (environnement, droits des travailleurs, bien-être animal), plus de 6 000 marques, app gratuite. Note des marques, pas des produits. Revenus : accès payant à ses données de notation, mise en avant des marques bien notées, commissions d'affiliation. (Partenaires Farfetch, Microsoft, Klarna : non revérifiés.)x
 - **Outils B2B Ecobalyse** (ex. FilVert sur Shopify, Carbonfact) : aident les marques à calculer et afficher leur coût environnemental. Pas orientés consommateur.
 
 ### Différenciant visé
@@ -102,6 +102,7 @@ Vérifié le 7 oct. 2026 :
 - Parcours clé à prioriser : **scan de l'étiquette -> coût environnemental -> alternatives**.
 - Brique technique : OCR / vision pour lire l'étiquette (composition, pays), puis calcul ou récupération du coût via la méthode Ecobalyse.
 - Délai : environ 6 semaines jusqu'à la finale du 18 novembre 2026.
+- Projet initialisé le 14 oct. 2026 : Expo SDK 57, Expo Router (écrans dans `src/app/`), `expo-camera`, alias `@/` vers `src/`. Règles Expo du projet : @AGENTS.md
 
 ### APIs officielles (testées avec de vraies requêtes le 7 oct. 2026)
 
@@ -134,7 +135,15 @@ Vérifié le 7 oct. 2026 :
 
 ## Design visuel
 
-Six palettes candidates, aucune tranchée au 7 oct. 2026 (fond / texte / accent principal / accent secondaire).
+**Palette retenue le 14 oct. 2026 : Vert bouteille et champagne** (thème sombre), codée dans `src/theme/colors.ts` :
+
+- fond `#0F1F1A`, surface (cartes) `#17302A`, texte `#F4F1EA` ;
+- accent principal champagne `#D9C08A`, avec du texte `#0F1F1A` dessus (le texte clair n'y est pas lisible) ;
+- accent secondaire sauge `#8FA595`.
+
+L'étiquette officielle du coût environnemental est noire avec un aplat de soutien blanc (charte graphique) : sur ce fond sombre, elle ressort comme un bloc blanc encadré.
+
+Historique des six palettes candidates (fond / texte / accent principal / accent secondaire).
 
 Première série :
 
@@ -149,6 +158,8 @@ Seconde série, sur la direction "moderne, luxe, éthique" donnée par Yannick :
 - **Grège et prune** : `#EFEAE2` / `#1E1A1C` / `#4A2338` / `#8A7355`
 
 Nuanciers : https://claude.ai/artifact/2npraUEn26vKSWUCNWdq5K (cadres "Palettes" et "Palettes : moderne, luxe, éthique").
+
+Logo de l'app : à faire plus tard (l'icône actuelle est celle d'Expo par défaut). Trois pistes déjà esquissées dans le cadre "Icônes" du même canevas : étiquette cousue, "e" sur étiquette volante, scan de l'étiquette.
 
 ## Sources
 
