@@ -45,7 +45,9 @@ function RootNavigator() {
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="product/[gtin]" options={{ title: 'Résultat' }} />
         <Stack.Screen name="brand/[id]" options={{ title: 'Marque' }} />
+        <Stack.Screen name="articles" options={{ title: 'Nos articles' }} />
         <Stack.Screen name="article/[id]" options={{ title: 'Article' }} />
+        <Stack.Screen name="lexicon/[kind]" />
         <Stack.Screen name="about" options={{ title: 'À propos' }} />
         <Stack.Screen name="favorites/index" options={{ title: 'Favoris' }} />
         <Stack.Screen name="favorites/[kind]" />
