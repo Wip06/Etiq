@@ -39,3 +39,6 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# données brutes du portail (npm run data:download)
+/data/portal/

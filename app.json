@@ -31,7 +31,8 @@
           "recordAudioAndroid": false
         }
       ],
-      "expo-web-browser"
+      "expo-web-browser",
+      "expo-font"
     ],
     "scheme": "etiq",
     "experiments": {

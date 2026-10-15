@@ -3,7 +3,12 @@ import { useCallback, useEffect, useState } from 'react';
 import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { Button } from '@/components/Button';
+import { CategoryComparison } from '@/components/CategoryComparison';
 import { FavoriteButton } from '@/components/FavoriteButton';
+import { InfoButton } from '@/components/InfoButton';
+import { OfficialCostLabel } from '@/components/OfficialCostLabel';
+import { COST_EXPLANATION, DURABILITY_EXPLANATION, STAGE_EXPLANATIONS } from '@/data/explanations';
+import { compareToCategory } from '@/data/portalStats';
 import { getProduct, STAGES, type PortalProduct, type Stage } from '@/services/portal';
 import { useLibrary } from '@/session/LibraryProvider';
 import { colors } from '@/theme/colors';
@@ -76,6 +81,8 @@ export default function ProductScreen() {
   }
 
   const { product } = state;
+  // Un lot n'est pas comparable à des vêtements vendus à l'unité.
+  const comparison = product.components === 1 ? compareToCategory(product.category, product.per100g) : null;
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <Stack.Screen options={{ title: product.brand }} />
@@ -88,18 +95,23 @@ export default function ProductScreen() {
       </View>
       <Text style={styles.meta}>{product.category}</Text>
 
-      <View style={styles.costCard}>
-        <Text style={styles.costLabel}>Coût environnemental</Text>
-        <Text style={styles.costValue}>{formatPoints(product.cost)}</Text>
-        <Text style={styles.costUnit}>points d’impact</Text>
+      {/* Écart d'au moins 16 px : périmètre de protection de l'étiquette (charte graphique). */}
+      <View style={styles.costLabel}>
+        <InfoButton explanation={COST_EXPLANATION} />
+        <OfficialCostLabel gtin={product.gtin} cost={product.cost} per100g={product.per100g} />
       </View>
+
+      {comparison && <CategoryComparison comparison={comparison} />}
 
       <Text style={styles.sectionTitle}>Détail par étape</Text>
       {(Object.keys(STAGES) as Stage[]).map((stage) => (
-        <StageRow key={stage} label={STAGES[stage]} value={product.stages[stage]} total={product.cost} />
+        <StageRow key={stage} stage={stage} value={product.stages[stage]} total={product.cost} />
       ))}
 
-      <Text style={styles.meta}>Coefficient de durabilité : {product.durability.toLocaleString('fr-FR')}</Text>
+      <View style={styles.infoRow}>
+        <InfoButton explanation={DURABILITY_EXPLANATION} />
+        <Text style={styles.meta}>Coefficient de durabilité : {product.durability.toLocaleString('fr-FR')}</Text>
+      </View>
       <Text style={styles.source}>
         Source : portail officiel de l’affichage environnemental, déclaration du{' '}
         {new Date(product.declaredAt).toLocaleDateString('fr-FR')}.
@@ -108,13 +120,15 @@ export default function ProductScreen() {
   );
 }
 
-function StageRow({ label, value, total }: { label: string; value: number; total: number }) {
-  // Les étapes sont mesurées avant le coefficient de durabilité : on borne la barre à 100 %.
+function StageRow({ stage, value, total }: { stage: Stage; value: number; total: number }) {
   const share = total > 0 ? Math.min(value / total, 1) : 0;
   return (
     <View style={styles.stage}>
       <View style={styles.stageHeader}>
-        <Text style={styles.stageLabel}>{label}</Text>
+        <View style={styles.infoRow}>
+          <InfoButton explanation={STAGE_EXPLANATIONS[stage]} />
+          <Text style={styles.stageLabel}>{STAGES[stage]}</Text>
+        </View>
         <Text style={styles.stageValue}>{formatPoints(value)} pts</Text>
       </View>
       <View style={styles.bar}>
@@ -167,25 +181,17 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     color: colors.text,
   },
-  costCard: {
-    alignItems: 'center',
-    marginVertical: 8,
-    padding: 20,
-    borderRadius: 16,
-    backgroundColor: colors.surface,
-  },
   costLabel: {
-    fontSize: 14,
-    color: colors.secondary,
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 16,
+    marginVertical: 8,
   },
-  costValue: {
-    fontSize: 44,
-    fontWeight: '700',
-    color: colors.accent,
-  },
-  costUnit: {
-    fontSize: 14,
-    color: colors.text,
+  infoRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
   },
   sectionTitle: {
     marginTop: 8,

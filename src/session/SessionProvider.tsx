@@ -21,12 +21,14 @@ type SessionValue = {
   isGuest: boolean;
   user: User | null;
   continueAsGuest: () => void;
-  signIn: (email: string) => void;
+  signIn: (email: string) => Promise<void>;
   signOut: () => void;
   savePreferences: (preferences: Preferences) => void;
 };
 
 const STORAGE_KEY = 'etiq.session';
+// Les préférences sont aussi gardées par compte, pour les retrouver à la reconnexion.
+const preferencesKey = (email: string) => `etiq.preferences.${email}`;
 
 const SessionContext = createContext<SessionValue | null>(null);
 
@@ -59,10 +61,16 @@ export function SessionProvider({ children }: PropsWithChildren) {
       isGuest: session?.mode === 'guest',
       user: session?.mode === 'user' ? session.user : null,
       continueAsGuest: () => update({ mode: 'guest' }),
-      signIn: (email) => update({ mode: 'user', user: { email, preferences: null } }),
+      signIn: async (email) => {
+        const raw = await AsyncStorage.getItem(preferencesKey(email)).catch(() => null);
+        const preferences = raw ? (JSON.parse(raw) as Preferences) : null;
+        update({ mode: 'user', user: { email, preferences } });
+      },
       signOut: () => update(null),
       savePreferences: (preferences) => {
-        if (session?.mode === 'user') update({ mode: 'user', user: { ...session.user, preferences } });
+        if (session?.mode !== 'user') return;
+        AsyncStorage.setItem(preferencesKey(session.user.email), JSON.stringify(preferences));
+        update({ mode: 'user', user: { ...session.user, preferences } });
       },
     }),
     [isLoading, session, update],

@@ -5,8 +5,15 @@ import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { Button } from '@/components/Button';
 import { colors } from '@/theme/colors';
+import { normalizeGtin } from '@/utils/gtin';
 
 type Mode = 'barcode' | 'label';
+
+// Cadre de visée : large pour un code-barres, plus haut pour une étiquette cousue.
+const FRAMES = {
+  barcode: { width: 280, height: 160 },
+  label: { width: 260, height: 300 },
+} as const;
 
 export default function ScanScreen() {
   const [permission, requestPermission] = useCameraPermissions();
@@ -23,11 +30,11 @@ export default function ScanScreen() {
     }, []),
   );
 
-  const onBarcodeScanned = ({ data }: BarcodeScanningResult) => {
+  const onBarcodeScanned = ({ data, type }: BarcodeScanningResult) => {
     if (scanLocked.current) return;
     scanLocked.current = true;
     // « scanned » distingue un vrai scan d'une ouverture depuis l'historique ou les favoris.
-    router.push({ pathname: '/product/[gtin]', params: { gtin: data, scanned: '1' } });
+    router.push({ pathname: '/product/[gtin]', params: { gtin: normalizeGtin(data, type), scanned: '1' } });
   };
 
   if (!permission) return <View style={styles.container} />;
@@ -54,6 +61,8 @@ export default function ScanScreen() {
         />
       )}
 
+      <Viewfinder mode={mode} />
+
       <View style={styles.switcher}>
         <ModeButton label="Code-barres" active={mode === 'barcode'} onPress={() => setMode('barcode')} />
         <ModeButton label="Étiquette" active={mode === 'label'} onPress={() => setMode('label')} />
@@ -66,6 +75,26 @@ export default function ScanScreen() {
             : 'Lecture de l’étiquette : bientôt disponible.'}
         </Text>
       </View>
+    </View>
+  );
+}
+
+// Purement visuel : la caméra lit les codes-barres sur toute l'image, le cadre aide seulement à viser.
+function Viewfinder({ mode }: { mode: Mode }) {
+  return (
+    <View style={styles.viewfinder}>
+      <View style={styles.dim} />
+      <View style={styles.viewfinderRow}>
+        <View style={styles.dim} />
+        <View style={FRAMES[mode]}>
+          <View style={[styles.corner, styles.topLeft]} />
+          <View style={[styles.corner, styles.topRight]} />
+          <View style={[styles.corner, styles.bottomLeft]} />
+          <View style={[styles.corner, styles.bottomRight]} />
+        </View>
+        <View style={styles.dim} />
+      </View>
+      <View style={styles.dim} />
     </View>
   );
 }
@@ -98,6 +127,55 @@ const styles = StyleSheet.create({
     lineHeight: 24,
     textAlign: 'center',
     color: colors.text,
+  },
+  viewfinder: {
+    position: 'absolute',
+    top: 0,
+    right: 0,
+    bottom: 0,
+    left: 0,
+    pointerEvents: 'none',
+  },
+  viewfinderRow: {
+    flexDirection: 'row',
+  },
+  dim: {
+    flex: 1,
+    backgroundColor: colors.overlay,
+  },
+  corner: {
+    position: 'absolute',
+    width: 32,
+    height: 32,
+    borderColor: colors.accent,
+  },
+  topLeft: {
+    top: 0,
+    left: 0,
+    borderTopWidth: 4,
+    borderLeftWidth: 4,
+    borderTopLeftRadius: 12,
+  },
+  topRight: {
+    top: 0,
+    right: 0,
+    borderTopWidth: 4,
+    borderRightWidth: 4,
+    borderTopRightRadius: 12,
+  },
+  bottomLeft: {
+    bottom: 0,
+    left: 0,
+    borderBottomWidth: 4,
+    borderLeftWidth: 4,
+    borderBottomLeftRadius: 12,
+  },
+  bottomRight: {
+    bottom: 0,
+    right: 0,
+    borderBottomWidth: 4,
+    borderRightWidth: 4,
+    borderBottomRightRadius: 12,
   },
   switcher: {
     flexDirection: 'row',

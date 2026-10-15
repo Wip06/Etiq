@@ -10,6 +10,7 @@ export const STAGES = {
   fabric: 'Tissage / tricotage',
   dyeing: 'Teinture',
   making: 'Confection',
+  trims: 'Accessoires',
   transport: 'Transport',
   usage: 'Usage',
   endOfLife: 'Fin de vie',
@@ -22,9 +23,13 @@ export type PortalProduct = {
   reference: string;
   brand: string;
   category: string;
-  // Coût environnemental, en points d'impact.
+  // Coût environnemental, en points d'impact, total et pour 100 g.
   cost: number;
+  per100g: number;
   durability: number;
+  // Plus d'un composant pour un lot ou un produit multi-composants.
+  components: number;
+  // Part de chaque étape dans le coût, en points : leur somme redonne le coût.
   stages: Record<Stage, number>;
   declaredAt: string;
 };
@@ -34,11 +39,17 @@ type ApiProduct = {
   brand: { name: string };
   createdAt: string;
   score: number;
+  standardized: number;
   informations: {
     categorySlug: string;
     score: Record<Stage | 'durability', number>;
   }[];
 };
+
+// Étiquette officielle (SVG) générée par le portail pour ce code-barres.
+export function labelImageUrl(gtin: string): string {
+  return `${BASE_URL}/image?type=gtin&gtin=${encodeURIComponent(gtin)}`;
+}
 
 // Renvoie null si le vêtement n'est pas déclaré sur le portail (404).
 export async function getProduct(gtin: string): Promise<PortalProduct | null> {
@@ -47,18 +58,26 @@ export async function getProduct(gtin: string): Promise<PortalProduct | null> {
   if (!response.ok) throw new Error(`Portail indisponible (${response.status})`);
 
   const data = (await response.json()) as ApiProduct;
-  const info = data.informations[0];
+  // Le portail donne les étapes avant le coefficient de durabilité : on les divise par ce
+  // coefficient pour que leur somme corresponde au coût affiché. Un lot ou un produit à
+  // plusieurs composants a une entrée par composant : on les additionne.
   const stages = Object.fromEntries(
-    (Object.keys(STAGES) as Stage[]).map((stage) => [stage, info?.score[stage] ?? 0]),
+    (Object.keys(STAGES) as Stage[]).map((stage) => [
+      stage,
+      data.informations.reduce((sum, info) => sum + (info.score[stage] ?? 0) / (info.score.durability || 1), 0),
+    ]),
   ) as Record<Stage, number>;
+  const main = data.informations[0];
 
   return {
     gtin,
     reference: data.internalReference,
     brand: data.brand.name,
-    category: info?.categorySlug ?? '',
+    category: main?.categorySlug ?? '',
     cost: data.score,
-    durability: info?.score.durability ?? 0,
+    per100g: data.standardized,
+    durability: main?.score.durability ?? 0,
+    components: data.informations.length,
     stages,
     declaredAt: data.createdAt,
   };
