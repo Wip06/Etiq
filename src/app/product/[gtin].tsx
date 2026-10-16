@@ -1,4 +1,4 @@
-import { Stack, useLocalSearchParams } from 'expo-router';
+import { router, Stack, useLocalSearchParams } from 'expo-router';
 import { useCallback, useEffect, useState } from 'react';
 import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
 
@@ -9,7 +9,7 @@ import { InfoButton } from '@/components/InfoButton';
 import { OfficialCostLabel } from '@/components/OfficialCostLabel';
 import { COST_EXPLANATION, DURABILITY_EXPLANATION, STAGE_EXPLANATIONS } from '@/data/explanations';
 import { compareToCategory } from '@/data/portalStats';
-import { getProduct, STAGES, type PortalProduct, type Stage } from '@/services/portal';
+import { getProduct, labelImageUrl, STAGES, type PortalProduct, type Stage } from '@/services/portal';
 import { useLibrary } from '@/session/LibraryProvider';
 import { colors } from '@/theme/colors';
 
@@ -73,9 +73,13 @@ export default function ProductScreen() {
       <View style={[styles.container, styles.centered]}>
         <Text style={styles.title}>Produit non déclaré</Text>
         <Text style={styles.message}>
-          La marque n’a pas déclaré le coût environnemental de ce vêtement (code {gtin}). Bientôt, vous pourrez
-          scanner son étiquette pour l’estimer.
+          La marque n’a pas déclaré le coût environnemental de ce vêtement (code {gtin}). Photographiez son étiquette
+          de composition pour l’estimer.
         </Text>
+        <Button
+          label="Scanner l’étiquette"
+          onPress={() => router.navigate({ pathname: '/scan', params: { mode: 'label' } })}
+        />
       </View>
     );
   }
@@ -98,7 +102,7 @@ export default function ProductScreen() {
       {/* Écart d'au moins 16 px : périmètre de protection de l'étiquette (charte graphique). */}
       <View style={styles.costLabel}>
         <InfoButton explanation={COST_EXPLANATION} />
-        <OfficialCostLabel gtin={product.gtin} cost={product.cost} per100g={product.per100g} />
+        <OfficialCostLabel imageUrl={labelImageUrl(product.gtin)} cost={product.cost} per100g={product.per100g} />
       </View>
 
       {comparison && <CategoryComparison comparison={comparison} />}

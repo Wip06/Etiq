@@ -44,6 +44,7 @@ function RootNavigator() {
       <Stack.Protected guard={hasChosen && !needsOnboarding}>
         <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
         <Stack.Screen name="product/[gtin]" options={{ title: 'Résultat' }} />
+        <Stack.Screen name="label" options={{ title: 'Étiquette' }} />
         <Stack.Screen name="brand/[id]" options={{ title: 'Marque' }} />
         <Stack.Screen name="articles" options={{ title: 'Nos articles' }} />
         <Stack.Screen name="article/[id]" options={{ title: 'Article' }} />

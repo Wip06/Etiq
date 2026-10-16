@@ -92,6 +92,9 @@ async function main() {
       cost: summarize(inCategory.map((ref) => ref.cost)),
       per100g: summarize(inCategory.map((ref) => ref.per100g)),
       per100gQuantiles: quantiles(inCategory.map((ref) => ref.per100g)),
+      // Masse déduite du coût total et du coût pour 100 g. Sert de masse par défaut quand
+      // l'utilisateur ne connaît pas celle de son vêtement.
+      medianMassGrams: summarize(inCategory.map((ref) => (ref.cost / ref.per100g) * 100)).median,
       alternatives,
     };
   }

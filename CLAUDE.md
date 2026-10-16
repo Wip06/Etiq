@@ -103,6 +103,7 @@ Vérifié le 7 oct. 2026 :
 - Brique technique : OCR / vision pour lire l'étiquette (composition, pays), puis calcul ou récupération du coût via la méthode Ecobalyse.
 - Délai : environ 6 semaines jusqu'à la finale du 18 novembre 2026.
 - Projet initialisé le 14 oct. 2026 : Expo SDK 57, Expo Router (écrans dans `src/app/`), `expo-camera`, alias `@/` vers `src/`. Règles Expo du projet : @AGENTS.md
+- Lecture d'étiquette (décidé le 16 oct. 2026) : **Gemini** (offre gratuite de l'API de Google ; la fonction essaie dans l'ordre `gemini-3.8-flash`, `gemini-3.6-flash`, `gemini-3.5-flash-lite`, `gemini-3.1-flash-lite`, car en gratuit un modèle est souvent saturé ; `gemini-2.5-flash` est fermé aux nouveaux comptes ; le secret `GEMINI_MODEL` permet d'en placer un en tête). Testé le 16 oct. 2026 sur de fausses étiquettes : lecture correcte en 4 à 8 s, matières converties (polyamide → nylon, lyocell → viscose), pays hors liste rattaché à sa région, image sans étiquette rejetée, appelé depuis une fonction Supabase `supabase/functions/read-label` qui garde la clé secrète. Yannick ne veut pas d'API payante. En offre gratuite, Google peut utiliser les requêtes pour améliorer ses produits (à mentionner dans la politique de confidentialité). Mistral a été essayé puis abandonné : quota gratuit nul sur le compte (« Rate limit exceeded » dès le premier appel), l'offre gratuite de Mistral semblant se restreindre en 2026.
 
 ### APIs officielles (testées avec de vraies requêtes le 7 oct. 2026)
 

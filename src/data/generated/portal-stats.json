@@ -1,49 +1,50 @@
 {
   "source": "Portail de l’affichage environnemental (Licence Ouverte)",
   "latestDeclaration": "2026-10-15T18:55:26.038Z",
-  "generatedAt": "2026-10-15T19:59:01.525Z",
-  "pages": 745,
-  "gtins": 372500,
-  "references": 68007,
-  "brands": 96,
+  "generatedAt": "2026-10-16T06:24:51.975Z",
+  "pages": 1426,
+  "gtins": 712859,
+  "references": 109093,
+  "brands": 184,
   "categories": {
     "Boxer / Slip (tricoté)": {
-      "references": 3107,
+      "references": 4843,
       "cost": {
-        "p25": 312,
-        "median": 570,
-        "p75": 898,
-        "mean": 683
+        "p25": 254,
+        "median": 464,
+        "p75": 822,
+        "mean": 631
       },
       "per100g": {
-        "p25": 472,
-        "median": 528,
+        "p25": 449,
+        "median": 514,
         "p75": 621,
-        "mean": 553
+        "mean": 552
       },
       "per100gQuantiles": [
-        275.9,
-        409.5,
-        432.9,
-        446.8,
-        460.5,
-        471.6,
-        481.2,
-        491.6,
-        504.6,
-        516.5,
-        527.9,
-        547.8,
-        565,
-        581.1,
-        596,
-        621.2,
-        641.9,
-        669.8,
-        710.5,
-        744.7,
+        239.4,
+        375.1,
+        405.3,
+        410.2,
+        432.1,
+        449.3,
+        461.9,
+        476.4,
+        486.8,
+        499.7,
+        514.2,
+        532.6,
+        555.4,
+        575.6,
+        595.9,
+        621,
+        653.8,
+        702.7,
+        744.4,
+        870.8,
         1335.4
       ],
+      "medianMassGrams": 84,
       "alternatives": [
         {
           "gtin": "3379582981630",
@@ -51,6 +52,62 @@
           "brand": "H. LEMAHIEU",
           "cost": 60,
           "per100g": 298
+        },
+        {
+          "gtin": "3666503042830",
+          "reference": "25AL033",
+          "brand": "L'IMPERTINENTE",
+          "cost": 60,
+          "per100g": 412
+        },
+        {
+          "gtin": "8050160769035",
+          "reference": "5f90d41b-0ad3-4080-a283-5b536c235ca8",
+          "brand": "TWINSET FRANCE",
+          "cost": 61,
+          "per100g": 609
+        },
+        {
+          "gtin": "3666503073636",
+          "reference": "26PL058",
+          "brand": "L'IMPERTINENTE",
+          "cost": 62,
+          "per100g": 398
+        },
+        {
+          "gtin": "3665386317110",
+          "reference": "20041901",
+          "brand": "ROUGEGORGE LINGERIE",
+          "cost": 65,
+          "per100g": 609
+        },
+        {
+          "gtin": "3665386209217",
+          "reference": "11276201",
+          "brand": "ROUGEGORGE LINGERIE",
+          "cost": 66,
+          "per100g": 648
+        },
+        {
+          "gtin": "3666078011378",
+          "reference": "flicub044ros002-al",
+          "brand": "LE SLIP FRANCAIS",
+          "cost": 67,
+          "per100g": 353
+        },
+        {
+          "gtin": "3666078066514",
+          "reference": "flicub117noi001-al",
+          "brand": "LE SLIP FRANCAIS",
+          "cost": 67,
+          "per100g": 353
+        },
+        {
+          "gtin": "8050160769028",
+          "reference": "f39b99e4-681e-469d-b9ad-9ec9408d3980",
+          "brand": "TWINSET FRANCE",
+          "cost": 69,
+          "per100g": 574
         },
         {
           "gtin": "3614852131125",
@@ -81,6 +138,13 @@
           "per100g": 717
         },
         {
+          "gtin": "3701677305319",
+          "reference": "SG01-ONEFM",
+          "brand": "SMOON",
+          "cost": 85,
+          "per100g": 374
+        },
+        {
           "gtin": "3608291628407",
           "reference": "boby00be26-argile",
           "brand": "American Vintage",
@@ -95,6 +159,13 @@
           "per100g": 315
         },
         {
+          "gtin": "3666944155595",
+          "reference": "Les Collants Durables V1 - Femme",
+          "brand": "SIX ET SEPT",
+          "cost": 90,
+          "per100g": 450
+        },
+        {
           "gtin": "3368956892269",
           "reference": "AH26-6452-ASSORTIS-PE25",
           "brand": "Prix Mini",
@@ -102,128 +173,59 @@
           "per100g": 627
         },
         {
-          "gtin": "3256229230149",
-          "reference": "AH26-SHT-NOIR-NOIR",
-          "brand": "U Essentiel",
-          "cost": 99,
-          "per100g": 618
+          "gtin": "3701593500300",
+          "reference": "La culotte femme 1",
+          "brand": "Loom",
+          "cost": 95,
+          "per100g": 352
         },
         {
-          "gtin": "3256229229174",
-          "reference": "AH26-PE14-AO-01-PEAU-PEAU",
-          "brand": "U Essentiel",
-          "cost": 99,
-          "per100g": 618
-        },
-        {
-          "gtin": "3256228395870",
-          "reference": "AH26-23-2044-BLANC",
-          "brand": "U Collection",
-          "cost": 100,
-          "per100g": 626
-        },
-        {
-          "gtin": "3256228403582",
-          "reference": "AH26-23-1011-SKIN",
-          "brand": "U Collection",
-          "cost": 100,
-          "per100g": 626
-        },
-        {
-          "gtin": "3608321490363",
-          "reference": "3608321490363",
-          "brand": "V2D CREATION",
-          "cost": 101,
-          "per100g": 506
-        },
-        {
-          "gtin": "3608321490356",
-          "reference": "3608321490356",
-          "brand": "V2D CREATION",
-          "cost": 101,
-          "per100g": 506
-        },
-        {
-          "gtin": "3368955846973",
-          "reference": "AH26-6451-ASSORTIS-PE25",
-          "brand": "Prix Mini",
-          "cost": 106,
-          "per100g": 559
-        },
-        {
-          "gtin": "3379583044761",
-          "reference": "U0942",
-          "brand": "H. LEMAHIEU",
-          "cost": 113,
-          "per100g": 282
-        },
-        {
-          "gtin": "3608851932777",
-          "reference": "P09AZC1 CINTRE x1",
-          "brand": "PLAYTEX",
-          "cost": 126,
-          "per100g": 503
-        },
-        {
-          "gtin": "3614700010268",
-          "reference": "UWCGBOX00043",
-          "brand": "SOC D'IMPORTATION LECLERC",
-          "cost": 129,
-          "per100g": 624
-        },
-        {
-          "gtin": "3608851887626",
-          "reference": "P08GFC1 CINTRE x1",
-          "brand": "PLAYTEX",
-          "cost": 129,
-          "per100g": 500
-        },
-        {
-          "gtin": "3614709019996",
-          "reference": "UWJGBRA00078",
-          "brand": "SOC D'IMPORTATION LECLERC",
-          "cost": 134,
-          "per100g": 583
+          "gtin": "3701677307320",
+          "reference": "STRING DE SPORT",
+          "brand": "SMOON",
+          "cost": 95,
+          "per100g": 382
         }
       ]
     },
     "Caleçon (tissé)": {
-      "references": 352,
+      "references": 834,
       "cost": {
-        "p25": 567,
-        "median": 952,
-        "p75": 1705,
-        "mean": 1235
+        "p25": 792,
+        "median": 1451,
+        "p75": 2187,
+        "mean": 1572
       },
       "per100g": {
-        "p25": 460,
-        "median": 491,
-        "p75": 556,
-        "mean": 521
+        "p25": 465,
+        "median": 533,
+        "p75": 569,
+        "mean": 535
       },
       "per100gQuantiles": [
         243.1,
-        385.4,
-        444.6,
-        447.8,
-        458,
-        459.8,
-        468.5,
-        476.7,
-        483.9,
-        486.9,
-        490.5,
-        520.2,
-        538,
-        540.6,
-        543.3,
-        555.8,
-        570.6,
-        599.9,
-        636.2,
-        697.1,
-        981.2
+        410.5,
+        445.1,
+        457.9,
+        460.3,
+        465.5,
+        474.1,
+        482.1,
+        488.2,
+        516.4,
+        533,
+        539.3,
+        541.1,
+        543.2,
+        549.3,
+        568.6,
+        574.2,
+        610.7,
+        684.3,
+        769.5,
+        1392.1
       ],
+      "medianMassGrams": 273,
       "alternatives": [
         {
           "gtin": "3256220620451",
@@ -231,6 +233,13 @@
           "brand": "U Essentiel",
           "cost": 41,
           "per100g": 410
+        },
+        {
+          "gtin": "8445110851630",
+          "reference": "26WGKK01",
+          "brand": "Desigual",
+          "cost": 103,
+          "per100g": 759
         },
         {
           "gtin": "131275063-131275070-131275076-131275082-79751950100150",
@@ -261,6 +270,34 @@
           "per100g": 558
         },
         {
+          "gtin": "3666078208402",
+          "reference": "hsvbxr213imp005",
+          "brand": "E 2M",
+          "cost": 224,
+          "per100g": 339
+        },
+        {
+          "gtin": "3666078208358",
+          "reference": "hsvbxr213imp004",
+          "brand": "E 2M",
+          "cost": 224,
+          "per100g": 339
+        },
+        {
+          "gtin": "3666078208303",
+          "reference": "hsvbxr213imp003",
+          "brand": "LE SLIP FRANCAIS",
+          "cost": 224,
+          "per100g": 339
+        },
+        {
+          "gtin": "3666078208259",
+          "reference": "hsvbxr213imp002",
+          "brand": "LE SLIP FRANCAIS",
+          "cost": 224,
+          "per100g": 339
+        },
+        {
           "gtin": "3608291862375",
           "reference": "usu00ah26-carbon",
           "brand": "American Vintage",
@@ -275,11 +312,25 @@
           "per100g": 673
         },
         {
+          "gtin": "3701593504353",
+          "reference": "Le caleçon homme 2",
+          "brand": "Loom",
+          "cost": 291,
+          "per100g": 291
+        },
+        {
           "gtin": "3379582999055",
           "reference": "U0613",
           "brand": "H. LEMAHIEU",
           "cost": 292,
           "per100g": 243
+        },
+        {
+          "gtin": "3701593500034",
+          "reference": "Le caleçon homme 1",
+          "brand": "Loom",
+          "cost": 305,
+          "per100g": 305
         },
         {
           "gtin": "3607172057664",
@@ -296,114 +347,66 @@
           "per100g": 459
         },
         {
+          "gtin": "8721066855800",
+          "reference": "BSW10029",
+          "brand": "KARL LAGERFELD",
+          "cost": 333,
+          "per100g": 417
+        },
+        {
+          "gtin": "8721066853271",
+          "reference": "BSW10023",
+          "brand": "KARL LAGERFELD",
+          "cost": 333,
+          "per100g": 417
+        },
+        {
           "gtin": "3379583018915",
           "reference": "3248",
           "brand": "H. LEMAHIEU",
           "cost": 340,
           "per100g": 283
-        },
-        {
-          "gtin": "3610862724029",
-          "reference": "D093GR6 LOT x6",
-          "brand": "DIM",
-          "cost": 359,
-          "per100g": 533
-        },
-        {
-          "gtin": "3610863429015",
-          "reference": "D093IR6 LOT x6",
-          "brand": "DIM",
-          "cost": 359,
-          "per100g": 533
-        },
-        {
-          "gtin": "3256220200752",
-          "reference": "AH26-5468U-2026-GOBLIN-BLUE",
-          "brand": "U Essentiel",
-          "cost": 526,
-          "per100g": 658
-        },
-        {
-          "gtin": "3368957024324",
-          "reference": "AH26-5463-PRIX-MINI-LOT-17-BLEU-VERT-BL-PE25",
-          "brand": "Prix Mini",
-          "cost": 535,
-          "per100g": 668
-        },
-        {
-          "gtin": "3603313510715",
-          "reference": "NGTBBDB00317",
-          "brand": "SOC D'IMPORTATION LECLERC",
-          "cost": 575,
-          "per100g": 475
-        },
-        {
-          "gtin": "3603313510845",
-          "reference": "NGTBBDB00322",
-          "brand": "SOC D'IMPORTATION LECLERC",
-          "cost": 575,
-          "per100g": 475
-        },
-        {
-          "gtin": "3612521692090",
-          "reference": "AH25_2188072_306",
-          "brand": "BONOBO",
-          "cost": 581,
-          "per100g": 382
-        },
-        {
-          "gtin": "3612521173070",
-          "reference": "AH25_4188045_1",
-          "brand": "BONOBO",
-          "cost": 724,
-          "per100g": 467
-        },
-        {
-          "gtin": "2063025460028",
-          "reference": "782203",
-          "brand": "GEMO",
-          "cost": 896,
-          "per100g": 747
         }
       ]
     },
     "Chaussettes": {
-      "references": 2126,
+      "references": 3669,
       "cost": {
-        "p25": 137,
-        "median": 218,
-        "p75": 350,
-        "mean": 278
+        "p25": 147,
+        "median": 240,
+        "p75": 374,
+        "mean": 338
       },
       "per100g": {
-        "p25": 309,
+        "p25": 308,
         "median": 343,
-        "p75": 394,
-        "mean": 358
+        "p75": 402,
+        "mean": 356
       },
       "per100gQuantiles": [
-        181.4,
-        279.2,
-        287.7,
-        297,
-        304.3,
-        309.5,
-        316.9,
-        324.1,
-        330.3,
-        337.3,
+        167.8,
+        241.9,
+        279.5,
+        289.4,
+        300.8,
+        307.7,
+        313,
+        321.1,
+        328,
+        336.7,
         342.8,
-        352.3,
-        363.2,
-        375,
-        385.5,
-        394.3,
-        407.8,
-        423.3,
-        443.5,
-        469.2,
+        353.7,
+        365.3,
+        378.2,
+        387.9,
+        402.3,
+        420,
+        431.4,
+        446.5,
+        474.4,
         977.1
       ],
+      "medianMassGrams": 66,
       "alternatives": [
         {
           "gtin": "3256220117951",
@@ -439,6 +442,20 @@
           "brand": "U Collection",
           "cost": 34,
           "per100g": 335
+        },
+        {
+          "gtin": "3616957601909",
+          "reference": "I944752BGM",
+          "brand": "TEX",
+          "cost": 34,
+          "per100g": 305
+        },
+        {
+          "gtin": "3616957601923",
+          "reference": "I944752NR1",
+          "brand": "TEX",
+          "cost": 34,
+          "per100g": 305
         },
         {
           "gtin": "3256221110340",
@@ -511,79 +528,66 @@
           "per100g": 363
         },
         {
-          "gtin": "1110499-88555025100023",
-          "reference": "1110499",
-          "brand": "La Manufacture de Layette",
-          "cost": 50,
-          "per100g": 262
+          "gtin": "T30K0065COEK-7f5f46cd",
+          "reference": "T30K0065COEK",
+          "brand": "BERLUTI SA",
+          "cost": 48,
+          "per100g": 301
         },
         {
-          "gtin": "3614853931632",
-          "reference": "GKF706 1629",
-          "brand": "LA REDOUTE",
-          "cost": 52,
-          "per100g": 350
+          "gtin": "T31K0065COEK-7f5f46cd",
+          "reference": "T31K0065COEK",
+          "brand": "BERLUTI SA",
+          "cost": 48,
+          "per100g": 301
         },
         {
-          "gtin": "3614853931731",
-          "reference": "GKF706 6527",
-          "brand": "LA REDOUTE",
-          "cost": 52,
-          "per100g": 350
-        },
-        {
-          "gtin": "3608351505792",
-          "reference": "1E260659",
-          "brand": "DES PETITS HAUTS",
-          "cost": 53,
-          "per100g": 263
-        },
-        {
-          "gtin": "3608351505778",
-          "reference": "1E260658",
-          "brand": "DES PETITS HAUTS",
-          "cost": 55,
-          "per100g": 263
+          "gtin": "3666503048436",
+          "reference": "24AS001",
+          "brand": "L'IMPERTINENTE",
+          "cost": 48,
+          "per100g": 242
         }
       ]
     },
     "Chemise": {
-      "references": 4979,
+      "references": 9082,
       "cost": {
-        "p25": 635,
-        "median": 894,
-        "p75": 1230,
-        "mean": 1044
+        "p25": 576,
+        "median": 856,
+        "p75": 1224,
+        "mean": 1018
       },
       "per100g": {
-        "p25": 378,
-        "median": 470,
-        "p75": 569,
-        "mean": 481
+        "p25": 323,
+        "median": 433,
+        "p75": 537,
+        "mean": 445
       },
       "per100gQuantiles": [
         73.7,
-        259.5,
-        309.4,
-        335.2,
-        357,
-        378.1,
-        392.6,
-        412.9,
-        438.6,
-        457.1,
-        470,
-        484.6,
-        509,
-        527,
-        542.1,
-        568.9,
-        595.8,
-        628.3,
-        673.6,
-        739.2,
+        233.9,
+        245.4,
+        264.8,
+        299.2,
+        323,
+        346.6,
+        366.6,
+        385.7,
+        407.4,
+        432.9,
+        457.2,
+        470.7,
+        494.9,
+        512.4,
+        536.7,
+        566.3,
+        601.8,
+        646.3,
+        734.6,
         1156.4
       ],
+      "medianMassGrams": 207,
       "alternatives": [
         {
           "gtin": "3609140616842",
@@ -600,6 +604,13 @@
           "per100g": 408
         },
         {
+          "gtin": "3701254708137",
+          "reference": "APN550022",
+          "brand": "WONDAY",
+          "cost": 150,
+          "per100g": 484
+        },
+        {
           "gtin": "3603653851639",
           "reference": "2047164",
           "brand": "jacadi",
@@ -607,11 +618,39 @@
           "per100g": 405
         },
         {
+          "gtin": "3701254709844",
+          "reference": "APN500722",
+          "brand": "WONDAY",
+          "cost": 158,
+          "per100g": 479
+        },
+        {
+          "gtin": "3676981258999",
+          "reference": "50065623",
+          "brand": "GEMO",
+          "cost": 172,
+          "per100g": 465
+        },
+        {
           "gtin": "3606530874707",
           "reference": "26110044_MAEL_Moka",
           "brand": "Sessùn",
           "cost": 172,
           "per100g": 287
+        },
+        {
+          "gtin": "4255623405985",
+          "reference": "30004914-AANONG",
+          "brand": "ARMEDANGELS",
+          "cost": 177,
+          "per100g": 247
+        },
+        {
+          "gtin": "4255860142230",
+          "reference": "30008423-ZEBRA PRINT BOAT NECK TOP",
+          "brand": "ARMEDANGELS",
+          "cost": 180,
+          "per100g": 247
         },
         {
           "gtin": "3606530845639",
@@ -635,11 +674,25 @@
           "per100g": 434
         },
         {
+          "gtin": "3676981239233",
+          "reference": "50065275",
+          "brand": "GEMO",
+          "cost": 196,
+          "per100g": 455
+        },
+        {
           "gtin": "3616930981400",
           "reference": "21058-01295|DEB FB CBABOUCHE",
           "brand": "TAPE A L'OEIL",
           "cost": 198,
           "per100g": 589
+        },
+        {
+          "gtin": "8053195413799",
+          "reference": "1501006F-W018S-",
+          "brand": "VIVIENNE WESTWOOD FRANCE",
+          "cost": 203,
+          "per100g": 368
         },
         {
           "gtin": "3616752082668",
@@ -656,6 +709,13 @@
           "per100g": 588
         },
         {
+          "gtin": "3666503076460",
+          "reference": "26PL089",
+          "brand": "L'IMPERTINENTE",
+          "cost": 211,
+          "per100g": 321
+        },
+        {
           "gtin": "3606236411961",
           "reference": "SCHANSONSAT MARRON UNI FONCE - MARRON UNI FONCE",
           "brand": "PROMOD",
@@ -668,102 +728,47 @@
           "brand": "PROMOD",
           "cost": 213,
           "per100g": 419
-        },
-        {
-          "gtin": "3603313413535",
-          "reference": "WOVBBCHEM00052",
-          "brand": "SOC D'IMPORTATION LECLERC",
-          "cost": 223,
-          "per100g": 455
-        },
-        {
-          "gtin": "3608291857982",
-          "reference": "bov06aie26-hel",
-          "brand": "American Vintage",
-          "cost": 225,
-          "per100g": 262
-        },
-        {
-          "gtin": "3608291879298",
-          "reference": "bov06aie26-apo",
-          "brand": "American Vintage",
-          "cost": 225,
-          "per100g": 262
-        },
-        {
-          "gtin": "3607172054922",
-          "reference": "SFPCM01317-14",
-          "brand": "SANDRO ANDY",
-          "cost": 228,
-          "per100g": 228
-        },
-        {
-          "gtin": "3604275656992",
-          "reference": "0715188",
-          "brand": "okaidi",
-          "cost": 228,
-          "per100g": 570
-        },
-        {
-          "gtin": "3607172174279",
-          "reference": "SFPCM01645-D187",
-          "brand": "SANDRO ANDY",
-          "cost": 230,
-          "per100g": 230
-        },
-        {
-          "gtin": "3492212232664",
-          "reference": "VS169 REAL BLACK",
-          "brand": "KIABI",
-          "cost": 236,
-          "per100g": 462
-        },
-        {
-          "gtin": "3540697107189",
-          "reference": "  8360UV07",
-          "brand": "CMC",
-          "cost": 244,
-          "per100g": 198
         }
       ]
     },
     "Jean": {
-      "references": 3034,
+      "references": 4911,
       "cost": {
-        "p25": 2103,
-        "median": 2802,
-        "p75": 3548,
-        "mean": 2838
+        "p25": 2087,
+        "median": 2666,
+        "p75": 3379,
+        "mean": 2738
       },
       "per100g": {
-        "p25": 476,
-        "median": 544,
-        "p75": 632,
-        "mean": 550
+        "p25": 438,
+        "median": 527,
+        "p75": 614,
+        "mean": 524
       },
       "per100gQuantiles": [
         96.6,
-        373.3,
-        406.9,
-        431.7,
-        459,
-        475.5,
-        487.8,
-        504.1,
-        513.1,
-        531.6,
-        544.3,
-        555.6,
-        576.6,
-        596.9,
-        614.3,
-        632.3,
-        645,
-        665.2,
-        690.5,
-        743.6,
-        904.6
+        325,
+        351.1,
+        375,
+        406.8,
+        437.8,
+        465.2,
+        481.6,
+        500.3,
+        511.8,
+        526.8,
+        539.8,
+        554.4,
+        574.1,
+        594,
+        613.7,
+        633.3,
+        654.3,
+        683.5,
+        726.3,
+        924.6
       ],
+      "medianMassGrams": 580,
       "alternatives": [
         {
           "gtin": "3616930655523",
@@ -815,11 +820,25 @@
           "per100g": 661
         },
         {
+          "gtin": "3676981243964",
+          "reference": "50065362",
+          "brand": "GEMO",
+          "cost": 471,
+          "per100g": 842
+        },
+        {
           "gtin": "3612522237511",
           "reference": "AH26_OSLO-UPCYCL_DENIM STONE",
           "brand": "BONOBO",
           "cost": 525,
           "per100g": 97
+        },
+        {
+          "gtin": "3676988087646",
+          "reference": "50035075",
+          "brand": "GEMO",
+          "cost": 527,
+          "per100g": 722
         },
         {
           "gtin": "3354069957766",
@@ -857,6 +876,13 @@
           "per100g": 611
         },
         {
+          "gtin": "3701541826490",
+          "reference": "COLCHUUCK SH-W-SS25",
+          "brand": "LAGOPED",
+          "cost": 796,
+          "per100g": 318
+        },
+        {
           "gtin": "3603313308954",
           "reference": "WOVBBPANT00129",
           "brand": "SOC D'IMPORTATION LECLERC",
@@ -864,86 +890,66 @@
           "per100g": 606
         },
         {
-          "gtin": "3596656475752",
-          "reference": "1183240",
-          "brand": "CELIO FRANCE",
+          "gtin": "3663791018677",
+          "reference": "183ni00-sd0x-ppapp0_bleu",
+          "brand": "1083",
+          "cost": 832,
+          "per100g": 243
+        },
+        {
+          "gtin": "3663791018158",
+          "reference": "181ni00-sd0x-ppapp0_bleu",
+          "brand": "1083",
+          "cost": 848,
+          "per100g": 242
+        },
+        {
+          "gtin": "3617450818733",
+          "reference": "ddp01d3442600",
+          "brand": "Gerard Darel",
           "cost": 858,
-          "per100g": 613
-        },
-        {
-          "gtin": "2062865540044",
-          "reference": "741921",
-          "brand": "GEMO",
-          "cost": 876,
-          "per100g": 649
-        },
-        {
-          "gtin": "3616033453675",
-          "reference": "FUJ64 VINTAGE_BL",
-          "brand": "KIABI",
-          "cost": 885,
-          "per100g": 466
-        },
-        {
-          "gtin": "3616034633298",
-          "reference": "FUJ64 DOUBLE_STO",
-          "brand": "KIABI",
-          "cost": 885,
-          "per100g": 466
-        },
-        {
-          "gtin": "3608291789689",
-          "reference": "kgre11ae26-indigo",
-          "brand": "American Vintage",
-          "cost": 901,
-          "per100g": 300
-        },
-        {
-          "gtin": "3608291943173",
-          "reference": "kgre11ae26-jac",
-          "brand": "American Vintage",
-          "cost": 901,
-          "per100g": 300
+          "per100g": 429
         }
       ]
     },
     "Jupe / Robe": {
-      "references": 5372,
+      "references": 9262,
       "cost": {
-        "p25": 826,
-        "median": 1171,
-        "p75": 1664,
-        "mean": 1336
+        "p25": 876,
+        "median": 1205,
+        "p75": 1674,
+        "mean": 1361
       },
       "per100g": {
-        "p25": 365,
-        "median": 475,
-        "p75": 586,
-        "mean": 492
+        "p25": 342,
+        "median": 424,
+        "p75": 552,
+        "mean": 464
       },
       "per100gQuantiles": [
-        176.4,
-        282.7,
-        316.3,
-        333.7,
-        346.8,
-        364.8,
-        379.7,
-        400.5,
-        423.2,
-        451.8,
-        474.9,
-        495.7,
-        516,
-        535.4,
-        558.3,
-        586.2,
-        617.3,
-        655.7,
-        700.9,
-        795.5,
+        166.4,
+        256.5,
+        294.5,
+        313,
+        327.6,
+        342.3,
+        355.7,
+        371.7,
+        386.5,
+        404.9,
+        423.7,
+        453.6,
+        480.6,
+        503,
+        528,
+        551.6,
+        587.8,
+        632.1,
+        682.7,
+        773.6,
         1814.9
       ],
+      "medianMassGrams": 300,
       "alternatives": [
         {
           "gtin": "3609140638349",
@@ -986,6 +992,20 @@
           "brand": "CYRILLUS",
           "cost": 224,
           "per100g": 559
+        },
+        {
+          "gtin": "8053195423477",
+          "reference": "1K010025-W01C6-",
+          "brand": "VIVIENNE WESTWOOD FRANCE",
+          "cost": 238,
+          "per100g": 264
+        },
+        {
+          "gtin": "8445782418377",
+          "reference": "B226AC167",
+          "brand": "Bobo Choses",
+          "cost": 241,
+          "per100g": 907
         },
         {
           "gtin": "3540693775450",
@@ -1070,60 +1090,47 @@
           "brand": "TAPE A L'OEIL",
           "cost": 280,
           "per100g": 389
-        },
-        {
-          "gtin": "3616751761892",
-          "reference": "EQWWK03029-CJZ1 - 261 - PEF",
-          "brand": "QUIKSILVER",
-          "cost": 283,
-          "per100g": 883
-        },
-        {
-          "gtin": "3607172055967",
-          "reference": "SFPJU01351-10",
-          "brand": "SANDRO ANDY",
-          "cost": 295,
-          "per100g": 295
         }
       ]
     },
     "Lot de produits": {
-      "references": 489,
+      "references": 771,
       "cost": {
-        "p25": 1281,
-        "median": 2084,
-        "p75": 2963,
-        "mean": 2289
+        "p25": 1276,
+        "median": 2118,
+        "p75": 3164,
+        "mean": 2522
       },
       "per100g": {
-        "p25": 457,
-        "median": 534,
-        "p75": 630,
-        "mean": 548
+        "p25": 375,
+        "median": 491,
+        "p75": 603,
+        "mean": 496
       },
       "per100gQuantiles": [
-        224.8,
-        315.4,
+        151.9,
+        243.8,
+        303.2,
+        327,
+        353.8,
         374.6,
-        402.6,
-        429.4,
-        456.8,
-        473.9,
-        492.5,
-        504.1,
-        513.5,
-        533.6,
-        553.9,
-        568.6,
-        598.7,
-        614.7,
-        629.5,
+        399,
+        418,
+        440.6,
+        466.7,
+        491.3,
+        508.5,
+        521.1,
+        549.4,
+        571,
+        602.8,
+        622.4,
         650.4,
-        672.9,
-        742.6,
-        860.3,
+        691,
+        783.6,
         1082.9
       ],
+      "medianMassGrams": 424,
       "alternatives": [
         {
           "gtin": "3616930664198",
@@ -1147,11 +1154,46 @@
           "per100g": 410
         },
         {
+          "gtin": "8050160762081",
+          "reference": "1ea7a57e-df97-4b04-baf7-7c742feeacab",
+          "brand": "TWINSET FRANCE",
+          "cost": 350,
+          "per100g": 408
+        },
+        {
+          "gtin": "8050160815275",
+          "reference": "bfe6412a-84cd-414b-b02f-9734a4fe8ce7",
+          "brand": "TWINSET FRANCE",
+          "cost": 438,
+          "per100g": 405
+        },
+        {
           "gtin": "3468337779797",
           "reference": "011185",
           "brand": "ARENA S.P.A",
           "cost": 581,
           "per100g": 291
+        },
+        {
+          "gtin": "3617102977221",
+          "reference": "A0F8601",
+          "brand": "PETIT-BATEAU",
+          "cost": 595,
+          "per100g": 661
+        },
+        {
+          "gtin": "3617102961732",
+          "reference": "A0FDF01",
+          "brand": "PETIT-BATEAU",
+          "cost": 635,
+          "per100g": 467
+        },
+        {
+          "gtin": "3617450741567",
+          "reference": "ddc84d3214302",
+          "brand": "Gerard Darel",
+          "cost": 723,
+          "per100g": 254
         },
         {
           "gtin": "3608524759304",
@@ -1175,6 +1217,13 @@
           "per100g": 358
         },
         {
+          "gtin": "3617450749693",
+          "reference": "ddr76d3214302",
+          "brand": "Gerard Darel",
+          "cost": 775,
+          "per100g": 242
+        },
+        {
           "gtin": "3608524765404",
           "reference": "70204-0430",
           "brand": "CYRILLUS",
@@ -1182,11 +1231,25 @@
           "per100g": 469
         },
         {
+          "gtin": "3701395020198",
+          "reference": "TS03",
+          "brand": "G-HEAT GROUP",
+          "cost": 891,
+          "per100g": 391
+        },
+        {
           "gtin": "3614856441213",
           "reference": "GQM796 8578",
           "brand": "LA REDOUTE",
           "cost": 984,
           "per100g": 535
+        },
+        {
+          "gtin": "3701395010489",
+          "reference": "TS01",
+          "brand": "G-HEAT GROUP",
+          "cost": 1074,
+          "per100g": 389
         },
         {
           "gtin": "3614856441404",
@@ -1203,66 +1266,67 @@
           "per100g": 284
         },
         {
-          "gtin": "1AHURD-31857106400324",
-          "reference": "1AHURD",
-          "brand": "LOUIS VUITTON MALLETIER",
-          "cost": 2034,
-          "per100g": 242
-        },
-        {
-          "gtin": "257012535314",
-          "reference": "2 57012 535314",
-          "brand": "Icepeak",
-          "cost": 4953,
-          "per100g": 354
-        },
-        {
-          "gtin": "257012535390",
-          "reference": "2 57012 535390",
-          "brand": "Icepeak",
-          "cost": 5083,
-          "per100g": 363
+          "gtin": "3617450967288",
+          "reference": "pec33e6279100",
+          "brand": "Pablo",
+          "cost": 1282,
+          "per100g": 336
         }
       ]
     },
     "Maillot de bain": {
-      "references": 2343,
+      "references": 2634,
       "cost": {
-        "p25": 265,
-        "median": 400,
-        "p75": 582,
-        "mean": 463
+        "p25": 270,
+        "median": 404,
+        "p75": 598,
+        "mean": 480
       },
       "per100g": {
         "p25": 310,
-        "median": 330,
-        "p75": 415,
-        "mean": 370
+        "median": 332,
+        "p75": 430,
+        "mean": 375
       },
       "per100gQuantiles": [
-        247.5,
-        288.1,
-        296.5,
-        300.9,
-        305,
-        310.4,
-        313.9,
-        315.9,
-        320.4,
-        325.9,
-        330.5,
-        336,
-        348.4,
-        358,
-        380,
-        415.2,
-        480.3,
-        498.9,
-        509.4,
-        526.6,
-        868.8
+        222.6,
+        284.1,
+        295.3,
+        300.4,
+        303.7,
+        310,
+        313.8,
+        316.1,
+        321.7,
+        326.4,
+        332.5,
+        340.5,
+        352.7,
+        364.5,
+        396.1,
+        429.7,
+        472,
+        498.2,
+        509.7,
+        529.1,
+        1009.8
       ],
+      "medianMassGrams": 116,
       "alternatives": [
+        {
+          "gtin": "3666503045060",
+          "reference": "25AL104",
+          "brand": "L'IMPERTINENTE",
+          "cost": 76,
+          "per100g": 351
+        },
+        {
+          "gtin": "3666503039465",
+          "reference": "25AL053",
+          "brand": "L'IMPERTINENTE",
+          "cost": 80,
+          "per100g": 277
+        },
         {
           "gtin": "3616752074632",
           "reference": "23O281608-RVB - 261 - PEF",
@@ -1383,72 +1447,80 @@
           "per100g": 479
         },
         {
-          "gtin": "3616752070283",
-          "reference": "23O281605-FLM - 261 - PEF",
-          "brand": "RVCA",
-          "cost": 162,
-          "per100g": 368
-        },
-        {
-          "gtin": "3604275719932",
-          "reference": "0715762",
-          "brand": "okaidi",
-          "cost": 163,
-          "per100g": 434
-        },
-        {
-          "gtin": "3610863544411",
-          "reference": "D0DU8C1 CINTRE x1",
-          "brand": "DIM",
-          "cost": 164,
-          "per100g": 421
+          "gtin": "3617103077821",
+          "reference": "A0FNQ01",
+          "brand": "PETIT-BATEAU",
+          "cost": 159,
+          "per100g": 317
         }
       ]
     },
     "Manteau / Veste": {
-      "references": 4305,
+      "references": 8561,
       "cost": {
-        "p25": 1506,
-        "median": 2213,
-        "p75": 3096,
-        "mean": 2465
+        "p25": 1701,
+        "median": 2428,
+        "p75": 3441,
+        "mean": 2745
       },
       "per100g": {
         "p25": 314,
-        "median": 365,
-        "p75": 445,
-        "mean": 390
+        "median": 366,
+        "p75": 472,
+        "mean": 410
       },
       "per100gQuantiles": [
-        42.1,
-        256,
-        279.1,
-        293.7,
-        306.3,
-        314.4,
-        325.4,
-        336,
-        346.2,
-        356.5,
-        364.7,
-        376.1,
-        392.2,
-        406.2,
-        424.5,
-        444.8,
-        471.1,
-        501.8,
-        536.8,
-        596.8,
-        1261.7
+        39,
+        247.5,
+        277,
+        292.4,
+        305.7,
+        314.1,
+        322.1,
+        333,
+        343.9,
+        354.1,
+        366.3,
+        382.4,
+        400.1,
+        420.3,
+        443.9,
+        472.2,
+        505.8,
+        542.7,
+        598.8,
+        694.1,
+        2158.2
       ],
+      "medianMassGrams": 665,
       "alternatives": [
+        {
+          "gtin": "8433343147705",
+          "reference": "WJC00468",
+          "brand": "SKFK",
+          "cost": 225,
+          "per100g": 193
+        },
+        {
+          "gtin": "Veste jean-0760ccc8",
+          "reference": "Veste jean",
+          "brand": "Meanwhile Boutique",
+          "cost": 227,
+          "per100g": 39
+        },
         {
           "gtin": "3612522237382",
           "reference": "AH26_UPBOXYF_DENIM STONE",
           "brand": "BONOBO",
           "cost": 245,
           "per100g": 42
+        },
+        {
+          "gtin": "8053195588671",
+          "reference": "1501006S-W01JP-",
+          "brand": "VIVIENNE WESTWOOD FRANCE",
+          "cost": 363,
+          "per100g": 211
         },
         {
           "gtin": "3616930686688",
@@ -1465,6 +1537,20 @@
           "per100g": 661
         },
         {
+          "gtin": "3663270923805",
+          "reference": "B0285",
+          "brand": "PICTURE ORGANIC CLOTHING",
+          "cost": 417,
+          "per100g": 421
+        },
+        {
+          "gtin": "8050160764054",
+          "reference": "912ef535-cade-468c-ad54-8e00d41eac34",
+          "brand": "TWINSET FRANCE",
+          "cost": 418,
+          "per100g": 321
+        },
+        {
           "gtin": "3608524787079",
           "reference": "70031-0394",
           "brand": "CYRILLUS",
@@ -1477,6 +1563,13 @@
           "brand": "CYRILLUS",
           "cost": 433,
           "per100g": 424
+        },
+        {
+          "gtin": "8050160764047",
+          "reference": "9db57a8a-f9ec-4659-892c-bafb7fcdb6f5",
+          "brand": "TWINSET FRANCE",
+          "cost": 440,
+          "per100g": 355
         },
         {
           "gtin": "3616031947664",
@@ -1514,6 +1607,20 @@
           "per100g": 328
         },
         {
+          "gtin": "8400780104608",
+          "reference": "TEMPO! PRO Light Cycling Vest - Vuelta",
+          "brand": "Fusion ApS",
+          "cost": 460,
+          "per100g": 505
+        },
+        {
+          "gtin": "8400780101270",
+          "reference": "TEMPO! PRO Light Cycling Vest - UNO-X",
+          "brand": "Fusion ApS",
+          "cost": 460,
+          "per100g": 505
+        },
+        {
           "gtin": "0646680199063",
           "reference": "Plas. Mout.",
           "brand": "l'Atelier Visconti",
@@ -1521,108 +1628,60 @@
           "per100g": 212
         },
         {
-          "gtin": "3256229789173",
-          "reference": "1510400 - 1",
-          "brand": "U Tout Petits",
-          "cost": 490,
-          "per100g": 350
-        },
-        {
-          "gtin": "3606530788141",
-          "reference": "25112018_NARA_Teck",
-          "brand": "Sessùn",
-          "cost": 497,
-          "per100g": 353
-        },
-        {
-          "gtin": "3256224790952",
-          "reference": "AH26-7430499-GRIS-CHINE",
-          "brand": "U Tout Petits",
-          "cost": 507,
-          "per100g": 338
-        },
-        {
-          "gtin": "3540691379902",
-          "reference": "  DA15TCD7",
-          "brand": "CMC",
-          "cost": 531,
-          "per100g": 443
-        },
-        {
-          "gtin": "3607684835378",
-          "reference": "RLNWJ71",
-          "brand": "SKIS ROSSIGNOL - CLUB ROSSIGNOL",
-          "cost": 540,
-          "per100g": 569
-        },
-        {
-          "gtin": "3609140609967",
-          "reference": "CFPVE00554",
-          "brand": "CLAUDIE PIERLOT",
-          "cost": 574,
-          "per100g": 350
-        },
-        {
-          "gtin": "3606530832936",
-          "reference": "26213012_OURO_Solare",
-          "brand": "Sessùn",
-          "cost": 597,
-          "per100g": 332
-        },
-        {
-          "gtin": "3607684816445",
-          "reference": "RLNMJ78",
-          "brand": "SKIS ROSSIGNOL - CLUB ROSSIGNOL",
-          "cost": 599,
-          "per100g": 517
-        },
-        {
-          "gtin": "3354061049865",
-          "reference": "60005287M3",
-          "brand": "INTERSPORT FRANCE",
-          "cost": 647,
-          "per100g": 719
+          "gtin": "3701557009214",
+          "reference": "110WI-BLA-L",
+          "brand": "WISE",
+          "cost": 482,
+          "per100g": 459
         }
       ]
     },
     "Pantalon / Short": {
-      "references": 11476,
+      "references": 17554,
       "cost": {
-        "p25": 861,
-        "median": 1357,
-        "p75": 1961,
-        "mean": 1492
+        "p25": 907,
+        "median": 1428,
+        "p75": 2044,
+        "mean": 1582
       },
       "per100g": {
-        "p25": 402,
-        "median": 488,
-        "p75": 599,
-        "mean": 515
+        "p25": 386,
+        "median": 480,
+        "p75": 608,
+        "mean": 513
       },
       "per100gQuantiles": [
-        151.5,
-        319.5,
-        354.5,
-        371.5,
-        385.7,
-        401.8,
-        416.3,
-        433.6,
-        450.6,
-        469.5,
-        488.1,
-        508.1,
-        530.5,
-        553.3,
-        573.1,
-        598.7,
-        628.7,
-        663.7,
-        717.5,
-        800.2,
+        88.7,
+        300.5,
+        335.3,
+        357.4,
+        372.9,
+        386.4,
+        403.1,
+        418.8,
+        437.5,
+        459,
+        480.4,
+        503.3,
+        527.6,
+        551.5,
+        575.8,
+        608.3,
+        644.2,
+        685.5,
+        748.8,
+        820.5,
         1630.2
       ],
+      "medianMassGrams": 310,
       "alternatives": [
+        {
+          "gtin": "3666078041351",
+          "reference": "hpypyb037gri001",
+          "brand": "LE SLIP FRANCAIS",
+          "cost": 120,
+          "per100g": 499
+        },
         {
           "gtin": "3606530892848",
           "reference": "26215003_SCOTTYVI_Sandblack",
@@ -1664,6 +1723,20 @@
           "brand": "CYRILLUS",
           "cost": 202,
           "per100g": 354
+        },
+        {
+          "gtin": "7613381230657",
+          "reference": "C25745992",
+          "brand": "CALIDA FRANCE",
+          "cost": 202,
+          "per100g": 894
+        },
+        {
+          "gtin": "7613381230695",
+          "reference": "C25745001",
+          "brand": "CALIDA FRANCE",
+          "cost": 202,
+          "per100g": 894
         },
         {
           "gtin": "3354062460423",
@@ -1715,6 +1788,13 @@
           "per100g": 530
         },
         {
+          "gtin": "3760362232899",
+          "reference": "60630/040",
+          "brand": "ZINS",
+          "cost": 241,
+          "per100g": 89
+        },
+        {
           "gtin": "3608292100001",
           "reference": "dua09ae26-cura",
           "brand": "American Vintage",
@@ -1722,86 +1802,59 @@
           "per100g": 246
         },
         {
-          "gtin": "3603313531093",
-          "reference": "KNITBGLEG00017",
-          "brand": "SOC D'IMPORTATION LECLERC",
-          "cost": 254,
-          "per100g": 1057
+          "gtin": "8445782411569",
+          "reference": "B226AD128",
+          "brand": "Bobo Choses",
+          "cost": 248,
+          "per100g": 1240
         },
         {
-          "gtin": "3608321493869",
-          "reference": "3608321493869",
-          "brand": "V2D CREATION",
-          "cost": 256,
-          "per100g": 641
-        },
-        {
-          "gtin": "3608321493852",
-          "reference": "3608321493852",
-          "brand": "V2D CREATION",
-          "cost": 256,
-          "per100g": 641
-        },
-        {
-          "gtin": "3608292059422",
-          "reference": "lal09ae26-tilleu",
-          "brand": "American Vintage",
-          "cost": 259,
-          "per100g": 431
-        },
-        {
-          "gtin": "3614853932257",
-          "reference": "GKF104 6527",
-          "brand": "LA REDOUTE",
-          "cost": 272,
-          "per100g": 406
-        },
-        {
-          "gtin": "3603313277755",
-          "reference": "WOVBBPANT00108",
-          "brand": "SOC D'IMPORTATION LECLERC",
-          "cost": 274,
-          "per100g": 884
+          "gtin": "3701557008057",
+          "reference": "83WI-BLA-XS",
+          "brand": "WISE",
+          "cost": 248,
+          "per100g": 443
         }
       ]
     },
     "Pull": {
-      "references": 11209,
+      "references": 18336,
       "cost": {
-        "p25": 885,
-        "median": 1314,
-        "p75": 1884,
-        "mean": 1453
+        "p25": 967,
+        "median": 1400,
+        "p75": 2037,
+        "mean": 1610
       },
       "per100g": {
-        "p25": 354,
-        "median": 411,
-        "p75": 480,
+        "p25": 335,
+        "median": 406,
+        "p75": 484,
         "mean": 424
       },
       "per100gQuantiles": [
         128.4,
-        270.7,
-        302.2,
-        322.9,
-        339.8,
-        353.7,
-        366.2,
-        378.8,
-        388,
-        397.9,
-        411.4,
-        422.9,
-        434.1,
+        243.7,
+        274.2,
+        294.8,
+        319.4,
+        334.7,
+        351.7,
+        366.6,
+        380.6,
+        391.9,
+        405.5,
+        420.7,
+        432.3,
         449.1,
-        464.6,
-        479.6,
-        502.2,
-        538.2,
-        586.4,
-        623.7,
-        987.1
+        466,
+        483.6,
+        508.3,
+        553.2,
+        609.3,
+        671,
+        1320.2
       ],
+      "medianMassGrams": 360,
       "alternatives": [
         {
           "gtin": "3609140638011",
@@ -1818,6 +1871,20 @@
           "per100g": 561
         },
         {
+          "gtin": "8445782370132",
+          "reference": "B126AD033",
+          "brand": "Bobo Choses",
+          "cost": 84,
+          "per100g": 466
+        },
+        {
+          "gtin": "PERMP3EC-84484311000033",
+          "reference": "PERMP3EC",
+          "brand": "LAINES PAYSANNES",
+          "cost": 86,
+          "per100g": 173
+        },
+        {
           "gtin": "3616034912737",
           "reference": "FKJ85 JAUNE PAST",
           "brand": "KIABI",
@@ -1830,6 +1897,20 @@
           "brand": "jacadi",
           "cost": 96,
           "per100g": 371
+        },
+        {
+          "gtin": "8445782370231",
+          "reference": "B126AD035",
+          "brand": "Bobo Choses",
+          "cost": 99,
+          "per100g": 414
+        },
+        {
+          "gtin": "PERMP16GIN-84484311000033",
+          "reference": "PERMP16GIN",
+          "brand": "LAINES PAYSANNES",
+          "cost": 103,
+          "per100g": 172
         },
         {
           "gtin": "3616931004528",
@@ -1853,6 +1934,20 @@
           "per100g": 192
         },
         {
+          "gtin": "4255860137458",
+          "reference": "30008553-STRIPE BIKINI KNIT TOP",
+          "brand": "ARMEDANGELS",
+          "cost": 172,
+          "per100g": 223
+        },
+        {
+          "gtin": "3812300-88555025100023",
+          "reference": "3812300",
+          "brand": "La Manufacture de Layette",
+          "cost": 175,
+          "per100g": 291
+        },
+        {
           "gtin": "3607172176976",
           "reference": "SFPPU02857-40",
           "brand": "SANDRO ANDY",
@@ -1865,6 +1960,20 @@
           "brand": "SANDRO ANDY",
           "cost": 209,
           "per100g": 299
+        },
+        {
+          "gtin": "3617040481866",
+          "reference": "KNITMSTSW00387",
+          "brand": "SOC D'IMPORTATION LECLERC",
+          "cost": 220,
+          "per100g": 400
+        },
+        {
+          "gtin": "9110499-88555025100023",
+          "reference": "9110499",
+          "brand": "La Manufacture de Layette",
+          "cost": 224,
+          "per100g": 270
         },
         {
           "gtin": "3540690467020",
@@ -1886,102 +1995,47 @@
           "brand": "jacadi",
           "cost": 237,
           "per100g": 320
-        },
-        {
-          "gtin": "3606530877241",
-          "reference": "26109040_RAWHIDE_Mokaluz",
-          "brand": "Sessùn",
-          "cost": 248,
-          "per100g": 184
-        },
-        {
-          "gtin": "3606530877210",
-          "reference": "26109020_RONN_Navy",
-          "brand": "Sessùn",
-          "cost": 248,
-          "per100g": 184
-        },
-        {
-          "gtin": "3053800-88555025100023",
-          "reference": "3053800",
-          "brand": "La Manufacture de Layette",
-          "cost": 252,
-          "per100g": 314
-        },
-        {
-          "gtin": "3256224705857",
-          "reference": "AH26-MT25018-ECRU",
-          "brand": "U Tout Petits",
-          "cost": 256,
-          "per100g": 365
-        },
-        {
-          "gtin": "3608351413561",
-          "reference": "1E250026",
-          "brand": "DES PETITS HAUTS",
-          "cost": 256,
-          "per100g": 244
-        },
-        {
-          "gtin": "3256220400176",
-          "reference": "AH26-MT25018-ROSE",
-          "brand": "U Tout Petits",
-          "cost": 257,
-          "per100g": 366
-        },
-        {
-          "gtin": "3615061936976",
-          "reference": "411299D68A07",
-          "brand": "PIMKIE",
-          "cost": 259,
-          "per100g": 305
-        },
-        {
-          "gtin": "3603313547483",
-          "reference": "WOVBGPAM00061",
-          "brand": "SOC D'IMPORTATION LECLERC",
-          "cost": 261,
-          "per100g": 415
         }
       ]
     },
     "T-shirt / Polo": {
-      "references": 19215,
+      "references": 28636,
       "cost": {
-        "p25": 510,
-        "median": 730,
-        "p75": 1019,
-        "mean": 805
+        "p25": 522,
+        "median": 752,
+        "p75": 1057,
+        "mean": 860
       },
       "per100g": {
-        "p25": 427,
-        "median": 505,
-        "p75": 613,
-        "mean": 527
+        "p25": 409,
+        "median": 499,
+        "p75": 611,
+        "mean": 521
       },
       "per100gQuantiles": [
         197.8,
-        328.2,
-        364.5,
-        387.1,
-        405.9,
-        426.8,
-        446.4,
-        460.9,
-        471.6,
-        488.6,
-        505.4,
-        522.2,
-        542.5,
-        563.4,
-        591.9,
-        612.8,
-        639.7,
-        672.5,
-        714.2,
-        837.5,
-        1183.5
+        300.4,
+        345,
+        371.5,
+        389.2,
+        408.6,
+        427.8,
+        449.6,
+        464.1,
+        480.1,
+        499.1,
+        517.6,
+        537.6,
+        556.8,
+        586.3,
+        610.8,
+        638,
+        668.9,
+        719.1,
+        849.8,
+        1228.9
       ],
+      "medianMassGrams": 157,
       "alternatives": [
         {
           "gtin": "3607624608949",
@@ -2040,6 +2094,27 @@
           "per100g": 579
         },
         {
+          "gtin": "8445110764664",
+          "reference": "26SBTK11",
+          "brand": "Desigual",
+          "cost": 94,
+          "per100g": 937
+        },
+        {
+          "gtin": "8445110764589",
+          "reference": "26SBTK02",
+          "brand": "Desigual",
+          "cost": 109,
+          "per100g": 849
+        },
+        {
+          "gtin": "8445782368634",
+          "reference": "B126AD002",
+          "brand": "Bobo Choses",
+          "cost": 113,
+          "per100g": 708
+        },
+        {
           "gtin": "3616751638538",
           "reference": "ERJKT04378-GLD0 - 261 - PEF",
           "brand": "ROXY",
@@ -2052,6 +2127,13 @@
           "brand": "ROXY",
           "cost": 130,
           "per100g": 465
+        },
+        {
+          "gtin": "8445782417714",
+          "reference": "B226AC156",
+          "brand": "Bobo Choses",
+          "cost": 133,
+          "per100g": 667
         },
         {
           "gtin": "3616032379372",
@@ -2068,70 +2150,42 @@
           "per100g": 521
         },
         {
-          "gtin": "3616256573921",
-          "reference": "2SBM33TEEN_Y013",
-          "brand": "CHRISTIAN DIOR COUTURE",
-          "cost": 163,
-          "per100g": 308
+          "gtin": "8400780090581",
+          "reference": "TEMPO! PRO Torso - White/Grey",
+          "brand": "Fusion ApS",
+          "cost": 156,
+          "per100g": 339
         },
         {
-          "gtin": "3614785622677",
-          "reference": "A00A0D_V6W60",
-          "brand": "BOTTEGA VENETA FRANCE",
-          "cost": 166,
-          "per100g": 302
+          "gtin": "7613361802966",
+          "reference": "PERFORMANCE X-LIGHT-188471 - 10000",
+          "brand": "ODLO FRANCE",
+          "cost": 161,
+          "per100g": 371
         },
         {
-          "gtin": "3608351486961",
-          "reference": "1E260202",
-          "brand": "DES PETITS HAUTS",
-          "cost": 169,
-          "per100g": 296
+          "gtin": "7613361930263",
+          "reference": "PERFORMANCE X-LIGHT-188471 - 38400",
+          "brand": "ODLO FRANCE",
+          "cost": 161,
+          "per100g": 371
         },
         {
-          "gtin": "3607172161842",
-          "reference": "SFPTO00906-11",
-          "brand": "SANDRO ANDY",
-          "cost": 170,
-          "per100g": 284
-        },
-        {
-          "gtin": "3607684839505",
-          "reference": "RLNWY03",
-          "brand": "SKIS ROSSIGNOL - CLUB ROSSIGNOL",
-          "cost": 176,
-          "per100g": 391
-        },
-        {
-          "gtin": "3607172161798",
-          "reference": "SFPTO00896-D251",
-          "brand": "SANDRO ANDY",
-          "cost": 184,
-          "per100g": 283
-        },
-        {
-          "gtin": "3468337933557",
-          "reference": "012068",
-          "brand": "ARENA S.P.A",
-          "cost": 184,
-          "per100g": 368
-        },
-        {
-          "gtin": "3256220495233",
-          "reference": "VERAK-40",
-          "brand": "U Collection",
-          "cost": 189,
-          "per100g": 377
+          "gtin": "3666503077320",
+          "reference": "26PL103",
+          "brand": "L'IMPERTINENTE",
+          "cost": 161,
+          "per100g": 411
         }
       ]
     }
   },
   "brandsByReferences": {
     "1083": {
-      "references": 2,
-      "gtins": 25,
+      "references": 53,
+      "gtins": 3153,
       "categories": {
-        "Jean": 2
+        "Jean": 53
       }
     },
     "KIABI": {
@@ -2152,20 +2206,35 @@
       }
     },
     "TAPE A L'OEIL": {
-      "references": 5041,
-      "gtins": 35430,
+      "references": 5824,
+      "gtins": 40384,
       "categories": {
-        "Boxer / Slip (tricoté)": 571,
-        "Jean": 356,
-        "T-shirt / Polo": 1344,
-        "Manteau / Veste": 197,
-        "Chaussettes": 224,
-        "Pull": 748,
-        "Pantalon / Short": 904,
-        "Chemise": 249,
+        "Boxer / Slip (tricoté)": 713,
+        "Jean": 420,
+        "T-shirt / Polo": 1514,
+        "Manteau / Veste": 253,
+        "Chaussettes": 263,
+        "Pull": 919,
+        "Pantalon / Short": 992,
+        "Chemise": 281,
         "Lot de produits": 95,
-        "Jupe / Robe": 237,
+        "Jupe / Robe": 258,
         "Maillot de bain": 116
+      }
+    },
+    "GEMO": {
+      "references": 4999,
+      "gtins": 29125,
+      "categories": {
+        "Chaussettes": 361,
+        "T-shirt / Polo": 1431,
+        "Chemise": 412,
+        "Boxer / Slip (tricoté)": 83,
+        "Pantalon / Short": 1103,
+        "Jean": 445,
+        "Caleçon (tissé)": 11,
+        "Pull": 743,
+        "Jupe / Robe": 410
       }
     },
     "BONOBO": {
@@ -2185,12 +2254,25 @@
         "Boxer / Slip (tricoté)": 43
       }
     },
+    "ARMEDANGELS": {
+      "references": 3380,
+      "gtins": 56696,
+      "categories": {
+        "Pull": 762,
+        "Jean": 361,
+        "Chemise": 1170,
+        "Jupe / Robe": 460,
+        "Pantalon / Short": 407,
+        "Manteau / Veste": 181,
+        "Chaussettes": 39
+      }
+    },
     "American Vintage": {
-      "references": 3098,
-      "gtins": 12435,
+      "references": 3099,
+      "gtins": 12438,
       "categories": {
         "Pull": 769,
-        "T-shirt / Polo": 1049,
+        "T-shirt / Polo": 1050,
         "Jean": 68,
         "Jupe / Robe": 69,
         "Boxer / Slip (tricoté)": 38,
@@ -2200,6 +2282,23 @@
         "Chemise": 111,
         "Chaussettes": 54,
         "Caleçon (tissé)": 11
+      }
+    },
+    "SOC D'IMPORTATION LECLERC": {
+      "references": 2589,
+      "gtins": 2593,
+      "categories": {
+        "Caleçon (tissé)": 545,
+        "Pantalon / Short": 417,
+        "Pull": 424,
+        "T-shirt / Polo": 423,
+        "Jean": 84,
+        "Chemise": 148,
+        "Manteau / Veste": 137,
+        "Boxer / Slip (tricoté)": 137,
+        "Chaussettes": 120,
+        "Maillot de bain": 4,
+        "Jupe / Robe": 150
       }
     },
     "QUIKSILVER": {
@@ -2218,12 +2317,28 @@
         "Chaussettes": 3
       }
     },
+    "CMC": {
+      "references": 2480,
+      "gtins": 21950,
+      "categories": {
+        "Pull": 411,
+        "T-shirt / Polo": 809,
+        "Jupe / Robe": 315,
+        "Pantalon / Short": 330,
+        "Chemise": 247,
+        "Jean": 46,
+        "Chaussettes": 47,
+        "Manteau / Veste": 263,
+        "Maillot de bain": 9,
+        "Boxer / Slip (tricoté)": 3
+      }
+    },
     "LULULEMON ATHLETICA FR SARL": {
-      "references": 2444,
-      "gtins": 2444,
+      "references": 2446,
+      "gtins": 2446,
       "categories": {
         "Pantalon / Short": 1025,
-        "T-shirt / Polo": 857,
+        "T-shirt / Polo": 859,
         "Caleçon (tissé)": 28,
         "Manteau / Veste": 222,
         "Jupe / Robe": 83,
@@ -2235,12 +2350,12 @@
       }
     },
     "BILLABONG": {
-      "references": 2329,
-      "gtins": 12743,
+      "references": 2338,
+      "gtins": 12797,
       "categories": {
         "Pantalon / Short": 198,
-        "T-shirt / Polo": 999,
-        "Maillot de bain": 438,
+        "T-shirt / Polo": 1006,
+        "Maillot de bain": 440,
         "Pull": 297,
         "Jean": 50,
         "Jupe / Robe": 82,
@@ -2248,20 +2363,21 @@
         "Manteau / Veste": 158
       }
     },
-    "CMC": {
-      "references": 2227,
-      "gtins": 19539,
+    "PAUL SMITH EUROPE": {
+      "references": 2198,
+      "gtins": 42534,
       "categories": {
-        "Pull": 358,
-        "T-shirt / Polo": 734,
-        "Jupe / Robe": 296,
-        "Pantalon / Short": 304,
-        "Chemise": 222,
-        "Jean": 41,
-        "Chaussettes": 37,
-        "Manteau / Veste": 225,
-        "Maillot de bain": 9,
-        "Boxer / Slip (tricoté)": 1
+        "Caleçon (tissé)": 57,
+        "T-shirt / Polo": 403,
+        "Maillot de bain": 11,
+        "Chaussettes": 189,
+        "Pull": 283,
+        "Pantalon / Short": 267,
+        "Boxer / Slip (tricoté)": 80,
+        "Manteau / Veste": 604,
+        "Chemise": 223,
+        "Jupe / Robe": 40,
+        "Jean": 41
       }
     },
     "LA REDOUTE": {
@@ -2296,18 +2412,46 @@
       }
     },
     "ROXY": {
-      "references": 1734,
-      "gtins": 10382,
+      "references": 1750,
+      "gtins": 10462,
       "categories": {
         "Maillot de bain": 546,
-        "T-shirt / Polo": 465,
-        "Jupe / Robe": 101,
-        "Pantalon / Short": 177,
+        "T-shirt / Polo": 470,
+        "Jupe / Robe": 104,
+        "Pantalon / Short": 181,
         "Jean": 56,
         "Manteau / Veste": 106,
-        "Pull": 239,
+        "Pull": 243,
         "Chemise": 41,
         "Chaussettes": 3
+      }
+    },
+    "SUPERDRY FRANCE": {
+      "references": 1736,
+      "gtins": 10151,
+      "categories": {
+        "T-shirt / Polo": 686,
+        "Pantalon / Short": 292,
+        "Chemise": 168,
+        "Manteau / Veste": 126,
+        "Pull": 336,
+        "Jupe / Robe": 88,
+        "Maillot de bain": 40
+      }
+    },
+    "EPHIGEA": {
+      "references": 1727,
+      "gtins": 11830,
+      "categories": {
+        "T-shirt / Polo": 339,
+        "Chemise": 256,
+        "Pull": 285,
+        "Pantalon / Short": 180,
+        "Manteau / Veste": 190,
+        "Jupe / Robe": 286,
+        "Jean": 145,
+        "Boxer / Slip (tricoté)": 41,
+        "Maillot de bain": 5
       }
     },
     "CYRILLUS": {
@@ -2340,6 +2484,20 @@
         "Chaussettes": 3
       }
     },
+    "HELLY HANSEN AS": {
+      "references": 1527,
+      "gtins": 15436,
+      "categories": {
+        "Pull": 357,
+        "Manteau / Veste": 496,
+        "T-shirt / Polo": 352,
+        "Pantalon / Short": 188,
+        "Chemise": 99,
+        "Chaussettes": 10,
+        "Jupe / Robe": 24,
+        "Boxer / Slip (tricoté)": 1
+      }
+    },
     "SANDRO ANDY": {
       "references": 1511,
       "gtins": 8641,
@@ -2357,21 +2515,62 @@
         "Boxer / Slip (tricoté)": 8
       }
     },
-    "SOC D'IMPORTATION LECLERC": {
-      "references": 1186,
-      "gtins": 1190,
+    "S&S Wholesale APS": {
+      "references": 1491,
+      "gtins": 8804,
       "categories": {
-        "Caleçon (tissé)": 202,
-        "Pantalon / Short": 200,
-        "Pull": 206,
-        "T-shirt / Polo": 214,
-        "Jean": 47,
-        "Chemise": 46,
-        "Manteau / Veste": 51,
-        "Boxer / Slip (tricoté)": 78,
-        "Chaussettes": 90,
-        "Maillot de bain": 4,
-        "Jupe / Robe": 48
+        "Pull": 425,
+        "Pantalon / Short": 145,
+        "Chemise": 237,
+        "T-shirt / Polo": 375,
+        "Manteau / Veste": 130,
+        "Maillot de bain": 20,
+        "Jupe / Robe": 113,
+        "Jean": 46
+      }
+    },
+    "KARL LAGERFELD": {
+      "references": 1393,
+      "gtins": 12176,
+      "categories": {
+        "Boxer / Slip (tricoté)": 114,
+        "Pantalon / Short": 94,
+        "T-shirt / Polo": 369,
+        "Manteau / Veste": 144,
+        "Chaussettes": 35,
+        "Pull": 226,
+        "Chemise": 101,
+        "Jupe / Robe": 121,
+        "Jean": 115,
+        "Caleçon (tissé)": 41,
+        "Maillot de bain": 33
+      }
+    },
+    "HELLY HANSEN - WORK WEAR": {
+      "references": 1347,
+      "gtins": 13821,
+      "categories": {
+        "T-shirt / Polo": 304,
+        "Pantalon / Short": 267,
+        "Chemise": 2,
+        "Pull": 523,
+        "Manteau / Veste": 241,
+        "Chaussettes": 10
+      }
+    },
+    "NOBODY'S CHILD LIMITED": {
+      "references": 1298,
+      "gtins": 10478,
+      "categories": {
+        "T-shirt / Polo": 260,
+        "Jupe / Robe": 557,
+        "Pantalon / Short": 216,
+        "Jean": 54,
+        "Manteau / Veste": 118,
+        "Chemise": 29,
+        "Pull": 49,
+        "Boxer / Slip (tricoté)": 3,
+        "Maillot de bain": 12
       }
     },
     "okaidi": {
@@ -2390,6 +2589,65 @@
         "Maillot de bain": 21
       }
     },
+    "CALIDA FRANCE": {
+      "references": 1057,
+      "gtins": 4883,
+      "categories": {
+        "Boxer / Slip (tricoté)": 312,
+        "T-shirt / Polo": 178,
+        "Jupe / Robe": 64,
+        "Pantalon / Short": 432,
+        "Maillot de bain": 7,
+        "Pull": 5,
+        "Chemise": 44,
+        "Manteau / Veste": 3,
+        "Caleçon (tissé)": 12
+      }
+    },
+    "TWINSET FRANCE": {
+      "references": 944,
+      "gtins": 8422,
+      "categories": {
+        "Lot de produits": 57,
+        "Pull": 263,
+        "Jupe / Robe": 219,
+        "Manteau / Veste": 159,
+        "Chemise": 50,
+        "T-shirt / Polo": 45,
+        "Pantalon / Short": 114,
+        "Boxer / Slip (tricoté)": 14,
+        "Jean": 23
+      }
+    },
+    "BZB": {
+      "references": 917,
+      "gtins": 9681,
+      "categories": {
+        "T-shirt / Polo": 289,
+        "Pull": 226,
+        "Jean": 100,
+        "Pantalon / Short": 95,
+        "Manteau / Veste": 54,
+        "Chemise": 62,
+        "Jupe / Robe": 57,
+        "Chaussettes": 34
+      }
+    },
+    "Bobo Choses": {
+      "references": 873,
+      "gtins": 4901,
+      "categories": {
+        "T-shirt / Polo": 155,
+        "Boxer / Slip (tricoté)": 21,
+        "Chemise": 57,
+        "Pantalon / Short": 216,
+        "Maillot de bain": 26,
+        "Pull": 169,
+        "Jupe / Robe": 110,
+        "Manteau / Veste": 61,
+        "Chaussettes": 58
+      }
+    },
     "ELEMENT": {
       "references": 861,
       "gtins": 4575,
@@ -2401,6 +2659,22 @@
         "Jean": 51,
         "Chemise": 50,
         "Jupe / Robe": 2
+      }
+    },
+    "INTERSPORT FRANCE": {
+      "references": 860,
+      "gtins": 4685,
+      "categories": {
+        "Pull": 158,
+        "Manteau / Veste": 96,
+        "Chemise": 22,
+        "Pantalon / Short": 183,
+        "T-shirt / Polo": 249,
+        "Chaussettes": 85,
+        "Jean": 25,
+        "Maillot de bain": 38,
+        "Boxer / Slip (tricoté)": 3,
+        "Jupe / Robe": 1
       }
     },
     "jacadi": {
@@ -2463,20 +2737,75 @@
         "Jean": 70
       }
     },
-    "INTERSPORT FRANCE": {
-      "references": 688,
-      "gtins": 3735,
+    "ODLO FRANCE": {
+      "references": 755,
+      "gtins": 3804,
       "categories": {
-        "Pull": 120,
-        "Manteau / Veste": 77,
-        "Chemise": 22,
-        "Pantalon / Short": 155,
-        "T-shirt / Polo": 199,
-        "Chaussettes": 56,
-        "Jean": 20,
-        "Maillot de bain": 35,
-        "Boxer / Slip (tricoté)": 3,
-        "Jupe / Robe": 1
+        "T-shirt / Polo": 462,
+        "Boxer / Slip (tricoté)": 78,
+        "Pull": 35,
+        "Chaussettes": 155,
+        "Chemise": 17,
+        "Pantalon / Short": 2,
+        "Manteau / Veste": 6
+      }
+    },
+    "Jules": {
+      "references": 705,
+      "gtins": 7379,
+      "categories": {
+        "T-shirt / Polo": 202,
+        "Jean": 59,
+        "Boxer / Slip (tricoté)": 77,
+        "Chaussettes": 29,
+        "Pull": 96,
+        "Chemise": 53,
+        "Pantalon / Short": 143,
+        "Manteau / Veste": 46
+      }
+    },
+    "AMI PARIS": {
+      "references": 693,
+      "gtins": 6285,
+      "categories": {
+        "T-shirt / Polo": 127,
+        "Chemise": 91,
+        "Chaussettes": 23,
+        "Jean": 5,
+        "Pull": 227,
+        "Pantalon / Short": 118,
+        "Manteau / Veste": 81,
+        "Maillot de bain": 2,
+        "Jupe / Robe": 19
+      }
+    },
+    "Desigual": {
+      "references": 670,
+      "gtins": 3416,
+      "categories": {
+        "Jupe / Robe": 55,
+        "T-shirt / Polo": 267,
+        "Pantalon / Short": 62,
+        "Manteau / Veste": 51,
+        "Chemise": 95,
+        "Pull": 82,
+        "Jean": 50,
+        "Maillot de bain": 5,
+        "Caleçon (tissé)": 3
+      }
+    },
+    "PICTURE ORGANIC CLOTHING": {
+      "references": 659,
+      "gtins": 12390,
+      "categories": {
+        "Boxer / Slip (tricoté)": 1,
+        "Maillot de bain": 26,
+        "T-shirt / Polo": 181,
+        "Pantalon / Short": 115,
+        "Chemise": 13,
+        "Pull": 136,
+        "Manteau / Veste": 176,
+        "Jupe / Robe": 11
       }
     },
     "BEXLEY": {
@@ -2505,6 +2834,20 @@
         "T-shirt / Polo": 103,
         "Chemise": 52,
         "Jean": 35
+      }
+    },
+    "TBS": {
+      "references": 642,
+      "gtins": 2845,
+      "categories": {
+        "Pantalon / Short": 105,
+        "T-shirt / Polo": 234,
+        "Pull": 133,
+        "Manteau / Veste": 36,
+        "Jupe / Robe": 18,
+        "Jean": 17,
+        "Chemise": 98,
+        "Maillot de bain": 1
       }
     },
     "Sessùn": {
@@ -2539,12 +2882,26 @@
         "Maillot de bain": 1
       }
     },
+    "Gerard Darel": {
+      "references": 618,
+      "gtins": 3225,
+      "categories": {
+        "Pantalon / Short": 57,
+        "Chemise": 83,
+        "Jupe / Robe": 75,
+        "Lot de produits": 150,
+        "Manteau / Veste": 77,
+        "T-shirt / Polo": 50,
+        "Jean": 17,
+        "Pull": 109
+      }
+    },
     "RVCA": {
-      "references": 600,
-      "gtins": 3407,
+      "references": 601,
+      "gtins": 3412,
       "categories": {
         "Pantalon / Short": 68,
-        "T-shirt / Polo": 224,
+        "T-shirt / Polo": 225,
         "Maillot de bain": 76,
         "Pull": 95,
         "Jean": 20,
@@ -2581,6 +2938,21 @@
         "Jean": 27
       }
     },
+    "MAJE": {
+      "references": 543,
+      "gtins": 2512,
+      "categories": {
+        "Pantalon / Short": 85,
+        "Jupe / Robe": 169,
+        "T-shirt / Polo": 75,
+        "Manteau / Veste": 81,
+        "Jean": 21,
+        "Chemise": 30,
+        "Pull": 78,
+        "Boxer / Slip (tricoté)": 3,
+        "Chaussettes": 1
+      }
+    },
     "DC SHOES": {
       "references": 513,
       "gtins": 3093,
@@ -2592,6 +2964,34 @@
         "Jean": 33,
         "Manteau / Veste": 36,
         "Chemise": 23
+      }
+    },
+    "LE SLIP FRANCAIS": {
+      "references": 505,
+      "gtins": 505,
+      "categories": {
+        "Boxer / Slip (tricoté)": 293,
+        "Chemise": 2,
+        "T-shirt / Polo": 49,
+        "Pantalon / Short": 26,
+        "Maillot de bain": 14,
+        "Chaussettes": 107,
+        "Caleçon (tissé)": 10,
+        "Pull": 3,
+        "Manteau / Veste": 1
+      }
+    },
+    "SKFK": {
+      "references": 505,
+      "gtins": 1493,
+      "categories": {
+        "T-shirt / Polo": 111,
+        "Pull": 113,
+        "Jupe / Robe": 108,
+        "Pantalon / Short": 72,
+        "Manteau / Veste": 41,
+        "Chemise": 50,
+        "Chaussettes": 10
       }
     },
     "CELIO FRANCE": {
@@ -2609,6 +3009,17 @@
         "Jupe / Robe": 9
       }
     },
+    "Fusion ApS": {
+      "references": 485,
+      "gtins": 2768,
+      "categories": {
+        "Manteau / Veste": 59,
+        "Chaussettes": 43,
+        "T-shirt / Polo": 258,
+        "Pantalon / Short": 91,
+        "Boxer / Slip (tricoté)": 34
+      }
+    },
     "DIM": {
       "references": 480,
       "gtins": 4980,
@@ -2621,6 +3032,56 @@
         "Jupe / Robe": 1,
         "Maillot de bain": 14,
         "Chemise": 1
+      }
+    },
+    "BA&SH": {
+      "references": 472,
+      "gtins": 3210,
+      "categories": {
+        "Jean": 25,
+        "Pull": 85,
+        "Pantalon / Short": 48,
+        "Jupe / Robe": 145,
+        "Manteau / Veste": 51,
+        "T-shirt / Polo": 118
+      }
+    },
+    "Soeur": {
+      "references": 439,
+      "gtins": 2008,
+      "categories": {
+        "T-shirt / Polo": 101,
+        "Pantalon / Short": 69,
+        "Manteau / Veste": 69,
+        "Jean": 19,
+        "Pull": 111,
+        "Jupe / Robe": 70
+      }
+    },
+    "TEX": {
+      "references": 431,
+      "gtins": 2293,
+      "categories": {
+        "Chaussettes": 255,
+        "Boxer / Slip (tricoté)": 39,
+        "T-shirt / Polo": 118,
+        "Pantalon / Short": 19
+      }
+    },
+    "VIVIENNE WESTWOOD FRANCE": {
+      "references": 422,
+      "gtins": 2154,
+      "categories": {
+        "Chemise": 48,
+        "Pull": 30,
+        "Jupe / Robe": 74,
+        "T-shirt / Polo": 153,
+        "Boxer / Slip (tricoté)": 1,
+        "Manteau / Veste": 43,
+        "Pantalon / Short": 52,
+        "Jean": 1,
+        "Chaussettes": 19,
+        "Maillot de bain": 1
       }
     },
     "U Essentiel": {
@@ -2640,19 +3101,48 @@
         "Maillot de bain": 5
       }
     },
-    "GEMO": {
-      "references": 346,
-      "gtins": 3101,
+    "FAGUO": {
+      "references": 370,
+      "gtins": 1268,
       "categories": {
-        "Chaussettes": 135,
-        "T-shirt / Polo": 46,
-        "Chemise": 17,
-        "Boxer / Slip (tricoté)": 18,
-        "Pantalon / Short": 60,
-        "Jean": 39,
-        "Caleçon (tissé)": 2,
-        "Pull": 24,
-        "Jupe / Robe": 5
+        "Boxer / Slip (tricoté)": 2,
+        "Manteau / Veste": 35,
+        "Chaussettes": 21,
+        "Maillot de bain": 9,
+        "Pantalon / Short": 29,
+        "Jean": 16,
+        "Pull": 113,
+        "Chemise": 47,
+        "T-shirt / Polo": 98
+      }
+    },
+    "Pablo": {
+      "references": 368,
+      "gtins": 1530,
+      "categories": {
+        "Pantalon / Short": 52,
+        "Jupe / Robe": 63,
+        "Manteau / Veste": 53,
+        "Chemise": 73,
+        "Jean": 20,
+        "Pull": 43,
+        "T-shirt / Polo": 24,
+        "Lot de produits": 40
+      }
+    },
+    "MSFR": {
+      "references": 364,
+      "gtins": 4454,
+      "categories": {
+        "Pantalon / Short": 87,
+        "Boxer / Slip (tricoté)": 11,
+        "Chaussettes": 2,
+        "Jean": 24,
+        "Chemise": 61,
+        "Manteau / Veste": 62,
+        "T-shirt / Polo": 61,
+        "Jupe / Robe": 52,
+        "Pull": 4
       }
     },
     "GILDAN ACTIVEWEAR": {
@@ -2666,12 +3156,128 @@
         "Pantalon / Short": 8
       }
     },
+    "LOUIS VUITTON MALLETIER": {
+      "references": 287,
+      "gtins": 287,
+      "categories": {
+        "T-shirt / Polo": 38,
+        "Pull": 23,
+        "Jean": 22,
+        "Chemise": 6,
+        "Manteau / Veste": 83,
+        "Pantalon / Short": 38,
+        "Lot de produits": 6,
+        "Maillot de bain": 11,
+        "Jupe / Robe": 60
+      }
+    },
+    "L'IMPERTINENTE": {
+      "references": 284,
+      "gtins": 2407,
+      "categories": {
+        "Pull": 38,
+        "Boxer / Slip (tricoté)": 28,
+        "T-shirt / Polo": 95,
+        "Chaussettes": 4,
+        "Pantalon / Short": 32,
+        "Jupe / Robe": 36,
+        "Maillot de bain": 34,
+        "Caleçon (tissé)": 1,
+        "Manteau / Veste": 3,
+        "Chemise": 9,
+        "Jean": 4
+      }
+    },
     "V2D CREATION": {
       "references": 270,
       "gtins": 270,
       "categories": {
         "Boxer / Slip (tricoté)": 264,
         "Pantalon / Short": 6
+      }
+    },
+    "MAISON BALZAC": {
+      "references": 269,
+      "gtins": 1510,
+      "categories": {
+        "T-shirt / Polo": 50,
+        "Jean": 13,
+        "Chemise": 61,
+        "Jupe / Robe": 42,
+        "Pantalon / Short": 28,
+        "Pull": 51,
+        "Manteau / Veste": 20,
+        "Chaussettes": 3,
+        "Maillot de bain": 1
+      }
+    },
+    "COURREGES": {
+      "references": 267,
+      "gtins": 2039,
+      "categories": {
+        "T-shirt / Polo": 82,
+        "Pull": 24,
+        "Chemise": 23,
+        "Manteau / Veste": 35,
+        "Jupe / Robe": 64,
+        "Pantalon / Short": 36,
+        "Jean": 1,
+        "Maillot de bain": 2
+      }
+    },
+    "PETIT-BATEAU": {
+      "references": 265,
+      "gtins": 265,
+      "categories": {
+        "T-shirt / Polo": 95,
+        "Lot de produits": 26,
+        "Jupe / Robe": 29,
+        "Pantalon / Short": 49,
+        "Pull": 15,
+        "Maillot de bain": 21,
+        "Chemise": 6,
+        "Manteau / Veste": 8,
+        "Boxer / Slip (tricoté)": 15,
+        "Chaussettes": 1
+      }
+    },
+    "MUSTO": {
+      "references": 257,
+      "gtins": 1417,
+      "categories": {
+        "Manteau / Veste": 57,
+        "T-shirt / Polo": 93,
+        "Pull": 80,
+        "Pantalon / Short": 8,
+        "Chemise": 15,
+        "Jupe / Robe": 2,
+        "Chaussettes": 2
+      }
+    },
+    "Basic Treasure": {
+      "references": 256,
+      "gtins": 256,
+      "categories": {
+        "Chaussettes": 82,
+        "T-shirt / Polo": 139,
+        "Pull": 10,
+        "Boxer / Slip (tricoté)": 25
+      }
+    },
+    "SIX ET SEPT": {
+      "references": 248,
+      "gtins": 6155,
+      "categories": {
+        "Chaussettes": 4,
+        "Pantalon / Short": 35,
+        "Pull": 58,
+        "T-shirt / Polo": 47,
+        "Boxer / Slip (tricoté)": 3,
+        "Chemise": 19,
+        "Manteau / Veste": 49,
+        "Jean": 24,
+        "Jupe / Robe": 8,
+        "Maillot de bain": 1
       }
     },
     "MILLET MOUNTAIN GROUP SAS": {
@@ -2735,6 +3341,19 @@
         "Jean": 1
       }
     },
+    "E 2M": {
+      "references": 205,
+      "gtins": 205,
+      "categories": {
+        "Pull": 1,
+        "Chaussettes": 16,
+        "Boxer / Slip (tricoté)": 158,
+        "Pantalon / Short": 5,
+        "T-shirt / Polo": 20,
+        "Caleçon (tissé)": 4,
+        "Maillot de bain": 1
+      }
+    },
     "FURSAC": {
       "references": 198,
       "gtins": 1540,
@@ -2749,6 +3368,55 @@
         "Caleçon (tissé)": 1
       }
     },
+    "CHRISTIAN DIOR COUTURE": {
+      "references": 173,
+      "gtins": 1317,
+      "categories": {
+        "Jupe / Robe": 17,
+        "Chemise": 23,
+        "T-shirt / Polo": 42,
+        "Pantalon / Short": 13,
+        "Manteau / Veste": 35,
+        "Pull": 31,
+        "Jean": 12
+      }
+    },
+    "IRO": {
+      "references": 151,
+      "gtins": 984,
+      "categories": {
+        "Manteau / Veste": 35,
+        "Jupe / Robe": 30,
+        "T-shirt / Polo": 38,
+        "Pull": 23,
+        "Pantalon / Short": 21,
+        "Chemise": 4
+      }
+    },
+    "WISE": {
+      "references": 149,
+      "gtins": 149,
+      "categories": {
+        "T-shirt / Polo": 40,
+        "Pantalon / Short": 71,
+        "Chemise": 15,
+        "Boxer / Slip (tricoté)": 5,
+        "Manteau / Veste": 18
+      }
+    },
+    "ROUGEGORGE LINGERIE": {
+      "references": 136,
+      "gtins": 956,
+      "categories": {
+        "Boxer / Slip (tricoté)": 85,
+        "Jupe / Robe": 6,
+        "Chemise": 5,
+        "Manteau / Veste": 3,
+        "T-shirt / Polo": 19,
+        "Pantalon / Short": 11,
+        "Pull": 7
+      }
+    },
     "BLACK DIAMOND EQUIPMENT EUROPE GMBH": {
       "references": 134,
       "gtins": 134,
@@ -2760,19 +3428,13 @@
         "Chaussettes": 9
       }
     },
-    "LOUIS VUITTON MALLETIER": {
-      "references": 132,
-      "gtins": 132,
+    "Icepeak": {
+      "references": 124,
+      "gtins": 133,
       "categories": {
-        "T-shirt / Polo": 17,
-        "Pull": 11,
-        "Jean": 8,
-        "Chemise": 3,
-        "Manteau / Veste": 40,
-        "Pantalon / Short": 18,
-        "Lot de produits": 6,
-        "Maillot de bain": 2,
-        "Jupe / Robe": 27
+        "Pantalon / Short": 40,
+        "Manteau / Veste": 77,
+        "Lot de produits": 7
       }
     },
     "AS Colour B.V": {
@@ -2799,6 +3461,20 @@
         "Manteau / Veste": 1,
         "Chemise": 2,
         "Caleçon (tissé)": 1
+      }
+    },
+    "Atelier Tuffery": {
+      "references": 108,
+      "gtins": 108,
+      "categories": {
+        "Manteau / Veste": 11,
+        "Pull": 5,
+        "Pantalon / Short": 25,
+        "Jean": 47,
+        "Chaussettes": 2,
+        "Chemise": 7,
+        "Jupe / Robe": 5,
+        "T-shirt / Polo": 6
       }
     },
     "U Tout Petits": {
@@ -2828,16 +3504,6 @@
         "Chemise": 1
       }
     },
-    "TEX": {
-      "references": 100,
-      "gtins": 584,
-      "categories": {
-        "Chaussettes": 48,
-        "Boxer / Slip (tricoté)": 20,
-        "T-shirt / Polo": 24,
-        "Pantalon / Short": 8
-      }
-    },
     "DUTEXDOR": {
       "references": 99,
       "gtins": 102,
@@ -2847,6 +3513,28 @@
         "Pantalon / Short": 21,
         "T-shirt / Polo": 20,
         "Pull": 40
+      }
+    },
+    "LAFRANCAISE": {
+      "references": 97,
+      "gtins": 488,
+      "categories": {
+        "Pull": 69,
+        "Pantalon / Short": 4,
+        "Jupe / Robe": 22,
+        "T-shirt / Polo": 2
+      }
+    },
+    "Ternua": {
+      "references": 96,
+      "gtins": 96,
+      "categories": {
+        "Chaussettes": 2,
+        "Pantalon / Short": 11,
+        "Manteau / Veste": 57,
+        "T-shirt / Polo": 16,
+        "Pull": 8,
+        "Chemise": 2
       }
     },
     "KENZO": {
@@ -2870,6 +3558,31 @@
         "Pantalon / Short": 8
       }
     },
+    "STELLA & SUZIE": {
+      "references": 88,
+      "gtins": 471,
+      "categories": {
+        "Jupe / Robe": 16,
+        "T-shirt / Polo": 17,
+        "Manteau / Veste": 8,
+        "Jean": 9,
+        "Pull": 12,
+        "Pantalon / Short": 7,
+        "Chemise": 19
+      }
+    },
+    "BONNETERIE CEVENOLE": {
+      "references": 88,
+      "gtins": 2510,
+      "categories": {
+        "Pull": 25,
+        "Pantalon / Short": 7,
+        "Chemise": 13,
+        "T-shirt / Polo": 36,
+        "Manteau / Veste": 5,
+        "Jupe / Robe": 2
+      }
+    },
     "BOTTEGA VENETA FRANCE": {
       "references": 82,
       "gtins": 828,
@@ -2885,14 +3598,41 @@
       }
     },
     "CELINE": {
-      "references": 80,
-      "gtins": 693,
+      "references": 82,
+      "gtins": 707,
       "categories": {
         "Chemise": 4,
-        "T-shirt / Polo": 25,
-        "Pull": 22,
+        "T-shirt / Polo": 26,
+        "Pull": 23,
         "Pantalon / Short": 21,
         "Jupe / Robe": 6,
+        "Manteau / Veste": 2
+      }
+    },
+    "Loom": {
+      "references": 81,
+      "gtins": 2075,
+      "categories": {
+        "Chaussettes": 4,
+        "T-shirt / Polo": 19,
+        "Pull": 15,
+        "Pantalon / Short": 8,
+        "Boxer / Slip (tricoté)": 3,
+        "Chemise": 15,
+        "Jean": 9,
+        "Caleçon (tissé)": 2,
+        "Maillot de bain": 1,
+        "Jupe / Robe": 3,
+        "Manteau / Veste": 2
+      }
+    },
+    "Fruit of the Loom International Ltd.": {
+      "references": 72,
+      "gtins": 72,
+      "categories": {
+        "Pantalon / Short": 8,
+        "Pull": 23,
+        "T-shirt / Polo": 39,
         "Manteau / Veste": 2
       }
     },
@@ -2909,6 +3649,13 @@
         "Chaussettes": 2
       }
     },
+    "BIRKENSTOCK FRANCE": {
+      "references": 67,
+      "gtins": 68,
+      "categories": {
+        "Chaussettes": 67
+      }
+    },
     "NOPUBLIK": {
       "references": 59,
       "gtins": 59,
@@ -2920,12 +3667,52 @@
         "Pull": 1
       }
     },
+    "BERLUTI SA": {
+      "references": 52,
+      "gtins": 52,
+      "categories": {
+        "Chaussettes": 14,
+        "Manteau / Veste": 7,
+        "Pantalon / Short": 14,
+        "Chemise": 9,
+        "T-shirt / Polo": 8
+      }
+    },
+    "MIJUIN": {
+      "references": 51,
+      "gtins": 51,
+      "categories": {
+        "Chemise": 20,
+        "Jupe / Robe": 15,
+        "Manteau / Veste": 8,
+        "Pantalon / Short": 8
+      }
+    },
     "WELL": {
       "references": 51,
       "gtins": 287,
       "categories": {
         "Boxer / Slip (tricoté)": 2,
         "Chaussettes": 49
+      }
+    },
+    "PangoLin": {
+      "references": 49,
+      "gtins": 49,
+      "categories": {
+        "T-shirt / Polo": 38,
+        "Pantalon / Short": 2,
+        "Jupe / Robe": 4,
+        "Boxer / Slip (tricoté)": 3,
+        "Pull": 2
+      }
+    },
+    "ETABLISSEMENTS MARCEL": {
+      "references": 48,
+      "gtins": 234,
+      "categories": {
+        "Pull": 6,
+        "T-shirt / Polo": 42
       }
     },
     "Au Printemps Paris": {
@@ -2936,11 +3723,36 @@
         "Chemise": 24
       }
     },
-    "AIRNESS": {
-      "references": 39,
-      "gtins": 39,
+    "LORO PIANA FRANCE": {
+      "references": 45,
+      "gtins": 45,
       "categories": {
-        "Chaussettes": 12,
+        "Pull": 12,
+        "Jean": 4,
+        "Chaussettes": 1,
+        "T-shirt / Polo": 12,
+        "Pantalon / Short": 3,
+        "Manteau / Veste": 8,
+        "Chemise": 5
+      }
+    },
+    "La Manufacture de Layette": {
+      "references": 43,
+      "gtins": 43,
+      "categories": {
+        "Pull": 12,
+        "Chaussettes": 5,
+        "Pantalon / Short": 13,
+        "Jupe / Robe": 1,
+        "Manteau / Veste": 3,
+        "T-shirt / Polo": 9
+      }
+    },
+    "AIRNESS": {
+      "references": 41,
+      "gtins": 41,
+      "categories": {
+        "Chaussettes": 14,
         "Boxer / Slip (tricoté)": 27
       }
     },
@@ -2954,6 +3766,37 @@
         "T-shirt / Polo": 19
       }
     },
+    "SMOON": {
+      "references": 38,
+      "gtins": 398,
+      "categories": {
+        "Boxer / Slip (tricoté)": 33,
+        "Maillot de bain": 2,
+        "Pantalon / Short": 3
+      }
+    },
+    "LAGOPED": {
+      "references": 37,
+      "gtins": 1101,
+      "categories": {
+        "Pull": 9,
+        "T-shirt / Polo": 11,
+        "Manteau / Veste": 10,
+        "Jean": 3,
+        "Chemise": 3,
+        "Maillot de bain": 1
+      }
+    },
+    "JEAN PATOU": {
+      "references": 36,
+      "gtins": 193,
+      "categories": {
+        "Chemise": 8,
+        "Manteau / Veste": 4,
+        "Pull": 13,
+        "T-shirt / Polo": 11
+      }
+    },
     "TECNIFIBRE": {
       "references": 35,
       "gtins": 727,
@@ -2963,6 +3806,14 @@
         "Pull": 2,
         "Manteau / Veste": 7,
         "Jupe / Robe": 1
+      }
+    },
+    "WONDAY": {
+      "references": 33,
+      "gtins": 33,
+      "categories": {
+        "Manteau / Veste": 23,
+        "Chemise": 10
       }
     },
     "YVES SAINT LAURENT": {
@@ -2977,6 +3828,14 @@
         "Jean": 5
       }
     },
+    "ERGOS": {
+      "references": 30,
+      "gtins": 281,
+      "categories": {
+        "Pantalon / Short": 12,
+        "Manteau / Veste": 18
+      }
+    },
     "DDP": {
       "references": 30,
       "gtins": 30,
@@ -2987,23 +3846,25 @@
         "Pantalon / Short": 2
       }
     },
-    "PLAYTEX": {
-      "references": 28,
-      "gtins": 553,
+    "LAINES PAYSANNES": {
+      "references": 30,
+      "gtins": 30,
       "categories": {
-        "Boxer / Slip (tricoté)": 20,
-        "Caleçon (tissé)": 1,
-        "T-shirt / Polo": 7
+        "Chaussettes": 5,
+        "Jupe / Robe": 3,
+        "Manteau / Veste": 5,
+        "Pull": 15,
+        "Chemise": 1,
+        "T-shirt / Polo": 1
       }
     },
-    "La Manufacture de Layette": {
-      "references": 25,
-      "gtins": 25,
+    "PLAYTEX": {
+      "references": 29,
+      "gtins": 608,
       "categories": {
-        "Pull": 6,
-        "Chaussettes": 5,
-        "Pantalon / Short": 13,
-        "Jupe / Robe": 1
+        "Boxer / Slip (tricoté)": 21,
+        "Caleçon (tissé)": 1,
+        "T-shirt / Polo": 7
       }
     },
     "INEXTENSO": {
@@ -3014,6 +3875,29 @@
         "Chaussettes": 7,
         "Pull": 2,
         "Jean": 2
+      }
+    },
+    "W.O.P World of Pop": {
+      "references": 23,
+      "gtins": 119,
+      "categories": {
+        "Jupe / Robe": 3,
+        "T-shirt / Polo": 4,
+        "Chemise": 3,
+        "Manteau / Veste": 4,
+        "Pantalon / Short": 7,
+        "Pull": 1,
+        "Boxer / Slip (tricoté)": 1
+      }
+    },
+    "iXS ag": {
+      "references": 22,
+      "gtins": 164,
+      "categories": {
+        "Pantalon / Short": 5,
+        "T-shirt / Polo": 1,
+        "Manteau / Veste": 14,
+        "Chaussettes": 2
       }
     },
     "PHALAENOPSIS": {
@@ -3028,24 +3912,23 @@
         "Manteau / Veste": 2
       }
     },
-    "CHRISTIAN DIOR COUTURE": {
+    "JW Anderson Limited": {
       "references": 19,
-      "gtins": 141,
+      "gtins": 238,
       "categories": {
-        "Jupe / Robe": 1,
-        "Chemise": 5,
-        "T-shirt / Polo": 9,
-        "Pantalon / Short": 2,
-        "Manteau / Veste": 1,
-        "Pull": 1
+        "Pull": 2,
+        "Jean": 6,
+        "Chemise": 1,
+        "T-shirt / Polo": 7,
+        "Pantalon / Short": 3
       }
     },
-    "MIJUIN": {
-      "references": 17,
-      "gtins": 17,
+    "BAIE DES CAPS": {
+      "references": 18,
+      "gtins": 386,
       "categories": {
-        "Chemise": 10,
-        "Jupe / Robe": 7
+        "Pull": 17,
+        "Manteau / Veste": 1
       }
     },
     "RICALEWIS": {
@@ -3057,11 +3940,54 @@
         "Pantalon / Short": 2
       }
     },
+    "SPORTMINEDOR": {
+      "references": 15,
+      "gtins": 104,
+      "categories": {
+        "Manteau / Veste": 5,
+        "Chaussettes": 2,
+        "Pantalon / Short": 5,
+        "Pull": 2,
+        "T-shirt / Polo": 1
+      }
+    },
+    "Gayaskin": {
+      "references": 14,
+      "gtins": 93,
+      "categories": {
+        "Chaussettes": 1,
+        "Pantalon / Short": 6,
+        "T-shirt / Polo": 5,
+        "Pull": 1,
+        "Maillot de bain": 1
+      }
+    },
+    "WOP": {
+      "references": 14,
+      "gtins": 14,
+      "categories": {
+        "Pull": 7,
+        "Jupe / Robe": 2,
+        "Pantalon / Short": 3,
+        "Boxer / Slip (tricoté)": 1,
+        "Chemise": 1
+      }
+    },
     "U Oxygn": {
       "references": 13,
       "gtins": 41,
       "categories": {
         "Chaussettes": 13
+      }
+    },
+    "G-HEAT GROUP": {
+      "references": 13,
+      "gtins": 38,
+      "categories": {
+        "T-shirt / Polo": 4,
+        "Lot de produits": 4,
+        "Pantalon / Short": 3,
+        "Pull": 2
       }
     },
     "Saison 1865": {
@@ -3071,13 +3997,53 @@
         "Chemise": 12
       }
     },
-    "Icepeak": {
-      "references": 10,
+    "Pavenrod": {
+      "references": 12,
+      "gtins": 12,
+      "categories": {
+        "Pull": 6,
+        "T-shirt / Polo": 6
+      }
+    },
+    "GIVENCHY": {
+      "references": 11,
+      "gtins": 603,
+      "categories": {
+        "T-shirt / Polo": 11
+      }
+    },
+    "LESHOP SWING": {
+      "references": 9,
+      "gtins": 9,
+      "categories": {
+        "Chemise": 2,
+        "Pantalon / Short": 7
+      }
+    },
+    "Pink": {
+      "references": 8,
+      "gtins": 73,
+      "categories": {
+        "Boxer / Slip (tricoté)": 5,
+        "Pantalon / Short": 2,
+        "T-shirt / Polo": 1
+      }
+    },
+    "HILMA": {
+      "references": 8,
+      "gtins": 8,
+      "categories": {
+        "Jupe / Robe": 7,
+        "Pantalon / Short": 1
+      }
+    },
+    "Coyote Denim": {
+      "references": 7,
       "gtins": 10,
       "categories": {
-        "Pantalon / Short": 4,
-        "Manteau / Veste": 4,
-        "Lot de produits": 2
+        "Jupe / Robe": 2,
+        "Pantalon / Short": 1,
+        "T-shirt / Polo": 4
       }
     },
     "l'Atelier Visconti": {
@@ -3088,12 +4054,46 @@
         "T-shirt / Polo": 1
       }
     },
+    "SASU TEXTILE PYRENEES": {
+      "references": 7,
+      "gtins": 14,
+      "categories": {
+        "Pull": 2,
+        "T-shirt / Polo": 2,
+        "Manteau / Veste": 2,
+        "Pantalon / Short": 1
+      }
+    },
+    "ZINS": {
+      "references": 6,
+      "gtins": 13,
+      "categories": {
+        "Pantalon / Short": 6
+      }
+    },
     "TEDDYSMITH": {
       "references": 6,
       "gtins": 6,
       "categories": {
         "Chaussettes": 4,
         "Boxer / Slip (tricoté)": 2
+      }
+    },
+    "RIOULT & HUREAUX": {
+      "references": 6,
+      "gtins": 65,
+      "categories": {
+        "Pantalon / Short": 5,
+        "T-shirt / Polo": 1
+      }
+    },
+    "BASTIEN HUCHON": {
+      "references": 6,
+      "gtins": 6,
+      "categories": {
+        "Pull": 2,
+        "Pantalon / Short": 2,
+        "T-shirt / Polo": 2
       }
     },
     "KELONIA": {
@@ -3103,21 +4103,34 @@
         "Jupe / Robe": 5
       }
     },
-    "Pink": {
+    "Rukka": {
       "references": 5,
-      "gtins": 46,
+      "gtins": 6,
       "categories": {
-        "Boxer / Slip (tricoté)": 3,
-        "Pantalon / Short": 2
+        "Pantalon / Short": 5
       }
     },
-    "Coyote Denim": {
+    "SABATTINI": {
+      "references": 5,
+      "gtins": 5,
+      "categories": {
+        "Manteau / Veste": 5
+      }
+    },
+    "Luhta": {
       "references": 3,
       "gtins": 3,
       "categories": {
-        "Jupe / Robe": 1,
-        "Pantalon / Short": 1,
-        "T-shirt / Polo": 1
+        "Manteau / Veste": 2,
+        "Pantalon / Short": 1
+      }
+    },
+    "MAGELAN": {
+      "references": 3,
+      "gtins": 5,
+      "categories": {
+        "Pull": 1,
+        "T-shirt / Polo": 2
       }
     },
     "CINQ-HUITIEMES": {
@@ -3127,6 +4140,36 @@
         "Pantalon / Short": 3
       }
     },
+    "LE BEAU JEAN": {
+      "references": 3,
+      "gtins": 337,
+      "categories": {
+        "Jean": 2,
+        "Pantalon / Short": 1
+      }
+    },
+    "AZALA": {
+      "references": 3,
+      "gtins": 3,
+      "categories": {
+        "Pull": 3
+      }
+    },
+    "LA COUCHE DURABLE": {
+      "references": 3,
+      "gtins": 3,
+      "categories": {
+        "T-shirt / Polo": 3
+      }
+    },
+    "INTS FRANCE": {
+      "references": 3,
+      "gtins": 13,
+      "categories": {
+        "Chemise": 2,
+        "Pull": 1
+      }
+    },
     "new balance": {
       "references": 2,
       "gtins": 2,
@@ -3134,11 +4177,33 @@
         "Chaussettes": 2
       }
     },
-    "PETIT-BATEAU": {
+    "VEJA FAIR TRADE S.A.R.L.": {
+      "references": 2,
+      "gtins": 48,
+      "categories": {
+        "Chaussettes": 2
+      }
+    },
+    "ORAIJE": {
       "references": 2,
       "gtins": 2,
       "categories": {
+        "Jean": 2
+      }
+    },
+    "Victoria's Secret": {
+      "references": 2,
+      "gtins": 12,
+      "categories": {
         "T-shirt / Polo": 2
+      }
+    },
+    "Meanwhile Boutique": {
+      "references": 2,
+      "gtins": 2,
+      "categories": {
+        "Manteau / Veste": 1,
+        "T-shirt / Polo": 1
       }
     },
     "SAPIOLOGIE": {
@@ -3148,53 +4213,11 @@
         "Jean": 1
       }
     },
-    "Rukka": {
-      "references": 1,
-      "gtins": 1,
-      "categories": {
-        "Pantalon / Short": 1
-      }
-    },
-    "Luhta": {
-      "references": 1,
-      "gtins": 1,
-      "categories": {
-        "Manteau / Veste": 1
-      }
-    },
-    "E 2M": {
-      "references": 1,
-      "gtins": 1,
-      "categories": {
-        "Pull": 1
-      }
-    },
     "LE BOURGET": {
       "references": 1,
       "gtins": 16,
       "categories": {
         "Chaussettes": 1
-      }
-    },
-    "MAGELAN": {
-      "references": 1,
-      "gtins": 1,
-      "categories": {
-        "Pull": 1
-      }
-    },
-    "ERGOS": {
-      "references": 1,
-      "gtins": 9,
-      "categories": {
-        "Pantalon / Short": 1
-      }
-    },
-    "ZINS": {
-      "references": 1,
-      "gtins": 1,
-      "categories": {
-        "Pantalon / Short": 1
       }
     },
     "BELHARRA": {
@@ -3232,9 +4255,65 @@
         "Pantalon / Short": 1
       }
     },
-    "EPHIGEA": {
+    "LA PETITE ETOILE": {
+      "references": 1,
+      "gtins": 1,
+      "categories": {
+        "Chemise": 1
+      }
+    },
+    "BROUSSAUD TEXTILES": {
+      "references": 1,
+      "gtins": 3,
+      "categories": {
+        "Chaussettes": 1
+      }
+    },
+    "Nénés": {
+      "references": 1,
+      "gtins": 1,
+      "categories": {
+        "T-shirt / Polo": 1
+      }
+    },
+    "[ND]": {
+      "references": 1,
+      "gtins": 1,
+      "categories": {
+        "Pantalon / Short": 1
+      }
+    },
+    "PASSENGER": {
       "references": 1,
       "gtins": 5,
+      "categories": {
+        "Pull": 1
+      }
+    },
+    "Avery Tailors": {
+      "references": 1,
+      "gtins": 1,
+      "categories": {
+        "T-shirt / Polo": 1
+      }
+    },
+    "Y-A-S": {
+      "references": 1,
+      "gtins": 1,
+      "categories": {
+        "Pantalon / Short": 1
+      }
+    },
+    ".OBJECT": {
+      "references": 1,
+      "gtins": 1,
+      "categories": {
+        "Pull": 1
+      }
+    },
+    "MARIE FELD": {
+      "references": 1,
+      "gtins": 1,
       "categories": {
         "T-shirt / Polo": 1
       }

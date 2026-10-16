@@ -1,5 +1,5 @@
 import { CameraView, useCameraPermissions, type BarcodeScanningResult } from 'expo-camera';
-import { router, useFocusEffect } from 'expo-router';
+import { router, useFocusEffect, useLocalSearchParams } from 'expo-router';
 import { useCallback, useRef, useState } from 'react';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
@@ -17,17 +17,40 @@ const FRAMES = {
 
 export default function ScanScreen() {
   const [permission, requestPermission] = useCameraPermissions();
+  // La fiche « Produit non déclaré » ouvre directement le mode étiquette.
+  const params = useLocalSearchParams<{ mode?: Mode }>();
   const [mode, setMode] = useState<Mode>('barcode');
   const [isFocused, setIsFocused] = useState(false);
+  const [isCapturing, setIsCapturing] = useState(false);
+  const camera = useRef<CameraView>(null);
   // Évite d'ouvrir plusieurs fois le résultat tant que le code reste devant la caméra.
   const scanLocked = useRef(false);
+
+  const takeLabelPhoto = async () => {
+    if (!camera.current || isCapturing) return;
+    setIsCapturing(true);
+    try {
+      const photo = await camera.current.takePictureAsync({ quality: 0.8 });
+      router.push({
+        pathname: '/label',
+        params: { uri: photo.uri, width: String(photo.width), height: String(photo.height) },
+      });
+    } finally {
+      setIsCapturing(false);
+    }
+  };
 
   useFocusEffect(
     useCallback(() => {
       setIsFocused(true);
       scanLocked.current = false;
+      if (params.mode === 'label') {
+        setMode('label');
+        // Consommé une fois : revenir plus tard sur l'onglet ne reforce pas le mode étiquette.
+        router.setParams({ mode: undefined });
+      }
       return () => setIsFocused(false);
-    }, []),
+    }, [params.mode]),
   );
 
   const onBarcodeScanned = ({ data, type }: BarcodeScanningResult) => {
@@ -54,6 +77,7 @@ export default function ScanScreen() {
     <View style={styles.container}>
       {isFocused && (
         <CameraView
+          ref={camera}
           style={StyleSheet.absoluteFill}
           facing="back"
           barcodeScannerSettings={{ barcodeTypes: ['ean13', 'ean8', 'upc_a', 'upc_e'] }}
@@ -72,8 +96,15 @@ export default function ScanScreen() {
         <Text style={styles.hint}>
           {mode === 'barcode'
             ? 'Placez le code-barres du vêtement dans le cadre.'
-            : 'Lecture de l’étiquette : bientôt disponible.'}
+            : 'Placez l’étiquette de composition à plat dans le cadre.'}
         </Text>
+        {mode === 'label' && (
+          <Button
+            label={isCapturing ? 'Photo en cours…' : 'Photographier l’étiquette'}
+            onPress={takeLabelPhoto}
+            disabled={isCapturing}
+          />
+        )}
       </View>
     </View>
   );
@@ -202,6 +233,7 @@ const styles = StyleSheet.create({
     color: colors.onAccent,
   },
   footer: {
+    gap: 12,
     position: 'absolute',
     left: 16,
     right: 16,

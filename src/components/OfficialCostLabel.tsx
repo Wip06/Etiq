@@ -1,8 +1,6 @@
 import { StyleSheet, View } from 'react-native';
 import { WebView } from 'react-native-webview';
 
-import { labelImageUrl } from '@/services/portal';
-
 // Étiquette officielle du coût environnemental, telle que le portail la fournit. La charte graphique
 // interdit de la redessiner ou d'en changer la police : on affiche le SVG officiel tel quel. Il passe
 // par une vue web, car le moteur SVG de React Native ignore la police Marianne embarquée dans le
@@ -12,13 +10,14 @@ const HEIGHT = 80;
 const WIDTH = (HEIGHT * 154) / 77;
 
 type Props = {
-  gtin: string;
+  // labelImageUrl (produit déclaré) ou scoreLabelImageUrl (coût calculé), de services/portal.
+  imageUrl: string;
   cost: number;
   per100g: number;
 };
 
-export function OfficialCostLabel({ gtin, cost, per100g }: Props) {
-  const html = `<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"></head><body style="margin:0;background:transparent"><img src="${labelImageUrl(gtin)}" alt="" width="${WIDTH}" height="${HEIGHT}" style="display:block"></body></html>`;
+export function OfficialCostLabel({ imageUrl, cost, per100g }: Props) {
+  const html = `<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1"></head><body style="margin:0;background:transparent"><img src="${imageUrl}" alt="" width="${WIDTH}" height="${HEIGHT}" style="display:block"></body></html>`;
 
   return (
     <View

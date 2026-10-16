@@ -51,6 +51,11 @@ export function labelImageUrl(gtin: string): string {
   return `${BASE_URL}/image?type=gtin&gtin=${encodeURIComponent(gtin)}`;
 }
 
+// Étiquette officielle (SVG) générée par le portail pour un coût calculé par nos soins.
+export function scoreLabelImageUrl(cost: number, massKg: number): string {
+  return `${BASE_URL}/image?type=score&score=${Math.round(cost)}&masse=${massKg}`;
+}
+
 // Renvoie null si le vêtement n'est pas déclaré sur le portail (404).
 export async function getProduct(gtin: string): Promise<PortalProduct | null> {
   const response = await fetch(`${BASE_URL}/produits/${encodeURIComponent(gtin)}`);
