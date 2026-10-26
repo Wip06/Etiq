@@ -31,6 +31,11 @@ export type PortalProduct = {
   components: number;
   // Part de chaque étape dans le coût, en points : leur somme redonne le coût.
   stages: Record<Stage, number>;
+  // Utilisation de ressources en eau pour fabriquer le vêtement, en m³ éq (indicateur « wtu »
+  // d'Ecobalyse, étapes matières et filature seulement). null si le portail ne la donne pas.
+  water: number | null;
+  // Changement climatique, en kg CO₂e (indicateur « cch »). null si le portail ne le donne pas.
+  climate: number | null;
   declaredAt: string;
 };
 
@@ -42,9 +47,19 @@ type ApiProduct = {
   standardized: number;
   informations: {
     categorySlug: string;
-    score: Record<Stage | 'durability', number>;
+    score: Record<Stage | 'durability', number> & Partial<Record<Indicator, number>>;
   }[];
 };
+
+// Indicateurs physiques du détail public, traduits en repères du quotidien par l'app.
+type Indicator = 'wtu' | 'cch';
+
+// Somme sur les composants d'un indicateur, en valeur physique : contrairement aux étapes, il n'est
+// pas divisé par le coefficient de durabilité. null si un composant ne le donne pas.
+function sumIndicator(informations: ApiProduct['informations'], indicator: Indicator): number | null {
+  if (!informations.every((info) => typeof info.score[indicator] === 'number')) return null;
+  return informations.reduce((sum, info) => sum + (info.score[indicator] ?? 0), 0);
+}
 
 // Étiquette officielle (SVG) générée par le portail pour ce code-barres.
 export function labelImageUrl(gtin: string): string {
@@ -84,6 +99,8 @@ export async function getProduct(gtin: string): Promise<PortalProduct | null> {
     durability: main?.score.durability ?? 0,
     components: data.informations.length,
     stages,
+    water: sumIndicator(data.informations, 'wtu'),
+    climate: sumIndicator(data.informations, 'cch'),
     declaredAt: data.createdAt,
   };
 }

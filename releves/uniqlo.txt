@@ -1,0 +1,209 @@
+RELEVÉ UNIQLO
+
+Date du relevé : 26 octobre 2026
+Heure de début : 20h39
+Heure de fin : 20h51
+
+Écrivez après chaque « : ». Laissez vide si l'information n'est pas sur la fiche.
+Prenez les premiers produits affichés dans chaque catégorie, sans trier ni choisir.
+Composition : recopiez-la en entier, toutes les fibres (ex. « 52 % coton, 48 % polyester »).
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : Mini T-shirt (Manches longues)
+Lien : https://www.uniqlo.com/fr/fr/products/E487579-000/00?colorDisplayCode=32&sizeDisplayCode=003
+Composition : 96% Coton, 4% Élasthanne
+Fabriqué en : Inde, Vietnam
+Tissé en : Inde, Vietnam
+Teint en : Inde, Vietnam
+Prix : 19,90 €
+
+Produit 2
+Nom : T-shirt 100% coton SUPIMA® (Manches longues)
+Lien : https://www.uniqlo.com/fr/fr/products/E488230-000/00?colorDisplayCode=17&sizeDisplayCode=003
+Composition : 100% Coton
+Fabriqué en : Vietnam
+Tissé en : Vietnam
+Teint en : Vietnam
+Prix : 19,90 €
+
+Produit 3
+Nom : T-shirt à capuche (Manches longues)
+Lien : https://www.uniqlo.com/fr/fr/products/E488298-000/00?colorDisplayCode=03&sizeDisplayCode=003
+Composition : 95% Coton, 5% Élasthanne
+Fabriqué en : Vietnam
+Tissé en : Vietnam
+Teint en : Vietnam
+Prix : 19,90 €
+
+Produit 4
+Nom : Top côtelé à brassière intégrée
+Lien : https://www.uniqlo.com/fr/fr/products/E482196-000/00?colorDisplayCode=55&sizeDisplayCode=003
+Composition : 96% Coton, 4% Élasthanne
+Fabriqué en : Chine, Vietnam
+Tissé en : Chine, Vietnam
+Teint en : Chine, Vietnam
+Prix : 14,90 €
+
+Produit 5
+Nom : T-shirt à col roulé (Manches longues)
+Lien : https://www.uniqlo.com/fr/fr/products/E488228-000/00?colorDisplayCode=01&sizeDisplayCode=003
+Composition : 100% Coton
+Fabriqué en : Vietnam
+Tissé en : Vietnam
+Teint en : Vietnam
+Prix : 19,90 €
+
+===== PULLS ET MAILLE =====
+
+Produit 6
+Nom : Pull 100% cachemire
+Lien : https://www.uniqlo.com/fr/fr/products/E465734-000/00?colorDisplayCode=13&sizeDisplayCode=003
+Composition : 100% Cachemire
+Fabriqué en : Cambodge, Vietnam
+Tissé en : Chine, Cambodge, Vietnam
+Teint en : Chine
+Prix : 89,90 €
+
+Produit 7
+Nom : Cardigan 100% cachemire
+Lien : https://www.uniqlo.com/fr/fr/products/E488533-000/00?colorDisplayCode=34&sizeDisplayCode=004
+Composition : 100% Cachemire
+Fabriqué en : Chine 
+Tissé en : Chine
+Teint en : Chine
+Prix : 149 €
+
+Produit 8
+Nom : Pull court en laine et cachemire mélangé (Col V)
+Lien : https://www.uniqlo.com/fr/fr/products/E487514-000/00?colorDisplayCode=57&sizeDisplayCode=003
+Composition : 85% Laine, 15% Cachemire
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 59,90 €
+
+Produit 9
+Nom : Pull 100% laine mérinos
+Lien : https://www.uniqlo.com/fr/fr/products/E469411-000/00?colorDisplayCode=32&sizeDisplayCode=003
+Composition : 100% Laine
+Fabriqué en : Chine, Cambodge, Vietnam
+Tissé en : Chine, Cambodge, Vietnam
+Teint en : Chine, Vietnam
+Prix : 39,90 €
+
+===== ROBES ET JUPES =====
+
+Produit 10
+Nom : Robe-chemise
+Lien : https://www.uniqlo.com/fr/fr/products/E487635-000/00?colorDisplayCode=57&sizeDisplayCode=003
+Composition : 100% Polyester
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 49,90 €
+
+Produit 11
+Nom : Robe courte 100% laine (Maille)
+Lien : https://www.uniqlo.com/fr/fr/products/E487296-000/00?colorDisplayCode=39&sizeDisplayCode=003
+Composition : 100% Laine
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 49,90 €
+
+Produit 12
+Nom : Robe en maille à col polo (Manches longues)
+Lien : https://www.uniqlo.com/fr/fr/products/E487294-000/00?colorDisplayCode=19&sizeDisplayCode=003
+Composition : 62% Acrylique, 26% Laine, 12% Polyamide
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 49,90 €
+
+===== PANTALONS ET JEANS =====
+
+Produit 13
+Nom : Pantalon Barrel en jersey brossé
+Lien : https://www.uniqlo.com/fr/fr/products/E489191-000/00?colorDisplayCode=38&sizeDisplayCode=003&pldDisplayCode=030
+Composition : 38% Coton, 30% Polyester - Fibre Recyclée, 18% Polyester, 14% Viscose
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 39,90 €
+
+Produit 14
+Nom : Jean Barrel ample
+Lien : https://www.uniqlo.com/fr/fr/products/E479000-001/00?colorDisplayCode=37&sizeDisplayCode=024&pldDisplayCode=033
+Composition : 79% Coton, 21% Lyocell
+Fabriqué en : Bangladesh, Chine, Cambodge
+Tissé en : Chine, Thailande
+Teint en : Chine, Thailande
+Prix : 49,90 €
+
+Produit 15
+Nom : Pantalon large
+Lien : https://www.uniqlo.com/fr/fr/products/E488882-000/00?colorDisplayCode=08&sizeDisplayCode=003
+Composition : 62% Polyester - Fibre Recyclée, 29% Viscose, 5% Polyester, 4% Élasthanne
+Fabriqué en : Chine, Cambodge
+Tissé en : Chine
+Teint en : Chine
+Prix : 39,90 €
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 16
+Nom : Chemise en coton (Manches volumineuses)
+Lien : https://www.uniqlo.com/fr/fr/products/E488560-000/00?colorDisplayCode=60&sizeDisplayCode=003
+Composition : 100% Coton
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 34,90 €
+
+Produit 17
+Nom : Blouse en rayonne
+Lien : https://www.uniqlo.com/fr/fr/products/E489227-000/00?colorDisplayCode=19&sizeDisplayCode=003
+Composition : 76% Viscose, 24% Polyester - Fibre Recyclée
+Fabriqué en : Chine, Egypte, Vietnam
+Tissé en : Chine
+Teint en : Chine
+Prix : 34,90 €
+
+Produit 18
+Nom : Blouse courte oversize satinée (Manches 3/4)
+Lien : https://www.uniqlo.com/fr/fr/products/E483049-000/00?colorDisplayCode=69&sizeDisplayCode=003
+Composition : 71% Polyester, 29% Élastomultiester - Fibre Recyclée
+Fabriqué en : Chine, Indonésie
+Tissé en : Chine
+Teint en : Chine
+Prix : 29,90 €
+
+===== MANTEAUX ET VESTES =====
+
+Produit 19
+Nom : Veste courte matelassée
+Lien : https://www.uniqlo.com/fr/fr/products/E487518-000/00?colorDisplayCode=09&sizeDisplayCode=003
+Composition : 52% Polyamide - Fibre Recyclée, 48% Polyamide
+Fabriqué en : Bangladesh
+Tissé en : Chine
+Teint en : Chine
+Prix : 69,90 €
+
+Produit 20
+Nom : Veste courte zippée
+Lien : https://www.uniqlo.com/fr/fr/products/E487516-000/00?colorDisplayCode=38&sizeDisplayCode=003
+Composition : 98% Coton, 2% Élasthanne
+Fabriqué en : Chine, Indonésie, Vietnam
+Tissé en : Chine
+Teint en : Chine
+Prix : 49,90 €

@@ -9,9 +9,14 @@ import path from 'node:path';
 
 const PAGES_DIR = path.resolve(import.meta.dirname, '../../data/portal/pages');
 const OUT_FILE = path.resolve(import.meta.dirname, '../../src/data/generated/portal-stats.json');
-const ALTERNATIVES_PER_CATEGORY = 20;
+// Une catégorie mélange tailles bébé et adulte : on la découpe en tranches de masse, et chaque
+// tranche garde ses propres alternatives, pour proposer un vêtement de poids proche.
+const MASS_BANDS = 6;
+const ALTERNATIVES_PER_BAND = 10;
 // Pour que les alternatives ne viennent pas toutes de la même marque.
 const MAX_ALTERNATIVES_PER_BRAND = 2;
+
+const massGrams = (ref) => (ref.cost / ref.per100g) * 100;
 
 function quantile(sorted, q) {
   if (sorted.length === 0) return null;
@@ -37,6 +42,15 @@ function summarize(values) {
     mean: round(sorted.reduce((sum, value) => sum + value, 0) / (sorted.length || 1)),
   };
 }
+
+function median(values) {
+  return quantile(
+    values.filter((value) => typeof value === 'number').sort((a, b) => a - b),
+    0.5,
+  );
+}
+
+const roundTo = (value, decimals) => (value === null ? null : Math.round(value * 10 ** decimals) / 10 ** decimals);
 
 async function loadItems() {
   const files = (await readdir(PAGES_DIR)).filter((file) => file.endsWith('.json')).sort();
@@ -72,39 +86,64 @@ async function main() {
   const categories = {};
   for (const name of [...new Set(refs.map((ref) => ref.category))].sort()) {
     const inCategory = refs.filter((ref) => ref.category === name);
-    const perBrand = new Map();
     const alternatives = [];
-    for (const ref of [...inCategory].sort((a, b) => a.cost - b.cost)) {
-      const count = perBrand.get(ref.brand) ?? 0;
-      if (count >= MAX_ALTERNATIVES_PER_BRAND) continue;
-      perBrand.set(ref.brand, count + 1);
-      alternatives.push({
-        gtin: ref.gtin,
-        reference: ref.reference,
-        brand: ref.brand,
-        cost: Math.round(ref.cost),
-        per100g: Math.round(ref.per100g),
-      });
-      if (alternatives.length === ALTERNATIVES_PER_CATEGORY) break;
+    const byMass = inCategory.filter((ref) => ref.per100g > 0).sort((a, b) => massGrams(a) - massGrams(b));
+    for (let band = 0; band < MASS_BANDS; band++) {
+      const inBand = byMass.slice(
+        Math.floor((band * byMass.length) / MASS_BANDS),
+        Math.floor(((band + 1) * byMass.length) / MASS_BANDS),
+      );
+      // Les moins coûteuses à poids égal (points pour 100 g), comme la comparaison de la fiche produit.
+      const perBrand = new Map();
+      let kept = 0;
+      for (const ref of inBand.sort((a, b) => a.per100g - b.per100g)) {
+        const count = perBrand.get(ref.brand) ?? 0;
+        if (count >= MAX_ALTERNATIVES_PER_BRAND) continue;
+        perBrand.set(ref.brand, count + 1);
+        alternatives.push({
+          gtin: ref.gtin,
+          reference: ref.reference,
+          brand: ref.brand,
+          cost: Math.round(ref.cost),
+          per100g: Math.round(ref.per100g),
+          massGrams: Math.round(massGrams(ref)),
+          water: typeof ref.water === 'number' ? Math.round(ref.water * 1000) / 1000 : null,
+        });
+        if (++kept === ALTERNATIVES_PER_BAND) break;
+      }
     }
     categories[name] = {
       references: inCategory.length,
       cost: summarize(inCategory.map((ref) => ref.cost)),
       per100g: summarize(inCategory.map((ref) => ref.per100g)),
       per100gQuantiles: quantiles(inCategory.map((ref) => ref.per100g)),
+      // Eau (m³ éq) et climat (kg CO₂e) d'un vêtement médian de la catégorie, pour le quiz.
+      waterMedian: roundTo(median(inCategory.map((ref) => ref.water)), 3),
+      climateMedian: roundTo(median(inCategory.map((ref) => ref.climate)), 2),
       // Masse déduite du coût total et du coût pour 100 g. Sert de masse par défaut quand
       // l'utilisateur ne connaît pas celle de son vêtement.
-      medianMassGrams: summarize(inCategory.map((ref) => (ref.cost / ref.per100g) * 100)).median,
+      medianMassGrams: summarize(inCategory.map(massGrams)).median,
       alternatives,
     };
   }
 
   const brands = {};
+  const durabilities = {};
   for (const ref of refs) {
-    const brand = (brands[ref.brand] ??= { references: 0, gtins: 0, categories: {} });
+    const brand = (brands[ref.brand] ??= { references: 0, gtins: 0, belowMedian: 0, categories: {} });
     brand.references++;
     brand.gtins += ref.gtins;
     brand.categories[ref.category] = (brand.categories[ref.category] ?? 0) + 1;
+    // Moins coûteuse que la médiane de sa catégorie, à poids égal (points pour 100 g).
+    if (ref.per100g < categories[ref.category]?.per100g.median) brand.belowMedian++;
+    (durabilities[ref.brand] ??= []).push(ref.durability);
+  }
+  // Part des références de la marque sous la médiane de leur catégorie, en %, et durabilité médiane.
+  // Attention : uniquement sur les produits que la marque a choisi de déclarer.
+  for (const [name, brand] of Object.entries(brands)) {
+    brand.belowMedianShare = Math.round((brand.belowMedian / brand.references) * 100);
+    brand.durabilityMedian = roundTo(median(durabilities[name]), 2);
+    delete brand.belowMedian;
   }
   const sortedBrands = Object.fromEntries(
     Object.entries(brands).sort(([, a], [, b]) => b.references - a.references),

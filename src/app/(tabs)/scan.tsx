@@ -1,9 +1,10 @@
 import { CameraView, useCameraPermissions, type BarcodeScanningResult } from 'expo-camera';
 import { router, useFocusEffect, useLocalSearchParams } from 'expo-router';
 import { useCallback, useRef, useState } from 'react';
-import { Pressable, StyleSheet, Text, View } from 'react-native';
+import { Alert, Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { Button } from '@/components/Button';
+import { storePhoto } from '@/services/photoStore';
 import { colors } from '@/theme/colors';
 import { normalizeGtin } from '@/utils/gtin';
 
@@ -22,19 +23,27 @@ export default function ScanScreen() {
   const [mode, setMode] = useState<Mode>('barcode');
   const [isFocused, setIsFocused] = useState(false);
   const [isCapturing, setIsCapturing] = useState(false);
+  // La doc d'expo-camera demande d'attendre onCameraReady avant takePictureAsync : sur Android, une
+  // photo prise trop tôt échoue (sur iOS, elle reprend la dernière image affichée).
+  const [isCameraReady, setIsCameraReady] = useState(false);
   const camera = useRef<CameraView>(null);
   // Évite d'ouvrir plusieurs fois le résultat tant que le code reste devant la caméra.
   const scanLocked = useRef(false);
 
   const takeLabelPhoto = async () => {
-    if (!camera.current || isCapturing) return;
+    if (!camera.current || isCapturing || !isCameraReady) return;
     setIsCapturing(true);
     try {
       const photo = await camera.current.takePictureAsync({ quality: 0.8 });
       router.push({
         pathname: '/label',
-        params: { uri: photo.uri, width: String(photo.width), height: String(photo.height) },
+        params: { photo: storePhoto({ uri: photo.uri, width: photo.width, height: photo.height }) },
       });
+    } catch (error) {
+      Alert.alert(
+        'Photo impossible',
+        `L’appareil photo n’a pas pu prendre la photo. Réessayez.${__DEV__ && error instanceof Error ? `\n\n${error.message}` : ''}`,
+      );
     } finally {
       setIsCapturing(false);
     }
@@ -49,7 +58,11 @@ export default function ScanScreen() {
         // Consommé une fois : revenir plus tard sur l'onglet ne reforce pas le mode étiquette.
         router.setParams({ mode: undefined });
       }
-      return () => setIsFocused(false);
+      return () => {
+        setIsFocused(false);
+        // La caméra est démontée en quittant l'onglet : il faudra attendre qu'elle soit de nouveau prête.
+        setIsCameraReady(false);
+      };
     }, [params.mode]),
   );
 
@@ -80,6 +93,7 @@ export default function ScanScreen() {
           ref={camera}
           style={StyleSheet.absoluteFill}
           facing="back"
+          onCameraReady={() => setIsCameraReady(true)}
           barcodeScannerSettings={{ barcodeTypes: ['ean13', 'ean8', 'upc_a', 'upc_e'] }}
           onBarcodeScanned={mode === 'barcode' ? onBarcodeScanned : undefined}
         />
@@ -100,9 +114,9 @@ export default function ScanScreen() {
         </Text>
         {mode === 'label' && (
           <Button
-            label={isCapturing ? 'Photo en cours…' : 'Photographier l’étiquette'}
+            label={isCapturing ? 'Photo en cours…' : isCameraReady ? 'Photographier l’étiquette' : 'Caméra en préparation…'}
             onPress={takeLabelPhoto}
-            disabled={isCapturing}
+            disabled={isCapturing || !isCameraReady}
           />
         )}
       </View>

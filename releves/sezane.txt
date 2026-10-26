@@ -1,0 +1,207 @@
+RELEVÉ SÉZANE
+
+Date du relevé : 26 octobre 2026
+Temps passé : environ 20 minutes
+
+Écrivez après chaque « : ». Laissez vide si l'information n'est pas sur la fiche.
+Prenez les premiers produits affichés dans chaque catégorie, sans trier ni choisir.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : non
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : non
+Lien de la page : 
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : Top April
+Lien : https://www.sezane.com/fr-fr/product/top-april/noir#size-XXS
+Composition : 94% Coton biologique, 6% Élasthanne
+Fabriqué en : Portugal
+Tissé en : Portugal
+Teint en : Portugal
+Prix : 70 €
+
+Produit 2
+Nom : Top Juan
+Lien : https://www.sezane.com/fr-fr/product/top-juan/noir#size-XXS
+Composition : 97% Coton biologique, 3% Élasthanne
+Fabriqué en : Portugal
+Tissé en : Portugal
+Teint en :  Portugal
+Prix : 40 €
+
+Produit 3
+Nom : T-Shirt Leon
+Lien : https://www.sezane.com/fr-fr/product/t-shirt-leon/blanc#size-XXS
+Composition : 100% Coton biologique
+Fabriqué en : Portugal
+Tissé en : Portugal
+Teint en : Portugal
+Prix : 40 €
+
+Produit 4
+Nom : T-Shirt Nolan
+Lien : https://www.sezane.com/fr-fr/product/t-shirt-nolan/ecru#size-XXS
+Composition : 100% Coton biologique
+Fabriqué en : Portugal
+Tissé en : Portugal
+Teint en : Portugal
+Prix : 45 €
+
+Produit 5
+Nom : Body Hannah
+Lien : https://www.sezane.com/fr-fr/product/body-hannah/marron-glace#size-XS
+Composition : 43% Laine Mérinos, 43% Coton Biologique, 13% Polyamide, 1% Élasthanne
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 100 €
+
+===== PULLS ET MAILLE =====
+
+Produit 6
+Nom : Pull Perrine
+Lien : https://www.sezane.com/fr-fr/product/pull-perrine/ecru#size-XXS
+Composition : 100% Laine Mérinos
+Fabriqué en : Roumanie
+Tissé en : Roumanie
+Teint en : Italie
+Prix : 170 €
+
+Produit 7
+Nom : Pull Nathan
+Lien : https://www.sezane.com/fr-fr/product/pull-nathan/chocolat-fonce#size-T1
+Composition : 100% Laine Mérinos
+Fabriqué en : Italie
+Tissé en : Italie
+Teint en : Italie
+Prix : 170 €
+
+Produit 8
+Nom : Gilet Othello
+Lien : https://www.sezane.com/fr-fr/product/gilet-othello/marron#size-XXS
+Composition : 68% Baby Alpaga, 30% Polyamide*, 2% Élasthanne, *dont 20% de Polyamide recyclé
+Fabriqué en : Italie
+Tissé en : Italie
+Teint en : Italie
+Prix : 120 €
+
+Produit 9
+Nom : Gilet André
+Lien : https://www.sezane.com/fr-fr/product/gilet-andre/ecru#size-XXS
+Composition : 38% Polyamide*, 35% Laine Mérinos, 26% Super kid mohair, 1% Élasthanne, *dont 20% de Polyamide recyclé
+Fabriqué en : Italie
+Tissé en : Italie
+Teint en : Italie
+Prix : 125 €
+
+===== ROBES ET JUPES =====
+
+Produit 10
+Nom : Robe Blimis
+Lien : https://www.sezane.com/fr-fr/product/robe-blimis/noir#size-34
+Composition : 100% Viscose
+Fabriqué en : Bulgarie
+Tissé en : Portugal
+Teint en : Portugal
+Prix : 160 €
+
+Produit 11
+Nom : Robe Kasia
+Lien : https://www.sezane.com/fr-fr/product/robe-kasia/rouge-rubis#size-XS
+Composition : 100% Laine Mérinos
+Fabriqué en : Chine 
+Tissé en : Chine
+Teint en : Chine
+Prix : 155 €
+
+Produit 12
+Nom : Jupe Jeny
+Lien : https://www.sezane.com/fr-fr/product/jupe-jeny/creme#size-46
+Composition : 100% Soie
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 150 €
+
+===== PANTALONS ET JEANS =====
+
+Produit 13
+Nom : Pantalon Marc
+Lien : https://www.sezane.com/fr-fr/product/pantalon-marc/marine#size-34
+Composition : 53% Polyester*, 43% Laine, 4% Élasthanne, *Fibre recyclée
+Fabriqué en : Bulgarie
+Tissé en : Italie
+Teint en : Italie
+Prix : 145 €
+
+Produit 14
+Nom : Pantalon Ramy
+Lien : https://www.sezane.com/fr-fr/product/pantalon-ramy/brun#size-34
+Composition : 100% Laine
+Fabriqué en : Bulgarie
+Tissé en : Italie
+Teint en : Italie
+Prix : 145 €
+
+Produit 15
+Nom : Pantalon Le New 70's
+Lien : https://www.sezane.com/fr-fr/product/pantalon-le-new-70s/bleu-denim#size-32
+Composition : 99% Coton biologique, 1% Élasthanne recyclé
+Fabriqué en : Turquie
+Tissé en : Italie
+Teint en : Italie
+Prix : 120 €
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 16
+Nom : Chemise Cloia
+Lien : https://www.sezane.com/fr-fr/product/chemise-cloia/ecru#size-34
+Composition : 100% Coton biologique
+Fabriqué en : Portugal
+Tissé en : Portugal
+Teint en : Portugal
+Prix : 115 €
+
+Produit 17
+Nom : Blouse Edena
+Lien : https://www.sezane.com/fr-fr/product/blouse-edena/ecru#size-34
+Composition : 96% Coton biologique, 4% Élasthanne
+Fabriqué en : Portugal
+Tissé en : Italie
+Teint en :  Italie
+Prix : 140 €
+
+Produit 18
+Nom : Chemise Tomboy
+Lien : https://www.sezane.com/fr-fr/product/chemise-tomboy/blanc#size-32
+Composition : 100% Coton biologique
+Fabriqué en : Portugal
+Tissé en : Portugal
+Teint en : Portugal
+Prix : 90 €
+
+===== MANTEAUX ET VESTES =====
+
+Produit 19
+Nom : Manteau Ferdinand
+Lien : https://www.sezane.com/fr-fr/product/manteau-ferdinand/pourpre#size-T0
+Composition : 75% Laine recyclée, 25% Polyamide recyclé
+Fabriqué en : Roumanie
+Tissé en : Italie
+Teint en : Italie
+Prix : 450 €
+
+Produit 20
+Nom : Veste Oscar
+Lien : https://www.sezane.com/fr-fr/product/veste-oscar/taupe-fonce#size-T1
+Composition : 33% Laine Mérinos, 33% Kid mohair, 30% Polyamide*, 4% Élasthanne, *100% recyclé
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 245 €

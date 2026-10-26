@@ -41,6 +41,10 @@ function compact(item) {
     cost: score.score,
     per100g: score.standardized,
     durability: score.durability,
+    // Utilisation de ressources en eau, en m³ éq (étapes matières et filature seulement).
+    water: score.wtu,
+    // Changement climatique, en kg CO₂e.
+    climate: score.cch,
     declaredBy: item.upload?.createdBy?.organization?.name ?? null,
     method: item.upload?.version ?? null,
   };

@@ -53,6 +53,14 @@ function RootNavigator() {
         <Stack.Screen name="favorites/index" options={{ title: 'Favoris' }} />
         <Stack.Screen name="favorites/[kind]" />
         <Stack.Screen name="history" options={{ title: 'Historique' }} />
+        <Stack.Screen name="brand-criteria" options={{ title: 'Nos critères' }} />
+        <Stack.Screen name="privacy" options={{ title: 'Confidentialité' }} />
+      </Stack.Protected>
+
+      {/* Réservé aux comptes connectés : le résultat est gardé dans leur bibliothèque. */}
+      <Stack.Protected guard={user !== null && !needsOnboarding}>
+        <Stack.Screen name="quiz" options={{ title: 'Quiz' }} />
+        <Stack.Screen name="preferences" options={{ title: 'Mes objectifs' }} />
       </Stack.Protected>
 
       <Stack.Protected guard={needsOnboarding}>

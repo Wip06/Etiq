@@ -81,3 +81,41 @@ export function searchMaterials(query: string): Material[] {
   if (!q) return materials;
   return materials.filter((material) => normalize(material.name).includes(q));
 }
+
+// Fiche du lexique pour chaque matière Ecobalyse, quand le texte de l'étiquette ne suffit pas
+// (étiquette en anglais, orthographe différente…). Le polypropylène n'a pas de fiche.
+const ECOBALYSE_MATERIALS: Record<string, string> = {
+  elasthane: 'Élasthanne',
+  'ei-acrylique': 'Acrylique',
+  'ei-jute-kenaf': 'Jute',
+  'ei-pet': 'Polyester',
+  'ei-pet-r': 'Polyester recyclé',
+  'ei-pa': 'Polyamide et nylon',
+  'ei-lin': 'Lin',
+  'ei-laine-par-defaut': 'Laine',
+  'ei-laine-nouvelle-filiere': 'Laine',
+  'ei-coton': 'Coton',
+  'ei-coton-organic': 'Coton',
+  'ei-chanvre': 'Chanvre',
+  'ei-viscose': 'Viscose ou rayonne',
+  'coton-rdpc': 'Coton recyclé',
+  'coton-rdp': 'Coton recyclé',
+};
+
+const words = (text: string) => normalize(text).split(/[^a-z]+/).filter((word) => word.length >= 3);
+
+// Fiche d'une matière lue sur une étiquette : celle qui partage le plus de mots avec le texte
+// (« polyester recyclé » → Polyester recyclé, « lyocell » → Lyocell), sinon celle de son
+// identifiant Ecobalyse.
+export function findMaterial(text: string, ecobalyseId?: string): Material | null {
+  const textWords = new Set(words(text));
+  let best: { material: Material; score: number } | null = null;
+  for (const material of materials) {
+    const score = words(material.name).filter((word) => textWords.has(word)).length;
+    if (score > 0 && (!best || score > best.score)) best = { material, score };
+  }
+  if (best) return best.material;
+
+  const fallback = ecobalyseId ? ECOBALYSE_MATERIALS[ecobalyseId] : undefined;
+  return materials.find((material) => material.name === fallback) ?? null;
+}

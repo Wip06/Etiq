@@ -1,10 +1,12 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, use, useCallback, useEffect, useMemo, useState, type PropsWithChildren } from 'react';
 
+import { isCurrentResult, type QuizResult } from '@/data/quiz';
 import { useSession } from '@/session/SessionProvider';
+import { libraryKey } from '@/session/storageKeys';
 
-// Favoris et historique des comptes connectés, gardés sur le téléphone et rattachés à l'e-mail :
-// on les retrouve après une déconnexion. Les invités n'y ont pas accès.
+// Favoris, historique et résultats du quiz des comptes connectés, gardés sur le téléphone et
+// rattachés à l'e-mail : on les retrouve après une déconnexion. Les invités n'y ont pas accès.
 
 export type FavoriteKind = 'brand' | 'article' | 'product';
 
@@ -21,21 +23,37 @@ export type Scan = {
   subtitle: string;
   // Coût environnemental en points, null si le produit n'est pas déclaré.
   cost: number | null;
+  // Part des vêtements de sa catégorie qui ont plus d'impact, à poids égal (%). Absent des scans
+  // enregistrés avant son ajout, null si le vêtement n'est pas comparable.
+  lessImpactThan?: number | null;
   scannedAt: string;
 };
 
-type Library = { favorites: Favorite[]; history: Scan[] };
+// Résultats du quiz, du plus récent au plus ancien : ils mesurent l'évolution de l'impact.
+// quizResult (un seul résultat) vient des bibliothèques enregistrées avant cet historique.
+type Library = { favorites: Favorite[]; history: Scan[]; quizHistory?: QuizResult[]; quizResult?: QuizResult | null };
 
-type LibraryValue = Library & {
+type LibraryValue = Omit<Library, 'quizHistory' | 'quizResult'> & {
+  quizHistory: QuizResult[];
+  // Dernier résultat du quiz, null s'il n'a jamais été fait.
+  quizResult: QuizResult | null;
   enabled: boolean;
   isFavorite: (kind: FavoriteKind, id: string) => boolean;
   toggleFavorite: (favorite: Favorite) => void;
   addScan: (scan: Scan) => void;
   clearHistory: () => void;
+  saveQuizResult: (result: QuizResult) => void;
 };
 
 const MAX_HISTORY = 50;
-const EMPTY: Library = { favorites: [], history: [] };
+const MAX_QUIZ_RESULTS = 24;
+const EMPTY: Library = { favorites: [], history: [], quizHistory: [] };
+
+// Résultats du quiz au format actuel, y compris celui d'une bibliothèque d'avant l'historique.
+function quizResultsOf(library: Library): QuizResult[] {
+  const results = library.quizHistory ?? (library.quizResult ? [library.quizResult] : []);
+  return results.filter(isCurrentResult);
+}
 
 const LibraryContext = createContext<LibraryValue | null>(null);
 
@@ -47,7 +65,7 @@ export function useLibrary() {
 
 export function LibraryProvider({ children }: PropsWithChildren) {
   const { user } = useSession();
-  const storageKey = user ? `etiq.library.${user.email}` : null;
+  const storageKey = user ? libraryKey(user.email) : null;
   const [library, setLibrary] = useState<{ key: string | null; data: Library }>({ key: null, data: EMPTY });
 
   useEffect(() => {
@@ -98,16 +116,29 @@ export function LibraryProvider({ children }: PropsWithChildren) {
 
   const clearHistory = useCallback(() => update((current) => ({ ...current, history: [] })), [update]);
 
+  const saveQuizResult = useCallback(
+    (result: QuizResult) =>
+      update(({ quizResult: _legacy, ...current }) => ({
+        ...current,
+        quizHistory: [result, ...quizResultsOf(current)].slice(0, MAX_QUIZ_RESULTS),
+      })),
+    [update],
+  );
+
   const value = useMemo<LibraryValue>(
     () => ({
-      ...data,
+      favorites: data.favorites,
+      history: data.history,
+      quizHistory: quizResultsOf(data),
+      quizResult: quizResultsOf(data)[0] ?? null,
       enabled,
       isFavorite: (kind, id) => data.favorites.some((item) => item.kind === kind && item.id === id),
       toggleFavorite,
       addScan,
       clearHistory,
+      saveQuizResult,
     }),
-    [data, enabled, toggleFavorite, addScan, clearHistory],
+    [data, enabled, toggleFavorite, addScan, clearHistory, saveQuizResult],
   );
 
   return <LibraryContext.Provider value={value}>{children}</LibraryContext.Provider>;

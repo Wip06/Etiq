@@ -2,13 +2,15 @@ import { router, Stack, useLocalSearchParams } from 'expo-router';
 import { useCallback, useEffect, useState } from 'react';
 import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
 
+import { Alternatives } from '@/components/Alternatives';
 import { Button } from '@/components/Button';
 import { CategoryComparison } from '@/components/CategoryComparison';
 import { FavoriteButton } from '@/components/FavoriteButton';
 import { InfoButton } from '@/components/InfoButton';
 import { OfficialCostLabel } from '@/components/OfficialCostLabel';
+import { ImpactEquivalents } from '@/components/ImpactEquivalents';
 import { COST_EXPLANATION, DURABILITY_EXPLANATION, STAGE_EXPLANATIONS } from '@/data/explanations';
-import { compareToCategory } from '@/data/portalStats';
+import { compareToCategory, findAlternatives } from '@/data/portalStats';
 import { getProduct, labelImageUrl, STAGES, type PortalProduct, type Stage } from '@/services/portal';
 import { useLibrary } from '@/session/LibraryProvider';
 import { colors } from '@/theme/colors';
@@ -37,6 +39,10 @@ export default function ProductScreen() {
             title: product ? product.reference : 'Produit non déclaré',
             subtitle: product ? product.brand : `Code ${gtin}`,
             cost: product ? product.cost : null,
+            lessImpactThan:
+              product && product.components === 1
+                ? (compareToCategory(product.category, product.per100g)?.lessImpactThan ?? null)
+                : null,
             scannedAt: new Date().toISOString(),
           });
         }
@@ -86,7 +92,15 @@ export default function ProductScreen() {
 
   const { product } = state;
   // Un lot n'est pas comparable à des vêtements vendus à l'unité.
-  const comparison = product.components === 1 ? compareToCategory(product.category, product.per100g) : null;
+  const isSingle = product.components === 1;
+  const comparison = isSingle ? compareToCategory(product.category, product.per100g) : null;
+  const alternatives = isSingle
+    ? findAlternatives(product.category, {
+        gtin: product.gtin,
+        per100g: product.per100g,
+        massGrams: (product.cost / product.per100g) * 100,
+      })
+    : [];
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <Stack.Screen options={{ title: product.brand }} />
@@ -107,6 +121,10 @@ export default function ProductScreen() {
       <Text style={styles.costHint}>Plus le chiffre est bas, moins le vêtement a d’impact.</Text>
 
       {comparison && <CategoryComparison comparison={comparison} />}
+
+      <ImpactEquivalents cost={product.cost} water={product.water} climate={product.climate} />
+
+      <Alternatives alternatives={alternatives} water={product.water} />
 
       <Text style={styles.sectionTitle}>Détail par étape</Text>
       {(Object.keys(STAGES) as Stage[]).map((stage) => (

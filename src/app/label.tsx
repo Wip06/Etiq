@@ -3,13 +3,18 @@ import { ImageManipulator, SaveFormat } from 'expo-image-manipulator';
 import { useEffect, useState } from 'react';
 import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 
+import { Alternatives } from '@/components/Alternatives';
 import { Button } from '@/components/Button';
 import { CategoryComparison } from '@/components/CategoryComparison';
+import { ImpactEquivalents } from '@/components/ImpactEquivalents';
+import { MaterialInfoButton } from '@/components/MaterialInfo';
 import { OfficialCostLabel } from '@/components/OfficialCostLabel';
 import { categories, type Category } from '@/data/categories';
 import { COUNTRY_NAMES, MATERIAL_NAMES } from '@/data/ecobalyse';
-import { compareToCategory } from '@/data/portalStats';
+import { syntheticGrams } from '@/data/equivalents';
+import { compareToCategory, findAlternatives } from '@/data/portalStats';
 import { estimateCost } from '@/services/ecobalyse';
+import { getPhoto } from '@/services/photoStore';
 import { LabelReaderError, readLabel, type Label, type LabelMaterial } from '@/services/labelReader';
 import { scoreLabelImageUrl } from '@/services/portal';
 import { colors } from '@/theme/colors';
@@ -53,33 +58,48 @@ async function photoToBase64(uri: string, width: number, height: number): Promis
 }
 
 export default function LabelScreen() {
-  const params = useLocalSearchParams<{ uri: string; width: string; height: string }>();
+  const params = useLocalSearchParams<{ photo: string }>();
+  // Absente si l'app a été rechargée depuis la photo : elle n'est gardée qu'en mémoire.
+  const photo = getPhoto(params.photo);
   const [step, setStep] = useState<Step>({ name: 'reading' });
   const [category, setCategory] = useState<Category | null>(null);
   const [massText, setMassText] = useState('');
   const [priceText, setPriceText] = useState('');
 
   useEffect(() => {
+    if (!photo) return;
     let cancelled = false;
-    photoToBase64(params.uri, Number(params.width) || MAX_SIDE, Number(params.height) || MAX_SIDE)
+    photoToBase64(photo.uri, photo.width || MAX_SIDE, photo.height || MAX_SIDE)
       .then(readLabel)
       .then((label) => !cancelled && setStep({ name: 'review', label }))
       .catch((error) => {
         if (cancelled) return;
+        // Une autre erreur vient de la préparation de la photo (redimensionnement), avant tout envoi.
         const message =
-          error instanceof LabelReaderError ? error.message : 'Impossible de lire la photo. Vérifiez votre connexion.';
+          error instanceof LabelReaderError
+            ? error.message
+            : `Impossible de préparer la photo.${__DEV__ && error instanceof Error ? `\n\n${error.message}` : ''}`;
         setStep({ name: 'error', message });
       });
     return () => {
       cancelled = true;
     };
-  }, [params.uri, params.width, params.height]);
+  }, [photo]);
 
   // Masse médiane de la catégorie proposée par défaut, tant que l'utilisateur ne l'a pas changée.
   const chooseCategory = (next: Category) => {
     if (!massText || massText === String(category?.defaultMassGrams)) setMassText(String(next.defaultMassGrams));
     setCategory(next);
   };
+
+  if (!photo) {
+    return (
+      <View style={[styles.container, styles.centered]}>
+        <Text style={styles.message}>Photo introuvable. Reprenez la photo de l’étiquette.</Text>
+        <Button label="Reprendre la photo" onPress={() => router.back()} />
+      </View>
+    );
+  }
 
   if (step.name === 'reading' || step.name === 'computing') {
     return (
@@ -119,11 +139,22 @@ export default function LabelScreen() {
   if (step.name === 'result') {
     const per100g = step.cost / (step.massKg * 10);
     const comparison = compareToCategory(step.category.name, per100g);
+    const alternatives = findAlternatives(step.category.name, { per100g, massGrams: step.massKg * 1000 });
     return (
       <ScrollView style={styles.container} contentContainerStyle={styles.content}>
         <Text style={styles.badge}>Estimation Etiq</Text>
         <Text style={styles.title}>{step.category.name}</Text>
-        <Text style={styles.meta}>{describeComposition(label)}</Text>
+        <View>
+          {label.materials.map((material) => (
+            <View key={`${material.text}-${material.percent}`} style={styles.materialRow}>
+              <Text style={styles.meta}>
+                {material.percent} % {material.text}
+              </Text>
+              <MaterialInfoButton text={material.text} ecobalyseId={material.id} />
+            </View>
+          ))}
+          {label.countryText ? <Text style={styles.meta}>{label.countryText}</Text> : null}
+        </View>
 
         <View style={styles.costLabel}>
           <OfficialCostLabel imageUrl={scoreLabelImageUrl(step.cost, step.massKg)} cost={step.cost} per100g={per100g} />
@@ -131,6 +162,10 @@ export default function LabelScreen() {
         <Text style={styles.costHint}>Plus le chiffre est bas, moins le vêtement a d’impact.</Text>
 
         {comparison && <CategoryComparison comparison={comparison} />}
+
+        <ImpactEquivalents cost={step.cost} plastic={syntheticGrams(label.materials, step.massKg * 1000)} />
+
+        <Alternatives alternatives={alternatives} />
 
         <View style={styles.card}>
           <Text style={styles.cardTitle}>Pourquoi une estimation ?</Text>
@@ -178,10 +213,13 @@ export default function LabelScreen() {
       <View style={styles.card}>
         <Text style={styles.cardTitle}>Composition</Text>
         {label.materials.map((material) => (
-          <Text key={`${material.text}-${material.percent}`} style={styles.text}>
-            {material.percent} % {material.text}
-            {material.id === 'autre' ? ' (non modélisée)' : ` → ${MATERIAL_NAMES[material.id] ?? material.id}`}
-          </Text>
+          <View key={`${material.text}-${material.percent}`} style={styles.materialRow}>
+            <Text style={[styles.text, styles.flex]}>
+              {material.percent} % {material.text}
+              {material.id === 'autre' ? ' (non modélisée)' : ` → ${MATERIAL_NAMES[material.id] ?? material.id}`}
+            </Text>
+            <MaterialInfoButton text={material.text} ecobalyseId={material.id} />
+          </View>
         ))}
         <Text style={styles.cardTitle}>Confection</Text>
         <Text style={styles.text}>
@@ -250,11 +288,6 @@ export default function LabelScreen() {
   );
 }
 
-function describeComposition(label: Label): string {
-  const fibers = label.materials.map((material) => `${material.percent} % ${material.text}`).join(', ');
-  return label.countryText ? `${fibers} · ${label.countryText}` : fibers;
-}
-
 const styles = StyleSheet.create({
   container: {
     flex: 1,
@@ -295,6 +328,16 @@ const styles = StyleSheet.create({
     fontSize: 14,
     lineHeight: 20,
     color: colors.secondary,
+  },
+  // Ligne d'une matière, suivie du bouton qui ouvre sa fiche.
+  materialRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 10,
+    minHeight: 28,
+  },
+  flex: {
+    flex: 1,
   },
   card: {
     gap: 6,
