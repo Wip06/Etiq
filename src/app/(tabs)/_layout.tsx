@@ -10,7 +10,8 @@ type IconName = ComponentProps<typeof Ionicons>['name'];
 
 function tabIcon(name: IconName) {
   return function TabBarIcon({ color, size }: { color: ColorValue; size: number }) {
-    return <Ionicons name={name} size={size} color={color} />;
+    // Depuis React Native 0.88, ColorValue peut valoir null, ce que les icônes refusent.
+    return <Ionicons name={name} size={size} color={typeof color === 'string' ? color : undefined} />;
   };
 }
 

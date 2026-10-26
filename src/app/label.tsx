@@ -128,6 +128,7 @@ export default function LabelScreen() {
         <View style={styles.costLabel}>
           <OfficialCostLabel imageUrl={scoreLabelImageUrl(step.cost, step.massKg)} cost={step.cost} per100g={per100g} />
         </View>
+        <Text style={styles.costHint}>Plus le chiffre est bas, moins le vêtement a d’impact.</Text>
 
         {comparison && <CategoryComparison comparison={comparison} />}
 
@@ -347,6 +348,12 @@ const styles = StyleSheet.create({
     fontSize: 16,
     color: colors.text,
     backgroundColor: colors.surface,
+  },
+  costHint: {
+    marginTop: -4,
+    fontSize: 14,
+    textAlign: 'center',
+    color: colors.secondary,
   },
   costLabel: {
     alignItems: 'center',

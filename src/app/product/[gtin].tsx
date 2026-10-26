@@ -104,6 +104,7 @@ export default function ProductScreen() {
         <InfoButton explanation={COST_EXPLANATION} />
         <OfficialCostLabel imageUrl={labelImageUrl(product.gtin)} cost={product.cost} per100g={product.per100g} />
       </View>
+      <Text style={styles.costHint}>Plus le chiffre est bas, moins le vêtement a d’impact.</Text>
 
       {comparison && <CategoryComparison comparison={comparison} />}
 
@@ -184,6 +185,12 @@ const styles = StyleSheet.create({
     fontSize: 16,
     lineHeight: 24,
     color: colors.text,
+  },
+  costHint: {
+    marginTop: -4,
+    fontSize: 14,
+    textAlign: 'center',
+    color: colors.secondary,
   },
   costLabel: {
     flexDirection: 'row',

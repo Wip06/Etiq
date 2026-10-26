@@ -27,7 +27,7 @@ export default function HistoryScreen() {
             <View style={styles.footer}>
               <Button label="Effacer l’historique" variant="secondary" onPress={confirmClearHistory} />
             </View>
-          ) : null
+          ) : undefined
         }
       />
     </View>
