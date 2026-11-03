@@ -1,0 +1,196 @@
+RELEVÉ BA&SH
+
+Date du relevé : 2 novembre 2026
+Méthode : automatique, à partir du plan du site (les premiers modèles de chaque catégorie), 5 s entre chaque page
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : WIRO
+Lien : https://ba-sh.com/fr/fr/p/top-wiro-noir-3667436026379.html
+Composition : 100% POLYESTER
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 255 €
+
+Produit 2
+Nom : CADIE
+Lien : https://ba-sh.com/fr/fr/p/top-cadie-noir-3667436071188.html
+Composition : 100% POLYESTER
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 175 €
+
+Produit 3
+Nom : HODA
+Lien : https://ba-sh.com/fr/fr/p/top-hoda-ecru-3667436086908.html
+Composition : 95% COTON, 5% ELASTHANNE
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 95 €
+
+Produit 4
+Nom : LANEA
+Lien : https://ba-sh.com/fr/fr/p/top-lanea-noir-3667436089749.html
+Composition : 94% POLYAMIDE RECYCLE, 6% ELASTHANNE
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 165 €
+
+Produit 5
+Nom : NIKA
+Lien : https://ba-sh.com/fr/fr/p/top-nika-cafe-3667436048043.html
+Composition : 65% VISCOSE, 35% POLYAMIDE RECYCLE
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 87 €
+
+===== PULLS ET MAILLE =====
+
+Produit 6
+Nom : CYRON
+Lien : https://ba-sh.com/fr/fr/p/gilet-cyron-lavande-3667436041112.html
+Composition : 100% COTON
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 155 €
+
+Produit 7
+Nom : LELYRA
+Lien : https://ba-sh.com/fr/fr/p/pull-lelyra-marine-3667436091117.html
+Composition : 100% LAINE REGENERATRICE
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 255 €
+
+Produit 8
+Nom : DEHINA
+Lien : https://ba-sh.com/fr/fr/p/sweatshirt-dehina-encre-3667436088469.html
+Composition : 50% COTON, 50% POLYESTER
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 165 €
+
+Produit 9
+Nom : RABEL
+Lien : https://ba-sh.com/fr/fr/p/cardigan-rabel-grischine-3667436092237.html
+Composition : 62% LAINE, 29% POLYAMIDE, 5% MOHAIR, 4% ALPAGA
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 315 €
+
+===== ROBES ET JUPES =====
+
+Produit 10
+Nom : PARISA
+Lien : https://ba-sh.com/fr/fr/p/robe-parisa-carbone-3667436079436.html
+Composition : 100% LYOCELL
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 265 €
+
+Produit 11
+Nom : APHRODITE
+Lien : https://ba-sh.com/fr/fr/p/robe-aphrodite-ecru-3667436045820.html
+Composition : 100% VISCOSE
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 475 €
+
+Produit 12
+Nom : POLY
+Lien : https://ba-sh.com/fr/fr/p/robe-poly-bleu-3667436025341.html
+Composition : 100% VISCOSE
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 265 €
+
+===== PANTALONS ET JEANS =====
+
+Produit 13
+Nom : ZOEL
+Lien : https://ba-sh.com/fr/fr/p/jean-zoel-bluejeans-3664784946830.html
+Composition : 100% COTON
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 185 €
+
+Produit 14
+Nom : WALLIE
+Lien : https://ba-sh.com/fr/fr/p/pantalon-wallie-greige-3667436069710.html
+Composition : 100% POLYESTER
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 195 €
+
+Produit 15
+Nom : MABO
+Lien : https://ba-sh.com/fr/fr/p/short-mabo-bluejeans-3664784756538.html
+Composition : 100% COTON
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 93 €
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 16
+Nom : CESSIA
+Lien : https://ba-sh.com/fr/fr/p/chemise-cessia-aubergine-3667436089541.html
+Composition : 100% POLYESTER
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 185 €
+
+Produit 17
+Nom : BRAVA
+Lien : https://ba-sh.com/fr/fr/p/chemise-brava-noir-3667436087882.html
+Composition : 100% VISCOSE
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 185 €
+
+Produit 18
+Nom : WILNA
+Lien : https://ba-sh.com/fr/fr/p/chemise-wilna-greige-3667436069895.html
+Composition : 100% POLYESTER
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 195 €
+
+===== MANTEAUX ET VESTES =====
+
+Produit 19
+Nom : SONJO
+Lien : https://ba-sh.com/fr/fr/p/manteau-sonjo-sable-3667436091315.html
+Composition : 100% POLYESTER
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 295 €
+
+Produit 20
+Nom : WILI
+Lien : https://ba-sh.com/fr/fr/p/manteau-wili-beige-3667436073250.html
+Composition : 100% POLYAMIDE RECYCLE
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 355 €

@@ -1,0 +1,209 @@
+RELEVÉ FAGUO
+
+Date du relevé : 
+Heure de début : 
+Heure de fin : 
+
+Écrivez après chaque « : ». Laissez vide si l'information n'est pas sur la fiche.
+Prenez les premiers produits affichés dans chaque catégorie, sans trier ni choisir.
+Composition : recopiez le tissu principal en entier, toutes les fibres (ex. « 52 % coton, 48 % polyester »).
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 2
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 3
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 4
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 5
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+===== PULLS ET MAILLE =====
+
+Produit 6
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 7
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 8
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 9
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+===== ROBES ET JUPES =====
+
+Produit 10
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 11
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 12
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+===== PANTALONS ET JEANS =====
+
+Produit 13
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 14
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 15
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 16
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 17
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 18
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+===== MANTEAUX ET VESTES =====
+
+Produit 19
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 
+
+Produit 20
+Nom : 
+Lien : 
+Composition : 
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 

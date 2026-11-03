@@ -65,7 +65,7 @@ function SurveyCard({ survey, portal }: { survey: BrandSurvey; portal: ReturnTyp
     ['Confection en Europe', survey.europeShare !== null ? `${survey.europeShare} % des produits` : 'non relevé'],
     ['Pays de confection', survey.countries.length > 0 ? survey.countries.join(', ') : 'non relevé'],
     ['Prix médian', survey.medianPrice !== null ? `${Math.round(survey.medianPrice)} €` : 'non relevé'],
-    ['Réparation', yesNo(survey.repair)],
+    ['Réparation', survey.repair && survey.repairLimited ? `oui, ${survey.repairLimited}` : yesNo(survey.repair)],
     ['Seconde main', yesNo(survey.secondHand)],
   ];
   if (portal) {

@@ -2,6 +2,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import { router } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
+import { BrandMatchCard } from '@/components/BrandMatchCard';
 import { LoginPrompt } from '@/components/LoginPrompt';
 import { getGoal } from '@/data/goals';
 import { recommendBrands } from '@/data/recommendations';
@@ -39,39 +40,28 @@ export default function HomeScreen() {
 // Marques et lectures choisies d'après les objectifs de l'utilisateur.
 function ForYou({ preferences }: { preferences: Preferences }) {
   const recommendations = recommendBrands(preferences);
+  const matching = recommendations.filter((recommendation) => recommendation.matchesGoal);
+  const others = recommendations.filter((recommendation) => !recommendation.matchesGoal);
   const readings = preferences.goals.flatMap((id) => getGoal(id)?.readings ?? []);
 
   return (
     <>
       <Text style={styles.sectionTitle}>Marques pour vous</Text>
-      {recommendations.length === 0 ? (
+      {matching.length === 0 && (
         <View style={styles.card}>
           <Text style={styles.cardText}>
-            Aucune marque relevée ne correspond encore à vos objectifs. Nous en ajoutons régulièrement.
+            Aucune marque relevée ne répond encore à vos objectifs. En voici d’autres, à défaut : nous en ajoutons
+            régulièrement.
           </Text>
         </View>
-      ) : (
-        recommendations.map(({ brand, goals }) => (
-          <Pressable
-            key={brand.id}
-            accessibilityRole="button"
-            onPress={() => router.push({ pathname: '/brand/[id]', params: { id: brand.id } })}
-            style={({ pressed }) => [styles.card, styles.row, pressed && styles.pressed]}
-          >
-            <View style={styles.rowText}>
-              <Text style={styles.brandName}>{brand.name}</Text>
-              <View style={styles.badges}>
-                {goals.map((goal) => (
-                  <Text key={goal} style={styles.badge}>
-                    {getGoal(goal)?.badge}
-                  </Text>
-                ))}
-              </View>
-            </View>
-            <Ionicons name="chevron-forward" size={18} color={colors.secondary} />
-          </Pressable>
-        ))
       )}
+      {matching.map((recommendation) => (
+        <BrandMatchCard key={recommendation.brand.id} recommendation={recommendation} />
+      ))}
+      {others.length > 0 && matching.length > 0 && <Text style={styles.subsection}>À défaut</Text>}
+      {others.map((recommendation) => (
+        <BrandMatchCard key={recommendation.brand.id} recommendation={recommendation} />
+      ))}
       <Pressable accessibilityRole="link" onPress={() => router.push('/brand-criteria')}>
         <Text style={styles.link}>Comment nous choisissons les marques</Text>
       </Pressable>
@@ -159,25 +149,10 @@ const styles = StyleSheet.create({
   pressed: {
     opacity: 0.7,
   },
-  brandName: {
-    fontSize: 17,
-    fontWeight: '700',
-    color: colors.text,
-  },
-  badges: {
-    flexDirection: 'row',
-    flexWrap: 'wrap',
-    gap: 6,
-  },
-  badge: {
-    paddingVertical: 3,
-    paddingHorizontal: 10,
-    borderRadius: 999,
-    overflow: 'hidden',
-    fontSize: 12,
+  subsection: {
+    fontSize: 15,
     fontWeight: '600',
-    color: colors.onAccent,
-    backgroundColor: colors.secondary,
+    color: colors.secondary,
   },
   link: {
     fontSize: 14,

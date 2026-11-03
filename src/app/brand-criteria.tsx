@@ -8,10 +8,10 @@ import { colors } from '@/theme/colors';
 // Comment l'app choisit les marques qu'elle propose. Les seuils viennent de CRITERIA : la page
 // reste juste si on les modifie.
 const GOAL_RULES: Record<string, string> = {
-  impact: `Au moins ${CRITERIA.minBelowMedianShare} % de ses produits déclarés sur le portail officiel ont un coût environnemental plus bas que la médiane de leur catégorie, à poids égal, sur au moins ${CRITERIA.minDeclaredReferences} produits déclarés.`,
-  durable: 'La marque propose un service de réparation ou de revente de ses vêtements d’occasion.',
-  materials: `En moyenne, au plus ${CRITERIA.maxSyntheticShare} % de fibres synthétiques (polyester, nylon, acrylique, élasthanne…) dans la composition de ses vêtements.`,
-  local: `Au moins ${CRITERIA.minEuropeShare} % de ses vêtements sont confectionnés en Europe.`,
+  impact: `Au moins ${CRITERIA.minBelowMedianShare} % de ses produits déclarés sur le portail officiel ont un coût environnemental plus bas que la médiane de leur catégorie, à poids égal (en partie dès ${CRITERIA.partialBelowMedianShare} %). Il faut au moins ${CRITERIA.minDeclaredReferences} produits déclarés : en dessous, nous ne savons pas.`,
+  durable: 'La marque propose un service de réparation ou de revente de ses vêtements d’occasion (en partie si ce service n’existe que dans quelques magasins).',
+  materials: `En moyenne, au plus ${CRITERIA.maxSyntheticShare} % de fibres synthétiques (polyester, nylon, acrylique, élasthanne…) dans la composition de ses vêtements (en partie jusqu’à ${CRITERIA.partialSyntheticShare} %).`,
+  local: `Au moins ${CRITERIA.minEuropeShare} % de ses vêtements sont confectionnés en Europe (en partie dès ${CRITERIA.partialEuropeShare} %).`,
 };
 
 export default function BrandCriteriaScreen() {
@@ -20,7 +20,7 @@ export default function BrandCriteriaScreen() {
       <Section title="Notre principe">
         <Paragraph>
           Aucune marque ne paie pour apparaître dans Etiq ou pour être mieux placée. Nous ne donnons pas de note aux
-          marques : ce sont vos objectifs, choisis à l’inscription, qui filtrent celles que nous vous proposons.
+          marques : ce sont vos objectifs, choisis à l’inscription, qui classent celles que nous vous proposons.
         </Paragraph>
       </Section>
 
@@ -32,15 +32,16 @@ export default function BrandCriteriaScreen() {
           </View>
         ))}
         <Paragraph>
-          Une marque est proposée si elle remplit au moins un de vos objectifs, et si son prix médian reste proche de
-          votre budget.
+          Toutes les marques relevées sont proposées, de la plus proche à la moins proche de vos objectifs et de votre
+          budget. Une marque peut donc ne correspondre qu’en partie : chaque carte indique ce qui correspond ou non, et
+          pourquoi. Une marque qui ne remplit aucun de vos objectifs est présentée « à défaut ».
         </Paragraph>
       </Section>
 
       <Section title="D’où viennent les données">
         <Paragraph>
           Les fiches produits des marques. La composition y est obligatoire en Europe, et le pays de confection doit y
-          figurer en France depuis la loi AGEC. Nous relevons toutes les fiches du site, à une date donnée.
+          figurer en France depuis la loi AGEC. Nous relevons un échantillon de 20 fiches, les premières de six catégories sur le site ou dans son plan, à une date donnée.
         </Paragraph>
         <Paragraph>
           Les chiffres publiés par la marque, quand son site ne se laisse pas relever. Ils sont alors signalés comme

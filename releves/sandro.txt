@@ -1,0 +1,197 @@
+RELEVÉ SANDRO
+
+Date du relevé : 2 novembre 2026
+Méthode : automatique, à partir du plan du site (les premiers modèles de chaque catégorie), 4 s entre chaque page
+Pays de fabrication : non lisibles automatiquement ; à compléter à la main
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : Top en maille à studs
+Lien : https://fr.sandro-paris.com/fr/p/top-court-a--illets-strasses/SFPPU02874_20.html
+Composition : 52% viscose, 46% polyamide, 2% elasthanne
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 175 €
+
+Produit 2
+Nom : Débardeur boutonnage contrasté
+Lien : https://fr.sandro-paris.com/fr/p/debardeur-maille-cotelee-contrastee/SFPPU02875_44.html
+Composition : 51% viscose, 29% lyocell, 14% polyamide, 6% soie
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 145 €
+
+Produit 3
+Nom : Top court en maille côtelée
+Lien : https://fr.sandro-paris.com/fr/p/top-court-en-maille-cotelee/SFPPU02901_20.html
+Composition : 53% viscose, 46% polyamide, 1% elasthanne
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 125 €
+
+Produit 4
+Nom : Top court satiné à nœud
+Lien : https://fr.sandro-paris.com/fr/p/top-court-satine-a-n-ud/SFPTO00859_11.html
+Composition : 97% polyester, 3% elasthanne
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 195 €
+
+Produit 5
+Nom : Top court satiné plissé
+Lien : https://fr.sandro-paris.com/fr/p/top-court-satine-plisse/SFPTO00867_11.html
+Composition : 97% polyester, 3% elasthanne
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 175 €
+
+===== PULLS ET MAILLE =====
+
+Produit 6
+Nom : Sweatshirt en maille et denim
+Lien : https://fr.sandro-paris.com/fr/p/sweatshirt-en-maille-et-denim/SFPCA01255_44.html
+Composition : 61% viscose, 25% polyester, 14% polyamide
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 275 €
+
+Produit 7
+Nom : Cardigan à col en denim
+Lien : https://fr.sandro-paris.com/fr/p/cardigan-a-col-en-denim/SFPCA01257_16.html
+Composition : 96% laine, 4% cachemire
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 195 €
+
+Produit 8
+Nom : Cardigan à col chemise
+Lien : https://fr.sandro-paris.com/fr/p/cardigan-a-col-chemise/SFPCA01281_55.html
+Composition : 87% laine, 13% cachemire
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 215 €
+
+Produit 9
+Nom : Cardigan court en maille strassée
+Lien : https://fr.sandro-paris.com/fr/p/cardigan-court-en-maille-strassee/SFPCA01347_44.html
+Composition : 69% viscose, 17% polyamide, 9% polyester, 5% fibres métallisées
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 225 €
+
+===== ROBES ET JUPES =====
+
+Produit 10
+Nom : Jupe longue plissée
+Lien : https://fr.sandro-paris.com/fr/p/jupe-longue-plissee-/SFPJU01524_44.html
+Composition : 55% laine, 41% polyester, 4% elasthanne
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 275 €
+
+Produit 11
+Nom : Jupe courte plissée à rayures
+Lien : https://fr.sandro-paris.com/fr/p/jupe-courte-plissee-a-rayures/SFPJU01531_44.html
+Composition : 55% laine, 41% polyester, 4% elasthanne
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 195 €
+
+Produit 12
+Nom : Jupe longue maille strassée
+Lien : https://fr.sandro-paris.com/fr/p/jupe-longue-maille-strassee/SFPJU01584_44.html
+Composition : 68% viscose, 18% polyamide, 9% polyester, 5% fibres métallisées
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 265 €
+
+===== PANTALONS ET JEANS =====
+
+Produit 13
+Nom : Jean barrel
+Lien : https://fr.sandro-paris.com/fr/p/jean-barrel/SFPJE00865_10.html
+Composition : 100% coton
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 195 €
+
+Produit 14
+Nom : Jean large taille haute
+Lien : https://fr.sandro-paris.com/fr/p/jean-large-taille-haute/SFPJE00897_20.html
+Composition : 100% coton
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 225 €
+
+Produit 15
+Nom : Pantalon à fines rayures
+Lien : https://fr.sandro-paris.com/fr/p/pantalon-a-fines-rayures/SFPPA01775_44.html
+Composition : 55% laine, 41% polyester, 4% elasthanne
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 245 €
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 16
+Nom : Chemise courte en popeline
+Lien : https://fr.sandro-paris.com/fr/p/chemise-courte-en-popeline/SFPCM01076_10.html
+Composition : 100% coton
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 175 €
+
+Produit 17
+Nom : Chemise en soie à lavallière
+Lien : https://fr.sandro-paris.com/fr/p/chemise-en-soie-a-lavalliere/SFPCM01506_11.html
+Composition : 100% soie
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 275 €
+
+Produit 18
+Nom : Chemise courte brodée à fleurs
+Lien : https://fr.sandro-paris.com/fr/p/chemise-courte-a-broderie-fleur/SFPCM01691_55.html
+Composition : 100% viscose
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 235 €
+
+===== MANTEAUX ET VESTES =====
+
+Produit 19
+Nom : Blouson en cuir lisse
+Lien : https://fr.sandro-paris.com/fr/p/blouson-en-cuir-lisse/SFPBL01286_20.html
+Composition : 100% cuir
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 695 €
+
+Produit 20
+Nom : Blouson oversize en cuir
+Lien : https://fr.sandro-paris.com/fr/p/blouson-oversize-en-cuir/SFPBL01374_20.html
+Composition : 100% cuir
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 695 €

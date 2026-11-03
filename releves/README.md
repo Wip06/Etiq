@@ -1,5 +1,7 @@
 # Relevés de marques
 
+À la main ou automatiquement (Sessùn, Ba&sh et Maje le 2 nov. 2026 : premiers modèles de chaque catégorie dans le plan du site, 5 s entre chaque page).
+
 Relevés à la main des fiches produits, pour les marques dont le site bloque la lecture automatique.
 Ils alimentent les critères des fiches marques (`src/data/brands.ts`) et la page « Nos critères ».
 

@@ -1,0 +1,197 @@
+RELEVÉ MAJE
+
+Date du relevé : 2 novembre 2026
+Pays de fabrication : non lisibles automatiquement (chargés au clic sur « Traçabilité ») ; à compléter à la main
+Méthode : automatique, à partir du plan du site (les premiers modèles de chaque catégorie), 5 s entre chaque page
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : T-shirt avec poissons imprimés
+Lien : https://fr.maje.com/fr/p/t-shirt-avec-poissons-imprimes/MFPTS01044_10.html
+Composition : 100% coton
+Fabriqué en : Turquie
+Tissé en : Turquie
+Teint en : Turquie
+Prix : 95 €
+
+Produit 2
+Nom : T-shirt ras de cou avec zip au dos
+Lien : https://fr.maje.com/fr/p/t-shirt-ras-de-cou-avec-zip-au-dos/MFPTS01057_10.html
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : Turquie
+Teint en : Turquie
+Prix : 95 €
+
+Produit 3
+Nom : T-shirt avec logo brodé
+Lien : https://fr.maje.com/fr/p/t-shirt-avec-logo-brode/MFPTS01071_0515.html
+Composition : 100% coton
+Fabriqué en : Turquie
+Tissé en : Turquie
+Teint en : Turquie
+Prix : 95 €
+
+Produit 4
+Nom : Polo à manches courtes avec poches
+Lien : https://fr.maje.com/fr/p/polo-a-manches-courtes-avec-poches/MFPPU01048_0101.html
+Composition : 56% viscose, 42% polyamide, 2% elasthanne
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 155 €
+
+Produit 5
+Nom : Polo strassé à motif floral
+Lien : https://fr.maje.com/fr/p/polo-strasse-a-motif-floreal/MFPTO01274_2517.html
+Composition : 100% polyester
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 295 €
+
+===== PULLS ET MAILLE =====
+
+Produit 6
+Nom : Cardigan en maille strassée
+Lien : https://fr.maje.com/fr/p/cardigan-en-maille-strassee/MFPCA00691_2517.html
+Composition : 72% polyester, 18% viscose, 6% polyamide, 4% fibres métallisées
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 235 €
+
+Produit 7
+Nom : Cardigan effet cape
+Lien : https://fr.maje.com/fr/p/cardigan-effet-cape/MFPCA00785_2517.html
+Composition : 47% polyamide, 30% acrylique, 23% laine
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 275 €
+
+Produit 8
+Nom : Pull à col roulé en mélange de yak
+Lien : https://fr.maje.com/fr/p/pull-a-col-roule-en-melange-de-yak/MFPPU00950_0609.html
+Composition : 76% yack, 21% polyamide, 3% elasthanne
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : 
+Prix : 325 €
+
+Produit 9
+Nom : Pull à motif argyle avec strass
+Lien : https://fr.maje.com/fr/p/pull-a-motif-argyle-avec-strass/MFPPU01061_O032.html
+Composition : 100% laine
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 275 €
+
+===== ROBES ET JUPES =====
+
+Produit 10
+Nom : Jupe crayon en lin et soie brodée
+Lien : https://fr.maje.com/fr/p/jupe-crayon-en-lin-et-soie-brodee/MFPJU01665_10.html
+Composition : 80% lin, 20% soie
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 275 €
+
+Produit 11
+Nom : Robe courte imprimée dos nu
+Lien : https://fr.maje.com/fr/p/robe-courte-imprimee-dos-nu/MFPRO04892_10.html
+Composition : 100% coton
+Fabriqué en : Bulgarie
+Tissé en : Italie
+Teint en : Italie
+Prix : 295 €
+
+Produit 12
+Nom : Jupe midi en tulle
+Lien : https://fr.maje.com/fr/p/jupe-midi-en-tulle/MFPJU00675_2517.html
+Composition : 100% polyester
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 255 €
+
+===== PANTALONS ET JEANS =====
+
+Produit 13
+Nom : Jean bootcut avec chaîne
+Lien : https://fr.maje.com/fr/p/jean-bootcut-avec-chaine/MFPJE00826_G005.html
+Composition : 99% coton, 1% elasthanne
+Fabriqué en : Turquie
+Tissé en : Turquie
+Teint en : Turquie
+Prix : 215 €
+
+Produit 14
+Nom : Jean carotte avec twilly
+Lien : https://fr.maje.com/fr/p/jean-carotte-avec-twilly/MFPJE00835_0201.html
+Composition : 100% coton
+Fabriqué en : Turquie
+Tissé en : Turquie
+Teint en : Turquie
+Prix : 235 €
+
+Produit 15
+Nom : Pantalon flare
+Lien : https://fr.maje.com/fr/p/pantalon-flare/MFPPA00544_2517.html
+Composition : 52% polyester, 26% laine, 18% viscose, 4% elasthanne
+Fabriqué en : Tunisie
+Tissé en : Roumanie
+Teint en : Italie
+Prix : 235 €
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 16
+Nom : Chemise en denim avec Lavallière
+Lien : https://fr.maje.com/fr/p/chemise-en-denim-avec-lavalliere/MFPCM00700_0103.html
+Composition : 100% coton
+Fabriqué en : Turquie
+Tissé en : Turquie
+Teint en : Turquie
+Prix : 245 €
+
+Produit 17
+Nom : Chemise courte brodée en taffetas
+Lien : https://fr.maje.com/fr/p/chemise-courte-brodee-en-taffetas/MFPCM00781_D061.html
+Composition : 100% polyester
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 245 €
+
+Produit 18
+Nom : Chemise courte et col contrasté
+Lien : https://fr.maje.com/fr/p/chemise/MFPCM00811_0856.html
+Composition : 100% coton
+Fabriqué en : Maroc
+Tissé en : Turquie
+Teint en : Turquie
+Prix : 195 €
+
+===== MANTEAUX ET VESTES =====
+
+Produit 19
+Nom : Blouson court en double face
+Lien : https://fr.maje.com/fr/p/blouson-court-en-double-face/MFPBL00855_0103.html
+Composition : 80% laine, 20% polyamide
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 425 €
+
+Produit 20
+Nom : Manteau court à bouclette
+Lien : https://fr.maje.com/fr/p/manteau-court-a-bouclette/MFPOU01402_0609.html
+Composition : 100% polyester
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 395 €

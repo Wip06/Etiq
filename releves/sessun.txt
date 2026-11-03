@@ -1,0 +1,196 @@
+RELEVÉ SESSÙN
+
+Date du relevé : 2 novembre 2026
+Méthode : automatique, à partir du plan du site (les premiers modèles de chaque catégorie), 5 s entre chaque page
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : Top Mael
+Lien : https://fr.sessun.com/catalogue/tops-et-bodys/mael-moka.html
+Composition : 56% Acétate, 44% Viscose
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 125 €
+
+Produit 2
+Nom : Top Mocambo
+Lien : https://fr.sessun.com/catalogue/tops-et-bodys/mocambo-murza.html
+Composition : 100% Polyester
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 165 €
+
+Produit 3
+Nom : Top Fernanda
+Lien : https://fr.sessun.com/catalogue/tops-et-bodys/fernanda-coffea.html
+Composition : 75% Coton, 23% Viscose, 2% Elasthanne
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 175 €
+
+Produit 4
+Nom : Top Rawhide
+Lien : https://fr.sessun.com/catalogue/tops-et-bodys/rawhide-mokaluz.html
+Composition : 53% Viscose, 47% Polyester
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 125 €
+
+Produit 5
+Nom : Top Lally
+Lien : https://fr.sessun.com/catalogue/tops-et-bodys/lally-ganache.html
+Composition : 83% Viscose, 17% Polyester
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 145 €
+
+===== PULLS ET MAILLE =====
+
+Produit 6
+Nom : Sweat Chebbi
+Lien : https://fr.sessun.com/catalogue/sweatshirts/chebbi-vivapurple.html
+Composition : 74% Coton, 13% Polyester, 8% Modal, 5% Lin
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 95 €
+
+Produit 7
+Nom : Sweat Oliveira
+Lien : https://fr.sessun.com/catalogue/sweatshirts/oliveira-marble-rose.html
+Composition : 88% Coton, 12% Polyester
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 135 €
+
+Produit 8
+Nom : Sweat Costwelle
+Lien : https://fr.sessun.com/catalogue/sweatshirts/costwelle-hazelroc.html
+Composition : 100% Laine
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 295 €
+
+Produit 9
+Nom : Cardigan Shimoteka
+Lien : https://fr.sessun.com/catalogue/pulls/shimoteka-redmuse.html
+Composition : 100% Laine mérinos
+Fabriqué en : Bulgarie
+Tissé en : 
+Teint en : 
+Prix : 175 €
+
+===== ROBES ET JUPES =====
+
+Produit 10
+Nom : Culotte Undebon
+Lien : https://fr.sessun.com/catalogue/jupes-et-shorts/undebon-navy.html
+Composition : 100% Laine
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 95 €
+
+Produit 11
+Nom : Jupe Tildate
+Lien : https://fr.sessun.com/catalogue/jupes-et-shorts/tildate-ebene.html
+Composition : 34% Laine mérinos, 34% Alpaga, 32% Polyamide
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 245 €
+
+Produit 12
+Nom : Jupe Abbigy
+Lien : https://fr.sessun.com/catalogue/jupes-et-shorts/abbigy-black.html
+Composition : 98% Coton, 2% Elasthanne
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 175 €
+
+===== PANTALONS ET JEANS =====
+
+Produit 13
+Nom : Jean Milonim
+Lien : https://fr.sessun.com/catalogue/denim/milonim-true-blue.html
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 185 €
+
+Produit 14
+Nom : Pantalon Timelia
+Lien : https://fr.sessun.com/catalogue/pantalons/timelia-red-muse.html
+Composition : 92% Viscose, 8% Polyamide
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 195 €
+
+Produit 15
+Nom : Jean Marino
+Lien : https://fr.sessun.com/catalogue/denim/marino-brocken-black.html
+Composition : 98% Coton, 2% Elasthanne
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 145 €
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 16
+Nom : Chemise Danie
+Lien : https://fr.sessun.com/catalogue/chemises-et-blouses/danie-bananille.html
+Composition : 87% Modal, 11% Polyamide, 2% Polyester
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 185 €
+
+Produit 17
+Nom : Chemise Florentina
+Lien : https://fr.sessun.com/catalogue/chemises-et-blouses/florentina-sunset-muse.html
+Composition : 60% Coton, 40% Polyester
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 175 €
+
+Produit 18
+Nom : Blouse Lylis
+Lien : https://fr.sessun.com/catalogue/chemises-et-blouses/lylis-whiblack-itama.html
+Composition : 100% Viscose
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 175 €
+
+===== MANTEAUX ET VESTES =====
+
+Produit 19
+Nom : Veste sans manches Woodborn
+Lien : https://fr.sessun.com/catalogue/vestes/woodborn-craft-violet.html
+Composition : 36% Laine, 26% Polyester, 22% Acrylique, 11% Alpaga, 3% Polyamide, 2% Autres Fibres
+Fabriqué en : Bulgarie
+Tissé en : 
+Teint en : 
+Prix : 235 €
+
+Produit 20
+Nom : Manteau Andy
+Lien : https://fr.sessun.com/catalogue/manteaux/andy-coffea.html
+Composition : 75% Coton, 25% Polyester
+Fabriqué en : Chine
+Tissé en : 
+Teint en : 
+Prix : 295 €

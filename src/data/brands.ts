@@ -23,6 +23,8 @@ export type BrandSurvey = {
   countries: string[];
   medianPrice: number | null;
   repair: boolean | null;
+  // Portée du service quand il n'est pas accessible à tous : l'objectif n'est rempli qu'en partie.
+  repairLimited?: string;
   secondHand: boolean | null;
   // Constats utiles et limites du relevé.
   notes: string[];
@@ -87,6 +89,7 @@ export const brands: Brand[] = [
       countries: ['Chine', 'Vietnam', 'Cambodge', 'Bangladesh', 'Indonésie', 'Inde', 'Égypte'],
       medianPrice: 39.9,
       repair: true,
+      repairLimited: 'dans quelques magasins parisiens',
       secondHand: null,
       notes: [
         '20 fiches relevées à la main : les premiers produits affichés dans six catégories.',
@@ -127,6 +130,189 @@ export const brands: Brand[] = [
         'Aucun produit déclaré sur le portail officiel.',
       ],
       sources: [{ label: 'Fiches produits du site Sézane', url: 'https://www.sezane.com/fr-fr' }],
+    },
+  },
+  {
+    id: 'sessun',
+    name: 'Sessùn',
+    country: 'France',
+    description: `Prêt-à-porter féminin, marque née à Marseille. ${PENDING}`,
+    tags: ['France', 'Premium'],
+    sources: [{ label: 'Site officiel', url: 'https://fr.sessun.com/' }],
+    portalName: 'Sessùn',
+    // Relevé automatique le 2 nov. 2026. Détail produit par produit : releves/sessun.txt.
+    survey: {
+      date: '2026-11-02',
+      method: 'catalogue',
+      products: 20,
+      syntheticShare: 18,
+      europeShare: 30,
+      countries: ['Tunisie', 'Chine', 'Maroc', 'Italie', 'Portugal', 'Bulgarie', 'Turquie'],
+      medianPrice: 175,
+      repair: null,
+      secondHand: null,
+      notes: [
+        '20 fiches relevées automatiquement : les premiers modèles de six catégories dans le plan du site.',
+        'Beaucoup de fibres naturelles et artificielles ; 2 produits sur 20 sont majoritairement synthétiques.',
+        'Confection surtout au Maghreb et en Chine : 6 produits sur 20 en Europe.',
+        'Services de réparation et de seconde main non vérifiés.',
+      ],
+      sources: [{ label: 'Fiches produits du site Sessùn', url: 'https://fr.sessun.com/' }],
+    },
+  },
+  {
+    id: 'bash',
+    name: 'Ba&sh',
+    country: 'France',
+    description: `Prêt-à-porter féminin premium. ${PENDING}`,
+    tags: ['France', 'Premium'],
+    sources: [{ label: 'Site officiel', url: 'https://ba-sh.com/fr/fr/' }],
+    portalName: 'BA&SH',
+    // Relevé automatique le 2 nov. 2026. Détail produit par produit : releves/bash.txt.
+    survey: {
+      date: '2026-11-02',
+      method: 'catalogue',
+      products: 20,
+      syntheticShare: 46,
+      europeShare: 16,
+      countries: ['Chine', 'Portugal', 'Maroc', 'Turquie', 'Tunisie', 'Italie', 'Inde'],
+      medianPrice: 190,
+      repair: null,
+      secondHand: true,
+      notes: [
+        '20 fiches relevées automatiquement : les premiers modèles de six catégories dans le plan du site.',
+        '8 produits sur 20 sont majoritairement synthétiques, une partie du polyamide étant recyclée.',
+        'Confection en Europe : 3 produits sur les 19 dont le pays est indiqué.',
+        'Seconde main : programme de revente relevé dans la presse en 2023, à revérifier.',
+      ],
+      sources: [
+        { label: 'Fiches produits du site Ba&sh', url: 'https://ba-sh.com/fr/fr/' },
+        { label: 'FashionUnited, seconde main Ba&sh (2023)', url: 'https://fashionunited.ca/news/business/ba-sh-launches-second-hand-offering-in-us/2023020727666' },
+      ],
+    },
+  },
+  {
+    id: 'maje',
+    name: 'Maje',
+    country: 'France',
+    description: `Prêt-à-porter féminin premium, groupe SMCP. ${PENDING}`,
+    tags: ['France', 'Premium', 'SMCP'],
+    sources: [{ label: 'Site officiel', url: 'https://fr.maje.com/' }],
+    portalName: 'MAJE',
+    // Relevé automatique le 2 nov. 2026, sans les pays (chargés au clic sur « Traçabilité »).
+    // Détail produit par produit : releves/maje.txt.
+    survey: {
+      date: '2026-11-02',
+      method: 'catalogue',
+      products: 20,
+      syntheticShare: 43,
+      europeShare: null,
+      countries: [],
+      medianPrice: 245,
+      repair: true,
+      secondHand: true,
+      notes: [
+        '20 fiches relevées automatiquement : les premiers modèles de six catégories dans le plan du site.',
+        '9 produits sur 20 sont majoritairement synthétiques.',
+        'Pays de confection non relevés : ils ne s’affichent qu’au clic sur la fiche.',
+        'Réparation et seconde main : services relevés dans la presse (2022 et 2024), à revérifier.',
+      ],
+      sources: [
+        { label: 'Fiches produits du site Maje', url: 'https://fr.maje.com/' },
+        { label: 'FashionUnited, réparation et seconde main Maje', url: 'https://fashionunited.fr/actualite/business/apres-la-seconde-main-maje-lance-son-service-de-reparation/2024050334945' },
+      ],
+    },
+  },
+  {
+    id: 'promod',
+    name: 'Promod',
+    country: 'France',
+    description: `Prêt-à-porter féminin grand public. ${PENDING}`,
+    tags: ['France', 'Grand public'],
+    sources: [{ label: 'Site officiel', url: 'https://www.promod.fr/fr-fr/' }],
+    portalName: 'PROMOD',
+    // Relevé automatique le 2 nov. 2026, sans les pays. Détail produit par produit : releves/promod.txt.
+    survey: {
+      date: '2026-11-02',
+      method: 'catalogue',
+      products: 20,
+      syntheticShare: 35,
+      europeShare: null,
+      countries: [],
+      medianPrice: 15.5,
+      repair: null,
+      secondHand: null,
+      notes: [
+        '20 fiches relevées automatiquement : les premiers modèles de six catégories dans le plan du site.',
+        '8 produits sur 20 sont majoritairement synthétiques, souvent en polyester recyclé.',
+        'Prix relevés le jour du relevé : certains peuvent être des prix soldés.',
+        'Pays de confection, réparation et seconde main non relevés.',
+      ],
+      sources: [
+        { label: 'Fiches produits du site Promod', url: 'https://www.promod.fr/fr-fr/' },
+      ],
+    },
+  },
+  {
+    id: 'sandro',
+    name: 'Sandro',
+    country: 'France',
+    description: `Prêt-à-porter premium, groupe SMCP. ${PENDING}`,
+    tags: ['France', 'Premium', 'SMCP'],
+    sources: [{ label: 'Site officiel', url: 'https://fr.sandro-paris.com/fr/' }],
+    portalName: 'SANDRO ANDY',
+    // Relevé automatique le 2 nov. 2026, sans les pays. Détail produit par produit : releves/sandro.txt.
+    survey: {
+      date: '2026-11-02',
+      method: 'catalogue',
+      products: 20,
+      syntheticShare: 27,
+      europeShare: null,
+      countries: [],
+      medianPrice: 220,
+      repair: null,
+      secondHand: true,
+      notes: [
+        '20 fiches relevées automatiquement : les premiers modèles de six catégories dans le plan du site.',
+        '2 produits sur 20 sont majoritairement synthétiques ; les blousons en cuir sont comptés sans synthétique, hors doublure.',
+        'Seconde main : service relevé dans la presse (2023), à revérifier.',
+        'Pays de confection et réparation non relevés.',
+      ],
+      sources: [
+        { label: 'Fiches produits du site Sandro', url: 'https://fr.sandro-paris.com/fr/' },
+        { label: 'FashionUnited, seconde main Sandro (2023)', url: 'https://fashionunited.fr/actualite/business/sandro-etend-son-offre-de-seconde-main-aux-pays-bas/2023071432606' },
+      ],
+    },
+  },
+  {
+    id: 'claudiepierlot',
+    name: 'Claudie Pierlot',
+    country: 'France',
+    description: `Prêt-à-porter féminin premium, groupe SMCP. ${PENDING}`,
+    tags: ['France', 'Premium', 'SMCP'],
+    sources: [{ label: 'Site officiel', url: 'https://fr.claudiepierlot.com/fr/' }],
+    portalName: 'CLAUDIE PIERLOT',
+    // Relevé automatique le 2 nov. 2026, sans les pays. Détail produit par produit : releves/claudiepierlot.txt.
+    survey: {
+      date: '2026-11-02',
+      method: 'catalogue',
+      products: 12,
+      syntheticShare: 27,
+      europeShare: null,
+      countries: [],
+      medianPrice: 235,
+      repair: null,
+      secondHand: true,
+      notes: [
+        'Seulement 12 fiches relevées : le plan du site contient peu de produits, sans t-shirt ni top repéré.',
+        'Composition lue sur 11 de ces 12 fiches ; 2 produits sont majoritairement synthétiques.',
+        'Seconde main : service relevé dans la presse (2024), à revérifier.',
+        'Pays de confection et réparation non relevés.',
+      ],
+      sources: [
+        { label: 'Fiches produits du site Claudie Pierlot', url: 'https://fr.claudiepierlot.com/fr/' },
+        { label: 'Modaes, seconde main Claudie Pierlot (2024)', url: 'https://www.modaes.com/empresas/claudie-pierlot-se-lanza-a-la-segunda-mano' },
+      ],
     },
   },
   {
