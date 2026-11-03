@@ -8,12 +8,11 @@
 ## Marques : relevés des fiches produits
 Protocole et fiches à remplir dans `releves/` (20 produits par marque). Un relevé à la main prend 10 à 20 minutes. Faits : Sézane, Uniqlo (à la main, 26 oct.), Sessùn, Ba&sh, Maje, Promod, Sandro, Claudie Pierlot (automatique, 2 nov.).
 - À remplir à la main, fiches prêtes : **H&M, Zara** en priorité (les plus connues de la cible), puis **Armedangels, Le Slip Français, Faguo, Jules, American Vintage, Etam, Asphalte** (accès refusé, robots interdits pour American Vintage, composition non lisible pour Etam et Asphalte). Les relever donne enfin des marques avec l'objectif « Réduire mon impact » rempli et des données complètes
-- Maje, Promod, Sandro, Claudie Pierlot : compléter les pays de fabrication dans `releves/` (environ 5 min par marque), puis `europeShare` dans `brands.ts`
 - Vérifier sur les sites les services relevés dans la presse : réparation et seconde main de Maje, seconde main de Ba&sh, de Sandro et de Claudie Pierlot ; services de Promod ; réparation et seconde main de Sessùn (non vérifiés)
 - Ensuite si besoin : Shein, Kiabi, Mango, Pull&Bear, Noo. Réessayer plus tard en automatique (trop de requêtes le 2 nov.) : Mango, Pimkie, Cyrillus, Des Petits Hauts, Picture, Ecoalf, Rouje
 - Balzac Paris : vérifier si c'est bien « MAISON BALZAC » sur le portail (269 produits)
 - Rédiger la description de chaque marque relevée (remplace « Analyse environnementale à compléter »)
-- Argument pour le jury : bien classées sur le portail, Ba&sh (74 % des produits sous la médiane) et Maje (84 %) ont pourtant 46 % et 43 % de synthétique en moyenne dans notre relevé : le coût officiel seul ne suffit pas, d'où nos objectifs séparés
+- Argument pour le jury : bien classées sur le portail, Ba&sh (74 % des produits sous la médiane) et Maje (84 %) ont pourtant 46 % et 35 % de synthétique en moyenne, et 16 % et 5 % de confection en Europe dans notre relevé : le coût officiel seul ne suffit pas, d'où nos objectifs séparés
 - Argument pour le jury : les marques les plus achetées par la cible (H&M, Zara, Shein, Mango, Sézane) n'ont déclaré aucun produit sur le portail ; Clear Fashion utilise sa propre base, différente du portail
 
 ## Scan
@@ -32,6 +31,7 @@ Protocole et fiches à remplir dans `releves/` (20 produits par marque). Un rele
 - Chatbot pour des conseils et des questions
 
 ## Design
+- Tiko : obtenir les images d'origine en meilleure résolution (environ 200 px de large aujourd'hui, ce qui limite sa taille à l'écran)
 - Écran Accueil provisoire : peut-être à remplacer
 - Ajouter un mode invité avant la connexion
 - Logo de l'app (pistes dans le canevas : étiquette cousue, « e » sur étiquette volante, scan de l'étiquette)
@@ -46,7 +46,9 @@ Protocole et fiches à remplir dans `releves/` (20 produits par marque). Un rele
 - Alternatives avec moins d'impact (même catégorie, poids proche, au moins 10 % de moins pour 100 g) sur la fiche produit et l'estimation par étiquette, sans filtre de prix
 - Repères sur la fiche produit : eau en douches et bouteilles (indicateur « wtu »), climat en km de voiture (« cch », facteur Impact CO2 de l'ADEME) ; plastique en bouteilles de 1,5 L sur l'estimation par étiquette (fibres synthétiques × masse)
 - Quiz « Quel est l'impact de votre garde-robe ? » en haut de l'onglet Apprendre, réservé aux comptes connectés : achats d'une année, matière, pays de fabrication et type de marque, calculés avec Ecobalyse ; leviers (marque, occasion, pays, matière) ; comparaison aux 43 vêtements neufs par Français en 2025 (Refashion) ; matière inconnue déduite du type de marque (vêtements types d'Ecobalyse)
-- Points de coût environnemental traduits en jours d'empreinte d'un habitant moyen de la planète (1 000 000 de points = un an, notice officielle p. 8 ; moyenne mondiale 2010 des facteurs EF 3.1 du JRC) : quiz, fiche produit, estimation par étiquette
+- Points de coût environnemental traduits en jours d'empreinte d'un habitant moyen de la planète (1 000 000 de points = un an, notice officielle p. 8 ; moyenne mondiale 2010 des facteurs EF 3.1 du JRC) : fiche produit, estimation par étiquette
+- Tiko, la mascotte, avec sa bulle et un rebond à l'apparition (`src/components/Tiko.tsx`) : accueil, onboarding, fiche produit, produit non déclaré, alternatives, attente de lecture, résultat du quiz, listes vides. Un seul par écran, pose liée à la situation et jamais au résultat
+- Résultat du quiz en km de voiture et en douches (achats × vêtement médian de chaque catégorie sur le portail, ordre de grandeur), avec la comparaison à la moyenne française
 - Encart matière (résumé du lexique + « En savoir plus » vers l'article The Good Goods) à côté de chaque matière lue sur une étiquette
 - Onboarding : 4 objectifs (réduire mon impact, acheter moins mais durable, moins de plastique, fabrication proche) et budget ; modifiables depuis le profil
 - Recommandations à l'accueil : « Marques pour vous » filtrées par les objectifs (pas de note de marque) et « À lire pour vous » ; page « Nos critères » ; section « Notre relevé » sur la fiche marque
@@ -57,3 +59,10 @@ Protocole et fiches à remplir dans `releves/` (20 produits par marque). Un rele
 - Un quiz pour tester ses connaissances ? Gamification ? Badges quand on scanne des produits durables ? Quand on a des bonnes réponses...
 - Remplir des infos personnelles pour analyser de la data
 - Quiz d'impact de la garde-robe : le proposer aussi juste après l'inscription (onboarding) ? 
+- Chatbot 
+- Petit mouton / mascotte qui s'anime et apporte des petites infos 
+
+## Etiq+ 
+- systeme de recherche avec filtre : pays de fabrication, % de fibres synthetiques, prix  
+- mode hors ligne 
+- carte des magasins ? 

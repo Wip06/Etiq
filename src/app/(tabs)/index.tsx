@@ -4,6 +4,7 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { BrandMatchCard } from '@/components/BrandMatchCard';
 import { LoginPrompt } from '@/components/LoginPrompt';
+import { Tiko } from '@/components/Tiko';
 import { getGoal } from '@/data/goals';
 import { recommendBrands } from '@/data/recommendations';
 import { useSession, type Preferences } from '@/session/SessionProvider';
@@ -15,7 +16,10 @@ export default function HomeScreen() {
 
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
-      <Text style={styles.title}>{user?.firstName ? `Bonjour ${user.firstName}` : 'Bienvenue sur Etiq'}</Text>
+      <Tiko
+        pose="assisSourire"
+        message={`${user?.firstName ? `Bonjour ${user.firstName} !` : 'Bienvenue !'} Scanne un vêtement pour commencer.`}
+      />
 
       <Pressable accessibilityRole="button" onPress={() => router.navigate('/scan')} style={styles.scanCard}>
         <Ionicons name="scan" size={28} color={colors.onAccent} />
@@ -94,11 +98,6 @@ const styles = StyleSheet.create({
   content: {
     gap: 16,
     padding: 24,
-  },
-  title: {
-    fontSize: 24,
-    fontWeight: '700',
-    color: colors.text,
   },
   scanCard: {
     flexDirection: 'row',

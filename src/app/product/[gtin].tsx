@@ -9,6 +9,8 @@ import { FavoriteButton } from '@/components/FavoriteButton';
 import { InfoButton } from '@/components/InfoButton';
 import { OfficialCostLabel } from '@/components/OfficialCostLabel';
 import { ImpactEquivalents } from '@/components/ImpactEquivalents';
+import { Tiko } from '@/components/Tiko';
+import { productBubble } from '@/data/equivalents';
 import { COST_EXPLANATION, DURABILITY_EXPLANATION, STAGE_EXPLANATIONS } from '@/data/explanations';
 import { compareToCategory, findAlternatives } from '@/data/portalStats';
 import { getProduct, labelImageUrl, STAGES, type PortalProduct, type Stage } from '@/services/portal';
@@ -78,9 +80,10 @@ export default function ProductScreen() {
     return (
       <View style={[styles.container, styles.centered]}>
         <Text style={styles.title}>Produit non déclaré</Text>
-        <Text style={styles.message}>
-          La marque n’a pas déclaré le coût environnemental de ce vêtement (code {gtin}). Photographiez son étiquette
-          de composition pour l’estimer.
+        <Tiko pose="deDos" message="La marque n’a pas déclaré ce vêtement. Montre-moi son étiquette !" />
+        <Text style={styles.meta}>
+          Son coût environnemental n’est pas sur le portail officiel (code {gtin}). Photographiez l’étiquette de
+          composition pour l’estimer.
         </Text>
         <Button
           label="Scanner l’étiquette"
@@ -93,6 +96,7 @@ export default function ProductScreen() {
   const { product } = state;
   // Un lot n'est pas comparable à des vêtements vendus à l'unité.
   const isSingle = product.components === 1;
+  const bubble = productBubble(product.climate, product.water);
   const comparison = isSingle ? compareToCategory(product.category, product.per100g) : null;
   const alternatives = isSingle
     ? findAlternatives(product.category, {
@@ -120,11 +124,14 @@ export default function ProductScreen() {
       </View>
       <Text style={styles.costHint}>Plus le chiffre est bas, moins le vêtement a d’impact.</Text>
 
+      {bubble && <Tiko pose="tetePenchee" message={bubble} />}
+
       {comparison && <CategoryComparison comparison={comparison} />}
 
       <ImpactEquivalents cost={product.cost} water={product.water} climate={product.climate} />
 
-      <Alternatives alternatives={alternatives} water={product.water} />
+      {/* Un seul Tiko par écran : ici, celui du haut de la fiche. */}
+      <Alternatives alternatives={alternatives} water={product.water} withTiko={!bubble} />
 
       <Text style={styles.sectionTitle}>Détail par étape</Text>
       {(Object.keys(STAGES) as Stage[]).map((stage) => (

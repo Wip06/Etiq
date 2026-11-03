@@ -4,14 +4,25 @@ import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from
 
 import { Button } from '@/components/Button';
 import { InfoButton } from '@/components/InfoButton';
-import { formatCount, pluralize, toFootprintDuration, toFootprintShare } from '@/data/equivalents';
-import { FOOTPRINT_EXPLANATION, QUIZ_EXPLANATION } from '@/data/explanations';
+import { Tiko } from '@/components/Tiko';
+import {
+  formatCount,
+  pluralize,
+  roundEstimate,
+  showerPace,
+  toCarKilometers,
+  toWaterEquivalent,
+  tripFor,
+} from '@/data/equivalents';
+import { QUIZ_EXPLANATION, WARDROBE_EQUIVALENTS_EXPLANATION } from '@/data/explanations';
 import {
   computeResult,
   FRENCH_AVERAGE_PIECES,
+  frenchComparison,
   isCurrentResult,
   QUESTION_SUBJECTS,
   QUESTIONS,
+  type Lever,
   type QuizResult,
 } from '@/data/quiz';
 import { useLibrary } from '@/session/LibraryProvider';
@@ -114,16 +125,11 @@ export default function QuizScreen() {
 }
 
 function Result({ result, onRestart }: { result: QuizResult; onRestart: () => void }) {
-  const { newPieces, cost, biggest, levers, assumedMaterial } = result;
-  const footprint = toFootprintDuration(cost);
-  const share = toFootprintShare(cost).toLocaleString('fr-FR', { maximumFractionDigits: 1 });
-  const gap = newPieces - FRENCH_AVERAGE_PIECES;
-  const comparison =
-    Math.abs(gap) <= 3
-      ? `C’est proche de la moyenne française (${FRENCH_AVERAGE_PIECES}).`
-      : gap > 0
-        ? `C’est ${gap} de plus que la moyenne française (${FRENCH_AVERAGE_PIECES}).`
-        : `C’est ${-gap} de moins que la moyenne française (${FRENCH_AVERAGE_PIECES}).`;
+  const { newPieces, cost, climate, water, biggest, levers, assumedMaterial } = result;
+  const km = typeof climate === 'number' ? toCarKilometers(climate) : null;
+  const showers = typeof water === 'number' ? toWaterEquivalent(water).showers : null;
+  const trip = km !== null ? tripFor(km) : null;
+  const pace = showers !== null ? showerPace(showers) : null;
 
   return (
     <ScrollView style={styles.scroll} contentContainerStyle={styles.resultContent}>
@@ -132,29 +138,40 @@ function Result({ result, onRestart }: { result: QuizResult; onRestart: () => vo
         <InfoButton explanation={QUIZ_EXPLANATION} />
       </View>
 
-      {cost > 0 && (
-        <>
-          <View style={styles.hero}>
-            <View style={styles.heroInfo}>
-              <InfoButton explanation={FOOTPRINT_EXPLANATION} />
-            </View>
-            <Text style={styles.heroNote}>Vos achats d’une année ont autant d’impact que</Text>
-            <Text style={styles.heroNumber}>{pluralize(footprint.value, footprint.unit)}</Text>
-            <Text style={styles.heroLabel}>de l’empreinte environnementale d’un habitant moyen de la planète</Text>
-            <Text style={styles.heroNote}>
-              Soit {share} % de tout ce qu’il émet, consomme et pollue en un an pour se nourrir, se déplacer, se
-              loger…
-            </Text>
+      <View style={styles.hero}>
+        {km !== null && km >= 1 && (
+          <View style={styles.heroInfo}>
+            <InfoButton explanation={WARDROBE_EQUIVALENTS_EXPLANATION} />
           </View>
-          <Text style={styles.meta}>
-            {formatCount(Math.round(cost))} points de coût environnemental, calculés avec la méthode officielle.
-            {biggest ? ` ${capitalize(QUESTION_SUBJECTS[biggest.id])} en représentent ${biggest.share} %.` : ''}
-          </Text>
-        </>
+        )}
+        {km !== null && km >= 1 && (
+          <>
+            <Text style={styles.heroNote}>Vos achats d’une année, c’est environ</Text>
+            <Text style={styles.heroNumber}>{formatCount(roundEstimate(km))} km</Text>
+            <Text style={styles.heroLabel}>en voiture{trip ? `, comme ${trip}` : ''}</Text>
+          </>
+        )}
+        {showers !== null && showers >= 1 && (
+          <>
+            <Text style={styles.heroSecondary}>{pluralize(roundEstimate(showers), 'douche')}</Text>
+            <Text style={styles.heroLabel}>d’eau{pace ? `, ${pace}` : ''}</Text>
+          </>
+        )}
+        <Text style={styles.heroNote}>
+          {pluralize(newPieces, 'vêtement')} neuf{newPieces > 1 ? 's' : ''} par an : {frenchComparison(newPieces).toLowerCase()} ({FRENCH_AVERAGE_PIECES}).
+        </Text>
+      </View>
+
+      {cost > 0 && (
+        <Text style={styles.meta}>
+          {formatCount(Math.round(cost))} points de coût environnemental, calculés avec la méthode officielle.
+          {biggest ? ` ${capitalize(QUESTION_SUBJECTS[biggest.id])} en représentent ${biggest.share} %.` : ''}
+        </Text>
       )}
 
       {levers.length > 0 && (
         <>
+          <Tiko pose="mainsJoues" message={leverBubble(levers[0])} />
           <Text style={styles.sectionTitle}>Vos leviers</Text>
           {levers.map((lever) => (
             <View key={lever.id} style={styles.lever}>
@@ -181,22 +198,21 @@ function Result({ result, onRestart }: { result: QuizResult; onRestart: () => vo
         </View>
       )}
 
-      <View style={styles.card}>
-        <Text style={styles.cardTitle}>Vos achats</Text>
-        <Text style={styles.text}>
-          {pluralize(newPieces, 'vêtement')} acheté{newPieces > 1 ? 's' : ''} neuf{newPieces > 1 ? 's' : ''} par an.{' '}
-          {comparison}
-        </Text>
-      </View>
-
       <Button label="Scanner un vêtement" onPress={() => router.navigate('/scan')} />
       <Button label="Refaire le quiz" variant="secondary" onPress={onRestart} />
       <Text style={styles.source}>
         Estimation avec le calculateur officiel Ecobalyse (version 7.0.0), à la masse médiane de chaque catégorie
-        déclarée sur le portail. Moyenne française : baromètre Refashion 2025.
+        déclarée sur le portail. Kilomètres et douches : ordre de grandeur pour le vêtement médian de chaque catégorie sur
+        le portail. Moyenne française : baromètre Refashion 2025.
       </Text>
     </ScrollView>
   );
+}
+
+// « Ton meilleur levier : acheter la moitié de tes vêtements d'occasion, −33 %. »
+function leverBubble({ label, gain }: Lever): string {
+  const action = (label.charAt(0).toLowerCase() + label.slice(1)).replace(/\bvos\b/, 'tes');
+  return `Ton meilleur levier : ${action}, −${gain} %.`;
 }
 
 const capitalize = (text: string) => text.charAt(0).toUpperCase() + text.slice(1);
@@ -296,6 +312,12 @@ const styles = StyleSheet.create({
   },
   heroNumber: {
     fontSize: 48,
+    fontWeight: '800',
+    color: colors.onAccent,
+  },
+  heroSecondary: {
+    marginTop: 10,
+    fontSize: 32,
     fontWeight: '800',
     color: colors.onAccent,
   },

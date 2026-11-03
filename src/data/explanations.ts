@@ -53,6 +53,15 @@ export const PLASTIC_EXPLANATION: Explanation = {
     'Au lavage, ces fibres relâchent des microfibres plastiques qui finissent dans l’eau.',
 };
 
+export const WARDROBE_EQUIVALENTS_EXPLANATION: Explanation = {
+  title: 'Kilomètres et douches',
+  text:
+    'Un ordre de grandeur : le nombre de vêtements neufs que vous achetez, multiplié par le climat et l’eau du vêtement médian de chaque catégorie déclaré sur le portail officiel.\n\n' +
+    'Ces repères dépendent de vos quantités et de votre part d’occasion, mais pas de la matière, du pays ni de la marque : ces choix apparaissent dans vos leviers. Les marques qui déclarent sur le portail ne sont pas forcément représentatives.\n\n' +
+    'Voiture thermique moyenne : 0,14 kg de CO₂e par kilomètre, fabrication comprise (Impact CO2, ADEME). Une douche : 60 litres. L’eau est un équivalent, pondéré par sa rareté là où elle est prélevée, pour la production des matières et du fil.\n\n' +
+    'La comparaison à la moyenne française porte sur le nombre de vêtements neufs (43 par personne en 2025, baromètre Refashion).',
+};
+
 export const QUIZ_EXPLANATION: Explanation = {
   title: 'Comment est calculé ce résultat ?',
   text:

@@ -71,6 +71,46 @@ export function toPlasticBottles(grams: number): number {
   return Math.round(grams / BOTTLE_PLASTIC_GRAMS);
 }
 
+// Repères de distance en voiture, depuis Paris, par la route (ordres de grandeur).
+const TRIPS: [number, string][] = [
+  [225, 'un Paris-Lille'],
+  [465, 'un Paris-Lyon'],
+  [775, 'un Paris-Marseille'],
+  [930, 'un Paris-Nice'],
+  [1050, 'un Paris-Berlin'],
+  [1270, 'un Paris-Madrid'],
+  [1420, 'un Paris-Rome'],
+];
+const MARSEILLE_KM = 775;
+
+// « un Paris-Marseille », « 3 Paris-Marseille » ; null si aucun trajet n'est assez proche.
+export function tripFor(km: number): string | null {
+  const [closest, name] = TRIPS.reduce((best, trip) => (Math.abs(trip[0] - km) < Math.abs(best[0] - km) ? trip : best));
+  if (km >= closest * 0.8 && km <= closest * 1.25) return name;
+  return km > 1420 ? `${formatCount(Math.round(km / MARSEILLE_KM))} Paris-Marseille` : null;
+}
+
+// « plus d'une par jour », « environ 3 par semaine » ; null en dessous d'une par semaine.
+export function showerPace(showers: number): string | null {
+  const perDay = showers / 365;
+  if (perDay >= 2) return `environ ${Math.round(perDay)} par jour`;
+  if (perDay >= 1) return 'plus d’une par jour';
+  const perWeek = Math.round(showers / 52);
+  return perWeek >= 1 ? `environ ${perWeek} par semaine` : null;
+}
+
+// Arrondi à la dizaine au-delà de 100 : ces repères sont des ordres de grandeur.
+export const roundEstimate = (value: number) => (value >= 100 ? Math.round(value / 10) * 10 : Math.round(value));
+
+// La phrase de Tiko sur une fiche produit ; null si le portail ne donne ni climat ni eau.
+export function productBubble(climate: number | null, water: number | null): string | null {
+  const km = climate !== null ? roundEstimate(toCarKilometers(climate)) : 0;
+  const showers = water !== null ? roundEstimate(toWaterEquivalent(water).showers) : 0;
+  const parts = [km >= 1 ? `${formatCount(km)} km en voiture` : null, showers >= 1 ? pluralize(showers, 'douche') : null];
+  const text = parts.filter(Boolean).join(' et ');
+  return text ? `Ce vêtement, c’est comme ${text}.` : null;
+}
+
 export const formatCount = (value: number) => value.toLocaleString('fr-FR');
 
 export const pluralize = (count: number, word: string) => `${formatCount(count)} ${word}${count > 1 ? 's' : ''}`;

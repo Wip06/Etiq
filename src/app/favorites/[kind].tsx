@@ -2,6 +2,7 @@ import Ionicons from '@expo/vector-icons/Ionicons';
 import { router, Stack, useLocalSearchParams } from 'expo-router';
 import { FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 
+import { Tiko } from '@/components/Tiko';
 import { FAVORITE_CATEGORIES } from '@/data/favoriteCategories';
 import { useLibrary, type Favorite } from '@/session/LibraryProvider';
 import { colors } from '@/theme/colors';
@@ -33,7 +34,7 @@ export default function FavoriteCategoryScreen() {
         keyExtractor={(favorite) => favorite.id}
         renderItem={({ item }) => <FavoriteRow favorite={item} />}
         contentContainerStyle={styles.list}
-        ListEmptyComponent={<Text style={styles.empty}>Aucun favori dans cette catégorie.</Text>}
+        ListEmptyComponent={<Tiko pose="endormi" message="Rien par ici pour l’instant…" />}
       />
     </View>
   );

@@ -4,6 +4,7 @@ import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Button } from '@/components/Button';
 import { PreferencesQuiz } from '@/components/PreferencesQuiz';
+import { Tiko } from '@/components/Tiko';
 import { useSession } from '@/session/SessionProvider';
 import { colors } from '@/theme/colors';
 
@@ -19,12 +20,12 @@ export default function OnboardingScreen() {
         <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
           <View style={styles.flex}>
             <Text style={styles.title}>Bienvenue sur Etiq</Text>
-            <Text style={styles.question}>Comment vous appelez-vous ?</Text>
+            <Tiko pose="assisSourire" message="Salut ! Moi, c’est Tiko. Et toi, comment tu t’appelles ?" />
             <TextInput
               style={styles.input}
               value={firstName}
               onChangeText={setFirstName}
-              placeholder="Votre prénom"
+              placeholder="Ton prénom"
               placeholderTextColor={colors.secondary}
               autoComplete="given-name"
               autoCapitalize="words"
@@ -68,12 +69,6 @@ const styles = StyleSheet.create({
     fontSize: 28,
     fontWeight: '700',
     color: colors.accent,
-  },
-  question: {
-    fontSize: 24,
-    fontWeight: '700',
-    lineHeight: 31,
-    color: colors.text,
   },
   input: {
     padding: 16,

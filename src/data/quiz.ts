@@ -3,6 +3,8 @@
 // des habitudes déclarées (matière, pays de fabrication, type de marque). Réservé aux comptes
 // connectés : le dernier résultat est gardé dans leur bibliothèque.
 import { categories as allCategories } from '@/data/categories';
+import { formatCount, pluralize, roundEstimate, toCarKilometers, toWaterEquivalent } from '@/data/equivalents';
+import stats from '@/data/generated/portal-stats.json';
 import { estimateCost, type EstimateInput } from '@/services/ecobalyse';
 
 // Nombre moyen de vêtements neufs achetés par personne en France en 2025 (baromètre Refashion).
@@ -206,6 +208,11 @@ export type QuizResult = {
   assumedMaterial: string | null;
   // Coût environnemental de ces vêtements neufs, en points.
   cost: number;
+  // Climat (kg CO₂e) et eau (m³ éq) de ces vêtements, pour le vêtement médian de chaque catégorie sur
+  // le portail : l'API Ecobalyse sans compte ne donne que le coût, donc ces repères dépendent des
+  // quantités, pas de la matière, du pays ni de la marque. Absents des résultats plus anciens.
+  climate?: number | null;
+  water?: number | null;
   // Question dont les achats pèsent le plus dans le coût, et sa part en %.
   biggest: { id: string; share: number } | null;
   // Changements possibles, du plus efficace au moins efficace, avec la baisse du coût en %.
@@ -270,6 +277,23 @@ async function annualCosts(counts: Record<string, number>, profile: Profile): Pr
   return byQuestion;
 }
 
+type CategoryMedians = { climateMedian?: number | null; waterMedian?: number | null };
+const portalCategories = stats.categories as unknown as Record<string, CategoryMedians>;
+
+// Total d'un indicateur pour les achats neufs, à partir du vêtement médian de chaque catégorie.
+function medianTotal(counts: Record<string, number>, pick: (medians: CategoryMedians) => number | null | undefined) {
+  let total = 0;
+  for (const question of COUNT_QUESTIONS) {
+    for (const categoryId of question.categories) {
+      const name = allCategories.find((category) => category.id === categoryId)?.name ?? '';
+      const median = portalCategories[name] ? pick(portalCategories[name]) : null;
+      if (typeof median !== 'number') return null;
+      total += (median * counts[question.id]) / question.categories.length;
+    }
+  }
+  return total;
+}
+
 const sum = (values: Record<string, number>) => Object.values(values).reduce((total, value) => total + value, 0);
 const gainPercent = (before: number, after: number) => (before > 0 ? Math.round((1 - after / before) * 100) : 0);
 
@@ -332,10 +356,34 @@ export async function computeResult(answers: Record<string, string>): Promise<Qu
     newPieces: Math.round(sum(counts)),
     assumedMaterial: profile.material === 'inconnu' ? UNKNOWN_MATERIALS[profile.brand].label : null,
     cost,
+    climate: medianTotal(counts, (medians) => medians.climateMedian),
+    water: medianTotal(counts, (medians) => medians.waterMedian),
     biggest: biggestId && cost > 0 ? { id: biggestId, share: Math.round((current[biggestId] / cost) * 100) } : null,
     levers: levers.filter((lever) => lever.gain >= MIN_GAIN).sort((a, b) => b.gain - a.gain),
     completedAt: new Date().toISOString(),
   };
+}
+
+// « 2 fois moins que la moyenne française », d'après le nombre de vêtements neufs achetés.
+export function frenchComparison(newPieces: number): string {
+  const ratio = newPieces / FRENCH_AVERAGE_PIECES;
+  if (ratio >= 0.85 && ratio <= 1.15) return 'Proche de la moyenne française';
+  const times = ratio > 1 ? ratio : ratio > 0 ? 1 / ratio : 0;
+  if (times === 0) return 'Bien moins que la moyenne française';
+  const rounded = (Math.round(times * 2) / 2).toLocaleString('fr-FR');
+  if (rounded === '1') return `Un peu ${ratio > 1 ? 'plus' : 'moins'} que la moyenne française`;
+  return `${rounded} fois ${ratio > 1 ? 'plus' : 'moins'} que la moyenne française`;
+}
+
+// Le résultat en une phrase, pour le profil et l'onglet « Apprendre ». Les repères sont arrondis :
+// ce sont des ordres de grandeur.
+export function wardrobeSentence({ newPieces, climate, water }: QuizResult): string {
+  if (typeof climate === 'number' && typeof water === 'number' && newPieces > 0) {
+    const km = formatCount(roundEstimate(toCarKilometers(climate)));
+    const showers = pluralize(roundEstimate(toWaterEquivalent(water).showers), 'douche');
+    return `Vos achats d’une année : environ ${km} km en voiture et ${showers}.`;
+  }
+  return `Vos achats d’une année : ${pluralize(newPieces, 'vêtement')} neuf${newPieces > 1 ? 's' : ''}.`;
 }
 
 // Un résultat enregistré avec un format précédent du quiz n'est pas réutilisable.

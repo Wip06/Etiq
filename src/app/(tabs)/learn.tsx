@@ -4,9 +4,8 @@ import type { ComponentProps } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { articles } from '@/data/articles';
-import { formatCount, pluralize, toFootprintDuration } from '@/data/equivalents';
 import { LEXICONS } from '@/data/lexicons';
-import { isCurrentResult, QUESTIONS, type QuizResult } from '@/data/quiz';
+import { isCurrentResult, QUESTIONS, wardrobeSentence } from '@/data/quiz';
 import { useLibrary } from '@/session/LibraryProvider';
 import { useSession } from '@/session/SessionProvider';
 import { colors } from '@/theme/colors';
@@ -88,7 +87,7 @@ function QuizCard() {
       </View>
       <Text style={styles.quizTitle}>Quel est l’impact de votre garde-robe ?</Text>
       <Text style={styles.quizText}>
-        {quizResult ? lastResultSentence(quizResult) : 'Estimez l’impact des vêtements que vous achetez en un an.'}
+        {quizResult ? wardrobeSentence(quizResult) : 'Estimez l’impact des vêtements que vous achetez en un an.'}
       </Text>
       <View style={styles.quizButton}>
         <Text style={styles.quizButtonLabel}>
@@ -98,12 +97,6 @@ function QuizCard() {
       </View>
     </Pressable>
   );
-}
-
-function lastResultSentence({ newPieces, cost }: QuizResult): string {
-  if (cost <= 0) return `Votre dernier résultat : ${formatCount(newPieces)} vêtements neufs par an.`;
-  const { value, unit } = toFootprintDuration(cost);
-  return `Votre dernier résultat : vos achats d’une année ont autant d’impact que ${pluralize(value, unit)} de l’empreinte d’un habitant moyen de la planète.`;
 }
 
 const styles = StyleSheet.create({

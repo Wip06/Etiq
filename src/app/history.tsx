@@ -2,6 +2,7 @@ import { router } from 'expo-router';
 import { Alert, FlatList, Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { Button } from '@/components/Button';
+import { Tiko } from '@/components/Tiko';
 import { useLibrary, type Scan } from '@/session/LibraryProvider';
 import { colors } from '@/theme/colors';
 
@@ -21,7 +22,7 @@ export default function HistoryScreen() {
         keyExtractor={(scan) => scan.gtin}
         renderItem={({ item }) => <ScanRow scan={item} />}
         contentContainerStyle={styles.list}
-        ListEmptyComponent={<Text style={styles.empty}>Aucun scan pour l’instant.</Text>}
+        ListEmptyComponent={<Tiko pose="endormi" message="Rien par ici pour l’instant… Scanne ton premier vêtement !" />}
         ListFooterComponent={
           history.length > 0 ? (
             <View style={styles.footer}>
@@ -98,11 +99,5 @@ const styles = StyleSheet.create({
   },
   footer: {
     marginTop: 12,
-  },
-  empty: {
-    marginTop: 24,
-    fontSize: 15,
-    textAlign: 'center',
-    color: colors.secondary,
   },
 });

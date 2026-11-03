@@ -3,6 +3,7 @@ import { router } from 'expo-router';
 import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { InfoButton } from '@/components/InfoButton';
+import { Tiko } from '@/components/Tiko';
 import { ALTERNATIVES_EXPLANATION } from '@/data/explanations';
 import type { Alternative } from '@/data/portalStats';
 import { pluralize, toWaterEquivalent } from '@/data/equivalents';
@@ -10,8 +11,17 @@ import { colors } from '@/theme/colors';
 
 // Propose des vêtements de la même catégorie qui ont moins d'impact. Un appui ouvre leur fiche,
 // avec leur étiquette officielle. `water` : l'eau du vêtement comparé, en m³ éq, si on la connaît.
-export function Alternatives({ alternatives, water }: { alternatives: Alternative[]; water?: number | null }) {
+export function Alternatives({
+  alternatives,
+  water,
+  withTiko = true,
+}: {
+  alternatives: Alternative[];
+  water?: number | null;
+  withTiko?: boolean;
+}) {
   if (alternatives.length === 0) return null;
+  const count = alternatives.length;
 
   return (
     <View style={styles.section}>
@@ -19,6 +29,12 @@ export function Alternatives({ alternatives, water }: { alternatives: Alternativ
         <InfoButton explanation={ALTERNATIVES_EXPLANATION} />
         <Text style={styles.title}>Moins d’impact, même type de vêtement</Text>
       </View>
+      {withTiko && (
+        <Tiko
+          pose="saut"
+          message={`J’ai trouvé ${count} vêtement${count > 1 ? 's' : ''} proche${count > 1 ? 's' : ''}, avec moins d’impact !`}
+        />
+      )}
       {alternatives.map((alternative) => {
         const savedShowers =
           typeof water === 'number' && typeof alternative.water === 'number'

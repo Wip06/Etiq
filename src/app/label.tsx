@@ -9,6 +9,7 @@ import { CategoryComparison } from '@/components/CategoryComparison';
 import { ImpactEquivalents } from '@/components/ImpactEquivalents';
 import { MaterialInfoButton } from '@/components/MaterialInfo';
 import { OfficialCostLabel } from '@/components/OfficialCostLabel';
+import { Tiko } from '@/components/Tiko';
 import { categories, type Category } from '@/data/categories';
 import { COUNTRY_NAMES, MATERIAL_NAMES } from '@/data/ecobalyse';
 import { syntheticGrams } from '@/data/equivalents';
@@ -105,9 +106,10 @@ export default function LabelScreen() {
     return (
       <View style={[styles.container, styles.centered]}>
         <ActivityIndicator color={colors.accent} />
-        <Text style={styles.message}>
-          {step.name === 'reading' ? 'Lecture de l’étiquette…' : 'Calcul du coût environnemental…'}
-        </Text>
+        <Tiko
+          pose="assisRegard"
+          message={step.name === 'reading' ? 'Je lis ton étiquette…' : 'Je calcule le coût environnemental…'}
+        />
       </View>
     );
   }

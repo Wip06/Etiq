@@ -199,22 +199,22 @@ export const brands: Brand[] = [
     tags: ['France', 'Premium', 'SMCP'],
     sources: [{ label: 'Site officiel', url: 'https://fr.maje.com/' }],
     portalName: 'MAJE',
-    // Relevé automatique le 2 nov. 2026, sans les pays (chargés au clic sur « Traçabilité »).
+    // Relevé automatique le 2 nov. 2026, pays et quelques fiches complétés à la main (pays affichés au clic sur « Traçabilité »).
     // Détail produit par produit : releves/maje.txt.
     survey: {
       date: '2026-11-02',
       method: 'catalogue',
       products: 20,
-      syntheticShare: 43,
-      europeShare: null,
-      countries: [],
+      syntheticShare: 35,
+      europeShare: 5,
+      countries: ['Chine', 'Turquie', 'Bulgarie', 'Tunisie', 'Maroc'],
       medianPrice: 245,
       repair: true,
       secondHand: true,
       notes: [
-        '20 fiches relevées automatiquement : les premiers modèles de six catégories dans le plan du site.',
-        '9 produits sur 20 sont majoritairement synthétiques.',
-        'Pays de confection non relevés : ils ne s’affichent qu’au clic sur la fiche.',
+        '20 fiches relevées : automatiquement pour les compositions, à la main pour les pays.',
+        '7 produits sur 20 sont majoritairement synthétiques.',
+        'Confection surtout en Chine et en Turquie : 1 produit sur 20 en Europe.',
         'Réparation et seconde main : services relevés dans la presse (2022 et 2024), à revérifier.',
       ],
       sources: [
@@ -231,22 +231,23 @@ export const brands: Brand[] = [
     tags: ['France', 'Grand public'],
     sources: [{ label: 'Site officiel', url: 'https://www.promod.fr/fr-fr/' }],
     portalName: 'PROMOD',
-    // Relevé automatique le 2 nov. 2026, sans les pays. Détail produit par produit : releves/promod.txt.
+    // Relevé automatique le 2 nov. 2026, pays et quelques fiches complétés à la main. Détail produit par produit : releves/promod.txt.
     survey: {
       date: '2026-11-02',
       method: 'catalogue',
       products: 20,
       syntheticShare: 35,
-      europeShare: null,
-      countries: [],
-      medianPrice: 15.5,
+      europeShare: 0,
+      countries: ['Turquie', 'Chine', 'Tunisie', 'Bangladesh', 'Cambodge', 'Inde'],
+      medianPrice: 27.99,
       repair: null,
       secondHand: null,
       notes: [
-        '20 fiches relevées automatiquement : les premiers modèles de six catégories dans le plan du site.',
+        '20 fiches relevées : automatiquement pour les compositions, à la main pour les pays.',
         '8 produits sur 20 sont majoritairement synthétiques, souvent en polyester recyclé.',
         'Prix relevés le jour du relevé : certains peuvent être des prix soldés.',
-        'Pays de confection, réparation et seconde main non relevés.',
+        'Confection hors d’Europe sur les 19 produits dont le pays est indiqué.',
+        'Réparation et seconde main non relevées.',
       ],
       sources: [
         { label: 'Fiches produits du site Promod', url: 'https://www.promod.fr/fr-fr/' },
@@ -261,22 +262,23 @@ export const brands: Brand[] = [
     tags: ['France', 'Premium', 'SMCP'],
     sources: [{ label: 'Site officiel', url: 'https://fr.sandro-paris.com/fr/' }],
     portalName: 'SANDRO ANDY',
-    // Relevé automatique le 2 nov. 2026, sans les pays. Détail produit par produit : releves/sandro.txt.
+    // Relevé automatique le 2 nov. 2026, pays et quelques fiches complétés à la main. Détail produit par produit : releves/sandro.txt.
     survey: {
       date: '2026-11-02',
       method: 'catalogue',
       products: 20,
       syntheticShare: 27,
-      europeShare: null,
-      countries: [],
+      europeShare: 21,
+      countries: ['Chine', 'Bulgarie', 'Tunisie', 'Inde', 'Maroc'],
       medianPrice: 220,
       repair: null,
       secondHand: true,
       notes: [
-        '20 fiches relevées automatiquement : les premiers modèles de six catégories dans le plan du site.',
+        '20 fiches relevées : automatiquement pour les compositions, à la main pour les pays.',
         '2 produits sur 20 sont majoritairement synthétiques ; les blousons en cuir sont comptés sans synthétique, hors doublure.',
         'Seconde main : service relevé dans la presse (2023), à revérifier.',
-        'Pays de confection et réparation non relevés.',
+        'Confection en Europe : 4 produits sur les 19 dont le pays est indiqué.',
+        'Réparation non relevée.',
       ],
       sources: [
         { label: 'Fiches produits du site Sandro', url: 'https://fr.sandro-paris.com/fr/' },
@@ -292,22 +294,23 @@ export const brands: Brand[] = [
     tags: ['France', 'Premium', 'SMCP'],
     sources: [{ label: 'Site officiel', url: 'https://fr.claudiepierlot.com/fr/' }],
     portalName: 'CLAUDIE PIERLOT',
-    // Relevé automatique le 2 nov. 2026, sans les pays. Détail produit par produit : releves/claudiepierlot.txt.
+    // Relevé automatique le 2 nov. 2026, pays et quelques fiches complétés à la main. Détail produit par produit : releves/claudiepierlot.txt.
     survey: {
       date: '2026-11-02',
       method: 'catalogue',
       products: 12,
-      syntheticShare: 27,
-      europeShare: null,
-      countries: [],
-      medianPrice: 235,
+      syntheticShare: 19,
+      europeShare: 8,
+      countries: ['Chine', 'Inde', 'Turquie', 'Tunisie', 'Bulgarie', 'Maroc'],
+      medianPrice: 255,
       repair: null,
       secondHand: true,
       notes: [
         'Seulement 12 fiches relevées : le plan du site contient peu de produits, sans t-shirt ni top repéré.',
-        'Composition lue sur 11 de ces 12 fiches ; 2 produits sont majoritairement synthétiques.',
+        'Compositions et pays complétés à la main ; 1 produit sur 12 est majoritairement synthétique.',
         'Seconde main : service relevé dans la presse (2024), à revérifier.',
-        'Pays de confection et réparation non relevés.',
+        'Confection en Europe : 1 produit sur 12.',
+        'Réparation non relevée.',
       ],
       sources: [
         { label: 'Fiches produits du site Claudie Pierlot', url: 'https://fr.claudiepierlot.com/fr/' },

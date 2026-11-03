@@ -5,9 +5,9 @@ import { Alert, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 
 
 import { Button } from '@/components/Button';
 import { LoginPrompt } from '@/components/LoginPrompt';
-import { pluralize, toFootprintDuration } from '@/data/equivalents';
+import { pluralize } from '@/data/equivalents';
 import { BUDGETS, getGoal } from '@/data/goals';
-import type { QuizResult } from '@/data/quiz';
+import { wardrobeSentence, type QuizResult } from '@/data/quiz';
 import { useLibrary } from '@/session/LibraryProvider';
 import { useSession } from '@/session/SessionProvider';
 import { colors } from '@/theme/colors';
@@ -98,11 +98,7 @@ function ImpactCard() {
     <Card title="Mon impact">
       {latest ? (
         <>
-          <Text style={styles.text}>
-            Vos achats d’une année : autant d’impact que{' '}
-            {pluralize(toFootprintDuration(latest.cost).value, toFootprintDuration(latest.cost).unit)} de l’empreinte
-            d’un habitant moyen de la planète.
-          </Text>
+          <Text style={styles.text}>{wardrobeSentence(latest)}</Text>
           <Text style={styles.muted}>Quiz du {formatDate(latest.completedAt)}</Text>
           {quizHistory.length > 1 && first.cost > 0 && (
             <Text style={styles.evolution}>{evolutionSentence(first, latest)}</Text>
