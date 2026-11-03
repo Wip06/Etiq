@@ -6,20 +6,23 @@
 //   npx supabase secrets set GEMINI_API_KEY=...
 //   npx supabase functions deploy read-label --no-verify-jwt
 
-import { ApiError, GoogleGenAI } from '@google/genai';
+import { ApiError, GoogleGenAI, MediaResolution, ThinkingLevel } from '@google/genai';
 
 // Modèles Gemini gratuits qui acceptent les images (ai.google.dev/gemini-api/docs/pricing), essayés
 // dans l'ordre : en offre gratuite, un modèle peut être saturé, à court de quota ou fermé aux
-// nouveaux comptes. Le secret GEMINI_MODEL, s'il existe, est essayé en premier.
+// nouveaux comptes. Les Flash-Lite passent en premier : plus rapides et moins saturés, ils lisent
+// aussi bien une étiquette. Le secret GEMINI_MODEL, s'il existe, est essayé en premier.
 const MODELS = [
   ...(Deno.env.get('GEMINI_MODEL') ? [Deno.env.get('GEMINI_MODEL') as string] : []),
-  'gemini-3.8-flash',
-  'gemini-3.6-flash',
   'gemini-3.5-flash-lite',
   'gemini-3.1-flash-lite',
+  'gemini-3.6-flash',
+  'gemini-3.8-flash',
 ];
 // Modèle introuvable, quota épuisé ou serveur saturé : on passe au modèle suivant.
 const TRY_NEXT_MODEL = [404, 429, 500, 503];
+// Au-delà, un modèle est considéré comme saturé : on passe au suivant plutôt que de l'attendre.
+const MODEL_TIMEOUT_MS = 10_000;
 
 // Matières et pays acceptés par Ecobalyse 7.0.0 (/textile/materials et /textile/countries).
 const MATERIALS = [
@@ -118,7 +121,12 @@ type Label = {
 // Une photo de téléphone redimensionnée par l'app fait quelques centaines de Ko.
 const MAX_IMAGE_BYTES = 4 * 1024 * 1024;
 
-const client = new GoogleGenAI({ apiKey: Deno.env.get('GEMINI_API_KEY') ?? '' });
+// Par défaut, le SDK réessaie jusqu'à 5 fois un modèle saturé, avec des attentes croissantes
+// (jusqu'à plus d'une minute) : on préfère passer tout de suite au modèle suivant.
+const client = new GoogleGenAI({
+  apiKey: Deno.env.get('GEMINI_API_KEY') ?? '',
+  httpOptions: { retryOptions: { attempts: 1 } },
+});
 
 function error(status: number, message: string) {
   return Response.json({ error: message }, { status });
@@ -146,7 +154,9 @@ Deno.serve(async (req) => {
   if (typeof image !== 'string' || image.length === 0) return error(400, 'Image manquante');
   if ((image.length * 3) / 4 > MAX_IMAGE_BYTES) return error(413, 'Image trop lourde');
 
-  let lastError: ApiError | null = null;
+  // Statut HTTP du dernier échec, ou « timeout » si le modèle n'a pas répondu à temps.
+  let lastStatus: number | 'timeout' | null = null;
+  let lastDetail = '';
   for (const model of MODELS) {
     try {
       const response = await client.models.generateContent({
@@ -162,6 +172,11 @@ Deno.serve(async (req) => {
           temperature: 0,
           responseMimeType: 'application/json',
           responseJsonSchema: SCHEMA,
+          // Lire une étiquette ne demande pas de raisonnement : la réflexion du modèle ne fait que
+          // ralentir la réponse. Une résolution moyenne suffit pour un texte imprimé gros.
+          thinkingConfig: { thinkingLevel: ThinkingLevel.MINIMAL },
+          mediaResolution: MediaResolution.MEDIA_RESOLUTION_MEDIUM,
+          abortSignal: AbortSignal.timeout(MODEL_TIMEOUT_MS),
         },
       });
 
@@ -170,21 +185,32 @@ Deno.serve(async (req) => {
       const label = JSON.parse(text) as Label;
       return Response.json({ ...label, model });
     } catch (caught) {
-      if (!(caught instanceof ApiError)) {
+      // Le détail de Google part dans les logs Supabase et dans la réponse, pour le diagnostic.
+      // Il ne contient jamais la clé.
+      if (caught instanceof ApiError) {
+        console.error('Gemini', model, caught.status, caught.message);
+        lastStatus = caught.status;
+        lastDetail = caught.message.slice(0, 300);
+        if (!TRY_NEXT_MODEL.includes(caught.status)) break;
+      } else if (caught instanceof DOMException && (caught.name === 'TimeoutError' || caught.name === 'AbortError')) {
+        console.error('Gemini', model, `pas de réponse en ${MODEL_TIMEOUT_MS} ms`);
+        lastStatus = 'timeout';
+        lastDetail = `${model} : pas de réponse en ${MODEL_TIMEOUT_MS / 1000} s`;
+      } else {
         console.error(caught);
         return error(500, 'Erreur inattendue');
       }
-      // Le détail de Google part dans les logs Supabase et dans la réponse, pour le diagnostic.
-      // Il ne contient jamais la clé.
-      console.error('Gemini', model, caught.status, caught.message);
-      lastError = caught;
-      if (!TRY_NEXT_MODEL.includes(caught.status)) break;
     }
   }
 
-  const detail = lastError?.message.slice(0, 300) ?? '';
-  if (lastError?.status === 429 || lastError?.status === 503) {
-    return Response.json({ error: 'Service de lecture saturé, réessayez dans un instant', detail }, { status: 503 });
+  if (lastStatus === 429 || lastStatus === 503 || lastStatus === 'timeout') {
+    return Response.json(
+      { error: 'Service de lecture saturé, réessayez dans un instant', detail: lastDetail },
+      { status: 503 },
+    );
   }
-  return Response.json({ error: `Service de lecture indisponible (${lastError?.status})`, detail }, { status: 502 });
+  return Response.json(
+    { error: `Service de lecture indisponible (${lastStatus})`, detail: lastDetail },
+    { status: 502 },
+  );
 });
