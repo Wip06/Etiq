@@ -10,45 +10,45 @@ Produit 1
 Nom : Top ajouré et volanté Femme
 Lien : https://www.promod.fr/fr-fr/top-ajoure-et-volante-femme-vert--p211574/
 Composition : 50% polyester recyclé, 49% polyester, 1% élasthanne
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 12,99 €
+Fabriqué en : Turquie
+Tissé en : Turquie
+Teint en : Turquie
+Prix : 25,99 €
 
 Produit 2
 Nom : Débardeur marcel côtelé Femme
 Lien : https://www.promod.fr/fr-fr/debardeur-marcel-cotele-femme-orange--p211620/
 Composition : 50% coton recyclé, 46% coton, 4% élasthanne
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 10 €
+Fabriqué en : Tunisie
+Tissé en : Bangladesh & Turquie
+Teint en : Bangladesh & Turquie
+Prix : 12,99 €
 
 Produit 3
 Nom : Débardeur en jersey Femme
 Lien : https://www.promod.fr/fr-fr/debardeur-en-jersey-femme-ecru--p207762/
 Composition : 70% coton, 25% coton issu de l agriculture biologique, 5% élasthanne
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 7,99 €
+Fabriqué en : Bangladesh
+Tissé en : Bangladesh
+Teint en : Bangladesh
+Prix : 9,99 €
 
 Produit 4
 Nom : Top à bretelles
 Lien : https://www.promod.fr/fr-fr/top-a-bretelles-vert-olive--p206590/
 Composition : 96% viscose responsable, 4% élasthanne
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 7 €
+Fabriqué en : Tunisie
+Tissé en : France
+Teint en : Espagne
+Prix : 13,99 €
 
 Produit 5
 Nom : Débardeur détail macramé Femme
 Lien : https://www.promod.fr/fr-fr/debardeur-detail-macrame-femme-gris--p206680/
 Composition : 50% coton, 50% coton issu de l agriculture biologique
-Fabriqué en : 
-Tissé en : 
-Teint en : 
+Fabriqué en : Turquie
+Tissé en : Turquie
+Teint en : Turquie
 Prix : 12,99 €
 
 ===== PULLS ET MAILLE =====
@@ -57,37 +57,37 @@ Produit 6
 Nom : Cardigan irisé sans manches
 Lien : https://www.promod.fr/fr-fr/cardigan-irise-sans-manches-ecru--p207513/
 Composition : 63% polyester, 37% coton recyclé
-Fabriqué en : 
-Tissé en : 
-Teint en : 
+Fabriqué en : Turquie
+Tissé en : Turquie
+Teint en : Turquie
 Prix : 29,99 €
 
 Produit 7
 Nom : Cardigan en maille dentelle
 Lien : https://www.promod.fr/fr-fr/cardigan-en-maille-dentelle-ecru--p210070/
 Composition : 60% polyester, 40% coton recyclé
-Fabriqué en : 
-Tissé en : 
-Teint en : 
+Fabriqué en : Turquie
+Tissé en : Turquie
+Teint en : Turquie
 Prix : 25,89 €
 
 Produit 8
 Nom : Gilet fin boutonné éco-conçu
 Lien : https://www.promod.fr/fr-fr/gilet-fin-boutonne-eco-concu-ecru--p206516/
 Composition : 80% viscose responsable, 20% polyamide
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 10 €
+Fabriqué en : Bangladesh
+Tissé en : Bangladesh
+Teint en : Bangladesh
+Prix : 25,99 €
 
 Produit 9
 Nom : Cardigan col rond Femme
 Lien : https://www.promod.fr/fr-fr/cardigan-col-rond-femme-noir--p206527/
 Composition : 50% polyester recyclé, 26% acrylique, 20% laine, 4% élasthanne
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 20 €
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 36,99 €
 
 ===== ROBES ET JUPES =====
 
@@ -95,28 +95,28 @@ Produit 10
 Nom : Jupe midi évasée à pois Femme
 Lien : https://www.promod.fr/fr-fr/jupe-midi-evasee-a-pois-femme-imprime-noir--p252398/
 Composition : 100% coton issu de l agriculture biologique
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 36,79 €
+Fabriqué en : Turquie
+Tissé en : Turquie
+Teint en : Turquie
+Prix : 45,99 €
 
 Produit 11
 Nom : Jupe courte carreaux vichy
 Lien : https://www.promod.fr/fr-fr/jupe-courte-carreaux-vichy-carreaux-beige--p209907/
 Composition : 94% polyester recyclé, 6% coton
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 17,99 €
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 35,99 €
 
 Produit 12
 Nom : Jupe midi en satin imprimé
 Lien : https://www.promod.fr/fr-fr/jupe-midi-en-satin-imprime-imprime-multicolore--p209927/
 Composition : 100% polyester recyclé
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 20,99 €
+Fabriqué en : Tunisie
+Tissé en : Chine
+Teint en : Chine
+Prix : 29,99 €
 
 ===== PANTALONS ET JEANS =====
 
@@ -124,10 +124,10 @@ Produit 13
 Nom : Pantalon cigarette uni Femme
 Lien : https://www.promod.fr/fr-fr/pantalon-cigarette-uni-femme-noir--p203388/
 Composition : 63% polyester recyclé, 33% viscose, 4% élasthanne
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 12 €
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 25,99 €
 
 Produit 14
 Nom : BASILE jean droit high rise
@@ -142,10 +142,10 @@ Produit 15
 Nom : BASILE jean droit taille haute
 Lien : https://www.promod.fr/fr-fr/basile-jean-droit-taille-haute-noir--p206449/
 Composition : 75% coton, 25% coton recyclé
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 10 €
+Fabriqué en : Cambodge
+Tissé en : Bangladesh & Chine
+Teint en : Bangladesh & Chine
+Prix : 25,19 €
 
 ===== CHEMISES ET BLOUSES =====
 
@@ -153,28 +153,28 @@ Produit 16
 Nom : MARIE Chemise western en jean
 Lien : https://www.promod.fr/fr-fr/marie-chemise-western-en-jean-jean-rinse--p206444/
 Composition : 75% coton, 25% coton recyclé
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 12 €
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 29,99 €
 
 Produit 17
 Nom : Blouse brodée en coton Femme
 Lien : https://www.promod.fr/fr-fr/blouse-brodee-en-coton-femme-bleu--p209757/
 Composition : 100% coton issu de l agriculture biologique
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 22,99 €
+Fabriqué en : Inde
+Tissé en : Inde
+Teint en : Inde
+Prix : 45,99 €
 
 Produit 18
 Nom : Chemise en satin imprimée
 Lien : https://www.promod.fr/fr-fr/chemise-en-satin-imprimee-imprime-bleu--p209696/
 Composition : 100% polyester recyclé
-Fabriqué en : 
+Fabriqué en : Tunisie
 Tissé en : 
 Teint en : 
-Prix : 17,99 €
+Prix : 35,99 €
 
 ===== MANTEAUX ET VESTES =====
 
@@ -182,16 +182,16 @@ Produit 19
 Nom : Veste surchemise en jean Femme
 Lien : https://www.promod.fr/fr-fr/veste-surchemise-en-jean-femme-jeans-gris--p253411/
 Composition : 50% coton, 50% coton issu de l agriculture biologique
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 24,99 €
+Fabriqué en : Cambodge
+Tissé en : Chine
+Teint en : Chine
+Prix : 49,99 €
 
 Produit 20
 Nom : Blouson à col montant Femme
 Lien : https://www.promod.fr/fr-fr/blouson-a-col-montant-femme-ecru--p210593/
 Composition : 51% lyocell, 44% viscose responsable, 5% polyamide
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 29,99 €
+Fabriqué en : Chine
+Tissé en : Chine
+Teint en : Chine
+Prix : 59,99 €
