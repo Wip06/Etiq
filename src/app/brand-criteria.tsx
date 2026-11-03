@@ -10,7 +10,7 @@ import { colors } from '@/theme/colors';
 const GOAL_RULES: Record<string, string> = {
   impact: `Au moins ${CRITERIA.minBelowMedianShare} % de ses produits déclarés sur le portail officiel ont un coût environnemental plus bas que la médiane de leur catégorie, à poids égal (en partie dès ${CRITERIA.partialBelowMedianShare} %). Il faut au moins ${CRITERIA.minDeclaredReferences} produits déclarés : en dessous, nous ne savons pas.`,
   durable: 'La marque propose un service de réparation ou de revente de ses vêtements d’occasion (en partie si ce service n’existe que dans quelques magasins).',
-  materials: `En moyenne, au plus ${CRITERIA.maxSyntheticShare} % de fibres synthétiques (polyester, nylon, acrylique, élasthanne…) dans la composition de ses vêtements (en partie jusqu’à ${CRITERIA.partialSyntheticShare} %).`,
+  materials: `En moyenne, au plus ${CRITERIA.maxSyntheticShare} % de fibres synthétiques (polyester, nylon, acrylique, élasthanne…) dans la composition de ses vêtements (en partie jusqu’à ${CRITERIA.partialSyntheticShare} %). La part de fibres naturelles est indiquée à côté. Viscose, lyocell et modal sont comptés à part : ils viennent du bois, mais sont transformés chimiquement.`,
   local: `Au moins ${CRITERIA.minEuropeShare} % de ses vêtements sont confectionnés en Europe (en partie dès ${CRITERIA.partialEuropeShare} %).`,
 };
 
@@ -19,8 +19,9 @@ export default function BrandCriteriaScreen() {
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <Section title="Notre principe">
         <Paragraph>
-          Aucune marque ne paie pour apparaître dans Etiq ou pour être mieux placée. Nous ne donnons pas de note aux
-          marques : ce sont vos objectifs, choisis à l’inscription, qui classent celles que nous vous proposons.
+          Aucune marque ne paie pour apparaître dans Etiq ou pour être mieux placée. Le pourcentage affiché n’est pas une
+          note de la marque : il mesure sa correspondance avec vos objectifs et votre budget, et il change d’une
+          personne à l’autre.
         </Paragraph>
       </Section>
 
@@ -32,9 +33,14 @@ export default function BrandCriteriaScreen() {
           </View>
         ))}
         <Paragraph>
-          Toutes les marques relevées sont proposées, de la plus proche à la moins proche de vos objectifs et de votre
-          budget. Une marque peut donc ne correspondre qu’en partie : chaque carte indique ce qui correspond ou non, et
-          pourquoi. Une marque qui ne remplit aucun de vos objectifs est présentée « à défaut ».
+          Toutes les marques relevées sont proposées, de la plus proche à la moins proche de vos critères. Chaque carte
+          indique ce qui correspond ou non, et pourquoi. Une marque qui ne remplit aucun de vos objectifs est présentée
+          « à défaut ».
+        </Paragraph>
+        <Paragraph>
+          Le calcul : un critère rempli compte en entier, en partie pour moitié, et sans données pour zéro. Vos
+          objectifs pèsent selon l’ordre que vous avez choisi : le dernier compte 2, et chaque rang au-dessus 1 de plus
+          (avec 3 objectifs : 4, 3 et 2). Le budget compte {CRITERIA.budgetWeight}.
         </Paragraph>
       </Section>
 

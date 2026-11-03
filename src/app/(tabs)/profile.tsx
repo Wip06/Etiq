@@ -48,7 +48,7 @@ export default function ProfileScreen() {
 
       <Card title="Mes objectifs">
         <Text style={styles.text}>
-          {user.preferences?.goals.map((id) => getGoal(id)?.label).join(', ')}
+          {user.preferences?.goals.map((id, rank) => `${rank + 1}. ${getGoal(id)?.label}`).join('\n')}
         </Text>
         <Text style={styles.text}>
           Budget : {BUDGETS.find((budget) => budget.id === user.preferences?.budget)?.label}
@@ -122,6 +122,9 @@ function ImpactCard() {
                 : '.'
             }`}
       </Text>
+      {history.length === 0 && (
+        <Button label="Scanner un vêtement" variant="secondary" onPress={() => router.navigate('/scan')} />
+      )}
     </Card>
   );
 }

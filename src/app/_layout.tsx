@@ -1,6 +1,8 @@
 import { SplashScreen, Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
+import { useEffect, useState } from 'react';
 
+import { DidYouKnowScreen } from '@/components/DidYouKnowScreen';
 import { LibraryProvider } from '@/session/LibraryProvider';
 import { SessionProvider, useSession } from '@/session/SessionProvider';
 import { colors } from '@/theme/colors';
@@ -21,8 +23,14 @@ export default function RootLayout() {
 function RootNavigator() {
   const { isLoading, isGuest, user } = useSession();
 
-  if (isLoading) return null;
-  SplashScreen.hide();
+  const [hasContinued, setHasContinued] = useState(false);
+
+  // L'écran « Le savais-tu ? » prend le relais de l'écran natif, jusqu'à ce que l'utilisateur continue.
+  useEffect(() => {
+    SplashScreen.hide();
+  }, []);
+
+  if (!hasContinued) return <DidYouKnowScreen ready={!isLoading} onContinue={() => setHasContinued(true)} />;
 
   const hasChosen = isGuest || user !== null;
   const needsOnboarding = user !== null && user.preferences === null;

@@ -14,6 +14,7 @@ type Option = { label: string; value: string };
 
 export type QuizQuestion = {
   id: string;
+  // Posée par Tiko, qui tutoie.
   question: string;
   hint?: string;
   options: Option[];
@@ -33,7 +34,7 @@ const FEW = [count('Aucun', 0), count('1 ou 2', 1.5), count('3 à 5', 4), count(
 const COUNT_QUESTIONS: CountQuestion[] = [
   {
     id: 'tshirt',
-    question: 'Combien de t-shirts et polos achetez-vous par an ?',
+    question: 'Combien de t-shirts et polos achètes-tu par an ?',
     hint: 'Neufs ou d’occasion, sur une année habituelle.',
     categories: ['tshirt'],
     options: [count('Aucun', 0), count('1 à 3', 2), count('4 à 8', 6), count('9 ou plus', 12)],
@@ -82,6 +83,7 @@ const MATERIALS: Record<string, { label: string; materials: EstimateInput['mater
 // Pays appliqué au tissage, à la teinture et à la confection. « --- » : inconnu pour la méthode,
 // qui applique alors ses valeurs par défaut.
 const COUNTRIES: Record<string, { label: string; code: string }> = {
+  inconnu: { label: 'Je ne sais pas', code: '---' },
   chine: { label: 'Chine', code: 'CN' },
   bangladesh: { label: 'Bangladesh', code: 'BD' },
   inde: { label: 'Inde', code: 'IN' },
@@ -89,7 +91,6 @@ const COUNTRIES: Record<string, { label: string; code: string }> = {
   maghreb: { label: 'Maroc ou Tunisie', code: 'MA' },
   europe: { label: 'Europe (Portugal, Italie…)', code: 'REO' },
   france: { label: 'France', code: 'FR' },
-  inconnu: { label: 'Je ne sais pas', code: '---' },
 };
 
 // Le type de marque entre dans le coefficient de durabilité : taille de l'entreprise, service de
@@ -181,15 +182,15 @@ const SECOND_HAND = [
 export const QUESTIONS: QuizQuestion[] = [
   ...COUNT_QUESTIONS,
   // Le type de marque avant la matière : il sert à la déduire quand elle est inconnue.
-  { id: 'marque', question: 'Où achetez-vous le plus souvent vos vêtements ?', options: toOptions(BRANDS) },
+  { id: 'marque', question: 'Où achètes-tu le plus souvent tes vêtements ?', options: toOptions(BRANDS) },
   {
     id: 'matiere',
-    question: 'Dans quelle matière sont la plupart de vos vêtements ?',
+    question: 'Dans quelle matière sont la plupart de tes vêtements ?',
     hint: 'On ne le sait pas toujours : dans ce cas, nous partons des vêtements types de la méthode officielle.',
     options: toOptions(MATERIALS),
   },
-  { id: 'pays', question: 'Où sont fabriqués la plupart de vos vêtements ?', options: toOptions(COUNTRIES) },
-  { id: 'occasion', question: 'Quelle part de vos vêtements achetez-vous d’occasion ?', options: SECOND_HAND },
+  { id: 'pays', question: 'Où sont fabriqués la plupart de tes vêtements ?', options: toOptions(COUNTRIES) },
+  { id: 'occasion', question: 'Quelle part de tes vêtements achètes-tu d’occasion ?', options: SECOND_HAND },
 ];
 
 // ---------------------------------------------------------------------------------------------

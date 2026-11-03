@@ -3,12 +3,13 @@
 ## Comptes connectés (interdit aux invités)
 - « Ma garde-robe » (fonction premium Etiq+, abonnement annuel prévu au modèle économique) : bouton « Je l'ai acheté » sur la fiche d'un vêtement scanné, garde-robe et impact cumulé dans le profil. Même en maquette, il montre au jury que le modèle économique existe dans le produit
 - Politique de confidentialité (`src/app/privacy.tsx`) : faire relire, et vérifier les conditions de l'offre gratuite de Gemini (utilisation des données par Google, relecture humaine)
+- Valider en équipe les poids du pourcentage de correspondance (`goalWeight` et `budgetWeight`), et faire vérifier qu'il ne peut pas être lu comme un score environnemental (art. D. 541-245)
 - Valider en équipe les seuils des objectifs (`CRITERIA` dans `src/data/recommendations.ts`) : 25 % de synthétique au plus (en partie jusqu'à 50 %), 50 % de confection en Europe au moins (en partie dès 25 %), 60 % des produits déclarés sous la médiane (en partie dès 40 %)
 
 ## Marques : relevés des fiches produits
 Protocole et fiches à remplir dans `releves/` (20 produits par marque). Un relevé à la main prend 10 à 20 minutes. Faits : Sézane, Uniqlo (à la main, 26 oct.), Sessùn, Ba&sh, Maje, Promod, Sandro, Claudie Pierlot (automatique, 2 nov.).
 - À remplir à la main, fiches prêtes : **H&M, Zara** en priorité (les plus connues de la cible), puis **Armedangels, Le Slip Français, Faguo, Jules, American Vintage, Etam, Asphalte** (accès refusé, robots interdits pour American Vintage, composition non lisible pour Etam et Asphalte). Les relever donne enfin des marques avec l'objectif « Réduire mon impact » rempli et des données complètes
-- Vérifier sur les sites les services relevés dans la presse : réparation et seconde main de Maje, seconde main de Ba&sh, de Sandro et de Claudie Pierlot ; services de Promod ; réparation et seconde main de Sessùn (non vérifiés)
+- Vérifier sur les sites les services relevés dans la presse : réparation et seconde main de Maje, seconde main de Ba&sh, de Sandro et de Claudie Pierlot ; seconde main de Promod ; réparation et seconde main de Sessùn (non vérifiés)
 - Ensuite si besoin : Shein, Kiabi, Mango, Pull&Bear, Noo. Réessayer plus tard en automatique (trop de requêtes le 2 nov.) : Mango, Pimkie, Cyrillus, Des Petits Hauts, Picture, Ecoalf, Rouje
 - Balzac Paris : vérifier si c'est bien « MAISON BALZAC » sur le portail (269 produits)
 - Rédiger la description de chaque marque relevée (remplace « Analyse environnementale à compléter »)
@@ -24,6 +25,7 @@ Protocole et fiches à remplir dans `releves/` (20 produits par marque). Un rele
 - Équivalent eau pour les estimations par étiquette et le quiz (km de voiture aussi) : l'API Ecobalyse sans compte renvoie 0 pour l'eau (à tester avec un compte)
 
 ## Contenu
+- « Le savais-tu ? » (`src/data/didYouKnow.ts`) : faire relire les 24 anecdotes et recouper leurs chiffres avant la finale ; en ajouter à partir d'autres fiches
 - Ajouter d'autres articles (liens The Good Goods + résumé écrit par nous)
 - Image qui illustre chaque article dans l'onglet « Apprendre »
 
@@ -31,7 +33,8 @@ Protocole et fiches à remplir dans `releves/` (20 produits par marque). Un rele
 - Chatbot pour des conseils et des questions
 
 ## Design
-- Tiko : obtenir les images d'origine en meilleure résolution (environ 200 px de large aujourd'hui, ce qui limite sa taille à l'écran)
+- Écran de démarrage (`assets/splash-tiko.png`) : à vérifier sur une version installée (`eas build`), Expo Go ne l'affiche pas. Il n'y a pas encore de `eas.json`
+- Tiko : obtenir les images d'origine en meilleure résolution (environ 200 px de large aujourd'hui, ce qui limite sa taille à l'écran et rend l'icône de l'app un peu floue : à refaire avant toute publication)
 - Écran Accueil provisoire : peut-être à remplacer
 - Ajouter un mode invité avant la connexion
 - Logo de l'app (pistes dans le canevas : étiquette cousue, « e » sur étiquette volante, scan de l'étiquette)
@@ -47,22 +50,25 @@ Protocole et fiches à remplir dans `releves/` (20 produits par marque). Un rele
 - Repères sur la fiche produit : eau en douches et bouteilles (indicateur « wtu »), climat en km de voiture (« cch », facteur Impact CO2 de l'ADEME) ; plastique en bouteilles de 1,5 L sur l'estimation par étiquette (fibres synthétiques × masse)
 - Quiz « Quel est l'impact de votre garde-robe ? » en haut de l'onglet Apprendre, réservé aux comptes connectés : achats d'une année, matière, pays de fabrication et type de marque, calculés avec Ecobalyse ; leviers (marque, occasion, pays, matière) ; comparaison aux 43 vêtements neufs par Français en 2025 (Refashion) ; matière inconnue déduite du type de marque (vêtements types d'Ecobalyse)
 - Points de coût environnemental traduits en jours d'empreinte d'un habitant moyen de la planète (1 000 000 de points = un an, notice officielle p. 8 ; moyenne mondiale 2010 des facteurs EF 3.1 du JRC) : fiche produit, estimation par étiquette
-- Tiko, la mascotte, avec sa bulle et un rebond à l'apparition (`src/components/Tiko.tsx`) : accueil, onboarding, fiche produit, produit non déclaré, alternatives, attente de lecture, résultat du quiz, listes vides. Un seul par écran, pose liée à la situation et jamais au résultat
+- Tiko, la mascotte, avec sa bulle (`src/components/Tiko.tsx`), cliquable quand elle propose de scanner, et icône de l'app : accueil, onboarding, questions des quiz, fiche produit, produit non déclaré, alternatives, attente de lecture, résultat du quiz, listes vides. Un seul par écran, pose liée à la situation et jamais au résultat
 - Résultat du quiz en km de voiture et en douches (achats × vêtement médian de chaque catégorie sur le portail, ordre de grandeur), avec la comparaison à la moyenne française
 - Encart matière (résumé du lexique + « En savoir plus » vers l'article The Good Goods) à côté de chaque matière lue sur une étiquette
 - Onboarding : 4 objectifs (réduire mon impact, acheter moins mais durable, moins de plastique, fabrication proche) et budget ; modifiables depuis le profil
 - Recommandations à l'accueil : « Marques pour vous » filtrées par les objectifs (pas de note de marque) et « À lire pour vous » ; page « Nos critères » ; section « Notre relevé » sur la fiche marque
 - Relevés Sézane (11 % de synthétique, 75 % confectionné en Europe) et Uniqlo (27 %, 0 %)
 - Profil : carte « Mon impact » (indicateur avant/après : évolution du quiz garde-robe depuis le premier, part des vêtements scannés sous la médiane de leur catégorie), prénom (demandé à l'onboarding, modifiable), page « Confidentialité », suppression du compte
+- Petit mouton / mascotte qui s'anime et apporte des petites infos 
+- Au moment de l'ouverture prendre un "le savais tu dans les articles" 
+
 
 ## Idées
 - Un quiz pour tester ses connaissances ? Gamification ? Badges quand on scanne des produits durables ? Quand on a des bonnes réponses...
 - Remplir des infos personnelles pour analyser de la data
 - Quiz d'impact de la garde-robe : le proposer aussi juste après l'inscription (onboarding) ? 
 - Chatbot 
-- Petit mouton / mascotte qui s'anime et apporte des petites infos 
+
 
 ## Etiq+ 
-- systeme de recherche avec filtre : pays de fabrication, % de fibres synthetiques, prix  
+- systeme de recherche avec filtre : pays de fabrication, % de fibres synthetiques, prix
 - mode hors ligne 
-- carte des magasins ? 
+- carte des magasins des marques a proximite : sur une marque renvoie vers google maps avec la recherche de la marque direct 

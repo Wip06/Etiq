@@ -3,6 +3,7 @@ import { useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { Button } from '@/components/Button';
+import { Tiko } from '@/components/Tiko';
 import { BUDGETS, GOALS, type BudgetId, type GoalId } from '@/data/goals';
 import type { Preferences } from '@/session/SessionProvider';
 import { colors } from '@/theme/colors';
@@ -33,18 +34,20 @@ export function PreferencesQuiz({
       <ScrollView contentContainerStyle={styles.content}>
         {step === 0 ? (
           <>
-            <Text style={styles.question}>Qu’est-ce qui compte pour vous quand vous achetez un vêtement ?</Text>
+            <Tiko pose="tetePenchee" message="Qu’est-ce qui compte le plus pour toi quand tu achètes un vêtement ?" />
             <Text style={styles.hint}>
-              Plusieurs choix possibles. Vos réponses servent à vous proposer des marques et des lectures : aucune
-              marque ne paie pour apparaître.
+              Touchez vos objectifs du plus important au moins important : ils se numérotent. Vos réponses servent à
+              vous proposer des marques et des lectures : aucune marque ne paie pour apparaître.
             </Text>
             {GOALS.map((goal) => {
-              const selected = goals.includes(goal.id);
+              const rank = goals.indexOf(goal.id);
+              const selected = rank >= 0;
               return (
                 <Pressable
                   key={goal.id}
                   accessibilityRole="checkbox"
                   accessibilityState={{ checked: selected }}
+                  accessibilityValue={selected ? { text: `Priorité ${rank + 1}` } : undefined}
                   onPress={() => toggleGoal(goal.id)}
                   style={[styles.option, selected && styles.optionSelected]}
                 >
@@ -53,18 +56,18 @@ export function PreferencesQuiz({
                     <Text style={[styles.optionLabel, selected && styles.onAccent]}>{goal.label}</Text>
                     <Text style={[styles.optionDescription, selected && styles.onAccent]}>{goal.description}</Text>
                   </View>
-                  <Ionicons
-                    name={selected ? 'checkmark-circle' : 'ellipse-outline'}
-                    size={22}
-                    color={selected ? colors.onAccent : colors.secondary}
-                  />
+                  {selected ? (
+                    <Text style={styles.rank}>{rank + 1}</Text>
+                  ) : (
+                    <Ionicons name="ellipse-outline" size={26} color={colors.secondary} />
+                  )}
                 </Pressable>
               );
             })}
           </>
         ) : (
           <>
-            <Text style={styles.question}>Quel budget pour un vêtement, en général ?</Text>
+            <Tiko pose="assisRegard" message="Quel budget pour un vêtement, en général ?" />
             <Text style={styles.hint}>Pour vous proposer des marques dans vos prix.</Text>
             {BUDGETS.map((option) => {
               const selected = budget === option.id;
@@ -124,12 +127,6 @@ const styles = StyleSheet.create({
     gap: 12,
     paddingBottom: 16,
   },
-  question: {
-    fontSize: 24,
-    fontWeight: '700',
-    lineHeight: 31,
-    color: colors.text,
-  },
   hint: {
     marginBottom: 4,
     fontSize: 14,
@@ -160,6 +157,19 @@ const styles = StyleSheet.create({
     fontSize: 14,
     lineHeight: 20,
     color: colors.secondary,
+  },
+  // Numéro de priorité d'un objectif sélectionné.
+  rank: {
+    width: 26,
+    height: 26,
+    borderRadius: 13,
+    overflow: 'hidden',
+    fontSize: 15,
+    fontWeight: '700',
+    lineHeight: 26,
+    textAlign: 'center',
+    color: colors.accent,
+    backgroundColor: colors.onAccent,
   },
   onAccent: {
     color: colors.onAccent,

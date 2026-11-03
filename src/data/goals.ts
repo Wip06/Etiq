@@ -27,15 +27,15 @@ export const GOALS: Goal[] = [
   },
   {
     id: 'durable',
-    label: 'Acheter moins, mais durable',
-    description: 'Des vêtements qui durent, se réparent ou se revendent.',
+    label: 'Des vêtements qui durent',
+    description: 'Acheter moins, chez des marques qui réparent ou revendent leurs vêtements.',
     icon: 'hammer-outline',
     readings: [{ title: 'Quel est l’impact de votre garde-robe ? (quiz)', href: '/quiz' }],
   },
   {
     id: 'materials',
-    label: 'Moins de plastique',
-    description: 'Éviter le polyester, le nylon et l’acrylique, qui relâchent des microfibres.',
+    label: 'Plus de fibres naturelles, moins de plastique',
+    description: 'Privilégier le coton, le lin ou la laine, et éviter le polyester, le nylon et l’acrylique, qui relâchent des microfibres.',
     icon: 'water-outline',
     readings: [
       { title: 'Lire l’étiquette de son vêtement', href: { pathname: '/article/[id]', params: { id: 'lire-etiquette' } } },

@@ -4,7 +4,7 @@ import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, View } from
 
 import { Button } from '@/components/Button';
 import { InfoButton } from '@/components/InfoButton';
-import { Tiko } from '@/components/Tiko';
+import { Tiko, type TikoPose } from '@/components/Tiko';
 import {
   formatCount,
   pluralize,
@@ -27,6 +27,9 @@ import {
 } from '@/data/quiz';
 import { useLibrary } from '@/session/LibraryProvider';
 import { colors } from '@/theme/colors';
+
+// Tiko pose les questions : sa pose change à chaque question, sans rapport avec les réponses.
+const QUESTION_POSES: TikoPose[] = ['debout', 'tetePenchee', 'assisRegard', 'mainsJoues', 'assisSourire'];
 
 type State =
   | { name: 'question'; step: number }
@@ -61,7 +64,7 @@ export default function QuizScreen() {
     return (
       <View style={[styles.container, styles.centered]}>
         <ActivityIndicator color={colors.accent} />
-        <Text style={styles.text}>Calcul avec la méthode officielle…</Text>
+        <Tiko pose="assisRegard" message="Je calcule avec la méthode officielle…" />
       </View>
     );
   }
@@ -94,7 +97,7 @@ export default function QuizScreen() {
       <Text style={styles.counter}>
         Question {step + 1} sur {QUESTIONS.length}
       </Text>
-      <Text style={styles.question}>{question.question}</Text>
+      <Tiko pose={QUESTION_POSES[step % QUESTION_POSES.length]} message={question.question} />
       {question.hint && <Text style={styles.hint}>{question.hint}</Text>}
 
       <View style={styles.options}>
@@ -254,14 +257,7 @@ const styles = StyleSheet.create({
     fontSize: 13,
     color: colors.secondary,
   },
-  question: {
-    fontSize: 24,
-    fontWeight: '700',
-    lineHeight: 31,
-    color: colors.text,
-  },
   hint: {
-    marginTop: -8,
     fontSize: 14,
     lineHeight: 20,
     color: colors.secondary,

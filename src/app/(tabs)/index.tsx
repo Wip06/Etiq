@@ -19,6 +19,7 @@ export default function HomeScreen() {
       <Tiko
         pose="assisSourire"
         message={`${user?.firstName ? `Bonjour ${user.firstName} !` : 'Bienvenue !'} Scanne un vêtement pour commencer.`}
+        onPress={() => router.navigate('/scan')}
       />
 
       <Pressable accessibilityRole="button" onPress={() => router.navigate('/scan')} style={styles.scanCard}>

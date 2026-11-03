@@ -61,6 +61,7 @@ function SurveyCard({ survey, portal }: { survey: BrandSurvey; portal: ReturnTyp
       ? `${survey.products} fiches produits relevées sur le site de la marque`
       : 'Chiffres déclarés par la marque, non vérifiés produit par produit';
   const rows: [string, string][] = [
+    ...(survey.naturalShare != null ? ([['Fibres naturelles', `${survey.naturalShare} % en moyenne`]] as [string, string][]) : []),
     ['Fibres synthétiques', survey.syntheticShare !== null ? `${survey.syntheticShare} % en moyenne` : 'non relevé'],
     ['Confection en Europe', survey.europeShare !== null ? `${survey.europeShare} % des produits` : 'non relevé'],
     ['Pays de confection', survey.countries.length > 0 ? survey.countries.join(', ') : 'non relevé'],

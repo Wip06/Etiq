@@ -13,11 +13,9 @@ const STATUS: Record<CriterionStatus, { icon: ComponentProps<typeof Ionicons>['n
   unknown: { icon: 'help-circle-outline', color: colors.secondary, label: 'pas de données' },
 };
 
-// Une marque proposée : ce qui correspond ou non à chaque critère de l'utilisateur, et pourquoi.
-export function BrandMatchCard({ recommendation: { brand, criteria } }: { recommendation: Recommendation }) {
-  const met = criteria.filter(({ status }) => status === 'met').length;
-  const partial = criteria.filter(({ status }) => status === 'partial').length;
-
+// Une marque proposée : sa correspondance avec les critères de l'utilisateur, dans son ordre de priorité,
+// et ce qui correspond ou non à chacun, avec le fait relevé.
+export function BrandMatchCard({ recommendation: { brand, criteria, match } }: { recommendation: Recommendation }) {
   return (
     <Pressable
       accessibilityRole="button"
@@ -29,8 +27,7 @@ export function BrandMatchCard({ recommendation: { brand, criteria } }: { recomm
         <Ionicons name="chevron-forward" size={18} color={colors.secondary} />
       </View>
       <Text style={styles.summary}>
-        {met} critère{met > 1 ? 's' : ''} sur {criteria.length}
-        {partial > 0 ? `, ${partial} en partie` : ''}
+        {match} % de correspondance avec vos critères
       </Text>
       {criteria.map(({ id, label, status, reason }) => (
         <View key={id} style={styles.criterion} accessible accessibilityLabel={`${label} : ${STATUS[status].label}. ${reason}`}>

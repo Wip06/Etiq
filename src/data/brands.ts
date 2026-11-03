@@ -17,6 +17,9 @@ export type BrandSurvey = {
   // Part moyenne des fibres synthétiques dans la composition (polyester, nylon, acrylique,
   // élasthanne…), en %.
   syntheticShare: number | null;
+  // Part moyenne des fibres naturelles (coton, lin, chanvre, laine et poils, soie, et cuir), en %. Le reste
+  // est surtout artificiel : viscose, lyocell, modal, issus de cellulose transformée chimiquement.
+  naturalShare?: number | null;
   // Part des produits confectionnés en Europe, en %.
   europeShare: number | null;
   // Pays de confection, du plus fréquent au moins fréquent.
@@ -85,6 +88,7 @@ export const brands: Brand[] = [
       method: 'catalogue',
       products: 20,
       syntheticShare: 27,
+      naturalShare: 66,
       europeShare: 0,
       countries: ['Chine', 'Vietnam', 'Cambodge', 'Bangladesh', 'Indonésie', 'Inde', 'Égypte'],
       medianPrice: 39.9,
@@ -118,6 +122,7 @@ export const brands: Brand[] = [
       method: 'catalogue',
       products: 20,
       syntheticShare: 11,
+      naturalShare: 84,
       europeShare: 75,
       countries: ['Portugal', 'Chine', 'Italie', 'Bulgarie', 'Roumanie', 'Turquie'],
       medianPrice: 132.5,
@@ -146,6 +151,7 @@ export const brands: Brand[] = [
       method: 'catalogue',
       products: 20,
       syntheticShare: 18,
+      naturalShare: 54,
       europeShare: 30,
       countries: ['Tunisie', 'Chine', 'Maroc', 'Italie', 'Portugal', 'Bulgarie', 'Turquie'],
       medianPrice: 175,
@@ -174,6 +180,7 @@ export const brands: Brand[] = [
       method: 'catalogue',
       products: 20,
       syntheticShare: 46,
+      naturalShare: 31,
       europeShare: 16,
       countries: ['Chine', 'Portugal', 'Maroc', 'Turquie', 'Tunisie', 'Italie', 'Inde'],
       medianPrice: 190,
@@ -206,6 +213,7 @@ export const brands: Brand[] = [
       method: 'catalogue',
       products: 20,
       syntheticShare: 35,
+      naturalShare: 60,
       europeShare: 5,
       countries: ['Chine', 'Turquie', 'Bulgarie', 'Tunisie', 'Maroc'],
       medianPrice: 245,
@@ -237,20 +245,24 @@ export const brands: Brand[] = [
       method: 'catalogue',
       products: 20,
       syntheticShare: 35,
+      naturalShare: 50,
       europeShare: 0,
       countries: ['Turquie', 'Chine', 'Tunisie', 'Bangladesh', 'Cambodge', 'Inde'],
       medianPrice: 27.99,
       repair: null,
-      secondHand: null,
+      secondHand: true,
       notes: [
         '20 fiches relevées : automatiquement pour les compositions, à la main pour les pays.',
         '8 produits sur 20 sont majoritairement synthétiques, souvent en polyester recyclé.',
         'Prix relevés le jour du relevé : certains peuvent être des prix soldés.',
         'Confection hors d’Europe sur les 19 produits dont le pays est indiqué.',
-        'Réparation et seconde main non relevées.',
+        'Seconde main : reprise et revente dans une partie des magasins seulement (Promod Reprise), relevées dans la presse et les conditions de la marque, à revérifier.',
+        'Réparation non relevée.',
       ],
       sources: [
         { label: 'Fiches produits du site Promod', url: 'https://www.promod.fr/fr-fr/' },
+        { label: 'Conditions de Promod Reprise (2025)', url: 'https://eu-assets.contentstack.com/v3/assets/blt2bc61eb6d63f8631/bltbd4f973d9afc28cf/688cb0486f15605d425b9d3f/PROMOD_REPRISE_CGU_version_2025_20250801.pdf' },
+        { label: 'FashionUnited, boutique circulaire Promod (2024)', url: 'https://fashionunited.fr/actualite/retail/promod-ouvre-une-boutique-dediee-a-la-mode-circulaire-a-calais/2024052135048' },
       ],
     },
   },
@@ -268,6 +280,7 @@ export const brands: Brand[] = [
       method: 'catalogue',
       products: 20,
       syntheticShare: 27,
+      naturalShare: 48,
       europeShare: 21,
       countries: ['Chine', 'Bulgarie', 'Tunisie', 'Inde', 'Maroc'],
       medianPrice: 220,
@@ -300,6 +313,7 @@ export const brands: Brand[] = [
       method: 'catalogue',
       products: 12,
       syntheticShare: 19,
+      naturalShare: 73,
       europeShare: 8,
       countries: ['Chine', 'Inde', 'Turquie', 'Tunisie', 'Bulgarie', 'Maroc'],
       medianPrice: 255,

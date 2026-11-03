@@ -22,7 +22,13 @@ export default function HistoryScreen() {
         keyExtractor={(scan) => scan.gtin}
         renderItem={({ item }) => <ScanRow scan={item} />}
         contentContainerStyle={styles.list}
-        ListEmptyComponent={<Tiko pose="endormi" message="Rien par ici pour l’instant… Scanne ton premier vêtement !" />}
+        ListEmptyComponent={
+          <Tiko
+            pose="endormi"
+            message="Rien par ici pour l’instant… Scanne ton premier vêtement !"
+            onPress={() => router.navigate('/scan')}
+          />
+        }
         ListFooterComponent={
           history.length > 0 ? (
             <View style={styles.footer}>

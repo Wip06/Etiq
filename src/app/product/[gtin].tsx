@@ -80,7 +80,11 @@ export default function ProductScreen() {
     return (
       <View style={[styles.container, styles.centered]}>
         <Text style={styles.title}>Produit non déclaré</Text>
-        <Tiko pose="deDos" message="La marque n’a pas déclaré ce vêtement. Montre-moi son étiquette !" />
+        <Tiko
+          pose="deDos"
+          message="La marque n’a pas déclaré ce vêtement. Montre-moi son étiquette !"
+          onPress={() => router.navigate({ pathname: '/scan', params: { mode: 'label' } })}
+        />
         <Text style={styles.meta}>
           Son coût environnemental n’est pas sur le portail officiel (code {gtin}). Photographiez l’étiquette de
           composition pour l’estimer.

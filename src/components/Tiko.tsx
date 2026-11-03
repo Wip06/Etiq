@@ -1,5 +1,5 @@
-import { useEffect, useState } from 'react';
-import { AccessibilityInfo, Animated, StyleSheet, Text, View } from 'react-native';
+import Ionicons from '@expo/vector-icons/Ionicons';
+import { Image, Pressable, StyleSheet, Text, View } from 'react-native';
 
 import { colors } from '@/theme/colors';
 
@@ -22,47 +22,31 @@ export type TikoPose = keyof typeof POSES;
 // Les images font environ 200 px de large : au-delà de cette taille, elles seraient floues.
 const SIZE = 70;
 
-// Tiko et sa bulle : une phrase courte, au plus un par écran. Il apparaît avec un léger rebond, sauf si
-// le téléphone demande de réduire les animations.
-export function Tiko({ pose, message }: { pose: TikoPose; message: string }) {
-  const [progress] = useState(() => new Animated.Value(0));
-
-  useEffect(() => {
-    let cancelled = false;
-    AccessibilityInfo.isReduceMotionEnabled()
-      .catch(() => false)
-      .then((reduceMotion) => {
-        if (cancelled) return;
-        if (reduceMotion) progress.setValue(1);
-        else Animated.spring(progress, { toValue: 1, friction: 5, tension: 70, useNativeDriver: true }).start();
-      });
-    return () => {
-      cancelled = true;
-    };
-  }, [progress]);
-
-  const animatedStyle = {
-    opacity: progress.interpolate({ inputRange: [0, 0.6], outputRange: [0, 1], extrapolate: 'clamp' }),
-    transform: [
-      { translateY: progress.interpolate({ inputRange: [0, 1], outputRange: [14, 0] }) },
-      { scale: progress.interpolate({ inputRange: [0, 1], outputRange: [0.85, 1] }) },
-    ],
-  };
-
-  return (
-    <Animated.View style={[styles.row, animatedStyle]}>
-      <Animated.Image
+// Tiko et sa bulle : une phrase courte, au plus un par écran. Avec onPress, toute la ligne est cliquable
+// (par exemple pour ouvrir le scanner).
+export function Tiko({ pose, message, onPress }: { pose: TikoPose; message: string; onPress?: () => void }) {
+  const content = (
+    <>
+      <Image
         source={POSES[pose]}
         style={styles.image}
         resizeMode="contain"
         accessibilityElementsHidden
         importantForAccessibility="no"
       />
-      <View style={styles.bubble}>
+      <View style={[styles.bubble, onPress && styles.bubbleWithArrow]}>
         <View style={styles.tail} />
-        <Text style={styles.text}>{message}</Text>
+        <Text style={[styles.text, onPress && styles.textWithArrow]}>{message}</Text>
+        {onPress && <Ionicons name="chevron-forward" size={18} color={colors.accent} />}
       </View>
-    </Animated.View>
+    </>
+  );
+
+  if (!onPress) return <View style={styles.row}>{content}</View>;
+  return (
+    <Pressable accessibilityRole="button" onPress={onPress} style={({ pressed }) => [styles.row, pressed && styles.pressed]}>
+      {content}
+    </Pressable>
   );
 }
 
@@ -83,6 +67,14 @@ const styles = StyleSheet.create({
     borderRadius: 16,
     backgroundColor: colors.surface,
   },
+  bubbleWithArrow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  pressed: {
+    opacity: 0.7,
+  },
   tail: {
     position: 'absolute',
     top: '50%',
@@ -92,6 +84,9 @@ const styles = StyleSheet.create({
     marginTop: -6,
     transform: [{ rotate: '45deg' }],
     backgroundColor: colors.surface,
+  },
+  textWithArrow: {
+    flex: 1,
   },
   text: {
     fontSize: 15,
