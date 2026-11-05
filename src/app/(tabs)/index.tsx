@@ -6,7 +6,9 @@ import { BrandMatchCard } from '@/components/BrandMatchCard';
 import { LoginPrompt } from '@/components/LoginPrompt';
 import { Tiko } from '@/components/Tiko';
 import { getGoal } from '@/data/goals';
+import { QUESTIONS } from '@/data/quiz';
 import { recommendBrands } from '@/data/recommendations';
+import { useLibrary } from '@/session/LibraryProvider';
 import { useSession, type Preferences } from '@/session/SessionProvider';
 import { colors } from '@/theme/colors';
 
@@ -30,6 +32,8 @@ export default function HomeScreen() {
         </View>
       </Pressable>
 
+      <QuizInvite />
+
       {user?.preferences ? (
         <ForYou preferences={user.preferences} />
       ) : (
@@ -39,6 +43,29 @@ export default function HomeScreen() {
         </>
       )}
     </ScrollView>
+  );
+}
+
+// Invitation au quiz garde-robe, pour un compte qui ne l'a jamais fait : c'est l'écran sur lequel
+// arrive l'utilisateur après l'onboarding. Le quiz est réservé aux comptes connectés.
+function QuizInvite() {
+  const { user } = useSession();
+  const { enabled, quizHistory } = useLibrary();
+  if (!user?.preferences || !enabled || quizHistory.length > 0) return null;
+
+  return (
+    <Pressable
+      accessibilityRole="button"
+      onPress={() => router.push('/quiz')}
+      style={({ pressed }) => [styles.quizCard, pressed && styles.pressed]}
+    >
+      <Ionicons name="shirt-outline" size={28} color={colors.accent} />
+      <View style={styles.quizText}>
+        <Text style={styles.quizTitle}>Quel est l’impact de votre garde-robe ?</Text>
+        <Text style={styles.quizSubtitle}>Quiz · {QUESTIONS.length} questions, 2 minutes</Text>
+      </View>
+      <Ionicons name="chevron-forward" size={18} color={colors.secondary} />
+    </Pressable>
   );
 }
 
@@ -125,6 +152,29 @@ const styles = StyleSheet.create({
     fontSize: 18,
     fontWeight: '600',
     color: colors.text,
+  },
+  quizCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 16,
+    padding: 20,
+    borderRadius: 16,
+    borderWidth: 1,
+    borderColor: colors.accent,
+    backgroundColor: colors.surface,
+  },
+  quizText: {
+    flex: 1,
+    gap: 2,
+  },
+  quizTitle: {
+    fontSize: 17,
+    fontWeight: '700',
+    color: colors.text,
+  },
+  quizSubtitle: {
+    fontSize: 14,
+    color: colors.secondary,
   },
   card: {
     padding: 20,

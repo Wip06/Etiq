@@ -1,0 +1,6 @@
+{
+  // Le dossier supabase/functions contient du code Deno (fonctions serveur Supabase), analysé par
+  // l'extension Deno. Le reste du projet garde le TypeScript de l'app React Native.
+  "deno.enablePaths": ["supabase/functions"],
+  "deno.lint": true
+}

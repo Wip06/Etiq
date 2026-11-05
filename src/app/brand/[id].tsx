@@ -1,15 +1,20 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { router, Stack, useLocalSearchParams } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { FavoriteButton } from '@/components/FavoriteButton';
+import { InfoButton } from '@/components/InfoButton';
+import { StoreFinderButton } from '@/components/StoreFinderButton';
 import { getBrand, type BrandSurvey } from '@/data/brands';
-import { portalStatsFor } from '@/data/recommendations';
+import { DURABILITY_EXPLANATION } from '@/data/explanations';
+import { PORTAL_DATA_DATE, portalStatsFor } from '@/data/recommendations';
 import { colors } from '@/theme/colors';
 import { openLink } from '@/utils/links';
 
 export default function BrandScreen() {
   const { id } = useLocalSearchParams<{ id: string }>();
   const brand = getBrand(id);
+  const portal = brand ? portalStatsFor(brand) : null;
 
   if (!brand) {
     return (
@@ -36,7 +41,10 @@ export default function BrandScreen() {
       </View>
       <Text style={styles.description}>{brand.description}</Text>
 
-      {brand.survey && <SurveyCard survey={brand.survey} portal={portalStatsFor(brand)} />}
+      <StoreFinderButton brandName={brand.name} />
+
+      {brand.survey && <SurveyCard survey={brand.survey} portal={portal} />}
+      {!brand.survey && portal && <PortalCard portal={portal} />}
 
       {brand.sources.length > 0 && (
         <>
@@ -48,7 +56,53 @@ export default function BrandScreen() {
           ))}
         </>
       )}
+
+      {/* Sur toutes les fiches, relevées ou non : la méthode explique ce que l'app montre et pourquoi. */}
+      <Pressable
+        accessibilityRole="link"
+        onPress={() => router.push('/brand-criteria')}
+        style={({ pressed }) => [styles.criteria, pressed && styles.pressed]}
+      >
+        <Ionicons name="help-circle-outline" size={22} color={colors.accent} />
+        <Text style={styles.criteriaLabel}>Comment nous choisissons les marques</Text>
+        <Ionicons name="chevron-forward" size={18} color={colors.secondary} />
+      </Pressable>
     </ScrollView>
+  );
+}
+
+// Marque pas encore relevée : seuls les chiffres qu'elle a déclarés sur le portail officiel sont connus.
+function PortalCard({ portal }: { portal: NonNullable<ReturnType<typeof portalStatsFor>> }) {
+  return (
+    <View style={styles.survey}>
+      <Text style={styles.sectionTitle}>Sur le portail officiel</Text>
+      <Text style={styles.surveyMethod}>
+        Produits déclarés par la marque sur le portail de l’affichage environnemental, d’après la copie du{' '}
+        {new Date(PORTAL_DATA_DATE).toLocaleDateString('fr-FR')}.
+      </Text>
+      <View style={styles.surveyRow}>
+        <Text style={styles.surveyLabel}>Produits déclarés</Text>
+        <Text style={styles.surveyValue}>{portal.references.toLocaleString('fr-FR')}</Text>
+      </View>
+      {portal.belowMedianShare !== undefined && (
+        <View style={styles.surveyRow}>
+          <Text style={styles.surveyLabel}>Sous la médiane de leur catégorie</Text>
+          <Text style={styles.surveyValue}>{portal.belowMedianShare} % des produits déclarés</Text>
+        </View>
+      )}
+      {portal.durabilityMedian != null && (
+        <View style={styles.surveyRow}>
+          <View style={styles.labelWithInfo}>
+            <Text style={styles.surveyLabel}>Coefficient de durabilité médian</Text>
+            <InfoButton explanation={DURABILITY_EXPLANATION} />
+          </View>
+          <Text style={styles.surveyValue}>{portal.durabilityMedian.toLocaleString('fr-FR')}</Text>
+        </View>
+      )}
+      <Text style={styles.surveyNote}>
+        Composition, pays de confection et prix pas encore relevés sur les fiches produits de la marque.
+      </Text>
+    </View>
   );
 }
 
@@ -98,14 +152,35 @@ function SurveyCard({ survey, portal }: { survey: BrandSurvey; portal: ReturnTyp
           <Text style={styles.link}>{source.label}</Text>
         </Pressable>
       ))}
-      <Pressable accessibilityRole="link" onPress={() => router.push('/brand-criteria')}>
-        <Text style={styles.link}>Comment nous choisissons les marques</Text>
-      </Pressable>
     </View>
   );
 }
 
 const styles = StyleSheet.create({
+  labelWithInfo: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 4,
+  },
+  criteria: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    minHeight: 44,
+    padding: 16,
+    borderRadius: 16,
+    backgroundColor: colors.surface,
+  },
+  criteriaLabel: {
+    flex: 1,
+    fontSize: 16,
+    fontWeight: '600',
+    color: colors.text,
+  },
+  pressed: {
+    opacity: 0.7,
+  },
   survey: {
     gap: 10,
     padding: 16,

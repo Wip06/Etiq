@@ -1,0 +1,3429 @@
+{
+ "source": "Relevés Etiq des fiches produits des marques (releves/)",
+ "generatedAt": "2026-11-05T21:21:18.851Z",
+ "products": [
+  {
+   "id": "asphalte-1",
+   "brand": "asphalte",
+   "category": "T-shirts et tops",
+   "gender": "homme",
+   "name": "Le Polo Éponge",
+   "url": "https://www.asphalte.com/h/products/le-polo-eponge",
+   "composition": "100 % coton biologique",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [],
+   "europe": false,
+   "price": 79,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-2",
+   "brand": "asphalte",
+   "category": "T-shirts et tops",
+   "gender": "homme",
+   "name": "Le Polo Jersey",
+   "url": "https://www.asphalte.com/h/products/le-polo-jersey",
+   "composition": "100 % jersey de coton biologique",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [],
+   "europe": false,
+   "price": 79,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-3",
+   "brand": "asphalte",
+   "category": "T-shirts et tops",
+   "gender": "homme",
+   "name": "Le Polo",
+   "url": "https://www.asphalte.com/h/products/le-polo-stock",
+   "composition": "100 % coton bio",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [],
+   "europe": false,
+   "price": 79,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-4",
+   "brand": "asphalte",
+   "category": "T-shirts et tops",
+   "gender": "homme",
+   "name": "Le T-Shirt Baseball",
+   "url": "https://www.asphalte.com/h/products/le-t-shirt-baseball",
+   "composition": "100 % coton bio",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 29,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-5",
+   "brand": "asphalte",
+   "category": "T-shirts et tops",
+   "gender": "homme",
+   "name": "Le T-Shirt de Sport Manches Longues",
+   "url": "https://www.asphalte.com/h/products/le-t-shirt-de-sport-manches-longues",
+   "composition": "100 % laine mérinos",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [],
+   "europe": false,
+   "price": 99,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-6",
+   "brand": "asphalte",
+   "category": "Pulls et maille",
+   "gender": "homme",
+   "name": "Le Col Roulé",
+   "url": "https://www.asphalte.com/h/products/col-roule-archive-stock",
+   "composition": "100 % laine mérinos",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 79,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-7",
+   "brand": "asphalte",
+   "category": "Pulls et maille",
+   "gender": "homme",
+   "name": "Le Henley",
+   "url": "https://www.asphalte.com/h/products/henley-archive-stock",
+   "composition": "100 % coton bio",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 49,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-8",
+   "brand": "asphalte",
+   "category": "Pulls et maille",
+   "gender": "homme",
+   "name": "La Grosse Maille",
+   "url": "https://www.asphalte.com/h/products/la-grosse-maille",
+   "composition": "100 % laine vierge cardée",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [],
+   "europe": false,
+   "price": 149,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-9",
+   "brand": "asphalte",
+   "category": "Pulls et maille",
+   "gender": "homme",
+   "name": "La Maille Extrafine",
+   "url": "https://www.asphalte.com/h/products/la-maille-extra-fine",
+   "composition": "100 % laine mérinos",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [],
+   "europe": false,
+   "price": 119,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-10",
+   "brand": "asphalte",
+   "category": "Pantalons et jeans",
+   "gender": "homme",
+   "name": "Le Jean Ultime Coupe Droite",
+   "url": "https://www.asphalte.com/h/products/jean-coupe-droite-archive-stock",
+   "composition": "100 % coton bio",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 79,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-11",
+   "brand": "asphalte",
+   "category": "Pantalons et jeans",
+   "gender": "homme",
+   "name": "Le Bon Pantalon",
+   "url": "https://www.asphalte.com/h/products/le-bon-pantalon",
+   "composition": "100 % twill de coton biologique",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [],
+   "europe": false,
+   "price": 139,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-12",
+   "brand": "asphalte",
+   "category": "Pantalons et jeans",
+   "gender": "homme",
+   "name": "Le Chino en Velours",
+   "url": "https://www.asphalte.com/h/products/le-chino-en-velours",
+   "composition": "100 % coton bio",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [],
+   "europe": false,
+   "price": 149,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-13",
+   "brand": "asphalte",
+   "category": "Chemises et blouses",
+   "gender": "homme",
+   "name": "La Chemise Army",
+   "url": "https://www.asphalte.com/h/products/la-chemise-army",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 69,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-14",
+   "brand": "asphalte",
+   "category": "Chemises et blouses",
+   "gender": "homme",
+   "name": "La Chemise en Chambray",
+   "url": "https://www.asphalte.com/h/products/la-chemise-chambray",
+   "composition": "100 % chambray de coton biologique",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [],
+   "europe": false,
+   "price": 119,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-15",
+   "brand": "asphalte",
+   "category": "Chemises et blouses",
+   "gender": "homme",
+   "name": "La Chemise Chambray",
+   "url": "https://www.asphalte.com/h/products/la-chemise-chambray-v2-b",
+   "composition": "100 % coton bio",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 69,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-16",
+   "brand": "asphalte",
+   "category": "Chemises et blouses",
+   "gender": "homme",
+   "name": "La Chemise Col Mao",
+   "url": "https://www.asphalte.com/h/products/la-chemise-col-mao",
+   "composition": "100 % lin",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 69,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-17",
+   "brand": "asphalte",
+   "category": "Manteaux et vestes",
+   "gender": "homme",
+   "name": "La Parka d'Hiver",
+   "url": "https://www.asphalte.com/h/products/la-parka-dhiver",
+   "composition": "100 % coton bio",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [],
+   "europe": false,
+   "price": 389,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-18",
+   "brand": "asphalte",
+   "category": "Manteaux et vestes",
+   "gender": "homme",
+   "name": "La Parka Légère",
+   "url": "https://www.asphalte.com/h/products/la-parka-legere",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 159,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "asphalte-19",
+   "brand": "asphalte",
+   "category": "Manteaux et vestes",
+   "gender": "homme",
+   "name": "La Parka",
+   "url": "https://www.asphalte.com/h/products/la-parka-v1",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [],
+   "europe": false,
+   "price": 195,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-1",
+   "brand": "bash",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "WIRO",
+   "url": "https://ba-sh.com/fr/fr/p/top-wiro-noir-3667436026379.html",
+   "composition": "100 % POLYESTER",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 255,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-2",
+   "brand": "bash",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "CADIE",
+   "url": "https://ba-sh.com/fr/fr/p/top-cadie-noir-3667436071188.html",
+   "composition": "100 % POLYESTER",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 175,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-3",
+   "brand": "bash",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "HODA",
+   "url": "https://ba-sh.com/fr/fr/p/top-hoda-ecru-3667436086908.html",
+   "composition": "95 % COTON, 5 % ELASTHANNE",
+   "syntheticShare": 5,
+   "naturalShare": 95,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 95,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-4",
+   "brand": "bash",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "LANEA",
+   "url": "https://ba-sh.com/fr/fr/p/top-lanea-noir-3667436089749.html",
+   "composition": "94 % POLYAMIDE RECYCLE, 6 % ELASTHANNE",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 165,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-5",
+   "brand": "bash",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "NIKA",
+   "url": "https://ba-sh.com/fr/fr/p/top-nika-cafe-3667436048043.html",
+   "composition": "65 % VISCOSE, 35 % POLYAMIDE RECYCLE",
+   "syntheticShare": 35,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 87,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-6",
+   "brand": "bash",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "CYRON",
+   "url": "https://ba-sh.com/fr/fr/p/gilet-cyron-lavande-3667436041112.html",
+   "composition": "100 % COTON",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 155,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-7",
+   "brand": "bash",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "LELYRA",
+   "url": "https://ba-sh.com/fr/fr/p/pull-lelyra-marine-3667436091117.html",
+   "composition": "100 % LAINE REGENERATRICE",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Italie"
+   ],
+   "europe": true,
+   "price": 255,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-8",
+   "brand": "bash",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "DEHINA",
+   "url": "https://ba-sh.com/fr/fr/p/sweatshirt-dehina-encre-3667436088469.html",
+   "composition": "50 % COTON, 50 % POLYESTER",
+   "syntheticShare": 50,
+   "naturalShare": 50,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 165,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-9",
+   "brand": "bash",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "RABEL",
+   "url": "https://ba-sh.com/fr/fr/p/cardigan-rabel-grischine-3667436092237.html",
+   "composition": "62 % LAINE, 29 % POLYAMIDE, 5 % MOHAIR, 4 % ALPAGA",
+   "syntheticShare": 29,
+   "naturalShare": 71,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 315,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-10",
+   "brand": "bash",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "PARISA",
+   "url": "https://ba-sh.com/fr/fr/p/robe-parisa-carbone-3667436079436.html",
+   "composition": "100 % LYOCELL",
+   "syntheticShare": 0,
+   "naturalShare": 0,
+   "countries": [
+    "Maroc"
+   ],
+   "europe": false,
+   "price": 265,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-11",
+   "brand": "bash",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "APHRODITE",
+   "url": "https://ba-sh.com/fr/fr/p/robe-aphrodite-ecru-3667436045820.html",
+   "composition": "100 % VISCOSE",
+   "syntheticShare": 0,
+   "naturalShare": 0,
+   "countries": [
+    "Inde"
+   ],
+   "europe": false,
+   "price": 475,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-12",
+   "brand": "bash",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "POLY",
+   "url": "https://ba-sh.com/fr/fr/p/robe-poly-bleu-3667436025341.html",
+   "composition": "100 % VISCOSE",
+   "syntheticShare": 0,
+   "naturalShare": 0,
+   "countries": [],
+   "europe": false,
+   "price": 265,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-13",
+   "brand": "bash",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "ZOEL",
+   "url": "https://ba-sh.com/fr/fr/p/jean-zoel-bluejeans-3664784946830.html",
+   "composition": "100 % COTON",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 185,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-14",
+   "brand": "bash",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "WALLIE",
+   "url": "https://ba-sh.com/fr/fr/p/pantalon-wallie-greige-3667436069710.html",
+   "composition": "100 % POLYESTER",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 195,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-15",
+   "brand": "bash",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "MABO",
+   "url": "https://ba-sh.com/fr/fr/p/short-mabo-bluejeans-3664784756538.html",
+   "composition": "100 % COTON",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 93,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-16",
+   "brand": "bash",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "CESSIA",
+   "url": "https://ba-sh.com/fr/fr/p/chemise-cessia-aubergine-3667436089541.html",
+   "composition": "100 % POLYESTER",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 185,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-17",
+   "brand": "bash",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "BRAVA",
+   "url": "https://ba-sh.com/fr/fr/p/chemise-brava-noir-3667436087882.html",
+   "composition": "100 % VISCOSE",
+   "syntheticShare": 0,
+   "naturalShare": 0,
+   "countries": [
+    "Maroc"
+   ],
+   "europe": false,
+   "price": 185,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-18",
+   "brand": "bash",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "WILNA",
+   "url": "https://ba-sh.com/fr/fr/p/chemise-wilna-greige-3667436069895.html",
+   "composition": "100 % POLYESTER",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 195,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-19",
+   "brand": "bash",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "SONJO",
+   "url": "https://ba-sh.com/fr/fr/p/manteau-sonjo-sable-3667436091315.html",
+   "composition": "100 % POLYESTER",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 295,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "bash-20",
+   "brand": "bash",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "WILI",
+   "url": "https://ba-sh.com/fr/fr/p/manteau-wili-beige-3667436073250.html",
+   "composition": "100 % POLYAMIDE RECYCLE",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 355,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "claudiepierlot-1",
+   "brand": "claudiepierlot",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Cardigan maille dentelle",
+   "url": "https://fr.claudiepierlot.com/fr/p/cardigan-maille-dentelle/monlou/CFPCA00742_A004.html",
+   "composition": "63 % viscose, 37 % polyamide",
+   "syntheticShare": 37,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 155,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "claudiepierlot-2",
+   "brand": "claudiepierlot",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Pull polo laine",
+   "url": "https://fr.claudiepierlot.com/fr/p/pull-polo-laine/maloute/CFPPU01212_B006.html",
+   "composition": "90 % laine, 10 % cachemire",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 245,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "claudiepierlot-3",
+   "brand": "claudiepierlot",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Jupe courte cuir",
+   "url": "https://fr.claudiepierlot.com/fr/p/jupe-courte-cuir/carlo/CFPJU00913_B001.html",
+   "composition": "100 % cuir",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Inde"
+   ],
+   "europe": false,
+   "price": 275,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "claudiepierlot-4",
+   "brand": "claudiepierlot",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Robe midi bi-matière noire et marine",
+   "url": "https://fr.claudiepierlot.com/fr/p/robe-midi-bi-matiere-noire-et-marine/teli/CFPRO01754_K007.html",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 285,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "claudiepierlot-5",
+   "brand": "claudiepierlot",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Robe dos nu dentelle",
+   "url": "https://fr.claudiepierlot.com/fr/p/robe-dos-nu-dentelle/reina/CFPRO02738_B001.html",
+   "composition": "91 % polyester, 9 % elasthanne",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Bulgarie"
+   ],
+   "europe": true,
+   "price": 295,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "claudiepierlot-6",
+   "brand": "claudiepierlot",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Jean large à pont",
+   "url": "https://fr.claudiepierlot.com/fr/p/jean-large-a-pont/jeanpascal/CFPJE00333_J007.html",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 225,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "claudiepierlot-7",
+   "brand": "claudiepierlot",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Jean droit denim souple",
+   "url": "https://fr.claudiepierlot.com/fr/p/jean-droit-denim-souple/dany/CFPJE00383_0017.html",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 195,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "claudiepierlot-8",
+   "brand": "claudiepierlot",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Pantalon jambes larges à carreaux",
+   "url": "https://fr.claudiepierlot.com/fr/p/pantalon-jambes-larges-a-carreaux/pleaseo/CFPPA00815_K001.html",
+   "composition": "55 % laine, 41 % polyester, 4 % elasthanne",
+   "syntheticShare": 45,
+   "naturalShare": 55,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 265,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "claudiepierlot-9",
+   "brand": "claudiepierlot",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise popeline rayée",
+   "url": "https://fr.claudiepierlot.com/fr/p/chemise-popeline-rayee/carmita/CFPCM00596_K007.html",
+   "composition": "50 % coton, 35 % lyocell, 15 % polyamide",
+   "syntheticShare": 15,
+   "naturalShare": 50,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 195,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "claudiepierlot-10",
+   "brand": "claudiepierlot",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise rayée lavallière",
+   "url": "https://fr.claudiepierlot.com/fr/p/chemise-rayee-lavalliere/cassiopee/CFPCM00608_K001.html",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 225,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "claudiepierlot-11",
+   "brand": "claudiepierlot",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Veste courte cuir vieilli",
+   "url": "https://fr.claudiepierlot.com/fr/p/veste-courte-cuir-vieilli/carlita/CFPBL00321_A036.html",
+   "composition": "100 % cuir",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Inde"
+   ],
+   "europe": false,
+   "price": 525,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "claudiepierlot-12",
+   "brand": "claudiepierlot",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Manteau mi-long laine mélangée",
+   "url": "https://fr.claudiepierlot.com/fr/p/manteau-mi-long-laine-melangee/gama/CFPOU00577_B001.html",
+   "composition": "69 % laine, 31 % polyamide",
+   "syntheticShare": 31,
+   "naturalShare": 69,
+   "countries": [
+    "Maroc"
+   ],
+   "europe": false,
+   "price": 595,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-1",
+   "brand": "maje",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "T-shirt avec poissons imprimés",
+   "url": "https://fr.maje.com/fr/p/t-shirt-avec-poissons-imprimes/MFPTS01044_10.html",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 95,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-2",
+   "brand": "maje",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "T-shirt ras de cou avec zip au dos",
+   "url": "https://fr.maje.com/fr/p/t-shirt-ras-de-cou-avec-zip-au-dos/MFPTS01057_10.html",
+   "composition": "100 % coton biologique",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 95,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-3",
+   "brand": "maje",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "T-shirt avec logo brodé",
+   "url": "https://fr.maje.com/fr/p/t-shirt-avec-logo-brode/MFPTS01071_0515.html",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 95,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-4",
+   "brand": "maje",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Polo à manches courtes avec poches",
+   "url": "https://fr.maje.com/fr/p/polo-a-manches-courtes-avec-poches/MFPPU01048_0101.html",
+   "composition": "56 % viscose, 42 % polyamide, 2 % elasthanne",
+   "syntheticShare": 44,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 155,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-5",
+   "brand": "maje",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Polo strassé à motif floral",
+   "url": "https://fr.maje.com/fr/p/polo-strasse-a-motif-floreal/MFPTO01274_2517.html",
+   "composition": "100 % polyester",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 295,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-6",
+   "brand": "maje",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Cardigan en maille strassée",
+   "url": "https://fr.maje.com/fr/p/cardigan-en-maille-strassee/MFPCA00691_2517.html",
+   "composition": "72 % polyester, 18 % viscose, 6 % polyamide, 4 % fibres métallisées",
+   "syntheticShare": 78,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 235,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-7",
+   "brand": "maje",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Cardigan effet cape",
+   "url": "https://fr.maje.com/fr/p/cardigan-effet-cape/MFPCA00785_2517.html",
+   "composition": "47 % polyamide, 30 % acrylique, 23 % laine",
+   "syntheticShare": 77,
+   "naturalShare": 23,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 275,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-8",
+   "brand": "maje",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Pull à col roulé en mélange de yak",
+   "url": "https://fr.maje.com/fr/p/pull-a-col-roule-en-melange-de-yak/MFPPU00950_0609.html",
+   "composition": "76 % yack, 21 % polyamide, 3 % elasthanne",
+   "syntheticShare": 24,
+   "naturalShare": 76,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 325,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-9",
+   "brand": "maje",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Pull à motif argyle avec strass",
+   "url": "https://fr.maje.com/fr/p/pull-a-motif-argyle-avec-strass/MFPPU01061_O032.html",
+   "composition": "100 % laine",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 275,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-10",
+   "brand": "maje",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Jupe crayon en lin et soie brodée",
+   "url": "https://fr.maje.com/fr/p/jupe-crayon-en-lin-et-soie-brodee/MFPJU01665_10.html",
+   "composition": "80 % lin, 20 % soie",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 275,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-11",
+   "brand": "maje",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Robe courte imprimée dos nu",
+   "url": "https://fr.maje.com/fr/p/robe-courte-imprimee-dos-nu/MFPRO04892_10.html",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Bulgarie"
+   ],
+   "europe": true,
+   "price": 295,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-12",
+   "brand": "maje",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Jupe midi en tulle",
+   "url": "https://fr.maje.com/fr/p/jupe-midi-en-tulle/MFPJU00675_2517.html",
+   "composition": "100 % polyester",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 255,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-13",
+   "brand": "maje",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Jean bootcut avec chaîne",
+   "url": "https://fr.maje.com/fr/p/jean-bootcut-avec-chaine/MFPJE00826_G005.html",
+   "composition": "99 % coton, 1 % elasthanne",
+   "syntheticShare": 1,
+   "naturalShare": 99,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 215,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-14",
+   "brand": "maje",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Jean carotte avec twilly",
+   "url": "https://fr.maje.com/fr/p/jean-carotte-avec-twilly/MFPJE00835_0201.html",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 235,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-15",
+   "brand": "maje",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Pantalon flare",
+   "url": "https://fr.maje.com/fr/p/pantalon-flare/MFPPA00544_2517.html",
+   "composition": "52 % polyester, 26 % laine, 18 % viscose, 4 % elasthanne",
+   "syntheticShare": 56,
+   "naturalShare": 26,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 235,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-16",
+   "brand": "maje",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise en denim avec Lavallière",
+   "url": "https://fr.maje.com/fr/p/chemise-en-denim-avec-lavalliere/MFPCM00700_0103.html",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 245,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-17",
+   "brand": "maje",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise courte brodée en taffetas",
+   "url": "https://fr.maje.com/fr/p/chemise-courte-brodee-en-taffetas/MFPCM00781_D061.html",
+   "composition": "100 % polyester",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 245,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-18",
+   "brand": "maje",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise courte et col contrasté",
+   "url": "https://fr.maje.com/fr/p/chemise/MFPCM00811_0856.html",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Maroc"
+   ],
+   "europe": false,
+   "price": 195,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-19",
+   "brand": "maje",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Blouson court en double face",
+   "url": "https://fr.maje.com/fr/p/blouson-court-en-double-face/MFPBL00855_0103.html",
+   "composition": "80 % laine, 20 % polyamide",
+   "syntheticShare": 20,
+   "naturalShare": 80,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 425,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "maje-20",
+   "brand": "maje",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Manteau court à bouclette",
+   "url": "https://fr.maje.com/fr/p/manteau-court-a-bouclette/MFPOU01402_0609.html",
+   "composition": "100 % polyester",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 395,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-1",
+   "brand": "nudie",
+   "category": "T-shirts et tops",
+   "gender": "homme",
+   "name": "Koffe 8 Ball T-Shirt Antracite",
+   "url": "https://www.nudiejeans.com/en-FR/product/koffe-8-ball-t-shirt-antracite",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 70,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-2",
+   "brand": "nudie",
+   "category": "T-shirts et tops",
+   "gender": "homme",
+   "name": "LS Henley Ecru",
+   "url": "https://www.nudiejeans.com/en-FR/product/ls-henley-ecru",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 100,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-3",
+   "brand": "nudie",
+   "category": "T-shirts et tops",
+   "gender": "homme",
+   "name": "Ricky Bad News T-Shirt Antracite",
+   "url": "https://www.nudiejeans.com/en-FR/product/ricky-bad-news-t-shirt-antracite",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 70,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-4",
+   "brand": "nudie",
+   "category": "T-shirts et tops",
+   "gender": "homme",
+   "name": "Roffe Slub T-Shirt Black",
+   "url": "https://www.nudiejeans.com/en-FR/product/roffe-slub-t-shirt-black",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 50,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-5",
+   "brand": "nudie",
+   "category": "T-shirts et tops",
+   "gender": "homme",
+   "name": "Roy Deadstock T-Shirt Navy",
+   "url": "https://www.nudiejeans.com/en-FR/product/roy-deadstock-t-shirt-navy",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Inde"
+   ],
+   "europe": false,
+   "price": 60,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-6",
+   "brand": "nudie",
+   "category": "Pulls et maille",
+   "gender": "homme",
+   "name": "August Rib Cotton Sweater Navy",
+   "url": "https://www.nudiejeans.com/en-FR/product/august-rib-cotton-sweater-navy",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 180,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-7",
+   "brand": "nudie",
+   "category": "Pulls et maille",
+   "gender": "homme",
+   "name": "Gunde Hoodie Embo Wave Greymelange",
+   "url": "https://www.nudiejeans.com/en-FR/product/gunde-hoodie-embo-wave-greymelange",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 180,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-8",
+   "brand": "nudie",
+   "category": "Pulls et maille",
+   "gender": "homme",
+   "name": "Gurra Boucle Sweater Multi",
+   "url": "https://www.nudiejeans.com/en-FR/product/gurra-boucle-sweater-multi-multi",
+   "composition": "86 % Laine, 14 % Polyamide",
+   "syntheticShare": 14,
+   "naturalShare": 86,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 200,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-9",
+   "brand": "nudie",
+   "category": "Pulls et maille",
+   "gender": "homme",
+   "name": "Hasse Crew Neck Sweatshirt Old Yellow",
+   "url": "https://www.nudiejeans.com/en-FR/product/hasse-crew-neck-sweatshirt-old-yellow",
+   "composition": "81 % Coton, 19 % Polyester",
+   "syntheticShare": 19,
+   "naturalShare": 81,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 130,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-10",
+   "brand": "nudie",
+   "category": "Pantalons et jeans",
+   "gender": "homme",
+   "name": "Easy Alvin Beige",
+   "url": "https://www.nudiejeans.com/en-FR/product/easy-alvin-beige",
+   "composition": "97 % Coton, 3 % Élasthanne",
+   "syntheticShare": 3,
+   "naturalShare": 97,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 160,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-11",
+   "brand": "nudie",
+   "category": "Pantalons et jeans",
+   "gender": "homme",
+   "name": "Flare Glenn Black Storm",
+   "url": "https://www.nudiejeans.com/en-FR/product/flare-glenn-black-storm",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 180,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-12",
+   "brand": "nudie",
+   "category": "Pantalons et jeans",
+   "gender": "homme",
+   "name": "Grim Tim Black Mist",
+   "url": "https://www.nudiejeans.com/en-FR/product/grim-tim-black-mist",
+   "composition": "99 % Coton, 1 % Élasthanne",
+   "syntheticShare": 1,
+   "naturalShare": 99,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 160,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-13",
+   "brand": "nudie",
+   "category": "Pantalons et jeans",
+   "gender": "homme",
+   "name": "Gritty Jackson Black Forest",
+   "url": "https://www.nudiejeans.com/en-FR/product/gritty-jackson-black-forest",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 160,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-14",
+   "brand": "nudie",
+   "category": "Chemises et blouses",
+   "gender": "homme",
+   "name": "Arvid Hawaii Shirt Deep Sea Multi",
+   "url": "https://www.nudiejeans.com/en-FR/product/arvid-hawaii-shirt-deep-sea-multi",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Inde"
+   ],
+   "europe": false,
+   "price": 150,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-15",
+   "brand": "nudie",
+   "category": "Chemises et blouses",
+   "gender": "homme",
+   "name": "George Ace Selvage Denim Shirt",
+   "url": "https://www.nudiejeans.com/en-FR/product/george-ace-selvage-denim-shirt",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 400,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-16",
+   "brand": "nudie",
+   "category": "Chemises et blouses",
+   "gender": "homme",
+   "name": "Glenn Padded Shirt Check Multi",
+   "url": "https://www.nudiejeans.com/en-FR/product/glenn-padded-shirt-check-multi",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Inde"
+   ],
+   "europe": false,
+   "price": 220,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-17",
+   "brand": "nudie",
+   "category": "Chemises et blouses",
+   "gender": "homme",
+   "name": "Gunnar Denim Shirt Clean Wash",
+   "url": "https://www.nudiejeans.com/en-FR/product/gunnar-denim-shirt-clean-wash",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 200,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-18",
+   "brand": "nudie",
+   "category": "Manteaux et vestes",
+   "gender": "homme",
+   "name": "Barney Indigo Workwear Jacket Dark Blue",
+   "url": "https://www.nudiejeans.com/en-FR/product/barney-indigo-workwear-jacket-dark-blue",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Inde"
+   ],
+   "europe": false,
+   "price": 180,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-19",
+   "brand": "nudie",
+   "category": "Manteaux et vestes",
+   "gender": "homme",
+   "name": "Blake Wool Zip Jacket Blueberry",
+   "url": "https://www.nudiejeans.com/en-FR/product/blake-wool-zip-jacket-blueberry",
+   "composition": "70 % Laine, 15 % Polyester, 10 % Polyamide, 5 % Autres fibres",
+   "syntheticShare": 25,
+   "naturalShare": 70,
+   "countries": [
+    "Lituanie"
+   ],
+   "europe": true,
+   "price": 400,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "nudie-20",
+   "brand": "nudie",
+   "category": "Manteaux et vestes",
+   "gender": "homme",
+   "name": "Bror Field Jacket Back Sateen Olive Green",
+   "url": "https://www.nudiejeans.com/en-FR/product/bror-field-jacket-back-sateen-olive-green",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 250,
+   "date": "2026-11-05",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-1",
+   "brand": "promod",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top ajouré et volanté Femme",
+   "url": "https://www.promod.fr/fr-fr/top-ajoure-et-volante-femme-vert--p211574/",
+   "composition": "50 % polyester recyclé, 49 % polyester, 1 % élasthanne",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 25.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-2",
+   "brand": "promod",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Débardeur marcel côtelé Femme",
+   "url": "https://www.promod.fr/fr-fr/debardeur-marcel-cotele-femme-orange--p211620/",
+   "composition": "50 % coton recyclé, 46 % coton, 4 % élasthanne",
+   "syntheticShare": 4,
+   "naturalShare": 96,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 12.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-3",
+   "brand": "promod",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Débardeur en jersey Femme",
+   "url": "https://www.promod.fr/fr-fr/debardeur-en-jersey-femme-ecru--p207762/",
+   "composition": "70 % coton, 25 % coton issu de l agriculture biologique, 5 % élasthanne",
+   "syntheticShare": 5,
+   "naturalShare": 95,
+   "countries": [
+    "Bangladesh"
+   ],
+   "europe": false,
+   "price": 9.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-4",
+   "brand": "promod",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top à bretelles",
+   "url": "https://www.promod.fr/fr-fr/top-a-bretelles-vert-olive--p206590/",
+   "composition": "96 % viscose responsable, 4 % élasthanne",
+   "syntheticShare": 4,
+   "naturalShare": 0,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 13.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-5",
+   "brand": "promod",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Débardeur détail macramé Femme",
+   "url": "https://www.promod.fr/fr-fr/debardeur-detail-macrame-femme-gris--p206680/",
+   "composition": "50 % coton, 50 % coton issu de l agriculture biologique",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 12.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-6",
+   "brand": "promod",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Cardigan irisé sans manches",
+   "url": "https://www.promod.fr/fr-fr/cardigan-irise-sans-manches-ecru--p207513/",
+   "composition": "63 % polyester, 37 % coton recyclé",
+   "syntheticShare": 63,
+   "naturalShare": 37,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 29.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-7",
+   "brand": "promod",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Cardigan en maille dentelle",
+   "url": "https://www.promod.fr/fr-fr/cardigan-en-maille-dentelle-ecru--p210070/",
+   "composition": "60 % polyester, 40 % coton recyclé",
+   "syntheticShare": 60,
+   "naturalShare": 40,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 25.89,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-8",
+   "brand": "promod",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Gilet fin boutonné éco-conçu",
+   "url": "https://www.promod.fr/fr-fr/gilet-fin-boutonne-eco-concu-ecru--p206516/",
+   "composition": "80 % viscose responsable, 20 % polyamide",
+   "syntheticShare": 20,
+   "naturalShare": 0,
+   "countries": [
+    "Bangladesh"
+   ],
+   "europe": false,
+   "price": 25.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-9",
+   "brand": "promod",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Cardigan col rond Femme",
+   "url": "https://www.promod.fr/fr-fr/cardigan-col-rond-femme-noir--p206527/",
+   "composition": "50 % polyester recyclé, 26 % acrylique, 20 % laine, 4 % élasthanne",
+   "syntheticShare": 80,
+   "naturalShare": 20,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 36.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-10",
+   "brand": "promod",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Jupe midi évasée à pois Femme",
+   "url": "https://www.promod.fr/fr-fr/jupe-midi-evasee-a-pois-femme-imprime-noir--p252398/",
+   "composition": "100 % coton issu de l agriculture biologique",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 45.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-11",
+   "brand": "promod",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Jupe courte carreaux vichy",
+   "url": "https://www.promod.fr/fr-fr/jupe-courte-carreaux-vichy-carreaux-beige--p209907/",
+   "composition": "94 % polyester recyclé, 6 % coton",
+   "syntheticShare": 94,
+   "naturalShare": 6,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 35.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-12",
+   "brand": "promod",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Jupe midi en satin imprimé",
+   "url": "https://www.promod.fr/fr-fr/jupe-midi-en-satin-imprime-imprime-multicolore--p209927/",
+   "composition": "100 % polyester recyclé",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 29.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-13",
+   "brand": "promod",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Pantalon cigarette uni Femme",
+   "url": "https://www.promod.fr/fr-fr/pantalon-cigarette-uni-femme-noir--p203388/",
+   "composition": "63 % polyester recyclé, 33 % viscose, 4 % élasthanne",
+   "syntheticShare": 67,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 25.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-14",
+   "brand": "promod",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "BASILE jean droit high rise",
+   "url": "https://www.promod.fr/fr-fr/basile-jean-droit-high-rise-jean-clair--p203353/",
+   "composition": "75 % coton, 25 % coton recyclé",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [],
+   "europe": false,
+   "price": 10,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-15",
+   "brand": "promod",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "BASILE jean droit taille haute",
+   "url": "https://www.promod.fr/fr-fr/basile-jean-droit-taille-haute-noir--p206449/",
+   "composition": "75 % coton, 25 % coton recyclé",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Cambodge"
+   ],
+   "europe": false,
+   "price": 25.19,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-16",
+   "brand": "promod",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "MARIE Chemise western en jean",
+   "url": "https://www.promod.fr/fr-fr/marie-chemise-western-en-jean-jean-rinse--p206444/",
+   "composition": "75 % coton, 25 % coton recyclé",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 29.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-17",
+   "brand": "promod",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Blouse brodée en coton Femme",
+   "url": "https://www.promod.fr/fr-fr/blouse-brodee-en-coton-femme-bleu--p209757/",
+   "composition": "100 % coton issu de l agriculture biologique",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Inde"
+   ],
+   "europe": false,
+   "price": 45.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-18",
+   "brand": "promod",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise en satin imprimée",
+   "url": "https://www.promod.fr/fr-fr/chemise-en-satin-imprimee-imprime-bleu--p209696/",
+   "composition": "100 % polyester recyclé",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 35.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-19",
+   "brand": "promod",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Veste surchemise en jean Femme",
+   "url": "https://www.promod.fr/fr-fr/veste-surchemise-en-jean-femme-jeans-gris--p253411/",
+   "composition": "50 % coton, 50 % coton issu de l agriculture biologique",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Cambodge"
+   ],
+   "europe": false,
+   "price": 49.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "promod-20",
+   "brand": "promod",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Blouson à col montant Femme",
+   "url": "https://www.promod.fr/fr-fr/blouson-a-col-montant-femme-ecru--p210593/",
+   "composition": "51 % lyocell, 44 % viscose responsable, 5 % polyamide",
+   "syntheticShare": 5,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 59.99,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-1",
+   "brand": "sandro",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top en maille à studs",
+   "url": "https://fr.sandro-paris.com/fr/p/top-court-a--illets-strasses/SFPPU02874_20.html",
+   "composition": "52 % viscose, 46 % polyamide, 2 % elasthanne",
+   "syntheticShare": 48,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 175,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-2",
+   "brand": "sandro",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Débardeur boutonnage contrasté",
+   "url": "https://fr.sandro-paris.com/fr/p/debardeur-maille-cotelee-contrastee/SFPPU02875_44.html",
+   "composition": "51 % viscose, 29 % lyocell, 14 % polyamide, 6 % soie",
+   "syntheticShare": 14,
+   "naturalShare": 6,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 145,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-3",
+   "brand": "sandro",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top court en maille côtelée",
+   "url": "https://fr.sandro-paris.com/fr/p/top-court-en-maille-cotelee/SFPPU02901_20.html",
+   "composition": "53 % viscose, 46 % polyamide, 1 % elasthanne",
+   "syntheticShare": 47,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 125,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-4",
+   "brand": "sandro",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top court satiné à nœud",
+   "url": "https://fr.sandro-paris.com/fr/p/top-court-satine-a-n-ud/SFPTO00859_11.html",
+   "composition": "97 % polyester, 3 % elasthanne",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Bulgarie"
+   ],
+   "europe": true,
+   "price": 195,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-5",
+   "brand": "sandro",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top court satiné plissé",
+   "url": "https://fr.sandro-paris.com/fr/p/top-court-satine-plisse/SFPTO00867_11.html",
+   "composition": "97 % polyester, 3 % elasthanne",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 175,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-6",
+   "brand": "sandro",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Sweatshirt en maille et denim",
+   "url": "https://fr.sandro-paris.com/fr/p/sweatshirt-en-maille-et-denim/SFPCA01255_44.html",
+   "composition": "61 % viscose, 25 % polyester, 14 % polyamide",
+   "syntheticShare": 39,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 275,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-7",
+   "brand": "sandro",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Cardigan à col en denim",
+   "url": "https://fr.sandro-paris.com/fr/p/cardigan-a-col-en-denim/SFPCA01257_16.html",
+   "composition": "96 % laine, 4 % cachemire",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 195,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-8",
+   "brand": "sandro",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Cardigan à col chemise",
+   "url": "https://fr.sandro-paris.com/fr/p/cardigan-a-col-chemise/SFPCA01281_55.html",
+   "composition": "87 % laine, 13 % cachemire",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 215,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-9",
+   "brand": "sandro",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Cardigan court en maille strassée",
+   "url": "https://fr.sandro-paris.com/fr/p/cardigan-court-en-maille-strassee/SFPCA01347_44.html",
+   "composition": "69 % viscose, 17 % polyamide, 9 % polyester, 5 % fibres métallisées",
+   "syntheticShare": 26,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 225,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-10",
+   "brand": "sandro",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Jupe longue plissée",
+   "url": "https://fr.sandro-paris.com/fr/p/jupe-longue-plissee-/SFPJU01524_44.html",
+   "composition": "55 % laine, 41 % polyester, 4 % elasthanne",
+   "syntheticShare": 45,
+   "naturalShare": 55,
+   "countries": [
+    "Bulgarie"
+   ],
+   "europe": true,
+   "price": 275,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-11",
+   "brand": "sandro",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Jupe courte plissée à rayures",
+   "url": "https://fr.sandro-paris.com/fr/p/jupe-courte-plissee-a-rayures/SFPJU01531_44.html",
+   "composition": "55 % laine, 41 % polyester, 4 % elasthanne",
+   "syntheticShare": 45,
+   "naturalShare": 55,
+   "countries": [
+    "Bulgarie"
+   ],
+   "europe": true,
+   "price": 195,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-12",
+   "brand": "sandro",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Jupe longue maille strassée",
+   "url": "https://fr.sandro-paris.com/fr/p/jupe-longue-maille-strassee/SFPJU01584_44.html",
+   "composition": "68 % viscose, 18 % polyamide, 9 % polyester, 5 % fibres métallisées",
+   "syntheticShare": 27,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 265,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-13",
+   "brand": "sandro",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Jean barrel",
+   "url": "https://fr.sandro-paris.com/fr/p/jean-barrel/SFPJE00865_10.html",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [],
+   "europe": false,
+   "price": 195,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-14",
+   "brand": "sandro",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Jean large taille haute",
+   "url": "https://fr.sandro-paris.com/fr/p/jean-large-taille-haute/SFPJE00897_20.html",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 225,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-15",
+   "brand": "sandro",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Pantalon à fines rayures",
+   "url": "https://fr.sandro-paris.com/fr/p/pantalon-a-fines-rayures/SFPPA01775_44.html",
+   "composition": "55 % laine, 41 % polyester, 4 % elasthanne",
+   "syntheticShare": 45,
+   "naturalShare": 55,
+   "countries": [
+    "Bulgarie"
+   ],
+   "europe": true,
+   "price": 245,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-16",
+   "brand": "sandro",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise courte en popeline",
+   "url": "https://fr.sandro-paris.com/fr/p/chemise-courte-en-popeline/SFPCM01076_10.html",
+   "composition": "100 % coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Maroc"
+   ],
+   "europe": false,
+   "price": 175,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-17",
+   "brand": "sandro",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise en soie à lavallière",
+   "url": "https://fr.sandro-paris.com/fr/p/chemise-en-soie-a-lavalliere/SFPCM01506_11.html",
+   "composition": "100 % soie",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 275,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-18",
+   "brand": "sandro",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise courte brodée à fleurs",
+   "url": "https://fr.sandro-paris.com/fr/p/chemise-courte-a-broderie-fleur/SFPCM01691_55.html",
+   "composition": "100 % viscose",
+   "syntheticShare": 0,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 235,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-19",
+   "brand": "sandro",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Blouson en cuir lisse",
+   "url": "https://fr.sandro-paris.com/fr/p/blouson-en-cuir-lisse/SFPBL01286_20.html",
+   "composition": "100 % cuir",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Inde"
+   ],
+   "europe": false,
+   "price": 695,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sandro-20",
+   "brand": "sandro",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Blouson oversize en cuir",
+   "url": "https://fr.sandro-paris.com/fr/p/blouson-oversize-en-cuir/SFPBL01374_20.html",
+   "composition": "100 % cuir",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Inde"
+   ],
+   "europe": false,
+   "price": 695,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-1",
+   "brand": "sessun",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top Mael",
+   "url": "https://fr.sessun.com/catalogue/tops-et-bodys/mael-moka.html",
+   "composition": "56 % Acétate, 44 % Viscose",
+   "syntheticShare": 0,
+   "naturalShare": 0,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 125,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-2",
+   "brand": "sessun",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top Mocambo",
+   "url": "https://fr.sessun.com/catalogue/tops-et-bodys/mocambo-murza.html",
+   "composition": "100 % Polyester",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 165,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-3",
+   "brand": "sessun",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top Fernanda",
+   "url": "https://fr.sessun.com/catalogue/tops-et-bodys/fernanda-coffea.html",
+   "composition": "75 % Coton, 23 % Viscose, 2 % Elasthanne",
+   "syntheticShare": 2,
+   "naturalShare": 75,
+   "countries": [
+    "Maroc"
+   ],
+   "europe": false,
+   "price": 175,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-4",
+   "brand": "sessun",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top Rawhide",
+   "url": "https://fr.sessun.com/catalogue/tops-et-bodys/rawhide-mokaluz.html",
+   "composition": "53 % Viscose, 47 % Polyester",
+   "syntheticShare": 47,
+   "naturalShare": 0,
+   "countries": [
+    "Italie"
+   ],
+   "europe": true,
+   "price": 125,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-5",
+   "brand": "sessun",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top Lally",
+   "url": "https://fr.sessun.com/catalogue/tops-et-bodys/lally-ganache.html",
+   "composition": "83 % Viscose, 17 % Polyester",
+   "syntheticShare": 17,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 145,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-6",
+   "brand": "sessun",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Sweat Chebbi",
+   "url": "https://fr.sessun.com/catalogue/sweatshirts/chebbi-vivapurple.html",
+   "composition": "74 % Coton, 13 % Polyester, 8 % Modal, 5 % Lin",
+   "syntheticShare": 13,
+   "naturalShare": 79,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 95,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-7",
+   "brand": "sessun",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Sweat Oliveira",
+   "url": "https://fr.sessun.com/catalogue/sweatshirts/oliveira-marble-rose.html",
+   "composition": "88 % Coton, 12 % Polyester",
+   "syntheticShare": 12,
+   "naturalShare": 88,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 135,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-8",
+   "brand": "sessun",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Sweat Costwelle",
+   "url": "https://fr.sessun.com/catalogue/sweatshirts/costwelle-hazelroc.html",
+   "composition": "100 % Laine",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 295,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-9",
+   "brand": "sessun",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Cardigan Shimoteka",
+   "url": "https://fr.sessun.com/catalogue/pulls/shimoteka-redmuse.html",
+   "composition": "100 % Laine mérinos",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Bulgarie"
+   ],
+   "europe": true,
+   "price": 175,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-10",
+   "brand": "sessun",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Culotte Undebon",
+   "url": "https://fr.sessun.com/catalogue/jupes-et-shorts/undebon-navy.html",
+   "composition": "100 % Laine",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 95,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-11",
+   "brand": "sessun",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Jupe Tildate",
+   "url": "https://fr.sessun.com/catalogue/jupes-et-shorts/tildate-ebene.html",
+   "composition": "34 % Laine mérinos, 34 % Alpaga, 32 % Polyamide",
+   "syntheticShare": 32,
+   "naturalShare": 68,
+   "countries": [
+    "Italie"
+   ],
+   "europe": true,
+   "price": 245,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-12",
+   "brand": "sessun",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Jupe Abbigy",
+   "url": "https://fr.sessun.com/catalogue/jupes-et-shorts/abbigy-black.html",
+   "composition": "98 % Coton, 2 % Elasthanne",
+   "syntheticShare": 2,
+   "naturalShare": 98,
+   "countries": [
+    "Maroc"
+   ],
+   "europe": false,
+   "price": 175,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-13",
+   "brand": "sessun",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Jean Milonim",
+   "url": "https://fr.sessun.com/catalogue/denim/milonim-true-blue.html",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 185,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-14",
+   "brand": "sessun",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Pantalon Timelia",
+   "url": "https://fr.sessun.com/catalogue/pantalons/timelia-red-muse.html",
+   "composition": "92 % Viscose, 8 % Polyamide",
+   "syntheticShare": 8,
+   "naturalShare": 0,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 195,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-15",
+   "brand": "sessun",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Jean Marino",
+   "url": "https://fr.sessun.com/catalogue/denim/marino-brocken-black.html",
+   "composition": "98 % Coton, 2 % Elasthanne",
+   "syntheticShare": 2,
+   "naturalShare": 98,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 145,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-16",
+   "brand": "sessun",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise Danie",
+   "url": "https://fr.sessun.com/catalogue/chemises-et-blouses/danie-bananille.html",
+   "composition": "87 % Modal, 11 % Polyamide, 2 % Polyester",
+   "syntheticShare": 13,
+   "naturalShare": 0,
+   "countries": [
+    "Maroc"
+   ],
+   "europe": false,
+   "price": 185,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-17",
+   "brand": "sessun",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise Florentina",
+   "url": "https://fr.sessun.com/catalogue/chemises-et-blouses/florentina-sunset-muse.html",
+   "composition": "60 % Coton, 40 % Polyester",
+   "syntheticShare": 40,
+   "naturalShare": 60,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 175,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-18",
+   "brand": "sessun",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Blouse Lylis",
+   "url": "https://fr.sessun.com/catalogue/chemises-et-blouses/lylis-whiblack-itama.html",
+   "composition": "100 % Viscose",
+   "syntheticShare": 0,
+   "naturalShare": 0,
+   "countries": [
+    "Tunisie"
+   ],
+   "europe": false,
+   "price": 175,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-19",
+   "brand": "sessun",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Veste sans manches Woodborn",
+   "url": "https://fr.sessun.com/catalogue/vestes/woodborn-craft-violet.html",
+   "composition": "36 % Laine, 26 % Polyester, 22 % Acrylique, 11 % Alpaga, 3 % Polyamide, 2 % Autres Fibres",
+   "syntheticShare": 51,
+   "naturalShare": 47,
+   "countries": [
+    "Bulgarie"
+   ],
+   "europe": true,
+   "price": 235,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sessun-20",
+   "brand": "sessun",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Manteau Andy",
+   "url": "https://fr.sessun.com/catalogue/manteaux/andy-coffea.html",
+   "composition": "75 % Coton, 25 % Polyester",
+   "syntheticShare": 25,
+   "naturalShare": 75,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 295,
+   "date": "2026-11-02",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-1",
+   "brand": "sezane",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top April",
+   "url": "https://www.sezane.com/fr-fr/product/top-april/noir#size-XXS",
+   "composition": "94 % Coton biologique, 6 % Élasthanne",
+   "syntheticShare": 6,
+   "naturalShare": 94,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 70,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-2",
+   "brand": "sezane",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top Juan",
+   "url": "https://www.sezane.com/fr-fr/product/top-juan/noir#size-XXS",
+   "composition": "97 % Coton biologique, 3 % Élasthanne",
+   "syntheticShare": 3,
+   "naturalShare": 97,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 40,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-3",
+   "brand": "sezane",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "T-Shirt Leon",
+   "url": "https://www.sezane.com/fr-fr/product/t-shirt-leon/blanc#size-XXS",
+   "composition": "100 % Coton biologique",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 40,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-4",
+   "brand": "sezane",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "T-Shirt Nolan",
+   "url": "https://www.sezane.com/fr-fr/product/t-shirt-nolan/ecru#size-XXS",
+   "composition": "100 % Coton biologique",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 45,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-5",
+   "brand": "sezane",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Body Hannah",
+   "url": "https://www.sezane.com/fr-fr/product/body-hannah/marron-glace#size-XS",
+   "composition": "43 % Laine Mérinos, 43 % Coton Biologique, 13 % Polyamide, 1 % Élasthanne",
+   "syntheticShare": 14,
+   "naturalShare": 86,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 100,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-6",
+   "brand": "sezane",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Pull Perrine",
+   "url": "https://www.sezane.com/fr-fr/product/pull-perrine/ecru#size-XXS",
+   "composition": "100 % Laine Mérinos",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Roumanie"
+   ],
+   "europe": true,
+   "price": 170,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-7",
+   "brand": "sezane",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Pull Nathan",
+   "url": "https://www.sezane.com/fr-fr/product/pull-nathan/chocolat-fonce#size-T1",
+   "composition": "100 % Laine Mérinos",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Italie"
+   ],
+   "europe": true,
+   "price": 170,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-8",
+   "brand": "sezane",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Gilet Othello",
+   "url": "https://www.sezane.com/fr-fr/product/gilet-othello/marron#size-XXS",
+   "composition": "68 % Baby Alpaga, 30 % Polyamide, 2 % Élasthanne",
+   "syntheticShare": 32,
+   "naturalShare": 68,
+   "countries": [
+    "Italie"
+   ],
+   "europe": true,
+   "price": 120,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-9",
+   "brand": "sezane",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Gilet André",
+   "url": "https://www.sezane.com/fr-fr/product/gilet-andre/ecru#size-XXS",
+   "composition": "38 % Polyamide, 35 % Laine Mérinos, 26 % Super kid mohair, 1 % Élasthanne",
+   "syntheticShare": 39,
+   "naturalShare": 61,
+   "countries": [
+    "Italie"
+   ],
+   "europe": true,
+   "price": 125,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-10",
+   "brand": "sezane",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Robe Blimis",
+   "url": "https://www.sezane.com/fr-fr/product/robe-blimis/noir#size-34",
+   "composition": "100 % Viscose",
+   "syntheticShare": 0,
+   "naturalShare": 0,
+   "countries": [
+    "Bulgarie"
+   ],
+   "europe": true,
+   "price": 160,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-11",
+   "brand": "sezane",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Robe Kasia",
+   "url": "https://www.sezane.com/fr-fr/product/robe-kasia/rouge-rubis#size-XS",
+   "composition": "100 % Laine Mérinos",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 155,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-12",
+   "brand": "sezane",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Jupe Jeny",
+   "url": "https://www.sezane.com/fr-fr/product/jupe-jeny/creme#size-46",
+   "composition": "100 % Soie",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 150,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-13",
+   "brand": "sezane",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Pantalon Marc",
+   "url": "https://www.sezane.com/fr-fr/product/pantalon-marc/marine#size-34",
+   "composition": "53 % Polyester, 43 % Laine, 4 % Élasthanne",
+   "syntheticShare": 57,
+   "naturalShare": 43,
+   "countries": [
+    "Bulgarie"
+   ],
+   "europe": true,
+   "price": 145,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-14",
+   "brand": "sezane",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Pantalon Ramy",
+   "url": "https://www.sezane.com/fr-fr/product/pantalon-ramy/brun#size-34",
+   "composition": "100 % Laine",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Bulgarie"
+   ],
+   "europe": true,
+   "price": 145,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-15",
+   "brand": "sezane",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Pantalon Le New 70's",
+   "url": "https://www.sezane.com/fr-fr/product/pantalon-le-new-70s/bleu-denim#size-32",
+   "composition": "99 % Coton biologique, 1 % Élasthanne recyclé",
+   "syntheticShare": 1,
+   "naturalShare": 99,
+   "countries": [
+    "Turquie"
+   ],
+   "europe": false,
+   "price": 120,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-16",
+   "brand": "sezane",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise Cloia",
+   "url": "https://www.sezane.com/fr-fr/product/chemise-cloia/ecru#size-34",
+   "composition": "100 % Coton biologique",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 115,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-17",
+   "brand": "sezane",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Blouse Edena",
+   "url": "https://www.sezane.com/fr-fr/product/blouse-edena/ecru#size-34",
+   "composition": "96 % Coton biologique, 4 % Élasthanne",
+   "syntheticShare": 4,
+   "naturalShare": 96,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 140,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-18",
+   "brand": "sezane",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise Tomboy",
+   "url": "https://www.sezane.com/fr-fr/product/chemise-tomboy/blanc#size-32",
+   "composition": "100 % Coton biologique",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Portugal"
+   ],
+   "europe": true,
+   "price": 90,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-19",
+   "brand": "sezane",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Manteau Ferdinand",
+   "url": "https://www.sezane.com/fr-fr/product/manteau-ferdinand/pourpre#size-T0",
+   "composition": "75 % Laine recyclée, 25 % Polyamide recyclé",
+   "syntheticShare": 25,
+   "naturalShare": 75,
+   "countries": [
+    "Roumanie"
+   ],
+   "europe": true,
+   "price": 450,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "sezane-20",
+   "brand": "sezane",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Veste Oscar",
+   "url": "https://www.sezane.com/fr-fr/product/veste-oscar/taupe-fonce#size-T1",
+   "composition": "33 % Laine Mérinos, 33 % Kid mohair, 30 % Polyamide, 4 % Élasthanne",
+   "syntheticShare": 34,
+   "naturalShare": 66,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 245,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-1",
+   "brand": "uniqlo",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Mini T-shirt (Manches longues)",
+   "url": "https://www.uniqlo.com/fr/fr/products/E487579-000/00?colorDisplayCode=32&sizeDisplayCode=003",
+   "composition": "96 % Coton, 4 % Élasthanne",
+   "syntheticShare": 4,
+   "naturalShare": 96,
+   "countries": [
+    "Inde",
+    "Vietnam"
+   ],
+   "europe": false,
+   "price": 19.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-2",
+   "brand": "uniqlo",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "T-shirt 100% coton SUPIMA® (Manches longues)",
+   "url": "https://www.uniqlo.com/fr/fr/products/E488230-000/00?colorDisplayCode=17&sizeDisplayCode=003",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Vietnam"
+   ],
+   "europe": false,
+   "price": 19.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-3",
+   "brand": "uniqlo",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "T-shirt à capuche (Manches longues)",
+   "url": "https://www.uniqlo.com/fr/fr/products/E488298-000/00?colorDisplayCode=03&sizeDisplayCode=003",
+   "composition": "95 % Coton, 5 % Élasthanne",
+   "syntheticShare": 5,
+   "naturalShare": 95,
+   "countries": [
+    "Vietnam"
+   ],
+   "europe": false,
+   "price": 19.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-4",
+   "brand": "uniqlo",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "Top côtelé à brassière intégrée",
+   "url": "https://www.uniqlo.com/fr/fr/products/E482196-000/00?colorDisplayCode=55&sizeDisplayCode=003",
+   "composition": "96 % Coton, 4 % Élasthanne",
+   "syntheticShare": 4,
+   "naturalShare": 96,
+   "countries": [
+    "Chine",
+    "Vietnam"
+   ],
+   "europe": false,
+   "price": 14.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-5",
+   "brand": "uniqlo",
+   "category": "T-shirts et tops",
+   "gender": "femme",
+   "name": "T-shirt à col roulé (Manches longues)",
+   "url": "https://www.uniqlo.com/fr/fr/products/E488228-000/00?colorDisplayCode=01&sizeDisplayCode=003",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Vietnam"
+   ],
+   "europe": false,
+   "price": 19.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-6",
+   "brand": "uniqlo",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Pull 100% cachemire",
+   "url": "https://www.uniqlo.com/fr/fr/products/E465734-000/00?colorDisplayCode=13&sizeDisplayCode=003",
+   "composition": "100 % Cachemire",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Cambodge",
+    "Vietnam"
+   ],
+   "europe": false,
+   "price": 89.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-7",
+   "brand": "uniqlo",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Cardigan 100% cachemire",
+   "url": "https://www.uniqlo.com/fr/fr/products/E488533-000/00?colorDisplayCode=34&sizeDisplayCode=004",
+   "composition": "100 % Cachemire",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 149,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-8",
+   "brand": "uniqlo",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Pull court en laine et cachemire mélangé (Col V)",
+   "url": "https://www.uniqlo.com/fr/fr/products/E487514-000/00?colorDisplayCode=57&sizeDisplayCode=003",
+   "composition": "85 % Laine, 15 % Cachemire",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 59.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-9",
+   "brand": "uniqlo",
+   "category": "Pulls et maille",
+   "gender": "femme",
+   "name": "Pull 100% laine mérinos",
+   "url": "https://www.uniqlo.com/fr/fr/products/E469411-000/00?colorDisplayCode=32&sizeDisplayCode=003",
+   "composition": "100 % Laine",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine",
+    "Cambodge",
+    "Vietnam"
+   ],
+   "europe": false,
+   "price": 39.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-10",
+   "brand": "uniqlo",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Robe-chemise",
+   "url": "https://www.uniqlo.com/fr/fr/products/E487635-000/00?colorDisplayCode=57&sizeDisplayCode=003",
+   "composition": "100 % Polyester",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 49.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-11",
+   "brand": "uniqlo",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Robe courte 100% laine (Maille)",
+   "url": "https://www.uniqlo.com/fr/fr/products/E487296-000/00?colorDisplayCode=39&sizeDisplayCode=003",
+   "composition": "100 % Laine",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 49.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-12",
+   "brand": "uniqlo",
+   "category": "Robes et jupes",
+   "gender": "femme",
+   "name": "Robe en maille à col polo (Manches longues)",
+   "url": "https://www.uniqlo.com/fr/fr/products/E487294-000/00?colorDisplayCode=19&sizeDisplayCode=003",
+   "composition": "62 % Acrylique, 26 % Laine, 12 % Polyamide",
+   "syntheticShare": 74,
+   "naturalShare": 26,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 49.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-13",
+   "brand": "uniqlo",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Pantalon Barrel en jersey brossé",
+   "url": "https://www.uniqlo.com/fr/fr/products/E489191-000/00?colorDisplayCode=38&sizeDisplayCode=003&pldDisplayCode=030",
+   "composition": "38 % Coton, 30 % Polyester - Fibre Recyclée, 18 % Polyester, 14 % Viscose",
+   "syntheticShare": 48,
+   "naturalShare": 38,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 39.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-14",
+   "brand": "uniqlo",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Jean Barrel ample",
+   "url": "https://www.uniqlo.com/fr/fr/products/E479000-001/00?colorDisplayCode=37&sizeDisplayCode=024&pldDisplayCode=033",
+   "composition": "79 % Coton, 21 % Lyocell",
+   "syntheticShare": 0,
+   "naturalShare": 79,
+   "countries": [
+    "Bangladesh",
+    "Chine",
+    "Cambodge"
+   ],
+   "europe": false,
+   "price": 49.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-15",
+   "brand": "uniqlo",
+   "category": "Pantalons et jeans",
+   "gender": "femme",
+   "name": "Pantalon large",
+   "url": "https://www.uniqlo.com/fr/fr/products/E488882-000/00?colorDisplayCode=08&sizeDisplayCode=003",
+   "composition": "62 % Polyester - Fibre Recyclée, 29 % Viscose, 5 % Polyester, 4 % Élasthanne",
+   "syntheticShare": 71,
+   "naturalShare": 0,
+   "countries": [
+    "Chine",
+    "Cambodge"
+   ],
+   "europe": false,
+   "price": 39.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-16",
+   "brand": "uniqlo",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Chemise en coton (Manches volumineuses)",
+   "url": "https://www.uniqlo.com/fr/fr/products/E488560-000/00?colorDisplayCode=60&sizeDisplayCode=003",
+   "composition": "100 % Coton",
+   "syntheticShare": 0,
+   "naturalShare": 100,
+   "countries": [
+    "Chine"
+   ],
+   "europe": false,
+   "price": 34.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-17",
+   "brand": "uniqlo",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Blouse en rayonne",
+   "url": "https://www.uniqlo.com/fr/fr/products/E489227-000/00?colorDisplayCode=19&sizeDisplayCode=003",
+   "composition": "76 % Viscose, 24 % Polyester - Fibre Recyclée",
+   "syntheticShare": 24,
+   "naturalShare": 0,
+   "countries": [
+    "Chine",
+    "Égypte",
+    "Vietnam"
+   ],
+   "europe": false,
+   "price": 34.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-18",
+   "brand": "uniqlo",
+   "category": "Chemises et blouses",
+   "gender": "femme",
+   "name": "Blouse courte oversize satinée (Manches 3/4)",
+   "url": "https://www.uniqlo.com/fr/fr/products/E483049-000/00?colorDisplayCode=69&sizeDisplayCode=003",
+   "composition": "71 % Polyester, 29 % Élastomultiester - Fibre Recyclée",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Chine",
+    "Indonésie"
+   ],
+   "europe": false,
+   "price": 29.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-19",
+   "brand": "uniqlo",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Veste courte matelassée",
+   "url": "https://www.uniqlo.com/fr/fr/products/E487518-000/00?colorDisplayCode=09&sizeDisplayCode=003",
+   "composition": "52 % Polyamide - Fibre Recyclée, 48 % Polyamide",
+   "syntheticShare": 100,
+   "naturalShare": 0,
+   "countries": [
+    "Bangladesh"
+   ],
+   "europe": false,
+   "price": 69.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  },
+  {
+   "id": "uniqlo-20",
+   "brand": "uniqlo",
+   "category": "Manteaux et vestes",
+   "gender": "femme",
+   "name": "Veste courte zippée",
+   "url": "https://www.uniqlo.com/fr/fr/products/E487516-000/00?colorDisplayCode=38&sizeDisplayCode=003",
+   "composition": "98 % Coton, 2 % Élasthanne",
+   "syntheticShare": 2,
+   "naturalShare": 98,
+   "countries": [
+    "Chine",
+    "Indonésie",
+    "Vietnam"
+   ],
+   "europe": false,
+   "price": 49.9,
+   "date": "2026-10-26",
+   "portalGtin": null
+  }
+ ]
+}

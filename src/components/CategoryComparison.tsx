@@ -18,12 +18,16 @@ const LEVELS = [
   { min: 0, label: 'Très fort impact' },
 ];
 
+// Niveau et couleur d'un vêtement selon sa place dans sa catégorie, aussi utilisés par « Ma garde-robe ».
+export function impactLevel(lessImpactThan: number): { label: string; color: string } {
+  const index = LEVELS.findIndex((level) => lessImpactThan >= level.min);
+  return { label: LEVELS[index].label, color: colors.impactScale[index] };
+}
+
 export function CategoryComparison({ comparison }: { comparison: Comparison }) {
   const { category, lessImpactThan, references, dataDate } = comparison;
   const position = 100 - lessImpactThan;
-  const levelIndex = LEVELS.findIndex((level) => lessImpactThan >= level.min);
-  const level = LEVELS[levelIndex];
-  const levelColor = colors.impactScale[levelIndex];
+  const { label: levelLabel, color: levelColor } = impactLevel(lessImpactThan);
   const sentence =
     lessImpactThan >= 50
       ? `Moins d’impact que ${lessImpactThan} % des vêtements « ${category} »`
@@ -33,7 +37,7 @@ export function CategoryComparison({ comparison }: { comparison: Comparison }) {
     <View style={styles.card}>
       <View style={styles.header}>
         <InfoButton explanation={COMPARISON_EXPLANATION} />
-        <Text style={[styles.level, { backgroundColor: levelColor }]}>{level.label}</Text>
+        <Text style={[styles.level, { backgroundColor: levelColor }]}>{levelLabel}</Text>
       </View>
       <Text style={styles.sentence}>{sentence}</Text>
 

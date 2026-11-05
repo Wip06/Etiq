@@ -12,6 +12,12 @@ Ils alimentent les critères des fiches marques (`src/data/brands.ts`) et la pag
   4 pulls et maille, 3 robes et jupes, 3 pantalons et jeans, 3 chemises et blouses, 2 manteaux et vestes.
 - **Par produit** : catégorie, nom, URL, composition du tissu principal recopiée telle quelle, pays de
   confection (« Fabriqué en… »), pays de tissage et de teinture s'ils sont indiqués, prix.
+- **Rayon** (marques qui vendent aux femmes et aux hommes : H&M, Zara, Faguo, Le Slip Français,
+  American Vintage, Armedangels, Asphalte) : femme, homme ou mixte pour chaque produit, sur la ligne
+  « Rayon ». Pour les marques d'un seul rayon, il est connu d'avance (`scripts/releves/build-products.mjs`).
+  Tous les relevés faits jusqu'ici sont des rayons femme : relever aussi le rayon homme des marques mixtes.
+
+Après chaque relevé : `npm run data:releves` met à jour la recherche avec filtres de l'app (Etiq+).
 - **Pour la marque** (en bas du fichier ou dans le message) : service de réparation ? de revente ou de
   seconde main ? avec l'URL de la page qui le dit.
 - **Date du relevé** : dans le nom du commit ou en première ligne du message.

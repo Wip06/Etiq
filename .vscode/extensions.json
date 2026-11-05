@@ -1,0 +1,4 @@
+{
+  // Nécessaire pour que VS Code comprenne les fonctions Supabase (supabase/functions).
+  "recommendations": ["denoland.vscode-deno"]
+}

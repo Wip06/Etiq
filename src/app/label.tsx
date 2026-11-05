@@ -1,3 +1,4 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { router, useLocalSearchParams } from 'expo-router';
 import { ImageManipulator, SaveFormat } from 'expo-image-manipulator';
 import { useEffect, useState } from 'react';
@@ -6,10 +7,12 @@ import { ActivityIndicator, Pressable, ScrollView, StyleSheet, Text, TextInput, 
 import { Alternatives } from '@/components/Alternatives';
 import { Button } from '@/components/Button';
 import { CategoryComparison } from '@/components/CategoryComparison';
+import { CompositionEditor, EMPTY_LABEL, isCompositionValid } from '@/components/CompositionEditor';
 import { ImpactEquivalents } from '@/components/ImpactEquivalents';
 import { MaterialInfoButton } from '@/components/MaterialInfo';
 import { OfficialCostLabel } from '@/components/OfficialCostLabel';
 import { Tiko } from '@/components/Tiko';
+import { WardrobeButton } from '@/components/WardrobeButton';
 import { categories, type Category } from '@/data/categories';
 import { COUNTRY_NAMES, MATERIAL_NAMES } from '@/data/ecobalyse';
 import { syntheticGrams } from '@/data/equivalents';
@@ -27,10 +30,12 @@ const MAX_UNKNOWN_SHARE = 0.2;
 
 type Step =
   | { name: 'reading' }
-  | { name: 'error'; message: string }
+  // manual : proposer la saisie à la main (échec de lecture, pas de calcul).
+  | { name: 'error'; message: string; manual?: boolean }
   | { name: 'review'; label: Label }
   | { name: 'computing'; label: Label }
-  | { name: 'result'; label: Label; category: Category; cost: number; massKg: number };
+  // id : identifiant de l'estimation, pour l'ajouter à « Ma garde-robe ».
+  | { name: 'result'; id: string; label: Label; category: Category; cost: number; massKg: number };
 
 // Parts Ecobalyse (somme = 1). Une matière non modélisée de moins de 20 % est ignorée et les
 // autres sont ramenées à 100 %, à défaut d'équivalent dans la méthode.
@@ -66,6 +71,15 @@ export default function LabelScreen() {
   const [category, setCategory] = useState<Category | null>(null);
   const [massText, setMassText] = useState('');
   const [priceText, setPriceText] = useState('');
+  // Composition en cours de saisie, et si elle a été saisie ou corrigée à la main.
+  const [editing, setEditing] = useState(false);
+  const [edited, setEdited] = useState(false);
+
+  const startManual = () => {
+    setEdited(true);
+    setEditing(true);
+    setStep({ name: 'review', label: EMPTY_LABEL });
+  };
 
   useEffect(() => {
     if (!photo) return;
@@ -80,7 +94,7 @@ export default function LabelScreen() {
           error instanceof LabelReaderError
             ? error.message
             : `Impossible de préparer la photo.${__DEV__ && error instanceof Error ? `\n\n${error.message}` : ''}`;
-        setStep({ name: 'error', message });
+        setStep({ name: 'error', message, manual: true });
       });
     return () => {
       cancelled = true;
@@ -93,11 +107,13 @@ export default function LabelScreen() {
     setCategory(next);
   };
 
-  if (!photo) {
+  // Sans photo, seule la saisie à la main reste possible.
+  if (!photo && step.name === 'reading') {
     return (
       <View style={[styles.container, styles.centered]}>
         <Text style={styles.message}>Photo introuvable. Reprenez la photo de l’étiquette.</Text>
         <Button label="Reprendre la photo" onPress={() => router.back()} />
+        <Button label="Saisir la composition à la main" variant="secondary" onPress={startManual} />
       </View>
     );
   }
@@ -119,6 +135,7 @@ export default function LabelScreen() {
       <View style={[styles.container, styles.centered]}>
         <Text style={styles.message}>{step.message}</Text>
         <Button label="Reprendre la photo" onPress={() => router.back()} />
+        {step.manual && <Button label="Saisir la composition à la main" variant="secondary" onPress={startManual} />}
       </View>
     );
   }
@@ -134,6 +151,7 @@ export default function LabelScreen() {
           Photographiez l’étiquette de composition (« 100 % coton… ») de près, bien à plat et sans reflet.
         </Text>
         <Button label="Reprendre la photo" onPress={() => router.back()} />
+        <Button label="Saisir la composition à la main" variant="secondary" onPress={startManual} />
       </View>
     );
   }
@@ -156,6 +174,7 @@ export default function LabelScreen() {
             </View>
           ))}
           {label.countryText ? <Text style={styles.meta}>{label.countryText}</Text> : null}
+          {edited && <Text style={styles.meta}>Composition saisie ou corrigée à la main.</Text>}
         </View>
 
         <View style={styles.costLabel}>
@@ -168,6 +187,19 @@ export default function LabelScreen() {
         <ImpactEquivalents cost={step.cost} plastic={syntheticGrams(label.materials, step.massKg * 1000)} />
 
         <Alternatives alternatives={alternatives} />
+
+        <WardrobeButton
+          item={{
+            id: step.id,
+            title: step.category.name,
+            subtitle: label.materials.map((material) => `${material.percent} % ${material.text}`).join(', '),
+            category: step.category.name,
+            cost: step.cost,
+            per100g,
+            lessImpactThan: comparison?.lessImpactThan ?? null,
+            estimate: true,
+          }}
+        />
 
         <View style={styles.card}>
           <Text style={styles.cardTitle}>Pourquoi une estimation ?</Text>
@@ -189,7 +221,7 @@ export default function LabelScreen() {
 
   const mass = Number(massText.replace(',', '.'));
   const price = Number(priceText.replace(',', '.'));
-  const canCompute = materials !== null && category !== null && mass >= 10;
+  const canCompute = materials !== null && isCompositionValid(label.materials) && category !== null && mass >= 10;
 
   const compute = async () => {
     if (!materials || !category) return;
@@ -203,22 +235,47 @@ export default function LabelScreen() {
         countryMaking: label.countryOfMaking,
         priceEuros: price > 0 ? price : undefined,
       });
-      setStep({ name: 'result', label, category, cost, massKg });
+      setStep({ name: 'result', id: `estimate-${Date.now()}`, label, category, cost, massKg });
     } catch {
       setStep({ name: 'error', message: 'Le calculateur officiel ne répond pas. Réessayez dans un instant.' });
     }
   };
 
+  if (editing) {
+    return (
+      <ScrollView style={styles.container} contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
+        <Text style={styles.title}>Composition du vêtement</Text>
+        <Text style={styles.meta}>
+          Recopiez l’étiquette cousue : chaque matière du tissu principal et son pourcentage, puis le pays de confection
+          (« Made in »).
+        </Text>
+        <CompositionEditor
+          label={label}
+          onChange={(next) => {
+            setEdited(true);
+            setStep({ name: 'review', label: next });
+          }}
+          onDone={() => setEditing(false)}
+        />
+      </ScrollView>
+    );
+  }
+
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content} keyboardShouldPersistTaps="handled">
-      <Text style={styles.title}>Étiquette lue</Text>
+      <Text style={styles.title}>{edited ? 'Composition saisie' : 'Étiquette lue'}</Text>
       <View style={styles.card}>
         <Text style={styles.cardTitle}>Composition</Text>
         {label.materials.map((material) => (
           <View key={`${material.text}-${material.percent}`} style={styles.materialRow}>
             <Text style={[styles.text, styles.flex]}>
               {material.percent} % {material.text}
-              {material.id === 'autre' ? ' (non modélisée)' : ` → ${MATERIAL_NAMES[material.id] ?? material.id}`}
+              {material.id === 'autre'
+                ? ' (non modélisée)'
+                : // Pas de flèche quand la matière a été choisie dans la liste : son nom est déjà celui d'Ecobalyse.
+                  material.text === MATERIAL_NAMES[material.id]
+                  ? ''
+                  : ` → ${MATERIAL_NAMES[material.id] ?? material.id}`}
             </Text>
             <MaterialInfoButton text={material.text} ecobalyseId={material.id} />
           </View>
@@ -230,7 +287,10 @@ export default function LabelScreen() {
         </Text>
         {label.notes ? <Text style={styles.meta}>{label.notes}</Text> : null}
       </View>
-      <Text style={styles.meta}>Une erreur de lecture ? Reprenez la photo de plus près.</Text>
+      <Pressable accessibilityRole="button" onPress={() => setEditing(true)} style={styles.correct}>
+        <Ionicons name="create-outline" size={18} color={colors.accent} />
+        <Text style={styles.correctLabel}>Une erreur de lecture ? Corriger la composition</Text>
+      </Pressable>
 
       {materials === null ? (
         <Text style={styles.message}>
@@ -340,6 +400,17 @@ const styles = StyleSheet.create({
   },
   flex: {
     flex: 1,
+  },
+  correct: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    minHeight: 44,
+  },
+  correctLabel: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: colors.accent,
   },
   card: {
     gap: 6,

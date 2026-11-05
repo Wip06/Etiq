@@ -29,11 +29,36 @@ export type Scan = {
   scannedAt: string;
 };
 
+// Vêtement de « Ma garde-robe » (Etiq+) : acheté par l'utilisateur après l'avoir scanné.
+export type WardrobeItem = {
+  // Code-barres d'un vêtement du portail, ou identifiant d'une estimation par étiquette.
+  id: string;
+  title: string;
+  subtitle: string;
+  category: string;
+  // Coût environnemental, en points, total et pour 100 g.
+  cost: number;
+  per100g: number;
+  // Part des vêtements de sa catégorie qui ont plus d'impact, à poids égal (%) ; null si non comparable.
+  lessImpactThan: number | null;
+  // Estimation Etiq calculée depuis l'étiquette, plutôt que coût déclaré sur le portail.
+  estimate: boolean;
+  addedAt: string;
+};
+
 // Résultats du quiz, du plus récent au plus ancien : ils mesurent l'évolution de l'impact.
 // quizResult (un seul résultat) vient des bibliothèques enregistrées avant cet historique.
-type Library = { favorites: Favorite[]; history: Scan[]; quizHistory?: QuizResult[]; quizResult?: QuizResult | null };
+type Library = {
+  favorites: Favorite[];
+  history: Scan[];
+  // Absente des bibliothèques enregistrées avant « Ma garde-robe ».
+  wardrobe?: WardrobeItem[];
+  quizHistory?: QuizResult[];
+  quizResult?: QuizResult | null;
+};
 
-type LibraryValue = Omit<Library, 'quizHistory' | 'quizResult'> & {
+type LibraryValue = Omit<Library, 'wardrobe' | 'quizHistory' | 'quizResult'> & {
+  wardrobe: WardrobeItem[];
   quizHistory: QuizResult[];
   // Dernier résultat du quiz, null s'il n'a jamais été fait.
   quizResult: QuizResult | null;
@@ -42,12 +67,15 @@ type LibraryValue = Omit<Library, 'quizHistory' | 'quizResult'> & {
   toggleFavorite: (favorite: Favorite) => void;
   addScan: (scan: Scan) => void;
   clearHistory: () => void;
+  isInWardrobe: (id: string) => boolean;
+  // Ajoute le vêtement à la garde-robe, ou l'en retire s'il y est déjà.
+  toggleWardrobe: (item: WardrobeItem) => void;
   saveQuizResult: (result: QuizResult) => void;
 };
 
 const MAX_HISTORY = 50;
 const MAX_QUIZ_RESULTS = 24;
-const EMPTY: Library = { favorites: [], history: [], quizHistory: [] };
+const EMPTY: Library = { favorites: [], history: [], wardrobe: [], quizHistory: [] };
 
 // Résultats du quiz au format actuel, y compris celui d'une bibliothèque d'avant l'historique.
 function quizResultsOf(library: Library): QuizResult[] {
@@ -116,6 +144,19 @@ export function LibraryProvider({ children }: PropsWithChildren) {
 
   const clearHistory = useCallback(() => update((current) => ({ ...current, history: [] })), [update]);
 
+  const toggleWardrobe = useCallback(
+    (item: WardrobeItem) =>
+      update((current) => {
+        const wardrobe = current.wardrobe ?? [];
+        const exists = wardrobe.some((owned) => owned.id === item.id);
+        return {
+          ...current,
+          wardrobe: exists ? wardrobe.filter((owned) => owned.id !== item.id) : [item, ...wardrobe],
+        };
+      }),
+    [update],
+  );
+
   const saveQuizResult = useCallback(
     (result: QuizResult) =>
       update(({ quizResult: _legacy, ...current }) => ({
@@ -129,6 +170,7 @@ export function LibraryProvider({ children }: PropsWithChildren) {
     () => ({
       favorites: data.favorites,
       history: data.history,
+      wardrobe: data.wardrobe ?? [],
       quizHistory: quizResultsOf(data),
       quizResult: quizResultsOf(data)[0] ?? null,
       enabled,
@@ -136,9 +178,11 @@ export function LibraryProvider({ children }: PropsWithChildren) {
       toggleFavorite,
       addScan,
       clearHistory,
+      isInWardrobe: (id) => (data.wardrobe ?? []).some((item) => item.id === id),
+      toggleWardrobe,
       saveQuizResult,
     }),
-    [data, enabled, toggleFavorite, addScan, clearHistory, saveQuizResult],
+    [data, enabled, toggleFavorite, addScan, clearHistory, toggleWardrobe, saveQuizResult],
   );
 
   return <LibraryContext.Provider value={value}>{children}</LibraryContext.Provider>;

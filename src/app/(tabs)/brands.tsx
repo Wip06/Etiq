@@ -1,9 +1,15 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { router } from 'expo-router';
 import { useState } from 'react';
 import { FlatList, Pressable, StyleSheet, Text, TextInput, View } from 'react-native';
 
+import { Button } from '@/components/Button';
+import { EtiqPlusBadge } from '@/components/EtiqPlusBadge';
 import { searchBrands, type Brand } from '@/data/brands';
+import { SURVEY_SUMMARY } from '@/data/surveyedProducts';
+import { useSession } from '@/session/SessionProvider';
 import { colors } from '@/theme/colors';
+import { requestBrandByEmail } from '@/utils/links';
 
 export default function BrandsScreen() {
   const [query, setQuery] = useState('');
@@ -26,9 +32,58 @@ export default function BrandsScreen() {
         renderItem={({ item }) => <BrandCard brand={item} />}
         contentContainerStyle={styles.list}
         keyboardShouldPersistTaps="handled"
-        ListEmptyComponent={<Text style={styles.empty}>Aucune marque trouvée.</Text>}
+        ListHeaderComponent={<FilteredSearchCard />}
+        ListEmptyComponent={
+          <View style={styles.emptyBox}>
+            <Text style={styles.empty}>Aucune marque trouvée.</Text>
+            <Button
+              label={query.trim() ? `Demander l’ajout de « ${query.trim()} »` : 'Demander l’ajout d’une marque'}
+              onPress={() => openBrandRequest(query)}
+            />
+          </View>
+        }
+        ListFooterComponent={
+          results.length > 0 ? (
+            <Pressable
+              accessibilityRole="button"
+              hitSlop={8}
+              onPress={() => openBrandRequest(query)}
+              style={({ pressed }) => [styles.requestLink, pressed && styles.pressed]}
+            >
+              <Ionicons name="add-circle-outline" size={20} color={colors.accent} />
+              <Text style={styles.requestLabel}>Il manque une marque ? Demander son ajout</Text>
+            </Pressable>
+          ) : undefined
+        }
       />
     </View>
+  );
+}
+
+// Ouvre un e-mail déjà rédigé, avec le nom cherché s'il y en a un.
+const openBrandRequest = (query: string) => requestBrandByEmail(query);
+
+// Entrée de la recherche avec filtres (Etiq+). Sans Etiq+, elle présente l'abonnement ; invisible pour
+// les invités, qui n'ont pas de compte à abonner.
+function FilteredSearchCard() {
+  const { user } = useSession();
+  if (!user) return null;
+
+  return (
+    <Pressable
+      accessibilityRole="button"
+      onPress={() => router.push(user.premium ? '/search' : '/etiq-plus')}
+      style={({ pressed }) => [styles.searchCard, pressed && styles.pressed]}
+    >
+      <Ionicons name={user.premium ? 'options-outline' : 'lock-closed-outline'} size={24} color={colors.accent} />
+      <View style={styles.searchCardTexts}>
+        <Text style={styles.searchCardTitle}>Recherche avec filtres</Text>
+        <Text style={styles.country}>
+          {SURVEY_SUMMARY.products} vêtements relevés : pays de fabrication, part de synthétique, prix.
+        </Text>
+      </View>
+      <EtiqPlusBadge />
+    </Pressable>
   );
 }
 
@@ -80,6 +135,25 @@ const styles = StyleSheet.create({
   pressed: {
     opacity: 0.7,
   },
+  searchCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 12,
+    padding: 16,
+    borderRadius: 16,
+    borderWidth: 1,
+    borderColor: colors.accent,
+    backgroundColor: colors.surface,
+  },
+  searchCardTexts: {
+    flex: 1,
+    gap: 2,
+  },
+  searchCardTitle: {
+    fontSize: 16,
+    fontWeight: '700',
+    color: colors.text,
+  },
   name: {
     fontSize: 18,
     fontWeight: '700',
@@ -109,5 +183,21 @@ const styles = StyleSheet.create({
     fontSize: 15,
     textAlign: 'center',
     color: colors.secondary,
+  },
+  emptyBox: {
+    gap: 16,
+  },
+  requestLink: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
+    minHeight: 44,
+    marginTop: 4,
+  },
+  requestLabel: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: colors.accent,
   },
 });

@@ -2,7 +2,8 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, use, useCallback, useEffect, useMemo, useState, type PropsWithChildren } from 'react';
 
 import type { BudgetId, GoalId } from '@/data/goals';
-import { firstNameKey, libraryKey, preferencesKey } from '@/session/storageKeys';
+import { clearCache } from '@/services/offlineCache';
+import { firstNameKey, libraryKey, preferencesKey, premiumKey } from '@/session/storageKeys';
 
 // Connexion simulée : tout est gardé sur le téléphone, aucun serveur.
 // Pour passer à une vraie authentification (Supabase...), seul ce fichier change.
@@ -26,6 +27,9 @@ export type User = {
   // Demandé à l'onboarding ; absent des comptes créés avant.
   firstName?: string | null;
   preferences: Preferences | null;
+  // Abonné Etiq+. Abonnement simulé pour le prototype : aucun paiement, il s'active depuis la page
+  // Etiq+. Absent des comptes créés avant.
+  premium?: boolean;
 };
 
 type StoredSession = { mode: 'guest' } | { mode: 'user'; user: User };
@@ -39,7 +43,10 @@ type SessionValue = {
   signOut: () => void;
   savePreferences: (preferences: Preferences) => void;
   saveFirstName: (firstName: string) => void;
-  // Efface tout ce que l'app garde sur ce compte : préférences, prénom, favoris, historique, quiz.
+  // Abonnement Etiq+ simulé : active ou résilie l'abonnement du compte connecté.
+  setPremium: (premium: boolean) => void;
+  // Efface tout ce que l'app garde sur ce compte : préférences, prénom, favoris, historique, garde-robe,
+  // quiz, abonnement Etiq+.
   deleteAccount: () => Promise<void>;
 };
 
@@ -89,7 +96,8 @@ export function SessionProvider({ children }: PropsWithChildren) {
         const raw = await AsyncStorage.getItem(preferencesKey(email)).catch(() => null);
         const preferences = raw ? readPreferences(JSON.parse(raw)) : null;
         const firstName = await AsyncStorage.getItem(firstNameKey(email)).catch(() => null);
-        update({ mode: 'user', user: { email, firstName, preferences } });
+        const premium = (await AsyncStorage.getItem(premiumKey(email)).catch(() => null)) === '1';
+        update({ mode: 'user', user: { email, firstName, preferences, premium } });
       },
       signOut: () => update(null),
       savePreferences: (preferences) => {
@@ -102,12 +110,25 @@ export function SessionProvider({ children }: PropsWithChildren) {
         AsyncStorage.setItem(firstNameKey(session.user.email), firstName);
         update({ mode: 'user', user: { ...session.user, firstName } });
       },
+      setPremium: (premium) => {
+        if (session?.mode !== 'user') return;
+        if (premium) AsyncStorage.setItem(premiumKey(session.user.email), '1');
+        else AsyncStorage.removeItem(premiumKey(session.user.email));
+        update({ mode: 'user', user: { ...session.user, premium } });
+      },
       deleteAccount: async () => {
         if (session?.mode !== 'user') return;
         const { email } = session.user;
-        await AsyncStorage.multiRemove([preferencesKey(email), firstNameKey(email), libraryKey(email)]).catch(
+        await AsyncStorage.multiRemove([
+          preferencesKey(email),
+          firstNameKey(email),
+          libraryKey(email),
+          premiumKey(email),
+        ]).catch(
           () => undefined,
         );
+        // Les fiches gardées pour le mode hors ligne révèlent aussi ce que l'utilisateur a consulté.
+        await clearCache();
         update(null);
       },
     }),

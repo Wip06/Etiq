@@ -1,31 +1,29 @@
 # TO DO
 
 ## Comptes connectés (interdit aux invités)
-- « Ma garde-robe » (fonction premium Etiq+, abonnement annuel prévu au modèle économique) : bouton « Je l'ai acheté » sur la fiche d'un vêtement scanné, garde-robe et impact cumulé dans le profil. Même en maquette, il montre au jury que le modèle économique existe dans le produit
 - Politique de confidentialité (`src/app/privacy.tsx`) : faire relire, et vérifier les conditions de l'offre gratuite de Gemini (utilisation des données par Google, relecture humaine)
 - Valider en équipe les poids du pourcentage de correspondance (`goalWeight` et `budgetWeight`), et faire vérifier qu'il ne peut pas être lu comme un score environnemental (art. D. 541-245)
 - Valider en équipe les seuils des objectifs (`CRITERIA` dans `src/data/recommendations.ts`) : 25 % de synthétique au plus (en partie jusqu'à 50 %), 50 % de confection en Europe au moins (en partie dès 25 %), 60 % des produits déclarés sous la médiane (en partie dès 40 %)
 
 ## Marques : relevés des fiches produits
-Protocole et fiches à remplir dans `releves/` (20 produits par marque). Un relevé à la main prend 10 à 20 minutes. Faits : Sézane, Uniqlo (à la main, 26 oct.), Sessùn, Ba&sh, Maje, Promod, Sandro, Claudie Pierlot (automatique, 2 nov.).
-- À remplir à la main, fiches prêtes : **H&M, Zara** en priorité (les plus connues de la cible), puis **Armedangels, Le Slip Français, Faguo, Jules, American Vintage, Etam, Asphalte** (accès refusé, robots interdits pour American Vintage, composition non lisible pour Etam et Asphalte). Les relever donne enfin des marques avec l'objectif « Réduire mon impact » rempli et des données complètes
+Protocole dans `releves/` (20 produits par marque). Faits : Sézane, Uniqlo (à la main, 26 oct.), Sessùn, Ba&sh, Maje, Promod, Sandro, Claudie Pierlot (automatique, 2 nov.) ; Nudie Jeans et Asphalte, rayon homme (automatique, 5 nov., en cours).
+- Pas de relevé à la main prévu (décidé le 5 nov.) : seulement des relevés automatiques, sur les sites qui l'acceptent. Bloquent la lecture automatique ou les robots de Claude : H&M, Zara, Octobre Éditions, Jules, Celio, Kiabi, Faguo, Le Slip Français, Armedangels, Loom, 1083, Atelier Tuffery, Hopaal, Bonne Gueule, Ecoalf, Saint James, Armor Lux, Patagonia, American Vintage. Ces marques s'appuient sur leurs chiffres du portail officiel, quand elles en ont (les fiches vierges de `releves/` restent disponibles si quelqu'un veut les remplir)
 - Vérifier sur les sites les services relevés dans la presse : réparation et seconde main de Maje, seconde main de Ba&sh, de Sandro et de Claudie Pierlot ; seconde main de Promod ; réparation et seconde main de Sessùn (non vérifiés)
-- Ensuite si besoin : Shein, Kiabi, Mango, Pull&Bear, Noo. Réessayer plus tard en automatique (trop de requêtes le 2 nov.) : Mango, Pimkie, Cyrillus, Des Petits Hauts, Picture, Ecoalf, Rouje
+- Réessayer plus tard en automatique (trop de requêtes le 2 nov.) : Mango, Pimkie, Cyrillus, Des Petits Hauts, Rouje
 - Balzac Paris : vérifier si c'est bien « MAISON BALZAC » sur le portail (269 produits)
 - Rédiger la description de chaque marque relevée (remplace « Analyse environnementale à compléter »)
 - Argument pour le jury : bien classées sur le portail, Ba&sh (74 % des produits sous la médiane) et Maje (84 %) ont pourtant 46 % et 35 % de synthétique en moyenne, et 16 % et 5 % de confection en Europe dans notre relevé : le coût officiel seul ne suffit pas, d'où nos objectifs séparés
 - Argument pour le jury : les marques les plus achetées par la cible (H&M, Zara, Shein, Mango, Sézane) n'ont déclaré aucun produit sur le portail ; Clear Fashion utilise sa propre base, différente du portail
+- Argument pour le jury : sur le portail, 97 % des produits déclarés par Faguo et Armedangels ont moins d'impact que la médiane de leur catégorie, 96 % chez Jules et Le Slip Français, mais seulement 26 % chez Kiabi (copie du 26 oct. 2026)
 
 ## Scan
-- **Lecture d'étiquette trop lente** (mesuré le 26 oct. 2026 : 93 s à plus de 120 s quand `gemini-3.8-flash` répond, 6 s avec `gemini-3.5-flash-lite`, lecture correcte). Dans `supabase/functions/read-label` : mettre `gemini-3.5-flash-lite` en premier (3.8-flash en secours), limiter chaque modèle à 20 s avant de passer au suivant, réduire la « réflexion » du modèle (vérifier le nom du réglage pour Gemini 3). Reste gratuit. Puis déployer avec `npx supabase functions deploy read-label --no-verify-jwt` (accès au compte Supabase du projet : Yannick) et mettre à jour l'ordre des modèles dans CLAUDE.md. En attendant, le secret `GEMINI_MODEL=gemini-3.5-flash-lite` le place en tête sans redéployer
 - Déposer le calcul sur le portail avant de l'afficher (serveur de test pour la démo). Obligation légale avant tout affichage public d'une estimation
-- Saisie manuelle de la composition en secours, si la lecture de l'étiquette échoue
 - Prix des alternatives (« même prix, moins d'impact », écart de prix à choisir par l'utilisateur) : le portail ne donne aucun prix, il faut une source (relevé à la main, gamme de prix par marque…)
 - Quiz : valider en équipe les profils de marque (prix, nombre de références) et les prix de référence de `src/data/quiz.ts`, ce sont des hypothèses
 - Équivalent eau pour les estimations par étiquette et le quiz (km de voiture aussi) : l'API Ecobalyse sans compte renvoie 0 pour l'eau (à tester avec un compte)
 
 ## Contenu
-- « Le savais-tu ? » (`src/data/didYouKnow.ts`) : faire relire les 24 anecdotes et recouper leurs chiffres avant la finale ; en ajouter à partir d'autres fiches
+- « Le savais-tu ? » (`src/data/didYouKnow.ts`) : en ajouter, toujours vérifiées à la source d'origine (les fiches The Good Goods contiennent des erreurs, voir l'en-tête du fichier)
 - Ajouter d'autres articles (liens The Good Goods + résumé écrit par nous)
 - Image qui illustre chaque article dans l'onglet « Apprendre »
 
@@ -40,6 +38,19 @@ Protocole et fiches à remplir dans `releves/` (20 produits par marque). Un rele
 - Logo de l'app (pistes dans le canevas : étiquette cousue, « e » sur étiquette volante, scan de l'étiquette)
 
 ## Fait
+- 13 marques ajoutées au catalogue (5 nov.) : Octobre Éditions, Jules, Celio, Kiabi, Faguo, Le Slip Français, Armedangels, Picture Organic Clothing, Loom, 1083, Atelier Tuffery, Asphalte, Nudie Jeans. Carte « Sur le portail officiel » (produits déclarés, part sous la médiane, durabilité médiane) sur la fiche des marques sans relevé. Rayons (Homme, Femme) dans les étiquettes de toutes les marques, pour la recherche
+- Lien « Comment nous choisissons les marques » en bas de toutes les fiches marques, relevées ou non
+- Bouton « Demander l'ajout d'une marque » dans l'onglet Marques (bas de liste, et quand la recherche ne trouve rien) : ouvre un e-mail déjà rédigé pour contact@etiq.com (`CONTACT_EMAIL` dans `src/utils/links.ts`). Vérifier que l'équipe reçoit bien les e-mails de cette adresse
+- Recherche avec filtres (Etiq+), depuis l'onglet Marques : les 152 vêtements relevés sur les fiches produits de 8 marques, filtrés par rayon (femme, homme), catégorie, pays de fabrication (ou Europe), part de fibres synthétiques et prix, plus une recherche par nom, marque ou matière ; triés par prix, sans classement environnemental. Données générées depuis `releves/` par `npm run data:releves` (les moyennes recalculées sont celles des fiches marques)
+- « Le savais-tu ? » vérifié le 5 nov. 2026 auprès des sources d'origine (Woolmark, FranceAgriMer, douane, Textile Exchange, Alliance du lin, FAO…) : 13 anecdotes corrigées ou précisées, 2 sur le cachemire remplacées par 2 sur le lin, chaque anecdote cite sa source (lien), l'article The Good Goods n'est proposé que s'il ne la contredit pas
+- « Le savais-tu ? » en pop-up à l'ouverture, sur l'app floutée (expo-blur), fermé par « Continuer », en touchant le fond ou par le bouton retour d'Android
+- Magasins à proximité (Etiq+) aussi sur la fiche produit, avec le nom de la marque plutôt que celui de la société déclarée sur le portail quand l'app la connaît
+- Saisie manuelle de la composition (matières, pourcentages, pays de confection) : pour corriger une lecture d'étiquette, ou tout saisir si la lecture échoue, si l'étiquette est illisible ou si la photo est introuvable
+- Mode hors ligne : les fiches du portail et les étiquettes officielles déjà consultées sont gardées sur le téléphone ; sans réseau (8 s sans réponse), l'app les affiche avec la date de la copie. Effacées avec le compte
+- Etiq+ simulé : page Etiq+ (avantages, abonnement et résiliation simulés, sans paiement), statut gardé par compte. « Ma garde-robe » réservée aux abonnés : bouton « Je l'ai acheté » sur la fiche produit et l'estimation par étiquette, total, niveaux et empreinte dans la garde-robe, accès depuis le profil
+- Magasins à proximité (Etiq+) sur la fiche marque : ouvre Google Maps sur la recherche « marque + magasin »
+- Quiz garde-robe proposé en tête de l'accueil tant que le compte ne l'a pas fait, donc juste après l'inscription
+- Lecture d'étiquette accélérée : Flash-Lite en premier, 10 s maximum par modèle, plus de réessais automatiques, réflexion minimale. Mesuré le 5 nov. 2026 : 1,6 à 3,5 s par étiquette (contre 78 à 150 s le 26 oct.), lecture toujours exacte
 - Mode étiquette : photo, lecture par Gemini dans une fonction Supabase, calcul Ecobalyse, affichage « Estimation Etiq »
 - Étiquette officielle du coût environnemental sur la fiche produit (SVG du portail, charte graphique respectée)
 - Comparaison avec la catégorie, à poids égal, et boutons « i » d'explication
@@ -64,11 +75,13 @@ Protocole et fiches à remplir dans `releves/` (20 produits par marque). Un rele
 ## Idées
 - Un quiz pour tester ses connaissances ? Gamification ? Badges quand on scanne des produits durables ? Quand on a des bonnes réponses...
 - Remplir des infos personnelles pour analyser de la data
-- Quiz d'impact de la garde-robe : le proposer aussi juste après l'inscription (onboarding) ? 
 - Chatbot 
 
 
 ## Etiq+ 
-- systeme de recherche avec filtre : pays de fabrication, % de fibres synthetiques, prix
-- mode hors ligne 
-- carte des magasins des marques a proximite : sur une marque renvoie vers google maps avec la recherche de la marque direct 
+- Fixer le prix de l'abonnement (`ETIQ_PLUS_PRICE` dans `src/data/etiqPlus.ts`, aujourd'hui « prix à définir ») : abonnement annuel prévu au modèle économique, référence Yuka (prix libre de 10 à 50 € par an)
+- Décider si le mode hors ligne devient une fonction Etiq+ : aujourd'hui il marche pour tous, ce qui protège la démo quel que soit le compte utilisé
+- Pour la démo : créer deux comptes, l'un passé en Etiq+ depuis la page Etiq+ (« S'abonner (simulation) »), l'autre standard
+- Recherche avec filtres : elle ne porte que sur les 8 marques relevées (152 vêtements, dont presque tous ceux confectionnés en Europe sont de Sézane). Chaque nouveau relevé l'élargit : après avoir rempli un fichier de `releves/`, lancer `npm run data:releves`
+- Rayon homme : les 152 vêtements relevés jusqu'au 2 nov. sont tous des vêtements femme. Les relevés automatiques Nudie Jeans et Asphalte (5 nov., en cours) ajoutent des vêtements homme au filtre « Homme »
+- Uniqlo : confirmer que le relevé du 26 oct. a été fait dans le rayon femme (supposé d'après les produits : robes, blouses, top à brassière intégrée)

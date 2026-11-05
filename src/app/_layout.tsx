@@ -1,8 +1,10 @@
+import { BlurTargetView } from 'expo-blur';
 import { SplashScreen, Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useRef, useState, type ComponentRef } from 'react';
+import { StyleSheet, View } from 'react-native';
 
-import { DidYouKnowScreen } from '@/components/DidYouKnowScreen';
+import { DidYouKnowPopup } from '@/components/DidYouKnowPopup';
 import { LibraryProvider } from '@/session/LibraryProvider';
 import { SessionProvider, useSession } from '@/session/SessionProvider';
 import { colors } from '@/theme/colors';
@@ -24,14 +26,26 @@ function RootNavigator() {
   const { isLoading, isGuest, user } = useSession();
 
   const [hasContinued, setHasContinued] = useState(false);
+  const closePopup = useCallback(() => setHasContinued(true), []);
+  const appRef = useRef<ComponentRef<typeof View>>(null);
 
-  // L'écran « Le savais-tu ? » prend le relais de l'écran natif, jusqu'à ce que l'utilisateur continue.
+  // Le pop-up « Le savais-tu ? » prend le relais de l'écran natif, jusqu'à ce que l'utilisateur continue.
   useEffect(() => {
     SplashScreen.hide();
   }, []);
 
-  if (!hasContinued) return <DidYouKnowScreen ready={!isLoading} onContinue={() => setHasContinued(true)} />;
+  return (
+    <>
+      {/* L'app ne s'affiche, floutée derrière le pop-up, qu'une fois la session chargée. */}
+      <BlurTargetView ref={appRef} style={styles.app}>
+        {!isLoading && <AppStack isGuest={isGuest} user={user} />}
+      </BlurTargetView>
+      {!hasContinued && <DidYouKnowPopup ready={!isLoading} blurTarget={appRef} onContinue={closePopup} />}
+    </>
+  );
+}
 
+function AppStack({ isGuest, user }: Pick<ReturnType<typeof useSession>, 'isGuest' | 'user'>) {
   const hasChosen = isGuest || user !== null;
   const needsOnboarding = user !== null && user.preferences === null;
 
@@ -69,6 +83,9 @@ function RootNavigator() {
       <Stack.Protected guard={user !== null && !needsOnboarding}>
         <Stack.Screen name="quiz" options={{ title: 'Quiz' }} />
         <Stack.Screen name="preferences" options={{ title: 'Mes objectifs' }} />
+        <Stack.Screen name="etiq-plus" options={{ title: 'Etiq+' }} />
+        <Stack.Screen name="wardrobe" options={{ title: 'Ma garde-robe' }} />
+        <Stack.Screen name="search" options={{ title: 'Recherche avec filtres' }} />
       </Stack.Protected>
 
       <Stack.Protected guard={needsOnboarding}>
@@ -81,3 +98,10 @@ function RootNavigator() {
     </Stack>
   );
 }
+
+const styles = StyleSheet.create({
+  app: {
+    flex: 1,
+    backgroundColor: colors.background,
+  },
+});

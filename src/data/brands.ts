@@ -54,7 +54,7 @@ export const brands: Brand[] = [
     name: 'H&M',
     country: 'Suède',
     description: `Prêt-à-porter grand public. ${PENDING}`,
-    tags: ['Suède', 'Grand public'],
+    tags: ['Suède', 'Grand public', 'Homme', 'Femme'],
     sources: [{ label: 'Site officiel', url: 'https://www2.hm.com/fr_fr/' }],
   },
   {
@@ -62,7 +62,7 @@ export const brands: Brand[] = [
     name: 'Zara',
     country: 'Espagne',
     description: `Prêt-à-porter grand public, groupe Inditex. ${PENDING}`,
-    tags: ['Espagne', 'Grand public', 'Inditex'],
+    tags: ['Espagne', 'Grand public', 'Inditex', 'Homme', 'Femme'],
     sources: [{ label: 'Site officiel', url: 'https://www.zara.com/fr/' }],
   },
   {
@@ -70,7 +70,7 @@ export const brands: Brand[] = [
     name: 'Mango',
     country: 'Espagne',
     description: `Prêt-à-porter grand public. ${PENDING}`,
-    tags: ['Espagne', 'Grand public'],
+    tags: ['Espagne', 'Grand public', 'Homme', 'Femme'],
     sources: [{ label: 'Site officiel', url: 'https://shop.mango.com/fr' }],
   },
   {
@@ -78,7 +78,7 @@ export const brands: Brand[] = [
     name: 'Uniqlo',
     country: 'Japon',
     description: `Prêt-à-porter grand public, groupe Fast Retailing. ${PENDING}`,
-    tags: ['Japon', 'Grand public', 'Fast Retailing'],
+    tags: ['Japon', 'Grand public', 'Fast Retailing', 'Homme', 'Femme'],
     sources: [{ label: 'Site officiel', url: 'https://www.uniqlo.com/fr/fr/' }],
     portalName: 'UNIQLO EUROPE LTD',
     // Relevé à la main le 26 oct. 2026, en 12 minutes (le site bloque la lecture automatique).
@@ -113,7 +113,7 @@ export const brands: Brand[] = [
     name: 'Sézane',
     country: 'France',
     description: `Prêt-à-porter premium. ${PENDING}`,
-    tags: ['France', 'Premium'],
+    tags: ['France', 'Premium', 'Femme'],
     sources: [{ label: 'Site officiel', url: 'https://www.sezane.com/fr' }],
     // Relevé à la main le 26 oct. 2026, en 20 minutes (le site bloque la lecture automatique).
     // Détail produit par produit : releves/sezane.txt.
@@ -142,7 +142,7 @@ export const brands: Brand[] = [
     name: 'Sessùn',
     country: 'France',
     description: `Prêt-à-porter féminin, marque née à Marseille. ${PENDING}`,
-    tags: ['France', 'Premium'],
+    tags: ['France', 'Premium', 'Femme'],
     sources: [{ label: 'Site officiel', url: 'https://fr.sessun.com/' }],
     portalName: 'Sessùn',
     // Relevé automatique le 2 nov. 2026. Détail produit par produit : releves/sessun.txt.
@@ -171,7 +171,7 @@ export const brands: Brand[] = [
     name: 'Ba&sh',
     country: 'France',
     description: `Prêt-à-porter féminin premium. ${PENDING}`,
-    tags: ['France', 'Premium'],
+    tags: ['France', 'Premium', 'Femme'],
     sources: [{ label: 'Site officiel', url: 'https://ba-sh.com/fr/fr/' }],
     portalName: 'BA&SH',
     // Relevé automatique le 2 nov. 2026. Détail produit par produit : releves/bash.txt.
@@ -203,7 +203,7 @@ export const brands: Brand[] = [
     name: 'Maje',
     country: 'France',
     description: `Prêt-à-porter féminin premium, groupe SMCP. ${PENDING}`,
-    tags: ['France', 'Premium', 'SMCP'],
+    tags: ['France', 'Premium', 'SMCP', 'Femme'],
     sources: [{ label: 'Site officiel', url: 'https://fr.maje.com/' }],
     portalName: 'MAJE',
     // Relevé automatique le 2 nov. 2026, pays et quelques fiches complétés à la main (pays affichés au clic sur « Traçabilité »).
@@ -236,7 +236,7 @@ export const brands: Brand[] = [
     name: 'Promod',
     country: 'France',
     description: `Prêt-à-porter féminin grand public. ${PENDING}`,
-    tags: ['France', 'Grand public'],
+    tags: ['France', 'Grand public', 'Femme'],
     sources: [{ label: 'Site officiel', url: 'https://www.promod.fr/fr-fr/' }],
     portalName: 'PROMOD',
     // Relevé automatique le 2 nov. 2026, pays et quelques fiches complétés à la main. Détail produit par produit : releves/promod.txt.
@@ -271,7 +271,7 @@ export const brands: Brand[] = [
     name: 'Sandro',
     country: 'France',
     description: `Prêt-à-porter premium, groupe SMCP. ${PENDING}`,
-    tags: ['France', 'Premium', 'SMCP'],
+    tags: ['France', 'Premium', 'SMCP', 'Homme', 'Femme'],
     sources: [{ label: 'Site officiel', url: 'https://fr.sandro-paris.com/fr/' }],
     portalName: 'SANDRO ANDY',
     // Relevé automatique le 2 nov. 2026, pays et quelques fiches complétés à la main. Détail produit par produit : releves/sandro.txt.
@@ -304,7 +304,7 @@ export const brands: Brand[] = [
     name: 'Claudie Pierlot',
     country: 'France',
     description: `Prêt-à-porter féminin premium, groupe SMCP. ${PENDING}`,
-    tags: ['France', 'Premium', 'SMCP'],
+    tags: ['France', 'Premium', 'SMCP', 'Femme'],
     sources: [{ label: 'Site officiel', url: 'https://fr.claudiepierlot.com/fr/' }],
     portalName: 'CLAUDIE PIERLOT',
     // Relevé automatique le 2 nov. 2026, pays et quelques fiches complétés à la main. Détail produit par produit : releves/claudiepierlot.txt.
@@ -337,8 +337,173 @@ export const brands: Brand[] = [
     name: 'Balzac Paris',
     country: 'France',
     description: `Prêt-à-porter premium. ${PENDING}`,
-    tags: ['France', 'Premium'],
+    tags: ['France', 'Premium', 'Femme'],
     sources: [{ label: 'Site officiel', url: 'https://www.balzac-paris.fr/' }],
+  },
+
+  // Marques ajoutées le 5 nov. 2026 pour le rayon homme. Les sites d'Octobre Éditions, Jules, Celio,
+  // Kiabi, Faguo, Le Slip Français, Armedangels, Loom, 1083 et Atelier Tuffery bloquent la lecture
+  // automatique (ou les robots de Claude) : leurs fiches produits sont à relever à la main. Les chiffres
+  // affichés viennent du portail officiel (Licence Ouverte), sous le nom déclaré (portalName).
+  {
+    id: 'octobre',
+    name: 'Octobre Éditions',
+    country: 'France',
+    description: `Prêt-à-porter masculin, marque sœur de Sézane. ${PENDING}`,
+    tags: ['France', 'Premium', 'Homme'],
+    sources: [{ label: 'Site officiel', url: 'https://www.octobre-editions.com/fr-fr' }],
+  },
+  {
+    id: 'jules',
+    name: 'Jules',
+    country: 'France',
+    description: `Prêt-à-porter masculin grand public. ${PENDING}`,
+    tags: ['France', 'Grand public', 'Homme'],
+    sources: [{ label: 'Site officiel', url: 'https://www.jules.com/fr-fr/' }],
+    portalName: 'Jules',
+  },
+  {
+    id: 'celio',
+    name: 'Celio',
+    country: 'France',
+    description: `Prêt-à-porter masculin grand public. ${PENDING}`,
+    tags: ['France', 'Grand public', 'Homme'],
+    sources: [{ label: 'Site officiel', url: 'https://www.celio.com/' }],
+    portalName: 'CELIO FRANCE',
+  },
+  {
+    id: 'kiabi',
+    name: 'Kiabi',
+    country: 'France',
+    description: `Prêt-à-porter grand public pour toute la famille. ${PENDING}`,
+    tags: ['France', 'Grand public', 'Homme', 'Femme', 'Enfant'],
+    sources: [{ label: 'Site officiel', url: 'https://www.kiabi.com/' }],
+    portalName: 'KIABI',
+  },
+  {
+    id: 'faguo',
+    name: 'Faguo',
+    country: 'France',
+    description: `Prêt-à-porter, surtout masculin. ${PENDING}`,
+    tags: ['France', 'Homme', 'Femme'],
+    sources: [{ label: 'Site officiel', url: 'https://www.faguo-store.com/' }],
+    portalName: 'FAGUO',
+  },
+  {
+    id: 'leslipfrancais',
+    name: 'Le Slip Français',
+    country: 'France',
+    description: `Sous-vêtements et prêt-à-porter. ${PENDING}`,
+    tags: ['France', 'Homme', 'Femme'],
+    sources: [{ label: 'Site officiel', url: 'https://www.leslipfrancais.fr/' }],
+    portalName: 'LE SLIP FRANCAIS',
+  },
+  {
+    id: 'armedangels',
+    name: 'Armedangels',
+    country: 'Allemagne',
+    description: `Prêt-à-porter. ${PENDING}`,
+    tags: ['Allemagne', 'Homme', 'Femme'],
+    sources: [{ label: 'Site officiel', url: 'https://www.armedangels.com/' }],
+    portalName: 'ARMEDANGELS',
+  },
+  {
+    id: 'picture',
+    name: 'Picture Organic Clothing',
+    country: 'France',
+    description: `Vêtements de sport et d’outdoor. ${PENDING}`,
+    tags: ['France', 'Outdoor', 'Homme', 'Femme'],
+    sources: [{ label: 'Site officiel', url: 'https://www.picture-organic-clothing.com/' }],
+    portalName: 'PICTURE ORGANIC CLOTHING',
+  },
+  {
+    id: 'loom',
+    name: 'Loom',
+    country: 'France',
+    description: `Vêtements de base. ${PENDING}`,
+    tags: ['France', 'Homme', 'Femme'],
+    sources: [{ label: 'Site officiel', url: 'https://www.loom.fr/' }],
+    portalName: 'Loom',
+  },
+  {
+    id: '1083',
+    name: '1083',
+    country: 'France',
+    description: `Jeans. ${PENDING}`,
+    tags: ['France', 'Jean', 'Homme', 'Femme'],
+    sources: [{ label: 'Site officiel', url: 'https://www.1083.fr/' }],
+    portalName: '1083',
+  },
+  {
+    id: 'tuffery',
+    name: 'Atelier Tuffery',
+    country: 'France',
+    description: `Jeans et prêt-à-porter. ${PENDING}`,
+    tags: ['France', 'Jean', 'Homme', 'Femme'],
+    sources: [{ label: 'Site officiel', url: 'https://www.ateliertuffery.com/' }],
+    portalName: 'Atelier Tuffery',
+  },
+  {
+    id: 'asphalte',
+    name: 'Asphalte',
+    country: 'France',
+    description: `Prêt-à-porter. ${PENDING}`,
+    tags: ['France', 'Homme', 'Femme'],
+    sources: [{ label: 'Site officiel', url: 'https://www.asphalte.com/fr/' }],
+    // Relevé automatique du rayon homme le 5 nov. 2026. Détail produit par produit : releves/asphalte.txt.
+    survey: {
+      date: '2026-11-05',
+      method: 'catalogue',
+      products: 19,
+      syntheticShare: 0,
+      naturalShare: 100,
+      europeShare: 100,
+      countries: ['Portugal'],
+      medianPrice: 79,
+      repair: null,
+      secondHand: null,
+      notes: [
+        '19 fiches du rayon homme relevées automatiquement : les premiers modèles de cinq catégories dans le plan du site (une composition incomplète écartée).',
+        'Uniquement des fibres naturelles : coton, souvent biologique, laine mérinos et lin.',
+        'Pays de confection connu pour 8 produits sur 19, tous confectionnés au Portugal (bloc « Traçabilité » des fiches) ; la confection en Europe est calculée sur ces 8 produits.',
+        'Aucun produit déclaré sur le portail officiel.',
+        'Services de réparation et de seconde main non vérifiés.',
+      ],
+      sources: [{ label: 'Fiches produits du site Asphalte', url: 'https://www.asphalte.com/h' }],
+    },
+  },
+  {
+    id: 'nudie',
+    name: 'Nudie Jeans',
+    country: 'Suède',
+    description: `Jeans et prêt-à-porter. ${PENDING}`,
+    tags: ['Suède', 'Jean', 'Homme', 'Femme'],
+    sources: [{ label: 'Site officiel', url: 'https://www.nudiejeans.com/' }],
+    // Relevé automatique du rayon homme le 5 nov. 2026 (données structurées des fiches). Détail produit
+    // par produit : releves/nudie.txt.
+    survey: {
+      date: '2026-11-05',
+      method: 'catalogue',
+      products: 20,
+      syntheticShare: 3,
+      naturalShare: 97,
+      europeShare: 35,
+      countries: ['Tunisie', 'Portugal', 'Inde', 'Turquie', 'Lituanie'],
+      medianPrice: 170,
+      repair: true,
+      secondHand: null,
+      notes: [
+        '20 fiches du rayon homme relevées automatiquement : les premiers modèles de cinq catégories dans le plan du site, un seul coloris par modèle.',
+        'Presque uniquement du coton (la marque indique que tous ses jeans sont en coton biologique) ; aucun produit majoritairement synthétique.',
+        'Confection en Tunisie, au Portugal, en Inde et en Turquie : 7 produits sur 20 en Europe.',
+        'Réparation gratuite des jeans Nudie dans les boutiques de la marque et chez ses partenaires.',
+        'Aucun produit déclaré sur le portail officiel. Seconde main non vérifiée.',
+      ],
+      sources: [
+        { label: 'Fiches produits du site Nudie Jeans', url: 'https://www.nudiejeans.com/en-FR' },
+        { label: 'Réparation gratuite (Nudie Jeans)', url: 'https://www.nudiejeans.com/en-FR/blog/free-repairs-forever' },
+      ],
+    },
   },
 ];
 
@@ -352,4 +517,10 @@ export function searchBrands(query: string): Brand[] {
 
 export function getBrand(id: string): Brand | undefined {
   return brands.find((brand) => brand.id === id);
+}
+
+// Marque de l'app qui correspond au nom déclaré sur le portail (« UNIQLO EUROPE LTD » → Uniqlo).
+export function findBrandByPortalName(portalName: string): Brand | undefined {
+  const name = normalize(portalName.trim());
+  return brands.find((brand) => normalize(brand.portalName ?? brand.name) === name);
 }

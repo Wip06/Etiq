@@ -1,3 +1,4 @@
+import Ionicons from '@expo/vector-icons/Ionicons';
 import { router, Stack, useLocalSearchParams } from 'expo-router';
 import { useCallback, useEffect, useState } from 'react';
 import { ActivityIndicator, ScrollView, StyleSheet, Text, View } from 'react-native';
@@ -10,17 +11,21 @@ import { InfoButton } from '@/components/InfoButton';
 import { OfficialCostLabel } from '@/components/OfficialCostLabel';
 import { ImpactEquivalents } from '@/components/ImpactEquivalents';
 import { Tiko } from '@/components/Tiko';
+import { StoreFinderButton } from '@/components/StoreFinderButton';
+import { WardrobeButton } from '@/components/WardrobeButton';
+import { findBrandByPortalName } from '@/data/brands';
 import { productBubble } from '@/data/equivalents';
 import { COST_EXPLANATION, DURABILITY_EXPLANATION, STAGE_EXPLANATIONS } from '@/data/explanations';
 import { compareToCategory, findAlternatives } from '@/data/portalStats';
-import { getProduct, labelImageUrl, STAGES, type PortalProduct, type Stage } from '@/services/portal';
+import { labelImageUrl, lookupProduct, STAGES, type PortalProduct, type Stage } from '@/services/portal';
 import { useLibrary } from '@/session/LibraryProvider';
 import { colors } from '@/theme/colors';
 
 type State =
   | { status: 'loading' }
-  | { status: 'found'; product: PortalProduct }
-  | { status: 'notFound' }
+  // savedAt : date de la copie locale affichée faute de réseau, null si le portail a répondu.
+  | { status: 'found'; product: PortalProduct; savedAt: string | null }
+  | { status: 'notFound'; savedAt: string | null }
   | { status: 'error' };
 
 const formatPoints = (value: number) => Math.round(value).toLocaleString('fr-FR');
@@ -31,9 +36,9 @@ export default function ProductScreen() {
   const [state, setState] = useState<State>({ status: 'loading' });
 
   const fetchProduct = useCallback(() => {
-    getProduct(gtin)
-      .then((product) => {
-        setState(product ? { status: 'found', product } : { status: 'notFound' });
+    lookupProduct(gtin)
+      .then(({ product, savedAt }) => {
+        setState(product ? { status: 'found', product, savedAt } : { status: 'notFound', savedAt });
         // Seul un vrai scan entre dans l'historique, pas une ouverture depuis le profil.
         if (scanned === '1') {
           addScan({
@@ -70,7 +75,10 @@ export default function ProductScreen() {
   if (state.status === 'error') {
     return (
       <View style={[styles.container, styles.centered]}>
-        <Text style={styles.message}>Impossible de joindre le portail officiel. Vérifiez votre connexion.</Text>
+        <Text style={styles.message}>
+          Impossible de joindre le portail officiel, et ce vêtement n’a pas encore été consulté sur ce téléphone.
+          Vérifiez votre connexion.
+        </Text>
         <Button label="Réessayer" onPress={retry} />
       </View>
     );
@@ -80,6 +88,7 @@ export default function ProductScreen() {
     return (
       <View style={[styles.container, styles.centered]}>
         <Text style={styles.title}>Produit non déclaré</Text>
+        {state.savedAt && <OfflineNotice savedAt={state.savedAt} />}
         <Tiko
           pose="deDos"
           message="La marque n’a pas déclaré ce vêtement. Montre-moi son étiquette !"
@@ -120,6 +129,7 @@ export default function ProductScreen() {
         />
       </View>
       <Text style={styles.meta}>{product.category}</Text>
+      {state.savedAt && <OfflineNotice savedAt={state.savedAt} />}
 
       {/* Écart d'au moins 16 px : périmètre de protection de l'étiquette (charte graphique). */}
       <View style={styles.costLabel}>
@@ -137,6 +147,22 @@ export default function ProductScreen() {
       {/* Un seul Tiko par écran : ici, celui du haut de la fiche. */}
       <Alternatives alternatives={alternatives} water={product.water} withTiko={!bubble} />
 
+      <WardrobeButton
+        item={{
+          id: product.gtin,
+          title: product.reference,
+          subtitle: product.brand,
+          category: product.category,
+          cost: product.cost,
+          per100g: product.per100g,
+          lessImpactThan: comparison?.lessImpactThan ?? null,
+          estimate: false,
+        }}
+      />
+
+      {/* Le nom déclaré sur le portail est parfois celui de la société : on cherche la marque connue. */}
+      <StoreFinderButton brandName={findBrandByPortalName(product.brand)?.name ?? product.brand} />
+
       <Text style={styles.sectionTitle}>Détail par étape</Text>
       {(Object.keys(STAGES) as Stage[]).map((stage) => (
         <StageRow key={stage} stage={stage} value={product.stages[stage]} total={product.cost} />
@@ -151,6 +177,17 @@ export default function ProductScreen() {
         {new Date(product.declaredAt).toLocaleDateString('fr-FR')}.
       </Text>
     </ScrollView>
+  );
+}
+
+// Fiche affichée depuis la copie locale, faute de réseau.
+function OfflineNotice({ savedAt }: { savedAt: string }) {
+  const date = new Date(savedAt).toLocaleDateString('fr-FR', { day: 'numeric', month: 'long' });
+  return (
+    <View style={styles.offline}>
+      <Ionicons name="cloud-offline-outline" size={18} color={colors.accent} />
+      <Text style={styles.offlineText}>Hors connexion : fiche du portail enregistrée le {date}.</Text>
+    </View>
   );
 }
 
@@ -263,6 +300,19 @@ const styles = StyleSheet.create({
     height: 6,
     borderRadius: 3,
     backgroundColor: colors.secondary,
+  },
+  offline: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+    padding: 12,
+    borderRadius: 12,
+    backgroundColor: colors.surface,
+  },
+  offlineText: {
+    flex: 1,
+    fontSize: 14,
+    color: colors.text,
   },
   source: {
     marginTop: 8,

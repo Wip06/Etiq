@@ -8,8 +8,9 @@ export default function PrivacyScreen() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <Section title="Ce que l’app garde">
-        Votre e-mail, votre prénom, vos objectifs, vos favoris, l’historique de vos scans et vos résultats au quiz. Ces
-        données restent sur votre téléphone : elles ne sont envoyées à aucun serveur d’Etiq.
+        Votre e-mail, votre prénom, vos objectifs, vos favoris, l’historique de vos scans, votre garde-robe (Etiq+) et vos
+        résultats au quiz, ainsi qu’une copie des fiches du portail que vous avez consultées, pour les retrouver sans
+        connexion. Ces données restent sur votre téléphone : elles ne sont envoyées à aucun serveur d’Etiq.
       </Section>
 
       <Section title="Les photos d’étiquettes">
@@ -17,6 +18,11 @@ export default function PrivacyScreen() {
         l’intelligence artificielle de Google. Nous ne conservons pas les photos. En revanche, nous utilisons l’offre
         gratuite de Gemini : Google peut utiliser ces photos pour améliorer ses produits, et des personnes peuvent les
         relire. Photographiez uniquement l’étiquette, sans visage ni information personnelle.
+      </Section>
+
+      <Section title="Les demandes de marque">
+        Demander l’ajout d’une marque ouvre votre messagerie avec un e-mail déjà rédigé pour contact@etiq.com. Il
+        part de votre propre adresse, seulement si vous l’envoyez : nous verrons donc votre adresse e-mail.
       </Section>
 
       <Section title="Les données publiques">

@@ -4,6 +4,7 @@ import { useState, type PropsWithChildren } from 'react';
 import { Alert, Pressable, ScrollView, StyleSheet, Text, TextInput, View } from 'react-native';
 
 import { Button } from '@/components/Button';
+import { EtiqPlusBadge } from '@/components/EtiqPlusBadge';
 import { LoginPrompt } from '@/components/LoginPrompt';
 import { pluralize } from '@/data/equivalents';
 import { BUDGETS, getGoal } from '@/data/goals';
@@ -14,7 +15,7 @@ import { colors } from '@/theme/colors';
 
 export default function ProfileScreen() {
   const { user, signOut, saveFirstName, deleteAccount } = useSession();
-  const { favorites, history } = useLibrary();
+  const { favorites, history, wardrobe } = useLibrary();
   const [firstName, setFirstName] = useState(user?.firstName ?? '');
 
   if (!user) {
@@ -32,7 +33,7 @@ export default function ProfileScreen() {
   const confirmDelete = () =>
     Alert.alert(
       'Supprimer mon compte ?',
-      'Vos objectifs, votre prénom, vos favoris, votre historique et vos résultats au quiz seront effacés de ce téléphone. Cette action est définitive.',
+      'Vos objectifs, votre prénom, vos favoris, votre historique, votre garde-robe, vos résultats au quiz et votre abonnement Etiq+ simulé seront effacés de ce téléphone. Cette action est définitive.',
       [
         { text: 'Annuler', style: 'cancel' },
         { text: 'Supprimer', style: 'destructive', onPress: () => deleteAccount() },
@@ -58,6 +59,21 @@ export default function ProfileScreen() {
 
       <LinkRow label="Historique" detail={String(history.length)} onPress={() => router.push('/history')} />
       <LinkRow label="Favoris" detail={String(favorites.length)} onPress={() => router.push('/favorites')} />
+
+      <Card title="Etiq+">
+        <EtiqPlusBadge />
+        <Text style={styles.text}>
+          {user.premium
+            ? `Vous êtes abonné. Votre garde-robe compte ${wardrobe.length} vêtement${wardrobe.length > 1 ? 's' : ''}.`
+            : 'Suivez l’impact de vos achats avec « Ma garde-robe » et trouvez les magasins des marques près de chez vous.'}
+        </Text>
+        {user.premium && <Button label="Ma garde-robe" onPress={() => router.push('/wardrobe')} />}
+        <Button
+          label={user.premium ? 'Gérer mon abonnement' : 'Découvrir Etiq+'}
+          variant={user.premium ? 'secondary' : 'primary'}
+          onPress={() => router.push('/etiq-plus')}
+        />
+      </Card>
 
       <Card title="Mon compte">
         <Text style={styles.muted}>Prénom</Text>

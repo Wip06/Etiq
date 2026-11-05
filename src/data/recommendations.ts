@@ -36,6 +36,9 @@ export function portalStatsFor(brand: Brand): PortalBrand | null {
   return portalBrands[brand.portalName ?? brand.name] ?? null;
 }
 
+// Date de la copie de la base du portail embarquée dans l'app.
+export const PORTAL_DATA_DATE = stats.generatedAt;
+
 export type CriterionStatus = 'met' | 'partial' | 'unmet' | 'unknown';
 
 export type Criterion = {

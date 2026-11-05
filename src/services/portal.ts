@@ -1,6 +1,8 @@
 // Portail officiel de l'affichage environnemental (données publiques, sans authentification).
 // Doc : https://affichage-environnemental.ecobalyse.beta.gouv.fr/documentation/api
 
+import { fetchWithTimeout, readCache, writeCache } from '@/services/offlineCache';
+
 const BASE_URL = 'https://affichage-environnemental.ecobalyse.beta.gouv.fr/api';
 
 // Étapes du cycle de vie présentes dans le détail public du coût.
@@ -71,9 +73,49 @@ export function scoreLabelImageUrl(cost: number, massKg: number): string {
   return `${BASE_URL}/image?type=score&score=${Math.round(cost)}&masse=${massKg}`;
 }
 
+export type ProductLookup = {
+  // null si le vêtement n'est pas déclaré sur le portail.
+  product: PortalProduct | null;
+  // Date de la copie locale si le portail n'a pas répondu, null si la réponse vient du portail.
+  savedAt: string | null;
+};
+
+// Interroge le portail et garde une copie de la réponse. Sans réseau, renvoie la dernière copie
+// enregistrée ; sans copie, l'erreur remonte.
+export async function lookupProduct(gtin: string): Promise<ProductLookup> {
+  const key = `product.${gtin}`;
+  try {
+    const product = await getProduct(gtin);
+    writeCache(key, product);
+    return { product, savedAt: null };
+  } catch (error) {
+    const cached = await readCache<PortalProduct | null>(key);
+    if (cached) return { product: cached.value, savedAt: cached.savedAt };
+    throw error;
+  }
+}
+
+// Étiquette officielle en data URI, prête pour une balise <img>, avec la même copie locale que les
+// fiches. null si elle n'est ni joignable ni enregistrée.
+export async function loadLabelImage(url: string): Promise<string | null> {
+  const key = `label.${url}`;
+  try {
+    const response = await fetchWithTimeout(url);
+    if (!response.ok) throw new Error(`Étiquette indisponible (${response.status})`);
+    const svg = await response.text();
+    writeCache(key, svg);
+    return toDataUri(svg);
+  } catch {
+    const cached = await readCache<string>(key);
+    return cached ? toDataUri(cached.value) : null;
+  }
+}
+
+const toDataUri = (svg: string) => `data:image/svg+xml;charset=utf-8,${encodeURIComponent(svg)}`;
+
 // Renvoie null si le vêtement n'est pas déclaré sur le portail (404).
 export async function getProduct(gtin: string): Promise<PortalProduct | null> {
-  const response = await fetch(`${BASE_URL}/produits/${encodeURIComponent(gtin)}`);
+  const response = await fetchWithTimeout(`${BASE_URL}/produits/${encodeURIComponent(gtin)}`);
   if (response.status === 404) return null;
   if (!response.ok) throw new Error(`Portail indisponible (${response.status})`);
 

@@ -1,0 +1,223 @@
+RELEVÉ NUDIE JEANS
+
+Date du relevé : 5 novembre 2026
+Relevé automatique (rayon homme) : premiers modèles de chaque catégorie dans le plan du site (en-FR),
+d’après les données structurées des fiches (schema.org), 4 s entre chaque page. Composition traduite de l’anglais.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : oui
+Lien de la page : https://www.nudiejeans.com/en-FR/blog/free-repairs-forever
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : Koffe 8 Ball T-Shirt Antracite
+Lien : https://www.nudiejeans.com/en-FR/product/koffe-8-ball-t-shirt-antracite
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 70 €
+
+Produit 2
+Nom : LS Henley Ecru
+Lien : https://www.nudiejeans.com/en-FR/product/ls-henley-ecru
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 100 €
+
+Produit 3
+Nom : Ricky Bad News T-Shirt Antracite
+Lien : https://www.nudiejeans.com/en-FR/product/ricky-bad-news-t-shirt-antracite
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 70 €
+
+Produit 4
+Nom : Roffe Slub T-Shirt Black
+Lien : https://www.nudiejeans.com/en-FR/product/roffe-slub-t-shirt-black
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 50 €
+
+Produit 5
+Nom : Roy Deadstock T-Shirt Navy
+Lien : https://www.nudiejeans.com/en-FR/product/roy-deadstock-t-shirt-navy
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 60 €
+
+===== PULLS ET MAILLE =====
+
+Produit 1
+Nom : August Rib Cotton Sweater Navy
+Lien : https://www.nudiejeans.com/en-FR/product/august-rib-cotton-sweater-navy
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+
+Produit 2
+Nom : Gunde Hoodie Embo Wave Greymelange
+Lien : https://www.nudiejeans.com/en-FR/product/gunde-hoodie-embo-wave-greymelange
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 180 €
+
+Produit 3
+Nom : Gurra Boucle Sweater Multi
+Lien : https://www.nudiejeans.com/en-FR/product/gurra-boucle-sweater-multi-multi
+Rayon (femme / homme / mixte) : homme
+Composition : 86% Laine, 14% Polyamide
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+
+Produit 4
+Nom : Hasse Crew Neck Sweatshirt Old Yellow
+Lien : https://www.nudiejeans.com/en-FR/product/hasse-crew-neck-sweatshirt-old-yellow
+Rayon (femme / homme / mixte) : homme
+Composition : 81% Coton, 19% Polyester
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 130 €
+
+===== PANTALONS ET JEANS =====
+
+Produit 1
+Nom : Easy Alvin Beige
+Lien : https://www.nudiejeans.com/en-FR/product/easy-alvin-beige
+Rayon (femme / homme / mixte) : homme
+Composition : 97% Coton, 3% Élasthanne
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+
+Produit 2
+Nom : Flare Glenn Black Storm
+Lien : https://www.nudiejeans.com/en-FR/product/flare-glenn-black-storm
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+
+Produit 3
+Nom : Grim Tim Black Mist
+Lien : https://www.nudiejeans.com/en-FR/product/grim-tim-black-mist
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+
+Produit 4
+Nom : Gritty Jackson Black Forest
+Lien : https://www.nudiejeans.com/en-FR/product/gritty-jackson-black-forest
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 1
+Nom : Arvid Hawaii Shirt Deep Sea Multi
+Lien : https://www.nudiejeans.com/en-FR/product/arvid-hawaii-shirt-deep-sea-multi
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 150 €
+
+Produit 2
+Nom : George Ace Selvage Denim Shirt
+Lien : https://www.nudiejeans.com/en-FR/product/george-ace-selvage-denim-shirt
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 400 €
+
+Produit 3
+Nom : Glenn Padded Shirt Check Multi
+Lien : https://www.nudiejeans.com/en-FR/product/glenn-padded-shirt-check-multi
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 220 €
+
+Produit 4
+Nom : Gunnar Denim Shirt Clean Wash
+Lien : https://www.nudiejeans.com/en-FR/product/gunnar-denim-shirt-clean-wash
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Barney Indigo Workwear Jacket Dark Blue
+Lien : https://www.nudiejeans.com/en-FR/product/barney-indigo-workwear-jacket-dark-blue
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 180 €
+
+Produit 2
+Nom : Blake Wool Zip Jacket Blueberry
+Lien : https://www.nudiejeans.com/en-FR/product/blake-wool-zip-jacket-blueberry
+Rayon (femme / homme / mixte) : homme
+Composition : 70% Laine, 15% Polyester, 10% Polyamide, 5% Autres fibres
+Fabriqué en : Lituanie
+Tissé en : 
+Teint en : 
+Prix : 400 €
+
+Produit 3
+Nom : Bror Field Jacket Back Sateen Olive Green
+Lien : https://www.nudiejeans.com/en-FR/product/bror-field-jacket-back-sateen-olive-green
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 250 €

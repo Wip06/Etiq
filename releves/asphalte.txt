@@ -1,12 +1,10 @@
 RELEVÉ ASPHALTE
 
-Date du relevé : 
-Heure de début : 
-Heure de fin : 
-
-Écrivez après chaque « : ». Laissez vide si l'information n'est pas sur la fiche.
-Prenez les premiers produits affichés dans chaque catégorie, sans trier ni choisir.
-Composition : recopiez le tissu principal en entier, toutes les fibres (ex. « 52 % coton, 48 % polyester »).
+Date du relevé : 5 novembre 2026
+Relevé automatique (rayon homme) : premiers modèles de chaque catégorie dans le plan du site, 4 s entre
+chaque page. Pays d’après le bloc « Traçabilité » de chaque fiche (étapes Confection, Tissage ou Tricotage,
+Teinture) ; composition d’après les points clés de la fiche. Pays vides : pas de bloc « Traçabilité » dans
+les données de la fiche (certaines l’affichent par un module externe, non lu ici).
 
 ===== LA MARQUE =====
 
@@ -19,191 +17,199 @@ Lien de la page :
 ===== T-SHIRTS ET TOPS =====
 
 Produit 1
-Nom : 
-Lien : 
-Composition : 
+Nom : Le Polo Éponge
+Lien : https://www.asphalte.com/h/products/le-polo-eponge
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
 Fabriqué en : 
 Tissé en : 
 Teint en : 
-Prix : 
+Prix : 79 €
 
 Produit 2
-Nom : 
-Lien : 
-Composition : 
+Nom : Le Polo Jersey
+Lien : https://www.asphalte.com/h/products/le-polo-jersey
+Rayon (femme / homme / mixte) : homme
+Composition : 100% jersey de coton biologique
 Fabriqué en : 
 Tissé en : 
 Teint en : 
-Prix : 
+Prix : 79 €
 
 Produit 3
-Nom : 
-Lien : 
-Composition : 
+Nom : Le Polo
+Lien : https://www.asphalte.com/h/products/le-polo-stock
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton bio
 Fabriqué en : 
 Tissé en : 
 Teint en : 
-Prix : 
+Prix : 79 €
 
 Produit 4
-Nom : 
-Lien : 
-Composition : 
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 
+Nom : Le T-Shirt Baseball
+Lien : https://www.asphalte.com/h/products/le-t-shirt-baseball
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton bio
+Fabriqué en : Portugal
+Tissé en : Portugal
+Teint en : Portugal
+Prix : 29 €
 
 Produit 5
-Nom : 
-Lien : 
-Composition : 
+Nom : Le T-Shirt de Sport Manches Longues
+Lien : https://www.asphalte.com/h/products/le-t-shirt-de-sport-manches-longues
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine mérinos
 Fabriqué en : 
 Tissé en : 
 Teint en : 
-Prix : 
+Prix : 99 €
 
 ===== PULLS ET MAILLE =====
 
-Produit 6
-Nom : 
-Lien : 
-Composition : 
+Produit 1
+Nom : Le Col Roulé
+Lien : https://www.asphalte.com/h/products/col-roule-archive-stock
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine mérinos
+Fabriqué en : Portugal
+Tissé en : Portugal
+Teint en : Italie
+Prix : 79 €
+
+Produit 2
+Nom : Le Henley
+Lien : https://www.asphalte.com/h/products/henley-archive-stock
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton bio
+Fabriqué en : Portugal
+Tissé en : Portugal
+Teint en : Portugal
+Prix : 49 €
+
+Produit 3
+Nom : La Grosse Maille
+Lien : https://www.asphalte.com/h/products/la-grosse-maille
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine vierge cardée
 Fabriqué en : 
 Tissé en : 
 Teint en : 
-Prix : 
+Prix : 149 €
 
-Produit 7
-Nom : 
-Lien : 
-Composition : 
+Produit 4
+Nom : La Maille Extrafine
+Lien : https://www.asphalte.com/h/products/la-maille-extra-fine
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine mérinos
 Fabriqué en : 
 Tissé en : 
 Teint en : 
-Prix : 
-
-Produit 8
-Nom : 
-Lien : 
-Composition : 
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 
-
-Produit 9
-Nom : 
-Lien : 
-Composition : 
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 
-
-===== ROBES ET JUPES =====
-
-Produit 10
-Nom : 
-Lien : 
-Composition : 
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 
-
-Produit 11
-Nom : 
-Lien : 
-Composition : 
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 
-
-Produit 12
-Nom : 
-Lien : 
-Composition : 
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 
+Prix : 119 €
 
 ===== PANTALONS ET JEANS =====
 
-Produit 13
-Nom : 
-Lien : 
-Composition : 
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 
+Produit 1
+Nom : Le Jean Ultime Coupe Droite
+Lien : https://www.asphalte.com/h/products/jean-coupe-droite-archive-stock
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton bio
+Fabriqué en : Portugal
+Tissé en : Italie
+Teint en : Italie
+Prix : 79 €
 
-Produit 14
-Nom : 
-Lien : 
-Composition : 
+Produit 2
+Nom : Le Bon Pantalon
+Lien : https://www.asphalte.com/h/products/le-bon-pantalon
+Rayon (femme / homme / mixte) : homme
+Composition : 100% twill de coton biologique
 Fabriqué en : 
 Tissé en : 
 Teint en : 
-Prix : 
+Prix : 139 €
 
-Produit 15
-Nom : 
-Lien : 
-Composition : 
+Produit 3
+Nom : Le Chino en Velours
+Lien : https://www.asphalte.com/h/products/le-chino-en-velours
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton bio
 Fabriqué en : 
 Tissé en : 
 Teint en : 
-Prix : 
+Prix : 149 €
 
 ===== CHEMISES ET BLOUSES =====
 
-Produit 16
-Nom : 
-Lien : 
-Composition : 
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 
+Produit 1
+Nom : La Chemise Army
+Lien : https://www.asphalte.com/h/products/la-chemise-army
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton
+Fabriqué en : Portugal
+Tissé en : Italie
+Teint en : Italie
+Prix : 69 €
 
-Produit 17
-Nom : 
-Lien : 
-Composition : 
+Produit 2
+Nom : La Chemise en Chambray
+Lien : https://www.asphalte.com/h/products/la-chemise-chambray
+Rayon (femme / homme / mixte) : homme
+Composition : 100% chambray de coton biologique
 Fabriqué en : 
 Tissé en : 
 Teint en : 
-Prix : 
+Prix : 119 €
 
-Produit 18
-Nom : 
-Lien : 
-Composition : 
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 
+Produit 3
+Nom : La Chemise Chambray
+Lien : https://www.asphalte.com/h/products/la-chemise-chambray-v2-b
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton bio
+Fabriqué en : Portugal
+Tissé en : France
+Teint en : France
+Prix : 69 €
+
+Produit 4
+Nom : La Chemise Col Mao
+Lien : https://www.asphalte.com/h/products/la-chemise-col-mao
+Rayon (femme / homme / mixte) : homme
+Composition : 100% lin
+Fabriqué en : Portugal
+Tissé en : Portugal
+Teint en : Portugal
+Prix : 69 €
 
 ===== MANTEAUX ET VESTES =====
 
-Produit 19
-Nom : 
-Lien : 
-Composition : 
+Produit 1
+Nom : La Parka d'Hiver
+Lien : https://www.asphalte.com/h/products/la-parka-dhiver
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton bio
 Fabriqué en : 
 Tissé en : 
 Teint en : 
-Prix : 
+Prix : 389 €
 
-Produit 20
-Nom : 
-Lien : 
-Composition : 
+Produit 2
+Nom : La Parka Légère
+Lien : https://www.asphalte.com/h/products/la-parka-legere
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton
+Fabriqué en : Portugal
+Tissé en : Égypte
+Teint en : Suisse
+Prix : 159 €
+
+Produit 3
+Nom : La Parka
+Lien : https://www.asphalte.com/h/products/la-parka-v1
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton
 Fabriqué en : 
 Tissé en : 
 Teint en : 
-Prix : 
+Prix : 195 €
