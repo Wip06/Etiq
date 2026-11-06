@@ -93,7 +93,7 @@ Vérifié le 7 oct. 2026 :
 ## Modèle économique
 
 - **Garder la neutralité du classement** (force de Yuka) : aucune marque ne paie pour être mieux notée ou recommandée. L'idée initiale "les entreprises paient pour être recommandées" est abandonnée car elle détruit la confiance.
-- **B2C freemium** : scan gratuit ; premium en **abonnement annuel à petit prix** (référence : Yuka, prix libre de 10, 15, 20 ou 50 €/an) plutôt que mensuel, car on achète des vêtements bien moins souvent que de la nourriture. Fonctions premium utiles entre deux achats : suivi de l'impact de sa garde-robe, alertes sur ses marques favorites, alternatives en seconde main.
+- **B2C freemium** : scan gratuit ; premium **Etiq+ en abonnement annuel, 15 € par an** (fixé le 6 nov. 2026 ; référence : Yuka, prix libre de 10, 15, 20 ou 50 €/an) plutôt que mensuel, car on achète des vêtements bien moins souvent que de la nourriture. Fonctions premium utiles entre deux achats : suivi de l'impact de sa garde-robe, alertes sur ses marques favorites, alternatives en seconde main.
 - **B2B neutre** en complément : données agrégées anonymisées, outil d'audit / d'amélioration pour les marques. Le premium seul ne suffira probablement pas, à assumer devant le jury.
 
 ## Choix techniques

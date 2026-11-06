@@ -6,7 +6,8 @@
 - Valider en équipe les seuils des objectifs (`CRITERIA` dans `src/data/recommendations.ts`) : 25 % de synthétique au plus (en partie jusqu'à 50 %), 50 % de confection en Europe au moins (en partie dès 25 %), 60 % des produits déclarés sous la médiane (en partie dès 40 %)
 
 ## Marques : relevés des fiches produits
-Protocole dans `releves/` (20 produits par marque). Faits : Sézane, Uniqlo (à la main, 26 oct.), Sessùn, Ba&sh, Maje, Promod, Sandro, Claudie Pierlot (automatique, 2 nov.) ; Nudie Jeans et Asphalte, rayon homme (automatique, 5 nov., en cours).
+Protocole dans `releves/` (20 produits par marque). Faits : Sézane, Uniqlo (à la main, 26 oct.), Sessùn, Ba&sh, Maje, Promod, Sandro, Claudie Pierlot (automatique, 2 nov.) ; Nudie Jeans et Asphalte, rayon homme (automatique, 5 nov.) ; 13 marques sur WeDressFair (automatique, 5 nov.).
+- Élargir avec WeDressFair (revendeur multimarque éco-responsable, qui accepte la lecture automatique, y compris par les IA) : il reste des marques avec moins de 25 produits (Mud Jeans, Caval, Bask in the Sun…) ; Rifò (9 vêtements) et Bonjour Demain (11, pays non indiqué) écartés le 5 nov.
 - Pas de relevé à la main prévu (décidé le 5 nov.) : seulement des relevés automatiques, sur les sites qui l'acceptent. Bloquent la lecture automatique ou les robots de Claude : H&M, Zara, Octobre Éditions, Jules, Celio, Kiabi, Faguo, Le Slip Français, Armedangels, Loom, 1083, Atelier Tuffery, Hopaal, Bonne Gueule, Ecoalf, Saint James, Armor Lux, Patagonia, American Vintage. Ces marques s'appuient sur leurs chiffres du portail officiel, quand elles en ont (les fiches vierges de `releves/` restent disponibles si quelqu'un veut les remplir)
 - Vérifier sur les sites les services relevés dans la presse : réparation et seconde main de Maje, seconde main de Ba&sh, de Sandro et de Claudie Pierlot ; seconde main de Promod ; réparation et seconde main de Sessùn (non vérifiés)
 - Réessayer plus tard en automatique (trop de requêtes le 2 nov.) : Mango, Pimkie, Cyrillus, Des Petits Hauts, Rouje
@@ -38,6 +39,10 @@ Protocole dans `releves/` (20 produits par marque). Faits : Sézane, Uniqlo (à 
 - Logo de l'app (pistes dans le canevas : étiquette cousue, « e » sur étiquette volante, scan de l'étiquette)
 
 ## Fait
+- Offre Etiq+ mise en avant pour les comptes standard : carte d'offre en haut de la page Etiq+ (15 € par an, soit 1,25 € par mois, les trois fonctions incluses, bouton « Passer à Etiq+ ») et carte « Passez à Etiq+ » sur l'accueil (masquée pour les abonnés et les invités)
+- Page Etiq+ en comparatif « Standard ou Etiq+ ? » : tableau fonction par fonction (Standard gratuit, Etiq+ 15 € par an, « Bientôt » pour les alertes et la seconde main), liste dans `PLAN_FEATURES` (`src/data/etiqPlus.ts`)
+- Relevés automatiques du 5 nov. : Nudie Jeans et Asphalte (rayon homme, sur leurs sites) et 13 marques éco-responsables sur WeDressFair (Armedangels, Thinking Mu, Colorful Standard, Knowledge Cotton Apparel, Jan ’n June, Patagonia, Rotholz, Dedicated, Brava Fabrics, Olow, SKFK, Kings of Indigo, About Companions), ajoutées au catalogue avec leur carte « Notre relevé ». Recherche avec filtres : 434 vêtements de 23 marques, dont 152 homme. Les codes-barres relevés sont rapprochés de la copie du portail : 26 vêtements (Armedangels, SKFK) renvoient vers leur coût officiel
+- Prix d'Etiq+ fixé à 15 € par an (6 nov.), affiché sur la page Etiq+ (`ETIQ_PLUS_PRICE` dans `src/data/etiqPlus.ts`)
 - 13 marques ajoutées au catalogue (5 nov.) : Octobre Éditions, Jules, Celio, Kiabi, Faguo, Le Slip Français, Armedangels, Picture Organic Clothing, Loom, 1083, Atelier Tuffery, Asphalte, Nudie Jeans. Carte « Sur le portail officiel » (produits déclarés, part sous la médiane, durabilité médiane) sur la fiche des marques sans relevé. Rayons (Homme, Femme) dans les étiquettes de toutes les marques, pour la recherche
 - Lien « Comment nous choisissons les marques » en bas de toutes les fiches marques, relevées ou non
 - Bouton « Demander l'ajout d'une marque » dans l'onglet Marques (bas de liste, et quand la recherche ne trouve rien) : ouvre un e-mail déjà rédigé pour contact@etiq.com (`CONTACT_EMAIL` dans `src/utils/links.ts`). Vérifier que l'équipe reçoit bien les e-mails de cette adresse
@@ -79,9 +84,7 @@ Protocole dans `releves/` (20 produits par marque). Faits : Sézane, Uniqlo (à 
 
 
 ## Etiq+ 
-- Fixer le prix de l'abonnement (`ETIQ_PLUS_PRICE` dans `src/data/etiqPlus.ts`, aujourd'hui « prix à définir ») : abonnement annuel prévu au modèle économique, référence Yuka (prix libre de 10 à 50 € par an)
 - Décider si le mode hors ligne devient une fonction Etiq+ : aujourd'hui il marche pour tous, ce qui protège la démo quel que soit le compte utilisé
-- Pour la démo : créer deux comptes, l'un passé en Etiq+ depuis la page Etiq+ (« S'abonner (simulation) »), l'autre standard
-- Recherche avec filtres : elle ne porte que sur les 8 marques relevées (152 vêtements, dont presque tous ceux confectionnés en Europe sont de Sézane). Chaque nouveau relevé l'élargit : après avoir rempli un fichier de `releves/`, lancer `npm run data:releves`
-- Rayon homme : les 152 vêtements relevés jusqu'au 2 nov. sont tous des vêtements femme. Les relevés automatiques Nudie Jeans et Asphalte (5 nov., en cours) ajoutent des vêtements homme au filtre « Homme »
+- Pour la démo : créer deux comptes, l'un passé en Etiq+ depuis la page Etiq+ (« Passer à Etiq+, 15 € par an (simulation) »), l'autre standard
+- Recherche avec filtres : 434 vêtements de 23 marques. Chaque nouveau relevé l'élargit : après avoir ajouté un fichier dans `releves/`, lancer `npm run data:releves` (avec la copie du portail, `npm run data:download`, pour rapprocher les codes-barres ; sans elle, les liens vers le coût officiel disparaissent)
 - Uniqlo : confirmer que le relevé du 26 oct. a été fait dans le rayon femme (supposé d'après les produits : robes, blouses, top à brassière intégrée)

@@ -3,8 +3,10 @@ import { router } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { BrandMatchCard } from '@/components/BrandMatchCard';
+import { EtiqPlusBadge } from '@/components/EtiqPlusBadge';
 import { LoginPrompt } from '@/components/LoginPrompt';
 import { Tiko } from '@/components/Tiko';
+import { ETIQ_PLUS_HIGHLIGHTS, ETIQ_PLUS_PRICE } from '@/data/etiqPlus';
 import { getGoal } from '@/data/goals';
 import { QUESTIONS } from '@/data/quiz';
 import { recommendBrands } from '@/data/recommendations';
@@ -33,6 +35,7 @@ export default function HomeScreen() {
       </Pressable>
 
       <QuizInvite />
+      <EtiqPlusInvite />
 
       {user?.preferences ? (
         <ForYou preferences={user.preferences} />
@@ -65,6 +68,30 @@ function QuizInvite() {
         <Text style={styles.quizSubtitle}>Quiz · {QUESTIONS.length} questions, 2 minutes</Text>
       </View>
       <Ionicons name="chevron-forward" size={18} color={colors.secondary} />
+    </Pressable>
+  );
+}
+
+// Offre Etiq+ pour un compte standard (un invité n'a pas de compte à abonner) : ce qu'elle ajoute et
+// son prix, vers le comparatif.
+function EtiqPlusInvite() {
+  const { user } = useSession();
+  if (!user || user.premium) return null;
+
+  return (
+    <Pressable
+      accessibilityRole="button"
+      onPress={() => router.push('/etiq-plus')}
+      style={({ pressed }) => [styles.plusCard, pressed && styles.pressed]}
+    >
+      <View style={styles.quizText}>
+        <EtiqPlusBadge />
+        <Text style={styles.quizTitle}>Passez à Etiq+</Text>
+        <Text style={styles.quizSubtitle}>
+          {ETIQ_PLUS_HIGHLIGHTS.map((feature) => feature.title).join(', ')} · {ETIQ_PLUS_PRICE}
+        </Text>
+      </View>
+      <Ionicons name="chevron-forward" size={18} color={colors.accent} />
     </Pressable>
   );
 }
@@ -166,6 +193,16 @@ const styles = StyleSheet.create({
   quizText: {
     flex: 1,
     gap: 2,
+  },
+  plusCard: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 16,
+    padding: 20,
+    borderRadius: 16,
+    borderWidth: 1.5,
+    borderColor: colors.accent,
+    backgroundColor: 'rgba(217, 192, 138, 0.12)',
   },
   quizTitle: {
     fontSize: 17,

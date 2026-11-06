@@ -84,7 +84,12 @@ function family(material) {
 // (« *dont 20% de Polyamide recyclé ») sont ignorées.
 function parseComposition(text) {
   const parts = [];
-  for (const chunk of text.split(',')) {
+  // Tissu principal seulement : « Extérieur : 100% coton biologique ; Doublure : 100% polyester » → la
+  // partie avant le premier « ; » ou la doublure, sans son intitulé.
+  const main = text
+    .split(/;|\b(?:doublure|rembourrage|garnissage|intérieur|poches?|bord-côtes|empiècements?)\s*:/i)[0]
+    .replace(/^\s*(?:extérieur|tissu principal|corps|dessus)\s*:\s*/i, '');
+  for (const chunk of main.split(',')) {
     const match = chunk.trim().match(/^(\d+(?:[.,]\d+)?)\s*%\s*(.+)$/);
     if (!match) continue;
     const name = match[2].replace(/\*/g, '').trim();

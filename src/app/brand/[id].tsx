@@ -31,7 +31,7 @@ export default function BrandScreen() {
         <Text style={styles.name}>{brand.name}</Text>
         <FavoriteButton favorite={{ kind: 'brand', id: brand.id, title: brand.name, subtitle: brand.country }} />
       </View>
-      <Text style={styles.country}>{brand.country}</Text>
+      {brand.country !== '' && <Text style={styles.country}>{brand.country}</Text>}
       <View style={styles.tags}>
         {brand.tags.map((tag) => (
           <Text key={tag} style={styles.tag}>

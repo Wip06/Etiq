@@ -4,11 +4,22 @@ import { Alert, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { Button } from '@/components/Button';
 import { EtiqPlusBadge } from '@/components/EtiqPlusBadge';
-import { ETIQ_PLUS_BENEFITS, ETIQ_PLUS_PRICE } from '@/data/etiqPlus';
+import {
+  ETIQ_PLUS_EUROS_PER_YEAR,
+  ETIQ_PLUS_HIGHLIGHTS,
+  ETIQ_PLUS_MONTHLY,
+  ETIQ_PLUS_PRICE,
+  PLAN_FEATURES,
+  STANDARD_PRICE,
+  type Availability,
+  type PlanFeature,
+} from '@/data/etiqPlus';
 import { useSession } from '@/session/SessionProvider';
 import { colors } from '@/theme/colors';
 
-// Présentation d'Etiq+ et abonnement simulé : dans le prototype, aucun paiement n'est demandé.
+const AVAILABILITY_LABELS: Record<Availability, string> = { yes: 'inclus', no: 'non inclus', soon: 'bientôt' };
+
+// Comparatif Standard / Etiq+ et abonnement simulé : dans le prototype, aucun paiement n'est demandé.
 export default function EtiqPlusScreen() {
   const { user, setPremium } = useSession();
   const premium = user?.premium === true;
@@ -22,49 +33,104 @@ export default function EtiqPlusScreen() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <EtiqPlusBadge />
-      <Text style={styles.title}>Allez plus loin avec Etiq+</Text>
-      <Text style={styles.price}>{ETIQ_PLUS_PRICE}</Text>
+      <Text style={styles.title}>Standard ou Etiq+ ?</Text>
+      <Text style={styles.text}>
+        Le scan et tous les résultats restent gratuits. Etiq+ ajoute des fonctionnalités premium pour suivre et choisir vos vêtements.
+      </Text>
 
-      <View style={styles.card}>
-        {ETIQ_PLUS_BENEFITS.map((benefit) => (
-          <View key={benefit.title} style={styles.benefit}>
-            <Ionicons name={benefit.icon} size={24} color={colors.accent} />
-            <View style={styles.benefitTexts}>
-              <View style={styles.benefitHeader}>
-                <Text style={styles.benefitTitle}>{benefit.title}</Text>
-                {!benefit.available && <Text style={styles.soon}>Bientôt</Text>}
-              </View>
-              <Text style={styles.text}>{benefit.description}</Text>
-            </View>
+      {!premium && <OfferCard onSubscribe={() => setPremium(true)} />}
+
+      <Text style={styles.sectionTitle}>Comparer les offres</Text>
+      <View style={styles.table}>
+        <View style={styles.headerRow}>
+          <View style={styles.featureCell} />
+          <View style={styles.planCell}>
+            <Text style={styles.planName}>Standard</Text>
+            <Text style={styles.planPrice}>{STANDARD_PRICE}</Text>
           </View>
+          <View style={[styles.planCell, styles.plusCell]}>
+            <Text style={[styles.planName, styles.plusName]}>Etiq+</Text>
+            <Text style={styles.planPrice}>{ETIQ_PLUS_PRICE}</Text>
+          </View>
+        </View>
+        {PLAN_FEATURES.map((feature, index) => (
+          <FeatureRow key={feature.title} feature={feature} last={index === PLAN_FEATURES.length - 1} />
         ))}
       </View>
-
-      <Text style={styles.note}>
-        Etiq+ ne change aucun résultat : le coût environnemental, les comparaisons et les alternatives sont les mêmes
-        pour tous, et aucune marque ne paie pour être mise en avant.
-      </Text>
 
       {premium ? (
         <>
           <View style={styles.status}>
             <Ionicons name="checkmark-circle" size={22} color={colors.accent} />
-            <Text style={styles.statusText}>Vous êtes abonné à Etiq+.</Text>
+            <Text style={styles.statusText}>Vous êtes abonné à Etiq+</Text>
           </View>
           <Button label="Voir ma garde-robe" onPress={() => router.push('/wardrobe')} />
-          <Button label="Résilier (simulation)" variant="secondary" onPress={confirmCancel} />
+          <Button label="Résilier" variant="secondary" onPress={confirmCancel} />
         </>
       ) : (
-        <Button label="S’abonner (simulation)" onPress={() => setPremium(true)} />
+        <Button label={`Passer à Etiq+ pour ${ETIQ_PLUS_PRICE}`} onPress={() => setPremium(true)} />
       )}
-
-      <Text style={styles.note}>
-        Prototype : aucun paiement n’est demandé. Dans l’app publiée, l’abonnement passera par l’App Store et Google
-        Play.
-      </Text>
     </ScrollView>
   );
 }
+
+// Offre mise en avant pour un compte standard, avant le comparatif : le prix, ce qu'Etiq+ ajoute dès
+// aujourd'hui, et le bouton, sans avoir à descendre sous le tableau.
+function OfferCard({ onSubscribe }: { onSubscribe: () => void }) {
+  return (
+    <View style={styles.offer}>
+      <View style={styles.offerPriceRow}>
+        <Text style={styles.offerPrice}>{ETIQ_PLUS_EUROS_PER_YEAR} €</Text>
+        <Text style={styles.offerPeriod}>par an</Text>
+      </View>
+      <Text style={styles.offerMonthly}>{ETIQ_PLUS_MONTHLY}</Text>
+      <View style={styles.offerList}>
+        {ETIQ_PLUS_HIGHLIGHTS.map((feature) => (
+          <View key={feature.title} style={styles.offerItem}>
+            <Ionicons name={feature.icon} size={22} color={colors.accent} />
+            <View style={styles.offerItemTexts}>
+              <Text style={styles.offerItemTitle}>{feature.title}</Text>
+              <Text style={styles.featureDescription}>{feature.description}</Text>
+            </View>
+          </View>
+        ))}
+      </View>
+      <Button label="Passer à Etiq+" onPress={onSubscribe} />
+    </View>
+  );
+}
+
+function FeatureRow({ feature, last }: { feature: PlanFeature; last: boolean }) {
+  return (
+    <View
+      style={[styles.row, last && styles.lastRow]}
+      accessible
+      accessibilityLabel={`${feature.title} : Standard ${AVAILABILITY_LABELS[feature.standard]}, Etiq+ ${AVAILABILITY_LABELS[feature.plus]}`}
+    >
+      <View style={styles.featureCell}>
+        <View style={styles.featureTitleRow}>
+          <Ionicons name={feature.icon} size={18} color={colors.accent} />
+          <Text style={styles.featureTitle}>{feature.title}</Text>
+        </View>
+        <Text style={styles.featureDescription}>{feature.description}</Text>
+      </View>
+      <View style={styles.planCell}>
+        <Mark availability={feature.standard} />
+      </View>
+      <View style={[styles.planCell, styles.plusCell, last && styles.plusCellLast]}>
+        <Mark availability={feature.plus} highlighted />
+      </View>
+    </View>
+  );
+}
+
+function Mark({ availability, highlighted = false }: { availability: Availability; highlighted?: boolean }) {
+  if (availability === 'soon') return <Text style={styles.soon}>Bientôt</Text>;
+  if (availability === 'no') return <Ionicons name="remove" size={22} color={colors.secondary} />;
+  return <Ionicons name="checkmark-circle" size={24} color={highlighted ? colors.accent : colors.text} />;
+}
+
+const PLAN_WIDTH = 78;
 
 const styles = StyleSheet.create({
   container: {
@@ -73,53 +139,146 @@ const styles = StyleSheet.create({
   },
   content: {
     gap: 14,
-    padding: 24,
+    padding: 16,
+    paddingBottom: 32,
   },
   title: {
     fontSize: 26,
     fontWeight: '700',
     color: colors.text,
   },
-  price: {
+  text: {
     fontSize: 15,
-    color: colors.secondary,
+    lineHeight: 22,
+    color: colors.text,
   },
-  card: {
-    gap: 18,
-    padding: 16,
-    borderRadius: 16,
+  offer: {
+    gap: 14,
+    padding: 20,
+    borderRadius: 20,
+    borderWidth: 1.5,
+    borderColor: colors.accent,
     backgroundColor: colors.surface,
   },
-  benefit: {
+  offerPriceRow: {
     flexDirection: 'row',
-    gap: 14,
+    alignItems: 'baseline',
+    gap: 6,
   },
-  benefitTexts: {
+  offerPrice: {
+    fontSize: 40,
+    fontWeight: '800',
+    color: colors.accent,
+  },
+  offerPeriod: {
+    fontSize: 17,
+    fontWeight: '600',
+    color: colors.text,
+  },
+  offerMonthly: {
+    marginTop: -10,
+    fontSize: 14,
+    color: colors.secondary,
+  },
+  offerList: {
+    gap: 12,
+  },
+  offerItem: {
+    flexDirection: 'row',
+    gap: 12,
+  },
+  offerItemTexts: {
     flex: 1,
     gap: 2,
   },
-  benefitHeader: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    gap: 8,
-  },
-  benefitTitle: {
+  offerItemTitle: {
     fontSize: 16,
     fontWeight: '700',
     color: colors.text,
   },
+  sectionTitle: {
+    marginTop: 8,
+    fontSize: 18,
+    fontWeight: '600',
+    color: colors.text,
+  },
+  table: {
+    borderRadius: 16,
+    overflow: 'hidden',
+    backgroundColor: colors.surface,
+  },
+  headerRow: {
+    flexDirection: 'row',
+    alignItems: 'stretch',
+  },
+  row: {
+    flexDirection: 'row',
+    alignItems: 'stretch',
+    borderTopWidth: StyleSheet.hairlineWidth,
+    borderTopColor: colors.secondary,
+  },
+  lastRow: {
+    paddingBottom: 0,
+  },
+  featureCell: {
+    flex: 1,
+    gap: 2,
+    paddingVertical: 12,
+    paddingLeft: 12,
+    paddingRight: 8,
+  },
+  featureTitleRow: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 6,
+  },
+  featureTitle: {
+    flexShrink: 1,
+    fontSize: 15,
+    fontWeight: '600',
+    color: colors.text,
+  },
+  featureDescription: {
+    fontSize: 13,
+    lineHeight: 18,
+    color: colors.secondary,
+  },
+  planCell: {
+    width: PLAN_WIDTH,
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingVertical: 12,
+    paddingHorizontal: 4,
+  },
+  // Colonne Etiq+ mise en avant : bande champagne discrète du haut en bas du tableau.
+  plusCell: {
+    backgroundColor: 'rgba(217, 192, 138, 0.12)',
+  },
+  plusCellLast: {
+    paddingBottom: 14,
+  },
+  planName: {
+    fontSize: 15,
+    fontWeight: '700',
+    color: colors.text,
+  },
+  plusName: {
+    color: colors.accent,
+  },
+  planPrice: {
+    marginTop: 2,
+    fontSize: 12,
+    textAlign: 'center',
+    color: colors.secondary,
+  },
   soon: {
-    paddingVertical: 1,
-    paddingHorizontal: 8,
+    paddingVertical: 2,
+    paddingHorizontal: 6,
     borderRadius: 999,
     borderWidth: 1,
     borderColor: colors.secondary,
-    fontSize: 12,
-    color: colors.secondary,
-  },
-  text: {
-    fontSize: 14,
-    lineHeight: 20,
+    overflow: 'hidden',
+    fontSize: 11,
     color: colors.secondary,
   },
   note: {

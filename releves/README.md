@@ -17,7 +17,13 @@ Ils alimentent les critères des fiches marques (`src/data/brands.ts`) et la pag
   « Rayon ». Pour les marques d'un seul rayon, il est connu d'avance (`scripts/releves/build-products.mjs`).
   Tous les relevés faits jusqu'ici sont des rayons femme : relever aussi le rayon homme des marques mixtes.
 
-Après chaque relevé : `npm run data:releves` met à jour la recherche avec filtres de l'app (Etiq+).
+Après chaque relevé : `npm run data:releves` met à jour la recherche avec filtres de l'app (Etiq+). La ligne
+facultative « Code-barres : » (GTIN, séparés par des virgules) est rapprochée de la copie locale du portail
+(`npm run data:download`) : un vêtement déclaré renvoie alors vers son coût officiel.
+
+Relevés automatiques du 5 nov. 2026 : Nudie Jeans et Asphalte sur leurs sites (rayon homme), et 13 marques sur
+WeDressFair, revendeur multimarque qui accepte la lecture automatique. Pour une marque mixte, les 20 produits
+mélangent femme et homme ; sans robes ni jupes, leurs places vont aux autres catégories.
 - **Pour la marque** (en bas du fichier ou dans le message) : service de réparation ? de revente ou de
   seconde main ? avec l'URL de la page qui le dit.
 - **Date du relevé** : dans le nom du commit ou en première ligne du message.

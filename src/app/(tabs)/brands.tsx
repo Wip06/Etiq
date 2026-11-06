@@ -95,7 +95,7 @@ function BrandCard({ brand }: { brand: Brand }) {
       style={({ pressed }) => [styles.card, pressed && styles.pressed]}
     >
       <Text style={styles.name}>{brand.name}</Text>
-      <Text style={styles.country}>{brand.country}</Text>
+      {brand.country !== '' && <Text style={styles.country}>{brand.country}</Text>}
       <View style={styles.tags}>
         {brand.tags.map((tag) => (
           <Text key={tag} style={styles.tag}>

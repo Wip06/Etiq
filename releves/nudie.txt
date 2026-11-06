@@ -1,8 +1,8 @@
 RELEVÉ NUDIE JEANS
 
-Date du relevé : 5 novembre 2026
-Relevé automatique (rayon homme) : premiers modèles de chaque catégorie dans le plan du site (en-FR),
-d’après les données structurées des fiches (schema.org), 4 s entre chaque page. Composition traduite de l’anglais.
+Date du relevé : 6 novembre 2026
+Relevé automatique complet : tous les vêtements du plan du site (en-FR), femme et homme, un exemplaire par
+modèle, d’après les données structurées des fiches (schema.org), 4 s entre chaque page. Composition traduite de l’anglais.
 
 ===== LA MARQUE =====
 
@@ -15,6 +15,105 @@ Lien de la page :
 ===== T-SHIRTS ET TOPS =====
 
 Produit 1
+Nom : Elsie Rib Tank Top Egg White
+Lien : https://www.nudiejeans.com/en-FR/product/elsie-rib-tank-top-egg-white
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 70 €
+Code-barres : 7311132758039, 7311132758046, 7311132758053
+
+Produit 2
+Nom : Eve Scratchy Dog T-Shirt Beigemelange
+Lien : https://www.nudiejeans.com/en-FR/product/eve-scratchy-dog-t-shirt-beigemelange
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 70 €
+Code-barres : 7311133084397, 7311133084403, 7311133084410
+
+Produit 3
+Nom : Eve T-Shirt Eyeballs Offwhite
+Lien : https://www.nudiejeans.com/en-FR/product/eve-t-shirt-eyeballs-offwhite
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 7311133187739, 7311133187746, 7311133187753
+
+Produit 4
+Nom : Frankie T-Shirt Life Tracks II Antracite
+Lien : https://www.nudiejeans.com/en-FR/product/frankie-t-shirt-life-tracks-ii-antracite
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 70 €
+Code-barres : 7311133187685, 7311133187692, 7311133187708
+
+Produit 5
+Nom : Jessy Long Sleeve T-Shirt Striped Rib Multi
+Lien : https://www.nudiejeans.com/en-FR/product/jessy-long-sleeve-t-shirt-striped-rib-multi
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 80 €
+Code-barres : 7311133187883, 7311133187890, 7311133187906
+
+Produit 6
+Nom : Jessy Rib LS T-Shirt Egg White
+Lien : https://www.nudiejeans.com/en-FR/product/jessy-rib-ls-t-shirt-egg-white
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 100 €
+Code-barres : 7311132718415, 7311132718422, 7311132718439
+
+Produit 7
+Nom : Joni Bad News T-Shirt Antracite
+Lien : https://www.nudiejeans.com/en-FR/product/joni-bad-news-t-shirt-antracite
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 70 €
+Code-barres : 7311133013069, 7311133013076, 7311133013083
+
+Produit 8
+Nom : Jossan Rib T-Shirt Egg White
+Lien : https://www.nudiejeans.com/en-FR/product/jossan-rib-t-shirt-egg-white
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 80 €
+Code-barres : 7311132718460, 7311132718477, 7311132718484
+
+Produit 9
+Nom : Karita Icy Long Sleeve T-Shirt Antracite
+Lien : https://www.nudiejeans.com/en-FR/product/karita-icy-long-sleeve-t-shirt-antracite
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 90 €
+Code-barres : 7311133105733, 7311133105757, 7311133105771
+
+Produit 10
 Nom : Koffe 8 Ball T-Shirt Antracite
 Lien : https://www.nudiejeans.com/en-FR/product/koffe-8-ball-t-shirt-antracite
 Rayon (femme / homme / mixte) : homme
@@ -23,8 +122,31 @@ Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 70 €
+Code-barres : 7311133014240, 7311133014257, 7311133014264
 
-Produit 2
+Produit 11
+Nom : Koffe Fails T-Shirt Ecru
+Lien : https://www.nudiejeans.com/en-FR/product/koffe-fails-t-shirt-ecru
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 7311133064924, 7311133064931, 7311133064948
+
+Produit 12
+Nom : Koffe T-Shirt Chameleon Turquoise
+Lien : https://www.nudiejeans.com/en-FR/product/koffe-t-shirt-chameleon-turquoise
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 80 €
+Code-barres : 7311133162811, 7311133162828, 7311133162835
+
+Produit 13
 Nom : LS Henley Ecru
 Lien : https://www.nudiejeans.com/en-FR/product/ls-henley-ecru
 Rayon (femme / homme / mixte) : homme
@@ -33,8 +155,31 @@ Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 100 €
+Code-barres : 7311132701882, 7311132701899, 7311132701905
 
-Produit 3
+Produit 14
+Nom : Long Sleeve Henley Washed Antracite
+Lien : https://www.nudiejeans.com/en-FR/product/ls-henley-washed-antracite
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 120 €
+Code-barres : 7311133215180, 7311133215197, 7311133215203
+
+Produit 15
+Nom : Mira Henley Waffle Egg White
+Lien : https://www.nudiejeans.com/en-FR/product/mira-henley-waffle-egg-white
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 70 €
+Code-barres : 7311132619538, 7311132619545, 7311132619552
+
+Produit 16
 Nom : Ricky Bad News T-Shirt Antracite
 Lien : https://www.nudiejeans.com/en-FR/product/ricky-bad-news-t-shirt-antracite
 Rayon (femme / homme / mixte) : homme
@@ -43,8 +188,31 @@ Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 70 €
+Code-barres : 7311133014349, 7311133014356, 7311133014363
 
-Produit 4
+Produit 17
+Nom : Ricky Pocket T-Shirt Washed Blue
+Lien : https://www.nudiejeans.com/en-FR/product/ricky-pocket-t-shirt-washed-blue
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 7311133062678, 7311133062685, 7311133062692
+
+Produit 18
+Nom : Rita T-Shirt Shop-Chop
+Lien : https://www.nudiejeans.com/en-FR/product/rita-t-shirt-shop-chop-antracite
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 70 €
+Code-barres : 7311133105566, 7311133105573, 7311133105580
+
+Produit 19
 Nom : Roffe Slub T-Shirt Black
 Lien : https://www.nudiejeans.com/en-FR/product/roffe-slub-t-shirt-black
 Rayon (femme / homme / mixte) : homme
@@ -53,8 +221,9 @@ Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 50 €
+Code-barres : 7311132702087, 7311132702124, 7311132702162
 
-Produit 5
+Produit 20
 Nom : Roy Deadstock T-Shirt Navy
 Lien : https://www.nudiejeans.com/en-FR/product/roy-deadstock-t-shirt-navy
 Rayon (femme / homme / mixte) : homme
@@ -63,6 +232,84 @@ Fabriqué en : Inde
 Tissé en : 
 Teint en : 
 Prix : 60 €
+Code-barres : 7311133075791, 7311133075807, 7311133075814
+
+Produit 21
+Nom : Roy Deep Tracks T-Shirt Antracite
+Lien : https://www.nudiejeans.com/en-FR/product/roy-deep-tracks-t-shirt-antracite
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 70 €
+Code-barres : 7311133085295, 7311133085301, 7311133085318
+
+Produit 22
+Nom : Roy Life Tracks T-Shirt Chalk White
+Lien : https://www.nudiejeans.com/en-FR/product/roy-life-tracks-t-shirt-chalk-white
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 7311133073582, 7311133073599, 7311133073605
+
+Produit 23
+Nom : Roy Raglan T-Shirt Take It Easy Offwhite/Black
+Lien : https://www.nudiejeans.com/en-FR/product/roy-raglan-t-shirt-take-it-easy-offwhiteblack
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 80 €
+Code-barres : 7311133162712, 7311133162729, 7311133162736
+
+Produit 24
+Nom : Rudi Long Sleeve T-Shirt Life Tracks II Antracite
+Lien : https://www.nudiejeans.com/en-FR/product/rudi-long-sleeve-t-shirt-life-tracks-ii-antracite
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 100 €
+Code-barres : 7311133188194, 7311133188200, 7311133188217
+
+Produit 25
+Nom : Tank Top Nudie Jeans Offwhite
+Lien : https://www.nudiejeans.com/en-FR/product/tank-top-nudie-jeans-offwhite
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 40 €
+Code-barres : 7311132392189, 7311132392196, 7311132392202
+
+Produit 26
+Nom : Tiny Tee Do Not Forget Deep Blue
+Lien : https://www.nudiejeans.com/en-FR/product/tiny-tee-do-not-forget-deep-blue
+Rayon (femme / homme / mixte) : mixte
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 30 €
+Code-barres : 7311132737645, 7311132737652, 7311132737669
+
+Produit 27
+Nom : Uno Ace T-shirt Chalk White
+Lien : https://www.nudiejeans.com/en-FR/product/uno-ace-t-shirt-chalk-white
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 7311132536415, 7311132536422, 7311132536439
 
 ===== PULLS ET MAILLE =====
 
@@ -75,8 +322,31 @@ Fabriqué en : Turquie
 Tissé en : 
 Teint en : 
 Prix : 180 €
+Code-barres : 7311132667867, 7311132667881, 7311132667904
 
 Produit 2
+Nom : August Rib Wool Sweater Burgundy
+Lien : https://www.nudiejeans.com/en-FR/product/august-rib-wool-sweater-burgundy
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Laine
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133192849, 7311133192856, 7311133192863
+
+Produit 3
+Nom : Gittan Sweater Chunky Knit Green Melange
+Lien : https://www.nudiejeans.com/en-FR/product/gittan-sweater-chunky-knit-green-melange
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Laine
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 7311133230244, 7311133230251, 7311133230268
+
+Produit 4
 Nom : Gunde Hoodie Embo Wave Greymelange
 Lien : https://www.nudiejeans.com/en-FR/product/gunde-hoodie-embo-wave-greymelange
 Rayon (femme / homme / mixte) : homme
@@ -85,8 +355,31 @@ Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 180 €
+Code-barres : 7311133188248, 7311133188255, 7311133188262
 
-Produit 3
+Produit 5
+Nom : Gunde Logo Hoodie Black
+Lien : https://www.nudiejeans.com/en-FR/product/gunde-logo-hoodie-black
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 120 €
+Code-barres : 7311133068922, 7311133068946, 7311133068960
+
+Produit 6
+Nom : Gunde Logo Zip Hoodie Black
+Lien : https://www.nudiejeans.com/en-FR/product/gunde-logo-zip-hoodie-black
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 140 €
+Code-barres : 7311133068823, 7311133068847, 7311133068861
+
+Produit 7
 Nom : Gurra Boucle Sweater Multi
 Lien : https://www.nudiejeans.com/en-FR/product/gurra-boucle-sweater-multi-multi
 Rayon (femme / homme / mixte) : homme
@@ -95,8 +388,20 @@ Fabriqué en : Turquie
 Tissé en : 
 Teint en : 
 Prix : 200 €
+Code-barres : 7311133188347, 7311133188354, 7311133188361
 
-Produit 4
+Produit 8
+Nom : Gurra Sweater Chunky Knit Racing Green
+Lien : https://www.nudiejeans.com/en-FR/product/gurra-sweater-chunky-knit-racing-green
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Laine
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 7311133229248, 7311133229255, 7311133229262
+
+Produit 9
 Nom : Hasse Crew Neck Sweatshirt Old Yellow
 Lien : https://www.nudiejeans.com/en-FR/product/hasse-crew-neck-sweatshirt-old-yellow
 Rayon (femme / homme / mixte) : homme
@@ -105,10 +410,198 @@ Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 130 €
+Code-barres : 7311133228999, 7311133229002, 7311133229019
+
+Produit 10
+Nom : Palle Logo Sweatshirt Black
+Lien : https://www.nudiejeans.com/en-FR/product/palle-logo-sweatshirt-black
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 100 €
+Code-barres : 7311133068724, 7311133068748, 7311133068762
+
+Produit 11
+Nom : Palle Sweatshirt Knock-Topus Antracite
+Lien : https://www.nudiejeans.com/en-FR/product/palle-sweatshirt-knock-topus-antracite
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 140 €
+Code-barres : 7311133158975, 7311133158982, 7311133158999
+
+Produit 12
+Nom : Silly Sweat It Is Not Me Deep Blue
+Lien : https://www.nudiejeans.com/en-FR/product/silly-sweat-it-is-not-me-deep-blue
+Rayon (femme / homme / mixte) : mixte
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 50 €
+Code-barres : 7311132684321, 7311132684338, 7311132684345
+
+Produit 13
+Nom : Sverre Knitted Vest Brownmelange
+Lien : https://www.nudiejeans.com/en-FR/product/sverre-knitted-vest-brownmelange
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311132770222, 7311132770239, 7311132770246
 
 ===== PANTALONS ET JEANS =====
 
 Produit 1
+Nom : Asta Workwear Pants Espresso Brown
+Lien : https://www.nudiejeans.com/en-FR/product/asta-workwear-pants-espresso-brown
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133097601, 7311133097618, 7311133097625
+
+Produit 2
+Nom : Asta Workwear Pants Ivory
+Lien : https://www.nudiejeans.com/en-FR/product/asta-workwear-pants-ivory
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133167205, 7311133167212, 7311133167229
+
+Produit 3
+Nom : Asta Workwear Pants One Wash I
+Lien : https://www.nudiejeans.com/en-FR/product/asta-workwear-pants-one-wash-i
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133069073, 7311133069080, 7311133069097
+
+Produit 4
+Nom : Breezy Britt 60s Blue
+Lien : https://www.nudiejeans.com/en-FR/product/breezy-britt-60s-blue
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133050484, 7311133050491, 7311133050507
+
+Produit 5
+Nom : Breezy Britt Aged Black
+Lien : https://www.nudiejeans.com/en-FR/product/breezy-britt-aged-black
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132673912, 7311132673929, 7311132673936
+
+Produit 6
+Nom : Breezy Britt Blue Rebel
+Lien : https://www.nudiejeans.com/en-FR/product/breezy-britt-blue-rebel
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311132956701, 7311132956718, 7311132956725
+
+Produit 7
+Nom : Clean Eileen Ash Grey
+Lien : https://www.nudiejeans.com/en-FR/product/clean-eileen-ash-grey
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132922416, 7311132922423, 7311132922430
+
+Produit 8
+Nom : Clean Eileen Desert Light Blue
+Lien : https://www.nudiejeans.com/en-FR/product/clean-eileen-desert-light-blue
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311132978253, 7311132978260, 7311132978277
+
+Produit 9
+Nom : Clean Eileen Dry Twilight Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/clean-eileen-dry-twilight-selvage
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311132957357, 7311132957364, 7311132957371
+
+Produit 10
+Nom : Clean Eileen Suede Pants Black
+Lien : https://www.nudiejeans.com/en-FR/product/clean-eileen-suede-pants-black
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Cuir
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 400 €
+Code-barres : 7311132963228, 7311132963235, 7311132963242
+
+Produit 11
+Nom : Dusty Dee Dry Weird
+Lien : https://www.nudiejeans.com/en-FR/product/dusty-dee-dry-weird
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133207253, 7311133207260, 7311133207277
+
+Produit 12
+Nom : Dusty Dee Lineage Tracks
+Lien : https://www.nudiejeans.com/en-FR/product/dusty-dee-lineage-tracks
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133231821, 7311133231838, 7311133231845
+
+Produit 13
+Nom : Dusty Dee Night Dune
+Lien : https://www.nudiejeans.com/en-FR/product/dusty-dee-night-dune
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133179727, 7311133179734, 7311133179741
+
+Produit 14
 Nom : Easy Alvin Beige
 Lien : https://www.nudiejeans.com/en-FR/product/easy-alvin-beige
 Rayon (femme / homme / mixte) : homme
@@ -117,8 +610,9 @@ Fabriqué en : Tunisie
 Tissé en : 
 Teint en : 
 Prix : 160 €
+Code-barres : 7311132699875, 7311132699882, 7311132699899
 
-Produit 2
+Produit 15
 Nom : Flare Glenn Black Storm
 Lien : https://www.nudiejeans.com/en-FR/product/flare-glenn-black-storm
 Rayon (femme / homme / mixte) : homme
@@ -127,8 +621,31 @@ Fabriqué en : Tunisie
 Tissé en : 
 Teint en : 
 Prix : 180 €
+Code-barres : 7311133122983, 7311133122990, 7311133123003
 
-Produit 3
+Produit 16
+Nom : Flare Glenn Dry Nostalgia
+Lien : https://www.nudiejeans.com/en-FR/product/flare-glenn-dry-nostalgia
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133073681, 7311133073698, 7311133073704
+
+Produit 17
+Nom : Flare Glenn Lineage Tracks
+Lien : https://www.nudiejeans.com/en-FR/product/flare-glenn-lineage-tracks
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133181676, 7311133181683, 7311133181690
+
+Produit 18
 Nom : Grim Tim Black Mist
 Lien : https://www.nudiejeans.com/en-FR/product/grim-tim-black-mist
 Rayon (femme / homme / mixte) : homme
@@ -137,8 +654,53 @@ Fabriqué en : Tunisie
 Tissé en : 
 Teint en : 
 Prix : 160 €
+Code-barres : 7311133184929, 7311133184936, 7311133184943
 
-Produit 4
+Produit 19
+Nom : Grim Tim Broken Spirit
+Lien : https://www.nudiejeans.com/en-FR/product/grim-tim-broken-spirit
+Rayon (femme / homme / mixte) : homme
+Composition : 98% Coton, 2% Élasthanne
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132964171, 7311132964188, 7311132964195
+
+Produit 20
+Nom : Grim Tim Dry Blue 16 Dips
+Lien : https://www.nudiejeans.com/en-FR/product/grim-tim-dry-blue-16-dips
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133203354, 7311133203361, 7311133203378
+
+Produit 21
+Nom : Grim Tim Dry Japan Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/grim-tim-dry-japan-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 98% Coton, 2% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 7311132917894, 7311132917900, 7311132917917
+
+Produit 22
+Nom : Grim Tim Life Tracks
+Lien : https://www.nudiejeans.com/en-FR/product/grim-tim-life-tracks
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133220535, 7311133220542, 7311133220559
+
+Produit 23
 Nom : Gritty Jackson Black Forest
 Lien : https://www.nudiejeans.com/en-FR/product/gritty-jackson-black-forest
 Rayon (femme / homme / mixte) : homme
@@ -147,6 +709,931 @@ Fabriqué en : Tunisie
 Tissé en : 
 Teint en : 
 Prix : 160 €
+Code-barres : 7311132386744, 7311132386751, 7311132386768
+
+Produit 24
+Nom : Gritty Jackson Dry Ace Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/gritty-jackson-dry-ace-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 350 €
+Code-barres : 7311132434612, 7311132434629, 7311132434636
+
+Produit 25
+Nom : Gritty Jackson Dry Dusk Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/gritty-jackson-dry-dusk-selvag
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133074497, 7311133074503, 7311133074510
+
+Produit 26
+Nom : Gritty Jackson Dry Everblack
+Lien : https://www.nudiejeans.com/en-FR/product/gritty-jackson-dry-everblack
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132704579, 7311132704586, 7311132704593
+
+Produit 27
+Nom : Gritty Jackson Dry Onyx Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/gritty-jackson-dry-onyx-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133252741, 7311133252765, 7311133252789
+
+Produit 28
+Nom : Gritty Jackson Dry Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/gritty-jackson-dry-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 7311132506104, 7311132506111, 7311132506128
+
+Produit 29
+Nom : Gritty Jackson Sand Tracks
+Lien : https://www.nudiejeans.com/en-FR/product/gritty-jackson-sand-tracks
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133115404, 7311133115411, 7311133115428
+
+Produit 30
+Nom : Gritty Jackson Static Noise
+Lien : https://www.nudiejeans.com/en-FR/product/gritty-jackson-static-noise
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133245736, 7311133245743, 7311133245750
+
+Produit 31
+Nom : Gritty Jackson Tidal Waves
+Lien : https://www.nudiejeans.com/en-FR/product/gritty-jackson-tidal-waves
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133198155, 7311133198162, 7311133198179
+
+Produit 32
+Nom : Gullan Pants Striped
+Lien : https://www.nudiejeans.com/en-FR/product/gullan-pants-striped
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133110423, 7311133110430, 7311133110447
+
+Produit 33
+Nom : Holly Flare Denim Pants
+Lien : https://www.nudiejeans.com/en-FR/product/holly-flare-denim-pants
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133021057, 7311133021064, 7311133021071
+
+Produit 34
+Nom : Holly Western Denim Pants
+Lien : https://www.nudiejeans.com/en-FR/product/holly-western-denim-pants
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311132980287, 7311132980294, 7311132980300
+
+Produit 35
+Nom : Holly Western Pants 70's Blue
+Lien : https://www.nudiejeans.com/en-FR/product/holly-western-pants-70s-blue
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132698281, 7311132698298, 7311132698304
+
+Produit 36
+Nom : Holly Western Pants Embroidery
+Lien : https://www.nudiejeans.com/en-FR/product/holly-western-pants-embroidery
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133097960, 7311133097977, 7311133097984
+
+Produit 37
+Nom : Inez Striped Pants
+Lien : https://www.nudiejeans.com/en-FR/product/inez-striped-pants
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311132976303, 7311132976310, 7311132976327
+
+Produit 38
+Nom : Lean Dean Black Eyes
+Lien : https://www.nudiejeans.com/en-FR/product/lean-dean-black-eyes
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132476421, 7311132476438, 7311132476445
+
+Produit 39
+Nom : Lean Dean Blue Night
+Lien : https://www.nudiejeans.com/en-FR/product/lean-dean-blue-night
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311132947884, 7311132947891, 7311132947907
+
+Produit 40
+Nom : Lean Dean Dry 16 Dips
+Lien : https://www.nudiejeans.com/en-FR/product/lean-dean-dry-16-dips
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132036533, 7311131441673, 7311131441796
+
+Produit 41
+Nom : Lean Dean Dry Apex Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/lean-dean-dry-apex-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 300 €
+Code-barres : 7311132932569, 7311132932576, 7311132932583
+
+Produit 42
+Nom : Lean Dean Dry Black Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/lean-dean-dry-black-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311132224459, 7311132224466, 7311132224473
+
+Produit 43
+Nom : Lean Dean Dry Japan Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/lean-dean-dry-japan-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 98% Coton, 2% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 7311132035499, 7311131574784, 7311131574791
+
+Produit 44
+Nom : Lean Dean Dry Ohm Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/lean-dean-dry-ohm-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 98% Coton, 2% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133205952, 7311133205969, 7311133205976
+
+Produit 45
+Nom : Lean Dean Echo Tracks
+Lien : https://www.nudiejeans.com/en-FR/product/lean-dean-echo-tracks
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133200759, 7311133200766, 7311133200773
+
+Produit 46
+Nom : Lean Dean Everblue
+Lien : https://www.nudiejeans.com/en-FR/product/lean-dean-everblue
+Rayon (femme / homme / mixte) : homme
+Composition : 98% Coton, 2% Élasthanne
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133153727, 7311133153734, 7311133153741
+
+Produit 47
+Nom : Lean Dean Ivory
+Lien : https://www.nudiejeans.com/en-FR/product/lean-dean-ivory
+Rayon (femme / homme / mixte) : homme
+Composition : 98% Coton, 2% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133282779, 7311133282786, 7311133282793
+
+Produit 48
+Nom : Lofty Lo Black Vintage
+Lien : https://www.nudiejeans.com/en-FR/product/lofty-lo-black-vintage
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132958002, 7311132958019, 7311132958026
+
+Produit 49
+Nom : Loud Larry Black Storm
+Lien : https://www.nudiejeans.com/en-FR/product/loud-larry-black-storm
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133056257, 7311133056264, 7311133056271
+
+Produit 50
+Nom : Loud Larry Dry Lightning Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/loud-larry-dry-lightning-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133201404, 7311133201411, 7311133201428
+
+Produit 51
+Nom : Loud Larry Dry Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/loud-larry-dry-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 7311133038680, 7311133038697, 7311133038703
+
+Produit 52
+Nom : Loud Larry Dry Streaky
+Lien : https://www.nudiejeans.com/en-FR/product/loud-larry-dry-streaky
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133112151, 7311133112168, 7311133112175
+
+Produit 53
+Nom : Loud Larry Dry Weird
+Lien : https://www.nudiejeans.com/en-FR/product/loud-larry-dry-weird
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133221181, 7311133221198, 7311133221204
+
+Produit 54
+Nom : Rad Rufus Black Vintage
+Lien : https://www.nudiejeans.com/en-FR/product/rad-rufus-black-vintage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132940120, 7311132940137, 7311132940144
+
+Produit 55
+Nom : Rad Rufus Blue Twisted Tracks
+Lien : https://www.nudiejeans.com/en-FR/product/rad-rufus-blue-twisted-tracks
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133206607, 7311133206614, 7311133206621
+
+Produit 56
+Nom : Rad Rufus Dry Ace Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/rad-rufus-dry-ace-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 350 €
+Code-barres : 7311133009857, 7311133009864, 7311133009871
+
+Produit 57
+Nom : Rad Rufus Dry Japan Black Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/rad-rufus-dry-black-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 7311132945286, 7311132945293, 7311132945309
+
+Produit 58
+Nom : Rad Rufus Dry Dusk Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/rad-rufus-dry-dusk-selv
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133052433, 7311133052440, 7311133052457
+
+Produit 59
+Nom : Rad Rufus Dry Heavy
+Lien : https://www.nudiejeans.com/en-FR/product/rad-rufus-dry-heavy
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132702629, 7311132702636, 7311132702643
+
+Produit 60
+Nom : Rad Rufus Dry Space Black Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/rad-rufus-dry-space-black-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133247037, 7311133247044, 7311133247051
+
+Produit 61
+Nom : Rad Rufus Echoed Gold
+Lien : https://www.nudiejeans.com/en-FR/product/rad-rufus-echoed-gold
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 170 €
+Code-barres : 7311133196205, 7311133196212, 7311133196229
+
+Produit 62
+Nom : Rad Rufus Streaky Worn
+Lien : https://www.nudiejeans.com/en-FR/product/rad-rufus-streaky-worn
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133015575, 7311133015582, 7311133015599
+
+Produit 63
+Nom : Regular Alf Dry Japan Black Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/regular-alf-dry-black-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 7311133296059, 7311133296066, 7311133296073
+
+Produit 64
+Nom : Regular Alf Dry One
+Lien : https://www.nudiejeans.com/en-FR/product/regular-alf-dry-one
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133175965, 7311133175972, 7311133175989
+
+Produit 65
+Nom : Regular Alf Silver Tracks
+Lien : https://www.nudiejeans.com/en-FR/product/regular-alf-silver-tracks
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133181027, 7311133181034, 7311133181041
+
+Produit 66
+Nom : Sharp Charlie Blue One Wash
+Lien : https://www.nudiejeans.com/en-FR/product/sharp-charlie-blue-one-wash
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133266359, 7311133266519, 7311133266724
+
+Produit 67
+Nom : Sharp Charlie Dry Space Black Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/sharp-charlie-dry-space-black-selvage
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133253106, 7311133253137, 7311133253151
+
+Produit 68
+Nom : Slim Jim Dry Black Tar
+Lien : https://www.nudiejeans.com/en-FR/product/slim-jim-dry-black-tar
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 140 €
+Code-barres : 7311133024959, 7311133024966, 7311133024973
+
+Produit 69
+Nom : Slim Jim Dry Two
+Lien : https://www.nudiejeans.com/en-FR/product/slim-jim-dry-two
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133175316, 7311133175323, 7311133175330
+
+Produit 70
+Nom : Slim Jim Quarter Tracks
+Lien : https://www.nudiejeans.com/en-FR/product/slim-jim-quarter-tracks
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133182321, 7311133182338, 7311133182345
+
+Produit 71
+Nom : Solid Ollie Black Force
+Lien : https://www.nudiejeans.com/en-FR/product/solid-ollie-black-force
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133046531, 7311133046548, 7311133046555
+
+Produit 72
+Nom : Solid Ollie Black Steel
+Lien : https://www.nudiejeans.com/en-FR/product/solid-ollie-black-steel
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311132953793, 7311132953809, 7311132953816
+
+Produit 73
+Nom : Solid Ollie Dry Abyss
+Lien : https://www.nudiejeans.com/en-FR/product/solid-ollie-dry-abyss
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132971513, 7311132971520, 7311132971537
+
+Produit 74
+Nom : Solid Ollie Dry Apex Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/solid-ollie-dry-apex-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 300 €
+Code-barres : 7311133252758, 7311133252772, 7311133252802
+
+Produit 75
+Nom : Solid Ollie Dry Black Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/solid-ollie-dry-black-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133160602, 7311133160619, 7311133160626
+
+Produit 76
+Nom : Solid Ollie Dry Japan Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/solid-ollie-dry-japan-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 98% Coton, 2% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 7311132927213, 7311132927220, 7311132927237
+
+Produit 77
+Nom : Solid Ollie Everivory
+Lien : https://www.nudiejeans.com/en-FR/product/solid-ollie-everivory
+Rayon (femme / homme / mixte) : homme
+Composition : 98% Coton, 2% Élasthanne
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133164815, 7311133164822, 7311133164839
+
+Produit 78
+Nom : Solid Ollie Static Noise
+Lien : https://www.nudiejeans.com/en-FR/product/solid-ollie-static-noise
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133238974, 7311133238981, 7311133238998
+
+Produit 79
+Nom : Sonic Sue Blue Poem
+Lien : https://www.nudiejeans.com/en-FR/product/sonic-sue-blue-poem
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133233122, 7311133233139, 7311133233146
+
+Produit 80
+Nom : Steady Eddie II Black Change
+Lien : https://www.nudiejeans.com/en-FR/product/steady-eddie-ii-black-change
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132379746, 7311132379753, 7311132379760
+
+Produit 81
+Nom : Steady Eddie II Dry Ace Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/steady-eddie-ii-dry-ace-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 350 €
+Code-barres : 7311132159676, 7311132159683, 7311132159690
+
+Produit 82
+Nom : Steady Eddie II Dry Japan Black Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/steady-eddie-ii-dry-black-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 7311132223803, 7311132223810, 7311132223827
+
+Produit 83
+Nom : Steady Eddie II Dry Dusk Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/steady-eddie-ii-dry-dusk-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133045886, 7311133045893, 7311133045909
+
+Produit 84
+Nom : Steady Eddie II Dry Everblack
+Lien : https://www.nudiejeans.com/en-FR/product/steady-eddie-ii-dry-everblack
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132430300, 7311132430317, 7311132430324
+
+Produit 85
+Nom : Steady Eddie II Muted Tracks
+Lien : https://www.nudiejeans.com/en-FR/product/steady-eddie-ii-muted-tracks
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133118009, 7311133118016, 7311133118023
+
+Produit 86
+Nom : Steady Eddie II Vacation Blues
+Lien : https://www.nudiejeans.com/en-FR/product/steady-eddie-ii-vacation-blues
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133027608, 7311133027615, 7311133027622
+
+Produit 87
+Nom : Suki Workwear Pants Olive
+Lien : https://www.nudiejeans.com/en-FR/product/suki-workwear-pants-olive
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311132956442, 7311132956459, 7311132956466
+
+Produit 88
+Nom : Tight Terry Black Blizzard
+Lien : https://www.nudiejeans.com/en-FR/product/tight-terry-black-blizzard
+Rayon (femme / homme / mixte) : homme
+Composition : 99% Coton, 1% Élasthanne
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132951195, 7311132951201, 7311132951218
+
+Produit 89
+Nom : Tight Terry Grey Lava
+Lien : https://www.nudiejeans.com/en-FR/product/tight-terry-grey-lava
+Rayon (femme / homme / mixte) : homme
+Composition : 98% Coton, 2% Élasthanne
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133265567, 7311133265574, 7311133265581
+
+Produit 90
+Nom : Tight Terry Rinse Twill
+Lien : https://www.nudiejeans.com/en-FR/product/tight-terry-rinse-twill
+Rayon (femme / homme / mixte) : homme
+Composition : 98% Coton, 2% Élasthanne
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132034584, 7311131770902, 7311131770919
+
+Produit 91
+Nom : Tuff Tony Basement Tracks
+Lien : https://www.nudiejeans.com/en-FR/product/tuff-tony-basement-tracks
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133069332, 7311133069349, 7311133069356
+
+Produit 92
+Nom : Tuff Tony Black Vintage
+Lien : https://www.nudiejeans.com/en-FR/product/tuff-tony-black-vintage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132954448, 7311132954455, 7311132954462
+
+Produit 93
+Nom : Tuff Tony Clay Canyons
+Lien : https://www.nudiejeans.com/en-FR/product/tuff-tony-clay-canyons
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 170 €
+Code-barres : 7311133110850, 7311133110867, 7311133110874
+
+Produit 94
+Nom : Tuff Tony Dry Ace Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/tuff-tony-dry-ace-selvage-114674
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 350 €
+Code-barres : 7311132936697, 7311132936703, 7311132936710
+
+Produit 95
+Nom : Tuff Tony Dry Japan Black Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/tuff-tony-dry-black-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 7311133095607, 7311133095614, 7311133095621
+
+Produit 96
+Nom : Tuff Tony Dry Ecru Waves
+Lien : https://www.nudiejeans.com/en-FR/product/tuff-tony-dry-ecru-waves
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133194256, 7311133194263, 7311133194270
+
+Produit 97
+Nom : Tuff Tony Dry Feather Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/tuff-tony-dry-feather-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 300 €
+Code-barres : 7311133192955, 7311133192962, 7311133192979
+
+Produit 98
+Nom : Tuff Tony Dry Lightning Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/tuff-tony-dry-lightning-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133226025, 7311133226032, 7311133226049
+
+Produit 99
+Nom : Tuff Tony Dry Old
+Lien : https://www.nudiejeans.com/en-FR/product/tuff-tony-dry-old
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133068076, 7311133068083, 7311133068090
+
+Produit 100
+Nom : Tuff Tony Mystery Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/tuff-tony-mystery-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 400 €
+Code-barres : 7311133103814, 7311133103821, 7311133103838
+
+Produit 101
+Nom : Tuff Tony Silver Tracks
+Lien : https://www.nudiejeans.com/en-FR/product/tuff-tony-silver-tracks
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133241837, 7311133241844, 7311133241851
+
+Produit 102
+Nom : Wendy Double Knee Denim Pants Dark Blue
+Lien : https://www.nudiejeans.com/en-FR/product/wendy-double-knee-denim-pants-dark-blue
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133061091, 7311133061107, 7311133061114
+
+Produit 103
+Nom : Wide Heidi Blue Days Gusset
+Lien : https://www.nudiejeans.com/en-FR/product/wide-heidi-blue-days-gusset
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133034378, 7311133023266, 7311133023273
+
+Produit 104
+Nom : Wide Heidi Classic Blue
+Lien : https://www.nudiejeans.com/en-FR/product/wide-heidi-classic-blue
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133039731, 7311133039748, 7311133039755
+
+Produit 105
+Nom : Wide Heidi Dry Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/wide-heidi-dry-selvage
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 7311133034637, 7311133034644, 7311133034651
+
+Produit 106
+Nom : Wide Heidi Dry Space Black Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/wide-heidi-dry-space-black-selvage
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133221884, 7311133221891, 7311133221907
+
+Produit 107
+Nom : Wide Heidi Worn Treasure
+Lien : https://www.nudiejeans.com/en-FR/product/wide-heidi-worn-treasure
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311132975689, 7311132975696, 7311132975702
 
 ===== CHEMISES ET BLOUSES =====
 
@@ -159,8 +1646,31 @@ Fabriqué en : Inde
 Tissé en : 
 Teint en : 
 Prix : 150 €
+Code-barres : 7311133102114, 7311133102121, 7311133102138
 
 Produit 2
+Nom : Arvid Hawaii Shirt Drift Away Multi
+Lien : https://www.nudiejeans.com/en-FR/product/arvid-hawaii-shirt-drift-away-multi
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Lyocell
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 120 €
+Code-barres : 7311133163269, 7311133163276, 7311133163283
+
+Produit 3
+Nom : Daisy Chambray Western Shirt Blue
+Lien : https://www.nudiejeans.com/en-FR/product/daisy-chambray-western-shirt-blue
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 7311133087091, 7311133087107, 7311133087114
+
+Produit 4
 Nom : George Ace Selvage Denim Shirt
 Lien : https://www.nudiejeans.com/en-FR/product/george-ace-selvage-denim-shirt
 Rayon (femme / homme / mixte) : homme
@@ -169,8 +1679,31 @@ Fabriqué en : Tunisie
 Tissé en : 
 Teint en : 
 Prix : 400 €
+Code-barres : 7311132928562, 7311132928579, 7311132928586
 
-Produit 3
+Produit 5
+Nom : George Cowboy Shirt Beige
+Lien : https://www.nudiejeans.com/en-FR/product/george-cowboy-shirt-beige
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132730080, 7311132730097, 7311132730103
+
+Produit 6
+Nom : George Flannel Shirt Blue
+Lien : https://www.nudiejeans.com/en-FR/product/george-flannel-shirt-blue
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311132702421, 7311132702438, 7311132702445
+
+Produit 7
 Nom : Glenn Padded Shirt Check Multi
 Lien : https://www.nudiejeans.com/en-FR/product/glenn-padded-shirt-check-multi
 Rayon (femme / homme / mixte) : homme
@@ -179,8 +1712,20 @@ Fabriqué en : Inde
 Tissé en : 
 Teint en : 
 Prix : 220 €
+Code-barres : 7311133188545, 7311133188552, 7311133188569
 
-Produit 4
+Produit 8
+Nom : Glenn Padded Shirt Navy
+Lien : https://www.nudiejeans.com/en-FR/product/glenn-padded-shirt-navy
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311132616452, 7311132616469, 7311132616476
+
+Produit 9
 Nom : Gunnar Denim Shirt Clean Wash
 Lien : https://www.nudiejeans.com/en-FR/product/gunnar-denim-shirt-clean-wash
 Rayon (femme / homme / mixte) : homme
@@ -189,10 +1734,209 @@ Fabriqué en : Tunisie
 Tissé en : 
 Teint en : 
 Prix : 200 €
+Code-barres : 7311133228449, 7311133228456, 7311133228463
+
+Produit 10
+Nom : Gunnar Denim Shirt Dry Streaky
+Lien : https://www.nudiejeans.com/en-FR/product/gunnar-denim-shirt-dry-streaky-blue
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133105252, 7311133105269, 7311133105276
+
+Produit 11
+Nom : Julian Denim Shirt Rinsed Blue
+Lien : https://www.nudiejeans.com/en-FR/product/julian-denim-shirt-rinsed-blue
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 7311133102169, 7311133102176, 7311133102183
+
+Produit 12
+Nom : Julian Shirt Back Sateen Olive Green
+Lien : https://www.nudiejeans.com/en-FR/product/julian-shirt-back-sateen-olive-green
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133229040, 7311133229057, 7311133229064
+
+Produit 13
+Nom : Julian Worker Shirt Check Brown
+Lien : https://www.nudiejeans.com/en-FR/product/julian-worker-shirt-check-brown
+Rayon (femme / homme / mixte) : homme
+Composition : 88% Coton, 12% Lin
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 7311133086841, 7311133086858, 7311133086865
+
+Produit 14
+Nom : Julian Worker Shirt Checked Blue
+Lien : https://www.nudiejeans.com/en-FR/product/julian-worker-shirt-checked-blue
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133207901, 7311133207918, 7311133207925
+
+Produit 15
+Nom : Jutta Shirt Indigo Seersucker Blue/Offwhite
+Lien : https://www.nudiejeans.com/en-FR/product/jutta-shirt-indigo-seersucker-blueoffwhite
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 140 €
+Code-barres : 7311133159088, 7311133159095, 7311133159101
+
+Produit 16
+Nom : Jutta Shirt Striped
+Lien : https://www.nudiejeans.com/en-FR/product/jutta-shirt-striped-blueoffwhite
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133105665, 7311133105672, 7311133105689
+
+Produit 17
+Nom : Lotta Western Denim Shirt Black
+Lien : https://www.nudiejeans.com/en-FR/product/lotta-western-denim-shirt-black
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311132748474, 7311132748481, 7311132748498
+
+Produit 18
+Nom : Lotta Western Denim Shirt Ivory
+Lien : https://www.nudiejeans.com/en-FR/product/lotta-western-denim-shirt-ivory
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 7311133014097, 7311133014103, 7311133014110
+
+Produit 19
+Nom : Moa Tie Fringe Shirt Offwhite
+Lien : https://www.nudiejeans.com/en-FR/product/moa-tie-fringe-shirt-offwhite
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 130 €
+Code-barres : 7311133013908, 7311133013915, 7311133013922
+
+Produit 20
+Nom : Nila Shirt Dress Indigo Blue
+Lien : https://www.nudiejeans.com/en-FR/product/nila-shirt-dress-indigo-blue
+Rayon (femme / homme / mixte) : femme
+Composition : 70% Coton, 30% Lin
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133214794, 7311133214800, 7311133214817
+
+Produit 21
+Nom : Nino Shirt Back Sateen Indigo
+Lien : https://www.nudiejeans.com/en-FR/product/nino-shirt-back-sateen-indigo
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133191941, 7311133191958, 7311133191965
+
+Produit 22
+Nom : Ryan Cuban Shirt
+Lien : https://www.nudiejeans.com/en-FR/product/ryan-cuban-shirt
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 140 €
+Code-barres : 7311132916866, 7311132916873, 7311132916880
+
+Produit 23
+Nom : Sassa Shirt Check Wine/Offwhite
+Lien : https://www.nudiejeans.com/en-FR/product/sassa-shirt-check-wineoffwhite
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 7311133192795, 7311133192801, 7311133192818
+
+Produit 24
+Nom : Vincent Shadow Check Shirt Brown/Beige
+Lien : https://www.nudiejeans.com/en-FR/product/vincent-shadow-check-shirt-brownbeige
+Rayon (femme / homme / mixte) : homme
+Composition : 75% Laine, 20% Polyester, 5% AF
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311132918778, 7311132918785, 7311132918792
 
 ===== MANTEAUX ET VESTES =====
 
 Produit 1
+Nom : Ada Workwear Jacket Ivory
+Lien : https://www.nudiejeans.com/en-FR/product/ada-workwear-jacket-ivory
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133169414, 7311133169421, 7311133169438
+
+Produit 2
+Nom : Ada Workwear Jacket One Wash I
+Lien : https://www.nudiejeans.com/en-FR/product/ada-workwear-jacket-one-wash-i
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133069028, 7311133069035, 7311133069042
+
+Produit 3
+Nom : Anja Zip Jacket Leather Black
+Lien : https://www.nudiejeans.com/en-FR/product/anja-zip-jacket-leather-black
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Cuir
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 500 €
+Code-barres : 7311133187784, 7311133187791, 7311133187807
+
+Produit 4
 Nom : Barney Indigo Workwear Jacket Dark Blue
 Lien : https://www.nudiejeans.com/en-FR/product/barney-indigo-workwear-jacket-dark-blue
 Rayon (femme / homme / mixte) : homme
@@ -201,8 +1945,42 @@ Fabriqué en : Inde
 Tissé en : 
 Teint en : 
 Prix : 180 €
+Code-barres : 7311133037904, 7311133038000, 7311133038086
 
-Produit 2
+Produit 5
+Nom : Barney Worker Jacket Tie Dye Violet
+Lien : https://www.nudiejeans.com/en-FR/product/barney-worker-jacket-tie-dye-violet
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 229 €
+Code-barres : 7311132382777, 7311132382784, 7311132382791
+
+Produit 6
+Nom : Berit Denim Jacket Asphalt Black
+Lien : https://www.nudiejeans.com/en-FR/product/berit-denim-jacket-asphalt-black
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311132933894, 7311132933900, 7311132933917
+
+Produit 7
+Nom : Berit Denim Jacket Desert
+Lien : https://www.nudiejeans.com/en-FR/product/berit-denim-jacket-desert
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133010556, 7311133010563, 7311133010570
+
+Produit 8
 Nom : Blake Wool Zip Jacket Blueberry
 Lien : https://www.nudiejeans.com/en-FR/product/blake-wool-zip-jacket-blueberry
 Rayon (femme / homme / mixte) : homme
@@ -211,8 +1989,75 @@ Fabriqué en : Lituanie
 Tissé en : 
 Teint en : 
 Prix : 400 €
+Code-barres : 7311133060087, 7311133060094, 7311133060100
 
-Produit 3
+Produit 9
+Nom : Blake Zip Jacket Back Sateen Navy
+Lien : https://www.nudiejeans.com/en-FR/product/blake-zip-jacket-back-sateen-navy
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133103715, 7311133103722, 7311133103739
+
+Produit 10
+Nom : Blake Zip Jacket Duck Canvas Black
+Lien : https://www.nudiejeans.com/en-FR/product/blake-zip-jacket-duck-canvas-black
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 280 €
+Code-barres : 7311133087046, 7311133087053, 7311133087060
+
+Produit 11
+Nom : Blake Zip Jacket Duck Canvas Dark Brown
+Lien : https://www.nudiejeans.com/en-FR/product/blake-zip-jacket-duck-canvas-dark-brown
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 300 €
+Code-barres : 7311133191897, 7311133191903, 7311133191910
+
+Produit 12
+Nom : Blake Zip Jacket Leather Black
+Lien : https://www.nudiejeans.com/en-FR/product/blake-zip-jacket-leather-black
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Cuir
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 600 €
+Code-barres : 7311133102015, 7311133102022, 7311133102039
+
+Produit 13
+Nom : Boel Painter Denim Skirt Dark Blue
+Lien : https://www.nudiejeans.com/en-FR/product/boel-painter-denim-skirt-dark-blue
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 140 €
+Code-barres : 7311133026908, 7311133026915, 7311133026922
+
+Produit 14
+Nom : Britta Jacket Orange Painter
+Lien : https://www.nudiejeans.com/en-FR/product/britta-jacket-orange-painter
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133179284, 7311133179291, 7311133179307
+
+Produit 15
 Nom : Bror Field Jacket Back Sateen Olive Green
 Lien : https://www.nudiejeans.com/en-FR/product/bror-field-jacket-back-sateen-olive-green
 Rayon (femme / homme / mixte) : homme
@@ -221,3 +2066,246 @@ Fabriqué en : Tunisie
 Tissé en : 
 Teint en : 
 Prix : 250 €
+Code-barres : 7311133229996, 7311133230008, 7311133230015
+
+Produit 16
+Nom : Buddy Chore Jacket Herringbone Pale Green
+Lien : https://www.nudiejeans.com/en-FR/product/buddy-chore-jacket-herringbone-pale-green
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133103760, 7311133103777, 7311133103784
+
+Produit 17
+Nom : Conny Denim Jacket Big Wave Blue
+Lien : https://www.nudiejeans.com/en-FR/product/conny-denim-jacket-big-wave-blue
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 7311133220481, 7311133220498, 7311133220504
+
+Produit 18
+Nom : Conny Denim Jacket Dry One
+Lien : https://www.nudiejeans.com/en-FR/product/conny-denim-jacket-dry-one
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133165850, 7311133165867, 7311133165874
+
+Produit 19
+Nom : Conny Denim Jacket Dry Selvage
+Lien : https://www.nudiejeans.com/en-FR/product/conny-denim-jacket-dry-selvage
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 300 €
+Code-barres : 7311133274682, 7311133274699, 7311133274705
+
+Produit 20
+Nom : Conny Denim Jacket Dry Streaky
+Lien : https://www.nudiejeans.com/en-FR/product/conny-denim-jacket-dry-streaky
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311133020173, 7311133020180, 7311133020197
+
+Produit 21
+Nom : Conny Denim Jacket Heavy Used
+Lien : https://www.nudiejeans.com/en-FR/product/conny-denim-jacket-heavy-used
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133103012, 7311133103029, 7311133103036
+
+Produit 22
+Nom : Danny 40s Redcast Denim Jacket Dark Blue
+Lien : https://www.nudiejeans.com/en-FR/product/danny-40s-redcast-denim-jacket-dark-blue
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311132970165, 7311132970172, 7311132970189
+
+Produit 23
+Nom : Danny Ace Selvage Denim Jacket Dry Blue
+Lien : https://www.nudiejeans.com/en-FR/product/danny-ace-selvage-denim-jacket-dry-blue
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 400 €
+Code-barres : 7311132927169, 7311132927176, 7311132927183
+
+Produit 24
+Nom : Eddy Rider Leather Jacket Black
+Lien : https://www.nudiejeans.com/en-FR/product/eddy-rider-leather-jacket-black-black
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Cuir
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 600 €
+Code-barres : 7311132949833, 7311132949840, 7311132949857
+
+Produit 25
+Nom : Greta Biker Leather Jacket Black
+Lien : https://www.nudiejeans.com/en-FR/product/greta-biker-leather-jacket-black
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Cuir
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 600 €
+Code-barres : 7311132720418, 7311132720425, 7311132720432
+
+Produit 26
+Nom : Howie Chore Jacket Dirt Wash
+Lien : https://www.nudiejeans.com/en-FR/product/howie-chore-jacket-dirt-wash
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133076545, 7311133076552, 7311133076569
+
+Produit 27
+Nom : Junior Denim Jacket Utility Denim
+Lien : https://www.nudiejeans.com/en-FR/product/junior-jacket-ud-denim
+Rayon (femme / homme / mixte) : mixte
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 100 €
+Code-barres : 7311132701073, 7311132701080, 7311132701097
+
+Produit 28
+Nom : Kelly Western Jacket Embroider
+Lien : https://www.nudiejeans.com/en-FR/product/kelly-western-jacket-embroider
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133097861, 7311133097878, 7311133097885
+
+Produit 29
+Nom : Lana Jacket Duck Canvas Black
+Lien : https://www.nudiejeans.com/en-FR/product/lana-jacket-duck-canvas-black
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 7311133213209, 7311133213216, 7311133213223
+
+Produit 30
+Nom : Lena Jacket Indigo Quilt Blue
+Lien : https://www.nudiejeans.com/en-FR/product/lena-jacket-indigo-quilt-blue
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 230 €
+Code-barres : 7311133230459, 7311133230466, 7311133230473
+
+Produit 31
+Nom : Lill Quilted Cotton Vest Offwhite/Blue
+Lien : https://www.nudiejeans.com/en-FR/product/lill-quilted-cotton-vest-offwhiteblue
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 120 €
+Code-barres : 7311133039632, 7311133039649, 7311133039656
+
+Produit 32
+Nom : Lovis Herringbone Jacket Blue
+Lien : https://www.nudiejeans.com/en-FR/product/lovis-herringbone-jacket-blue
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 7311132916385, 7311132916392, 7311132916408
+
+Produit 33
+Nom : Molly Duck Canvas Jacket Green
+Lien : https://www.nudiejeans.com/en-FR/product/molly-duck-canvas-jacket-green
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 280 €
+Code-barres : 7311133049136, 7311133049143, 7311133049150
+
+Produit 34
+Nom : Peggy Suede Jacket Cognac
+Lien : https://www.nudiejeans.com/en-FR/product/peggy-suede-jacket-cognac
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Cuir
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 500 €
+Code-barres : 7311133040386, 7311133040393, 7311133040409
+
+Produit 35
+Nom : Saga Leather Blazer Black
+Lien : https://www.nudiejeans.com/en-FR/product/saga-leather-blazer-black
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Cuir
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 500 €
+Code-barres : 7311132961279, 7311132961286, 7311132961293
+
+Produit 36
+Nom : Sandra Jacket Indigo Quilt Blue
+Lien : https://www.nudiejeans.com/en-FR/product/sandra-jacket-indigo-quilt-blue
+Rayon (femme / homme / mixte) : femme
+Composition : 100% Coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 7311133105610, 7311133105627, 7311133105634
+
+Produit 37
+Nom : Willy Suede Jacket Mud
+Lien : https://www.nudiejeans.com/en-FR/product/willy-suede-jacket-mud
+Rayon (femme / homme / mixte) : homme
+Composition : 100% Cuir
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 500 €
+Code-barres : 7311133162613, 7311133162620, 7311133162637
