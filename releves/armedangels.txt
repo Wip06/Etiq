@@ -1,8 +1,8 @@
 RELEVÉ ARMEDANGELS
 
-Date du relevé : 5 novembre 2026
-Relevé automatique sur WeDressFair (revendeur multimarque) : premières fiches de la marque dans le plan
-du site, par catégorie, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
 qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
 
 ===== LA MARQUE =====
@@ -16,50 +16,83 @@ Lien de la page :
 ===== T-SHIRTS ET TOPS =====
 
 Produit 1
-Nom : Sous-pull côtelé en coton bio | noir "alaania black"
-Lien : https://www.wedressfair.fr/collections/sous-pull-cotele-en-coton-bio-noir-alaania-black-armedangels
+Nom : Sous-pull côtelé en coton bio | bleu "Alaania knit sweater - dusty moon"
+Lien : https://www.wedressfair.fr/collections/alaania-knit-sweater-dusty-moon-dusty-moon-armedangels
 Rayon (femme / homme / mixte) : femme
 Composition : 100% coton biologique
 Fabriqué en : Turquie
 Tissé en : 
 Teint en : 
 Prix : 69 €
-Code-barres : 4251318689746, 4251318689647, 4251318689661
+Code-barres : 4255860167622, 4255860167608, 4255860167592
 
 Produit 2
-Nom : Polo en coton bio | bleu ciel "Maario poloshirt - wedgwood"
-Lien : https://www.wedressfair.fr/collections/maario-poloshirt-wedgwood-wedgwood-armedangels
+Nom : Sous-pull côtelé en coton bio | rayé "Alaania striped knit sweater - oatmilk-black"
+Lien : https://www.wedressfair.fr/collections/alaania-striped-knit-sweater-oatmilk-black-oatmilk-black-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 79 €
+Code-barres : 4255860172985, 4255860172961, 4255860172954
+
+Produit 3
+Nom : T-shirt oversize en coton bio | rayé "Iconic å fietaa stripe ls | undyed-velvet red-soft blue"
+Lien : https://www.wedressfair.fr/collections/iconic-a-fietaa-stripe-ls-undyed-velvet-red-soft-blue-undyed-velvet-red-soft-blue-armedangels-undyed-velvet-red-soft-blue
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 69 €
+Code-barres : 4255860152130, 4255860152116, 4255860152109
+
+Produit 4
+Nom : Polo en coton bio | noir "Maario"
+Lien : https://www.wedressfair.fr/collections/maario-polo-shirt-black-armedangels
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 69 €
-Code-barres : 4255808184186, 4255808184179, 4255808184162
-
-Produit 3
-Nom : Sous-pull côtelé en coton biologique | rose pâle "alaania knit sweater - pink mist"
-Lien : https://www.wedressfair.fr/collections/sous-pull-cotele-en-coton-biologique-rose-pale-alaania-knit-sweater-pink-mist-armedangels
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 69 €
-Code-barres : 4255808185626, 4255808185602, 4255808185596
-
-Produit 4
-Nom : Sous-pull côtelé en coton bio | violet "Alaania knit sweater - moonlit lilac"
-Lien : https://www.wedressfair.fr/collections/alaania-knit-sweater-moonlit-lilac-moonlit-lilac-armedangels
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 69 €
-Code-barres : 4255860167561, 4255860167547, 4255860167530
+Code-barres : 4255808183981, 4255808183974, 4255808183967
 
 Produit 5
+Nom : Débardeur pointelle en coton bio | blanc "Pointelle top - white"
+Lien : https://www.wedressfair.fr/collections/pointelle-top-white-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 29 €
+Code-barres : 4255860133054, 4255860133030, 4255860133023
+
+Produit 6
+Nom : T-shirt côtelé en coton bio | bleu "kardaa dynamo blue"
+Lien : https://www.wedressfair.fr/collections/t-shirt-cotele-en-coton-bio-bleu-kardaa-dynamo-blue-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 97% coton biologique, 3% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 23 €
+Code-barres : 4255623473830, 4255623473816, 4255623473809
+
+Produit 7
+Nom : T-shirt en tencel et coton bio | marine "jilaana night sky"
+Lien : https://www.wedressfair.fr/collections/t-shirt-en-tencel-et-coton-bio-marine-jilaana-night-sky-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 67% tencel® (procédé lyocell), 33% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 23 €
+Code-barres : 4252021288080, 4252021288066, 4252021288059
+
+Produit 8
 Nom : T-shirt en tencel | noir "jilaana black""
 Lien : https://www.wedressfair.fr/collections/t-shirt-en-tencel-noir-jilaana-black-armedangels
 Rayon (femme / homme / mixte) : femme
@@ -70,7 +103,7 @@ Teint en :
 Prix : 39 €
 Code-barres : 4252021288028, 4252021288004, 4252021287991
 
-Produit 6
+Produit 9
 Nom : Top léger à motifs fleuri en tencel - memaa sketch of off white
 Lien : https://www.wedressfair.fr/collections/top-leger-a-motifs-fleuri-en-tencel-memaa-sketch-of-off-white-armedangels
 Rayon (femme / homme / mixte) : femme
@@ -84,6 +117,138 @@ Code-barres : 4251934879477, 4251934870764, 4251934880848
 ===== PULLS ET MAILLE =====
 
 Produit 1
+Nom : Pull en coton bio | violet "Alvaario knit sweater - velvet red-moonlit lilac-dusty moon"
+Lien : https://www.wedressfair.fr/collections/alvaario-knit-sweater-velvet-red-moonlit-lilac-dusty-moon-velvet-red-moonlit-lilac-dusty-moon-armedangels
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 4255860176709, 4255860176693, 4255860176686
+
+Produit 2
+Nom : Pull col zippé en coton bio | noir "Faabes half zip knit sweater - black"
+Lien : https://www.wedressfair.fr/collections/faabes-half-zip-knit-sweater-black-black-armedangels
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 4255808126964, 4255808126957, 4255808126940
+
+Produit 3
+Nom : Pull polo en coton bio | marine "Knit longsleeve poloshirt - night sky"
+Lien : https://www.wedressfair.fr/collections/knit-longsleeve-poloshirt-night-sky-night-sky-armedangels
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 4255808199685, 4255808199678, 4255808199661
+
+Produit 4
+Nom : Pull en coton bio | noir "Merinaa"
+Lien : https://www.wedressfair.fr/collections/merinaa-links-links-sweater-black-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 4255860180171, 4255860180157, 4255860180140
+
+Produit 5
+Nom : Pull col montant en laine bio et mohair certifiée| blanc et noir
+Lien : https://www.wedressfair.fr/collections/mohair-blend-dots-knit-sweater-oatmilk-black-oatmilk-black-armedangels-oatmilk-black
+Rayon (femme / homme / mixte) : femme
+Composition : 60% laine biologique, 40% mohair certifiée
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 199 €
+Code-barres : 4255860174323, 4255860174309, 4255860174293
+
+Produit 6
+Nom : Pull en tricot en laine, tencel et mohair | vert "Mouliné brushed knit sweater - oatmilk"
+Lien : https://www.wedressfair.fr/collections/mouline-brushed-knit-sweater-oatmilk-oatmilk-armedangels-oatmilk
+Rayon (femme / homme / mixte) : femme
+Composition : 35% laine biologique, 26% laine recyclée, 14% tencel® (procédé lyocell), 14% mohair certifiée, 11% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 169 €
+Code-barres : 4255860174262, 4255860174248, 4255860174231
+
+Produit 7
+Nom : Cardigan léger pointelle en coton bio | gris "Pointelle cardigan - silver melange"
+Lien : https://www.wedressfair.fr/collections/pointelle-cardigan-silver-melange-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 41 €
+Code-barres : 4255860133238, 4255860133214, 4255860133207
+
+Produit 8
+Nom : Pull à motif léopard en laine | marron "diliriaa leopaa - walnut cream"
+Lien : https://www.wedressfair.fr/collections/pull-a-motif-leopard-en-laine-marron-diliriaa-leopaa-walnut-cream-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 50% laine biologique, 50% laine recyclée
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 97 €
+Code-barres : 4255808150051, 4255808150037, 4255808150020
+
+Produit 9
+Nom : Pull à rayures en laine et coton bio | beige "kaagi stripes - camel melange"
+Lien : https://www.wedressfair.fr/collections/pull-a-rayures-en-laine-et-coton-bio-beige-kaagi-stripes-camel-melange-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 55% laine biologique, 45% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 104 €
+Code-barres : 4255808140519, 4255808140496, 4255808140489
+
+Produit 10
+Nom : Pull ample en coton bio | beige "merinaa links links oatmilk"
+Lien : https://www.wedressfair.fr/collections/pull-ample-en-coton-bio-beige-merinaa-links-links-oatmilk-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 79 €
+Code-barres : 4255623429639, 4255623429615, 4255623429608
+
+Produit 11
+Nom : Pull blanc maille en coton bio - laniaa off white
+Lien : https://www.wedressfair.fr/collections/pull-blanc-maille-en-coton-bio-laniaa-off-white-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 64 €
+Code-barres : 4255623429868, 4255623429844, 4255623429837
+
+Produit 12
+Nom : Pull en coton biologique | bleu "loukaa knit sweater - dark morning"
+Lien : https://www.wedressfair.fr/collections/pull-en-coton-biologique-bleu-loukaa-knit-sweater-dark-morning-armedangels
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 55 €
+Code-barres : 4255808137472, 4255808137465, 4255808137458
+
+Produit 13
 Nom : Pull sans manches en coton bio | bleu "vanisé knit vest - dark blue glow"
 Lien : https://www.wedressfair.fr/collections/pull-sans-manches-en-coton-bio-bleu-vanise-knit-vest-dark-blue-glow-armedangels
 Rayon (femme / homme / mixte) : femme
@@ -94,42 +259,86 @@ Teint en :
 Prix : 59 €
 Code-barres : 4255808194291, 4255808194277, 4255808194260
 
-Produit 2
-Nom : Pull col zippé en coton bio | vert "Faabes knit sweater - dark earth"
-Lien : https://www.wedressfair.fr/collections/faabes-knit-sweater-dark-earth-dark-earth-armedangels
+Produit 14
+Nom : Gilet en laine et coton bio | gris "rib knit cardigan - honey melange"
+Lien : https://www.wedressfair.fr/collections/rib-knit-cardigan-honey-melange-honey-melange-armedangels-honey-melange
+Rayon (femme / homme / mixte) : femme
+Composition : 55% laine biologique, 45% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 169 €
+Code-barres : 4255860169961, 4255860169947, 4255860169930
+
+Produit 15
+Nom : Pull ample en coton et laine biologique | violet "Rib knit sweater - moonlit lilac"
+Lien : https://www.wedressfair.fr/collections/rib-knit-sweater-moonlit-lilac-moonlit-lilac-armedangels-moonlit-lilac
+Rayon (femme / homme / mixte) : femme
+Composition : 55% laine biologique, 45% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 139 €
+Code-barres : 4255860170264, 4255860170240, 4255860170233
+
+Produit 16
+Nom : Sweat col camionneur en coton bio | bicolore "Striped troyer sweatshirt"
+Lien : https://www.wedressfair.fr/collections/striped-troyer-sweatshirt-claystone-sand-stone-claystone-sand-stone-armedangels
 Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 129 €
+Code-barres : 4255860162580, 4255860162573, 4255860162566
+
+Produit 17
+Nom : Pull col zippé en coton bio et en laine recyclée | noir "Tweed knit troyer - black"
+Lien : https://www.wedressfair.fr/collections/tweed-knit-troyer-black-black-armedangels
+Rayon (femme / homme / mixte) : homme
+Composition : 65% coton biologique, 35% laine recyclée
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 159 €
+Code-barres : 4255860172763, 4255860172756, 4255860172749
+
+Produit 18
+Nom : Pull camionneur en coton bio | lilas "Vanisé rib knit troyer - moonlit lilac"
+Lien : https://www.wedressfair.fr/collections/vanise-rib-knit-troyer-moonlit-lilac-dark-moonlit-lilac-moonlit-lilac-dark-moonlit-lilac-armedangels-moonlit-lilac-dark-moonlit-lilac
+Rayon (femme / homme / mixte) : femme
 Composition : 100% coton biologique
 Fabriqué en : Turquie
 Tissé en : 
 Teint en : 
-Prix : 99 €
-Code-barres : 4255860168926, 4255860168919, 4255860168902
+Prix : 139 €
+Code-barres : 4255860178789, 4255860178765, 4255860178758
+
+Produit 19
+Nom : Pull en mélange de laine recyclée et bio | beige et marron "Wool multi dots knit sweater - claystone melange-oatmilk"
+Lien : https://www.wedressfair.fr/collections/wool-multi-dots-knit-sweater-claystone-melange-oatmilk-claystone-melange-oatmilk-armedangels-claystone-melange-oatmilk
+Rayon (femme / homme / mixte) : femme
+Composition : 51% laine recyclée, 34% laine biologique, 14% polyamide, 1% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 149 €
+Code-barres : 4255860173661, 4255860173647, 4255860173630
 
 ===== ROBES ET JUPES =====
 
 Produit 1
-Nom : Jupe en laine bio | gris foncé "darlaa - steel melange"
-Lien : https://www.wedressfair.fr/collections/jupe-en-laine-bio-gris-fonce-darlaa-steel-melange-armedangels
+Nom : Jupe courte maille en maille et coton bio | marron
+Lien : https://www.wedressfair.fr/collections/cotton-wool-mini-knit-skirt-claystone-claystone-armedangels
 Rayon (femme / homme / mixte) : femme
-Composition : 67% coton biologique, 28% laine biologique, 5% polyamide recyclé
+Composition : 78% coton biologique, 17% laine biologique, 5% polyamide recyclé
 Fabriqué en : Turquie
 Tissé en : 
 Teint en : 
-Prix : 69 €
-Code-barres : 4255715635764, 4255715635740, 4255715635733
+Prix : 89 €
+Code-barres : 4255860186319, 4255860186296, 4255860186289
 
 Produit 2
-Nom : Jupe en laine bio | bordeaux "darlaa tweed - dark cranberry"
-Lien : https://www.wedressfair.fr/collections/jupe-en-laine-bio-bordeaux-darlaa-tweed-dark-cranberry-armedangels
-Rayon (femme / homme / mixte) : femme
-Composition : 67% coton biologique, 28% laine biologique, 5% polyamide recyclé
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 69 €
-Code-barres : 4255808174262, 4255808174248, 4255808174231
-
-Produit 3
 Nom : Jupe courte maille en coton et laine bio | gris clair
 Lien : https://www.wedressfair.fr/collections/cotton-wool-mini-knit-skirt-dark-honey-melange-dark-honey-melange-armedangels
 Rayon (femme / homme / mixte) : femme
@@ -140,7 +349,29 @@ Teint en :
 Prix : 89 €
 Code-barres : 4255860174088, 4255860174064, 4255860174057
 
+Produit 3
+Nom : Jupe courte maille en coton et laine bio | gris foncé "Cotton-wool mini knit skirt"
+Lien : https://www.wedressfair.fr/collections/cotton-wool-mini-knit-skirt-steel-melange-steel-melange-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 78% coton biologique, 17% laine biologique, 5% polyamide recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 4255860174026, 4255860174002, 4255860173999
+
 Produit 4
+Nom : Jupe en coton bio et laine | marine "darlaa check - night sky-steel melange"
+Lien : https://www.wedressfair.fr/collections/jupe-en-coton-bio-et-laine-marine-darlaa-check-night-sky-steel-melange-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 65% coton biologique, 35% laine biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 69 €
+Code-barres : 4255808146818, 4255808146795, 4255808146788
+
+Produit 5
 Nom : Jupe en coton bio | rayé marine "pinstripe mini skirt - night sky-white"
 Lien : https://www.wedressfair.fr/collections/jupe-en-coton-bio-raye-marine-pinstripe-mini-skirt-night-sky-white-armedangels
 Rayon (femme / homme / mixte) : femme
@@ -151,9 +382,130 @@ Teint en :
 Prix : 59 €
 Code-barres : 4255860103552, 4255860103538, 4255860103521
 
+Produit 6
+Nom : Jupe en coton biologique recyclé | bleu "aacumeri - andromedar"
+Lien : https://www.wedressfair.fr/collections/jupe-en-coton-biologique-recycle-bleu-aacumeri-andromedar-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 50 €
+Code-barres : 4255715690312, 4255715690299, 4255715690282
+
+Produit 7
+Nom : Jupe en laine bio | bordeaux "darlaa tweed - dark cranberry"
+Lien : https://www.wedressfair.fr/collections/jupe-en-laine-bio-bordeaux-darlaa-tweed-dark-cranberry-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 67% coton biologique, 28% laine biologique, 5% polyamide recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 69 €
+Code-barres : 4255808174262, 4255808174248, 4255808174231
+
+Produit 8
+Nom : Jupe en tencel | marine "nikkiaa - night sky"
+Lien : https://www.wedressfair.fr/collections/jupe-en-tencel-marine-nikkiaa-night-sky-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% tencel® (procédé lyocell)
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 40 €
+Code-barres : 4255715687190, 4255715687176, 4255715687169
+
+Produit 9
+Nom : Jupe longue côtelée en coton bio et laine | noir "hanaa tweed - black-oatmilk"
+Lien : https://www.wedressfair.fr/collections/jupe-longue-cotelee-en-coton-bio-et-laine-noir-hanaa-tweed-black-oatmilk-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 65% coton biologique, 35% laine recyclée
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 104 €
+Code-barres : 4255808140007, 4255808139988, 4255808139971
+
+Produit 10
+Nom : Jupe longue en denim de coton recyclé | blanc "kitaari demi white"
+Lien : https://www.wedressfair.fr/collections/jupe-longue-en-denim-de-coton-recycle-blanc-kitaari-demi-white-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton recyclé
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 4255715619481, 4255715619467, 4255715619450
+
+Produit 11
+Nom : Jupe longue jean en coton bio | bleu "kaalyke - daydream"
+Lien : https://www.wedressfair.fr/collections/jupe-longue-jean-en-coton-bio-bleu-kaalyke-daydream-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique recyclé
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 4255715678464, 4255715678440, 4255715678433
+
+Produit 12
+Nom : Jupe tweed en coton bio | gris chiné
+Lien : https://www.wedressfair.fr/collections/tweed-skirt-mid-grey-melange-oatmilk-mid-grey-melange-oatmilk-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 119 €
+Code-barres : 4255860187309, 4255860187286, 4255860187279
+
 ===== PANTALONS ET JEANS =====
 
 Produit 1
+Nom : Jean ballon en coton recyclé | noir "Baarly high waist barrel jean - ebony black"
+Lien : https://www.wedressfair.fr/collections/baarly-high-waist-barrel-jean-ebony-black-ebony-black-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 129 €
+Code-barres : 4255860167073, 4255860167080, 4255860167103
+
+Produit 2
+Nom : Jean ballon en coton bio | Baarly high waist barrel jean - fluid ink
+Lien : https://www.wedressfair.fr/collections/baarly-high-waist-barrel-jean-fluid-ink-fluid-ink-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 42% coton biologique, 38% tencel® (procédé lyocell), 20% coton recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 129 €
+Code-barres : 4255860157111, 4255860157128, 4255860157142
+
+Produit 3
+Nom : Pantalon ballon en coton bio | gris foncé "Barrel leg twill pant"
+Lien : https://www.wedressfair.fr/collections/barrel-leg-twill-pant-dark-steel-dark-steel-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 119 €
+Code-barres : 4255860148195, 4255860148171, 4255860148164
+
+Produit 4
+Nom : Pantalon ballon twill en coton bio | marine
+Lien : https://www.wedressfair.fr/collections/barrel-leg-twill-pant-night-sky-armedangels-night-sky
+Rayon (femme / homme / mixte) : femme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 119 €
+Code-barres : 4255860121754, 4255860121730, 4255860121723
+
+Produit 5
 Nom : Jean droit en coton recyclé et tencel | noir délavé "Carenaa mid straight jean - ebony"
 Lien : https://www.wedressfair.fr/collections/carenaa-mid-straight-jean-ebony-ebony-armedangels
 Rayon (femme / homme / mixte) : femme
@@ -164,7 +516,7 @@ Teint en :
 Prix : 119 €
 Code-barres : 4255860113353, 4255860113360, 4255860113384
 
-Produit 2
+Produit 6
 Nom : Jean baggy taille basse en coton recyclé | noir délavé "Haayi low waist baggy jean"
 Lien : https://www.wedressfair.fr/collections/haayi-low-waist-baggy-jean-ebony-black-ebony-black-armedangels
 Rayon (femme / homme / mixte) : femme
@@ -175,7 +527,128 @@ Teint en :
 Prix : 129 €
 Code-barres : 4255808163327, 4255715694723, 4255808163334
 
-Produit 3
+Produit 7
+Nom : Jean baggy taille basse en coton recyclé | bleu "Haayi low waist baggy jean - fluid ink"
+Lien : https://www.wedressfair.fr/collections/haayi-low-waist-baggy-jean-fluid-ink-fluid-ink-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 42% coton biologique, 38% lyocell, 20% coton recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 139 €
+Code-barres : 4255860158415, 4255860158422, 4255860158446
+
+Produit 8
+Nom : Jean droit large en coton recyclé | bleu "enijaa - daydream"
+Lien : https://www.wedressfair.fr/collections/jean-droit-large-en-coton-recycle-bleu-enijaa-daydream-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton recyclé
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 129 €
+Code-barres : 4255808162214, 4255715693740, 4255808162221
+
+Produit 9
+Nom : Pantalon ample en tencel | marron "Leandraa pant - claystone"
+Lien : https://www.wedressfair.fr/collections/leandraa-pant-claystone-claystone-armedangels-claystone
+Rayon (femme / homme / mixte) : femme
+Composition : 98% tencel® (procédé lyocell), 2% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 129 €
+Code-barres : 4255860143688, 4255860143664, 4255860143657
+
+Produit 10
+Nom : Pantalon 7/8 en lin bio | beige "caarunus lino pant - sandstone"
+Lien : https://www.wedressfair.fr/collections/pantalon-7-8-en-lin-bio-beige-caarunus-lino-pant-sandstone-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 74% ecovero® (par lenzing®), 26% lin
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 119 €
+Code-barres : 4255808187958, 4255808187934, 4255808187927
+
+Produit 11
+Nom : Pantalon à pinces en coton bio | marron "warmaar deep brown"
+Lien : https://www.wedressfair.fr/collections/pantalon-a-pinces-en-coton-bio-marron-warmaar-deep-brown-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 4255623448449, 4255623448425, 4255623448418
+
+Produit 12
+Nom : Pantalon ample en ecovero | noir "jonvaalie black"
+Lien : https://www.wedressfair.fr/collections/pantalon-ample-en-ecovero-noir-jonvaalie-black-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% ecovero® (par lenzing®)
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 4255623476831, 4255623476817, 4255623476800
+
+Produit 13
+Nom : Pantalon ballon en coton bio | beige "barrel leg twill pant - true camel"
+Lien : https://www.wedressfair.fr/collections/pantalon-ballon-en-coton-bio-beige-barrel-leg-twill-pant-true-camel-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 71 €
+Code-barres : 4255808195489, 4255808195465, 4255808195458
+
+Produit 14
+Nom : Pantalon droit en ecovero® | gris "fenraa - dark steel"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-en-ecovero-gris-fenraa-dark-steel-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 96% ecovero® (par lenzing®), 4% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 4255715658107, 4255715658084, 4255715658077
+
+Produit 15
+Nom : Pantalon droit en ecovero | noir "magdaalena black"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-en-ecovero-noir-magdaalena-black-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 82% ecovero® (par lenzing®), 16% polyamide recyclé, 2% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 4251765508584, 4251765508560, 4251765508553
+
+Produit 16
+Nom : Pantalon droit flanelle en coton bio | beige "leandraa handaas - pure-walnut cream"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-flanelle-en-coton-bio-beige-leandraa-handaas-pure-walnut-cream-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 97% coton biologique, 3% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 97 €
+Code-barres : 4255808165246, 4255808165222, 4255808165215
+
+Produit 17
+Nom : Pantalon jersey en ecovero et matière recyclée | gris "himaari - steel melange"
+Lien : https://www.wedressfair.fr/collections/pantalon-jersey-en-ecovero-et-matiere-recyclee-gris-himaari-steel-melange-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 82% ecovero® (par lenzing®), 16% polyamide recyclé, 2% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 62 €
+Code-barres : 4255808125653, 4255808125639, 4255808125622
+
+Produit 18
 Nom : Pantalon noir jersey en ecovero et matière recyclée | noir "himaari black"
 Lien : https://www.wedressfair.fr/collections/pantalon-noir-jersey-en-ecovero-et-matiere-recyclee-noir-himaari-black-armedangels
 Rayon (femme / homme / mixte) : femme
@@ -186,31 +659,75 @@ Teint en :
 Prix : 89 €
 Code-barres : 4252021280282, 4252021280268, 4252021280251
 
-Produit 4
-Nom : Pantalon ballon en coton bio | vert "Barrel leg twill pant"
-Lien : https://www.wedressfair.fr/collections/barrel-leg-twill-pant-light-sage-light-sage-armedangels
-Rayon (femme / homme / mixte) : femme
-Composition : 98% coton biologique, 2% élasthanne
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 119 €
-Code-barres : 4255860148249, 4255860148225, 4255860148218
-
-Produit 5
-Nom : Pantalon droit flanelle en coton bio | gris/marine "leandraa handaas - pure-tinted navy"
-Lien : https://www.wedressfair.fr/collections/pantalon-droit-flanelle-en-coton-bio-gris-marine-leandraa-handaas-pure-tinted-navy-armedangels
-Rayon (femme / homme / mixte) : femme
+Produit 19
+Nom : Pantalon pinces droit en coton bio | bleu marine "Taamir pleated chino pant - night sky"
+Lien : https://www.wedressfair.fr/collections/taamir-pleated-chino-pant-night-sky-night-sky-armedangels
+Rayon (femme / homme / mixte) : homme
 Composition : 97% coton biologique, 3% élasthanne
-Fabriqué en : Maroc
+Fabriqué en : Turquie
 Tissé en : 
 Teint en : 
-Prix : 97 €
-Code-barres : 4255808165291, 4255808165277, 4255808165260
+Prix : 129 €
+Code-barres : 4255860179458, 4255860179472, 4255860179496
 
 ===== CHEMISES ET BLOUSES =====
 
 Produit 1
+Nom : Blouse en viscose ecovero | noir "larisaana longsleeve - black"
+Lien : https://www.wedressfair.fr/collections/blouse-en-viscose-ecovero-noir-larisaana-longsleeve-black-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% ecovero® (par lenzing®)
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 4255808138196, 4255808138172, 4255808138165
+
+Produit 2
+Nom : Chemise en coton bio | écru "nalaannia - oatmilk"
+Lien : https://www.wedressfair.fr/collections/chemise-beige-nalaannia-oatmilk-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 96% coton biologique, 4% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 79 €
+Code-barres : 4255715683369, 4255715683345, 4255715683338
+
+Produit 3
+Nom : Chemise en coton bio | blanc "louilaa - white"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-blanc-louilaa-white-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 47 €
+Code-barres : 4255715636051, 4255715636037, 4255715636020
+
+Produit 4
+Nom : Chemise en coton bio | blanche "quaasa - white"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-blanche-quaasa-white-armedangels
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 4255623423644, 4255623423637, 4255623423620
+
+Produit 5
+Nom : Chemise en coton bio | rayé "quaasa stripes - night sky-white"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-raye-quaasa-stripes-night-sky-white-armedangels
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 62 €
+Code-barres : 4255715674831, 4255715674824, 4255715674817
+
+Produit 6
 Nom : Chemise multicolore à rayures en coton bio - sennaama stripes white
 Lien : https://www.wedressfair.fr/collections/chemise-multicolore-a-rayures-en-coton-bio-sennaama-stripes-white-armedangels
 Rayon (femme / homme / mixte) : femme
@@ -221,24 +738,158 @@ Teint en :
 Prix : 48 €
 Code-barres : 4252021278050, 4252021278036, 4252021278029
 
-Produit 2
-Nom : Blouse en viscose ecovero | blanc "larisaana longsleeve - off white"
-Lien : https://www.wedressfair.fr/collections/chemise-en-ecovero-blanc-larisaana-longsleeve-off-white-armedangels
+Produit 7
+Nom : Chemisette ample en coton bio | violet "eassaali vichi blue ash"
+Lien : https://www.wedressfair.fr/collections/chemisette-ample-en-coton-bio-violet-eassaali-vichi-blue-ash-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 40 €
+Code-barres : 4255715612246, 4255715612222, 4255715612215
+
+Produit 8
+Nom : Chemisier en ecovero | blanc "larisaana off white"
+Lien : https://www.wedressfair.fr/collections/chemisier-en-ecovero-blanc-larisaana-off-white-armedangels
 Rayon (femme / homme / mixte) : femme
 Composition : 100% ecovero® (par lenzing®)
-Fabriqué en : Portugal
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 79 €
+Code-barres : 4255623477401, 4255623477388, 4255623477371
+
+Produit 9
+Nom : Chemise en viscose ecovero | bordeaux "Efinaraa ecovero blouse | velvet red"
+Lien : https://www.wedressfair.fr/collections/efinaraa-ecovero-blouse-velvet-red-velvet-red-armedangels-velvet-red
+Rayon (femme / homme / mixte) : femme
+Composition : 100% viscose (procédé lyocell)
+Fabriqué en : Turquie
 Tissé en : 
 Teint en : 
 Prix : 89 €
-Code-barres : 4255808138240, 4255808138226, 4255808138219
+Code-barres : 4255860150297, 4255860150273, 4255860150266
 
-Produit 3
-Nom : Chemise en coton bio | blanche "quaasa - white"
-Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-blanche-quaasa-white-armedangels
+Produit 10
+Nom : Chemise ample flanelle en coton bio | bleu vert "Efinaraa flanell blouse - petrol velvet"
+Lien : https://www.wedressfair.fr/collections/efinaraa-flanell-blouse-petrol-velvet-petrol-velvet-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 4255860190040, 4255860190026, 4255860190019
+
+Produit 11
+Nom : Chemise en coton bio | bleu "Quaasa longsleeve shirt tinted navy - tinted-navy"
+Lien : https://www.wedressfair.fr/collections/quaasa-longsleeve-shirt-tinted-navy-tinted-navy-armedangels
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
-Prix : 89 €
-Code-barres : 4255623423644, 4255623423637, 4255623423620
+Prix : 47 €
+Code-barres : 4255808186715, 4255808186708, 4255808186692
+
+Produit 12
+Nom : Chemise ample en coton bio | rayée "Stripe loose shirt blouse | moonlit lilac-sandstone"
+Lien : https://www.wedressfair.fr/collections/stripe-loose-shirt-blouse-moonlit-lilac-sandstone-moonlit-lilac-sandstone-armedangels-moonlit-lilac-sandstone
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 4255860180577, 4255860180553, 4255860180546
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Veste maille en coton bio | marine "Agaamon knit jacket - night sky"
+Lien : https://www.wedressfair.fr/collections/agaamon-knit-jacket-night-sky-night-sky-armedangels
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 109 €
+Code-barres : 4255715630523, 4255715630516, 4255715630509
+
+Produit 2
+Nom : Veste en coton et laine bio | marron "cotton-wool knit jacket | amberwood"
+Lien : https://www.wedressfair.fr/collections/cotton-wool-knit-jacket-amberwood-amberwood-armedangels-amberwood
+Rayon (femme / homme / mixte) : femme
+Composition : 77% coton biologique, 18% laine biologique, 5% polyamide recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 249 €
+Code-barres : 4255860177942, 4255860177928, 4255860177911
+
+Produit 3
+Nom : Manteau court en laine recyclée | noir "Majelaa wool jacket - black"
+Lien : https://www.wedressfair.fr/collections/majelaa-wool-jacket-black-black-armedangels-black
+Rayon (femme / homme / mixte) : femme
+Composition : 100% laine recyclée
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 349 €
+Code-barres : 4255860164003, 4255860163983, 4255860163976
+
+Produit 4
+Nom : Veste doublée en velours coton bio | camel "Padded cord iconic å jacket"
+Lien : https://www.wedressfair.fr/collections/padded-cord-iconic-a-jacket-amberwood-amberwood-armedangels-amberwood
+Rayon (femme / homme / mixte) : femme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 259 €
+Code-barres : 4255860162658, 4255860162634, 4255860162627
+
+Produit 5
+Nom : Veste doublée en coton bio | gris foncé "Padded cotton iconic å jacket | dark steel"
+Lien : https://www.wedressfair.fr/collections/padded-cotton-iconic-a-jacket-dark-steel-dark-steel-armedangels-dark-steel
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 259 €
+Code-barres : 4255860162702, 4255860162689, 4255860162672
+
+Produit 6
+Nom : Veste en coton bio | noir "Structure zip jacket - black"
+Lien : https://www.wedressfair.fr/collections/structure-zip-jacket-black-black-armedangels
+Rayon (femme / homme / mixte) : homme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 149 €
+Code-barres : 4255860177768, 4255860177751, 4255860177744
+
+Produit 7
+Nom : Veste en coton bio et laine | marine "joaalison check - night sky-steel melange"
+Lien : https://www.wedressfair.fr/collections/veste-en-coton-bio-et-laine-marine-joaalison-check-night-sky-steel-melange-armedangels
+Rayon (femme / homme / mixte) : femme
+Composition : 65% coton biologique, 35% laine biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 174 €
+Code-barres : 4255808146917, 4255808146894, 4255808146887
+
+Produit 8
+Nom : Manteau long en laine recyclée | noir "Wool double-breasted coat"
+Lien : https://www.wedressfair.fr/collections/wool-double-breasted-coat-black-black-armedangels-black
+Rayon (femme / homme / mixte) : femme
+Composition : 100% laine recyclée
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 399 €
+Code-barres : 4255860150860, 4255860150846, 4255860150839

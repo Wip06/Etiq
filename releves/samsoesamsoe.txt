@@ -1,0 +1,99 @@
+RELEVÉ SAMSOE SAMSOE
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== ROBES ET JUPES =====
+
+Produit 1
+Nom : Jupe en jean rose en coton bio - norma skirt root
+Lien : https://www.wedressfair.fr/collections/jupe-en-jean-rose-en-coton-bio-norma-skirt-root-samsoe-samsoe
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 5711452994827, 5711452994834, 5711452994841
+
+===== PANTALONS ET JEANS =====
+
+Produit 1
+Nom : Jean droit blanc en coton bio "susan jeans ecru"
+Lien : https://www.wedressfair.fr/collections/jean-droit-blanc-en-coton-bio-susan-jeans-ecru-samsoe-samsoe
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 64 €
+Code-barres : 5711452997156, 5711452997163, 5711452997170
+
+Produit 2
+Nom : Jean droit en coton bio et recyclé | bleu délavé "susan jeans split seam desert dust"
+Lien : https://www.wedressfair.fr/collections/jean-droit-en-coton-bio-et-recycle-bleu-delave-susan-jeans-split-seam-desert-dust-samsoe-samsoe
+Rayon (femme / homme / mixte) : femme
+Composition : 80% coton biologique, 20% coton recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 68 €
+Code-barres : 5711452997644, 5711452997651, 5711452997668
+
+Produit 3
+Nom : Jean droit en coton bio et recyclé | gris "susan jeans split mist"
+Lien : https://www.wedressfair.fr/collections/jean-droit-en-coton-bio-et-recycle-gris-susan-jeans-split-mist-samsoe-samsoe
+Rayon (femme / homme / mixte) : femme
+Composition : 80% coton biologique, 20% coton recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 64 €
+Code-barres : 5711453080215, 5711453080222, 5711453080239
+
+Produit 4
+Nom : Jean droit jacquard noir en coton bio - susan jeans black od check
+Lien : https://www.wedressfair.fr/collections/jean-droit-jacquard-noir-en-coton-bio-susan-jeans-black-od-check-samsoe-samsoe
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 68 €
+Code-barres : 5711453044743, 5711453044750, 5711453044767
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 1
+Nom : Chemise en lyocell | noir "madisoni shirt washed black"
+Lien : https://www.wedressfair.fr/collections/chemise-en-lyocell-noir-madisoni-shirt-washed-black-samsoe-samsoe
+Rayon (femme / homme / mixte) : femme
+Composition : 100% tencel® (procédé lyocell)
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 5711453098470, 5711453098487, 5711453098494
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Blazer rose en ecovero et matière recyclée - haven blazer fandango pink
+Lien : https://www.wedressfair.fr/collections/blazer-rose-en-ecovero-et-matiere-recyclee-haven-blazer-fandango-pink-samsoe-samsoe
+Rayon (femme / homme / mixte) : femme
+Composition : 68% polyester recyclé, 29% ecovero® (par lenzing®), 3% élasthanne
+Fabriqué en : Lettonie
+Tissé en : 
+Teint en : 
+Prix : 112 €
+Code-barres : 5711452891140, 5711452891157, 5711452891164

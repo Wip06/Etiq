@@ -1,0 +1,141 @@
+RELEVÉ ÉMOI ÉMOI
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : T-shirt en coton bio | bordeaux "Le t-shirt cœur d'artichaut - merlot"
+Lien : https://www.wedressfair.fr/collections/le-t-shirt-coeur-d-artichaut-merlot-merlot-merlot-emoi-emoi
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 55 €
+Code-barres : 731093980459, 731093980466, 731093980473
+
+===== PULLS ET MAILLE =====
+
+Produit 1
+Nom : Sweat en coton bio | bleu "sky - fleur bleue"
+Lien : https://www.wedressfair.fr/collections/le-sweat-sky-en-coton-bio-fleur-bleue-fleur-bleue-emoi-emoi
+Rayon (femme / homme / mixte) : femme
+Composition : 96% coton biologique, 4% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 95 €
+Code-barres : 731093980664, 731093980671, 731093980688
+
+Produit 2
+Nom : Sweat polaire en matière recyclée | beige "Sven - biscotti flowers"
+Lien : https://www.wedressfair.fr/collections/le-sweat-sven-en-polaire-recyclee-biscotti-flowers-biscotti-flowers-emoi-emoi
+Rayon (femme / homme / mixte) : femme
+Composition : 100% polyester recyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 119 €
+Code-barres : 731093981593, 731093981616, 731093981623
+
+Produit 3
+Nom : Sweat brodé en coton bio | crème "sweat cœur solaire femme avec coudières "
+Lien : https://www.wedressfair.fr/collections/sweat-brode-en-coton-bio-creme-sweat-coeur-solaire-femme-avec-coudieres-emoi-emoi
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 109 €
+Code-barres : 787907513115, 787907513122, 787907513139
+
+Produit 4
+Nom : Sweat brodé en coton bio | crème "l'amour est déclaré"
+Lien : https://www.wedressfair.fr/collections/sweat-brode-en-coton-bio-creme-sweat-l-amour-est-declare-creme-rouge-emoi-emoi
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 115 €
+Code-barres : 731093963896, 731093963902, 731093963919
+
+Produit 5
+Nom : Sweat en polaire recyclée | bleu/blanc "scarlett fleur du lac"
+Lien : https://www.wedressfair.fr/collections/sweat-en-polaire-recyclee-bleu-blanc-scarlett-fleur-du-lac-emoi-emoi
+Rayon (femme / homme / mixte) : femme
+Composition : 100% polyester recyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 74 €
+Code-barres : 731093975769, 731093975776, 731093975783
+
+Produit 6
+Nom : Sweat oversize brodé en coton bio | bleu "cœur solaire bleu"
+Lien : https://www.wedressfair.fr/collections/sweat-oversize-brode-en-coton-bio-bleu-coeur-solaire-bleu-emoi-emoi
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 109 €
+Code-barres : 731093973673, 731093973680, 731093973697
+
+Produit 7
+Nom : Sweat polaire en matière recyclée | écru/chocolat "sven"
+Lien : https://www.wedressfair.fr/collections/sweat-polaire-en-matiere-recyclee-ecru-chocolat-sven-emoi-emoi
+Rayon (femme / homme / mixte) : femme
+Composition : 100% polyester recyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 81 €
+Code-barres : 731093976414, 731093976421, 731093976438
+
+===== PANTALONS ET JEANS =====
+
+Produit 1
+Nom : Pantalon ample molettonné en coton bio | bleu "Le pantalon pauline en coton bio - fleur bleue"
+Lien : https://www.wedressfair.fr/collections/le-pantalon-pauline-en-coton-bio-fleur-bleue-fleur-bleue-emoi-emoi
+Rayon (femme / homme / mixte) : femme
+Composition : 96% coton biologique, 4% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 95 €
+Code-barres : 731093980558, 731093980565, 731093980572
+
+Produit 2
+Nom : Pantalon ample molleton en coton bio | bordeaux "pauline - merlot flowers"
+Lien : https://www.wedressfair.fr/collections/le-pantalon-pauline-en-coton-bio-merlot-flowers-merlot-flowers-emoi-emoi
+Rayon (femme / homme / mixte) : femme
+Composition : 96% coton biologique, 4% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 95 €
+Code-barres : 731093980909, 731093980916, 731093980923
+
+Produit 3
+Nom : Pantalon ample jersey en coton bio | vert "pauline"
+Lien : https://www.wedressfair.fr/collections/pantalon-en-coton-bio-vert-pauline-emoi-emoi
+Rayon (femme / homme / mixte) : femme
+Composition : 96% coton biologique, 4% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 57 €
+Code-barres : 731093978555, 731093978562, 731093978579

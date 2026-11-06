@@ -1,8 +1,8 @@
 RELEVÉ BRAVA FABRICS
 
-Date du relevé : 5 novembre 2026
-Relevé automatique sur WeDressFair (revendeur multimarque) : premières fiches de la marque dans le plan
-du site, par catégorie, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
 qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
 
 ===== LA MARQUE =====
@@ -16,17 +16,6 @@ Lien de la page :
 ===== T-SHIRTS ET TOPS =====
 
 Produit 1
-Nom : T-shirt en coton biologique | "ola de calor oversize tee white - white"
-Lien : https://www.wedressfair.fr/collections/t-shirt-en-coton-biologique-ola-de-calor-oversize-tee-white-white-brava-fabrics
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 25 €
-Code-barres : 5056709419266, 5056709419273, 5056709419280
-
-Produit 2
 Nom : T-shirt en coton bio | vert "Asis percales daisy t-shirt green"
 Lien : https://www.wedressfair.fr/collections/asis-percales-daisy-t-shirt-green-green-brava-fabrics
 Rayon (femme / homme / mixte) : homme
@@ -36,6 +25,17 @@ Tissé en :
 Teint en : 
 Prix : 29 €
 Code-barres : 5056709439912, 5056709439929, 5056709439936
+
+Produit 2
+Nom : T-shirt en coton biologique | "ola de calor oversize tee white - white"
+Lien : https://www.wedressfair.fr/collections/t-shirt-en-coton-biologique-ola-de-calor-oversize-tee-white-white-brava-fabrics
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 25 €
+Code-barres : 5056709419266, 5056709419273, 5056709419280
 
 ===== PULLS ET MAILLE =====
 
@@ -77,39 +77,17 @@ Code-barres : 5056709438748, 5056709438755, 5056709438762
 ===== CHEMISES ET BLOUSES =====
 
 Produit 1
-Nom : Chemisette en coton bio et recyclé | rayée rose "stripes aloha blouse vermillion red"
-Lien : https://www.wedressfair.fr/collections/chemisette-en-coton-bio-et-recycle-rayee-rose-stripes-aloha-blouse-vermillion-red-brava-fabrics
+Nom : Blouse blanche en coton biologique - ribbon boho offwhite
+Lien : https://www.wedressfair.fr/collections/blouse-blanche-en-coton-biologique-ribbon-boho-offwhite-brava-fabrics
 Rayon (femme / homme / mixte) : femme
-Composition : 55% coton biologique, 23% coton recyclé, 22% polyester recyclé
-Fabriqué en : Maroc
+Composition : 100% coton biologique
+Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 36 €
-Code-barres : 5056330495332, 5056330495349, 5056330495356
+Code-barres : 5056330432597, 5056330432603, 5056330432610
 
 Produit 2
-Nom : Chemise en coton bio et ecovero | multicolore "sunset aloha shirt navy"
-Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-et-ecovero-multicolore-sunset-aloha-shirt-navy-brava-fabrics
-Rayon (femme / homme / mixte) : homme
-Composition : 78% coton biologique, 22% viscose (procédé lyocell)
-Fabriqué en : Espagne
-Tissé en : 
-Teint en : 
-Prix : 53 €
-Code-barres : 5056709417767, 5056709417774, 5056709417781
-
-Produit 3
-Nom : Blouse en seersucker coton bio et lyocell | multicolore "Maxi flower oversize cropped blouse"
-Lien : https://www.wedressfair.fr/collections/maxi-flower-oversize-cropped-blouse-blue-brava-fabrics
-Rayon (femme / homme / mixte) : femme
-Composition : 78% coton biologique, 22% viscose
-Fabriqué en : Espagne
-Tissé en : 
-Teint en : 
-Prix : 53 €
-Code-barres : 5056709435136, 5056709435143, 5056709435150
-
-Produit 4
 Nom : Blouse en coton bio et matières recyclées | bleu "checks button up blouse blue"
 Lien : https://www.wedressfair.fr/collections/blouse-en-coton-bio-et-matieres-recyclees-bleu-checks-button-up-blouse-blue-brava-fabrics
 Rayon (femme / homme / mixte) : femme
@@ -120,7 +98,7 @@ Teint en :
 Prix : 41 €
 Code-barres : 5056709435532, 5056709435549, 5056709435556
 
-Produit 5
+Produit 3
 Nom : Chemise à motifs en coton bio | bleu "spring regular shirt beige"
 Lien : https://www.wedressfair.fr/collections/chemise-a-motifs-en-coton-bio-bleu-spring-regular-shirt-beige-brava-fabrics
 Rayon (femme / homme / mixte) : homme
@@ -130,6 +108,28 @@ Tissé en :
 Teint en : 
 Prix : 40 €
 Code-barres : 5056330493086, 5056330493093, 5056330493109
+
+Produit 4
+Nom : Chemise en coton bio et ecovero | multicolore "sunset aloha shirt navy"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-et-ecovero-multicolore-sunset-aloha-shirt-navy-brava-fabrics
+Rayon (femme / homme / mixte) : homme
+Composition : 78% coton biologique, 22% viscose (procédé lyocell)
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 53 €
+Code-barres : 5056709417767, 5056709417774, 5056709417781
+
+Produit 5
+Nom : Chemise en flanelle de coton bio | kaki foncé "two tones regular shirt khaki"
+Lien : https://www.wedressfair.fr/collections/chemise-en-flanelle-de-coton-bio-kaki-fonce-two-tones-regular-shirt-khaki-brava-fabrics
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 5056330478366, 5056330478373, 5056330478380
 
 Produit 6
 Nom : Chemise flanelle en coton bio | marron "heart flannel overshirt brown"
@@ -143,6 +143,17 @@ Prix : 90 €
 Code-barres : 5056709429791, 5056709429807, 5056709429814
 
 Produit 7
+Nom : Chemisette en coton bio et recyclé | rayée rose "stripes aloha blouse vermillion red"
+Lien : https://www.wedressfair.fr/collections/chemisette-en-coton-bio-et-recycle-rayee-rose-stripes-aloha-blouse-vermillion-red-brava-fabrics
+Rayon (femme / homme / mixte) : femme
+Composition : 55% coton biologique, 23% coton recyclé, 22% polyester recyclé
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 36 €
+Code-barres : 5056330495332, 5056330495349, 5056330495356
+
+Produit 8
 Nom : Chemisette en ecovero | multicolore "peanuts coast aloha shirt ocean blue"
 Lien : https://www.wedressfair.fr/collections/chemisette-en-ecovero-multicolore-peanuts-coast-aloha-shirt-ocean-blue-brava-fabrics
 Rayon (femme / homme / mixte) : homme
@@ -153,42 +164,20 @@ Teint en :
 Prix : 40 €
 Code-barres : 5056330492034, 5056330492041, 5056330492058
 
-Produit 8
-Nom : Chemise en flanelle de coton bio | kaki foncé "two tones regular shirt khaki"
-Lien : https://www.wedressfair.fr/collections/chemise-en-flanelle-de-coton-bio-kaki-fonce-two-tones-regular-shirt-khaki-brava-fabrics
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 48 €
-Code-barres : 5056330478366, 5056330478373, 5056330478380
-
 Produit 9
-Nom : Blouse blanche en coton biologique - ribbon boho offwhite
-Lien : https://www.wedressfair.fr/collections/blouse-blanche-en-coton-biologique-ribbon-boho-offwhite-brava-fabrics
+Nom : Blouse en seersucker coton bio et lyocell | multicolore "Maxi flower oversize cropped blouse"
+Lien : https://www.wedressfair.fr/collections/maxi-flower-oversize-cropped-blouse-blue-brava-fabrics
 Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
+Composition : 78% coton biologique, 22% viscose
+Fabriqué en : Espagne
 Tissé en : 
 Teint en : 
-Prix : 36 €
-Code-barres : 5056330432597, 5056330432603, 5056330432610
+Prix : 53 €
+Code-barres : 5056709435136, 5056709435143, 5056709435150
 
 ===== MANTEAUX ET VESTES =====
 
 Produit 1
-Nom : Trench velours en coton bio | kaki clair "corduroy jacket pale green"
-Lien : https://www.wedressfair.fr/collections/trench-velours-en-coton-bio-kaki-clair-corduroy-jacket-pale-green-brava-fabrics
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 80 €
-Code-barres : 5056330486521, 5056330486538, 5056330486545
-
-Produit 2
 Nom : Veste en coton bio et matières recyclées | turquoise "denim stripes crop overshirt mint"
 Lien : https://www.wedressfair.fr/collections/surchemise-en-coton-bio-et-matieres-recyclees-turquoise-denim-stripes-crop-overshirt-mint-brava-fabrics
 Rayon (femme / homme / mixte) : femme
@@ -199,7 +188,7 @@ Teint en :
 Prix : 89 €
 Code-barres : 5056709438038, 5056709438045, 5056709438052
 
-Produit 3
+Produit 2
 Nom : Trench twill en coton bio | marron "twill jacket sequoia"
 Lien : https://www.wedressfair.fr/collections/trench-twill-en-coton-bio-marron-twill-jacket-sequoia-brava-fabrics
 Rayon (femme / homme / mixte) : femme
@@ -209,3 +198,14 @@ Tissé en :
 Teint en : 
 Prix : 80 €
 Code-barres : 5056330486552, 5056330486569, 5056330486576
+
+Produit 3
+Nom : Trench velours en coton bio | kaki clair "corduroy jacket pale green"
+Lien : https://www.wedressfair.fr/collections/trench-velours-en-coton-bio-kaki-clair-corduroy-jacket-pale-green-brava-fabrics
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 80 €
+Code-barres : 5056330486521, 5056330486538, 5056330486545

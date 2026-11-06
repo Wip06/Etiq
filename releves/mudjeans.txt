@@ -1,0 +1,185 @@
+RELEVÉ MUD JEANS
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== ROBES ET JUPES =====
+
+Produit 1
+Nom : Jupe en coton biologique | bleu foncé "Audry mini skirt - medium stone"
+Lien : https://www.wedressfair.fr/collections/audry-mini-skirt-medium-stone-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 60% coton biologique, 40% coton recyclé
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 59 €
+Code-barres : 8720916808737, 8720916808713, 8720916808706
+
+Produit 2
+Nom : Jupe denim en coton bio et recyclé | bleu
+Lien : https://www.wedressfair.fr/collections/jupe-denim-en-coton-bio-et-recycle-bleu-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 57% coton recyclé, 21% tencel® (procédé lyocell), 20% coton biologique, 2% autres fibres recyclées
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 59 €
+Code-barres : 8720916849198, 8720916849174, 8720916849167
+
+===== PANTALONS ET JEANS =====
+
+Produit 1
+Nom : Jean droit en coton bio et recyclé | noir "Carry mid straight - black vintage"
+Lien : https://www.wedressfair.fr/collections/carry-mid-straight-black-vintage-black-vintage-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 27% coton biologique, 25% refibra®, 25% coton upcyclé, 21% coton, 2% elasthanne recyclé
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 139 €
+Code-barres : 8720916827646, 8720916827677, 8720916827707
+
+Produit 2
+Nom : Jean ample léger en coton bio et viscose recyclée | bleu "sara high loose flow"
+Lien : https://www.wedressfair.fr/collections/jean-ample-fluide-en-coton-bio-et-lin-bleu-sara-high-loose-flow-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 60% coton biologique, 40% viscose recyclée
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 83 €
+Code-barres : 8720916860087, 8720916855632, 8720916855663
+
+Produit 3
+Nom : Jean ballon en coton bio et recyclé | bleu "brooke high barrel - stone vintage"
+Lien : https://www.wedressfair.fr/collections/jean-ballon-en-coton-bio-et-recycle-bleu-brooke-high-barrel-stone-vintage-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 60% coton biologique, 40% coton recyclé
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 8720916808935, 8720916808942, 8720916808959
+
+Produit 4
+Nom : Jean droit en coton bio et coton recyclé - "hank mid tapered - medium heritage"
+Lien : https://www.wedressfair.fr/collections/jean-droit-en-coton-bio-et-coton-recycle-hank-mid-tapered-medium-heritage-mud-jeans
+Rayon (femme / homme / mixte) : homme
+Composition : 79% coton biologique, 20% autres fibres recyclées, 1% elasthanne recyclé
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 100 €
+Code-barres : 8720916811669, 8720916811676, 8720916811683
+
+Produit 5
+Nom : Jean droit en coton bio et recyclé | bleu "carry mid straight - stone vintage"
+Lien : https://www.wedressfair.fr/collections/jean-droit-en-coton-bio-et-recycle-bleu-carry-mid-straight-stone-vintage-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 78% coton biologique, 20% coton recyclé, 2% elasthanne recyclé
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 139 €
+Code-barres : 8720916829848, 8720916829855, 8720916829879
+
+Produit 6
+Nom : Jean droit en coton bio et recyclé | bleu clair "carry mid straight - light stone vintage"
+Lien : https://www.wedressfair.fr/collections/jean-droit-en-coton-bio-et-recycle-bleu-clair-carry-mid-straight-light-stone-vintage-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 80% coton biologique, 20% coton recyclé, elasthanne recyclé
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 139 €
+Code-barres : 8720916856943, 8720916856950, 8720916856974
+
+Produit 7
+Nom : Jean droit en coton bio et recyclé - piper straight stone indigo
+Lien : https://www.wedressfair.fr/collections/jean-droit-en-coton-bio-et-recycle-piper-straight-stone-indigo-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 60% coton biologique, 35% coton recyclé, 5% autres fibres recyclées
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 52 €
+Code-barres : 8720088239490, 8720088239513, 8720088239537
+
+Produit 8
+Nom : Jean wide leg coton bio et recyclé | bleu "sara high loose - stone vintage"
+Lien : https://www.wedressfair.fr/collections/jean-evase-coton-bio-et-recycle-bleu-sara-high-loose-stone-vintage-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 60% coton biologique, 40% coton recyclé
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 149 €
+Code-barres : 8720916849020, 8720916849037, 8720916849044
+
+Produit 9
+Nom : Jean wide leg en coton bio et recyclé | bleu foncé "sara high loose stone indigo"
+Lien : https://www.wedressfair.fr/collections/jean-evase-en-coton-bio-et-recycle-bleu-fonce-sara-high-loose-stone-indigo-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 57% coton recyclé, 21% tencel® (procédé lyocell), 20% coton biologique, 2% autres fibres recyclées
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 139 €
+Code-barres : 8720916849051, 8720916849068, 8720916820463
+
+Produit 10
+Nom : Jean wide leg en coton bio et recyclé | noir "sara high loose nero"
+Lien : https://www.wedressfair.fr/collections/jean-evase-en-coton-bio-et-recycle-noir-sara-high-loose-nero-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 57% coton recyclé, 21% refibra®, 20% coton biologique
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 149 €
+Code-barres : 8720916813342, 8720916813359, 8720916813366
+
+Produit 11
+Nom : Jean slim bleu clair en coton bio et recyclé - regular swan heavy stone
+Lien : https://www.wedressfair.fr/collections/jean-slim-bleu-clair-en-coton-bio-et-recycle-regular-swan-heavy-stone-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 75% coton biologique, 23% coton recyclé, 2% élasthanne
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 52 €
+Code-barres : 8720088232026, 8720088232040, 8720088232064
+
+Produit 12
+Nom : Jean slim en coton bio et recyclé | bleu "easy go used stone"
+Lien : https://www.wedressfair.fr/collections/jean-slim-en-coton-bio-et-recycle-bleu-easy-go-used-stone-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 60% coton biologique, 40% coton recyclé
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 52 €
+Code-barres : 8720512995374, 8720512995398, 8720512995411
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Veste en jean en chanvre, coton bio et recyclé - jackson medium stone
+Lien : https://www.wedressfair.fr/collections/veste-en-jean-en-chanvre-coton-bio-et-recycle-jackson-medium-stone-mud-jeans
+Rayon (femme / homme / mixte) : femme
+Composition : 50% coton biologique, 30% chanvre, 20% coton recyclé
+Fabriqué en : Tunisie
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 8720512999167, 8720512999174, 8720512999181

@@ -1,11 +1,12 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
 import { router } from 'expo-router';
 import { useMemo, useState } from 'react';
-import { FlatList, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
+import { FlatList, Linking, Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { Button } from '@/components/Button';
 import { EtiqPlusBadge } from '@/components/EtiqPlusBadge';
 import { SearchInput } from '@/components/SearchInput';
+import { SecondHandChoice } from '@/components/SecondHandChoice';
 import { pluralize } from '@/data/equivalents';
 import {
   brandName,
@@ -19,6 +20,7 @@ import {
   PRODUCT_CATEGORIES,
   PRODUCT_COUNTRIES,
   searchProducts,
+  secondHandQuery,
   SURVEY_SUMMARY,
   SYNTHETIC_LIMITS,
   type ProductFilters,
@@ -26,7 +28,7 @@ import {
 } from '@/data/surveyedProducts';
 import { useSession } from '@/session/SessionProvider';
 import { colors } from '@/theme/colors';
-import { openLink } from '@/utils/links';
+import { vintedSearchUrl } from '@/utils/secondHand';
 
 type Option<T> = { value: T; label: string };
 
@@ -61,6 +63,8 @@ const shortDate = (iso: string | null) =>
 export default function SearchScreen() {
   const { user } = useSession();
   const [filters, setFilters] = useState<ProductFilters>(NO_FILTERS);
+  // Vêtement touché : le pop-up propose l'occasion avant le neuf.
+  const [choice, setChoice] = useState<SurveyedProduct | null>(null);
   const results = useMemo(() => searchProducts(filters), [filters]);
 
   if (!user?.premium) {
@@ -80,62 +84,65 @@ export default function SearchScreen() {
     setFilters((current) => ({ ...current, [key]: value }));
 
   return (
-    <FlatList
-      style={styles.container}
-      contentContainerStyle={styles.content}
-      data={results}
-      keyExtractor={(product) => product.id}
-      keyboardShouldPersistTaps="handled"
-      ListHeaderComponent={
-        <View style={styles.header}>
-          <Text style={styles.text}>
-            Parmi les {SURVEY_SUMMARY.products} vêtements relevés sur les fiches produits de{' '}
-            {SURVEY_SUMMARY.brands} marques, du {shortDate(SURVEY_SUMMARY.from)} au {shortDate(SURVEY_SUMMARY.to)}.
-          </Text>
-          <SearchInput
-            value={filters.query}
-            onChangeText={(query) => update('query', query)}
-            placeholder="Nom, marque ou matière (ex. lin)"
-          />
-          <FilterRow title="Rayon" options={GENDER_OPTIONS} selected={filters.gender} onChoose={(value) => update('gender', value)} />
-          <FilterRow title="Catégorie" options={CATEGORY_OPTIONS} selected={filters.category} onChoose={(value) => update('category', value)} />
-          <FilterRow title="Fabriqué" options={ORIGIN_OPTIONS} selected={filters.origin} onChoose={(value) => update('origin', value)} />
-          <FilterRow
-            title="Fibres synthétiques"
-            options={SYNTHETIC_OPTIONS}
-            selected={filters.maxSynthetic}
-            onChoose={(value) => update('maxSynthetic', value)}
-          />
-          <FilterRow title="Prix" options={PRICE_OPTIONS} selected={filters.maxPrice} onChoose={(value) => update('maxPrice', value)} />
-          <View style={styles.countRow}>
-            <Text style={styles.count}>
-              {pluralize(results.length, 'vêtement')}
-              {results.length > 1 ? ', du moins cher au plus cher' : ''}
+    <>
+      <FlatList
+        style={styles.container}
+        contentContainerStyle={styles.content}
+        data={results}
+        keyExtractor={(product) => product.id}
+        keyboardShouldPersistTaps="handled"
+        ListHeaderComponent={
+          <View style={styles.header}>
+            <Text style={styles.text}>
+              Parmi les {SURVEY_SUMMARY.products} vêtements relevés sur les fiches produits de{' '}
+              {SURVEY_SUMMARY.brands} marques, du {shortDate(SURVEY_SUMMARY.from)} au {shortDate(SURVEY_SUMMARY.to)}.
             </Text>
-            {hasFilters(filters) && (
-              <Pressable accessibilityRole="button" hitSlop={8} onPress={() => setFilters(NO_FILTERS)}>
-                <Text style={styles.reset}>Effacer les filtres</Text>
-              </Pressable>
-            )}
+            <SearchInput
+              value={filters.query}
+              onChangeText={(query) => update('query', query)}
+              placeholder="Nom, marque ou matière (ex. lin)"
+            />
+            <FilterRow title="Rayon" options={GENDER_OPTIONS} selected={filters.gender} onChoose={(value) => update('gender', value)} />
+            <FilterRow title="Catégorie" options={CATEGORY_OPTIONS} selected={filters.category} onChoose={(value) => update('category', value)} />
+            <FilterRow title="Fabriqué" options={ORIGIN_OPTIONS} selected={filters.origin} onChoose={(value) => update('origin', value)} />
+            <FilterRow
+              title="Fibres synthétiques"
+              options={SYNTHETIC_OPTIONS}
+              selected={filters.maxSynthetic}
+              onChoose={(value) => update('maxSynthetic', value)}
+            />
+            <FilterRow title="Prix" options={PRICE_OPTIONS} selected={filters.maxPrice} onChoose={(value) => update('maxPrice', value)} />
+            <View style={styles.countRow}>
+              <Text style={styles.count}>
+                {pluralize(results.length, 'vêtement')}
+                {results.length > 1 ? ', du moins cher au plus cher' : ''}
+              </Text>
+              {hasFilters(filters) && (
+                <Pressable accessibilityRole="button" hitSlop={8} onPress={() => setFilters(NO_FILTERS)}>
+                  <Text style={styles.reset}>Effacer les filtres</Text>
+                </Pressable>
+              )}
+            </View>
           </View>
-        </View>
-      }
-      renderItem={({ item }) => <ProductRow product={item} />}
-      ListEmptyComponent={
-        <Text style={styles.empty}>
-          {filters.gender !== null && genderCount(filters.gender) === 0
-            ? `Aucun vêtement ${GENDER_LABELS[filters.gender].toLowerCase()} relevé pour l’instant : les marques relevées jusqu’ici sont des rayons ${filters.gender === 'homme' ? 'femme' : 'homme'}.`
-            : 'Aucun vêtement ne correspond à ces filtres.'}
-        </Text>
-      }
-      ListFooterComponent={
-        <Text style={styles.note}>
-          Le portail officiel ne publie ni la composition ni le pays de fabrication des vêtements : ces filtres
-          portent sur nos relevés des fiches produits, à la date du relevé (prix et disponibilité ont pu changer
-          depuis). Aucun classement environnemental : les vêtements sont seulement triés par prix.
-        </Text>
-      }
-    />
+        }
+        renderItem={({ item }) => <ProductRow product={item} onOpen={() => setChoice(item)} />}
+        ListEmptyComponent={
+          <Text style={styles.empty}>
+            {filters.gender !== null && genderCount(filters.gender) === 0
+              ? `Aucun vêtement ${GENDER_LABELS[filters.gender].toLowerCase()} relevé pour l’instant : les marques relevées jusqu’ici sont des rayons ${filters.gender === 'homme' ? 'femme' : 'homme'}.`
+              : 'Aucun vêtement ne correspond à ces filtres.'}
+          </Text>
+        }
+        ListFooterComponent={
+          <Text style={styles.note}>
+            Le portail officiel ne publie ni la composition ni le pays de fabrication des vêtements : ces filtres
+            portent sur nos relevés des fiches produits, à la date du relevé (prix et disponibilité ont pu changer
+            depuis). Aucun classement environnemental : les vêtements sont seulement triés par prix.
+          </Text>
+        }
+      />
+      <SecondHandChoice product={choice} onClose={() => setChoice(null)} />
+    </>
   );
 }
 
@@ -175,13 +182,13 @@ function FilterRow<T>({
   );
 }
 
-function ProductRow({ product }: { product: SurveyedProduct }) {
+function ProductRow({ product, onOpen }: { product: SurveyedProduct; onOpen: () => void }) {
   const madeIn = product.countries.length > 0 ? `Fabriqué en ${product.countries.join(', ')}` : 'Pays non indiqué';
   return (
     <Pressable
-      accessibilityRole="link"
-      accessibilityHint="Ouvre la fiche produit sur le site de la marque"
-      onPress={() => openLink(product.url)}
+      accessibilityRole="button"
+      accessibilityHint="Propose de le trouver d’occasion ou de l’acheter neuf"
+      onPress={onOpen}
       style={({ pressed }) => [styles.row, pressed && styles.pressed]}
     >
       <View style={styles.rowHeader}>
@@ -198,10 +205,13 @@ function ProductRow({ product }: { product: SurveyedProduct }) {
         {madeIn}
         {product.syntheticShare !== null ? ` · ${product.syntheticShare} % de synthétique` : ''}
       </Text>
-      <View style={styles.rowLink}>
-        <Text style={styles.rowLinkLabel}>Voir sur le site</Text>
-        <Ionicons name="open-outline" size={14} color={colors.accent} />
-      </View>
+      <Pressable
+        accessibilityRole="link"
+        hitSlop={8}
+        onPress={() => Linking.openURL(vintedSearchUrl(secondHandQuery(product)))}
+        style={({ pressed }) => [styles.rowLink, pressed && styles.pressed]}
+      >
+      </Pressable>
       {/* Le coût officiel ne s'affiche que sur la fiche, avec l'étiquette officielle (charte graphique). */}
       {product.portalGtin && (
         <Pressable

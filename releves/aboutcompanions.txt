@@ -1,8 +1,8 @@
 RELEVÉ ABOUT COMPANIONS
 
-Date du relevé : 5 novembre 2026
-Relevé automatique sur WeDressFair (revendeur multimarque) : premières fiches de la marque dans le plan
-du site, par catégorie, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
 qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
 
 ===== LA MARQUE =====
@@ -16,17 +16,6 @@ Lien de la page :
 ===== PULLS ET MAILLE =====
 
 Produit 1
-Nom : Pull en coton bio | camel "milo jumper eco camel"
-Lien : https://www.wedressfair.fr/collections/pull-en-coton-bio-camel-milo-jumper-eco-camel-about-companions
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Lituanie
-Tissé en : 
-Teint en : 
-Prix : 56 €
-Code-barres : 35168, 35169, 35170
-
-Produit 2
 Nom : Pull col roulé en coton bio | camel "avid rollneck jumper - eco camel"
 Lien : https://www.wedressfair.fr/collections/pull-col-roule-en-coton-bio-camel-avid-rollneck-jumper-eco-camel-about-companions
 Rayon (femme / homme / mixte) : homme
@@ -37,31 +26,20 @@ Teint en :
 Prix : 54 €
 Code-barres : 35186, 35187, 35188
 
+Produit 2
+Nom : Pull en coton bio | camel "milo jumper eco camel"
+Lien : https://www.wedressfair.fr/collections/pull-en-coton-bio-camel-milo-jumper-eco-camel-about-companions
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Lituanie
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 35168, 35169, 35170
+
 ===== PANTALONS ET JEANS =====
 
 Produit 1
-Nom : Pantalons flanelle en coton bio | gris "magnus - eco flannel mel grey"
-Lien : https://www.wedressfair.fr/collections/pantalons-flanelle-en-coton-bio-gris-magnus-eco-flannel-mel-grey-about-companions
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 123 €
-Code-barres : 1110-XS, 1110-S, 1110-M
-
-Produit 2
-Nom : Pantalon large flanelle en coton bio | noir "magnus - eco flannel mel black"
-Lien : https://www.wedressfair.fr/collections/pantalon-flanelle-en-coton-bio-noir-magnus-eco-flannel-mel-black-about-companions
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 175 €
-Code-barres : 1111-XS, 4255886714985, 4255886714992
-
-Produit 3
 Nom : Pantalon large flanelle en coton bio | bleu "Magnus eco flannel cold navy"
 Lien : https://www.wedressfair.fr/collections/magnus-eco-flannel-cold-navy-eco-flannel-cold-navy-about-companions
 Rayon (femme / homme / mixte) : homme
@@ -71,6 +49,17 @@ Tissé en :
 Teint en : 
 Prix : 175 €
 Code-barres : 4255886715043, 4255886715050, 4255886715067
+
+Produit 2
+Nom : Pantalons flanelle en coton bio | gris "magnus - eco flannel mel grey"
+Lien : https://www.wedressfair.fr/collections/pantalons-flanelle-en-coton-bio-gris-magnus-eco-flannel-mel-grey-about-companions
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 123 €
+Code-barres : 1110-XS, 1110-S, 1110-M
 
 ===== CHEMISES ET BLOUSES =====
 
@@ -86,39 +75,17 @@ Prix : 80 €
 Code-barres : 38040, 38041, 38042
 
 Produit 2
-Nom : Chemise en coton bio | bleu "simon - eco flannel ocean blue"
-Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-bleu-simon-eco-flannel-ocean-blue-about-companions
+Nom : Chemise droite col officier flanelle en coton bio | marine "nathan shirt - eco deep sea flannel"
+Lien : https://www.wedressfair.fr/collections/chemise-droite-col-officier-flanelle-en-coton-bio-marine-nathan-shirt-eco-deep-sea-flannel-about-companions
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Lituanie
 Tissé en : 
 Teint en : 
-Prix : 97 €
-Code-barres : 1006-XS, 1006-S, 1006-M
+Prix : 54 €
+Code-barres : 35138, 35139, 35140
 
 Produit 3
-Nom : Chemise en coton bio | marron "simon - eco crisp cotton marron"
-Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-marron-simon-eco-crisp-cotton-marron-about-companions
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Lituanie
-Tissé en : 
-Teint en : 
-Prix : 97 €
-Code-barres : 1000-XS, 1000-S, 1000-M
-
-Produit 4
-Nom : Chemise flanelle en coton bio | rouille "Simon eco flannel brick"
-Lien : https://www.wedressfair.fr/collections/simon-eco-flannel-brick-eco-flannel-brick-about-companions
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Lituanie
-Tissé en : 
-Teint en : 
-Prix : 130 €
-Code-barres : 4255886710420, 4255886710437, 4255886710444
-
-Produit 5
 Nom : Chemise droite en coton bio, tencel et lin | marine "simon shirt - tencel linen cold navy"
 Lien : https://www.wedressfair.fr/collections/chemise-droite-en-coton-bio-tencel-et-lin-marine-simon-shirt-tencel-linen-cold-navy-about-companions
 Rayon (femme / homme / mixte) : homme
@@ -129,18 +96,18 @@ Teint en :
 Prix : 70 €
 Code-barres : 38014, 38015, 38016
 
-Produit 6
-Nom : Surchemise en tencel et coton bio | taupe "owe pale taupe"
-Lien : https://www.wedressfair.fr/collections/surchemise-en-tencel-et-coton-bio-taupe-owe-pale-taupe-about-companions
+Produit 4
+Nom : Chemise en coton bio | bleu "simon - eco flannel ocean blue"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-bleu-simon-eco-flannel-ocean-blue-about-companions
 Rayon (femme / homme / mixte) : homme
-Composition : 54% tencel® (procédé lyocell), 46% coton biologique
+Composition : 100% coton biologique
 Fabriqué en : Lituanie
 Tissé en : 
 Teint en : 
-Prix : 82 €
-Code-barres : 38281, 38282, 38283
+Prix : 97 €
+Code-barres : 1006-XS, 1006-S, 1006-M
 
-Produit 7
+Produit 5
 Nom : Chemise en lin | gris "simon reed pure linen"
 Lien : https://www.wedressfair.fr/collections/chemise-en-lin-gris-simon-reed-pure-linen-about-companions
 Rayon (femme / homme / mixte) : homme
@@ -151,40 +118,18 @@ Teint en :
 Prix : 61 €
 Code-barres : 36060, 36061, 36062
 
-Produit 8
-Nom : Chemise col officier en coton bio | marine rayé "Nathan eco brushed cotton striped navy"
-Lien : https://www.wedressfair.fr/collections/nathan-eco-brushed-cotton-striped-navy-eco-brushed-striped-navy-about-companions
+Produit 6
+Nom : Chemise en coton bio | rayé vert "Ken eco brushed cotton striped green"
+Lien : https://www.wedressfair.fr/collections/ken-eco-brushed-cotton-striped-green-eco-brushed-striped-green-about-companions
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Bulgarie
 Tissé en : 
 Teint en : 
 Prix : 125 €
-Code-barres : 4255886710789, 4255886710796, 4255886710802
+Code-barres : 4255886711328, 4255886711335, 4255886711342
 
-Produit 9
-Nom : Chemise en coton bio | beige "Simon eco flannel cold brown"
-Lien : https://www.wedressfair.fr/collections/simon-eco-flannel-cold-brown-eco-flannel-cold-brown-about-companions
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Bulgarie
-Tissé en : 
-Teint en : 
-Prix : 130 €
-Code-barres : 4255886710482, 4255886710499, 4255886710505
-
-Produit 10
-Nom : Chemise flanelle en coton bio | vert "Simon eco flannel black olive"
-Lien : https://www.wedressfair.fr/collections/simon-eco-flannel-black-olive-eco-flannel-black-olive-about-companions
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Lituanie
-Tissé en : 
-Teint en : 
-Prix : 130 €
-Code-barres : 4255886710604, 4255886710611, 4255886710628
-
-Produit 11
+Produit 7
 Nom : Chemise col officier en coton bio | marron "Nathan eco brushed cotton striped brown"
 Lien : https://www.wedressfair.fr/collections/nathan-eco-brushed-cotton-striped-brown-eco-brushed-striped-brown-about-companions
 Rayon (femme / homme / mixte) : homme
@@ -195,20 +140,31 @@ Teint en :
 Prix : 125 €
 Code-barres : 4255886710727, 4255886710734, 4255886710741
 
-===== MANTEAUX ET VESTES =====
-
-Produit 1
-Nom : Blazer boutonné en coton bio | beige "enzo eco ripstop pale khaki"
-Lien : https://www.wedressfair.fr/collections/blazer-boutonne-en-coton-bio-beige-enzo-eco-ripstop-pale-khaki-about-companions
+Produit 8
+Nom : Chemise flanelle en coton bio | vert "Simon eco flannel black olive"
+Lien : https://www.wedressfair.fr/collections/simon-eco-flannel-black-olive-eco-flannel-black-olive-about-companions
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Lituanie
 Tissé en : 
 Teint en : 
 Prix : 130 €
-Code-barres : 36361, 36362, 36363
+Code-barres : 4255886710604, 4255886710611, 4255886710628
 
-Produit 2
+Produit 9
+Nom : Surchemise en tencel et coton bio | taupe "owe pale taupe"
+Lien : https://www.wedressfair.fr/collections/surchemise-en-tencel-et-coton-bio-taupe-owe-pale-taupe-about-companions
+Rayon (femme / homme / mixte) : homme
+Composition : 54% tencel® (procédé lyocell), 46% coton biologique
+Fabriqué en : Lituanie
+Tissé en : 
+Teint en : 
+Prix : 82 €
+Code-barres : 38281, 38282, 38283
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
 Nom : Veste moleskine en coton bio | noir "Asir eco moleskin black"
 Lien : https://www.wedressfair.fr/collections/asir-eco-moleskin-black-eco-moleskin-black-about-companions
 Rayon (femme / homme / mixte) : homme
@@ -219,24 +175,24 @@ Teint en :
 Prix : 215 €
 Code-barres : 4255886708564, 4255886708571, 4255886708588
 
+Produit 2
+Nom : Blazer boutonné en coton bio | beige "enzo eco ripstop pale khaki"
+Lien : https://www.wedressfair.fr/collections/blazer-boutonne-en-coton-bio-beige-enzo-eco-ripstop-pale-khaki-about-companions
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Lituanie
+Tissé en : 
+Teint en : 
+Prix : 130 €
+Code-barres : 36361, 36362, 36363
+
 Produit 3
-Nom : Blazer en coton bio et lin | noir "enver black linen"
-Lien : https://www.wedressfair.fr/collections/blazer-en-coton-bio-et-lin-noir-enver-black-linen-about-companions
+Nom : Blazer en coton bio et lin | lin naturel "enver reed linen"
+Lien : https://www.wedressfair.fr/collections/blazer-en-coton-bio-et-lin-lin-naturel-enver-reed-linen-about-companions
 Rayon (femme / homme / mixte) : homme
 Composition : 55% coton biologique, 45% lin
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 140 €
-Code-barres : 36391, 36392, 36393
-
-Produit 4
-Nom : Veste moleskine en coton bio | vert "Asir eco moleskin forest"
-Lien : https://www.wedressfair.fr/collections/asir-eco-moleskin-forest-eco-moleskin-forest-about-companions
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Lituanie
-Tissé en : 
-Teint en : 
-Prix : 215 €
-Code-barres : 4255886712288, 4255886712295, 4255886712301
+Code-barres : 36385, 36386, 36387

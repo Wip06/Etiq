@@ -1,0 +1,99 @@
+RELEVÉ LANIUS
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== PULLS ET MAILLE =====
+
+Produit 1
+Nom : Sweat polo oversize en coton bio et matière recyclée | rouge
+Lien : https://www.wedressfair.fr/collections/sweatshirt-mit-polokragen-ocs-fire-fire-lanius
+Rayon (femme / homme / mixte) : femme
+Composition : 79% coton biologique, 19% polyester recyclé, 2% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 119 €
+Code-barres : 4055883632103, 4055883632110, 4055883632127
+
+Produit 2
+Nom : Pull en laine et coton bio | écru
+Lien : https://www.wedressfair.fr/collections/zopfpullover-gots-off-white-off-white-lanius
+Rayon (femme / homme / mixte) : femme
+Composition : 55% coton biologique, 45% laine biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 169 €
+Code-barres : 4055883614697, 4055883614703, 4055883614710
+
+===== ROBES ET JUPES =====
+
+Produit 1
+Nom : Jupe en coton bio | vichy bleu
+Lien : https://www.wedressfair.fr/collections/vichy-karo-rock-gots-blue-white-lanius
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 53 €
+Code-barres : 4055883600874, 4055883600881, 4055883600898
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 1
+Nom : Chemise en coton bio | rayé bleu et rouge "streifenhemd - blue/ lava red"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-raye-bleu-et-rouge-streifenhemd-blue-lava-red-lanius
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 83 €
+Code-barres : 4055883601253, 4055883601260, 4055883601277
+
+Produit 2
+Nom : Blouse brodée en coton biologique | blanc "Spitzenbluse - white"
+Lien : https://www.wedressfair.fr/collections/spitzenbluse-gots-white-white-lanius
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 4055883632585, 4055883632592, 4055883632608
+
+Produit 3
+Nom : Blouse en coton bio | vichy bleu
+Lien : https://www.wedressfair.fr/collections/vichy-karo-bluse-gots-blue-white-lanius
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 77 €
+Code-barres : 4055883600997, 4055883601000, 4055883601017
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Veste en laine et coton bio | tartan marron
+Lien : https://www.wedressfair.fr/collections/karo-jacke-black-brown-multicolour-black-brown-multicolour-lanius
+Rayon (femme / homme / mixte) : femme
+Composition : 70% laine biologique, 30% coton biologique
+Fabriqué en : Macédoine du Nord
+Tissé en : 
+Teint en : 
+Prix : 299 €
+Code-barres : 4055883636224, 4055883636231, 4055883636248

@@ -1,0 +1,99 @@
+RELEVÉ NITAH
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== PULLS ET MAILLE =====
+
+Produit 1
+Nom : Gilet pointelle en coton upcyclé | noir "Dora"
+Lien : https://www.wedressfair.fr/collections/dora-noir-nitah
+Rayon (femme / homme / mixte) : femme
+Composition : 100% matière upcyclée
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 70 €
+Code-barres : 3701796201370, 3701796201387, 3701796201394
+
+===== PANTALONS ET JEANS =====
+
+Produit 1
+Nom : Jean ballon en coton biologique | brut "josef"
+Lien : https://www.wedressfair.fr/collections/jean-ballon-en-coton-biologique-brut-josef-nitah
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 145 €
+Code-barres : 3760377204698, 3760377205800, 3760377205817
+
+Produit 2
+Nom : Jean wide leg à revers en coton bio | brut "Marwa"
+Lien : https://www.wedressfair.fr/collections/marwa-denim-nitah
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 145 €
+Code-barres : 3760377207941, 3760377207958, 3760377207965
+
+Produit 3
+Nom : Jean ballon avec revers en coton bio | baby blue "john"
+Lien : https://www.wedressfair.fr/collections/pantalon-baby-blue-pantalon-ballon-avec-revers-john-nitah
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 145 €
+Code-barres : 3760377209570, 3760377209587, 3760377209594
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 1
+Nom : Chemise en matière upcyclée | noir "chemise officier alya - noir"
+Lien : https://www.wedressfair.fr/collections/chemise-en-matiere-upcyclee-noir-chemise-officier-alya-noir-nitah
+Rayon (femme / homme / mixte) : femme
+Composition : 100% matière upcyclée
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 3760377204353, 3760377205046, 3760377205053
+
+Produit 2
+Nom : Chemise popeline en coton bio | blanc "Nine"
+Lien : https://www.wedressfair.fr/collections/noe-blanc-nitah
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton upcyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 110 €
+Code-barres : 3701796202131, 3701796202124, 3701796202117
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Trench court en matière recyclée | marron "Elio - carreaux"
+Lien : https://www.wedressfair.fr/collections/ella-carreaux-nitah
+Rayon (femme / homme / mixte) : femme
+Composition : 100% polyester recyclé
+Fabriqué en : Maroc
+Tissé en : 
+Teint en : 
+Prix : 185 €
+Code-barres : 3701796201288, 3701796201295, 3701796201301

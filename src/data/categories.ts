@@ -29,3 +29,21 @@ export const categories: Category[] = CATEGORIES.map((category) => ({
   ...category,
   defaultMassGrams: known[category.name]?.medianMassGrams ?? 300,
 }));
+
+// Mot de recherche d'une catégorie sur un site de seconde main (« Manteau / Veste » → « veste ») : un
+// seul mot, car une recherche à deux mots ne garde que les annonces qui contiennent les deux.
+const SEARCH_WORDS: Record<string, string> = {
+  'T-shirt / Polo': 't-shirt',
+  Chemise: 'chemise',
+  Pull: 'pull',
+  'Pantalon / Short': 'pantalon',
+  Jean: 'jean',
+  'Jupe / Robe': 'robe',
+  'Manteau / Veste': 'veste',
+  Chaussettes: 'chaussettes',
+  'Boxer / Slip (tricoté)': 'boxer',
+  'Caleçon (tissé)': 'caleçon',
+  'Maillot de bain': 'maillot de bain',
+};
+
+export const searchWord = (categoryName: string) => SEARCH_WORDS[categoryName] ?? '';

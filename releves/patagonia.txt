@@ -1,8 +1,8 @@
 RELEVÉ PATAGONIA
 
-Date du relevé : 5 novembre 2026
-Relevé automatique sur WeDressFair (revendeur multimarque) : premières fiches de la marque dans le plan
-du site, par catégorie, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
 qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
 
 ===== LA MARQUE =====
@@ -16,6 +16,17 @@ Lien de la page :
 ===== T-SHIRTS ET TOPS =====
 
 Produit 1
+Nom : T-shirt en coton bio | vert "M's cloud crag t-shirt - cngr"
+Lien : https://www.wedressfair.fr/collections/m-s-cloud-crag-t-shirt-cngr-cngr-patagonia
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Mexique
+Tissé en : 
+Teint en : 
+Prix : 50 €
+Code-barres : 198077976325, 198077976332, 198077976349
+
+Produit 2
 Nom : T-shirt en coton bio | bleu "M's p-6 logo t-shirt - blsg"
 Lien : https://www.wedressfair.fr/collections/m-s-p-6-logo-t-shirt-blsg-blsg-patagonia
 Rayon (femme / homme / mixte) : homme
@@ -29,50 +40,61 @@ Code-barres : 199346197915, 199346197922, 199346197939
 ===== PULLS ET MAILLE =====
 
 Produit 1
-Nom : Polaire zippée en matière recyclée | vert "retro pile jkt"
-Lien : https://www.wedressfair.fr/collections/veste-polaire-en-matiere-recyclee-vert-retro-pile-jkt-patagonia
+Nom : Polaire en matières recyclées | noir et bleu "Lw synch snap-t p/o - blkp"
+Lien : https://www.wedressfair.fr/collections/m-s-lw-synch-snap-t-p-o-blkp-blkp-patagonia
+Rayon (femme / homme / mixte) : homme
+Composition : 100% polyester recyclé
+Fabriqué en : Salvador
+Tissé en : 
+Teint en : 
+Prix : 130 €
+Code-barres : 199346055376, 199346055383, 199346055390
+
+Produit 2
+Nom : Polaire en matières recyclées | multicolore "synch snap-t p/o - pbsu"
+Lien : https://www.wedressfair.fr/collections/m-s-lw-synch-snap-t-p-o-pbsu-pbsu-patagonia
+Rayon (femme / homme / mixte) : homme
+Composition : 100% polyester recyclé
+Fabriqué en : Salvador
+Tissé en : 
+Teint en : 
+Prix : 130 €
+Code-barres : 199346062855, 199346062862, 199346062879
+
+Produit 3
+Nom : Sweat à capuche en coton et matière recyclée | vert "p-6 label uprisal hoody - gemg"
+Lien : https://www.wedressfair.fr/collections/m-s-p-6-label-uprisal-hoody-gemg-patagonia
+Rayon (femme / homme / mixte) : homme
+Composition : 55% polyester recyclé, 45% coton recyclé
+Fabriqué en : Mexique
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 198077808626, 198077808602, 198077808589
+
+Produit 4
+Nom : Polaire en matières recyclées | beige "wynch snap-t- otsm"
+Lien : https://www.wedressfair.fr/collections/polaire-en-matieres-recyclees-beige-wynch-snap-t-otsm-patagonia
+Rayon (femme / homme / mixte) : homme
+Composition : 100% polyester recyclé
+Fabriqué en : Salvador
+Tissé en : 
+Teint en : 
+Prix : 91 €
+Code-barres : 198077124283, 198077124290, 198077124306
+
+Produit 5
+Nom : Polaire zippée en matière recyclée | ocre "retro pile jkt"
+Lien : https://www.wedressfair.fr/collections/polaire-zippee-en-matiere-recyclee-ocre-retro-pile-jkt-patagonia
 Rayon (femme / homme / mixte) : homme
 Composition : 100% polyester recyclé
 Fabriqué en : Sri Lanka
 Tissé en : 
 Teint en : 
 Prix : 170 €
-Code-barres : 199346189903, 199346189880, 199346189866
+Code-barres : 199346039451, 199346039468, 199346039475
 
-Produit 2
-Nom : Polaire fine en matières recyclées | rose "micro d 1/2 zip fleece p/o - fuzm"
-Lien : https://www.wedressfair.fr/collections/w-s-micro-d-1-2-zip-fleece-p-o-fuzm-fuzm-patagonia
-Rayon (femme / homme / mixte) : femme
-Composition : 100% polyester recyclé
-Fabriqué en : Salvador
-Tissé en : 
-Teint en : 
-Prix : 100 €
-Code-barres : 199346217927, 199346217934, 199346217941
-
-Produit 3
-Nom : Polaire en matières recyclées | bleu "lw synch snap-t p/o - sxbl"
-Lien : https://www.wedressfair.fr/collections/w-s-lw-synch-snap-t-p-o-sxbl-sxbl-patagonia
-Rayon (femme / homme / mixte) : femme
-Composition : polyester recyclé, netplus® (nylon recyclé)
-Fabriqué en : Nicaragua
-Tissé en : 
-Teint en : 
-Prix : 130 €
-Code-barres : 199346066488, 199346066495, 199346066501
-
-Produit 4
-Nom : Polaire fine en matières recyclées | marron "micro d 1/2 zip fleece p/o - brmb"
-Lien : https://www.wedressfair.fr/collections/w-s-micro-d-1-2-zip-fleece-p-o-brmb-brmb-patagonia
-Rayon (femme / homme / mixte) : femme
-Composition : 100% polyester recyclé
-Fabriqué en : Salvador
-Tissé en : 
-Teint en : 
-Prix : 100 €
-Code-barres : 199346048118, 199346048125, 199346048132
-
-Produit 5
+Produit 6
 Nom : Sweat capuche en matières recyclées | marine "'73 skyline uprisal hoody - nena"
 Lien : https://www.wedressfair.fr/collections/sweat-capuche-en-matieres-recyclees-marine-73-skyline-uprisal-hoody-nena-patagonia
 Rayon (femme / homme / mixte) : homme
@@ -82,6 +104,28 @@ Tissé en :
 Teint en : 
 Prix : 69 €
 Code-barres : 196924944572, 196924944541, 196924944510
+
+Produit 7
+Nom : Polaire en matières recyclées | beige "lw synch snap-t p/o - nat"
+Lien : https://www.wedressfair.fr/collections/w-s-lw-synch-snap-t-p-o-nat-nat-patagonia
+Rayon (femme / homme / mixte) : femme
+Composition : polyester recyclé, netplus® (nylon recyclé)
+Fabriqué en : Nicaragua
+Tissé en : 
+Teint en : 
+Prix : 130 €
+Code-barres : 199346056595, 199346056557, 199346056533
+
+Produit 8
+Nom : Polaire fine en matières recyclées | marron "micro d 1/2 zip fleece p/o - brmb"
+Lien : https://www.wedressfair.fr/collections/w-s-micro-d-1-2-zip-fleece-p-o-brmb-brmb-patagonia
+Rayon (femme / homme / mixte) : femme
+Composition : 100% polyester recyclé
+Fabriqué en : Salvador
+Tissé en : 
+Teint en : 
+Prix : 100 €
+Code-barres : 199346048118, 199346048125, 199346048132
 
 ===== MANTEAUX ET VESTES =====
 
@@ -97,50 +141,17 @@ Prix : 95 €
 Code-barres : 196924179646, 196924179684, 196924179738
 
 Produit 2
-Nom : Parka à capuche en matière recyclée | vert "Isthmus parka - bsng"
-Lien : https://www.wedressfair.fr/collections/m-s-isthmus-parka-bsng-bsng-patagonia
-Rayon (femme / homme / mixte) : homme
-Composition : polyester recyclé, netplus® (nylon recyclé)
+Nom : Doudoune en matières recyclées | marron "silent down jkt - drbn"
+Lien : https://www.wedressfair.fr/collections/doudoune-en-matiere-recyclee-marron-silent-down-jkt-drbn-patagonia
+Rayon (femme / homme / mixte) : femme
+Composition : polyester recyclé, duvet recyclé
 Fabriqué en : Viêt Nam
 Tissé en : 
 Teint en : 
-Prix : 280 €
-Code-barres : 198077469254, 198077469230, 198077469216
+Prix : 189 €
+Code-barres : 198077486619, 198077486626, 198077486633
 
 Produit 3
-Nom : Veste sans manches en matière recyclée | marine "light gust vest - smolder blue"
-Lien : https://www.wedressfair.fr/collections/veste-sans-manches-en-matiere-recyclee-marine-light-gust-vest-smolder-blue-patagonia
-Rayon (femme / homme / mixte) : homme
-Composition : 100% polyester recyclé
-Fabriqué en : Viêt Nam
-Tissé en : 
-Teint en : 
-Prix : 100 €
-Code-barres : 198077070610, 198077070597, 198077070573
-
-Produit 4
-Nom : Doudoune velours en coton bio et duvet recyclé | vert "Cord fjord jkt - bsng"
-Lien : https://www.wedressfair.fr/collections/w-s-cord-fjord-jkt-bsng-bsng-patagonia
-Rayon (femme / homme / mixte) : femme
-Composition : coton biologique, polyester recyclé, duvet recyclé
-Fabriqué en : Viêt Nam
-Tissé en : 
-Teint en : 
-Prix : 350 €
-Code-barres : 199346209229, 199346209182, 199346209168
-
-Produit 5
-Nom : Doudoune en matières recyclées | vert "Sisar down hoody jkt - cngr"
-Lien : https://www.wedressfair.fr/collections/w-s-sisar-down-hoody-jkt-cngr-cngr-patagonia
-Rayon (femme / homme / mixte) : femme
-Composition : nylon recyclé, polyester recyclé, duvet recyclé
-Fabriqué en : Viêt Nam
-Tissé en : 
-Teint en : 
-Prix : 350 €
-Code-barres : 199346033237, 199346033244, 199346033251
-
-Produit 6
 Nom : Doudoune velours en coton bio et duvet recyclé | bleu "cord fjord jkt - snbe"
 Lien : https://www.wedressfair.fr/collections/doudoune-velours-en-matiere-recyclee-bleu-cord-fjord-jkt-snbe-patagonia
 Rayon (femme / homme / mixte) : femme
@@ -151,7 +162,73 @@ Teint en :
 Prix : 350 €
 Code-barres : 198077338079, 198077338086, 198077338093
 
+Produit 4
+Nom : Imperméable en nylon recyclé | bleu "torrentshell 3l jkt smolder blue"
+Lien : https://www.wedressfair.fr/collections/impermeable-en-nylon-recycle-bleu-torrentshell-3l-jkt-smolder-blue-patagonia
+Rayon (femme / homme / mixte) : homme
+Composition : 100% nylon recyclé
+Fabriqué en : Viêt Nam
+Tissé en : 
+Teint en : 
+Prix : 200 €
+Code-barres : 195699380905, 195699380868, 195699380844
+
+Produit 5
+Nom : Veste polaire en matières recyclées | noir "Classic retro-x jkt - blk"
+Lien : https://www.wedressfair.fr/collections/m-s-classic-retro-x-jkt-blk-blk-patagonia
+Rayon (femme / homme / mixte) : homme
+Composition : 100% polyester recyclé
+Fabriqué en : Viêt Nam
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 199346034982, 199346034968, 199346034944
+
+Produit 6
+Nom : Veste en coton biologique | bleu "daily quilted shirt jkt - nena"
+Lien : https://www.wedressfair.fr/collections/m-s-daily-quilted-shirt-jkt-nena-nena-patagonia
+Rayon (femme / homme / mixte) : homme
+Composition : coton biologique, polyester recyclé, chanvre
+Fabriqué en : Viêt Nam
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 199346184144, 199346184120, 199346184106
+
 Produit 7
+Nom : Parka à capuche en matière recyclée | vert "Isthmus parka - bsng"
+Lien : https://www.wedressfair.fr/collections/m-s-isthmus-parka-bsng-bsng-patagonia
+Rayon (femme / homme / mixte) : homme
+Composition : polyester recyclé, netplus® (nylon recyclé)
+Fabriqué en : Viêt Nam
+Tissé en : 
+Teint en : 
+Prix : 280 €
+Code-barres : 198077469254, 198077469230, 198077469216
+
+Produit 8
+Nom : Veste en matières recyclées | marron "insulated fjord flannel shirt - brmb"
+Lien : https://www.wedressfair.fr/collections/m-s-lw-insulated-fjord-flannel-shirt-brmb-brmb-patagonia
+Rayon (femme / homme / mixte) : homme
+Composition : polyester recyclé, coton
+Fabriqué en : Viêt Nam
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 199346021302, 199346021319, 199346021326
+
+Produit 9
+Nom : Veste canvas en coton bio | vert "point reyes canvas jkt - cngr"
+Lien : https://www.wedressfair.fr/collections/m-s-point-reyes-canvas-jkt-cngr-cngr-patagonia
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Sri Lanka
+Tissé en : 
+Teint en : 
+Prix : 170 €
+Code-barres : 199346018029, 199346018036, 199346018043
+
+Produit 10
 Nom : Parka à capuche en matières recyclées | noir "Sisar down hoody jkt - blk"
 Lien : https://www.wedressfair.fr/collections/m-s-sisar-down-hoody-jkt-blk-blk-patagonia
 Rayon (femme / homme / mixte) : homme
@@ -162,7 +239,18 @@ Teint en :
 Prix : 350 €
 Code-barres : 199346186445, 199346186421, 199346186407
 
-Produit 8
+Produit 11
+Nom : Doudoune en matières recyclées | bleu "Sisar down jkt - smtb"
+Lien : https://www.wedressfair.fr/collections/m-s-sisar-down-jkt-smtb-smtb-patagonia
+Rayon (femme / homme / mixte) : homme
+Composition : nylon recyclé, polyester recyclé, duvet recyclé
+Fabriqué en : Viêt Nam
+Tissé en : 
+Teint en : 
+Prix : 300 €
+Code-barres : 199346188036, 199346188043, 199346188050
+
+Produit 12
 Nom : Parka à capuche en matière recyclée | noir "isthmus parka - inbk"
 Lien : https://www.wedressfair.fr/collections/parka-a-capuche-en-matiere-recyclee-noir-isthmus-parka-inbk-patagonia
 Rayon (femme / homme / mixte) : homme
@@ -173,51 +261,18 @@ Teint en :
 Prix : 280 €
 Code-barres : 198077469735, 198077469698, 198077469674
 
-Produit 9
-Nom : Veste polaire en matières recyclées | beige "classic retro-x jkt - ortn"
-Lien : https://www.wedressfair.fr/collections/w-s-classic-retro-x-jkt-ortn-ortn-patagonia
-Rayon (femme / homme / mixte) : femme
-Composition : polyester recyclé, netplus® (nylon recyclé)
-Fabriqué en : Viêt Nam
-Tissé en : 
-Teint en : 
-Prix : 250 €
-Code-barres : 199346215008, 199346215015, 199346215022
-
-Produit 10
-Nom : Parka à capuche en matière recyclée | bleu "Isthmus parka - smtb"
-Lien : https://www.wedressfair.fr/collections/m-s-isthmus-parka-smtb-smtb-patagonia
-Rayon (femme / homme / mixte) : homme
-Composition : polyester recyclé, netplus® (nylon recyclé)
-Fabriqué en : Viêt Nam
-Tissé en : 
-Teint en : 
-Prix : 280 €
-Code-barres : 199346075671, 199346075688, 199346075695
-
-Produit 11
-Nom : Veste polaire en matières recyclées | bordeaux "classic retro-x jkt - dnbr"
-Lien : https://www.wedressfair.fr/collections/w-s-classic-retro-x-jkt-dnbr-dnbr-patagonia
-Rayon (femme / homme / mixte) : femme
-Composition : polyester recyclé, netplus® (nylon recyclé)
-Fabriqué en : Viêt Nam
-Tissé en : 
-Teint en : 
-Prix : 250 €
-Code-barres : 199346043762, 199346043915, 199346043779
-
-Produit 12
-Nom : Parka à capuche en matières recyclées | vert "Sisar down hoody jkt - cngr"
-Lien : https://www.wedressfair.fr/collections/m-s-sisar-down-hoody-jkt-cngr-cngr-patagonia
-Rayon (femme / homme / mixte) : homme
-Composition : polyamide recyclé, polyester recyclé, duvet recyclé
-Fabriqué en : Viêt Nam
-Tissé en : 
-Teint en : 
-Prix : 350 €
-Code-barres : 199346187312, 199346187329, 199346187336
-
 Produit 13
+Nom : Veste canvas en coton bio | écru "point reyes canvas jkt - udnl"
+Lien : https://www.wedressfair.fr/collections/veste-canvas-en-coton-bio-ecru-point-reyes-canvas-jkt-udnl-patagonia
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Sri Lanka
+Tissé en : 
+Teint en : 
+Prix : 102 €
+Code-barres : 198077453086, 198077453093, 198077453109
+
+Produit 14
 Nom : Veste imperméable en nylon recyclé | noir "torrentshell 3l jkt black"
 Lien : https://www.wedressfair.fr/collections/veste-impermeable-en-nylon-recycle-noir-torrentshell-3l-jkt-black-patagonia
 Rayon (femme / homme / mixte) : femme
@@ -228,13 +283,90 @@ Teint en :
 Prix : 200 €
 Code-barres : 195699583450, 195699583467, 195699583474
 
-Produit 14
-Nom : Imperméable en nylon recyclé | bleu "torrentshell 3l jkt smolder blue"
-Lien : https://www.wedressfair.fr/collections/impermeable-en-nylon-recycle-bleu-torrentshell-3l-jkt-smolder-blue-patagonia
+Produit 15
+Nom : Veste sans manches en matière recyclée | marine "light gust vest - smolder blue"
+Lien : https://www.wedressfair.fr/collections/veste-sans-manches-en-matiere-recyclee-marine-light-gust-vest-smolder-blue-patagonia
 Rayon (femme / homme / mixte) : homme
-Composition : 100% nylon recyclé
+Composition : 100% polyester recyclé
 Fabriqué en : Viêt Nam
 Tissé en : 
 Teint en : 
-Prix : 200 €
-Code-barres : 195699380905, 195699380868, 195699380844
+Prix : 100 €
+Code-barres : 198077070610, 198077070597, 198077070573
+
+Produit 16
+Nom : Veste polaire en matières recyclées | bordeaux "classic retro-x jkt - dnbr"
+Lien : https://www.wedressfair.fr/collections/w-s-classic-retro-x-jkt-dnbr-dnbr-patagonia
+Rayon (femme / homme / mixte) : femme
+Composition : polyester recyclé, netplus® (nylon recyclé)
+Fabriqué en : Viêt Nam
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 199346043762, 199346043915, 199346043779
+
+Produit 17
+Nom : Doudoune velours en coton bio et duvet recyclé | vert "Cord fjord jkt - bsng"
+Lien : https://www.wedressfair.fr/collections/w-s-cord-fjord-jkt-bsng-bsng-patagonia
+Rayon (femme / homme / mixte) : femme
+Composition : coton biologique, polyester recyclé, duvet recyclé
+Fabriqué en : Viêt Nam
+Tissé en : 
+Teint en : 
+Prix : 350 €
+Code-barres : 199346209229, 199346209182, 199346209168
+
+Produit 18
+Nom : Doudoune en matières recyclées | bordeaux "fitz roy down jkt - byfg"
+Lien : https://www.wedressfair.fr/collections/w-s-fitz-roy-down-jkt-byfg-byfg-patagonia
+Rayon (femme / homme / mixte) : femme
+Composition : nylon recyclé, duvet recyclé
+Fabriqué en : Viêt Nam
+Tissé en : 
+Teint en : 
+Prix : 400 €
+Code-barres : 199346002035, 199346002042, 199346002059
+
+Produit 19
+Nom : Coupe vent en matière recyclée | turquoise "light & variable jkt - thi"
+Lien : https://www.wedressfair.fr/collections/w-s-light-variable-jkt-thi-patagonia
+Rayon (femme / homme / mixte) : femme
+Composition : 100% polyester recyclé
+Fabriqué en : Bangladesh
+Tissé en : 
+Teint en : 
+Prix : 84 €
+Code-barres : 198077622086, 198077622109, 198077622130
+
+Produit 20
+Nom : Doudoune en matières recyclées | marron "Silent down jkt - brmb"
+Lien : https://www.wedressfair.fr/collections/w-s-silent-down-jkt-brmb-brmb-patagonia
+Rayon (femme / homme / mixte) : femme
+Composition : polyester recyclé, duvet recyclé
+Fabriqué en : Viêt Nam
+Tissé en : 
+Teint en : 
+Prix : 270 €
+Code-barres : 199346136792, 199346136808, 199346136815
+
+Produit 21
+Nom : Doudoune en matières recyclées | vert "Sisar down hoody jkt - cngr"
+Lien : https://www.wedressfair.fr/collections/w-s-sisar-down-hoody-jkt-cngr-cngr-patagonia
+Rayon (femme / homme / mixte) : femme
+Composition : nylon recyclé, polyester recyclé, duvet recyclé
+Fabriqué en : Viêt Nam
+Tissé en : 
+Teint en : 
+Prix : 350 €
+Code-barres : 199346033237, 199346033244, 199346033251
+
+Produit 22
+Nom : Parka à capuche en matières recyclées | vert "Sisar down parka - cngr"
+Lien : https://www.wedressfair.fr/collections/w-s-sisar-down-parka-cngr-cngr-patagonia
+Rayon (femme / homme / mixte) : femme
+Composition : nylon recyclé, polyester recyclé, duvet recyclé
+Fabriqué en : Viêt Nam
+Tissé en : 
+Teint en : 
+Prix : 420 €
+Code-barres : 199346212267, 199346212274, 199346212281

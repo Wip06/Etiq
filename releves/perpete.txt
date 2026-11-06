@@ -1,0 +1,93 @@
+RELEVÉ PERPÈTE
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== PULLS ET MAILLE =====
+
+Produit 1
+Nom : Sweat en coton bio | violet "Donna denim - denim"
+Lien : https://www.wedressfair.fr/collections/donna-denim-denim-perpete
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 95 €
+Code-barres : 2621100042011, 2621100042028, 2621100042035
+
+Produit 2
+Nom : Sweat en coton bio | tricolore "Emma rouge"
+Lien : https://www.wedressfair.fr/collections/emma-rouge-rouge-perpete
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 145 €
+Code-barres : 2611100002016, 2611100002023, 2611100002030
+
+Produit 3
+Nom : Sweat en coton bio | jaune "Geri pop-corn"
+Lien : https://www.wedressfair.fr/collections/geri-pop-corn-jaune-perpete
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 2612100011015, 2612100011022, 2612100011039
+
+Produit 4
+Nom : Sweat en coton bio | bordeaux "Geri stripped bordeaux"
+Lien : https://www.wedressfair.fr/collections/geri-stripped-bordeaux-bordeaux-perpete
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 2621100019013, 2621100019020, 2621100019037
+
+Produit 5
+Nom : Sweat polo en coton bio | tricolore "Linda bordeaux"
+Lien : https://www.wedressfair.fr/collections/linda-bordeaux-bordeaux-perpete
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 2621100039011, 2621100039028, 2621100039035
+
+Produit 6
+Nom : Sweat en coton bio | multicolore "Mel lilas"
+Lien : https://www.wedressfair.fr/collections/mel-lilas-lilas-perpete
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 125 €
+Code-barres : 2621100029012, 2621100029029, 2621100029036
+
+Produit 7
+Nom : Sweatshirt en coton bio | multicolore "max"
+Lien : https://www.wedressfair.fr/collections/sweatshirt-en-coton-bio-multicolore-max-perpete
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 115 €
+Code-barres : 2025000001176, 2025000001183, 2025000001190

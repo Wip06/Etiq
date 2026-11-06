@@ -1,8 +1,8 @@
 RELEVÉ COLORFUL STANDARD
 
-Date du relevé : 5 novembre 2026
-Relevé automatique sur WeDressFair (revendeur multimarque) : premières fiches de la marque dans le plan
-du site, par catégorie, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
 qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
 
 ===== LA MARQUE =====
@@ -16,15 +16,15 @@ Lien de la page :
 ===== T-SHIRTS ET TOPS =====
 
 Produit 1
-Nom : Débardeur côtelé en coton bio | noir "deep black"
-Lien : https://www.wedressfair.fr/collections/debardeur-cotele-en-coton-bio-noir-deep-black-colorful-standard
+Nom : Débardeur côtelé en coton bio | blanc "ivory white"
+Lien : https://www.wedressfair.fr/collections/debardeur-cotele-en-coton-bio-blanc-ivory-white-colorful-standard
 Rayon (femme / homme / mixte) : femme
 Composition : 95% coton biologique, 5% élasthanne
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 18 €
-Code-barres : 5602991038939, 5602991038946, 5602991038953
+Code-barres : 5602991039233, 5602991039240, 5602991039257
 
 Produit 2
 Nom : Débardeur côtelé en coton bio | blanc "optical white"
@@ -38,6 +38,28 @@ Prix : 18 €
 Code-barres : 5602991039387, 5602991039394, 5602991039400
 
 Produit 3
+Nom : Débardeur côtelé en coton bio | noir "deep black"
+Lien : https://www.wedressfair.fr/collections/debardeur-cotele-en-coton-bio-noir-deep-black-colorful-standard
+Rayon (femme / homme / mixte) : femme
+Composition : 95% coton biologique, 5% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 18 €
+Code-barres : 5602991038939, 5602991038946, 5602991038953
+
+Produit 4
+Nom : Débardeur côtelé en coton bio | vert "ocean green"
+Lien : https://www.wedressfair.fr/collections/debardeur-cotele-en-coton-bio-vert-ocean-green-colorful-standard
+Rayon (femme / homme / mixte) : femme
+Composition : 95% coton biologique, 5% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 18 €
+Code-barres : 5602991150617, 5602991150624, 5602991150631
+
+Produit 5
 Nom : Débardeur côtelé gris clair en coton bio - snow melange
 Lien : https://www.wedressfair.fr/collections/debardeur-cotele-gris-clair-en-coton-bio-snow-melange-colorful-standard
 Rayon (femme / homme / mixte) : femme
@@ -48,7 +70,18 @@ Teint en :
 Prix : 18 €
 Code-barres : 5602991039837, 5602991039844, 5602991039851
 
-Produit 4
+Produit 6
+Nom : T-shirt en coton bio | rose "cherry blossom"
+Lien : https://www.wedressfair.fr/collections/t-shirt-en-coton-bio-rose-cherry-blossom-colorful-standard-cherry-blossom
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 21 €
+Code-barres : 5602991127435, 5602991127442, 5602991127459
+
+Produit 7
 Nom : T-shirt en coton bio | vert "dusty olive"
 Lien : https://www.wedressfair.fr/collections/t-shirt-en-coton-bio-vert-dusty-olive-colorful-standard
 Rayon (femme / homme / mixte) : femme
@@ -59,97 +92,42 @@ Teint en :
 Prix : 21 €
 Code-barres : 5602991127633, 5602991127640, 5602991127657
 
+Produit 8
+Nom : T-shirt oversize en coton bio | rose "organic t-shirt faded pink"
+Lien : https://www.wedressfair.fr/collections/t-shirt-oversize-en-coton-bio-rose-organic-t-shirt-faded-pink-colorful-standard
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 21 €
+Code-barres : 5602991054113, 5602991054120, 5602991054137
+
+Produit 9
+Nom : Débardeur en coton bio | rose "rib tank top - faded pink"
+Lien : https://www.wedressfair.fr/collections/women-organic-rib-tank-top-faded-pink-colorful-standard
+Rayon (femme / homme / mixte) : femme
+Composition : 95% coton biologique, 5% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 18 €
+Code-barres : 5602991039035, 5602991039042, 5602991039059
+
+Produit 10
+Nom : Débardeur en coton bio | bordeaux "organic rib tank top - oxblood red"
+Lien : https://www.wedressfair.fr/collections/women-organic-rib-tank-top-oxblood-red-colorful-standard
+Rayon (femme / homme / mixte) : femme
+Composition : 95% coton biologique, 5% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 18 €
+Code-barres : 5602991150662, 5602991150679, 5602991150686
+
 ===== PULLS ET MAILLE =====
 
 Produit 1
-Nom : Sweat col zippé en coton bio | taupe "quarter zip - misty brown"
-Lien : https://www.wedressfair.fr/collections/sweat-camionneur-en-coton-bio-taupe-quarter-zip-misty-brown-colorful-standard
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 32 €
-Code-barres : 5602991134143, 5602991134150, 5602991134167
-
-Produit 2
-Nom : Sweat en coton bio | taupe "classic organic crew - faded khaki"
-Lien : https://www.wedressfair.fr/collections/women-classic-organic-crew-faded-khaki-colorful-standard
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 42 €
-Code-barres : 5602991173128, 5602991173135, 5602991173142
-
-Produit 3
-Nom : Sweat à capuche en coton bio | bleu "polar blue"
-Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-en-coton-bio-bleu-polar-blue-colorful-standard
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 32 €
-Code-barres : 5600493183560, 5600493183577, 5600493183584
-
-Produit 4
-Nom : Sweat à capuche en coton bio | rose "faded pink"
-Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-en-coton-bio-rose-faded-pink-colorful-standard
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 32 €
-Code-barres : 5600493179181, 5600493179198, 5600493179204
-
-Produit 5
-Nom : Sweat col zippé en coton biologique | vert "organic quarter zip - kelly green"
-Lien : https://www.wedressfair.fr/collections/sweat-col-zippe-en-coton-biologique-vert-organic-quarter-zip-kelly-green-colorful-standard
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 64 €
-Code-barres : 5602991061326, 5602991061333, 5602991061340
-
-Produit 6
-Nom : Sweat oversize en coton bio | gris "snow melange"
-Lien : https://www.wedressfair.fr/collections/sweat-oversize-en-coton-bio-gris-snow-melange-colorful-standard
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 28 €
-Code-barres : 5602991059989, 5602991059996, 5602991060008
-
-Produit 7
-Nom : Sweat crop zippé en coton bio | gris "organic crop zip hood - faded black"
-Lien : https://www.wedressfair.fr/collections/sweat-crop-zippe-en-coton-bio-organic-crop-zip-hood-faded-black-colorful-standard
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 48 €
-Code-barres : 5602991153106, 5602991153113, 5602991153120
-
-Produit 8
-Nom : Sweat col zippé en coton bio | vert "hunter green"
-Lien : https://www.wedressfair.fr/collections/sweat-camionneur-mixte-en-coton-bio-vert-hunter-green-colorful-standard
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 56 €
-Code-barres : 5602991061203, 5602991061210, 5602991061227
-
-Produit 9
 Nom : Pull col rond bordeaux en laine mérinos recyclée - oxblood red
 Lien : https://www.wedressfair.fr/collections/pull-col-rond-bordeaux-en-laine-merinos-recyclee-oxblood-red-colorful-standard
 Rayon (femme / homme / mixte) : homme
@@ -160,29 +138,18 @@ Teint en :
 Prix : 74 €
 Code-barres : 5602991013035, 5602991013042, 5602991013059
 
-Produit 10
-Nom : Sweat à capuche oversize en coton bio | écru "ivory white"
-Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-oversize-en-coton-bio-ecru-ivory-white-colorful-standard
+Produit 2
+Nom : Pull col rond gris en laine mérinos recyclée - heather grey
+Lien : https://www.wedressfair.fr/collections/pull-col-rond-gris-en-laine-merinos-recyclee-heather-grey-colorful-standard
 Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
+Composition : 100% laine mérinos recyclée
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
-Prix : 32 €
-Code-barres : 5602991084837, 5602991084844, 5602991084851
+Prix : 74 €
+Code-barres : 5602991012687, 5602991012694, 5602991012700
 
-Produit 11
-Nom : Sweat à capuche en coton bio | bordeaux "oxblood red"
-Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-en-coton-bio-bordeaux-oxblood-red-colorful-standard
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 48 €
-Code-barres : 5600493178764, 5600493178771, 5600493178788
-
-Produit 12
+Produit 3
 Nom : Pull col roulé en laine mérinos recyclée | gris "merino wool turtleneck heather grey"
 Lien : https://www.wedressfair.fr/collections/pull-col-roule-en-laine-merinos-recyclee-gris-merino-wool-turtleneck-heather-grey-colorful-standard
 Rayon (femme / homme / mixte) : homme
@@ -193,18 +160,282 @@ Teint en :
 Prix : 98 €
 Code-barres : 5602991111946, 5602991111953, 5602991111960
 
-Produit 13
-Nom : Pull en laine mérinos recyclée | violet "women classic merino wool crew - ultra violet"
-Lien : https://www.wedressfair.fr/collections/women-classic-merino-wool-crew-ultra-violet-ultra-violet-colorful-standard
+Produit 4
+Nom : Pull en laine mérinos recyclée | bleu-vert "ocean green"
+Lien : https://www.wedressfair.fr/collections/pull-en-laine-merinos-recyclee-bleu-vert-ocean-green-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine mérinos recyclée
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 105 €
+Code-barres : 5602991019440, 5602991019457, 5602991019464
+
+Produit 5
+Nom : Pull en laine mérinos recyclée | kaki "dusty olive"
+Lien : https://www.wedressfair.fr/collections/pull-en-laine-merinos-recyclee-kaki-dusty-olive-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine mérinos recyclée
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 74 €
+Code-barres : 5602991012540, 5602991012557, 5602991012564
+
+Produit 6
+Nom : Pull en laine mérinos recyclée | turquoise "women classic merino wool crew - ocean green"
+Lien : https://www.wedressfair.fr/collections/pull-en-laine-merinos-recyclee-turquoise-ocean-green-colorful-standard
 Rayon (femme / homme / mixte) : femme
 Composition : 100% laine mérinos recyclée
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 100 €
-Code-barres : 5602991163730, 5602991163747, 5602991163754
+Code-barres : 5602991022600, 5602991022617, 5602991022624
+
+Produit 7
+Nom : Sweat à capuche en coton bio | bleu "polar blue"
+Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-en-coton-bio-bleu-polar-blue-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 32 €
+Code-barres : 5600493183560, 5600493183577, 5600493183584
+
+Produit 8
+Nom : Sweat à capuche en coton bio | bordeaux "oxblood red"
+Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-en-coton-bio-bordeaux-oxblood-red-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 5600493178764, 5600493178771, 5600493178788
+
+Produit 9
+Nom : Sweat à capuche en coton bio | écru "ivory white"
+Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-en-coton-bio-ecru-ivory-white-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 32 €
+Code-barres : 5600493199615, 5600493199622, 5600493199639
+
+Produit 10
+Nom : Sweat à capuche en coton bio | marine "navy blue"
+Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-en-coton-bio-marine-navy-blue-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 80 €
+Code-barres : 5600493178979, 5600493178986, 5600493178993
+
+Produit 11
+Nom : Sweat à capuche en coton bio | noir "deep black"
+Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-en-coton-bio-noir-deep-black-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 80 €
+Code-barres : 5600493178832, 5600493178849, 5600493178856
+
+Produit 12
+Nom : Sweat à capuche en coton bio | rose "faded pink"
+Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-en-coton-bio-rose-faded-pink-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 32 €
+Code-barres : 5600493179181, 5600493179198, 5600493179204
+
+Produit 13
+Nom : Sweat à capuche en coton bio | vert "emerald green"
+Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-en-coton-bio-vert-emerald-green-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 80 €
+Code-barres : 5600493199547, 5600493199554, 5600493199561
 
 Produit 14
+Nom : Sweat à capuche gris clair en coton bio - snow melange
+Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-gris-clair-en-coton-bio-snow-melange-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 80 €
+Code-barres : 5602991029432, 5602991029449, 5602991029456
+
+Produit 15
+Nom : Sweat à capuche oversize en coton bio | noir "deep black"
+Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-oversize-en-coton-bio-noir-deep-black-colorful-standard
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 80 €
+Code-barres : 5602991084295, 5602991084301, 5602991084318
+
+Produit 16
+Nom : Sweat à capuche zippé en coton bio | noir "deep black"
+Lien : https://www.wedressfair.fr/collections/sweat-a-capuche-zippe-en-coton-bio-noir-deep-black-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 67 €
+Code-barres : 5600493179952, 5600493179969, 5600493179976
+
+Produit 17
+Nom : Sweat col zippé en coton bio | bleu "seaside blue"
+Lien : https://www.wedressfair.fr/collections/sweat-camionneur-col-zippe-en-coton-bio-bleu-seaside-blue-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 5602991102739, 5602991102746, 5602991102753
+
+Produit 18
+Nom : Sweat col zippé en coton bio | bordeaux "quarter zip oxblood red"
+Lien : https://www.wedressfair.fr/collections/sweat-camionneur-col-zippe-en-coton-bio-bordeaux-quarter-zip-oxblood-red-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 64 €
+Code-barres : 5602991061746, 5602991061753, 5602991061760
+
+Produit 19
+Nom : Sweat col zippé en coton bio | noir "deep black"
+Lien : https://www.wedressfair.fr/collections/sweat-camionneur-col-zippe-en-coton-bio-noir-deep-black-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 64 €
+Code-barres : 5602991060787, 5602991060794, 5602991060800
+
+Produit 20
+Nom : Sweat col zippé mixte en coton bio | écru "ivory white"
+Lien : https://www.wedressfair.fr/collections/sweat-camionneur-col-zippe-mixte-en-coton-bio-ecru-ivory-white-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 64 €
+Code-barres : 5602991061265, 5602991061272, 5602991061289
+
+Produit 21
+Nom : Sweat col zippé en coton bio | bleu "quarter zip - neptune blue"
+Lien : https://www.wedressfair.fr/collections/sweat-camionneur-en-coton-bio-bleu-quarter-zip-neptune-blue-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 5602991102548, 5602991102555, 5602991102562
+
+Produit 22
+Nom : Sweat col zippé en coton bio | taupe "quarter zip - misty brown"
+Lien : https://www.wedressfair.fr/collections/sweat-camionneur-en-coton-bio-taupe-quarter-zip-misty-brown-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 32 €
+Code-barres : 5602991134143, 5602991134150, 5602991134167
+
+Produit 23
+Nom : Sweat col zippé en coton bio | vert "hunter green"
+Lien : https://www.wedressfair.fr/collections/sweat-camionneur-mixte-en-coton-bio-vert-hunter-green-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 5602991061203, 5602991061210, 5602991061227
+
+Produit 24
+Nom : Sweat col zippé en coton biologique | gris "organic quarter zip - snow melange"
+Lien : https://www.wedressfair.fr/collections/sweat-col-zippe-en-coton-biologique-gris-organic-quarter-zip-snow-melange-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 5602991062293, 5602991062309, 5602991062316
+
+Produit 25
+Nom : Sweat col zippé en coton biologique | vert "organic quarter zip - kelly green"
+Lien : https://www.wedressfair.fr/collections/sweat-col-zippe-en-coton-biologique-vert-organic-quarter-zip-kelly-green-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 64 €
+Code-barres : 5602991061326, 5602991061333, 5602991061340
+
+Produit 26
+Nom : Sweat court zippé en coton bio | gris chiné "organic crop zip hood - snow melange"
+Lien : https://www.wedressfair.fr/collections/sweat-court-zippe-en-coton-bio-gris-chine-organic-crop-zip-hood-snow-melange-colorful-standard
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 5602991153557, 5602991153564, 5602991153571
+
+Produit 27
+Nom : Sweat en coton bio | bleu "faded indigo"
+Lien : https://www.wedressfair.fr/collections/sweat-en-coton-bio-bleu-faded-indigo-colorful-standard
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 42 €
+Code-barres : 5602991173746, 5602991173753, 5602991173760
+
+Produit 28
+Nom : Sweat en coton bio | rose "faded pink"
+Lien : https://www.wedressfair.fr/collections/sweat-en-coton-bio-rose-faded-pink-colorful-standard
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 42 €
+Code-barres : 5602991000356, 5602991000363, 5602991000370
+
+Produit 29
 Nom : Sweat oversize en coton bio | bleu neptune "neptune blue"
 Lien : https://www.wedressfair.fr/collections/sweat-oversize-en-coton-bio-bleu-neptune-neptune-blue-colorful-standard
 Rayon (femme / homme / mixte) : homme
@@ -215,24 +446,35 @@ Teint en :
 Prix : 28 €
 Code-barres : 5602991103507, 5602991103514, 5602991103521
 
-Produit 15
-Nom : Sweat col zippé en coton bio | marine "quarter zip navy blue"
-Lien : https://www.wedressfair.fr/collections/sweat-camionneur-col-zippe-en-coton-bio-marine-quarter-zip-navy-blue-colorful-standard
+Produit 30
+Nom : Sweat oversize en coton bio | gris "snow melange"
+Lien : https://www.wedressfair.fr/collections/sweat-oversize-en-coton-bio-gris-snow-melange-colorful-standard
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
-Prix : 64 €
-Code-barres : 5602991061623, 5602991061630, 5602991061647
+Prix : 28 €
+Code-barres : 5602991059989, 5602991059996, 5602991060008
 
-Produit 16
-Nom : Sweat col zippé mixte en coton bio | écru "ivory white"
-Lien : https://www.wedressfair.fr/collections/sweat-camionneur-col-zippe-mixte-en-coton-bio-ecru-ivory-white-colorful-standard
+Produit 31
+Nom : Sweat zippé en coton bio | gris "heather grey"
+Lien : https://www.wedressfair.fr/collections/sweat-zippe-en-coton-bio-gris-heather-grey-colorful-standard
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
-Prix : 64 €
-Code-barres : 5602991061265, 5602991061272, 5602991061289
+Prix : 57 €
+Code-barres : 5600493179679, 5600493179686, 5600493179693
+
+Produit 32
+Nom : Sweat en coton bio | violet "classic organic crew - faded grape"
+Lien : https://www.wedressfair.fr/collections/women-classic-organic-crew-faded-grape-colorful-standard
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 42 €
+Code-barres : 5602991173029, 5602991173036, 5602991173043

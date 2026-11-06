@@ -1,8 +1,8 @@
 RELEVÉ KINGS OF INDIGO
 
-Date du relevé : 5 novembre 2026
-Relevé automatique sur WeDressFair (revendeur multimarque) : premières fiches de la marque dans le plan
-du site, par catégorie, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
 qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
 
 ===== LA MARQUE =====
@@ -53,72 +53,6 @@ Code-barres : 8719175423225, 8719175413905, 8719175423201
 ===== PANTALONS ET JEANS =====
 
 Produit 1
-Nom : Jean flare en coton bio l blanc "Jane - diop optical white"
-Lien : https://www.wedressfair.fr/collections/jane-diop-optical-white-diop-optical-white-kings-of-indigo
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 90 €
-Code-barres : 8719175438465, 8719175438472, 8719175438489
-
-Produit 2
-Nom : Jean ballon en coton bio et tencel | denim clair "leila - luiz super light"
-Lien : https://www.wedressfair.fr/collections/jean-ballon-en-coton-bio-et-tencel-denim-clair-leila-luiz-super-light-kings-of-indigo
-Rayon (femme / homme / mixte) : femme
-Composition : 67% coton biologique, 33% ecovero® (par lenzing®)
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 90 €
-Code-barres : 8719175432371, 8719175432456, 8719175432388
-
-Produit 3
-Nom : Jean large taille basse en coton bio | bleu délavé "joan blue reef super light used"
-Lien : https://www.wedressfair.fr/collections/jean-large-en-coton-bio-bleu-delave-joan-blue-reef-super-light-used-kings-of-indigo
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 150 €
-Code-barres : 8719175386568, 8719175386643, 8719175386575
-
-Produit 4
-Nom : Jean ballon en coton bio | écru "leila - amsterdam undyed"
-Lien : https://www.wedressfair.fr/collections/jean-ballon-en-coton-bio-ecru-leila-amsterdam-undyed-kings-of-indigo
-Rayon (femme / homme / mixte) : femme
-Composition : 86% coton biologique, 14% lin
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 90 €
-Code-barres : 8719175412328, 8719175412427, 8719175412335
-
-Produit 5
-Nom : Jean droit en coton bio et tencel | bleu clair "liora cropped cindy light used"
-Lien : https://www.wedressfair.fr/collections/jean-droit-en-coton-bio-et-tencel-bleu-clair-liora-cropped-cindy-light-used-kings-of-indigo
-Rayon (femme / homme / mixte) : femme
-Composition : 67% coton biologique, 33% ecovero® (par lenzing®)
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 90 €
-Code-barres : 8719175387152, 8719175387169, 8719175387268
-
-Produit 6
-Nom : Jean large taille basse en coton bio | bleu "joan ceky blue worn"
-Lien : https://www.wedressfair.fr/collections/jean-large-en-coton-bio-bleu-joan-ceky-blue-worn-kings-of-indigo
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 150 €
-Code-barres : 8719175428701, 8719175428718, 8719175428794
-
-Produit 7
 Nom : Jean mom en coton biologique et en tencel | bleu "Caroline lewisboro mid used"
 Lien : https://www.wedressfair.fr/collections/caroline-lewisboro-mid-used-lewisboro-mid-used-kings-of-indigo
 Rayon (femme / homme / mixte) : femme
@@ -129,40 +63,18 @@ Teint en :
 Prix : 150 €
 Code-barres : 8719175436591, 8719175436607, 8719175436614
 
-Produit 8
-Nom : Pantalon ballon velours en coton bio | marron "Leila cord coffee bean cord"
-Lien : https://www.wedressfair.fr/collections/leila-cord-coffee-bean-cord-coffee-bean-cord-kings-of-indigo
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 150 €
-Code-barres : 8719175446019, 8719175446026, 8719175446033
-
-Produit 9
-Nom : Jean droit large en coton bio | bleu foncé "Roy 15 oz. vintage worn"
-Lien : https://www.wedressfair.fr/collections/roy-15-oz-vintage-worn-15-oz-vintage-worn-kings-of-indigo
+Produit 2
+Nom : Jean droit en coton bio | bleu "Iskander natural stretch mid worn"
+Lien : https://www.wedressfair.fr/collections/iskander-natural-stretch-mid-worn-natural-stretch-mid-worn-kings-of-indigo
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Turquie
 Tissé en : 
 Teint en : 
 Prix : 165 €
-Code-barres : 8719175429432, 8719175429463, 8719175429456
+Code-barres : 8719175444442, 8719175444466, 8719175444459
 
-Produit 10
-Nom : Jean fuselé en coton bio | bleu noir "addo - xavier blue black worn"
-Lien : https://www.wedressfair.fr/collections/jean-fusele-en-coton-bio-bleu-noir-addo-xavier-blue-black-worn-kings-of-indigo
-Rayon (femme / homme / mixte) : homme
-Composition : 79% coton biologique, 20% coton recyclé, 1% élasthanne
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 60 €
-Code-barres : 8719175404927, 8719175405023, 8719175404934
-
-Produit 11
+Produit 3
 Nom : Jean droit en coton bio | brut "Iskander natural stretch rinse"
 Lien : https://www.wedressfair.fr/collections/iskander-natural-stretch-rinse-natural-stretch-rinse-kings-of-indigo
 Rayon (femme / homme / mixte) : homme
@@ -173,7 +85,128 @@ Teint en :
 Prix : 150 €
 Code-barres : 8719175444619, 8719175444633, 8719175444626
 
+Produit 4
+Nom : Jean flare en coton bio l blanc "Jane - diop optical white"
+Lien : https://www.wedressfair.fr/collections/jane-diop-optical-white-diop-optical-white-kings-of-indigo
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 90 €
+Code-barres : 8719175438465, 8719175438472, 8719175438489
+
+Produit 5
+Nom : Jean ballon en coton bio | écru "leila - amsterdam undyed"
+Lien : https://www.wedressfair.fr/collections/jean-ballon-en-coton-bio-ecru-leila-amsterdam-undyed-kings-of-indigo
+Rayon (femme / homme / mixte) : femme
+Composition : 86% coton biologique, 14% lin
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 90 €
+Code-barres : 8719175412328, 8719175412427, 8719175412335
+
+Produit 6
+Nom : Jean ballon en coton bio et tencel | denim clair "leila - luiz super light"
+Lien : https://www.wedressfair.fr/collections/jean-ballon-en-coton-bio-et-tencel-denim-clair-leila-luiz-super-light-kings-of-indigo
+Rayon (femme / homme / mixte) : femme
+Composition : 67% coton biologique, 33% ecovero® (par lenzing®)
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 90 €
+Code-barres : 8719175432371, 8719175432456, 8719175432388
+
+Produit 7
+Nom : Jean ballon en coton bio | brut "leila suse dry"
+Lien : https://www.wedressfair.fr/collections/jean-ballon-en-coton-bio-noir-delave-leila-suse-dry-kings-of-indigo
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 140 €
+Code-barres : 8719175427803, 8719175427810, 8719175442851
+
+Produit 8
+Nom : Jean ballon en coton recyclé et bio | bleu "leila - alex dark worn"
+Lien : https://www.wedressfair.fr/collections/jean-ballon-en-coton-recycle-et-bio-bleu-leila-alex-dark-worn-kings-of-indigo
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 8719175419518, 8719175419617, 8719175419525
+
+Produit 9
+Nom : Jean ballon en coton recyclé | noir "leila cropped - holo black used"
+Lien : https://www.wedressfair.fr/collections/jean-ballon-en-coton-recycle-noir-leila-cropped-holo-black-used-kings-of-indigo
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 8719175408604, 8719175408703, 8719175408611
+
+Produit 10
+Nom : Jean droit en coton bio et tencel | bleu clair "liora cropped cindy light used"
+Lien : https://www.wedressfair.fr/collections/jean-droit-en-coton-bio-et-tencel-bleu-clair-liora-cropped-cindy-light-used-kings-of-indigo
+Rayon (femme / homme / mixte) : femme
+Composition : 67% coton biologique, 33% ecovero® (par lenzing®)
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 90 €
+Code-barres : 8719175387152, 8719175387169, 8719175387268
+
+Produit 11
+Nom : Jean flare en coton bio | bleu "jane - alex dark worn"
+Lien : https://www.wedressfair.fr/collections/jean-evase-en-coton-bio-bleu-jane-alex-dark-worn-kings-of-indigo
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 8719175414421, 8719175414520, 8719175414438
+
 Produit 12
+Nom : Jean flare en coton recyclé | bleu "jane - rechange mid worn"
+Lien : https://www.wedressfair.fr/collections/jean-evase-en-coton-recycle-bleu-jane-rechange-mid-worn-kings-of-indigo
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 8719175431473, 8719175430018, 8719175430025
+
+Produit 13
+Nom : Jean fuselé en coton bio | bleu noir "addo - xavier blue black worn"
+Lien : https://www.wedressfair.fr/collections/jean-fusele-en-coton-bio-bleu-noir-addo-xavier-blue-black-worn-kings-of-indigo
+Rayon (femme / homme / mixte) : homme
+Composition : 79% coton biologique, 20% coton recyclé, 1% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 8719175404927, 8719175405023, 8719175404934
+
+Produit 14
+Nom : Jean large taille basse en coton bio | bleu délavé "joan blue reef super light used"
+Lien : https://www.wedressfair.fr/collections/jean-large-en-coton-bio-bleu-delave-joan-blue-reef-super-light-used-kings-of-indigo
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 8719175386568, 8719175386643, 8719175386575
+
+Produit 15
 Nom : Jean slim en coton recyclé et tencel | bleu foncé "charles - olesya blue black"
 Lien : https://www.wedressfair.fr/collections/jean-slim-en-coton-recycle-et-tencel-bleu-fonce-charles-olesya-blue-black-kings-of-indigo
 Rayon (femme / homme / mixte) : homme
@@ -184,7 +217,7 @@ Teint en :
 Prix : 60 €
 Code-barres : 8719175411758, charlesolesyablueblack8, 8719175411765
 
-Produit 13
+Produit 16
 Nom : Pantalon ballon en lin | vert "Leila - dark forest"
 Lien : https://www.wedressfair.fr/collections/leila-dark-forest-kings-of-indigo
 Rayon (femme / homme / mixte) : femme
@@ -194,39 +227,6 @@ Tissé en :
 Teint en : 
 Prix : 99 €
 Code-barres : 8719175434436, 8719175434443, 8719175434450
-
-Produit 14
-Nom : Jean droit large en coton bio | bleu "Roy rechange mid worn"
-Lien : https://www.wedressfair.fr/collections/roy-rechange-mid-worn-rechange-mid-worn-kings-of-indigo
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton recyclé
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 150 €
-Code-barres : 8719175446187, 8719175446194, 8719175446200
-
-Produit 15
-Nom : Jean ballon en coton bio | bleu "Leila ceky blue worn"
-Lien : https://www.wedressfair.fr/collections/leila-ceky-blue-worn-ceky-blue-worn-kings-of-indigo
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Tunisie
-Tissé en : 
-Teint en : 
-Prix : 150 €
-Code-barres : 8719175440765, 8719175440789, 8719175440819
-
-Produit 16
-Nom : Jean ballon en coton bio | brut "leila suse dry"
-Lien : https://www.wedressfair.fr/collections/jean-ballon-en-coton-bio-noir-delave-leila-suse-dry-kings-of-indigo
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 140 €
-Code-barres : 8719175427803, 8719175427810, 8719175442851
 
 Produit 17
 Nom : Pantalon en lin | bleu "lilian - alabama super light"
@@ -238,3 +238,36 @@ Tissé en :
 Teint en : 
 Prix : 83 €
 Code-barres : 8719175415770, 8719175415787, 8719175415794
+
+Produit 18
+Nom : Jean droit large en coton bio | bleu foncé "Roy 15 oz. vintage worn"
+Lien : https://www.wedressfair.fr/collections/roy-15-oz-vintage-worn-15-oz-vintage-worn-kings-of-indigo
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 165 €
+Code-barres : 8719175429432, 8719175429463, 8719175429456
+
+Produit 19
+Nom : Jean droit large en coton bio | bleu "Roy rechange mid worn"
+Lien : https://www.wedressfair.fr/collections/roy-rechange-mid-worn-rechange-mid-worn-kings-of-indigo
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 8719175446187, 8719175446194, 8719175446200
+
+Produit 20
+Nom : Jean fuselé en coton bio | bleu "Sushan rechange mid worn"
+Lien : https://www.wedressfair.fr/collections/sushan-rechange-mid-worn-rechange-mid-worn-kings-of-indigo
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 8719175446545, 8719175429715, 8719175429722

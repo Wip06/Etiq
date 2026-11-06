@@ -11,9 +11,12 @@ import { InfoButton } from '@/components/InfoButton';
 import { OfficialCostLabel } from '@/components/OfficialCostLabel';
 import { ImpactEquivalents } from '@/components/ImpactEquivalents';
 import { Tiko } from '@/components/Tiko';
+import { SecondHandButton } from '@/components/SecondHandButton';
 import { StoreFinderButton } from '@/components/StoreFinderButton';
 import { WardrobeButton } from '@/components/WardrobeButton';
 import { findBrandByPortalName } from '@/data/brands';
+import { searchWord } from '@/data/categories';
+import { articleQuery } from '@/utils/secondHand';
 import { productBubble } from '@/data/equivalents';
 import { COST_EXPLANATION, DURABILITY_EXPLANATION, STAGE_EXPLANATIONS } from '@/data/explanations';
 import { compareToCategory, findAlternatives } from '@/data/portalStats';
@@ -107,6 +110,8 @@ export default function ProductScreen() {
   }
 
   const { product } = state;
+  // Le nom déclaré sur le portail est parfois celui de la société : on cherche la marque connue.
+  const brandName = findBrandByPortalName(product.brand)?.name ?? product.brand;
   // Un lot n'est pas comparable à des vêtements vendus à l'unité.
   const isSingle = product.components === 1;
   const bubble = productBubble(product.climate, product.water);
@@ -160,8 +165,11 @@ export default function ProductScreen() {
         }}
       />
 
-      {/* Le nom déclaré sur le portail est parfois celui de la société : on cherche la marque connue. */}
-      <StoreFinderButton brandName={findBrandByPortalName(product.brand)?.name ?? product.brand} />
+      <StoreFinderButton brandName={brandName} />
+      <SecondHandButton
+        article={articleQuery(brandName, product.reference)}
+        broad={`${brandName} ${searchWord(product.category)}`}
+      />
 
       <Text style={styles.sectionTitle}>Détail par étape</Text>
       {(Object.keys(STAGES) as Stage[]).map((stage) => (

@@ -1,8 +1,8 @@
 RELEVÉ ROTHOLZ
 
-Date du relevé : 5 novembre 2026
-Relevé automatique sur WeDressFair (revendeur multimarque) : premières fiches de la marque dans le plan
-du site, par catégorie, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
 qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
 
 ===== LA MARQUE =====
@@ -40,6 +40,17 @@ Code-barres : 4251902152243, 4251902152250, 4251902152267
 ===== PULLS ET MAILLE =====
 
 Produit 1
+Nom : Pull en laine bio et matière recyclée | noir "Cropped knit sweater - speckled black"
+Lien : https://www.wedressfair.fr/collections/cropped-knit-sweater-speckled-black-speckled-black-rotholz
+Rayon (femme / homme / mixte) : femme
+Composition : 80% laine mérinos, 20% nylon recyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 139 €
+Code-barres : 4251902157255, 4251902157262, 4251902157279
+
+Produit 2
 Nom : Pull sans manches en laine et coton bio | bleu "Cropped vest - blue marled"
 Lien : https://www.wedressfair.fr/collections/cropped-vest-blue-marled-blue-marled-rotholz
 Rayon (femme / homme / mixte) : femme
@@ -50,7 +61,18 @@ Teint en :
 Prix : 99 €
 Code-barres : 4251902160286, 4251902160293, 4251902160309
 
-Produit 2
+Produit 3
+Nom : Gilet en laine mérinos | vert "knit cardigan - speckled green"
+Lien : https://www.wedressfair.fr/collections/knit-cardigan-speckled-green-speckled-green-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 80% laine certifiée, 20% polyamide recyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 159 €
+Code-barres : 4251902157453, 4251902157460, 4251902157477
+
+Produit 4
 Nom : Pull en laine recyclée | gris "cropped knit sweater wool-blend - grey melange"
 Lien : https://www.wedressfair.fr/collections/pull-en-laine-recyclee-gris-cropped-knit-sweater-wool-blend-grey-melange-rotholz
 Rayon (femme / homme / mixte) : femme
@@ -61,18 +83,18 @@ Teint en :
 Prix : 104 €
 Code-barres : 4251902146945, 4251902146952, 4251902146969
 
-Produit 3
-Nom : Pull sans manches en laine et coton bio | marron "Cropped vest - rosewood brown"
-Lien : https://www.wedressfair.fr/collections/cropped-vest-rosewood-brown-rosewood-brown-rotholz
-Rayon (femme / homme / mixte) : femme
-Composition : 75% laine biologique, 25% coton biologique
+Produit 5
+Nom : Pull maille col zippé en laine recyclée | bleu "heavy knit troyer wool-blend - blue melange"
+Lien : https://www.wedressfair.fr/collections/pull-maille-col-zippe-en-laine-recyclee-bleu-heavy-knit-troyer-wool-blend-blue-melange-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 70% laine recyclée, 30% nylon recyclé
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
-Prix : 99 €
-Code-barres : 4251902160330, 4251902160347, 4251902160354
+Prix : 118 €
+Code-barres : 4251902147645, 4251902147652, 4251902147669
 
-Produit 4
+Produit 6
 Nom : Sweat noir col zippé en coton bio - half zip sweatshirt black
 Lien : https://www.wedressfair.fr/collections/sweat-noir-col-zippe-en-coton-bio-half-zip-sweatshirt-black-rotholz
 Rayon (femme / homme / mixte) : homme
@@ -99,61 +121,6 @@ Code-barres : 4251902138230, 4251902138247, 4251902138254
 ===== PANTALONS ET JEANS =====
 
 Produit 1
-Nom : Pantalon ample en coton bio | rayé jaune et blanc "ribbed lounge pant yellow/sand stripe"
-Lien : https://www.wedressfair.fr/collections/pantalon-ample-en-coton-bio-raye-jaune-et-blanc-ribbed-lounge-pant-yellow-sand-stripe-rotholz
-Rayon (femme / homme / mixte) : femme
-Composition : 97% coton biologique, 3% élasthanne
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 48 €
-Code-barres : 4251902130876, 4251902130883, 4251902130890
-
-Produit 2
-Nom : Pantalon ample léger effet denim en coton bio | bleu denim "Wide pant recycled cotton - washed denim"
-Lien : https://www.wedressfair.fr/collections/wide-pant-recycled-cotton-washed-denim-rotholz
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton recyclé
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 139 €
-Code-barres : 4251902155541, 4251902155558, 4251902155565
-
-Produit 3
-Nom : Pantalon droit flanelle en coton biologique | noir "flannel everyday pant - true black"
-Lien : https://www.wedressfair.fr/collections/pantalon-droit-flanelle-en-coton-biologique-noir-flannel-everyday-pant-true-black-rotholz
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 111 €
-Code-barres : 4251902148017, 4251902148024, 4251902148031
-
-Produit 4
-Nom : Pantalon flannelle en coton bio | marron "Flannel everyday pant - black brown"
-Lien : https://www.wedressfair.fr/collections/flannel-everyday-pant-black-brown-black-brown-rotholz
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 159 €
-Code-barres : 4251902164031, 4251902164048, 4251902164055
-
-Produit 5
-Nom : Pantalon ample en coton bio | noir "ribbed wide pant - faded black"
-Lien : https://www.wedressfair.fr/collections/ribbed-wide-pant-faded-black-faded-black-rotholz
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 159 €
-Code-barres : 4251902159495, 4251902159501, 4251902159518
-
-Produit 6
 Nom : Pantalon ballon en coton bio | bordeaux "Barrel-leg pant - washed burgundy"
 Lien : https://www.wedressfair.fr/collections/barrel-leg-pant-washed-burgundy-washed-burgundy-rotholz
 Rayon (femme / homme / mixte) : femme
@@ -164,9 +131,108 @@ Teint en :
 Prix : 149 €
 Code-barres : 4251902158849, 4251902158856, 4251902158863
 
+Produit 2
+Nom : Pantalon ample velours en coton bio | bleu "Cord wide pant - ash blue"
+Lien : https://www.wedressfair.fr/collections/cord-wide-pant-ash-blue-ash-blue-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 149 €
+Code-barres : 4251902159778, 4251902159785, 4251902159792
+
+Produit 3
+Nom : Pantalon flannelle en coton bio | marron "Flannel everyday pant - black brown"
+Lien : https://www.wedressfair.fr/collections/flannel-everyday-pant-black-brown-black-brown-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 159 €
+Code-barres : 4251902164031, 4251902164048, 4251902164055
+
+Produit 4
+Nom : Pantalon taille haute flanelle en coton biologique | noir "Flannel pantalone - true black"
+Lien : https://www.wedressfair.fr/collections/flannel-pantalone-true-black-true-black-rotholz
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 159 €
+Code-barres : 4251902159051, 4251902159068, 4251902159075
+
+Produit 5
+Nom : Pantalon ample en coton bio | rayé jaune et blanc "ribbed lounge pant yellow/sand stripe"
+Lien : https://www.wedressfair.fr/collections/pantalon-ample-en-coton-bio-raye-jaune-et-blanc-ribbed-lounge-pant-yellow-sand-stripe-rotholz
+Rayon (femme / homme / mixte) : femme
+Composition : 97% coton biologique, 3% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 4251902130876, 4251902130883, 4251902130890
+
+Produit 6
+Nom : Pantalon droit flanelle en coton biologique | noir "flannel everyday pant - true black"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-flanelle-en-coton-biologique-noir-flannel-everyday-pant-true-black-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 111 €
+Code-barres : 4251902148017, 4251902148024, 4251902148031
+
+Produit 7
+Nom : Pantalon large en coton bio | wide pant organic cotton | vert "leaf green"
+Lien : https://www.wedressfair.fr/collections/pantalon-large-en-coton-bio-wide-pant-organic-cotton-vert-leaf-green-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 83 €
+Code-barres : 4251902155664, 4251902155671, 4251902155688
+
+Produit 8
+Nom : Pantalon ample en coton bio | noir "ribbed wide pant - faded black"
+Lien : https://www.wedressfair.fr/collections/ribbed-wide-pant-faded-black-faded-black-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 159 €
+Code-barres : 4251902159495, 4251902159501, 4251902159518
+
+Produit 9
+Nom : Pantalon ample léger effet denim en coton bio | bleu denim "Wide pant recycled cotton - washed denim"
+Lien : https://www.wedressfair.fr/collections/wide-pant-recycled-cotton-washed-denim-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton recyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 139 €
+Code-barres : 4251902155541, 4251902155558, 4251902155565
+
 ===== CHEMISES ET BLOUSES =====
 
 Produit 1
+Nom : Chemise denim en coton bio | bleu "Casual shirt - blue denim"
+Lien : https://www.wedressfair.fr/collections/casual-shirt-blue-denim-blue-denim-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 139 €
+Code-barres : 4251902162235, 4251902162242, 4251902162259
+
+Produit 2
 Nom : Chemise en coton bio | bleu "casual shirt - speckled navy"
 Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-bleu-casual-shirt-speckled-navy-rotholz
 Rayon (femme / homme / mixte) : homme
@@ -176,17 +242,6 @@ Tissé en :
 Teint en : 
 Prix : 83 €
 Code-barres : 4251902153257, 4251902153264, 4251902153271
-
-Produit 2
-Nom : Chemise manches courtes en seersucker coton bio | rose "bowling shirt - pink stone"
-Lien : https://www.wedressfair.fr/collections/chemise-manches-courtes-en-coton-bio-rose-bowling-shirt-pink-stone-rotholz
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 71 €
-Code-barres : 4251902152656, 4251902152663, 4251902152670
 
 Produit 3
 Nom : Chemise manches courtes en coton bio | rayé "bowling shirt - brown stripe"
@@ -200,30 +255,74 @@ Prix : 71 €
 Code-barres : 4251902152915, 4251902152922, 4251902152939
 
 Produit 4
-Nom : Chemise denim en coton bio | bleu "Casual shirt - blue denim"
-Lien : https://www.wedressfair.fr/collections/casual-shirt-blue-denim-blue-denim-rotholz
+Nom : Chemise manches courtes en coton bio | rouge "bowling shirt - dusty red"
+Lien : https://www.wedressfair.fr/collections/chemise-manches-courtes-en-coton-bio-rouge-bowling-shirt-dusty-red-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 4251902140615, 4251902140622, 4251902140639
+
+Produit 5
+Nom : Surchemise velours côtelé en coton bio | bleu "Cord casual shirt - ash blue"
+Lien : https://www.wedressfair.fr/collections/cord-casual-shirt-ash-blue-ash-blue-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 149 €
+Code-barres : 4251902162099, 4251902162105, 4251902162112
+
+Produit 6
+Nom : Chemise flannelle en coton bio | "Flannel casual shirt - light grey"
+Lien : https://www.wedressfair.fr/collections/flannel-casual-shirt-light-grey-light-grey-rotholz
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 139 €
-Code-barres : 4251902162235, 4251902162242, 4251902162259
+Code-barres : 4251902162518, 4251902162525, 4251902162532
+
+Produit 7
+Nom : Chemise brodée en coton bio | blanc "Leisure shirt organic cotton - floral white"
+Lien : https://www.wedressfair.fr/collections/leisure-shirt-organic-cotton-floral-white-rotholz
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 4251902153455, 4251902153462, 4251902153479
+
+Produit 8
+Nom : Chemise denim en coton bio | bleu "Leisure shirt recycled cotton - washed denim"
+Lien : https://www.wedressfair.fr/collections/leisure-shirt-recycled-cotton-washed-denim-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton recyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 139 €
+Code-barres : 4251902153394, 4251902153400, 4251902153417
+
+Produit 9
+Nom : Surchemise en laine et coton bio | marron "Relaxed overshirt - rosewood brown"
+Lien : https://www.wedressfair.fr/collections/relaxed-overshirt-rosewood-brown-rosewood-brown-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 75% laine biologique, 25% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 199 €
+Code-barres : 4251902162723, 4251902162730, 4251902162747
 
 ===== MANTEAUX ET VESTES =====
 
 Produit 1
-Nom : Veste Sherpa en laine et coton bio | noir "Sherpa jacket - true black"
-Lien : https://www.wedressfair.fr/collections/sherpa-jacket-true-black-true-black-rotholz
-Rayon (femme / homme / mixte) : homme
-Composition : 78% laine biologique, 22% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 259 €
-Code-barres : 4251902161252, 4251902161269, 4251902161276
-
-Produit 2
 Nom : Veste en coton bio | bordeaux "Cropped jacket - washed burgundy"
 Lien : https://www.wedressfair.fr/collections/cropped-jacket-washed-burgundy-washed-burgundy-rotholz
 Rayon (femme / homme / mixte) : femme
@@ -234,7 +333,73 @@ Teint en :
 Prix : 159 €
 Code-barres : 4251902160132, 4251902160149, 4251902160156
 
+Produit 2
+Nom : Manteau long en laine bio | noir "Formal coat - true black"
+Lien : https://www.wedressfair.fr/collections/formal-coat-true-black-true-black-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 75% laine biologique, 25% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 299 €
+Code-barres : 4251902160835, 4251902160842, 4251902160859
+
 Produit 3
+Nom : Veste légère en coton bio | marron "Kimono jacket organic cotton - hazel brown"
+Lien : https://www.wedressfair.fr/collections/kimono-jacket-organic-cotton-hazel-brown-rotholz
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 83 €
+Code-barres : 4251902155121, 4251902155138, 4251902155145
+
+Produit 4
+Nom : Veste Sherpa en laine et coton bio | bleu "Sherpa jacket - blue marled"
+Lien : https://www.wedressfair.fr/collections/sherpa-jacket-blue-marled-blue-marled-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 78% laine biologique, 22% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 259 €
+Code-barres : 4251902160552, 4251902160569, 4251902160576
+
+Produit 5
+Nom : Veste légère en coton bio | vert "light overjacket organic cotton - leaf green"
+Lien : https://www.wedressfair.fr/collections/veste-en-coton-bio-vert-light-overjacket-organic-cotton-leaf-green-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 95 €
+Code-barres : 4251902154759, 4251902154766, 4251902154773
+
+Produit 6
+Nom : Veste en laine et coton bio | multicolore "button-down jacket wool-blend - dark watercolor"
+Lien : https://www.wedressfair.fr/collections/veste-en-laine-et-coton-bio-multicolore-button-down-jacket-wool-blend-dark-watercolor-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : 75% laine biologique, 25% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 181 €
+Code-barres : 4251902149304, 4251902149311, 4251902149328
+
+Produit 7
+Nom : Veste sans manches matelassée flanelle en coton bio | vert "flannel quilt vest - moss green"
+Lien : https://www.wedressfair.fr/collections/veste-sans-manches-matelassee-flanelle-en-coton-bio-vert-flannel-quilt-vest-moss-green-rotholz
+Rayon (femme / homme / mixte) : homme
+Composition : coton biologique, pet recyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 68 €
+Code-barres : 4251902136304, 4251902136311, 4251902136328
+
+Produit 8
 Nom : Veste en laine et coton bio | vert "Zip jacket - speckled green"
 Lien : https://www.wedressfair.fr/collections/zip-jacket-speckled-green-speckled-green-rotholz
 Rayon (femme / homme / mixte) : homme

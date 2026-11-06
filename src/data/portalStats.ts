@@ -62,6 +62,23 @@ export function compareToCategory(category: string, per100g: number): CategoryCo
   return { category, lessImpactThan, references: known.references, dataDate: stats.generatedAt };
 }
 
+export type CategoryMedians = {
+  // Coût environnemental (points), climat (kg CO₂e), eau (m³ éq) et masse (g) d'un vêtement neuf médian.
+  cost: number;
+  climate: number;
+  water: number;
+  massGrams: number;
+};
+
+// Repères médians d'une catégorie sur le portail officiel.
+export function categoryMedians(category: string): CategoryMedians | null {
+  const known = stats.categories[category as keyof typeof stats.categories] as
+    | { cost?: { median?: number }; climateMedian?: number | null; waterMedian?: number | null; medianMassGrams?: number }
+    | undefined;
+  if (!known?.cost?.median || !known.climateMedian || !known.waterMedian || !known.medianMassGrams) return null;
+  return { cost: known.cost.median, climate: known.climateMedian, water: known.waterMedian, massGrams: known.medianMassGrams };
+}
+
 // Vêtements de la même catégorie, de poids proche et moins coûteux à poids égal, du meilleur au
 // moins bon. Le classement découle uniquement du coût officiel déclaré sur le portail.
 export function findAlternatives(

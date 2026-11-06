@@ -1,0 +1,141 @@
+RELEVÉ BONJOUR DEMAIN
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : Top maya blanc en coton bio
+Lien : https://www.wedressfair.fr/collections/top-maya-blanc-bonjour-demain
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 35 €
+Code-barres : 3760427371899, 3760427371882, 3760427371875
+
+Produit 2
+Nom : Top maya noir en coton bio
+Lien : https://www.wedressfair.fr/collections/top-maya-noir-bonjour-demain
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 35 €
+Code-barres : 3760427371844, 3760427371837, 3760427371820
+
+Produit 3
+Nom : Top rosa lin vichy
+Lien : https://www.wedressfair.fr/collections/top-rosa-lin-vichy-bonjour-demain
+Rayon (femme / homme / mixte) : femme
+Composition : 100% lin
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 40 €
+Code-barres : 3760427372292, 3760427372285, 3760427372278
+
+Produit 4
+Nom : Top velours en coton bio | chocolat "jacinda"
+Lien : https://www.wedressfair.fr/collections/top-velours-en-coton-bio-chocolat-jacinda-bonjour-demain
+Rayon (femme / homme / mixte) : femme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 90 €
+Code-barres : 3760427373428, 3760427373411, 3760427373404
+
+Produit 5
+Nom : Top vera fuschia
+Lien : https://www.wedressfair.fr/collections/top-vera-fuschia-bonjour-demain
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 28 €
+Code-barres : 3760427372490, 3760427372483, 3760427372476
+
+===== PULLS ET MAILLE =====
+
+Produit 1
+Nom : Gilet en mohair certifié | écru "grace"
+Lien : https://www.wedressfair.fr/collections/gilet-en-mohair-certifie-ecru-grace-bonjour-demain
+Rayon (femme / homme / mixte) : femme
+Composition : 50% mohair certifiée, 30% polyamide recyclé, 20% laine certifiée
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 155 €
+Code-barres : 3760427374456, 3760427374449, 3760427374432
+
+Produit 2
+Nom : Pull en mohair certifié | écru "séréna"
+Lien : https://www.wedressfair.fr/collections/pull-en-mohair-certifie-ecru-serena-bonjour-demain
+Rayon (femme / homme / mixte) : femme
+Composition : 50% mohair certifiée, 30% polyamide recyclé, 20% laine certifiée
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 145 €
+Code-barres : 3760427374531, 3760427374524, 3760427374517
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 1
+Nom : Blouse marie blanche
+Lien : https://www.wedressfair.fr/collections/blouse-marie-blanche-bonjour-demain
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton upcyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 43 €
+Code-barres : 3760427372148, 3760427372131, 3760427372124
+
+Produit 2
+Nom : Blouse marie lin vichy
+Lien : https://www.wedressfair.fr/collections/blouse-marie-lin-vichy-bonjour-demain
+Rayon (femme / homme / mixte) : femme
+Composition : 100% lin
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 50 €
+Code-barres : 3760427371592, 3760427371585, 3760427371578
+
+Produit 3
+Nom : Blouse marie noire
+Lien : https://www.wedressfair.fr/collections/blouse-marie-noire-bonjour-demain
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton upcyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 43 €
+Code-barres : 3760427372094, 3760427372087, 3760427372070
+
+Produit 4
+Nom : Chemise frida noire
+Lien : https://www.wedressfair.fr/collections/chemise-frida-noire-bonjour-demain
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 45 €
+Code-barres : 3760427371998, 3760427371981, 3760427371974

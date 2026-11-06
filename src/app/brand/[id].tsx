@@ -4,6 +4,7 @@ import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
 import { FavoriteButton } from '@/components/FavoriteButton';
 import { InfoButton } from '@/components/InfoButton';
+import { SecondHandButton } from '@/components/SecondHandButton';
 import { StoreFinderButton } from '@/components/StoreFinderButton';
 import { getBrand, type BrandSurvey } from '@/data/brands';
 import { DURABILITY_EXPLANATION } from '@/data/explanations';
@@ -42,6 +43,7 @@ export default function BrandScreen() {
       <Text style={styles.description}>{brand.description}</Text>
 
       <StoreFinderButton brandName={brand.name} />
+      <SecondHandButton broad={brand.name} />
 
       {brand.survey && <SurveyCard survey={brand.survey} portal={portal} />}
       {!brand.survey && portal && <PortalCard portal={portal} />}

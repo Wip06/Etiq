@@ -12,8 +12,9 @@ import { ImpactEquivalents } from '@/components/ImpactEquivalents';
 import { MaterialInfoButton } from '@/components/MaterialInfo';
 import { OfficialCostLabel } from '@/components/OfficialCostLabel';
 import { Tiko } from '@/components/Tiko';
+import { SecondHandButton } from '@/components/SecondHandButton';
 import { WardrobeButton } from '@/components/WardrobeButton';
-import { categories, type Category } from '@/data/categories';
+import { categories, searchWord, type Category } from '@/data/categories';
 import { COUNTRY_NAMES, MATERIAL_NAMES } from '@/data/ecobalyse';
 import { syntheticGrams } from '@/data/equivalents';
 import { compareToCategory, findAlternatives } from '@/data/portalStats';
@@ -50,6 +51,14 @@ function toEcobalyseMaterials(materials: LabelMaterial[]) {
   }
   const known = total - unknown;
   return [...merged].map(([id, percent]) => ({ id, share: percent / known }));
+}
+
+// Matière principale en un mot, pour chercher le même type de vêtement d'occasion (« Laine mérinos » → laine).
+function mainMaterialWord(materials: LabelMaterial[]) {
+  const main = [...materials].sort((a, b) => b.percent - a.percent)[0];
+  if (!main) return '';
+  const name = main.id !== 'autre' ? (MATERIAL_NAMES[main.id] ?? main.text) : main.text;
+  return name.split(/\s+/)[0].toLowerCase();
 }
 
 async function photoToBase64(uri: string, width: number, height: number): Promise<string> {
@@ -181,12 +190,24 @@ export default function LabelScreen() {
           <OfficialCostLabel imageUrl={scoreLabelImageUrl(step.cost, step.massKg)} cost={step.cost} per100g={per100g} />
         </View>
         <Text style={styles.costHint}>Plus le chiffre est bas, moins le vêtement a d’impact.</Text>
+        {/* Un tiers doit déposer son calcul sur le portail avant de l'afficher (art. D. 541-243) : tant que
+            le dépôt n'est pas branché, l'estimation est présentée comme une démonstration, près du chiffre. */}
+        <View style={styles.demoNotice}>
+          <Ionicons name="information-circle-outline" size={18} color={colors.secondary} />
+          <Text style={styles.demoNoticeText}>
+            Estimation de démonstration : ce calcul n’est pas encore déposé sur le portail officiel, une obligation
+            avant tout affichage public.
+          </Text>
+        </View>
 
         {comparison && <CategoryComparison comparison={comparison} />}
 
         <ImpactEquivalents cost={step.cost} plastic={syntheticGrams(label.materials, step.massKg * 1000)} />
 
         <Alternatives alternatives={alternatives} />
+
+        {/* Pas de marque connue : le type de vêtement et sa matière principale (« pull laine »). */}
+        <SecondHandButton broad={`${searchWord(step.category.name)} ${mainMaterialWord(label.materials)}`} />
 
         <WardrobeButton
           item={{
@@ -210,10 +231,6 @@ export default function LabelScreen() {
             données, le coût serait souvent plus bas.
           </Text>
         </View>
-        <Text style={styles.source}>
-          Prototype : ce calcul n’est pas encore publié sur le portail officiel, une obligation avant tout affichage
-          public.
-        </Text>
         <Button label="Scanner un autre vêtement" onPress={() => router.back()} />
       </ScrollView>
     );
@@ -471,13 +488,22 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     color: colors.secondary,
   },
+  demoNotice: {
+    flexDirection: 'row',
+    gap: 8,
+    padding: 12,
+    borderRadius: 12,
+    borderWidth: 1,
+    borderColor: colors.secondary,
+  },
+  demoNoticeText: {
+    flex: 1,
+    fontSize: 13,
+    lineHeight: 19,
+    color: colors.secondary,
+  },
   costLabel: {
     alignItems: 'center',
     marginVertical: 8,
-  },
-  source: {
-    fontSize: 12,
-    lineHeight: 18,
-    color: colors.secondary,
   },
 });

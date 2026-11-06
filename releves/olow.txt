@@ -1,8 +1,8 @@
 RELEVÉ OLOW
 
-Date du relevé : 5 novembre 2026
-Relevé automatique sur WeDressFair (revendeur multimarque) : premières fiches de la marque dans le plan
-du site, par catégorie, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
 qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
 
 ===== LA MARQUE =====
@@ -16,28 +16,39 @@ Lien de la page :
 ===== T-SHIRTS ET TOPS =====
 
 Produit 1
-Nom : T-shirt en coton bio | écru "ecosystem"
-Lien : https://www.wedressfair.fr/collections/t-shirt-en-coton-bio-ecru-ecosystem-olow
+Nom : T-shirt imprimé en coton bio | noir "awake"
+Lien : https://www.wedressfair.fr/collections/t-shirt-awake-noir-carbone-noir-carbone-noir-carbone-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 3666904054463, 3666904054456, 3666904054449
+
+Produit 2
+Nom : T-shirt imprimé en coton bio | noir "elsewhere"
+Lien : https://www.wedressfair.fr/collections/t-shirt-elsewhere-noir-carbone-noir-carbone-noir-carbone-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 3666904053329, 3666904053312, 3666904053305
+
+Produit 3
+Nom : T-shirt en coton bio | blanc "cruiser"
+Lien : https://www.wedressfair.fr/collections/t-shirt-en-coton-bio-blanc-cruiser-olow
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 36 €
-Code-barres : 3666904043375, 3666904043368, 3666904043351
+Code-barres : 3666904043436, 3666904043429, 3666904043412
 
-Produit 2
-Nom : T-shirt en coton bio | bleu "ivresse bleu azure"
-Lien : https://www.wedressfair.fr/collections/t-shirt-ivresse-bleu-azure-bleu-azure-olow
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 55 €
-Code-barres : 3666904042538, 3666904042521
-
-Produit 3
+Produit 4
 Nom : T-shirt en coton bio | blanc "neighbourhood"
 Lien : https://www.wedressfair.fr/collections/t-shirt-en-coton-bio-blanc-neighbourhood-olow
 Rayon (femme / homme / mixte) : homme
@@ -47,17 +58,6 @@ Tissé en :
 Teint en : 
 Prix : 36 €
 Code-barres : 3666904041692, 3666904041685, 3666904041678
-
-Produit 4
-Nom : T-shirt imprimé en coton bio | noir "sunset"
-Lien : https://www.wedressfair.fr/collections/t-shirt-sunset-noir-carbone-noir-carbone-noir-carbone-olow
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 60 €
-Code-barres : 3666904051349, 3666904051332, 3666904051325
 
 Produit 5
 Nom : T-shirt en coton bio | blanc "sarapiqui ecru"
@@ -71,19 +71,107 @@ Prix : 30 €
 Code-barres : 3666904017215, 3666904017208, 3666904017192
 
 Produit 6
-Nom : T-shirt imprimé en coton bio | noir "elsewhere"
-Lien : https://www.wedressfair.fr/collections/t-shirt-elsewhere-noir-carbone-noir-carbone-noir-carbone-olow
+Nom : T-shirt en coton bio | écru "ecosystem"
+Lien : https://www.wedressfair.fr/collections/t-shirt-en-coton-bio-ecru-ecosystem-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 36 €
+Code-barres : 3666904043375, 3666904043368, 3666904043351
+
+Produit 7
+Nom : T-shirt en coton bio | noir "belle saison noir carbone - carbon black"
+Lien : https://www.wedressfair.fr/collections/t-shirt-en-coton-bio-noir-belle-saison-noir-carbone-carbon-black-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 42 €
+Code-barres : 3666904033000, 3666904032997, 3666904032980
+
+Produit 8
+Nom : T-shirt en coton bio | bleu "ivresse bleu azure"
+Lien : https://www.wedressfair.fr/collections/t-shirt-ivresse-bleu-azure-bleu-azure-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 55 €
+Code-barres : 3666904042538, 3666904042521
+
+Produit 9
+Nom : T-shirt en coton bio | blanc "melody"
+Lien : https://www.wedressfair.fr/collections/t-shirt-melody-ecru-ecru-ecru-olow
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 60 €
-Code-barres : 3666904053329, 3666904053312, 3666904053305
+Code-barres : 3666904051882, 3666904051875, 3666904051868
+
+Produit 10
+Nom : T-shirt oversize en coton bio | beige "soleil d'hiver creme"
+Lien : https://www.wedressfair.fr/collections/t-shirt-oversize-en-coton-bio-beige-soleil-d-hiver-creme-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 42 €
+Code-barres : 3666904029713, 3666904029706, 3666904029690
+
+Produit 11
+Nom : T-shirt imprimé en coton bio | écru "strong"
+Lien : https://www.wedressfair.fr/collections/t-shirt-strong-creme-creme-creme-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 65 €
+Code-barres : 3666904051288, 3666904051271, 3666904051264
+
+Produit 12
+Nom : T-shirt imprimé en coton bio | noir "sunset"
+Lien : https://www.wedressfair.fr/collections/t-shirt-sunset-noir-carbone-noir-carbone-noir-carbone-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 3666904051349, 3666904051332, 3666904051325
 
 ===== PULLS ET MAILLE =====
 
 Produit 1
+Nom : Sweat en coton bio | bleu "bally bleu outremer - overseas blue"
+Lien : https://www.wedressfair.fr/collections/sweat-en-coton-bio-bleu-bally-bleu-outremer-overseas-blue-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 81 €
+Code-barres : 3666904036483, 3666904036476, 3666904036469
+
+Produit 2
+Nom : Sweat en coton bio | bleu "sweat meknes bleu - blue"
+Lien : https://www.wedressfair.fr/collections/sweat-en-coton-bio-bleu-sweat-meknes-bleu-blue-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 53 €
+Code-barres : 3666904023605, 3666904023599, 3666904023582
+
+Produit 3
 Nom : Sweat en coton biologique | gris "sweat labyrinth dahlia gris chine - heather grey"
 Lien : https://www.wedressfair.fr/collections/sweat-en-coton-biologique-gris-sweat-labyrinth-dahlia-gris-chine-heather-grey-olow
 Rayon (femme / homme / mixte) : homme
@@ -93,28 +181,6 @@ Tissé en :
 Teint en : 
 Prix : 53 €
 Code-barres : 3666904023902, 3666904023896, 3666904023889
-
-Produit 2
-Nom : Sweat imprimé en coton bio | noir "mustang noir carbone"
-Lien : https://www.wedressfair.fr/collections/sweat-imprime-en-coton-bio-noir-mustang-noir-carbone-olow
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 46 €
-Code-barres : 3701029995588, 3701029995571, 3701029995564
-
-Produit 3
-Nom : Sweat rayé en coton bio | beige "wigan ivoire"
-Lien : https://www.wedressfair.fr/collections/sweat-raye-en-coton-bio-beige-wigan-ivoire-olow
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 46 €
-Code-barres : 3701029995342, 3701029995335, 3701029995328
 
 Produit 4
 Nom : Sweat en coton bio | bleu "free mind bleu dusk"
@@ -127,31 +193,31 @@ Teint en :
 Prix : 115 €
 Code-barres : 3666904058805, 3666904058799, 3666904058782
 
+Produit 5
+Nom : Sweat imprimé en coton bio | noir "mustang noir carbone"
+Lien : https://www.wedressfair.fr/collections/sweat-imprime-en-coton-bio-noir-mustang-noir-carbone-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 46 €
+Code-barres : 3701029995588, 3701029995571, 3701029995564
+
+Produit 6
+Nom : Sweat rayé en coton bio | beige "wigan ivoire"
+Lien : https://www.wedressfair.fr/collections/sweat-raye-en-coton-bio-beige-wigan-ivoire-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 46 €
+Code-barres : 3701029995342, 3701029995335, 3701029995328
+
 ===== PANTALONS ET JEANS =====
 
 Produit 1
-Nom : Pantalon droit en tencel | bleu "swing cobalt blue"
-Lien : https://www.wedressfair.fr/collections/pantalon-droit-en-tencel-bleu-swing-cobalt-blue-olow
-Rayon (femme / homme / mixte) : homme
-Composition : 100% tencel® (procédé lyocell)
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 54 €
-Code-barres : 3666904000408, 3666904000392, 3666904000385
-
-Produit 2
-Nom : Pantalon à pinces en mélange de matières recyclées | denim bleu "sembo"
-Lien : https://www.wedressfair.fr/collections/pantalon-sembo-denim-bleu-standard-standard-olow
-Rayon (femme / homme / mixte) : homme
-Composition : 72% coton recyclé, 23% polyester recyclé, 5% autres fibres recyclées
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 175 €
-Code-barres : 3666904055477, 3666904055460, 3666904055453
-
-Produit 3
 Nom : Pantalon denim en coton bio | bleu "chuck"
 Lien : https://www.wedressfair.fr/collections/pantalon-chuck-bleu-bleu-bleu-olow
 Rayon (femme / homme / mixte) : homme
@@ -162,20 +228,31 @@ Teint en :
 Prix : 155 €
 Code-barres : 3666904055958, 3666904055941, 3666904055934
 
-===== CHEMISES ET BLOUSES =====
-
-Produit 1
-Nom : Chemise en tencel® (procédé lyocell) | marron "chemise aloha firewood - firewood"
-Lien : https://www.wedressfair.fr/collections/chemise-en-tencel-procede-lyocell-marron-chemise-aloha-firewood-firewood-olow
+Produit 2
+Nom : Pantalon droit en tencel | bleu "swing cobalt blue"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-en-tencel-bleu-swing-cobalt-blue-olow
 Rayon (femme / homme / mixte) : homme
 Composition : 100% tencel® (procédé lyocell)
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
-Prix : 63 €
-Code-barres : 3666904023001, 3666904022998, 3666904022981
+Prix : 54 €
+Code-barres : 3666904000408, 3666904000392, 3666904000385
 
-Produit 2
+Produit 3
+Nom : Pantalon à pinces en mélange de matières recyclées | denim bleu "sembo"
+Lien : https://www.wedressfair.fr/collections/pantalon-sembo-denim-bleu-standard-standard-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 72% coton recyclé, 23% polyester recyclé, 5% autres fibres recyclées
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 175 €
+Code-barres : 3666904055477, 3666904055460, 3666904055453
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 1
 Nom : Chemise en coton bio | sable "slow pinede"
 Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-sable-slow-pinede-olow
 Rayon (femme / homme / mixte) : homme
@@ -186,40 +263,40 @@ Teint en :
 Prix : 60 €
 Code-barres : 3666904013361, 3666904013354, 3666904013347
 
-Produit 3
-Nom : Chemise | marron "chemise aloha guanacaste - guanacaste"
-Lien : https://www.wedressfair.fr/collections/chemise-marron-chemise-aloha-guanacaste-guanacaste-olow
+Produit 2
+Nom : Chemise en tencel® (procédé lyocell) | marron "chemise aloha firewood - firewood"
+Lien : https://www.wedressfair.fr/collections/chemise-en-tencel-procede-lyocell-marron-chemise-aloha-firewood-firewood-olow
 Rayon (femme / homme / mixte) : homme
 Composition : 100% tencel® (procédé lyocell)
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
 Prix : 63 €
-Code-barres : 3666904022882, 3666904022875, 3666904022868
+Code-barres : 3666904023001, 3666904022998, 3666904022981
 
 ===== MANTEAUX ET VESTES =====
 
 Produit 1
-Nom : Veste zippée en coton bio | vert "bethel sage green"
-Lien : https://www.wedressfair.fr/collections/veste-zippee-en-coton-bio-vert-bethel-sage-green-olow
+Nom : Veste en coton bio | vert "Jacket barry signature"
+Lien : https://www.wedressfair.fr/collections/jacket-barry-signature-signature-olow
 Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
+Composition : 100% coton
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
-Prix : 76 €
-Code-barres : 3666904007261, 3666904007254, 3666904007247
+Prix : 132 €
+Code-barres : 3666904050038, 3666904050021, 3666904050014
 
 Produit 2
-Nom : Veste sans manches en coton bio | beige "jacket orni beige - beige"
-Lien : https://www.wedressfair.fr/collections/veste-sans-manches-en-coton-bio-beige-jacket-orni-beige-beige-olow
+Nom : Blouson en canva mélangé lyocell et coton bio | vert "Jacket yarm vert meleze"
+Lien : https://www.wedressfair.fr/collections/jacket-yarm-vert-meleze-vert-meleze-vert-meleze-olow
 Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
+Composition : 65% lyocell, 35% coton
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
-Prix : 73 €
-Code-barres : 3666904025470, 3666904025463, 3666904025456
+Prix : 290 €
+Code-barres : 3666904060129, 3666904060112, 3666904060105
 
 Produit 3
 Nom : Veste canva en coton bio | beige "jacket barry dreamers"
@@ -242,3 +319,25 @@ Tissé en :
 Teint en : 
 Prix : 129 €
 Code-barres : 3666904049735, 3666904049728, 3666904049711
+
+Produit 5
+Nom : Veste sans manches en coton bio | beige "jacket orni beige - beige"
+Lien : https://www.wedressfair.fr/collections/veste-sans-manches-en-coton-bio-beige-jacket-orni-beige-beige-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 73 €
+Code-barres : 3666904025470, 3666904025463, 3666904025456
+
+Produit 6
+Nom : Veste zippée en coton bio | vert "bethel sage green"
+Lien : https://www.wedressfair.fr/collections/veste-zippee-en-coton-bio-vert-bethel-sage-green-olow
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 76 €
+Code-barres : 3666904007261, 3666904007254, 3666904007247

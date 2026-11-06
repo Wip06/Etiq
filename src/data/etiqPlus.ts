@@ -96,16 +96,16 @@ export const PLAN_FEATURES: PlanFeature[] = [
     plus: 'yes',
   },
   {
+    icon: 'repeat-outline',
+    title: 'Seconde main sur Vinted',
+    description: 'Le même type de vêtement d’occasion, depuis une fiche produit, une marque ou une estimation.',
+    standard: 'no',
+    plus: 'yes',
+  },
+  {
     icon: 'notifications-outline',
     title: 'Alertes sur vos marques',
     description: 'Être prévenu quand une marque favorite déclare de nouveaux vêtements.',
-    standard: 'no',
-    plus: 'soon',
-  },
-  {
-    icon: 'repeat-outline',
-    title: 'Alternatives en seconde main',
-    description: 'Des vêtements d’occasion proposés à côté des alternatives neuves.',
     standard: 'no',
     plus: 'soon',
   },

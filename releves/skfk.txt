@@ -1,8 +1,8 @@
 RELEVÉ SKFK
 
-Date du relevé : 5 novembre 2026
-Relevé automatique sur WeDressFair (revendeur multimarque) : premières fiches de la marque dans le plan
-du site, par catégorie, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
 qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
 
 ===== LA MARQUE =====
@@ -16,17 +16,6 @@ Lien de la page :
 ===== T-SHIRTS ET TOPS =====
 
 Produit 1
-Nom : Top maille en coton bio | "maindi - bottle green"
-Lien : https://www.wedressfair.fr/collections/top-maille-en-coton-bio-maindi-bottle-green-skfk
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 41 €
-Code-barres : 8433343184441, 8433343184458, 8433343184465
-
-Produit 2
 Nom : Top sans manches en coton bio | blanc
 Lien : https://www.wedressfair.fr/collections/camiseta-zuntz-10-white-skfk
 Rayon (femme / homme / mixte) : femme
@@ -37,16 +26,27 @@ Teint en :
 Prix : 29 €
 Code-barres : 8433343181754, 8433343181761, 8433343181778
 
+Produit 2
+Nom : T-shirt col v en tencel | vert "camiseta zur-10 - dark green"
+Lien : https://www.wedressfair.fr/collections/t-shirt-col-v-en-tencel-vert-camiseta-zur-10-dark-green-skfk
+Rayon (femme / homme / mixte) : femme
+Composition : 95% tencel® (procédé lyocell), 5% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 33 €
+Code-barres : 8433343180498, 8433343180504, 8433343180511
+
 Produit 3
-Nom : T-shirt en coton bio | vert "neskur"
-Lien : https://www.wedressfair.fr/collections/t-shirt-neskur-gots-vert-vert-skfk
+Nom : T-shirt en coton bio | bleu "neskur"
+Lien : https://www.wedressfair.fr/collections/t-shirt-neskur-gots-bleu-bleu-skfk
 Rayon (femme / homme / mixte) : femme
 Composition : 100% coton biologique
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
 Prix : 45 €
-Code-barres : 8433343212588, 8433343212595, 8433343212601
+Code-barres : 8433343212656, 8433343212663, 8433343212670
 
 Produit 4
 Nom : Top à carreaux en coton bio | multicolore "katti-gots shirt - checks"
@@ -60,26 +60,15 @@ Prix : 35 €
 Code-barres : 8433343124362, 8433343124379, 8433343124386
 
 Produit 5
-Nom : T-shirt col v en tencel | vert "camiseta zur-10 - dark green"
-Lien : https://www.wedressfair.fr/collections/t-shirt-col-v-en-tencel-vert-camiseta-zur-10-dark-green-skfk
-Rayon (femme / homme / mixte) : femme
-Composition : 95% tencel® (procédé lyocell), 5% élasthanne
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 33 €
-Code-barres : 8433343180498, 8433343180504, 8433343180511
-
-Produit 6
-Nom : T-shirt en coton bio | bleu "neskur"
-Lien : https://www.wedressfair.fr/collections/t-shirt-neskur-gots-bleu-bleu-skfk
+Nom : Top maille en coton bio | "maindi - bottle green"
+Lien : https://www.wedressfair.fr/collections/top-maille-en-coton-bio-maindi-bottle-green-skfk
 Rayon (femme / homme / mixte) : femme
 Composition : 100% coton biologique
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 45 €
-Code-barres : 8433343212656, 8433343212663, 8433343212670
+Prix : 41 €
+Code-barres : 8433343184441, 8433343184458, 8433343184465
 
 ===== PULLS ET MAILLE =====
 
@@ -94,64 +83,20 @@ Teint en :
 Prix : 47 €
 Code-barres : 8433343174633, 8433343174640, 8433343174657
 
+Produit 2
+Nom : Pull manches courtes en coton bio | écru "suéter muike - ivory"
+Lien : https://www.wedressfair.fr/collections/pull-manches-courtes-en-coton-bio-ecru-sueter-muike-ivory-skfk
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 67 €
+Code-barres : 8433343175616, 8433343175623, 8433343175630
+
 ===== ROBES ET JUPES =====
 
 Produit 1
-Nom : Jupe en lin et coton bio | vert "falda iragi - dark green"
-Lien : https://www.wedressfair.fr/collections/jupe-en-lin-et-coton-bio-vert-falda-iragi-dark-green-skfk
-Rayon (femme / homme / mixte) : femme
-Composition : 55% lin, 45% coton biologique
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 51 €
-Code-barres : 8433343172806, 8433343172813, 8433343172820
-
-Produit 2
-Nom : Jupe jean en coton bio | beige "aintzane creme"
-Lien : https://www.wedressfair.fr/collections/jupe-jean-en-coton-bio-beige-aintzane-creme-skfk
-Rayon (femme / homme / mixte) : femme
-Composition : 95% coton biologique, 5% élasthanne
-Fabriqué en : Espagne
-Tissé en : 
-Teint en : 
-Prix : 60 €
-Code-barres : 8433343086103, 8433343086110, 8433343086127
-
-Produit 3
-Nom : Jupe midi maille en coton biologique | écru "gilda cream"
-Lien : https://www.wedressfair.fr/collections/jupe-midi-maille-en-coton-biologique-ecru-gilda-cream-skfk
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 36 €
-Code-barres : 8433343106702, 8433343106719, 8433343106726
-
-Produit 4
-Nom : Jupe midi à carreaux en coton bio | multicolore "irama-gots skirt - checks"
-Lien : https://www.wedressfair.fr/collections/jupe-midi-a-carreaux-en-coton-bio-multicolore-irama-gots-skirt-checks-skfk
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 53 €
-Code-barres : 8433343125963, 8433343125970, 8433343125987
-
-Produit 5
-Nom : Jupe midi évasée en coton biologique | marron "eloisa - chocolat"
-Lien : https://www.wedressfair.fr/collections/jupe-eloisa-gots-chocolat-chocolat-skfk
-Rayon (femme / homme / mixte) : femme
-Composition : 98% coton biologique, 2% élasthanne
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 150 €
-Code-barres : 8433343196017, 8433343196024, 8433343196031
-
-Produit 6
 Nom : Jupe en lin et coton bio | écru "iragi - ivory"
 Lien : https://www.wedressfair.fr/collections/falda-iragi-ivory-skfk
 Rayon (femme / homme / mixte) : femme
@@ -162,16 +107,60 @@ Teint en :
 Prix : 51 €
 Code-barres : 8433343172738, 8433343172745, 8433343172752
 
-Produit 7
-Nom : Jupe midi évasée en coton biologique | taupe "eloisa"
-Lien : https://www.wedressfair.fr/collections/jupe-eloisa-gots-taupe-taupe-skfk
+Produit 2
+Nom : Jupe midi évasée en coton biologique | marron "eloisa - chocolat"
+Lien : https://www.wedressfair.fr/collections/jupe-eloisa-gots-chocolat-chocolat-skfk
 Rayon (femme / homme / mixte) : femme
 Composition : 98% coton biologique, 2% élasthanne
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
 Prix : 150 €
-Code-barres : 8433343196086, 8433343196093, 8433343196109
+Code-barres : 8433343196017, 8433343196024, 8433343196031
+
+Produit 3
+Nom : Jupe en lin et coton bio | vert "falda iragi - dark green"
+Lien : https://www.wedressfair.fr/collections/jupe-en-lin-et-coton-bio-vert-falda-iragi-dark-green-skfk
+Rayon (femme / homme / mixte) : femme
+Composition : 55% lin, 45% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 51 €
+Code-barres : 8433343172806, 8433343172813, 8433343172820
+
+Produit 4
+Nom : Jupe jean en coton bio | beige "aintzane creme"
+Lien : https://www.wedressfair.fr/collections/jupe-jean-en-coton-bio-beige-aintzane-creme-skfk
+Rayon (femme / homme / mixte) : femme
+Composition : 95% coton biologique, 5% élasthanne
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 8433343086103, 8433343086110, 8433343086127
+
+Produit 5
+Nom : Jupe midi à carreaux en coton bio | multicolore "irama-gots skirt - checks"
+Lien : https://www.wedressfair.fr/collections/jupe-midi-a-carreaux-en-coton-bio-multicolore-irama-gots-skirt-checks-skfk
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 53 €
+Code-barres : 8433343125963, 8433343125970, 8433343125987
+
+Produit 6
+Nom : Jupe midi maille en coton biologique | écru "gilda cream"
+Lien : https://www.wedressfair.fr/collections/jupe-midi-maille-en-coton-biologique-ecru-gilda-cream-skfk
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 36 €
+Code-barres : 8433343106702, 8433343106719, 8433343106726
 
 ===== PANTALONS ET JEANS =====
 
@@ -187,15 +176,26 @@ Prix : 88 €
 Code-barres : 8433343159999, 8433343160001, 8433343160018
 
 Produit 2
-Nom : Pantalon velours côtelé droit en coton bio | noir "sorgin"
-Lien : https://www.wedressfair.fr/collections/pantalon-sorgin-gots-noir-noir-skfk
+Nom : Pantalon large en coton bio | beige "ena"
+Lien : https://www.wedressfair.fr/collections/pantalon-large-en-coton-bio-beige-ena-skfk
+Rayon (femme / homme / mixte) : femme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 77 €
+Code-barres : 8433343177436, 8433343177443, 8433343177450
+
+Produit 3
+Nom : Pantalon velours côtelé droit en coton bio | écru "sorgin"
+Lien : https://www.wedressfair.fr/collections/pantalon-sorgin-gots-blanc-casse-blanc-casse-skfk
 Rayon (femme / homme / mixte) : femme
 Composition : 98% coton biologique, 2% élasthanne
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
 Prix : 150 €
-Code-barres : 8433343205511, 8433343205528, 8433343205535
+Code-barres : 8433343205580, 8433343205597, 8433343205603
 
 ===== CHEMISES ET BLOUSES =====
 
@@ -209,3 +209,27 @@ Tissé en :
 Teint en : 
 Prix : 43 €
 Code-barres : 8433343124157, 8433343124164, 8433343124171
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Veste denim en coton bio | bleu foncé "aiku"
+Lien : https://www.wedressfair.fr/collections/vest-aiku-jean-profond-skfk-jean-profond
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 8433343168922, 8433343168939, 8433343168946
+
+Produit 2
+Nom : Veste en ecovero | beige "elene"
+Lien : https://www.wedressfair.fr/collections/veste-elene-beige-skfk-beige
+Rayon (femme / homme / mixte) : femme
+Composition : 91% ecovero® (par lenzing®), 9% polyester
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 81 €
+Code-barres : 8433343166881, 8433343166966, 8433343166973

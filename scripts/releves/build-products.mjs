@@ -65,7 +65,14 @@ function genderOf(brand, url, declared) {
 }
 
 // Même pays, orthographes différentes selon les sites : une seule pour les filtres de l'app.
-const COUNTRY_ALIASES = { 'viet nam': 'Vietnam', egypte: 'Égypte', 'etats-unis': 'États-Unis', usa: 'États-Unis' };
+const COUNTRY_ALIASES = {
+  'viet nam': 'Vietnam',
+  egypte: 'Égypte',
+  'etats-unis': 'États-Unis',
+  usa: 'États-Unis',
+  'nord portugal': 'Portugal',
+  'nord du portugal': 'Portugal',
+};
 const countryName = (country) => COUNTRY_ALIASES[normalize(country)] ?? country;
 
 const MONTHS = ['janvier', 'février', 'mars', 'avril', 'mai', 'juin', 'juillet', 'août', 'septembre', 'octobre', 'novembre', 'décembre'];

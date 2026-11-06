@@ -1,0 +1,88 @@
+RELEVÉ TWOTHIRDS
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : Polo en coton bio piqué | rouille "Canning - coconut shell"
+Lien : https://www.wedressfair.fr/collections/canning-coconut-shell-twothirds
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 47 €
+Code-barres : 8435829302172, 8435829302189, 8435829302196
+
+===== PULLS ET MAILLE =====
+
+Produit 1
+Nom : Sweat velours en coton bio | vert foncé "Binz - dark-green"
+Lien : https://www.wedressfair.fr/collections/binz-dark-green-twothirds
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 8435829309706, 8435829309713, 8435829309720
+
+Produit 2
+Nom : Pull en coton bio | écru "llombards - off white"
+Lien : https://www.wedressfair.fr/collections/pull-en-coton-bio-ecru-llombards-off-white-twothirds
+Rayon (femme / homme / mixte) : femme
+Composition : 90% coton biologique, 10% polyester recyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 65 €
+Code-barres : 5270639483320, 5270639486598, 5270639489872
+
+Produit 3
+Nom : Sweat en coton bio | écru "hagen"
+Lien : https://www.wedressfair.fr/collections/sweat-en-coton-bio-ecru-hagen-twothirds
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 83 €
+Code-barres : 5169363465040, 5169363468324, 5169363471591
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 1
+Nom : Chemise en gaze de coton bio | rouille "Unyee - coconut shell"
+Lien : https://www.wedressfair.fr/collections/unyee-coconut-shell-twothirds
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 71 €
+Code-barres : 8435829303971, 8435829303988, 8435829303995
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Manteau déperlant doublé polaire en matière recyclée | aubergine "Zephyria"
+Lien : https://www.wedressfair.fr/collections/zephyria-aubergine-twothirds
+Rayon (femme / homme / mixte) : femme
+Composition : 100% polyester recyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 219 €
+Code-barres : 8435829313413, 8435829313420, 8435829313437

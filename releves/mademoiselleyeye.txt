@@ -1,0 +1,75 @@
+RELEVÉ MADEMOISELLE YÉYÉ
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : T-shirt pointelle en coton bio | blanc "Bloomline top"
+Lien : https://www.wedressfair.fr/collections/bloomline-top-white-mademoiselle-yeye
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 23 €
+Code-barres : 4251895174642, 4251895174659, 4251895174673
+
+===== ROBES ET JUPES =====
+
+Produit 1
+Nom : Jupe-short denim en coton bio | brut "Dotty skort - black"
+Lien : https://www.wedressfair.fr/collections/dotty-skort-black-mademoiselle-yeye
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 65 €
+Code-barres : 4251895171085, 4251895171078, 4251895171061
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Veste polaire en coton bio et matière recyclée | blanc "Cloudy day jacket creme - white"
+Lien : https://www.wedressfair.fr/collections/cloudy-day-jacket-creme-white-mademoiselle-yeye
+Rayon (femme / homme / mixte) : femme
+Composition : 61% polyester recyclé, 39% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 4251895180032, 4251895180049, 4251895180056
+
+Produit 2
+Nom : Veste sherpa à motifs en matière recyclée | blanc et noir "Cuddle cat bomber jacket amore - white"
+Lien : https://www.wedressfair.fr/collections/cuddle-cat-bomber-jacket-amore-white-mademoiselle-yeye
+Rayon (femme / homme / mixte) : femme
+Composition : 100% polyester recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 149 €
+Code-barres : 4251895181558, 4251895181565, 4251895181572
+
+Produit 3
+Nom : Veste polaire en coton bio et matière recyclée | beige "Studio cloud jacket creme - white"
+Lien : https://www.wedressfair.fr/collections/studio-cloud-jacket-creme-white-mademoiselle-yeye
+Rayon (femme / homme / mixte) : femme
+Composition : 61% polyester recyclé, 39% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 129 €
+Code-barres : 4251895181954, 4251895181961, 4251895181978

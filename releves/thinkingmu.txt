@@ -1,8 +1,8 @@
 RELEVÉ THINKING MU
 
-Date du relevé : 5 novembre 2026
-Relevé automatique sur WeDressFair (revendeur multimarque) : premières fiches de la marque dans le plan
-du site, par catégorie, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
 qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
 
 ===== LA MARQUE =====
@@ -16,28 +16,127 @@ Lien de la page :
 ===== T-SHIRTS ET TOPS =====
 
 Produit 1
-Nom : T-shirt imprimé en coton bio | blanc "sol contrast white tee - white"
-Lien : https://www.wedressfair.fr/collections/t-shirt-imprime-en-coton-bio-blanc-sol-contrast-white-tee-white-thinking-mu
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
-Fabriqué en : Espagne
+Nom : Débardeur en coton bio | marine "navy pannacota contrast harriet top"
+Lien : https://www.wedressfair.fr/collections/debardeur-en-coton-bio-marine-navy-pannacota-contrast-harriet-top-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 97% coton biologique, 3% lycra
+Fabriqué en : Inde
 Tissé en : 
 Teint en : 
 Prix : 29 €
-Code-barres : 8435512900975, 8435512900982, 8435512900999
+Code-barres : 8435512935373, 8435512935380, 8435512935397
 
 Produit 2
-Nom : Gilet sans manches | rayé jaune "nogal stripes alisa top - multicolor"
-Lien : https://www.wedressfair.fr/collections/top-sans-manche-jaune-et-blanc-nogal-stripes-alisa-top-multicolor-thinking-mu
+Nom : Débardeur en coton bio | rose et vert "sugar pink harriet top"
+Lien : https://www.wedressfair.fr/collections/debardeur-en-coton-bio-rose-et-vert-sugar-pink-harriet-top-thinking-mu
 Rayon (femme / homme / mixte) : femme
 Composition : 100% coton biologique
-Fabriqué en : Turquie
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 20 €
+Code-barres : 8435512851413, 8435512851420, 8435512851437
+
+Produit 3
+Nom : Débardeur en coton bio | vert "garden green pumpkin contrast harriet top"
+Lien : https://www.wedressfair.fr/collections/debardeur-en-coton-bio-vert-garden-green-pumpkin-contrast-harriet-top-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 97% coton biologique, 3% lycra
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 29 €
+Code-barres : 8435512925374, 8435512925381, 8435512925398
+
+Produit 4
+Nom : T-shirt manches longues en coton bio | bleu "Delft blue aine top - blue"
+Lien : https://www.wedressfair.fr/collections/delft-blue-aine-top-blue-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 97% coton biologique, 3% élasthanne
+Fabriqué en : Inde
 Tissé en : 
 Teint en : 
 Prix : 59 €
-Code-barres : 8435512934659, 8435512934666, 8435512934673
+Code-barres : 8435512958099, 8435512958105, 8435512958112
 
-Produit 3
+Produit 5
+Nom : Gilet sans manches en coton bio | multicolore "colorful edith vest"
+Lien : https://www.wedressfair.fr/collections/gilet-sans-manches-en-coton-bio-multicolore-colorful-edith-vest-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 44 €
+Code-barres : 8435512852212, 8435512852229, 8435512852236
+
+Produit 6
+Nom : Gilet sans manches en coton bio | rouge "clavel alisa top - red"
+Lien : https://www.wedressfair.fr/collections/gilet-sans-manches-en-coton-bio-rouge-clavel-alisa-top-red-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 59 €
+Code-barres : 8435512934598, 8435512934604, 8435512934611
+
+Produit 7
+Nom : Sous-pull col montant en coton bio | vert "Green rib aine top - green"
+Lien : https://www.wedressfair.fr/collections/green-rib-aine-top-green-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 97% coton biologique, 3% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 59 €
+Code-barres : 8435512958150, 8435512958167, 8435512958174
+
+Produit 8
+Nom : T-shirt oversize en coton bio | rayé "Kiki stripes aaron r tee"
+Lien : https://www.wedressfair.fr/collections/kiki-stripes-aaron-r-tee-multicolor-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 59 €
+Code-barres : 8435512966940, 8435512966957, 8435512966964
+
+Produit 9
+Nom : Top manches longues mesh en matière recyclée | bleu "Lotus print navy tere top - navy"
+Lien : https://www.wedressfair.fr/collections/lotus-print-navy-tere-top-navy-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 95% polyester recyclé, 5% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 8435512957559, 8435512957566, 8435512957573
+
+Produit 10
+Nom : Top manches longues transparent en matières recyclées | rouge "Noir print red tere top - red"
+Lien : https://www.wedressfair.fr/collections/noir-print-red-tere-top-red-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 95% polyester recyclé, 5% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 8435512957610, 8435512957627, 8435512957634
+
+Produit 11
+Nom : T-shirt en coton bio | noir "Sunny black lucia tee"
+Lien : https://www.wedressfair.fr/collections/sunny-black-lucia-tee-black-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 32 €
+Code-barres : 8435512932075, 8435512932082, 8435512932099
+
+Produit 12
 Nom : T-shirt dos ajouré en coton bio | beige "pannacota rio top"
 Lien : https://www.wedressfair.fr/collections/t-shirt-dos-ajoure-en-coton-bio-beige-pannacota-rio-top-thinking-mu
 Rayon (femme / homme / mixte) : femme
@@ -48,20 +147,196 @@ Teint en :
 Prix : 35 €
 Code-barres : 8435512935076, 8435512935083, 8435512935090
 
-===== PULLS ET MAILLE =====
-
-Produit 1
-Nom : Sweatshirt col camionneur en coton bio | vert "ivy pipo - green"
-Lien : https://www.wedressfair.fr/collections/sweatshirt-col-camionneur-en-coton-bio-vert-ivy-pipo-green-thinking-mu
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton
+Produit 13
+Nom : T-shirt en coton bio | blanc "animal motel ida tee - white"
+Lien : https://www.wedressfair.fr/collections/t-shirt-en-coton-bio-blanc-animal-motel-ida-tee-white-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 72 €
-Code-barres : 8435512944733, 8435512944740, 8435512944757
+Prix : 35 €
+Code-barres : 8435512931597, 8435512931603, 8435512931610
+
+Produit 14
+Nom : T-shirt imprimé en coton bio | blanc "sol contrast white tee - white"
+Lien : https://www.wedressfair.fr/collections/t-shirt-imprime-en-coton-bio-blanc-sol-contrast-white-tee-white-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 29 €
+Code-barres : 8435512900975, 8435512900982, 8435512900999
+
+Produit 15
+Nom : T-shirt manches longues matières recyclées | marron "toasted navy casilda top"
+Lien : https://www.wedressfair.fr/collections/t-shirt-manches-longues-matieres-recyclees-marron-toasted-navy-casilda-top-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 54% autres fibres recyclées, 24% coton biologique, 19% laine, 3% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 36 €
+Code-barres : 8435512869722, 8435512869739, 8435512869746
+
+Produit 16
+Nom : Top à noeuds en coton bio | rouge "fiery red elise top"
+Lien : https://www.wedressfair.fr/collections/top-a-noeuds-en-coton-bio-rouge-fiery-red-elise-top-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 45 €
+Code-barres : 8435512890146, 8435512890153, 8435512890160
+
+Produit 17
+Nom : Top en coton bio | multicolor "osis checks hiba top"
+Lien : https://www.wedressfair.fr/collections/top-en-coton-bio-multicolor-osis-checks-hiba-top-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 47 €
+Code-barres : 8435512934895, 8435512934901, 8435512934918
+
+Produit 18
+Nom : Top seersucker en coton bio | rouge "red checks seersucker florence top"
+Lien : https://www.wedressfair.fr/collections/top-en-coton-bio-rouge-red-checks-seersucker-florence-top-red-red-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 99% coton biologique, 1% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 47 €
+Code-barres : 8435512951427, 8435512951434, 8435512951441
+
+Produit 19
+Nom : Gilet sans manches | rayé jaune "nogal stripes alisa top - multicolor"
+Lien : https://www.wedressfair.fr/collections/top-sans-manche-jaune-et-blanc-nogal-stripes-alisa-top-multicolor-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 59 €
+Code-barres : 8435512934659, 8435512934666, 8435512934673
+
+Produit 20
+Nom : Sous-pull col montant en coton bio | blanc "White rib aine top - white"
+Lien : https://www.wedressfair.fr/collections/white-rib-aine-top-white-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 97% coton biologique, 3% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 59 €
+Code-barres : 8435512958273, 8435512958280, 8435512958297
+
+===== PULLS ET MAILLE =====
+
+Produit 1
+Nom : Veste maille en laine certifiée | marron "Brown ekaiz knitted sweater"
+Lien : https://www.wedressfair.fr/collections/brown-ekaiz-knitted-sweater-brown-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine certifiée
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 170 €
+Code-barres : 8435512963093, 8435512963109, 8435512963116
 
 Produit 2
+Nom : Pull sans manches en laine mérino | vert "Green kaia knitted vest - green"
+Lien : https://www.wedressfair.fr/collections/green-kaia-knitted-vest-green-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% laine mérinos
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 130 €
+Code-barres : 8435512970046, 8435512970053, 8435512970060
+
+Produit 3
+Nom : Pull texturé en laine certifiée | vert "Green rasta knitted sweater"
+Lien : https://www.wedressfair.fr/collections/green-rasta-knitted-sweater-green-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine certifiée
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 170 €
+Code-barres : 8435512963581, 8435512963598, 8435512963604
+
+Produit 4
+Nom : Pull zippé col en laine mérinos | vert "Green tanit knitted sweater - green"
+Lien : https://www.wedressfair.fr/collections/green-tanit-knitted-sweater-green-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% laine certifiée
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 170 €
+Code-barres : 8435512970107, 8435512970114, 8435512970121
+
+Produit 5
+Nom : Pull en laine certifée | multicolore "multicolor bolita knitted sweater"
+Lien : https://www.wedressfair.fr/collections/multicolor-bolita-knitted-sweater-multicolor-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine certifiée
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 180 €
+Code-barres : 8435512963307, 8435512963314, 8435512963321
+
+Produit 6
+Nom : Pull en coton bio | écru "strawberry philis knitted sweater - white"
+Lien : https://www.wedressfair.fr/collections/pull-en-coton-bio-ecru-strawberry-philis-knitted-sweater-white-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 112 €
+Code-barres : 8435512912022, 8435512912039, 8435512912046
+
+Produit 7
+Nom : Pull en laine certifiée | multicolore "stripe multicolor guiu knitted sweater - multicolor"
+Lien : https://www.wedressfair.fr/collections/pull-en-laine-certifiee-multicolore-stripe-multicolor-guiu-knitted-sweater-multicolor-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine certifiée
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 72 €
+Code-barres : 8435512879950, 8435512879967, 8435512879974
+
+Produit 8
+Nom : Pull en laine mérinos certifiée | beige "ecru rasta knitted sweater - ecru"
+Lien : https://www.wedressfair.fr/collections/pull-en-laine-merinos-certifiee-beige-ecru-rasta-knitted-sweater-ecru-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine mérinos
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 72 €
+Code-barres : 8435512880109, 8435512880116, 8435512880123
+
+Produit 9
+Nom : Pull en laine mérinos et matière recyclée | rayé violet "violet stripes zoe knitted sweater"
+Lien : https://www.wedressfair.fr/collections/pull-en-laine-merinos-et-matiere-recyclee-raye-violet-violet-stripes-zoe-knitted-sweater-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 65% laine certifiée, 35% nylon recyclé
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 8435512840431, 8435512840448, 8435512840455
+
+Produit 10
 Nom : Pull sans manches en coton et matière recyclées | shell red aria knitted vest - red
 Lien : https://www.wedressfair.fr/collections/pull-sans-manches-en-coton-et-matiere-recyclees-shell-red-aria-knitted-vest-red-thinking-mu
 Rayon (femme / homme / mixte) : femme
@@ -72,9 +347,174 @@ Teint en :
 Prix : 72 €
 Code-barres : 8435512929433, 8435512929440, 8435512929457
 
+Produit 11
+Nom : Pull uni texturé en laine mérinos certifiée | bleu gris "blue grey rasta knitted sweater - blue"
+Lien : https://www.wedressfair.fr/collections/pull-uni-texture-en-laine-merinos-certifiee-bleu-gris-blue-grey-rasta-knitted-sweater-blue-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine certifiée
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 72 €
+Code-barres : 8435512880154, 8435512880161, 8435512880178
+
+Produit 12
+Nom : Sweat en coton bio | rouge "Red gorka sweatshirt - red"
+Lien : https://www.wedressfair.fr/collections/red-gorka-sweatshirt-red-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 8435512962744, 8435512962751, 8435512962768
+
+Produit 13
+Nom : Pull camionneur en mélange de matières recyclées | bleu "Royal tanit knitted sweater - blue"
+Lien : https://www.wedressfair.fr/collections/royal-tanit-knitted-sweater-blue-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 50% coton recyclé, 50% polyester recyclé
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 8435512956590, 8435512956606, 8435512956613
+
+Produit 14
+Nom : Sweat en coton bio | bleu "indigofera ftp sweatshirt blue"
+Lien : https://www.wedressfair.fr/collections/sweat-en-coton-bio-bleu-indigofera-ftp-sweatshirt-blue-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 52 €
+Code-barres : 8435512857163, 8435512857170, 8435512857187
+
+Produit 15
+Nom : Sweat en coton bio | écru à motif imprimé "hello playa sweatshirt ivory"
+Lien : https://www.wedressfair.fr/collections/sweat-en-coton-bio-ecru-a-motif-imprime-hello-playa-sweatshirt-ivory-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 44 €
+Code-barres : 8435512859167, 8435512859174, 8435512859181
+
+Produit 16
+Nom : Sweat en coton biologique | bleu "sol type navy pepe sweatshirt - blue"
+Lien : https://www.wedressfair.fr/collections/sweat-en-coton-biologique-bleu-sol-type-navy-pepe-sweatshirt-blue-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 55 €
+Code-barres : 8435512902979, 8435512902986, 8435512902993
+
+Produit 17
+Nom : Sweat oversize en coton bio et matière recyclée | noir "black andrea hoodie"
+Lien : https://www.wedressfair.fr/collections/sweat-oversize-en-coton-bio-et-matiere-recyclee-noir-black-andrea-hoodie-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 70% coton biologique, 30% polyester recyclé
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 8435512876102, 8435512876119, 8435512876126
+
+Produit 18
+Nom : Sweatshirt brodé en coton bio | bleu "flower rope navy leon sweatshirt - blue"
+Lien : https://www.wedressfair.fr/collections/sweatshirt-brode-en-coton-bio-bleu-flower-rope-navy-leon-sweatshirt-blue-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 84 €
+Code-barres : 8435512920102, 8435512920119, 8435512920126
+
+Produit 19
+Nom : Sweatshirt brodé en coton bio | vert "flower tm bottle green jodie sweatshirt - green"
+Lien : https://www.wedressfair.fr/collections/sweatshirt-brode-en-coton-bio-vert-flower-tm-bottle-green-jodie-sweatshirt-green-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 76 €
+Code-barres : 8435512911667, 8435512911674, 8435512911681
+
+Produit 20
+Nom : Sweatshirt col camionneur en coton bio | vert "ivy pipo - green"
+Lien : https://www.wedressfair.fr/collections/sweatshirt-col-camionneur-en-coton-bio-vert-ivy-pipo-green-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 72 €
+Code-barres : 8435512944733, 8435512944740, 8435512944757
+
+Produit 21
+Nom : Sweatshirt en coton bio | écru "sol contrast pannacota leon sweatshirt"
+Lien : https://www.wedressfair.fr/collections/sweatshirt-en-coton-bio-ecru-sol-contrast-pannacota-leon-sweatshirt-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 65 €
+Code-barres : 8435512945297, 8435512945303, 8435512945310
+
+Produit 22
+Nom : Sweatshirt en coton bio | écru "winter white heart "
+Lien : https://www.wedressfair.fr/collections/sweatshirt-en-coton-bio-ecru-winter-white-heart-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 8435512878908, 8435512878915, 8435512878922
+
+Produit 23
+Nom : Sweatshirt oversize brodé en coton bio | noir "flower rope black jimena sweatshirt - black"
+Lien : https://www.wedressfair.fr/collections/sweatshirt-oversize-brode-en-coton-bio-noir-flower-rope-black-jimena-sweatshirt-black-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 84 €
+Code-barres : 8435512911360, 8435512911377, 8435512911384
+
 ===== ROBES ET JUPES =====
 
 Produit 1
+Nom : Jupe en coton bio | écru "sol chain kimmy skirt"
+Lien : https://www.wedressfair.fr/collections/jupe-en-coton-bio-ecru-sol-chain-kimmy-skirt-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 45 €
+Code-barres : 8435512895950, 8435512895967, 8435512895974
+
+Produit 2
+Nom : Jupe en coton bio | gris "river corduroy marsha skirt"
+Lien : https://www.wedressfair.fr/collections/jupe-en-coton-bio-gris-river-corduroy-marsha-skirt-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 36 €
+Code-barres : 8435512874375, 8435512874382, 8435512874399
+
+Produit 3
 Nom : Jupe en coton bio | vert "kentia mabel skirt - green"
 Lien : https://www.wedressfair.fr/collections/jupe-en-coton-bio-vert-kentia-mabel-skirt-green-thinking-mu
 Rayon (femme / homme / mixte) : femme
@@ -85,18 +525,7 @@ Teint en :
 Prix : 45 €
 Code-barres : 8435512895714, 8435512895721, 8435512895738
 
-Produit 2
-Nom : Jupe plissée en coton bio | vert "bottle green checks seersucker rachel skirt"
-Lien : https://www.wedressfair.fr/collections/jupe-plissee-en-coton-bio-vert-bottle-green-checks-seersucker-rachel-skirt-thinking-mu
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 45 €
-Code-barres : 8435512856135, 8435512856142, 8435512856159
-
-Produit 3
+Produit 4
 Nom : Jupe en velours côtelé | camel "light oak corduroy kimmy skirt - brown"
 Lien : https://www.wedressfair.fr/collections/jupe-en-velours-cotele-camel-light-oak-corduroy-kimmy-skirt-brown-thinking-mu
 Rayon (femme / homme / mixte) : femme
@@ -107,42 +536,130 @@ Teint en :
 Prix : 69 €
 Code-barres : 8435512915160, 8435512915177, 8435512915184
 
-===== PANTALONS ET JEANS =====
-
-Produit 1
-Nom : Pantalon droit en matières recyclées | marron "toasted navy betty pants"
-Lien : https://www.wedressfair.fr/collections/pantalon-droit-en-matieres-recyclees-marron-toasted-navy-betty-pants-thinking-mu
+Produit 5
+Nom : Jupe plissée en coton bio | vert "bottle green checks seersucker rachel skirt"
+Lien : https://www.wedressfair.fr/collections/jupe-plissee-en-coton-bio-vert-bottle-green-checks-seersucker-rachel-skirt-thinking-mu
 Rayon (femme / homme / mixte) : femme
-Composition : 54% autres fibres recyclées, 24% coton biologique, 19% laine certifiée, 3% élasthanne
-Fabriqué en : Turquie
-Tissé en : 
-Teint en : 
-Prix : 56 €
-Code-barres : 8435512874320, 8435512874337, 8435512874344
-
-Produit 2
-Nom : Pantalon fluide en matières recyclées et coton bio | écru "ivory trash eri pants"
-Lien : https://www.wedressfair.fr/collections/pantalon-fluide-en-matieres-recyclees-et-coton-bio-ecru-ivory-trash-eri-pants-thinking-mu
-Rayon (femme / homme / mixte) : femme
-Composition : 50% polyester recyclé, 30% coton recyclé, 20% coton biologique
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 44 €
-Code-barres : 8435512805485, 8435512805492, 8435512805508
-
-Produit 3
-Nom : Pantalon droit en coton bio | camel "light travel"
-Lien : https://www.wedressfair.fr/collections/pantalon-droit-en-coton-bio-camel-light-travel-thinking-mu
-Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 40 €
-Code-barres : 8435512833631, 8435512785725, 8435512785732
+Prix : 45 €
+Code-barres : 8435512856135, 8435512856142, 8435512856159
+
+Produit 6
+Nom : Jupe en velours côtelé en coton bio | bordeaux "Mahogany corduroy kimmy skirt"
+Lien : https://www.wedressfair.fr/collections/mahogany-corduroy-kimmy-skirt-brown-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 8435512959928, 8435512959935, 8435512959942
+
+Produit 7
+Nom : Jupe longue en coton bio et lyocell | marron "puntets brown kora skirt"
+Lien : https://www.wedressfair.fr/collections/puntets-brown-kora-skirt-brown-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 52% coton biologique, 48% tencel® (procédé lyocell)
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 78 €
+Code-barres : 8435512940483, 8435512940490, 8435512940506
+
+Produit 8
+Nom : Jupe longue en coton bio et lyocell | vert "tipia kora skirt"
+Lien : https://www.wedressfair.fr/collections/tipia-kora-skirt-green-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 52% coton biologique, 48% tencel® (procédé lyocell)
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 78 €
+Code-barres : 8435512940414, 8435512940421, 8435512940438
+
+===== PANTALONS ET JEANS =====
+
+Produit 1
+Nom : Pantalon ample en coton bio | marron "Albin stripes kettan pants - multicolor"
+Lien : https://www.wedressfair.fr/collections/albin-stripes-kettan-pants-multicolor-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 8435512961129, 8435512961136, 8435512961143
+
+Produit 2
+Nom : Pantalon ample à pinces en tencel | noir "Black molly pants"
+Lien : https://www.wedressfair.fr/collections/black-molly-pants-black-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% tencel® (procédé lyocell)
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 8435512961471, 8435512961488, 8435512961495
+
+Produit 3
+Nom : Pantalon fluide droit à pinces en matière recyclée et laine certifiée | noir "Black yuri pants - black"
+Lien : https://www.wedressfair.fr/collections/black-yuri-pants-black-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 52% polyester recyclé, 43% laine certifiée, 5% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 170 €
+Code-barres : 8435512961617, 8435512961624, 8435512961631
 
 Produit 4
+Nom : Pantalon ample à pinces en tencel et coton bio | bordeaux "Dark wine molly pants - burgundy"
+Lien : https://www.wedressfair.fr/collections/dark-wine-molly-pants-burgundy-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 53% tencel® (procédé lyocell), 47% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 8435512961402, 8435512961419, 8435512961426
+
+Produit 5
+Nom : Jean ample en coton bio | écru "sol chain hedda pants"
+Lien : https://www.wedressfair.fr/collections/jean-ample-en-coton-bio-ecru-sol-chain-hedda-pants-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 99% coton biologique, 1% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 70 €
+Code-barres : 8435512894151, 8435512894168, 8435512894175
+
+Produit 6
+Nom : Jean droit en coton bio | vert "theresa pants"
+Lien : https://www.wedressfair.fr/collections/jean-droit-en-coton-bio-vert-theresa-pants-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 99% coton biologique, 1% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 8435512842060, 8435512842077, 8435512842084
+
+Produit 7
+Nom : Jean large en coton bio | bleu "dark clean denim luc pants"
+Lien : https://www.wedressfair.fr/collections/jean-large-en-coton-bio-bleu-dark-clean-denim-luc-pants-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 140 €
+Code-barres : 8435512948144, 8435512948151, 8435512948168
+
+Produit 8
 Nom : Jogging en coton bio | bleu "indigofera ftp alexander pants blue"
 Lien : https://www.wedressfair.fr/collections/jogging-en-coton-bio-bleu-indigofera-ftp-alexander-pants-blue-thinking-mu
 Rayon (femme / homme / mixte) : homme
@@ -153,18 +670,7 @@ Teint en :
 Prix : 48 €
 Code-barres : 8435512876003, 8435512876010, 8435512876027
 
-Produit 5
-Nom : Pantalon large velours en coton bio | rouille "Mahogany corduroy hedda pants brown"
-Lien : https://www.wedressfair.fr/collections/mahogany-corduroy-hedda-pants-brown-brown-thinking-mu
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 140 €
-Code-barres : 8435512961198, 8435512961204, 8435512961211
-
-Produit 6
+Produit 9
 Nom : Pantalon large velours en coton bio | marron "Light oak corduroy serena pants - brown"
 Lien : https://www.wedressfair.fr/collections/light-oak-corduroy-serena-pants-brown-thinking-mu
 Rayon (femme / homme / mixte) : femme
@@ -175,7 +681,150 @@ Teint en :
 Prix : 140 €
 Code-barres : 8435512960917, 8435512960924, 8435512960931
 
-Produit 7
+Produit 10
+Nom : Pantalon large velours en coton bio | rouille "Mahogany corduroy hedda pants brown"
+Lien : https://www.wedressfair.fr/collections/mahogany-corduroy-hedda-pants-brown-brown-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 140 €
+Code-barres : 8435512961198, 8435512961204, 8435512961211
+
+Produit 11
+Nom : Pantalon ballon en coton bio | marine "Navy marissa pants"
+Lien : https://www.wedressfair.fr/collections/navy-marissa-pants-navy-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 140 €
+Code-barres : 8435512960634, 8435512960641, 8435512960658
+
+Produit 12
+Nom : Pantalon ample à pince en coton bio | marine "Patricia"
+Lien : https://www.wedressfair.fr/collections/navy-patricia-pants-navy-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 130 €
+Code-barres : 8435512961266, 8435512961273, 8435512961280
+
+Produit 13
+Nom : Pantalon à empiècements en coton bio | camel "light oak owen pants - ecru"
+Lien : https://www.wedressfair.fr/collections/pantalon-a-empiecements-en-coton-bio-camel-light-oak-owen-pants-ecru-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 91 €
+Code-barres : 8435512927187, 8435512927194, 8435512927200
+
+Produit 14
+Nom : Pantalon ample à carreaux en coton bio | rouge "picnic checks hermione pants multicolor"
+Lien : https://www.wedressfair.fr/collections/pantalon-ample-a-carreaux-en-coton-bio-rouge-picnic-checks-hermione-pants-multicolor-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 8435512873620, 8435512873637, 8435512873644
+
+Produit 15
+Nom : Pantalon ample à pinces en tencel | marron "oak molly pants - brown"
+Lien : https://www.wedressfair.fr/collections/pantalon-ample-en-tencel-marron-oak-molly-pants-brown-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% tencel® (procédé lyocell)
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 8435512913890, 8435512913906, 8435512913913
+
+Produit 16
+Nom : Pantalon droit à pinces en coton bio | noir "black rina pants"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-a-pinces-en-coton-bio-noir-black-rina-pants-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 119 €
+Code-barres : 8435512816986, 8435512816993, 8435512817006
+
+Produit 17
+Nom : Pantalon droit léger coton bio | bleu "navy light travel pants - blue"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-coton-bio-bleu-navy-light-travel-pants-blue-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 72 €
+Code-barres : 8435512947888, 8435512947895, 8435512947901
+
+Produit 18
+Nom : Pantalon droit léger coton bio | noir "black light travel pants - black"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-coton-bio-noir-black-light-travel-pants-black-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 72 €
+Code-barres : 8435512947789, 8435512947796, 8435512947802
+
+Produit 19
+Nom : Pantalon droit en coton bio | camel "light travel"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-en-coton-bio-camel-light-travel-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 40 €
+Code-barres : 8435512833631, 8435512785725, 8435512785732
+
+Produit 20
+Nom : Pantalon droit en coton bio | noir "black travel pants"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-en-coton-bio-noir-black-travel-pants-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 120 €
+Code-barres : 8435512927330, 8435512822208, 8435512821140
+
+Produit 21
+Nom : Pantalon droit en matières recyclées | bleu "navy dark heritage betty pants"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-en-matieres-recyclees-bleu-navy-dark-heritage-betty-pants-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 54% autres fibres recyclées, 24% coton biologique, 19% laine certifiée, 3% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 8435512874276, 8435512874283, 8435512874290
+
+Produit 22
+Nom : Pantalon droit en matières recyclées | marron "toasted navy betty pants"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-en-matieres-recyclees-marron-toasted-navy-betty-pants-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 54% autres fibres recyclées, 24% coton biologique, 19% laine certifiée, 3% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 8435512874320, 8435512874337, 8435512874344
+
+Produit 23
 Nom : Pantalon droit léger en coton bio | beige "fog seacell esther pants"
 Lien : https://www.wedressfair.fr/collections/pantalon-droit-leger-en-coton-bio-beige-fog-seacell-esther-pants-thinking-mu
 Rayon (femme / homme / mixte) : femme
@@ -186,7 +835,84 @@ Teint en :
 Prix : 56 €
 Code-barres : 8435512854568, 8435512854575, 8435512854582
 
-Produit 8
+Produit 24
+Nom : Pantalon droit léger en coton bio | vert "kentia light travel pants - green"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-leger-en-coton-bio-vert-kentia-light-travel-pants-green-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 72 €
+Code-barres : 8435512948069, 8435512948076, 8435512948083
+
+Produit 25
+Nom : Pantalon droit marine en coton bio - navy travel pants
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-marine-en-coton-bio-navy-travel-pants-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 120 €
+Code-barres : 8435512927323, 8435512822215, 8435512821201
+
+Produit 26
+Nom : Pantalon droit velours en coton bio | vert "bottle green corduroy david pants - green"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-velours-en-coton-bio-vert-bottle-green-corduroy-david-pants-green-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 140 €
+Code-barres : 8435512923288, 8435512923295, 8435512923301
+
+Produit 27
+Nom : Pantalon en coton bio | rouge "clavel karina pants - red"
+Lien : https://www.wedressfair.fr/collections/pantalon-en-coton-bio-rouge-clavel-karina-pants-red-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 72 €
+Code-barres : 8435512938862, 8435512938879, 8435512938886
+
+Produit 28
+Nom : Pantalon fluide en coton bio | écru "marygold brigitte pants"
+Lien : https://www.wedressfair.fr/collections/pantalon-fluide-en-coton-bio-ecru-marygold-brigitte-pants-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 55 €
+Code-barres : 8435512894212, 8435512894229, 8435512894236
+
+Produit 29
+Nom : Pantalon fluide en matières recyclées et coton bio | écru "ivory trash eri pants"
+Lien : https://www.wedressfair.fr/collections/pantalon-fluide-en-matieres-recyclees-et-coton-bio-ecru-ivory-trash-eri-pants-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 50% polyester recyclé, 30% coton recyclé, 20% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 44 €
+Code-barres : 8435512805485, 8435512805492, 8435512805508
+
+Produit 30
+Nom : Pantalon large à pinces en laine froide certifiée | noir "black pat pants"
+Lien : https://www.wedressfair.fr/collections/pantalon-large-a-pinces-en-laine-froide-certifiee-noir-black-pat-pants-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 96% laine certifiée, 4% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 119 €
+Code-barres : 8435512873989, 8435512873996, 8435512874009
+
+Produit 31
 Nom : Pantalon large cargo en coton bio | noir "black max pants"
 Lien : https://www.wedressfair.fr/collections/pantalon-large-cargo-en-coton-bio-noir-black-max-pants-thinking-mu
 Rayon (femme / homme / mixte) : homme
@@ -196,6 +922,94 @@ Tissé en :
 Teint en : 
 Prix : 130 €
 Code-barres : 8435512847553, 8435512847560, 8435512847577
+
+Produit 32
+Nom : Pantalon large cargo en coton bio | vert "green max pants"
+Lien : https://www.wedressfair.fr/collections/pantalon-large-cargo-en-coton-bio-vert-green-max-pants-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 130 €
+Code-barres : 8435512906120, 8435512881953, 8435512881960
+
+Produit 33
+Nom : Jean large denim en coton bio | écru "pannacota hedda pants"
+Lien : https://www.wedressfair.fr/collections/pantalon-large-denim-en-coton-bio-ecru-pannacota-hedda-pants-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 84 €
+Code-barres : 8435512938374, 8435512938381, 8435512938398
+
+Produit 34
+Nom : Pantalon large en coton bio | bleu "dark navy marc pants - blue"
+Lien : https://www.wedressfair.fr/collections/pantalon-large-en-coton-bio-bleu-dark-navy-marc-pants-blue-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 8435512922380, 8435512922397, 8435512922403
+
+Produit 35
+Nom : Pantalon large en coton bio | marron "light oak wotan pants brown"
+Lien : https://www.wedressfair.fr/collections/pantalon-large-en-coton-bio-marron-light-oak-wotan-pants-brown-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 130 €
+Code-barres : 8435512922656, 8435512922663, 8435512922670
+
+Produit 36
+Nom : Pantalon large en coton bio | noir "wotan black"
+Lien : https://www.wedressfair.fr/collections/pantalon-large-en-coton-bio-noir-wotan-black-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 130 €
+Code-barres : 8435512906113, 8435512822307, 8435512821683
+
+Produit 37
+Nom : Pantalon large en coton bio | rayé "railway stripes kettan pants"
+Lien : https://www.wedressfair.fr/collections/pantalon-large-en-coton-bio-raye-railway-stripes-kettan-pants-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 84 €
+Code-barres : 8435512938510, 8435512938527, 8435512938534
+
+Produit 38
+Nom : Pantalon large en twill de coton bio | beige "wotan camel"
+Lien : https://www.wedressfair.fr/collections/pantalon-large-en-twill-de-coton-bio-beige-wotan-camel-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 65 €
+Code-barres : 8435512822314, 8435512821744, 8435512821751
+
+Produit 39
+Nom : Pantalon léger en coton bio | beige "oatmeal light travel pants"
+Lien : https://www.wedressfair.fr/collections/pantalon-leger-en-coton-bio-beige-oatmeal-light-travel-pants-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 72 €
+Code-barres : 8435512947963, 8435512947970, 8435512947987
 
 ===== CHEMISES ET BLOUSES =====
 
@@ -211,6 +1025,17 @@ Prix : 60 €
 Code-barres : 8435512891846, 8435512891853, 8435512891860
 
 Produit 2
+Nom : Blouse en coton bio et lyocell | vert "tipia leia - green"
+Lien : https://www.wedressfair.fr/collections/blouse-en-coton-bio-et-lyocell-vert-tipia-leia-green-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 52% coton biologique, 48% ecovero® (par lenzing®)
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 65 €
+Code-barres : 8435512933454, 8435512933461, 8435512933478
+
+Produit 3
 Nom : Blouse en laine froide certifiée | black "marion blouse - black"
 Lien : https://www.wedressfair.fr/collections/blouse-en-laine-froide-certifiee-black-marion-blouse-black-thinking-mu
 Rayon (femme / homme / mixte) : femme
@@ -221,7 +1046,139 @@ Teint en :
 Prix : 91 €
 Code-barres : 8435512910707, 8435512910714, 8435512910721
 
-Produit 3
+Produit 4
+Nom : Chemise en coton bio | marron "Brown microvichy ant shirt - brown"
+Lien : https://www.wedressfair.fr/collections/brown-microvichy-ant-shirt-brown-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 120 €
+Code-barres : 8435512965196, 8435512965202, 8435512965219
+
+Produit 5
+Nom : Chemise en coton bio | bleu "indigo kurt shirt"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-bleu-indigo-kurt-shirt-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 55 €
+Code-barres : 8435512901729, 8435512901736, 8435512901743
+
+Produit 6
+Nom : Chemise en coton bio | bleu "sky nascar shirt blue"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-bleu-sky-nascar-shirt-blue-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 52 €
+Code-barres : 8435512878403, 8435512878410, 8435512878427
+
+Produit 7
+Nom : Chemise en coton bio et lyocell | vert "tipia tom shirt - green"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-et-lyocell-vert-tipia-tom-shirt-green-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 52% coton biologique, 48% tencel® (procédé lyocell)
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 65 €
+Code-barres : 8435512946058, 8435512946065, 8435512946072
+
+Produit 8
+Nom : Chemise en coton bio | marine "navy jim shirt - blue"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-marine-navy-jim-shirt-blue-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 78 €
+Code-barres : 8435512950857, 8435512950864, 8435512950871
+
+Produit 9
+Nom : Chemise en coton bio | multicolore "field tom shirt"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-multicolore-field-tom-shirt-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 50 €
+Code-barres : 8435512901323, 8435512901330, 8435512901347
+
+Produit 10
+Nom : Chemise en coton bio | vert "bottle green corduroy theo overshirt"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-vert-bottle-green-corduroy-theo-overshirt-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 8435512878601, 8435512878618, 8435512878625
+
+Produit 11
+Nom : Chemise en tencel | bleu "sea sira blouse - blu"
+Lien : https://www.wedressfair.fr/collections/chemise-en-tencel-bleu-sea-sira-blouse-blu-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% tencel® (procédé lyocell)
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 91 €
+Code-barres : 8435512910462, 8435512910479, 8435512910486
+
+Produit 12
+Nom : Chemise manches courtes seersucker en coton bio | rouge "red checks seersucker ane blouse"
+Lien : https://www.wedressfair.fr/collections/chemise-manches-courtes-seersucker-en-coton-bio-rouge-red-checks-seersucker-ane-blouse-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 99% coton biologique, 1% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 65 €
+Code-barres : 8435512933157, 8435512933164, 8435512933171
+
+Produit 13
+Nom : Chemise seersucker en coton bio | bleu "navy big seersucker haru shirt"
+Lien : https://www.wedressfair.fr/collections/chemise-seersucker-en-coton-bio-bleu-navy-big-seersucker-haru-shirt-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 8435512858818, 8435512858825, 8435512858832
+
+Produit 14
+Nom : Chemise en coton bio | vert "dark green microvichy ant shirt - green"
+Lien : https://www.wedressfair.fr/collections/dark-green-microvichy-ant-shirt-green-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 120 €
+Code-barres : 8435512965332, 8435512965349, 8435512965356
+
+Produit 15
+Nom : Chemise flanelle en coton bio | multicolore "O'hara brushed stripes manuela blouse"
+Lien : https://www.wedressfair.fr/collections/o-hara-brushed-stripes-manuela-blouse-multicolor-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 130 €
+Code-barres : 8435512957078, 8435512957085, 8435512957092
+
+Produit 16
 Nom : Blouse en coton bio et lyocell | marron "puntets brown leia blouse"
 Lien : https://www.wedressfair.fr/collections/puntets-brown-leia-blouse-brown-thinking-mu
 Rayon (femme / homme / mixte) : femme
@@ -235,6 +1192,72 @@ Code-barres : 8435512933393, 8435512933409, 8435512933416
 ===== MANTEAUX ET VESTES =====
 
 Produit 1
+Nom : Veste en coton bio | marron "Albin stripes astrid jacket"
+Lien : https://www.wedressfair.fr/collections/albin-stripes-astrid-jacket-multicolor-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 8435512954435, 8435512954442, 8435512954459
+
+Produit 2
+Nom : Veste velours en coton bio | vert "Bottle green corduroy celia jacket"
+Lien : https://www.wedressfair.fr/collections/bottle-green-corduroy-celia-jacket-dark-green-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 8435512928061, 8435512928078, 8435512928085
+
+Produit 3
+Nom : Veste en coton bio | carreaux multicolores "Cheshire checks astrid jacket"
+Lien : https://www.wedressfair.fr/collections/cheshire-checks-astrid-jacket-multicolor-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 8435512954374, 8435512954381, 8435512954398
+
+Produit 4
+Nom : Veste en coton bio | vert "Dark green and navy norma jacket"
+Lien : https://www.wedressfair.fr/collections/dark-green-and-navy-norma-jacket-multicolor-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 220 €
+Code-barres : 8435512953711, 8435512953728, 8435512953735
+
+Produit 5
+Nom : Surchemise en velours côtelé de coton bio | bleu "delft blue corduroy gabin shirt - blue"
+Lien : https://www.wedressfair.fr/collections/delft-blue-corduroy-gabin-shirt-blue-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 160 €
+Code-barres : 8435512964281, 8435512964298, 8435512964304
+
+Produit 6
+Nom : Veste en coton bio | vert "drak green amir jacket - green"
+Lien : https://www.wedressfair.fr/collections/drak-green-amir-jacket-green-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 230 €
+Code-barres : 8435512961686, 8435512961693, 8435512961709
+
+Produit 7
 Nom : Veste velours en coton bio | bordeaux "Mahogany corduroy delia jacket - brown"
 Lien : https://www.wedressfair.fr/collections/mahogany-corduroy-delia-jacket-brown-thinking-mu
 Rayon (femme / homme / mixte) : femme
@@ -244,3 +1267,146 @@ Tissé en :
 Teint en : 
 Prix : 150 €
 Code-barres : 8435512954251, 8435512954268, 8435512954275
+
+Produit 8
+Nom : Surchemise en coton bio | vert "central blanket norita overshirt - multicolor"
+Lien : https://www.wedressfair.fr/collections/surchemise-en-coton-bio-vert-central-blanket-norita-overshirt-multicolor-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 8435512870322, 8435512870339, 8435512870346
+
+Produit 9
+Nom : Veste en coton bio | carreaux "thick checks norita overshirt orange"
+Lien : https://www.wedressfair.fr/collections/veste-en-coton-bio-carreaux-thick-checks-norita-overshirt-orange-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 8435512813893, 8435512813909, 8435512813916
+
+Produit 10
+Nom : Veste en coton bio | ecru "raw dappled stripes ceci jacket - ecru"
+Lien : https://www.wedressfair.fr/collections/veste-en-coton-bio-ecru-raw-dappled-stripes-ceci-jacket-ecru-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 96 €
+Code-barres : 8435512929013, 8435512929020, 8435512929037
+
+Produit 11
+Nom : Veste en coton bio | marine "navy callum jacket"
+Lien : https://www.wedressfair.fr/collections/veste-en-coton-bio-marine-navy-callum-jacket-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 108 €
+Code-barres : 8435512941930, 8435512941947, 8435512941954
+
+Produit 12
+Nom : Veste en coton bio | rayé "railway stripes astrid jacket"
+Lien : https://www.wedressfair.fr/collections/veste-en-coton-bio-raye-railway-stripes-astrid-jacket-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 102 €
+Code-barres : 8435512929136, 8435512929143, 8435512929150
+
+Produit 13
+Nom : Veste en denim de coton bio | bleu "dark clean denim gus jacket"
+Lien : https://www.wedressfair.fr/collections/veste-en-denim-de-coton-bio-bleu-dark-clean-denim-gus-jacket-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 99% coton biologique, 1% élasthanne
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 85 €
+Code-barres : 8435512881854, 8435512881861, 8435512881878
+
+Produit 14
+Nom : Veste matelassée en coton bio | vert "dark eucaliptus roc jacket - green"
+Lien : https://www.wedressfair.fr/collections/veste-matelassee-en-coton-bio-vert-dark-eucaliptus-roc-jacket-green-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 250 €
+Code-barres : 8435512923790, 8435512923806, 8435512923813
+
+Produit 15
+Nom : Veste matelassée sans manches en coton bio | camel "light oak jon vest - brown"
+Lien : https://www.wedressfair.fr/collections/veste-matelassee-sans-manches-en-coton-bio-camel-light-oak-jon-vest-brown-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 8435512923868, 8435512923875, 8435512923882
+
+Produit 16
+Nom : Veste matelassée sans manches en coton bio | vert "dark eucaliptus jon vest"
+Lien : https://www.wedressfair.fr/collections/veste-matelassee-sans-manches-en-coton-bio-vert-dark-eucaliptus-jon-vest-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 150 €
+Code-barres : 8435512927484, 8435512927491, 8435512927507
+
+Produit 17
+Nom : Veste velours en coton bio | camel "light oak corduroy celia jacket - brown"
+Lien : https://www.wedressfair.fr/collections/veste-velours-en-coton-bio-camel-light-oak-corduroy-celia-jacket-brown-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 112 €
+Code-barres : 8435512916112, 8435512916129, 8435512916136
+
+Produit 18
+Nom : Veste velours en coton bio | camel "light oak corduroy gabin shirt - brown"
+Lien : https://www.wedressfair.fr/collections/veste-velours-en-coton-bio-camel-light-oak-corduroy-gabin-shirt-brown-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 112 €
+Code-barres : 8435512919199, 8435512919205, 8435512919212
+
+Produit 19
+Nom : Veste velours en coton bio | marine "navy corduroy gabin shirt"
+Lien : https://www.wedressfair.fr/collections/veste-velours-en-coton-bio-marine-navy-corduroy-gabin-shirt-thinking-mu
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 112 €
+Code-barres : 8435512919267, 8435512919274, 8435512919281
+
+Produit 20
+Nom : Veste velours en coton bio | marron "chocolate corduroy taylor jacket"
+Lien : https://www.wedressfair.fr/collections/veste-velours-en-coton-bio-marron-chocolate-corduroy-taylor-jacket-thinking-mu
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 68 €
+Code-barres : 8435512844354, 8435512844361, 8435512844378

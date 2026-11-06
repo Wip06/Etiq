@@ -1,0 +1,110 @@
+RELEVÉ GRAINE
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : Top en coton bio éponge et matière recyclée | multicolore "Hibiscus"
+Lien : https://www.wedressfair.fr/collections/hibiscus-hibiscus-graine
+Rayon (femme / homme / mixte) : femme
+Composition : 82% coton biologique, 18% polyester recyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 35 €
+Code-barres : 3701306632304, 3701306632298, 3701306632281
+
+Produit 2
+Nom : Tee shirt manches longues oversize en coton bio | lait
+Lien : https://www.wedressfair.fr/collections/tee-lait-multi-multi-graine
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 55 €
+Code-barres : 3701306636081, 3701306636074, 3701306636067
+
+===== PULLS ET MAILLE =====
+
+Produit 1
+Nom : Sweat col polo en coton bio | lien
+Lien : https://www.wedressfair.fr/collections/sweat-lien-multi-multi-graine
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 119 €
+Code-barres : 3701306635848, 3701306635831, 3701306635824
+
+===== PANTALONS ET JEANS =====
+
+Produit 1
+Nom : Pantalon large denim en coton bio | "enraciné"
+Lien : https://www.wedressfair.fr/collections/pantalon-enracine-denim-denim-graine
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 115 €
+Code-barres : 3701306636722, 3701306636715, 3701306636708
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Veste en coton bio | écru "revivre - vanille"
+Lien : https://www.wedressfair.fr/collections/veste-en-coton-bio-ecru-revivre-vanille-graine
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 95 €
+Code-barres : 3701306625306, 3701306625290, 3701306625283
+
+Produit 2
+Nom : Veste en coton bio | vert "nuance"
+Lien : https://www.wedressfair.fr/collections/veste-en-coton-bio-vert-nuance-graine
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 132 €
+Code-barres : 3701306630010, 3701306630003, 3701306629991
+
+Produit 3
+Nom : Veste velours en coton bio | vert kaki "fidèle"
+Lien : https://www.wedressfair.fr/collections/veste-fidele-vert-kaki-vert-kaki-graine
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 245 €
+Code-barres : 3701306636609, 3701306636593, 3701306636586
+
+Produit 4
+Nom : Veste denim en coton bio doublée polaire en matière recyclée | "sarclée"
+Lien : https://www.wedressfair.fr/collections/veste-sarclee-denim-denim-graine
+Rayon (femme / homme / mixte) : femme
+Composition : polyester recyclé, coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 205 €
+Code-barres : 3701306636845, 3701306636838, 3701306636821

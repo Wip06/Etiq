@@ -1,8 +1,8 @@
 RELEVÉ KNOWLEDGE COTTON APPAREL
 
-Date du relevé : 5 novembre 2026
-Relevé automatique sur WeDressFair (revendeur multimarque) : premières fiches de la marque dans le plan
-du site, par catégorie, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
 qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
 
 ===== LA MARQUE =====
@@ -16,15 +16,15 @@ Lien de la page :
 ===== T-SHIRTS ET TOPS =====
 
 Produit 1
-Nom : T-shirt boutonné en coton bio | blanc "bo long sleeve henley bright white"
-Lien : https://www.wedressfair.fr/collections/t-shirt-boutonne-en-coton-bio-blanc-bo-long-sleeve-henley-bright-white-knowledge-cotton-apparel
-Rayon (femme / homme / mixte) : homme
-Composition : 100% coton biologique
+Nom : Débardeur col montant en coton bio | rouille "high neck rib top - burnt brick"
+Lien : https://www.wedressfair.fr/collections/debardeur-col-montant-en-coton-bio-rouille-high-neck-rib-top-burnt-brick-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : femme
+Composition : 95% coton biologique, 5% élasthanne
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 30 €
-Code-barres : 5715356211271, 5715356211325, 5715356211370
+Prix : 18 €
+Code-barres : 5715356474324, 5715356474331, 5715356474348
 
 Produit 2
 Nom : T-shirt manches longues en coton bio | vert "slub long sleeve t-shirt"
@@ -37,20 +37,42 @@ Teint en :
 Prix : 65 €
 Code-barres : 5715356535353, 5715356535360, 5715356535377
 
+Produit 3
+Nom : T-shirt boutonné en coton bio | blanc "bo long sleeve henley bright white"
+Lien : https://www.wedressfair.fr/collections/t-shirt-boutonne-en-coton-bio-blanc-bo-long-sleeve-henley-bright-white-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 30 €
+Code-barres : 5715356211271, 5715356211325, 5715356211370
+
+Produit 4
+Nom : T-shirt côtelé en coton bio | bleu "rib t-shirt malibu blue"
+Lien : https://www.wedressfair.fr/collections/t-shirt-cotele-en-coton-bio-bleu-rib-t-shirt-malibu-blue-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : femme
+Composition : 95% coton biologique, 5% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 16 €
+Code-barres : 5715356228156, 5715356228163, 5715356228170
+
+Produit 5
+Nom : T-shirt en coton bio | vert "regular fit basic tee forrest night"
+Lien : https://www.wedressfair.fr/collections/t-shirt-en-coton-bio-vert-regular-fit-basic-tee-forrest-night-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 15 €
+Code-barres : 5715356205362, 5715356205379, 5715356205386
+
 ===== PULLS ET MAILLE =====
 
 Produit 1
-Nom : Pull col haut en coton bio | écru "crew neck - egret"
-Lien : https://www.wedressfair.fr/collections/pull-col-haut-en-coton-bio-ecru-crew-neck-egret-knowledge-cotton-apparel
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : 
-Tissé en : 
-Teint en : 
-Prix : 84 €
-Code-barres : 5715356419783, 5715356419813, 5715356419844
-
-Produit 2
 Nom : Cardigan en coton bio et chanvre | violet "cotton hemp mix knit cardigan"
 Lien : https://www.wedressfair.fr/collections/cardigan-en-coton-bio-et-chanvre-violet-cotton-hemp-mix-knit-cardigan-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : femme
@@ -61,20 +83,97 @@ Teint en :
 Prix : 56 €
 Code-barres : 5715356124687, 5715356124700, 5715356124724
 
-===== ROBES ET JUPES =====
+Produit 2
+Nom : Pull col haut en coton bio | écru "crew neck - egret"
+Lien : https://www.wedressfair.fr/collections/pull-col-haut-en-coton-bio-ecru-crew-neck-egret-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 84 €
+Code-barres : 5715356419783, 5715356419813, 5715356419844
 
-Produit 1
-Nom : Jupe longue popeline en coton bio | blanc "Organic cotton pleated - egret"
-Lien : https://www.wedressfair.fr/collections/organic-cotton-pleated-skirt-gots-vegan-1387-egret-knowledge-cotton-apparel
+Produit 3
+Nom : Pull col montant en laine mérinos certifiée | gris foncé "merino mock neck dark grey melange"
+Lien : https://www.wedressfair.fr/collections/pull-col-montant-en-laine-merinos-certifiee-gris-fonce-merino-mock-neck-dark-grey-melange-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine certifiée
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 5715356313388, 5715356313449, 5715356313500
+
+Produit 4
+Nom : Pull en coton bio | beige " vagn regular bubble knit crew neck - light feather gray"
+Lien : https://www.wedressfair.fr/collections/pull-en-coton-bio-beige-vagn-regular-bubble-knit-crew-neck-light-feather-gray-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 54 €
+Code-barres : 5715356309541, 5715356309558, 5715356309565
+
+Produit 5
+Nom : Pull en coton bio | gris "vagn dark grey melange"
+Lien : https://www.wedressfair.fr/collections/pull-en-coton-bio-gris-vagn-dark-grey-melange-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 90 €
+Code-barres : 5715356212766, 5715356212780, 5715356212803
+
+Produit 6
+Nom : Pull en coton bio | marine rayé "striped knitted polo navy"
+Lien : https://www.wedressfair.fr/collections/pull-en-coton-bio-marine-raye-striped-knitted-polo-navy-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 5715356454852, 5715356454876, 5715356454890
+
+Produit 7
+Nom : Pull en coton biologique | bleu "jacquard crew neck knit - 9921 blue"
+Lien : https://www.wedressfair.fr/collections/pull-en-coton-biologique-bleu-jacquard-crew-neck-knit-9921-blue-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 40 €
+Code-barres : 5715356312169, 5715356312190, 5715356312220
+
+Produit 8
+Nom : Pull en laine certifiée | blanc à motifs "wool pattern boxy white stripe"
+Lien : https://www.wedressfair.fr/collections/pull-en-laine-certifiee-blanc-a-motifs-wool-pattern-boxy-white-stripe-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : femme
+Composition : 100% laine certifiée
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 5715356189624, 5715356189648, 5715356189662
+
+Produit 9
+Nom : Pull sans manches en coton bio | rayé "relaxed fit cotton knit vest stripe"
+Lien : https://www.wedressfair.fr/collections/pull-sans-manches-en-coton-bio-raye-relaxed-fit-cotton-knit-vest-stripe-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : femme
 Composition : 100% coton biologique
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 72 €
-Code-barres : 5715356479275, 5715356479312, 5715356479350
+Prix : 36 €
+Code-barres : 5715356127688, 5715356127695, 5715356127701
 
-Produit 2
+===== ROBES ET JUPES =====
+
+Produit 1
 Nom : Jupe midi en coton bio | rayé blanc "stripe structure a-shape mid-length skirt egret"
 Lien : https://www.wedressfair.fr/collections/jupe-midi-en-coton-bio-raye-blanc-stripe-structure-a-shape-mid-length-skirt-egret-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : femme
@@ -85,42 +184,42 @@ Teint en :
 Prix : 36 €
 Code-barres : 5715356231156, 5715356231163, 5715356231170
 
-===== PANTALONS ET JEANS =====
-
-Produit 1
-Nom : Pantalon droit en lyocell et lin bio | noir "Tim linen-mix pant vegan - black jet"
-Lien : https://www.wedressfair.fr/collections/tim-linen-mix-pant-vegan-black-jet-knowledge-cotton-apparel
-Rayon (femme / homme / mixte) : homme
-Composition : 80% ecovero® (par lenzing®), 20% lin
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 72 €
-Code-barres : 5715356462758, 5715356462789, 5715356462819
-
 Produit 2
-Nom : Pantalon droit denim en coton bio | bleu "organic cotton denim pant - dark blue denim"
-Lien : https://www.wedressfair.fr/collections/pantalon-droit-denim-en-coton-bio-bleu-organic-cotton-denim-pant-dark-blue-denim-knowledge-cotton-apparel
+Nom : Jupe longue popeline en coton bio | blanc "Organic cotton pleated - egret"
+Lien : https://www.wedressfair.fr/collections/organic-cotton-pleated-skirt-gots-vegan-1387-egret-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : femme
 Composition : 100% coton biologique
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 60 €
-Code-barres : 5715356491291, 5715356491307, 5715356491314
+Prix : 72 €
+Code-barres : 5715356479275, 5715356479312, 5715356479350
 
-Produit 3
-Nom : Pantalon droit velours en coton bio | marron "chuck 5-pocket corduroy - chocolate torte"
-Lien : https://www.wedressfair.fr/collections/pantalon-droit-velours-en-coton-bio-marron-chuck-5-pocket-corduroy-chocolate-torte-knowledge-cotton-apparel
+===== PANTALONS ET JEANS =====
+
+Produit 1
+Nom : Chino droit en coton bio | camel "chuck regular chino twill pants tuffet"
+Lien : https://www.wedressfair.fr/collections/chino-droit-en-coton-bio-camel-chuck-regular-chino-twill-pants-tuffet-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 98 €
-Code-barres : 5715356437527, 5715356437565, 5715356437602
+Prix : 119 €
+Code-barres : 5715356150150, 5715356150198, 5715356150611
 
-Produit 4
+Produit 2
+Nom : Chino droit en coton bio | marine "flint twill chino - total eclipse"
+Lien : https://www.wedressfair.fr/collections/chino-droit-en-coton-bio-marine-flint-twill-chino-total-eclipse-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 83 €
+Code-barres : 5715356368609, 5715356368678, 5715356368746
+
+Produit 3
 Nom : Pantalon droit flanelle en coton bio | vert "chuck regular flannel pants forrest night"
 Lien : https://www.wedressfair.fr/collections/chuck-regular-flannel-pants-1090-forrest-night-forrest-night-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : homme
@@ -131,7 +230,106 @@ Teint en :
 Prix : 130 €
 Code-barres : 5715356522308, 5715356522360, 5715356522841
 
+Produit 4
+Nom : Pantalon ample en coton bio | bleu "fig comfort herringbone pants night sky"
+Lien : https://www.wedressfair.fr/collections/fig-comfort-herringbone-pants-1412-night-sky-night-sky-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 120 €
+Code-barres : 5715356524470, 5715356524517, 5715356524555
+
 Produit 5
+Nom : Pantalon droit seersucker en coton bio| marine "Fig organic cotton seersucker pant - night sky"
+Lien : https://www.wedressfair.fr/collections/fig-organic-cotton-seersucker-pant-gots-vegan-1412-night-sky-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 5715356461645, 5715356461669, 5715356461683
+
+Produit 6
+Nom : Pantalon ample flanelle en coton bio | bleu "ozone relaxed flannel pant - vintage indigo"
+Lien : https://www.wedressfair.fr/collections/ozone-relaxed-flannel-pant-1226-vintage-indigo-vintage-indigo-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 130 €
+Code-barres : 5715356521011, 5715356521073, 5715356521134
+
+Produit 7
+Nom : Pantalon ample en lin bio | écru "posey wide mid-rise linen pants light feather gray"
+Lien : https://www.wedressfair.fr/collections/pantalon-ample-en-lin-bio-ecru-posey-wide-mid-rise-linen-pants-light-feather-gray-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : femme
+Composition : 100% lin biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 84 €
+Code-barres : 5715356446086, 5715356446093, 5715356446109
+
+Produit 8
+Nom : Pantalon droit denim en coton bio | bleu "organic cotton denim pant - dark blue denim"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-denim-en-coton-bio-bleu-organic-cotton-denim-pant-dark-blue-denim-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 5715356491291, 5715356491307, 5715356491314
+
+Produit 9
+Nom : Pantalon droit non teinté en coton bio - calla tapered heavy canvas raw cotton
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-non-teinte-en-coton-bio-calla-tapered-heavy-canvas-raw-cotton-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 52 €
+Code-barres : 5715356124236, 5715356124250, 5715356124274
+
+Produit 10
+Nom : Pantalon droit olive en coton bio - calla burned olive
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-olive-en-coton-bio-calla-burned-olive-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : femme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 52 €
+Code-barres : 5715356135553, 5715356135560, 5715356135577
+
+Produit 11
+Nom : Pantalon droit velours en coton bio | marron "chuck 5-pocket corduroy - chocolate torte"
+Lien : https://www.wedressfair.fr/collections/pantalon-droit-velours-en-coton-bio-marron-chuck-5-pocket-corduroy-chocolate-torte-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 98 €
+Code-barres : 5715356437527, 5715356437565, 5715356437602
+
+Produit 12
+Nom : Pantalon léger en lin bio | marine "loose linen pant total eclipse"
+Lien : https://www.wedressfair.fr/collections/pantalon-en-lin-bio-marine-loose-linen-pant-total-eclipse-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% lin biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 84 €
+Code-barres : 5715356445089, 5715356445096, 5715356445102
+
+Produit 13
 Nom : Pantalon léger ample en coton bio | bleu denim "flint wide slub yarn pants night sky"
 Lien : https://www.wedressfair.fr/collections/pantalon-leger-ample-en-coton-bio-bleu-denim-flint-wide-slub-yarn-pants-night-sky-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : homme
@@ -142,20 +340,75 @@ Teint en :
 Prix : 40 €
 Code-barres : 5715356292065, 5715356292096, 5715356292126
 
+Produit 14
+Nom : Pantalon droit en lyocell et lin bio | noir "Tim linen-mix pant vegan - black jet"
+Lien : https://www.wedressfair.fr/collections/tim-linen-mix-pant-vegan-black-jet-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 80% ecovero® (par lenzing®), 20% lin
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 72 €
+Code-barres : 5715356462758, 5715356462789, 5715356462819
+
 ===== CHEMISES ET BLOUSES =====
 
 Produit 1
-Nom : Chemise velours côtelé en coton bio | marine "corduroy shirt total eclipse"
-Lien : https://www.wedressfair.fr/collections/chemise-velours-cotele-en-coton-bio-marine-corduroy-shirt-total-eclipse-knowledge-cotton-apparel
+Nom : Chemise en coton bio | blanc "harald small owl oxford regular fit shirt bright white"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-blanc-harald-small-owl-oxford-regular-fit-shirt-bright-white-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 70 €
-Code-barres : 5715356153380, 5715356153441, 5715356153502
+Prix : 40 €
+Code-barres : 5715356214135, 5715356214173, 5715356214210
 
 Produit 2
+Nom : Chemise en coton bio | rayée bleue "loose jacquard woven striped shirt blue stripe"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-bio-rayee-bleue-loose-jacquard-woven-striped-shirt-blue-stripe-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 40 €
+Code-barres : 5715356293758, 5715356293772, 5715356293796
+
+Produit 3
+Nom : Chemise en coton biologique | bleu "regular fit light twill shirt - vintage indigo"
+Lien : https://www.wedressfair.fr/collections/chemise-en-coton-biologique-bleu-regular-fit-light-twill-shirt-gots-vegan-1226-vintage-indigo-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 5715356373337, 5715356373368, 5715356373399
+
+Produit 4
+Nom : Chemise en lin bio | rayé "regular striped linen shirt total eclipse"
+Lien : https://www.wedressfair.fr/collections/chemise-en-lin-bio-raye-regular-striped-linen-shirt-total-eclipse-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% lin biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 65 €
+Code-barres : 5715356275334, 5715356275341, 5715356275358
+
+Produit 5
+Nom : Chemise en lin biologique | gris "regular linen shirt light feather gray"
+Lien : https://www.wedressfair.fr/collections/chemise-en-lin-biologique-gris-regular-linen-shirt-light-feather-gray-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% lin biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 5715356271411, 5715356271428, 5715356271435
+
+Produit 6
 Nom : Chemise en lin biologique | rouge "loose linen long sleeved shirt - langoustino"
 Lien : https://www.wedressfair.fr/collections/chemise-en-lin-biologique-rouge-loose-linen-long-sleeved-shirt-langoustino-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : femme
@@ -166,40 +419,40 @@ Teint en :
 Prix : 60 €
 Code-barres : 5715356391348, 5715356391355, 5715356391362
 
-Produit 3
-Nom : Surchemise en velours côtelé de coton bio | beige "corduroy overshirt light feather gray"
-Lien : https://www.wedressfair.fr/collections/corduroy-overshirt-1228-light-feather-gray-light-feather-gray-knowledge-cotton-apparel
+Produit 7
+Nom : Chemise flanelle en coton bio | violet "flannel shirt - fig"
+Lien : https://www.wedressfair.fr/collections/chemise-flanelle-en-coton-bio-violet-flannel-shirt-gots-fig-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : homme
-Composition : 98% coton biologique, 2% élasthanne
+Composition : 100% coton biologique
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 160 €
-Code-barres : 5715356531324, 5715356531393, 5715356531461
+Prix : 100 €
+Code-barres : 5715356423742, 5715356423759, 5715356423766
 
-Produit 4
-Nom : Surchemise à poche noire en twill coton bio - outdoor twill overshirt with contrast fabric phantom
-Lien : https://www.wedressfair.fr/collections/surchemise-a-poche-noire-en-twill-coton-bio-outdoor-twill-overshirt-with-contrast-fabric-phantom-knowledge-cotton-apparel
+Produit 8
+Nom : Chemise manche courte vert-olive en coton bio - wave crinkled shirt burned olive
+Lien : https://www.wedressfair.fr/collections/chemise-manche-courte-vert-olive-en-coton-bio-wave-crinkled-shirt-burned-olive-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : homme
-Composition : 97% coton biologique, 3% élasthanne
+Composition : 100% coton biologique
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 52 €
-Code-barres : 5715356021382, 5715356021399, 5715356021405
+Prix : 48 €
+Code-barres : 5710569785441, 5710569785465, 5710569785489
 
-Produit 5
-Nom : Surchemise en velours de coton bio | noir "stretched 8 wales corduroy overshirt black jet"
-Lien : https://www.wedressfair.fr/collections/surchemise-en-velours-de-coton-bio-noir-stretched-8-wales-corduroy-overshirt-black-jet-knowledge-cotton-apparel
+Produit 9
+Nom : Chemise manches courtes maille en coton bio | striped knitted shirt beige stripe
+Lien : https://www.wedressfair.fr/collections/chemise-manches-courtes-texturee-en-coton-bio-striped-knitted-shirt-beige-stripe-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : homme
-Composition : 98% coton biologique, 2% élasthanne
-Fabriqué en : 
+Composition : 100% coton biologique
+Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 60 €
-Code-barres : 5715356173807, 5715356173852, 5715356173906
+Prix : 78 €
+Code-barres : 5715356464202, 5715356464226, 5715356464240
 
-Produit 6
+Produit 10
 Nom : Chemise velours côtelé en coton bio | beige "corduroy shirt light feather gray"
 Lien : https://www.wedressfair.fr/collections/chemise-velours-cotele-en-coton-bio-beige-corduroy-shirt-light-feather-gray-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : homme
@@ -210,20 +463,196 @@ Teint en :
 Prix : 70 €
 Code-barres : 5715356153403, 5715356153465, 5715356153526
 
-===== MANTEAUX ET VESTES =====
-
-Produit 1
-Nom : Veste matelassée en coton bio et matière recyclée | marine "padded overshirt - night sky'
-Lien : https://www.wedressfair.fr/collections/veste-matelassee-en-coton-bio-et-matiere-recyclee-marine-padded-overshirt-night-sky-knowledge-cotton-apparel
-Rayon (femme / homme / mixte) : femme
-Composition : 65% polyester recyclé, 35% coton biologique
+Produit 11
+Nom : Surchemise velours côtelé en coton bio | vert "corduroy overshirt forrest night"
+Lien : https://www.wedressfair.fr/collections/corduroy-overshirt-1090-forrest-night-forrest-night-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 98% coton biologique, 2% élasthanne
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 140 €
-Code-barres : 5715356442149, 5715356442163, 5715356442187
+Prix : 160 €
+Code-barres : 5715356531317, 5715356531386, 5715356531454
+
+Produit 12
+Nom : Chemise flanelle à carreaux en coton bio | beige "dune regular check shirt"
+Lien : https://www.wedressfair.fr/collections/dune-regular-check-shirt-7033-creme-check-creme-check-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 90 €
+Code-barres : 5715356525873, 5715356525903, 5715356525934
+
+Produit 13
+Nom : Chemise flanelle en coton bio | multicolor "Dune regular checked flannel shirt - brown check"
+Lien : https://www.wedressfair.fr/collections/dune-regular-checked-flannel-shirt-7026-brown-check-brown-check-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Danemark
+Tissé en : 
+Teint en : 
+Prix : 100 €
+Code-barres : 5715356528980, 5715356528997, 5715356529000
+
+Produit 14
+Nom : Chemise en ecovero et lin bio | verte "Linen-mix shirt - burned olive"
+Lien : https://www.wedressfair.fr/collections/linen-mix-shirt-vegan-1068-burned-olive-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 80% ecovero® (par lenzing®), 20% lin biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 5715356467562, 5715356467593, 5715356467623
+
+Produit 15
+Nom : Surchemise à carreaux en coton bio | bleu "checked overshirt blue check"
+Lien : https://www.wedressfair.fr/collections/surchemise-a-carreaux-en-coton-bio-bleu-checked-overshirt-blue-check-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 5715356280994, 5715356281014, 5715356281038
+
+Produit 16
+Nom : Surchemise à poche noire en twill coton bio - outdoor twill overshirt with contrast fabric phantom
+Lien : https://www.wedressfair.fr/collections/surchemise-a-poche-noire-en-twill-coton-bio-outdoor-twill-overshirt-with-contrast-fabric-phantom-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 97% coton biologique, 3% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 52 €
+Code-barres : 5715356021382, 5715356021399, 5715356021405
+
+Produit 17
+Nom : Surchemise en coton bio | bleu " slub yarn overshirt night sky"
+Lien : https://www.wedressfair.fr/collections/surchemise-en-coton-bio-bleu-slub-yarn-overshirt-night-sky-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 52 €
+Code-barres : 5715356294892, 5715356294922, 5715356294953
+
+Produit 18
+Nom : Surchemise en sergé de coton bio | beige "chuck twill overshirt light feather gray"
+Lien : https://www.wedressfair.fr/collections/surchemise-en-serge-de-coton-bio-beige-chuck-twill-overshirt-light-feather-gray-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 97% coton biologique, 3% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 52 €
+Code-barres : 5715356281229, 5715356281281, 5715356281342
+
+Produit 19
+Nom : Surchemise en sergé de coton bio | bleu "flannel herringbone overshirt night sky"
+Lien : https://www.wedressfair.fr/collections/surchemise-en-serge-de-coton-bio-bleu-flannel-herringbone-overshirt-night-sky-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 5715356321833, 5715356321888, 5715356321932
+
+Produit 20
+Nom : Surchemise en sergé de coton bio | marron "twill overshirt chocolate malt"
+Lien : https://www.wedressfair.fr/collections/surchemise-en-serge-de-coton-bio-marron-twill-overshirt-chocolate-malt-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 56 €
+Code-barres : 5715356280741, 5715356280772, 5715356280802
+
+Produit 21
+Nom : Surchemise en velours de coton bio | noir "stretched 8 wales corduroy overshirt black jet"
+Lien : https://www.wedressfair.fr/collections/surchemise-en-velours-de-coton-bio-noir-stretched-8-wales-corduroy-overshirt-black-jet-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 5715356173807, 5715356173852, 5715356173906
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Blouson velours en coton bio et matière recyclée | beige "corduroy overshirt light feather gray"
+Lien : https://www.wedressfair.fr/collections/blouson-velours-en-coton-bio-et-matiere-recyclee-beige-corduroy-overshirt-light-feather-gray-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 63% coton biologique, 35% polyester recyclé, 2% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 80 €
+Code-barres : 5715356152369, 5715356152390, 5715356152420
 
 Produit 2
+Nom : Veste légère en coton bio | rayé blanc et beige "jacquard woven overshirt beige stripe"
+Lien : https://www.wedressfair.fr/collections/surchemise-en-coton-bio-raye-blanc-et-beige-jacquard-woven-overshirt-beige-stripe-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 52 €
+Code-barres : 5715356295790, 5715356295813, 5715356295837
+
+Produit 3
+Nom : Surchemise en lin bio | beige "regular linen overshirt light feather gray"
+Lien : https://www.wedressfair.fr/collections/surchemise-en-lin-bio-beige-regular-linen-overshirt-light-feather-gray-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : femme
+Composition : 100% lin biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 72 €
+Code-barres : 5715356240950, 5715356240974, 5715356240998
+
+Produit 4
+Nom : Surchemise velours en coton bio | marron "irrregular corduroy overshirt chocolate plum"
+Lien : https://www.wedressfair.fr/collections/surchemise-velours-en-coton-bio-marron-irrregular-corduroy-overshirt-chocolate-plum-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : femme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 5715356325954, 5715356325985, 5715356326012
+
+Produit 5
+Nom : Veste de travail bleue en twill de coton bio - pine twill total eclipse
+Lien : https://www.wedressfair.fr/collections/veste-de-travail-bleue-en-twill-de-coton-bio-pine-twill-total-eclipse-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 52 €
+Code-barres : 5710569682634, 5710569682665, 5710569682832
+
+Produit 6
+Nom : Veste en coton bio | écru "twill workwear jacket - egret"
+Lien : https://www.wedressfair.fr/collections/veste-en-coton-bio-ecru-twill-workwear-jacket-egret-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : 
+Tissé en : 
+Teint en : 
+Prix : 95 €
+Code-barres : 5715356399856, 5715356399870, 5715356399894
+
+Produit 7
 Nom : Veste en coton biologique | marron "twill workwear jacket tiramisu"
 Lien : https://www.wedressfair.fr/collections/veste-en-coton-biologique-marron-twill-workwear-jacket-tiramisu-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : femme
@@ -234,7 +663,18 @@ Teint en :
 Prix : 95 €
 Code-barres : 5715356399863, 5715356399887, 5715356399900
 
-Produit 3
+Produit 8
+Nom : Veste matelassée en coton bio et matière recyclée | carreaux "checked overshirt blue"
+Lien : https://www.wedressfair.fr/collections/veste-matelassee-en-coton-bio-et-matiere-recyclee-carreaux-checked-overshirt-blue-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 65% coton biologique, 35% polyester recyclé
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 80 €
+Code-barres : 5715356148492, 5715356148515, 5715356148539
+
+Produit 9
 Nom : Veste matelassée en coton bio et matière recyclée | carreaux "overshirt multi check"
 Lien : https://www.wedressfair.fr/collections/veste-matelassee-en-coton-bio-et-matiere-recyclee-carreaux-overshirt-multi-check-knowledge-cotton-apparel
 Rayon (femme / homme / mixte) : femme
@@ -244,3 +684,47 @@ Tissé en :
 Teint en : 
 Prix : 80 €
 Code-barres : 5715356192426, 5715356192433, 5715356192440
+
+Produit 10
+Nom : Veste matelassée en coton bio et matière recyclée | marine "padded overshirt - night sky'
+Lien : https://www.wedressfair.fr/collections/veste-matelassee-en-coton-bio-et-matiere-recyclee-marine-padded-overshirt-night-sky-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : femme
+Composition : 65% polyester recyclé, 35% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 140 €
+Code-barres : 5715356442149, 5715356442163, 5715356442187
+
+Produit 11
+Nom : Veste sans manche velours en coton bio et matière recyclée | marine "organic cotton corduroy vest - night sky"
+Lien : https://www.wedressfair.fr/collections/veste-sans-manche-velours-en-coton-bio-et-matiere-recyclee-marine-organic-cotton-corduroy-vest-night-sky-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 50% polyester recyclé, 49% coton biologique, 1% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 130 €
+Code-barres : 5715356444150, 5715356444174, 5715356444198
+
+Produit 12
+Nom : Veste sans manches en coton bio et matière recyclée | marine "11-wales corduroy vest night sky"
+Lien : https://www.wedressfair.fr/collections/veste-sans-manches-en-coton-bio-et-matiere-recyclee-marine-11-wales-corduroy-vest-night-sky-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : homme
+Composition : 60% coton biologique, 39% polyester recyclé, 1% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 40 €
+Code-barres : 5715356345211, 5715356345235, 5715356345259
+
+Produit 13
+Nom : Veste velours en coton bio | écru "corduroy overshirt - egret"
+Lien : https://www.wedressfair.fr/collections/veste-velours-en-coton-bio-ecru-corduroy-overshirt-egret-knowledge-cotton-apparel
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 112 €
+Code-barres : 5715356437237, 5715356437268, 5715356437299

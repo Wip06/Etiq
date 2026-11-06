@@ -3,6 +3,7 @@
 // fabrication : ces filtres portent donc sur nos relevés, pas sur le coût environnemental.
 import data from '@/data/generated/surveyed-products.json';
 import { getBrand } from '@/data/brands';
+import { articleQuery } from '@/utils/secondHand';
 import { normalize } from '@/utils/text';
 
 export type Gender = 'femme' | 'homme' | 'mixte';
@@ -112,6 +113,39 @@ export function searchProducts(filters: ProductFilters): SurveyedProduct[] {
         (query === '' || normalize(`${product.name} ${brandName(product)} ${product.composition}`).includes(query)),
     )
     .sort((a, b) => (a.price ?? Infinity) - (b.price ?? Infinity));
+}
+
+// Mot de recherche d'une catégorie de relevé, pour la seconde main (« Manteaux et vestes » → veste).
+const SEARCH_WORDS: Record<string, string> = {
+  'T-shirts et tops': 't-shirt',
+  'Pulls et maille': 'pull',
+  'Robes et jupes': 'robe',
+  'Pantalons et jeans': 'pantalon',
+  'Chemises et blouses': 'chemise',
+  'Manteaux et vestes': 'veste',
+};
+
+// Recherche d'occasion : le modèle lui-même si son nom le permet, sinon la marque et le type de vêtement.
+export function secondHandQuery(product: SurveyedProduct): string {
+  const brand = brandName(product);
+  return articleQuery(brand, product.name) ?? `${brand} ${SEARCH_WORDS[product.category] ?? ''}`.trim();
+}
+
+// Catégorie du portail qui correspond à un vêtement relevé, et sa forme « Un pull neuf » pour les phrases.
+const PORTAL_CATEGORIES: Record<string, { name: string; phrase: string }> = {
+  'T-shirts et tops': { name: 'T-shirt / Polo', phrase: 'Un t-shirt neuf' },
+  'Pulls et maille': { name: 'Pull', phrase: 'Un pull neuf' },
+  'Robes et jupes': { name: 'Jupe / Robe', phrase: 'Une robe ou une jupe neuve' },
+  'Pantalons et jeans': { name: 'Pantalon / Short', phrase: 'Un pantalon neuf' },
+  'Chemises et blouses': { name: 'Chemise', phrase: 'Une chemise neuve' },
+  'Manteaux et vestes': { name: 'Manteau / Veste', phrase: 'Une veste neuve' },
+};
+
+export function portalCategory(product: SurveyedProduct): { name: string; phrase: string } | null {
+  if (product.category === 'Pantalons et jeans' && /\bjeans?\b/i.test(product.name)) {
+    return { name: 'Jean', phrase: 'Un jean neuf' };
+  }
+  return PORTAL_CATEGORIES[product.category] ?? null;
 }
 
 export const formatPrice = (price: number) =>

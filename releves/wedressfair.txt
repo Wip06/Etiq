@@ -1,0 +1,583 @@
+RELEVÉ WEDRESSFAIR
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : Débardeur en coton bio | blanc
+Lien : https://www.wedressfair.fr/collections/debardeur-en-coton-bio-blanc-wedressfair-essentiels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 29 €
+Code-barres : 3760427370991, 3760427370984, 3760427370977
+
+Produit 2
+Nom : Débardeur en lin upcyclé | bleu azur
+Lien : https://www.wedressfair.fr/collections/debardeur-lin-upcycle-bleu-azur-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 100% lin
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 39 €
+Code-barres : 3760427377211, 3760427377204, 3760427377198
+
+Produit 3
+Nom : Débardeur côtelé en coton bio | blanc cassé
+Lien : https://www.wedressfair.fr/collections/le-debardeur-cotele-blanc-blanc-wedressfair-essentiels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 35 €
+Code-barres : 3760427375415, 3760427375408, 3760427375392
+
+Produit 4
+Nom : T-shirt en coton bio | blanc
+Lien : https://www.wedressfair.fr/collections/le-t-shirt-blanc-blanc-wedressfair-essentiels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 35 €
+Code-barres : 3760427375767, 3760427375750, 3760427375743
+
+Produit 5
+Nom : T-shirt boxy en coton bio | jaune
+Lien : https://www.wedressfair.fr/collections/le-t-shirt-boxy-jaune-jaune-wedressfair-essentiels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 39 €
+Code-barres : 3760427375514, 3760427375507, 3760427375491
+
+Produit 6
+Nom : Le t-shirt décolleté écru
+Lien : https://www.wedressfair.fr/collections/le-t-shirt-decollete-ecru-wedressfair-essentiels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 39 €
+Code-barres : 3760427370694, 3760427370687, 3760427370670
+
+Produit 7
+Nom : Le t-shirt décolleté noir
+Lien : https://www.wedressfair.fr/collections/le-t-shirt-decollete-noir-wedressfair-essentiels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 39 €
+Code-barres : 3760427370748, 3760427370731, 3760427370724
+
+Produit 8
+Nom : T-shirt en coton bio | jaune
+Lien : https://www.wedressfair.fr/collections/le-t-shirt-jaune-jaune-wedressfair-essentiels
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 35 €
+Code-barres : 3760427375064, 3760427375057, 3760427375040
+
+Produit 9
+Nom : T-shirt oversize en coton bio | lilas
+Lien : https://www.wedressfair.fr/collections/le-t-shirt-oversize-lilas-lilas-wedressfair-essentiels
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 39 €
+Code-barres : 3760427375163, 3760427375156, 3760427375149
+
+Produit 10
+Nom : Sous-pull côtelé en coton bio | bordeaux "Elma"
+Lien : https://www.wedressfair.fr/collections/sous-pull-cotele-en-coton-bio-bordeaux-elma-bordeaux-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 95% coton biologique, 5% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 59 €
+Code-barres : 3701826501302, 3701826501326, 3701826501333
+
+Produit 11
+Nom : T-shirt boxy en coton bio | rayé rose
+Lien : https://www.wedressfair.fr/collections/t-shirt-boxy-en-coton-bio-raye-rose-rose-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 49 €
+Code-barres : 3760427378010, 3760427378003, 3760427377990
+
+Produit 12
+Nom : T-shirt classique en coton lin upcyclé | bleu cobalt
+Lien : https://www.wedressfair.fr/collections/t-shirt-coton-lin-upcycle-bleu-cobalt-wedressfair
+Rayon (femme / homme / mixte) : homme
+Composition : 70% coton, 30% lin
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 49 €
+Code-barres : 3760427376764, 3760427376757, 3760427376740
+
+Produit 13
+Nom : T-shirt lin upcyclé - beige
+Lien : https://www.wedressfair.fr/collections/t-shirt-lin-upcycle-beige-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 100% lin
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 49 €
+Code-barres : 3760427376962, 3760427376955, 3760427376948
+
+Produit 14
+Nom : T-shirt lin upcyclé | blanc
+Lien : https://www.wedressfair.fr/collections/t-shirt-lin-upcycle-blanc-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 100% lin
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 49 €
+Code-barres : 3760427377112, 3760427377105, 3760427377099
+
+Produit 15
+Nom : T-shirt manches longues côtelé en coton bio | blanc
+Lien : https://www.wedressfair.fr/collections/t-shirt-manches-longues-cotele-en-coton-bio-blanc-wedressfair-essentiels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 45 €
+Code-barres : 3760427373626, 3760427373619, 3760427373602
+
+Produit 16
+Nom : T-shirt manches longues côtelé en coton bio | bleu
+Lien : https://www.wedressfair.fr/collections/t-shirt-manches-longues-cotele-en-coton-bio-bleu-raye-bleu-raye-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 97% coton biologique, 3% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 55 €
+Code-barres : 3760427378911, 3760427378935, 3760427378942
+
+Produit 17
+Nom : T-shirt manches longues côtelé en coton bio | chocolat
+Lien : https://www.wedressfair.fr/collections/t-shirt-manches-longues-cotele-en-coton-bio-chocolat-chocolat-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 97% coton biologique, 3% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 45 €
+Code-barres : 3760427378867, 3760427378881, 3760427378898
+
+Produit 18
+Nom : T-shirt oversize en coton bio | rayé vert
+Lien : https://www.wedressfair.fr/collections/t-shirt-oversize-en-coton-bio-raye-vert-vert-wedressfair
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 49 €
+Code-barres : 3760427377914, 3760427377907, 3760427377891
+
+Produit 19
+Nom : T-shirt rayé en pointelle côtelée upcyclée | multicolore
+Lien : https://www.wedressfair.fr/collections/t-shirt-raye-en-cote-pointelle-upcyclee-multicouleur-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 45 €
+Code-barres : 3760427378058, 3760427378041, 3760427378034
+
+Produit 20
+Nom : T-shirt manches courtes côtelé en coton bio | off white
+Lien : https://www.wedressfair.fr/collections/tee-shirt-manche-courte-cotele-blanc-blanc-wedressfair-essentiels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 39 €
+Code-barres : 3760427375866, 3760427375859, 3760427375842
+
+Produit 21
+Nom : Top manches longues en viscose EcoVero | "gaia" imprimé
+Lien : https://www.wedressfair.fr/collections/top-gaia-imprime-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 95% ecovero® (par lenzing®), 5% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 59 €
+Code-barres : 3760427379796, 3760427379819, 3760427379826
+
+Produit 22
+Nom : Top goutte en coton bio "Mahé" | blanc
+Lien : https://www.wedressfair.fr/collections/top-mahe-blanc-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 45 €
+Code-barres : 3760427377655, 3760427377648, 3760427377631
+
+Produit 23
+Nom : Top Marsha en lyocell et coton bio | framboise
+Lien : https://www.wedressfair.fr/collections/top-marsha-framboise-wedressfair-essentiels-framboise
+Rayon (femme / homme / mixte) : femme
+Composition : 63% tencel® (procédé lyocell), 31% coton biologique, 6% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 55 €
+Code-barres : 3760427376665, 3760427376658, 3760427376641
+
+Produit 24
+Nom : Tee-shirt col carré en Tencel côtelé "Nita" | framboise
+Lien : https://www.wedressfair.fr/collections/top-nita-tencel-framboise-framboise-wedressfair-framboise
+Rayon (femme / homme / mixte) : femme
+Composition : 96% tencel® (procédé lyocell), 4% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 55 €
+Code-barres : 3760427377822, 3760427377815, 3760427377808
+
+Produit 25
+Nom : Top sans manche velours côtelé "lyve" - vert
+Lien : https://www.wedressfair.fr/collections/top-sans-manche-velours-cotele-lyve-vert-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 3701826501524, 3701826501517, 3701826501500
+
+Produit 26
+Nom : Tee-shirt seconde peau en tencel et laine mérinos | écru "Milla"
+Lien : https://www.wedressfair.fr/collections/ts-manche-longue-tencel-merinos-ecru-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 70% tencel® (procédé lyocell), 30% laine certifiée
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 59 €
+Code-barres : 3701826500091, 3701826500114, 3701826500121
+
+===== PULLS ET MAILLE =====
+
+Produit 1
+Nom : Gilet en coton bio | gris chiné
+Lien : https://www.wedressfair.fr/collections/gilet-en-coton-bio-gris-chine-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 75 €
+Code-barres : 3760427378409, 3760427378393, 3760427378386
+
+Produit 2
+Nom : Gilet en mohair certifié | aubergine "moha"
+Lien : https://www.wedressfair.fr/collections/gilet-mohair-aubergine-moha-aubergine-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 50% mohair certifiée, 30% polyamide recyclé, 20% laine certifiée
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 159 €
+Code-barres : 3701826500558, 3701826500572, 3701826500589
+
+Produit 3
+Nom : Sweat oversize en coton bio | lilas
+Lien : https://www.wedressfair.fr/collections/le-sweat-oversize-lilas-lilas-wedressfair
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 69 €
+Code-barres : 3760427377709, 3760427377693, 3760427377686
+
+Produit 4
+Nom : Pull oversize raglan en laine mérinos recyclée | bordeaux
+Lien : https://www.wedressfair.fr/collections/pull-boxy-en-laine-merinos-recyclee-bordeaux-wedressfair-essentiels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% laine mérinos recyclée
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 3760427374913, 3760427374906, 3760427374890
+
+Produit 5
+Nom : Pull col roulé en coton bio | marine
+Lien : https://www.wedressfair.fr/collections/pull-col-roule-en-coton-bio-marine-wedressfair-essentiels
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 75 €
+Code-barres : 3760427373992, 3760427373985, 3760427373978
+
+Produit 6
+Nom : Pull col roulé fin en coton bio | bordeaux
+Lien : https://www.wedressfair.fr/collections/pull-col-roule-fin-en-coton-bio-bordeaux-wedressfair
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 75 €
+Code-barres : 3760427379499, 3760427379512, 3760427379529
+
+Produit 7
+Nom : Pull droit en laine mérinos recyclée | marine
+Lien : https://www.wedressfair.fr/collections/pull-droit-en-laine-merinos-recyclee-marine-wedressfair-essentiels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% laine mérinos recyclée
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 3760427373787, 3760427373770, 3760427373763
+
+Produit 8
+Nom : Pull en laine mérinos recyclée | écru
+Lien : https://www.wedressfair.fr/collections/pull-en-laine-merinos-recyclee-ecru-wedressfair-essentiels
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine mérinos recyclée
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 3760427374111, 3760427374104, 3760427374098
+
+Produit 9
+Nom : Pull col v en coton bio | bleu
+Lien : https://www.wedressfair.fr/collections/pull-interlock-col-v-en-coton-bio-marine-bleu-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 3701826501814, 3701826501852, 3701826501845
+
+Produit 10
+Nom : Pull en coton bio | bleu
+Lien : https://www.wedressfair.fr/collections/pull-interlock-en-coton-bio-marine-wedressfair
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 85 €
+Code-barres : 3760427379390, 3760427379413, 3760427379420
+
+Produit 11
+Nom : Pull en mohair certifié | aubergine "sérena"
+Lien : https://www.wedressfair.fr/collections/pull-oversize-boxy-mohair-aubergine-serena-aubergine-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 50% mohair certifiée, 30% polyamide recyclé, 20% laine certifiée
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 149 €
+Code-barres : 3701826501678, 3701826501692, 3701826501708
+
+Produit 12
+Nom : Pull en mohair certifié | rayé multicolore "sérena"
+Lien : https://www.wedressfair.fr/collections/pull-oversize-boxy-mohair-raye-serena-multicolore-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 50% mohair certifiée, 30% polyamide recyclé, 20% laine certifiée
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 155 €
+Code-barres : 3701826501005, 3701826501029, 3701826501036
+
+Produit 13
+Nom : Pull col montant en laine mérinos certifiée | chocolat
+Lien : https://www.wedressfair.fr/collections/pull-oversize-raglan-cotes-anglaises-en-laine-merinos-chocolat-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 100% laine certifiée
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 149 €
+Code-barres : 3760427379895, 3760427379918, 3760427379925
+
+Produit 14
+Nom : Pull raglan côtes anglaises en laine mérinos | bleu chiné
+Lien : https://www.wedressfair.fr/collections/pull-raglan-cotes-anglaises-en-laine-merinos-bleu-chine-wedressfair
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine certifiée
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 155 €
+Code-barres : 3760427379291, 3760427379314, 3760427379321
+
+Produit 15
+Nom : Pull régular en laine mérinos recyclée | bordeaux
+Lien : https://www.wedressfair.fr/collections/pull-regular-en-laine-merinos-recycle-bordeaux-wedressfair
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine extrafine recyclée
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 3760427379598, 3760427379611, 3760427379628
+
+Produit 16
+Nom : Pull régular en laine mérinos recyclée | vert émeraude
+Lien : https://www.wedressfair.fr/collections/pull-regular-en-laine-merinos-recycle-vert-emeraude-wedressfair
+Rayon (femme / homme / mixte) : homme
+Composition : 100% laine mérinos recyclée
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 3760427379543, 3760427379567, 3760427379574
+
+Produit 17
+Nom : Pull régular en laine mérinos recyclée | bleu méditérranéen
+Lien : https://www.wedressfair.fr/collections/pull-regular-en-laine-merinos-recyclee-bleu-mediterraneen-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 100% laine mérinos recyclée
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 3701826500374, 3701826500398, 3701826500404
+
+Produit 18
+Nom : Pull sans manche en mohair certifié | aubergine "Luna"
+Lien : https://www.wedressfair.fr/collections/pull-sans-manche-mohair-aubergine-luna-aubergine-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 50% mohair certifiée, 30% polyamide recyclé, 20% laine certifiée
+Fabriqué en : Italie
+Tissé en : 
+Teint en : 
+Prix : 119 €
+Code-barres : 3701826500657, 3701826500671, 3701826500688
+
+Produit 19
+Nom : Sweat camionneur col zippé en coton bio | bordeaux
+Lien : https://www.wedressfair.fr/collections/sweat-camionneur-en-coton-bio-bordeaux-wedressfair
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 79 €
+Code-barres : 3760427378201, 3760427378195, 3760427378188
+
+Produit 20
+Nom : Sweat en coton bio | bleu pétrole
+Lien : https://www.wedressfair.fr/collections/sweat-en-coton-bio-bleu-petrole-wedressfair-essentiels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 69 €
+Code-barres : 3760427370892, 3760427370182, 3760427370878
+
+Produit 21
+Nom : Sweat en coton bio | bordeaux
+Lien : https://www.wedressfair.fr/collections/sweat-en-coton-bio-bordeaux-wedressfair-essentiels
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 65 €
+Code-barres : 3760427374623, 3760427374616, 3760427374609
+
+Produit 22
+Nom : Marinière oversize en coton bio | bordeaux et rose "June"
+Lien : https://www.wedressfair.fr/collections/ts-manches-longues-col-bateau-en-coton-bio-bordeaux-rose-rose-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 75 €
+Code-barres : 3760427379017, 3760427379031, 3760427379048
+
+===== ROBES ET JUPES =====
+
+Produit 1
+Nom : Jupe midi en viscose EcoVero | imprimé "Mira"
+Lien : https://www.wedressfair.fr/collections/jupe-jersey-imprime-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 95% ecovero® (par lenzing®), 5% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 3760427379697, 3760427379710, 3760427379727
+
+===== PANTALONS ET JEANS =====
+
+Produit 1
+Nom : Pantalon fluide en Tencel côtelé taille élastiquée "Tania" | framboise
+Lien : https://www.wedressfair.fr/collections/pantalon-tania-tencel-framboise-framboise-wedressfair-framboise
+Rayon (femme / homme / mixte) : femme
+Composition : 96% tencel® (procédé lyocell), 4% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 85 €
+Code-barres : 3760427377747, 3760427377730, 3760427377723
+
+Produit 2
+Nom : Pantalon velours taille élastiquée vert "billie" - vert
+Lien : https://www.wedressfair.fr/collections/pantalon-velours-taille-elastiquee-vert-billie-vert-wedressfair
+Rayon (femme / homme / mixte) : femme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 119 €
+Code-barres : 3701826501661, 3701826501654, 3701826501647

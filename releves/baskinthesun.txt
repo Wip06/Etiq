@@ -1,0 +1,244 @@
+RELEVÉ BASK IN THE SUN
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : T-shirt imprimé en coton bio | noir "Cosmic - carbon"
+Lien : https://www.wedressfair.fr/collections/cosmic-carbon-carbon-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 50 €
+Code-barres : 3701766209948, 3701766209931, 3701766209924
+
+Produit 2
+Nom : T-shirt imprimé en coton bio | noir "Couple - carbon"
+Lien : https://www.wedressfair.fr/collections/couple-carbon-carbon-bask-in-the-sun-carbon
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 50 €
+Code-barres : 3701766208620, 3701766208613, 3701766208606
+
+Produit 3
+Nom : T-shirt imprimé en coton bio | bordeaux "Eye - wine - wine"
+Lien : https://www.wedressfair.fr/collections/eye-wine-wine-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 50 €
+Code-barres : 3701766209108, 3701766209092, 3701766209085
+
+Produit 4
+Nom : T-shirt imprimé en coton bio | vert "Free - forest"
+Lien : https://www.wedressfair.fr/collections/free-forest-forest-bask-in-the-sun-forest
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 50 €
+Code-barres : 3701766208507, 3701766208491, 3701766208484
+
+Produit 5
+Nom : T-shirt imprimé en coton bio | bleu marine "Jazzman - navy - navy"
+Lien : https://www.wedressfair.fr/collections/jazzman-navy-navy-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 50 €
+Code-barres : 3701766209764, 3701766209757, 3701766209740
+
+Produit 6
+Nom : T-shirt imprimé en coton bio | marron "Macchinetta - brownie"
+Lien : https://www.wedressfair.fr/collections/macchinetta-brownie-brownie-bask-in-the-sun-brownie
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 50 €
+Code-barres : 3701766208200, 3701766208194, 3701766208187
+
+Produit 7
+Nom : T-shirt imprimé en coton bio | bleu "cobalt smoking pipe tee - cobalt"
+Lien : https://www.wedressfair.fr/collections/t-shirt-imprime-en-coton-bio-bleu-cobalt-smoking-pipe-tee-cobalt-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 30 €
+Code-barres : 3701766202802, 3701766202796, 3701766202789
+
+===== PULLS ET MAILLE =====
+
+Produit 1
+Nom : Sweat imprimé en coton bio | noir "Couple - carbon"
+Lien : https://www.wedressfair.fr/collections/couple-carbon-carbon-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 95 €
+Code-barres : 3701766208569, 3701766208552, 3701766208545
+
+Produit 2
+Nom : Sweat en coton bio | vert "Free - forest"
+Lien : https://www.wedressfair.fr/collections/free-forest-forest-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 95 €
+Code-barres : 3701766208446, 3701766208439, 3701766208422
+
+Produit 3
+Nom : Sweat en coton bio | marron "Macchinetta - brownie"
+Lien : https://www.wedressfair.fr/collections/macchinetta-brownie-brownie-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 95 €
+Code-barres : 3701766208149, 3701766208132, 3701766208125
+
+Produit 4
+Nom : Sweat en coton bio | marron "Peace - almond"
+Lien : https://www.wedressfair.fr/collections/peace-almond-almond-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 95 €
+Code-barres : 3701766208743, 3701766208736, 3701766208729
+
+Produit 5
+Nom : Pull col zippé en laine recyclée | gris "antxiko - black"
+Lien : https://www.wedressfair.fr/collections/pull-col-zippe-en-laine-recyclee-gris-antxiko-black-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 70% laine recyclée, 25% polyamide recyclé, 5% autres fibres recyclées
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 102 €
+Code-barres : 3701018394026, 3701018394019, 3701018394002
+
+Produit 6
+Nom : Pull torsadé en laine recyclée | bleu "joannis - abyss"
+Lien : https://www.wedressfair.fr/collections/pull-torsade-en-laine-recyclee-bleu-joannis-abyss-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 75% laine recyclée, 20% polyamide recyclé, 5% autres fibres recyclées
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 104 €
+Code-barres : 3701018394385, 3701018394378, 3701018394361
+
+Produit 7
+Nom : Sweat en coton bio | bleu "cobalt to the sea"
+Lien : https://www.wedressfair.fr/collections/sweat-en-coton-bio-bleu-cobalt-to-the-sea-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 54 €
+Code-barres : 3701766202864, 3701766202857, 3701766202840
+
+Produit 8
+Nom : Veste polaire en matière recyclée | marron "goxo - chocolate"
+Lien : https://www.wedressfair.fr/collections/veste-polaire-en-matiere-recyclee-marron-goxo-chocolate-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% polyamide recyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 109 €
+Code-barres : 3701018392848, 3701018392831, 3701018392824
+
+===== PANTALONS ET JEANS =====
+
+Produit 1
+Nom : Pantalon pince droit en coton bio | beige "Maguro - mineral"
+Lien : https://www.wedressfair.fr/collections/maguro-mineral-mineral-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 138 €
+Code-barres : 3701766214447, 3701766214430, 3701766214423
+
+===== CHEMISES ET BLOUSES =====
+
+Produit 1
+Nom : Chemise en gaze de coton bio | beige "oihana - cappuccino"
+Lien : https://www.wedressfair.fr/collections/chemise-en-gaze-de-coton-bio-beige-oihana-cappuccino-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 63 €
+Code-barres : 3701018389343, 3701018389336, 3701018389329
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Veste imprimé dos en coton bio | bleu marine "Sergi - navy"
+Lien : https://www.wedressfair.fr/collections/sergi-navy-navy-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 178 €
+Code-barres : 3701766213723, 3701766213716, 3701766213709
+
+Produit 2
+Nom : Veste imprimé dos en coton bio | marine "heart sergi jacket"
+Lien : https://www.wedressfair.fr/collections/veste-en-coton-bio-marine-heart-sergi-jacket-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 101 €
+Code-barres : 3701766206138, 3701766206121, 3701766206114
+
+Produit 3
+Nom : Veste en coton bio | orange "canyon sergi jacket"
+Lien : https://www.wedressfair.fr/collections/veste-en-coton-bio-orange-canyon-sergi-jacket-bask-in-the-sun
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 95 €
+Code-barres : 3701766206190, 3701766206183, 3701766206176

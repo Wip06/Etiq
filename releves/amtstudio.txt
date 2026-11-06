@@ -1,0 +1,86 @@
+RELEVÉ AMT STUDIO
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : Top en coton bio et matière recylée | vichy noir blanc "Crush backless top - vichy black cream"
+Lien : https://www.wedressfair.fr/collections/crush-backless-top-vichy-black-cream-amt-studio
+Rayon (femme / homme / mixte) : femme
+Composition : 60% coton biologique, 40% polyester recyclé
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 42 €
+Code-barres : 1111000062895, 1111000062918, 1111000062932
+
+Produit 2
+Nom : Top manches longues en lyocell et sorona | Galena twist top
+Lien : https://www.wedressfair.fr/collections/galena-twist-top-amt-studio
+Rayon (femme / homme / mixte) : femme
+Composition : 65% tencel® (procédé lyocell), 35% sorona
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 110 €
+Code-barres : 1111000067326, 1111000067333, 1111000067340
+
+Produit 3
+Nom : T-shirt texturé en coton bio | noir "Midnight t-shirt - black"
+Lien : https://www.wedressfair.fr/collections/midnight-t-shirt-black-amt-studio
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 36 €
+Code-barres : 1111000053435, 1111000053442, 1111000053459
+
+===== ROBES ET JUPES =====
+
+Produit 1
+Nom : Jupe en lyocell et sorona | charbon "Galena skirt"
+Lien : https://www.wedressfair.fr/collections/12766p-amt-studio
+Rayon (femme / homme / mixte) : femme
+Composition : 65% tencel® (procédé lyocell), 35% sorona
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 118 €
+Code-barres : 1111000067227, 1111000067234, 1111000067241
+
+Produit 2
+Nom : Jupe mi-longue côtelée en modal | noir "Lula skirt - black"
+Lien : https://www.wedressfair.fr/collections/lula-skirt-black-amt-studio
+Rayon (femme / homme / mixte) : femme
+Composition : 96% modal, 4% élasthanne
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 87 €
+Code-barres : 1111000041791, 1111000041784, 1111000041777
+
+===== PANTALONS ET JEANS =====
+
+Produit 1
+Nom : Pantalon léger en coton bio et polyester recyclé | vichy blanc noir "Crush pants - vichy black cream"
+Lien : https://www.wedressfair.fr/collections/crush-pants-vichy-black-cream-amt-studio
+Rayon (femme / homme / mixte) : femme
+Composition : 60% coton biologique, 40% polyester recyclé
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 75 €
+Code-barres : 1111000062994, 1111000063014, 1111000063038

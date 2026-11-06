@@ -1,8 +1,8 @@
 RELEVÉ DEDICATED
 
-Date du relevé : 5 novembre 2026
-Relevé automatique sur WeDressFair (revendeur multimarque) : premières fiches de la marque dans le plan
-du site, par catégorie, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
 qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
 
 ===== LA MARQUE =====
@@ -16,39 +16,17 @@ Lien de la page :
 ===== T-SHIRTS ET TOPS =====
 
 Produit 1
-Nom : T-shirt imprimé en coton bio | écru "stockholm spilled off-white"
-Lien : https://www.wedressfair.fr/collections/t-shirt-stockholm-spilled-off-white-whisper-white-dedicated
+Nom : T-shirt brodé en coton bio | noir "stockholm small paper cut bike black"
+Lien : https://www.wedressfair.fr/collections/t-shirt-stockholm-small-paper-cut-bike-black-black-dedicated
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
 Prix : 39 €
-Code-barres : 7333125335638, 7333125335645, 7333125335652
+Code-barres : 7333125291798, 7333125291804, 7333125291811
 
 Produit 2
-Nom : T-shirt brodé en coton bio | rose "t-shirt visby sea shells emb moonlite pink - moonlite mauve"
-Lien : https://www.wedressfair.fr/collections/t-shirt-visby-sea-shells-emb-moonlite-pink-moonlite-mauve-dedicated
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 23 €
-Code-barres : 7333125312264, 7333125312271, 7333125312288
-
-Produit 3
-Nom : T-shirt en coton bio | blanc "T-shirt visby self love club white - white"
-Lien : https://www.wedressfair.fr/collections/t-shirt-visby-self-love-club-white-white-dedicated
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 23 €
-Code-barres : 7333125312615, 7333125312622, 7333125312639
-
-Produit 4
 Nom : T-shirt brodé en coton bio | noir "t-shirt vadstena femme leaf emb black - black"
 Lien : https://www.wedressfair.fr/collections/t-shirt-vadstena-femme-leaf-emb-black-black-dedicated
 Rayon (femme / homme / mixte) : femme
@@ -62,17 +40,6 @@ Code-barres : 7333125313360, 7333125313377, 7333125313384
 ===== PULLS ET MAILLE =====
 
 Produit 1
-Nom : Sweatshirt brodé en coton bio | beige "sweatshirt ystad self love club emb oat white - rainy day"
-Lien : https://www.wedressfair.fr/collections/sweatshirt-ystad-self-love-club-emb-oat-white-rainy-day-dedicated
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 53 €
-Code-barres : 7333125312769, 7333125312776, 7333125312783
-
-Produit 2
 Nom : Sweatshirt en coton bio | noir "ystad future is female black"
 Lien : https://www.wedressfair.fr/collections/sweatshirt-en-coton-bio-noir-ystad-future-is-female-black-dedicated
 Rayon (femme / homme / mixte) : femme
@@ -83,20 +50,20 @@ Teint en :
 Prix : 53 €
 Code-barres : 7333125306300, 7333125306317, 7333125306324
 
-===== ROBES ET JUPES =====
-
-Produit 1
-Nom : Jupe en coton biologique | noir "Skirt riala black"
-Lien : https://www.wedressfair.fr/collections/skirt-riala-black-black-dedicated
+Produit 2
+Nom : Sweatshirt brodé en coton bio | beige "sweatshirt ystad self love club emb oat white - rainy day"
+Lien : https://www.wedressfair.fr/collections/sweatshirt-ystad-self-love-club-emb-oat-white-rainy-day-dedicated
 Rayon (femme / homme / mixte) : femme
-Composition : 98% coton biologique, 2% élasthanne
+Composition : 100% coton biologique
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 47 €
-Code-barres : 7333125316750, 7333125316767, 7333125316774
+Prix : 53 €
+Code-barres : 7333125312769, 7333125312776, 7333125312783
 
-Produit 2
+===== ROBES ET JUPES =====
+
+Produit 1
 Nom : Jupe patineuse velours en coton bio | noir "skirt majorna corduroy black"
 Lien : https://www.wedressfair.fr/collections/jupe-patineuse-velours-en-coton-bio-noir-skirt-majorna-corduroy-black-dedicated
 Rayon (femme / homme / mixte) : femme
@@ -107,20 +74,31 @@ Teint en :
 Prix : 79 €
 Code-barres : 7333125272148, 7333125272155, 7333125272162
 
-===== PANTALONS ET JEANS =====
+Produit 2
+Nom : Jupe longue denim en coton bio | rayé "Skirt finsta work stripe blue"
+Lien : https://www.wedressfair.fr/collections/skirt-finsta-work-stripe-blue-blue-blue-dedicated
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 59 €
+Code-barres : 7333125277846, 7333125277853, 7333125277860
 
-Produit 1
-Nom : Pantalon droit velours en coton bio | marron "Pants hamburg corduroy cappuccino brown"
-Lien : https://www.wedressfair.fr/collections/pants-hamburg-corduroy-cappuccino-brown-cappuccino-dedicated
-Rayon (femme / homme / mixte) : homme
+Produit 3
+Nom : Jupe en coton biologique | noir "Skirt riala black"
+Lien : https://www.wedressfair.fr/collections/skirt-riala-black-black-dedicated
+Rayon (femme / homme / mixte) : femme
 Composition : 98% coton biologique, 2% élasthanne
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
-Prix : 129 €
-Code-barres : 7333125331920, 7333125331937, 7333125331944
+Prix : 47 €
+Code-barres : 7333125316750, 7333125316767, 7333125316774
 
-Produit 2
+===== PANTALONS ET JEANS =====
+
+Produit 1
 Nom : Chino droit en coton bio | noir "Chino pants hudiksvall black - caviar"
 Lien : https://www.wedressfair.fr/collections/chino-pants-hudiksvall-black-caviar-dedicated
 Rayon (femme / homme / mixte) : homme
@@ -131,20 +109,42 @@ Teint en :
 Prix : 99 €
 Code-barres : 7333125331548, 7333125331555, 7333125331562
 
+Produit 2
+Nom : Chino droit en coton bio | marine "hudiksvall navy - black iris"
+Lien : https://www.wedressfair.fr/collections/chino-pants-hudiksvall-navy-black-iris-dedicated
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 7333125331609, 7333125331616, 7333125331623
+
 Produit 3
-Nom : Pantalon droit velours en coton bio | bleu "Pants hamburg corduroy navy - black iris"
-Lien : https://www.wedressfair.fr/collections/pants-hamburg-corduroy-navy-black-iris-dedicated
+Nom : Pantalon droit velours en coton bio | marron "Pants hamburg corduroy cappuccino brown"
+Lien : https://www.wedressfair.fr/collections/pants-hamburg-corduroy-cappuccino-brown-cappuccino-dedicated
 Rayon (femme / homme / mixte) : homme
 Composition : 98% coton biologique, 2% élasthanne
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
 Prix : 129 €
-Code-barres : 7333125332002, 7333125332019, 7333125332026
+Code-barres : 7333125331920, 7333125331937, 7333125331944
 
 ===== CHEMISES ET BLOUSES =====
 
 Produit 1
+Nom : Chemise denim en coton bio | bleu clair "lunnevik denim light blue"
+Lien : https://www.wedressfair.fr/collections/chemise-denim-en-coton-bio-bleu-clair-lunnevik-denim-light-blue-dedicated
+Rayon (femme / homme / mixte) : homme
+Composition : 80% coton biologique, 20% coton recyclé
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 71 €
+Code-barres : 7333125286817, 7333125286824, 7333125286831
+
+Produit 2
 Nom : Chemise manches courtes denim en coton bio | bleu clair "skalhamn denim light blue"
 Lien : https://www.wedressfair.fr/collections/chemise-manches-courtes-denim-en-coton-bio-bleu-clair-skalhamn-denim-light-blue-dedicated
 Rayon (femme / homme / mixte) : homme
@@ -154,17 +154,6 @@ Tissé en :
 Teint en : 
 Prix : 59 €
 Code-barres : 7333125286701, 7333125286718, 7333125286725
-
-Produit 2
-Nom : Chemise manches courtes en lin | bleu canard "Shirt marstrand linen mediterranea green"
-Lien : https://www.wedressfair.fr/collections/shirt-marstrand-linen-mediterranea-green-mediterranea-dedicated
-Rayon (femme / homme / mixte) : homme
-Composition : 100% lin
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 71 €
-Code-barres : 7333125317702, 7333125317719, 7333125317726
 
 Produit 3
 Nom : Chemise en coton bio piqué | écru "Shirt falkvik waffle off-white"
@@ -178,6 +167,39 @@ Prix : 47 €
 Code-barres : 7333125287937, 7333125287944, 7333125287951
 
 Produit 4
+Nom : Surchemise velours côtelé en coton bio | marron "Shirt kil corduroy cappuccino brown"
+Lien : https://www.wedressfair.fr/collections/shirt-kil-corduroy-cappuccino-brown-cappuccino-dedicated
+Rayon (femme / homme / mixte) : homme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 129 €
+Code-barres : 7333125332149, 7333125332156, 7333125332163
+
+Produit 5
+Nom : Chemise en lin | écru "Shirt marstrand linen"
+Lien : https://www.wedressfair.fr/collections/shirt-marstrand-linen-ecru-ecru-dedicated
+Rayon (femme / homme / mixte) : homme
+Composition : 100% lin
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 71 €
+Code-barres : 7333125288118, 7333125288125, 7333125288132
+
+Produit 6
+Nom : Chemise en lin | bleu canard "Shirt rute linen mediterranea green"
+Lien : https://www.wedressfair.fr/collections/shirt-rute-linen-mediterranea-green-mediterranea-dedicated
+Rayon (femme / homme / mixte) : homme
+Composition : 100% lin
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 77 €
+Code-barres : 7333125317764, 7333125317771, 7333125317788
+
+Produit 7
 Nom : Chemise velours en coton bio | vert foncé "varberg"
 Lien : https://www.wedressfair.fr/collections/shirt-varberg-corduroy-dark-green-pine-grove-dedicated
 Rayon (femme / homme / mixte) : homme
@@ -188,42 +210,42 @@ Teint en :
 Prix : 99 €
 Code-barres : 7333125332569, 7333125332576, 7333125332583
 
-Produit 5
-Nom : Chemise denim en coton bio | bleu clair "lunnevik denim light blue"
-Lien : https://www.wedressfair.fr/collections/chemise-denim-en-coton-bio-bleu-clair-lunnevik-denim-light-blue-dedicated
-Rayon (femme / homme / mixte) : homme
-Composition : 80% coton biologique, 20% coton recyclé
-Fabriqué en : Inde
-Tissé en : 
-Teint en : 
-Prix : 71 €
-Code-barres : 7333125286817, 7333125286824, 7333125286831
-
-Produit 6
-Nom : Chemise velours en coton bio | écru "varberg corduroy oat white - rainy day"
-Lien : https://www.wedressfair.fr/collections/shirt-varberg-corduroy-oat-white-rainy-day-dedicated
+Produit 8
+Nom : Chemise velours côtelé en coton bio | gris "Shirt varberg corduroy rock grey - castlerock"
+Lien : https://www.wedressfair.fr/collections/shirt-varberg-corduroy-rock-grey-castlerock-dedicated
 Rayon (femme / homme / mixte) : homme
 Composition : 100% coton biologique
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
 Prix : 99 €
-Code-barres : 7333125296267, 7333125296274, 7333125296281
+Code-barres : 7333125332620, 7333125332637, 7333125332644
 
-Produit 7
-Nom : Surchemise velours côtelé en coton bio | bleu "Shirt kil corduroy navy - black iris"
-Lien : https://www.wedressfair.fr/collections/shirt-kil-corduroy-navy-black-iris-dedicated
-Rayon (femme / homme / mixte) : homme
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Veste velours en coton bio | noir "Jacket stiby corduroy black"
+Lien : https://www.wedressfair.fr/collections/jacket-stiby-corduroy-black-black-black-dedicated-black
+Rayon (femme / homme / mixte) : femme
 Composition : 98% coton biologique, 2% élasthanne
 Fabriqué en : Inde
 Tissé en : 
 Teint en : 
 Prix : 129 €
-Code-barres : 7333125295901, 7333125295918, 7333125295925
+Code-barres : 7333125295635, 7333125295642, 7333125295659
 
-===== MANTEAUX ET VESTES =====
+Produit 2
+Nom : Veste denim léger en coton bio | bleu clair "jacket sunna denim light blue"
+Lien : https://www.wedressfair.fr/collections/veste-denim-leger-en-coton-bio-bleu-clair-jacket-sunna-denim-light-blue-dedicated
+Rayon (femme / homme / mixte) : femme
+Composition : 80% coton biologique, 20% coton recyclé
+Fabriqué en : Inde
+Tissé en : 
+Teint en : 
+Prix : 83 €
+Code-barres : 7333125279192, 7333125279208, 7333125279215
 
-Produit 1
+Produit 3
 Nom : Veste denim léger en coton bio | bleu clair "jacket torhamn denim light blue"
 Lien : https://www.wedressfair.fr/collections/veste-denim-leger-en-coton-bio-bleu-clair-jacket-torhamn-denim-light-blue-dedicated
 Rayon (femme / homme / mixte) : homme
@@ -234,7 +256,7 @@ Teint en :
 Prix : 83 €
 Code-barres : 7333125286763, 7333125286770, 7333125286787
 
-Produit 2
+Produit 4
 Nom : Veste en coton biologique | jaune "jacket stiby work stripe yellow - yellow"
 Lien : https://www.wedressfair.fr/collections/veste-en-coton-biologique-jaune-jacket-stiby-work-stripe-yellow-yellow-dedicated
 Rayon (femme / homme / mixte) : femme

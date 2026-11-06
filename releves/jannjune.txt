@@ -1,8 +1,8 @@
 RELEVÉ JAN'N JUNE
 
-Date du relevé : 5 novembre 2026
-Relevé automatique sur WeDressFair (revendeur multimarque) : premières fiches de la marque dans le plan
-du site, par catégorie, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
 qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
 
 ===== LA MARQUE =====
@@ -16,39 +16,72 @@ Lien de la page :
 ===== T-SHIRTS ET TOPS =====
 
 Produit 1
-Nom : Top à manches longues texturé en ecovero | vert "Senna - rosemary"
-Lien : https://www.wedressfair.fr/collections/senna-rosemary-rosemary-jan-n-june
-Rayon (femme / homme / mixte) : femme
-Composition : 60% ecovero® (par lenzing®), 39% viscose enka® , 1% élasthanne
-Fabriqué en : Pologne
-Tissé en : 
-Teint en : 
-Prix : 129 €
-Code-barres : 4255887307698, 4255887307704, 4255887307711
-
-Produit 2
-Nom : Top sans manches en coton bio | blanc "rafo white"
-Lien : https://www.wedressfair.fr/collections/top-sans-manches-en-coton-bio-blanc-rafo-white-jan-n-june
-Rayon (femme / homme / mixte) : femme
-Composition : 96% coton biologique, 4% élasthanne
-Fabriqué en : Pologne
-Tissé en : 
-Teint en : 
-Prix : 41 €
-Code-barres : 4251845965528, 4251845965535, 4251845965542
-
-Produit 3
-Nom : Top manches longues en tencel| blanc "fria - vintage lace"
-Lien : https://www.wedressfair.fr/collections/top-manches-longues-en-tencel-blanc-fria-vintage-lace-jan-n-june
+Nom : Débardeur en tencel | vert clair "porto - vintage lace"
+Lien : https://www.wedressfair.fr/collections/debardeur-en-tencel-vert-clair-porto-vintage-lace-jan-n-june
 Rayon (femme / homme / mixte) : femme
 Composition : 96% tencel® (procédé lyocell), 4% élasthanne
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
-Prix : 40 €
-Code-barres : 4251845980712, 4251845980729, 4251845980736
+Prix : 29 €
+Code-barres : 4251845977811, 4251845977828, 4251845977835
+
+Produit 2
+Nom : Top manches longues transparent en matières recyclées | rouge "Dora - carmine-curl"
+Lien : https://www.wedressfair.fr/collections/dora-carmine-curl-carmine-curl-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 94% polyester recyclé, 6% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 75 €
+Code-barres : 4255887307162, 4255887307179, 4255887307186
+
+Produit 3
+Nom : Top en ecovero | noir "Fern-black"
+Lien : https://www.wedressfair.fr/collections/fern-black-black-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 60% ecovero® (par lenzing®), 39% viscose enka®, 1% élasthanne
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 119 €
+Code-barres : 4255887306219, 4255887306226, 4255887306233
 
 Produit 4
+Nom : Top en ecovero | Vert "Fern-rosemary"
+Lien : https://www.wedressfair.fr/collections/fern-rosemary-rosemary-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 60% ecovero® (par lenzing®), 39% viscose enka®, 1% élasthanne
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 119 €
+Code-barres : 4255887306363, 4255887306370, 4255887306387
+
+Produit 5
+Nom : Top en tencel | marron "meadow - mud"
+Lien : https://www.wedressfair.fr/collections/meadow-mud-mud-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 88% tencel® (procédé lyocell), 12% sorona
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 4255887305519, 4255887305526, 4255887305533
+
+Produit 6
+Nom : Top col roulé côtelé en tencel | bleu clair "mio - mid blue"
+Lien : https://www.wedressfair.fr/collections/mio-mid-blue-mid-blue-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 96% tencel® (procédé lyocell), 4% élasthanne
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 69 €
+Code-barres : 4255887306783, 4255887306790, 4255887306806
+
+Produit 7
 Nom : T-shirt côtelé en tencel | bleu clair "nina - mid - blue"
 Lien : https://www.wedressfair.fr/collections/nina-mid-blue-mid-blue-jan-n-june
 Rayon (femme / homme / mixte) : femme
@@ -59,7 +92,73 @@ Teint en :
 Prix : 59 €
 Code-barres : 4255887305861, 4255887305878, 4255887305885
 
-Produit 5
+Produit 8
+Nom : Top à manches longues texturé en ecovero | vert "Senna - rosemary"
+Lien : https://www.wedressfair.fr/collections/senna-rosemary-rosemary-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 60% ecovero® (par lenzing®), 39% viscose enka® , 1% élasthanne
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 129 €
+Code-barres : 4255887307698, 4255887307704, 4255887307711
+
+Produit 9
+Nom : T-shirt à manches longues noir en tencel - fria black
+Lien : https://www.wedressfair.fr/collections/t-shirt-a-manches-longues-noir-en-tencel-fria-black-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 96% tencel® (procédé lyocell), 4% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 79 €
+Code-barres : 4251845975336, 4251845932827, 4251845932834
+
+Produit 10
+Nom : T-shirt côtelé en tencel | aubergine "nina - cherry lacquer"
+Lien : https://www.wedressfair.fr/collections/t-shirt-cotele-en-tencel-aubergine-nina-cherry-lacquer-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 96% tencel® (procédé lyocell), 4% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 35 €
+Code-barres : 4255887302051, 4251845987889, 4251845987896
+
+Produit 11
+Nom : T-shirt en tencel | vert clair "arima - vintage lace"
+Lien : https://www.wedressfair.fr/collections/t-shirt-en-tencel-vert-clair-arima-vintage-lace-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 96% tencel® (procédé lyocell), 4% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 35 €
+Code-barres : 4251845980064, 4251845980071, 4251845980088
+
+Produit 12
+Nom : T-shirt noir col ballerine en coton bio - aloe
+Lien : https://www.wedressfair.fr/collections/t-shirt-noir-col-ballerine-en-coton-bio-aloe-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 96% coton biologique, 4% élasthanne
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 42 €
+Code-barres : 4251845901106, 4251845901113, 4251845901120
+
+Produit 13
+Nom : Top col roulé côtelé en tencel | olive "mio woody olive"
+Lien : https://www.wedressfair.fr/collections/top-col-roule-cotele-en-tencel-olive-mio-woody-olive-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 96% tencel® (procédé lyocell), 4% élasthanne
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 41 €
+Code-barres : 4251845988237, 4251845988244, 4251845988251
+
+Produit 14
 Nom : Top dos nu en ecovero | rose "ciconia - light orchid"
 Lien : https://www.wedressfair.fr/collections/top-dos-nu-en-coton-bio-rose-ciconia-light-orchid-jan-n-june
 Rayon (femme / homme / mixte) : femme
@@ -70,42 +169,119 @@ Teint en :
 Prix : 53 €
 Code-barres : 4251845998229, 4251845998236, 4251845998243
 
+Produit 15
+Nom : Top en coton bio | noir "tigris - black"
+Lien : https://www.wedressfair.fr/collections/top-en-coton-bio-noir-tigris-black-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 29 €
+Code-barres : 4251845997161, 4251845997178, 4251845997185
+
+Produit 16
+Nom : Top en lin | bordeaux "lupin - cherry lacquer"
+Lien : https://www.wedressfair.fr/collections/top-en-lin-bordeaux-lupin-cherry-lacquer-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% lin
+Fabriqué en : Bulgarie
+Tissé en : 
+Teint en : 
+Prix : 53 €
+Code-barres : 4251845997925, 4251845997932, 4251845997949
+
+Produit 17
+Nom : Top en matière recyclée | multicolore "laguna - leo print"
+Lien : https://www.wedressfair.fr/collections/top-en-matiere-recyclee-multicolore-laguna-leo-print-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 94% polyester recyclé, 6% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 43 €
+Code-barres : 4251845978764, 4251845978771, 4251845978788
+
+Produit 18
+Nom : Top manches longues en tencel| blanc "fria - vintage lace"
+Lien : https://www.wedressfair.fr/collections/top-manches-longues-en-tencel-blanc-fria-vintage-lace-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 96% tencel® (procédé lyocell), 4% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 40 €
+Code-barres : 4251845980712, 4251845980729, 4251845980736
+
+Produit 19
+Nom : Top sans manches en coton bio | blanc "rafo white"
+Lien : https://www.wedressfair.fr/collections/top-sans-manches-en-coton-bio-blanc-rafo-white-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 96% coton biologique, 4% élasthanne
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 41 €
+Code-barres : 4251845965528, 4251845965535, 4251845965542
+
 ===== PULLS ET MAILLE =====
 
 Produit 1
-Nom : Pull maille en coton bio | vert "Ola - woody-olive"
-Lien : https://www.wedressfair.fr/collections/ola-woody-olive-woody-olive-jan-n-june
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 139 €
-Code-barres : 4255887308954, 4255887308961, 4255887308978
-
-Produit 2
-Nom : Pull maille en coton bio | bleu "Ola - nightfall"
-Lien : https://www.wedressfair.fr/collections/ola-nightfall-nightfall-jan-n-june
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 139 €
-Code-barres : 4251845990469, 4251845990476, 4251845990483
-
-Produit 3
-Nom : Pull en coton bio | marron "Yagmur - zartbitter"
-Lien : https://www.wedressfair.fr/collections/yagmur-zartbitter-zartbitter-jan-n-june
+Nom : Pull polo en coton biologique | rayé "Etta - zartbitter striped"
+Lien : https://www.wedressfair.fr/collections/etta-zartbitter-striped-zartbitter-striped-jan-n-june
 Rayon (femme / homme / mixte) : femme
 Composition : 100% coton biologique
 Fabriqué en : Turquie
 Tissé en : 
 Teint en : 
-Prix : 129 €
-Code-barres : 4255887308855, 4255887308862, 4255887308879
+Prix : 119 €
+Code-barres : 4255887309357, 4255887309364, 4255887309371
+
+Produit 2
+Nom : Gilet en coton bio | aubergine "sivia"
+Lien : https://www.wedressfair.fr/collections/gilet-en-coton-bio-aubergine-sivia-cherry-lacquer-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 149 €
+Code-barres : 4251845994849, 4251845991725, 4251845991732
+
+Produit 3
+Nom : Gilet en coton bio | marron "glimt - clay"
+Lien : https://www.wedressfair.fr/collections/gilet-en-coton-bio-marron-glimt-clay-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 4251845921968, 4251845922026, 4251845922088
 
 Produit 4
+Nom : Gilet en maille de coton bio | noir "lena black"
+Lien : https://www.wedressfair.fr/collections/gilet-en-maille-de-coton-bio-noir-lena-black-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 125 €
+Code-barres : 4251845916650, 4251845916667, 4251845916674
+
+Produit 5
+Nom : Pull maille en coton bio | rouge "Ola - mid red"
+Lien : https://www.wedressfair.fr/collections/ola-mid-red-mid-red-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 139 €
+Code-barres : 4255887309005, 4255887309012, 4255887309029
+
+Produit 6
 Nom : Gilet en coton bio | bleu "Pebble - nightfall"
 Lien : https://www.wedressfair.fr/collections/pebble-nightfall-nightfall-jan-n-june
 Rayon (femme / homme / mixte) : femme
@@ -116,53 +292,75 @@ Teint en :
 Prix : 149 €
 Code-barres : 4255887310193, 4255887310209, 4255887310216
 
-Produit 5
-Nom : Gilet en coton bio | olive "sivia"
-Lien : https://www.wedressfair.fr/collections/gilet-en-coton-bio-olive-sivia-woody-olive-jan-n-june
+Produit 7
+Nom : Pull ample en maille de coton bio | gris foncé "tica dark grey"
+Lien : https://www.wedressfair.fr/collections/pull-ample-en-maille-de-coton-bio-gris-fonce-tica-dark-grey-jan-n-june
 Rayon (femme / homme / mixte) : femme
 Composition : 100% coton biologique
 Fabriqué en : Portugal
 Tissé en : 
 Teint en : 
-Prix : 149 €
-Code-barres : 4251845991763, 4251845991770, 4251845991787
+Prix : 48 €
+Code-barres : 4251845950241, 4251845950258, 4251845950265
+
+Produit 8
+Nom : Pull col roulé en coton bio | vert "mua - woody olive"
+Lien : https://www.wedressfair.fr/collections/pull-col-roule-en-coton-bio-vert-mua-woody-olive-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 97 €
+Code-barres : 4251845990766, 4251845990773, 4251845990780
+
+Produit 9
+Nom : Pull en coton bio | beige "yagmur"
+Lien : https://www.wedressfair.fr/collections/pull-en-coton-bio-beige-yagmur-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 90 €
+Code-barres : 4251845995105, 4251845995112, 4251845995129
+
+Produit 10
+Nom : Pull en coton bio | écru "williamsburg offwhite"
+Lien : https://www.wedressfair.fr/collections/pull-en-coton-bio-ecru-williamsburg-offwhite-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 59 €
+Code-barres : 4251845902608, 4251845902615, 4251845902622
+
+Produit 11
+Nom : Pull oversize en coton bio | écru "yin offwhite"
+Lien : https://www.wedressfair.fr/collections/pull-oversize-en-coton-bio-ecru-yin-offwhite-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 50 €
+Code-barres : 4251845959053, 4251845959060, 4251845959077
+
+Produit 12
+Nom : Pull en coton bio | kaki "Yagmur - woody olive "
+Lien : https://www.wedressfair.fr/collections/yagmur-woody-olive-woody-olive-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 129 €
+Code-barres : 4255887308909, 4255887308916, 4255887308923
 
 ===== ROBES ET JUPES =====
 
 Produit 1
-Nom : Jupe en matière recyclée | "smuk - black"
-Lien : https://www.wedressfair.fr/collections/jupe-en-matiere-recyclee-smuk-black-jan-n-june
-Rayon (femme / homme / mixte) : femme
-Composition : 94% polyester recyclé, 6% élasthanne
-Fabriqué en : Pologne
-Tissé en : 
-Teint en : 
-Prix : 77 €
-Code-barres : 4251845984116, 4251845984123, 4251845984130
-
-Produit 2
-Nom : Jupe en viscose écologique | vert "serin - woody olive"
-Lien : https://www.wedressfair.fr/collections/jupe-en-viscose-ecologique-vert-serin-woody-olive-jan-n-june
-Rayon (femme / homme / mixte) : femme
-Composition : 95% viscose enka® , 5% viscose circulose®
-Fabriqué en : Pologne
-Tissé en : 
-Teint en : 
-Prix : 97 €
-Code-barres : 4251845983966, 4251845983973, 4251845983980
-
-Produit 3
-Nom : Jupe longue en coton biologique | multicolore "ebba - turbulence"
-Lien : https://www.wedressfair.fr/collections/jupe-longue-en-coton-biologique-multicolore-ebba-turbulence-jan-n-june
-Rayon (femme / homme / mixte) : femme
-Composition : 100% coton biologique
-Fabriqué en : Portugal
-Tissé en : 
-Teint en : 
-Prix : 55 €
-Code-barres : 4251845983768, 4251845983775, 4251845983782
-
-Produit 4
 Nom : Jupe en lin | bordeaux "cercis - cherry lacquer"
 Lien : https://www.wedressfair.fr/collections/jupe-en-lin-bordeaux-cercis-cherry-lacquer-jan-n-june
 Rayon (femme / homme / mixte) : femme
@@ -173,7 +371,73 @@ Teint en :
 Prix : 59 €
 Code-barres : 4255887300415, 4255887300422, 4255887300439
 
+Produit 2
+Nom : Jupe en matière recyclée | "smuk - black"
+Lien : https://www.wedressfair.fr/collections/jupe-en-matiere-recyclee-smuk-black-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 94% polyester recyclé, 6% élasthanne
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 77 €
+Code-barres : 4251845984116, 4251845984123, 4251845984130
+
+Produit 3
+Nom : Jupe en viscose écologique | vert "serin - woody olive"
+Lien : https://www.wedressfair.fr/collections/jupe-en-viscose-ecologique-vert-serin-woody-olive-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 95% viscose enka® , 5% viscose circulose®
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 97 €
+Code-barres : 4251845983966, 4251845983973, 4251845983980
+
+Produit 4
+Nom : Jupe longue côtelée en coton bio | beige côtelé "ebba ivory"
+Lien : https://www.wedressfair.fr/collections/jupe-longue-cotelee-en-coton-bio-beige-cotele-ebba-ivory-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 109 €
+Code-barres : 4251845918005, 4251845918012, 4251845918029
+
 Produit 5
+Nom : Jupe longue en coton biologique | multicolore "ebba - turbulence"
+Lien : https://www.wedressfair.fr/collections/jupe-longue-en-coton-biologique-multicolore-ebba-turbulence-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 55 €
+Code-barres : 4251845983768, 4251845983775, 4251845983782
+
+Produit 6
+Nom : Jupea en coton bio | noir "lokka black"
+Lien : https://www.wedressfair.fr/collections/jupea-en-coton-bio-noir-lokka-black-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 55 €
+Code-barres : 4251845935125, 4251845935132, 4251845935149
+
+Produit 7
+Nom : Jupe en coton biologique et matière recyclée | rouge "Smuk - carmine curl"
+Lien : https://www.wedressfair.fr/collections/smuk-carmine-curl-carmine-curl-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : polyester recyclé, coton biologique, élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 129 €
+Code-barres : 4255887311060, 4255887311077, 4255887311084
+
+Produit 8
 Nom : Jupe ample en coton bio | blanc "Tiered maxi skirt alca white"
 Lien : https://www.wedressfair.fr/collections/tiered-maxi-skirt-alca-white-white-jan-n-june
 Rayon (femme / homme / mixte) : femme
@@ -184,18 +448,29 @@ Teint en :
 Prix : 83 €
 Code-barres : 4251845992715, 4251845992722, 4251845992739
 
+Produit 9
+Nom : Jupe en coton bio | marron "vando - mud"
+Lien : https://www.wedressfair.fr/collections/vando-mud-mud-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 99 €
+Code-barres : 4255887313668, 4255887300187, 4255887300194
+
 ===== PANTALONS ET JEANS =====
 
 Produit 1
-Nom : Pantalon froissé en tencel | blanc "hava - offwhite"
-Lien : https://www.wedressfair.fr/collections/pantalon-froisse-en-tencel-blanc-hava-offwhite-jan-n-june
+Nom : Jean ballon en coton bio | marron "Faya - mud"
+Lien : https://www.wedressfair.fr/collections/faya-mud-mud-jan-n-june
 Rayon (femme / homme / mixte) : femme
-Composition : 88% tencel® (procédé lyocell), 12% polyester
-Fabriqué en : Pologne
+Composition : 99% coton biologique, 1% élasthanne
+Fabriqué en : Turquie
 Tissé en : 
 Teint en : 
-Prix : 70 €
-Code-barres : 4251845984512, 4251845984529, 4251845984536
+Prix : 149 €
+Code-barres : 4255887311855, 4255887311862, 4255887311879
 
 Produit 2
 Nom : Pantalon ample côtelé en tencel | noir "smilla black"
@@ -209,6 +484,61 @@ Prix : 59 €
 Code-barres : 4251845975664, 4251845917602, 4251845917619
 
 Produit 3
+Nom : Pantalon ample fluide en tencel | aubergine "smilla - cherry lacquer"
+Lien : https://www.wedressfair.fr/collections/pantalon-ample-fluide-en-tencel-aubergine-smilla-cherry-lacquer-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 96% tencel® (procédé lyocell), 4% élasthanne
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 69 €
+Code-barres : 4251845993170, 4251845993187, 4251845993194
+
+Produit 4
+Nom : Pantalon ballon en coton bio | bordeaux "yauri - cherry lacquer
+Lien : https://www.wedressfair.fr/collections/pantalon-ballon-en-coton-bio-bordeaux-yauri-cherry-lacquer-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 4251845993477, 4251845993484, 4251845993491
+
+Produit 5
+Nom : Pantalon ballon en coton bio | noir "yauri - black"
+Lien : https://www.wedressfair.fr/collections/pantalon-ballon-en-coton-bio-noir-yauri-black-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 98% coton biologique, 2% élasthanne
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 149 €
+Code-barres : 4251845993378, 4251845993385, 4251845993392
+
+Produit 6
+Nom : Pantalon en lin | rose "sjov - light orchid"
+Lien : https://www.wedressfair.fr/collections/pantalon-en-lin-rose-sjov-light-orchid-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% lin
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 70 €
+Code-barres : 4251845984666, 4251845984673, 4251845984680
+
+Produit 7
+Nom : Pantalon froissé en tencel | blanc "hava - offwhite"
+Lien : https://www.wedressfair.fr/collections/pantalon-froisse-en-tencel-blanc-hava-offwhite-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 88% tencel® (procédé lyocell), 12% polyester
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 70 €
+Code-barres : 4251845984512, 4251845984529, 4251845984536
+
+Produit 8
 Nom : Pantalon noir enduit vegan en coton bio - the vegan coated black
 Lien : https://www.wedressfair.fr/collections/pantalon-noir-enduit-vegan-en-coton-bio-the-vegan-coated-black-jan-n-june
 Rayon (femme / homme / mixte) : femme
@@ -222,6 +552,17 @@ Code-barres : 4251845929612, 4251845929629, 4251845929636
 ===== CHEMISES ET BLOUSES =====
 
 Produit 1
+Nom : Blouse en viscose circulose® | orange "yame - intense rust"
+Lien : https://www.wedressfair.fr/collections/blouse-en-viscose-circulose-orange-yame-intense-rust-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 100% viscose enka® 
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 48 €
+Code-barres : 4251845969618, 4251845969625, 4251845969632
+
+Produit 2
 Nom : Chemise en coton biologique | rayé rouge "mamro - cherry red/white striped"
 Lien : https://www.wedressfair.fr/collections/chemise-en-coton-biologique-raye-rouge-mamro-cherry-red-white-striped-jan-n-june
 Rayon (femme / homme / mixte) : femme
@@ -232,13 +573,70 @@ Teint en :
 Prix : 68 €
 Code-barres : 4251845981115, 4251845981122, 4251845981139
 
-Produit 2
-Nom : Blouse en viscose circulose® | orange "yame - intense rust"
-Lien : https://www.wedressfair.fr/collections/blouse-en-viscose-circulose-orange-yame-intense-rust-jan-n-june
+Produit 3
+Nom : Blouse manches bouffantes en coton bio | rayé marron "Nibs - mud striped"
+Lien : https://www.wedressfair.fr/collections/nibs-mud-striped-mud-striped-jan-n-june
 Rayon (femme / homme / mixte) : femme
-Composition : 100% viscose enka® 
+Composition : 100% coton biologique
+Fabriqué en : Bulgarie
+Tissé en : 
+Teint en : 
+Prix : 139 €
+Code-barres : 4255887308671, 4255887308442, 4255887308459
+
+===== MANTEAUX ET VESTES =====
+
+Produit 1
+Nom : Blazer court en matière recyclée | vert "tulia pistachio"
+Lien : https://www.wedressfair.fr/collections/blazer-court-en-matiere-recyclee-vert-tulia-pistachio-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 68% polyester recyclé, 29% ecovero® (par lenzing®), 3% élasthanne
 Fabriqué en : Pologne
 Tissé en : 
 Teint en : 
-Prix : 48 €
-Code-barres : 4251845969618, 4251845969625, 4251845969632
+Prix : 76 €
+Code-barres : 4251845964200, 4251845964217, 4251845964224
+
+Produit 2
+Nom : Blazer noir en recyclé et tencel - durance black
+Lien : https://www.wedressfair.fr/collections/blazer-noir-en-recycle-et-tencel-durance-black-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 68% polyester recyclé, 29% ecovero® (par lenzing®), 3% élasthanne
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 167 €
+Code-barres : 4251845975756, 4251845936375, 4251845936382
+
+Produit 3
+Nom : Blouson en matières recyclées | noir "dusk - black"
+Lien : https://www.wedressfair.fr/collections/blouson-en-matieres-recyclees-noir-dusk-black-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 70% seaqual®, 30% polyester recyclé
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 174 €
+Code-barres : 4251845973417, 4251845973424, 4251845973431
+
+Produit 4
+Nom : Veste denim en coton bio | brut à surpiqûres "vilme"
+Lien : https://www.wedressfair.fr/collections/veste-en-coton-bio-noir-papilio-black-jan-n-june-blue-denim
+Rayon (femme / homme / mixte) : femme
+Composition : 99% coton biologique, 1% élasthanne
+Fabriqué en : Turquie
+Tissé en : 
+Teint en : 
+Prix : 179 €
+Code-barres : 4251845993972, 4251845993989, 4251845993996
+
+Produit 5
+Nom : Veste légère en ecovero et matière recyclée | noir "papilio - black"
+Lien : https://www.wedressfair.fr/collections/veste-en-coton-bio-noir-papilio-black-jan-n-june
+Rayon (femme / homme / mixte) : femme
+Composition : 62% ecovero® (par lenzing®), 36% polyester recyclé, 2% élasthanne
+Fabriqué en : Pologne
+Tissé en : 
+Teint en : 
+Prix : 89 €
+Code-barres : 4255887301559, 4255887301566, 4255887301573

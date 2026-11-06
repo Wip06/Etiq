@@ -1,0 +1,86 @@
+RELEVÉ NWHR
+
+Date du relevé : 6 novembre 2026
+Relevé automatique complet sur WeDressFair (revendeur multimarque) : toutes les fiches de vêtements de la
+marque, un exemplaire par modèle, 3 s entre chaque page. Composition, pays de confection, prix et rayon tels
+qu’affichés par WeDressFair ; codes-barres (GTIN) des tailles en vente.
+
+===== LA MARQUE =====
+
+Service de réparation (oui / non) : 
+Lien de la page : 
+
+Revente ou seconde main (oui / non) : 
+Lien de la page : 
+
+===== T-SHIRTS ET TOPS =====
+
+Produit 1
+Nom : T-shirt manches longues en coton bio| bleu rayé "Stripe blue ls tee"
+Lien : https://www.wedressfair.fr/collections/stripe-blue-ls-tee-blue-nwhr
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 60 €
+Code-barres : 8435802810410, 8435802810427, 8435802810434
+
+===== PULLS ET MAILLE =====
+
+Produit 1
+Nom : Pull en coton bio | rayé "Color sleeve sweater"
+Lien : https://www.wedressfair.fr/collections/color-sleeve-sweater-sleeve-sweater-nwhr
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 110 €
+Code-barres : 8435802810113, 8435802810120, 8435802810137
+
+Produit 2
+Nom : Pull en coton bio | rayé "Jersey bright blue"
+Lien : https://www.wedressfair.fr/collections/jersey-bright-blue-bright-blue-nwhr
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 66 €
+Code-barres : 8435802804969, 8435802804976, 8435802804983
+
+===== PANTALONS ET JEANS =====
+
+Produit 1
+Nom : Pantalon large en coton bio | beige "Fatigue beige pant"
+Lien : https://www.wedressfair.fr/collections/fatigue-beige-pant-beige-nwhr-beige
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Portugal
+Tissé en : 
+Teint en : 
+Prix : 105 €
+Code-barres : 8435802814074, 8435802814081, 8435802814098
+
+Produit 2
+Nom : Pantalon large en coton bio | beige "Beige chino pants"
+Lien : https://www.wedressfair.fr/collections/pantalon-chino-beige-nwhr
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 110 €
+Code-barres : 8435802803931, 8435802803948, 8435802803955
+
+Produit 3
+Nom : Pantalon large en coton bio | noir "Pantalon chino - black"
+Lien : https://www.wedressfair.fr/collections/pantalon-chino-black-nwhr
+Rayon (femme / homme / mixte) : homme
+Composition : 100% coton biologique
+Fabriqué en : Espagne
+Tissé en : 
+Teint en : 
+Prix : 110 €
+Code-barres : 8435802803993, 8435802804006, 8435802804013
