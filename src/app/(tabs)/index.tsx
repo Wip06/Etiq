@@ -96,12 +96,23 @@ function EtiqPlusInvite() {
   );
 }
 
+// Nombre de marques et de lectures proposées à l'accueil.
+const MAX_BRANDS = 5;
+const MAX_READINGS = 3;
+
 // Marques et lectures choisies d'après les objectifs de l'utilisateur.
 function ForYou({ preferences }: { preferences: Preferences }) {
   const recommendations = recommendBrands(preferences);
-  const matching = recommendations.filter((recommendation) => recommendation.matchesGoal);
-  const others = recommendations.filter((recommendation) => !recommendation.matchesGoal);
-  const readings = preferences.goals.flatMap((id) => getGoal(id)?.readings ?? []);
+  // Les premières seulement : la liste complète est dans l'onglet Marques.
+  const matching = recommendations.filter((recommendation) => recommendation.matchesGoal).slice(0, MAX_BRANDS);
+  const others = recommendations
+    .filter((recommendation) => !recommendation.matchesGoal)
+    .slice(0, Math.max(0, MAX_BRANDS - matching.length));
+  // Un article peut servir plusieurs objectifs : une seule fois, dans l'ordre des objectifs.
+  const readings = preferences.goals
+    .flatMap((id) => getGoal(id)?.readings ?? [])
+    .filter((reading, index, all) => all.findIndex((other) => other.title === reading.title) === index)
+    .slice(0, MAX_READINGS);
 
   return (
     <>
@@ -121,6 +132,9 @@ function ForYou({ preferences }: { preferences: Preferences }) {
       {others.map((recommendation) => (
         <BrandMatchCard key={recommendation.brand.id} recommendation={recommendation} />
       ))}
+      <Pressable accessibilityRole="link" onPress={() => router.navigate('/brands')}>
+        <Text style={styles.link}>Voir toutes les marques</Text>
+      </Pressable>
       <Pressable accessibilityRole="link" onPress={() => router.push('/brand-criteria')}>
         <Text style={styles.link}>Comment nous choisissons les marques</Text>
       </Pressable>
@@ -139,6 +153,9 @@ function ForYou({ preferences }: { preferences: Preferences }) {
               <Ionicons name="chevron-forward" size={18} color={colors.secondary} />
             </Pressable>
           ))}
+          <Pressable accessibilityRole="link" onPress={() => router.push('/articles')}>
+            <Text style={styles.link}>Tous nos articles</Text>
+          </Pressable>
         </>
       )}
     </>

@@ -1,6 +1,7 @@
 import { Stack, useLocalSearchParams } from 'expo-router';
 import { Pressable, ScrollView, StyleSheet, Text, View } from 'react-native';
 
+import { ArticleCover } from '@/components/ArticleCover';
 import { FavoriteButton } from '@/components/FavoriteButton';
 import { getArticle } from '@/data/articles';
 import { colors } from '@/theme/colors';
@@ -21,6 +22,7 @@ export default function ArticleScreen() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <Stack.Screen options={{ title: article.title }} />
+      {article.image && <ArticleCover image={article.image} alt={article.title} />}
       <Text style={styles.theme}>{article.theme}</Text>
       <View style={styles.titleRow}>
         <Text style={styles.title}>{article.title}</Text>

@@ -5,6 +5,8 @@
 // « sans preuve ni contrôle », alors que la douane et la DGCCRF le contrôlent). Les deux anecdotes sur le
 // cachemire (« 95 % par la Chine », grammes par chèvre et par écharpe) sont retirées faute de source fiable.
 // `article` n'est renseigné que quand la fiche ne contredit pas l'anecdote.
+// 14 anecdotes ajoutées le 11 nov. 2026 (microfibres, greenwashing, loi ultra-express, réparation, données
+// officielles), tirées des sources lues pour les articles de l'onglet « Apprendre » (src/data/articles.ts).
 
 export type Fact = {
   text: string;
@@ -22,6 +24,31 @@ const ALLIANCE_FLAX = {
   source: 'Alliance for European Flax-Linen & Hemp, chiffres 2023',
   url: 'https://allianceflaxlinenhemp.eu/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBam9lIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--5867504d46c969ee23adf0e1c45ea44aceb59a00/Flyer%20Alliance%20-%20FR.pdf',
 };
+const DECREE_AGEC = {
+  source: 'Décret n° 2022-748 du 29 avril 2022',
+  url: 'https://aida.ineris.fr/reglementation/decret-ndeg-2022-748-290422-relatif-a-linformation-consommateur-qualites',
+};
+const DIRECTIVE_GREENWASHING = {
+  source: 'Directive (UE) 2024/825, annexe',
+  url: 'https://eur-lex.europa.eu/eli/dir/2024/825/oj?locale=fr',
+};
+const LAW_ULTRA_EXPRESS = {
+  source: 'Loi n° 2026-602 du 8 juillet 2026',
+  url: 'https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054399113',
+};
+const REFASHION_REPAIR = {
+  source: 'Refashion, deux ans du Bonus réparation, décembre 2025',
+  url: 'https://media-pro.refashion.fr/2026/01/vdefcommunique-de-presse-i-2-ans-du-bonus-reparation.pdf',
+};
+const PORTAL_STATS = {
+  source: 'Portail officiel de l’affichage environnemental, copie du 26 oct. 2026',
+  url: 'https://affichage-environnemental.ecobalyse.beta.gouv.fr/stats',
+};
+const TGG_MICROFIBRES = 'https://www.thegoodgoods.fr/societe/microfibres-plastique-vetements/';
+const TGG_GREENWASHING = 'https://www.thegoodgoods.fr/mode/comment-reconnaitre-le-greenwashing/';
+const TGG_REPAIR =
+  'https://www.thegoodgoods.fr/media/economie-de-la-mode/circularite-services/les-applications-associations-et-services-de-reparation-de-vetements/';
+
 const FRANCEAGRIMER_HEMP = {
   source: 'FranceAgriMer, fiche filière chanvre 2026 (chiffres InterChanvre 2024)',
   url: 'https://www.franceagrimer.fr/sites/default/files/2026-02/23_FICHE_FILIERE_CHANVRE_2026.pdf',
@@ -161,6 +188,80 @@ export const FACTS: Fact[] = [
     text: 'Le lin European Flax est roui naturellement au sol, dans le champ, et non dans l’eau.',
     ...ALLIANCE_FLAX,
     article: `${LABELS}/european-flax/`,
+  },
+
+  // Ajouts du 11 nov. 2026, vérifiés aux mêmes sources que les articles de l'onglet « Apprendre ».
+  // Microfibres
+  {
+    text: 'Au-delà de 50 % de fibres synthétiques, la fiche d’un vêtement doit indiquer : « rejette des microfibres plastiques dans l’environnement lors du lavage ».',
+    ...DECREE_AGEC,
+    article: TGG_MICROFIBRES,
+  },
+  {
+    text: 'Le lavage des textiles synthétiques serait la première source de microplastiques primaires dans les océans : environ 35 %.',
+    source: 'UICN, Primary microplastics in the oceans, 2017',
+    url: 'https://doi.org/10.2305/IUCN.CH.2017.01.en',
+    article: TGG_MICROFIBRES,
+  },
+  // Greenwashing (directive européenne)
+  {
+    text: 'Depuis le 27 septembre 2026, l’Union européenne interdit les mots vagues comme « écologique » sans performance environnementale excellente reconnue.',
+    ...DIRECTIVE_GREENWASHING,
+    article: TGG_GREENWASHING,
+  },
+  {
+    text: 'Un label de développement durable doit désormais reposer sur une certification, ou avoir été créé par une autorité publique.',
+    ...DIRECTIVE_GREENWASHING,
+    article: TGG_GREENWASHING,
+  },
+  {
+    text: 'Dans l’Union européenne, dire qu’un produit est neutre pour le climat grâce à la compensation carbone est interdit depuis le 27 septembre 2026.',
+    ...DIRECTIVE_GREENWASHING,
+    article: TGG_GREENWASHING,
+  },
+  // Loi contre la mode ultra-express
+  {
+    text: 'À partir du 1er janvier 2027, la publicité pour la mode ultra-express est interdite en France, y compris par les influenceurs.',
+    ...LAW_ULTRA_EXPRESS,
+  },
+  {
+    text: 'Sur un site de vente en ligne, le lieu de fabrication d’un vêtement doit s’afficher en caractères aussi grands que le prix.',
+    ...LAW_ULTRA_EXPRESS,
+  },
+  {
+    text: 'La pénalité qui frappe la mode ultra-express pourra atteindre 20 € par vêtement à partir de 2030.',
+    ...LAW_ULTRA_EXPRESS,
+  },
+  // Réparation
+  {
+    text: 'Le Bonus réparation, financé par les marques, a soutenu plus de 1,7 million de réparations de vêtements et de chaussures en deux ans.',
+    ...REFASHION_REPAIR,
+    article: TGG_REPAIR,
+  },
+  {
+    text: 'En 2024, 21,6 millions de vêtements et de chaussures ont été réparés en France.',
+    ...REFASHION_REPAIR,
+    article: TGG_REPAIR,
+  },
+  // Calculs et données officiels
+  {
+    text: 'D’après la méthode officielle, le même t-shirt coûte 25 % de moins en coton bio qu’en coton conventionnel.',
+    source: 'Calcul Ecobalyse 7.0.0 : t-shirt de 170 g confectionné au Bangladesh',
+    url: 'https://ecobalyse.beta.gouv.fr/versions/v7.0.0/#/api',
+    article: `${MATERIALS}/coton/`,
+  },
+  {
+    text: 'Seules 192 marques ont déclaré des vêtements sur le portail officiel de l’affichage environnemental.',
+    ...PORTAL_STATS,
+  },
+  {
+    text: 'En médiane, un jean neuf pèse 2 732 points de coût environnemental : plus de trois fois un t-shirt (786 points).',
+    ...PORTAL_STATS,
+  },
+  {
+    text: 'Selon une étude commandée par Vinted, un achat d’occasion évite en moyenne 1,8 kg CO₂e par rapport à un achat neuf.',
+    source: 'Vaayu pour Vinted, 2021-2022',
+    url: 'https://www.vaayu.tech/press-releases/shopping-second-hand-on-vinted-is-a-better-choice-for-the-climate-than-buying-new-according-to-a-report-by-vaayu',
   },
 ];
 

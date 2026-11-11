@@ -2,6 +2,7 @@ import { router } from 'expo-router';
 import { useState } from 'react';
 import { Pressable, ScrollView, StyleSheet, Text } from 'react-native';
 
+import { ArticleCover } from '@/components/ArticleCover';
 import { SearchInput } from '@/components/SearchInput';
 import { articles, type Article } from '@/data/articles';
 import { colors } from '@/theme/colors';
@@ -30,6 +31,7 @@ function ArticleCard({ article }: { article: Article }) {
       onPress={() => router.push({ pathname: '/article/[id]', params: { id: article.id } })}
       style={({ pressed }) => [styles.card, pressed && styles.pressed]}
     >
+      {article.image && <ArticleCover image={article.image} alt={article.title} compact />}
       <Text style={styles.theme}>{article.theme}</Text>
       <Text style={styles.cardTitle}>{article.title}</Text>
       <Text style={styles.summary}>{article.summary}</Text>
@@ -47,7 +49,7 @@ const styles = StyleSheet.create({
     padding: 16,
   },
   card: {
-    gap: 4,
+    gap: 6,
     padding: 16,
     borderRadius: 16,
     backgroundColor: colors.surface,

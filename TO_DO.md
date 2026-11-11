@@ -24,9 +24,8 @@ Protocole dans `releves/` (20 produits par marque). Faits : Sézane, Uniqlo (à 
 - Équivalent eau pour les estimations par étiquette et le quiz (km de voiture aussi) : l'API Ecobalyse sans compte renvoie 0 pour l'eau (à tester avec un compte)
 
 ## Contenu
-- « Le savais-tu ? » (`src/data/didYouKnow.ts`) : en ajouter, toujours vérifiées à la source d'origine (les fiches The Good Goods contiennent des erreurs, voir l'en-tête du fichier)
-- Ajouter d'autres articles (liens The Good Goods + résumé écrit par nous)
-- Image qui illustre chaque article dans l'onglet « Apprendre »
+- Images des articles : ce sont celles de The Good Goods (et une campagne de WeDressFair), protégées par le droit d'auteur. Leur demander l'autorisation, ou les remplacer, avant toute publication de l'app
+- En continuant : d'autres articles et anecdotes, toujours vérifiés à la source d'origine (les fiches The Good Goods contiennent des erreurs, voir l'en-tête de `src/data/didYouKnow.ts`)
 
 ## Pitch
 - Argument « IA frugale » : pas de chatbot, par choix (décidé le 6 nov.). Un chatbot pousse à multiplier les requêtes, contredit le message de sobriété et peut se tromper sur un label ou une matière ; les réponses existent déjà dans le lexique, les articles et les fiches. L'IA ne sert qu'à lire une étiquette, là où elle évite un vrai effort : un seul appel, le plus petit modèle (Flash-Lite), réflexion minimale, pas de réessai. Repère : 0,24 Wh et 0,03 g CO₂e pour une question texte médiane à Gemini, selon Google (août 2025, chiffres publiés par Google et discutés)
@@ -36,9 +35,11 @@ Protocole dans `releves/` (20 produits par marque). Faits : Sézane, Uniqlo (à 
 - Tiko : obtenir les images d'origine en meilleure résolution (environ 200 px de large aujourd'hui, ce qui limite sa taille à l'écran et rend l'icône de l'app un peu floue : à refaire avant toute publication)
 - Écran Accueil provisoire : peut-être à remplacer
 - Ajouter un mode invité avant la connexion
-- Logo de l'app (pistes dans le canevas : étiquette cousue, « e » sur étiquette volante, scan de l'étiquette)
 
 ## Fait
+- Onglet « Apprendre » (11 nov.) : 17 nouveaux articles (laver moins, seconde main, Bonus réparation, greenwashing, microfibres, loi contre la mode ultra-express, coton bio, consommation en chiffres, pays de fabrication, « Made in France », labels, invendus, polyester recyclé, lin et chanvre, laine, jean, fibres artificielles), soit 20 en tout, chacun vérifié à ses sources d'origine (directive (UE) 2024/825, loi n° 2026-602, décret n° 2022-748, règlement (UE) 1007/2011, douane, Refashion, Textile Exchange, Alliance du lin, FranceAgriMer, Vaayu pour Vinted, UICN, portail officiel, calculs Ecobalyse) avec un « pour aller plus loin » vers The Good Goods. Image de couverture sur chaque article et dans la liste (`expo-image`, gardée en cache hors ligne). Articles reliés aux objectifs du profil
+- « Le savais-tu ? » : 14 anecdotes de plus (38 en tout), mêmes sources
+- Accueil : 5 marques et 3 lectures au plus dans « Pour vous » (38 marques relevées rendaient la liste trop longue), sans doublon, avec « Voir toutes les marques » et « Tous nos articles »
 - Recherche avec filtres : toucher un vêtement ouvre un pop-up sur fond flouté (« Neuf ou d'occasion ? ») avec Tiko, qui propose « Le trouver d'occasion sur Vinted » (bouton principal) puis « Acheter neuf sur le site de la marque · prix » (bouton secondaire, bordé, pleine largeur). Un titre et un repère tirés au hasard à chaque ouverture (5 versions : km en voiture et douches, heures d'empreinte d'un habitant de la planète, bouteilles d'eau, 43 vêtements neufs par an en France, bouteilles en plastique pour un vêtement synthétique), tous sourcés : médianes de la catégorie sur le portail (pas le coût du vêtement), Refashion 2025, notice officielle (`src/components/SecondHandChoice.tsx`)
 - Seconde main sur Vinted (Etiq+) : bouton « Trouver d'occasion » sur la fiche produit (marque + type de vêtement), la fiche marque et l'estimation par étiquette (type de vêtement + matière principale), qui ouvre la recherche Vinted (l'app si elle est installée). Lien simple, sans commission ; « Alternatives en seconde main » n'est plus « Bientôt » dans le comparatif
 - Mention « Estimation de démonstration, pas encore déposée sur le portail officiel » remontée sous l'étiquette du coût de l'estimation par étiquette

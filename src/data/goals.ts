@@ -4,6 +4,8 @@ import type Ionicons from '@expo/vector-icons/Ionicons';
 import type { Href } from 'expo-router';
 import type { ComponentProps } from 'react';
 
+import { getArticle } from '@/data/articles';
+
 export type GoalId = 'impact' | 'durable' | 'materials' | 'local';
 
 export type Goal = {
@@ -15,6 +17,12 @@ export type Goal = {
   readings: { title: string; href: Href }[];
 };
 
+// Lecture d'un article de l'onglet « Apprendre », sous son titre.
+const article = (id: string) => ({
+  title: getArticle(id)?.title ?? id,
+  href: { pathname: '/article/[id]', params: { id } } as Href,
+});
+
 export const GOALS: Goal[] = [
   {
     id: 'impact',
@@ -22,7 +30,12 @@ export const GOALS: Goal[] = [
     description: 'Choisir des vêtements au coût environnemental plus bas.',
     icon: 'leaf-outline',
     readings: [
-      { title: 'Le coût environnemental, c’est quoi ?', href: { pathname: '/article/[id]', params: { id: 'cout-environnemental' } } },
+      article('cout-environnemental'),
+      article('consommation'),
+      article('greenwashing'),
+      article('labels'),
+      article('mode-ultra-express'),
+      article('invendus'),
     ],
   },
   {
@@ -30,7 +43,13 @@ export const GOALS: Goal[] = [
     label: 'Des vêtements qui durent',
     description: 'Acheter moins, chez des marques qui réparent ou revendent leurs vêtements.',
     icon: 'hammer-outline',
-    readings: [{ title: 'Quel est l’impact de votre garde-robe ? (quiz)', href: '/quiz' }],
+    readings: [
+      { title: 'Quel est l’impact de votre garde-robe ? (quiz)', href: '/quiz' },
+      article('laver-moins'),
+      article('bonus-reparation'),
+      article('seconde-main'),
+      article('jean'),
+    ],
   },
   {
     id: 'materials',
@@ -38,7 +57,13 @@ export const GOALS: Goal[] = [
     description: 'Privilégier le coton, le lin ou la laine, et éviter le polyester, le nylon et l’acrylique, qui relâchent des microfibres.',
     icon: 'water-outline',
     readings: [
-      { title: 'Lire l’étiquette de son vêtement', href: { pathname: '/article/[id]', params: { id: 'lire-etiquette' } } },
+      article('lire-etiquette'),
+      article('microfibres'),
+      article('coton-bio'),
+      article('lin-chanvre'),
+      article('polyester-recycle'),
+      article('laine'),
+      article('fibres-artificielles'),
       { title: 'Lexique des matières', href: { pathname: '/lexicon/[kind]', params: { kind: 'materials' } } },
     ],
   },
@@ -47,9 +72,7 @@ export const GOALS: Goal[] = [
     label: 'Fabrication proche',
     description: 'Des vêtements confectionnés en France ou en Europe.',
     icon: 'location-outline',
-    readings: [
-      { title: 'Traçabilité : d’où vient mon vêtement ?', href: { pathname: '/article/[id]', params: { id: 'tracabilite' } } },
-    ],
+    readings: [article('pays-fabrication'), article('made-in-france'), article('tracabilite'), article('lin-chanvre')],
   },
 ];
 
