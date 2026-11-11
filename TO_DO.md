@@ -24,7 +24,6 @@ Protocole dans `releves/` (20 produits par marque). Faits : Sézane, Uniqlo (à 
 - Équivalent eau pour les estimations par étiquette et le quiz (km de voiture aussi) : l'API Ecobalyse sans compte renvoie 0 pour l'eau (à tester avec un compte)
 
 ## Contenu
-- Images des articles : ce sont celles de The Good Goods (et une campagne de WeDressFair), protégées par le droit d'auteur. Leur demander l'autorisation, ou les remplacer, avant toute publication de l'app
 - En continuant : d'autres articles et anecdotes, toujours vérifiés à la source d'origine (les fiches The Good Goods contiennent des erreurs, voir l'en-tête de `src/data/didYouKnow.ts`)
 
 ## Pitch
