@@ -1,6 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, use, useCallback, useEffect, useMemo, useState, type PropsWithChildren } from 'react';
 
+import type { Habits } from '@/data/habits';
 import { isCurrentResult, type QuizResult } from '@/data/quiz';
 import { useSession } from '@/session/SessionProvider';
 import { libraryKey } from '@/session/storageKeys';
@@ -55,9 +56,14 @@ type Library = {
   wardrobe?: WardrobeItem[];
   quizHistory?: QuizResult[];
   quizResult?: QuizResult | null;
+  // Réponses facultatives à « Ma situation », avec l'accord de partage. Effacées avec le compte.
+  habits?: Habits | null;
 };
 
-type LibraryValue = Omit<Library, 'wardrobe' | 'quizHistory' | 'quizResult'> & {
+type LibraryValue = Omit<Library, 'wardrobe' | 'quizHistory' | 'quizResult' | 'habits'> & {
+  habits: Habits | null;
+  // null efface les réponses et l'accord de partage.
+  saveHabits: (habits: Habits | null) => void;
   wardrobe: WardrobeItem[];
   quizHistory: QuizResult[];
   // Dernier résultat du quiz, null s'il n'a jamais été fait.
@@ -166,11 +172,14 @@ export function LibraryProvider({ children }: PropsWithChildren) {
     [update],
   );
 
+  const saveHabits = useCallback((habits: Habits | null) => update((current) => ({ ...current, habits })), [update]);
+
   const value = useMemo<LibraryValue>(
     () => ({
       favorites: data.favorites,
       history: data.history,
       wardrobe: data.wardrobe ?? [],
+      habits: data.habits ?? null,
       quizHistory: quizResultsOf(data),
       quizResult: quizResultsOf(data)[0] ?? null,
       enabled,
@@ -181,8 +190,9 @@ export function LibraryProvider({ children }: PropsWithChildren) {
       isInWardrobe: (id) => (data.wardrobe ?? []).some((item) => item.id === id),
       toggleWardrobe,
       saveQuizResult,
+      saveHabits,
     }),
-    [data, enabled, toggleFavorite, addScan, clearHistory, toggleWardrobe, saveQuizResult],
+    [data, enabled, toggleFavorite, addScan, clearHistory, toggleWardrobe, saveQuizResult, saveHabits],
   );
 
   return <LibraryContext.Provider value={value}>{children}</LibraryContext.Provider>;

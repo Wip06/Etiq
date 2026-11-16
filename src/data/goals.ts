@@ -14,13 +14,14 @@ export type Goal = {
   description: string;
   icon: ComponentProps<typeof Ionicons>['name'];
   // Lectures conseillées : articles et lexiques de l'onglet « Apprendre ».
-  readings: { title: string; href: Href }[];
+  readings: { title: string; href: Href; articleId?: string }[];
 };
 
 // Lecture d'un article de l'onglet « Apprendre », sous son titre.
 const article = (id: string) => ({
   title: getArticle(id)?.title ?? id,
   href: { pathname: '/article/[id]', params: { id } } as Href,
+  articleId: id,
 });
 
 export const GOALS: Goal[] = [
@@ -85,3 +86,16 @@ export const BUDGETS: { id: BudgetId; label: string; maxEuros: number }[] = [
 ];
 
 export const getGoal = (id: GoalId) => GOALS.find((goal) => goal.id === id);
+
+// Objectif de l'utilisateur auquel chaque article se rattache, en suivant son ordre de priorité : un
+// article lié à plusieurs objectifs prend le plus prioritaire.
+export function articleGoals(goals: GoalId[]): Map<string, Goal> {
+  const byArticle = new Map<string, Goal>();
+  for (const id of goals) {
+    const goal = getGoal(id);
+    for (const reading of goal?.readings ?? []) {
+      if (goal && reading.articleId && !byArticle.has(reading.articleId)) byArticle.set(reading.articleId, goal);
+    }
+  }
+  return byArticle;
+}

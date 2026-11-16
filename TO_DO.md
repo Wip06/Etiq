@@ -1,6 +1,7 @@
 # TO DO
 
 ## Comptes connectés (interdit aux invités)
+- « Ma situation » (`src/app/habits.tsx`) : faire valider par un juriste le texte de l'accord de partage et la politique de confidentialité avant tout partage réel ; mettre en place côté serveur l'envoi des seules réponses avec accord, l'agrégation (groupes d'au moins 50 personnes), le registre des traitements et la liste des partenaires
 - Politique de confidentialité (`src/app/privacy.tsx`) : faire relire, et vérifier les conditions de l'offre gratuite de Gemini (utilisation des données par Google, relecture humaine)
 - Valider en équipe les poids du pourcentage de correspondance (`goalWeight` et `budgetWeight`), et faire vérifier qu'il ne peut pas être lu comme un score environnemental (art. D. 541-245)
 - Valider en équipe les seuils des objectifs (`CRITERIA` dans `src/data/recommendations.ts`) : 25 % de synthétique au plus (en partie jusqu'à 50 %), 50 % de confection en Europe au moins (en partie dès 25 %), 60 % des produits déclarés sous la médiane (en partie dès 40 %)

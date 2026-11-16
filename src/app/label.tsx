@@ -17,7 +17,7 @@ import { WardrobeButton } from '@/components/WardrobeButton';
 import { categories, searchWord, type Category } from '@/data/categories';
 import { COUNTRY_NAMES, MATERIAL_NAMES } from '@/data/ecobalyse';
 import { syntheticGrams } from '@/data/equivalents';
-import { compareToCategory, findAlternatives } from '@/data/portalStats';
+import { compareToCategory, findAlternatives, typicalImpacts } from '@/data/portalStats';
 import { estimateCost } from '@/services/ecobalyse';
 import { getPhoto } from '@/services/photoStore';
 import { LabelReaderError, readLabel, type Label, type LabelMaterial } from '@/services/labelReader';
@@ -202,7 +202,12 @@ export default function LabelScreen() {
 
         {comparison && <CategoryComparison comparison={comparison} />}
 
-        <ImpactEquivalents cost={step.cost} plastic={syntheticGrams(label.materials, step.massKg * 1000)} />
+        <ImpactEquivalents
+          cost={step.cost}
+          plastic={syntheticGrams(label.materials, step.massKg * 1000)}
+          {...typicalImpacts(step.category.name, step.massKg * 1000)}
+          typical
+        />
 
         <Alternatives alternatives={alternatives} />
 

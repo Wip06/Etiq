@@ -15,7 +15,7 @@ import { colors } from '@/theme/colors';
 
 export default function ProfileScreen() {
   const { user, signOut, saveFirstName, deleteAccount } = useSession();
-  const { favorites, history, wardrobe } = useLibrary();
+  const { favorites, history, wardrobe, habits } = useLibrary();
   const [firstName, setFirstName] = useState(user?.firstName ?? '');
 
   if (!user) {
@@ -57,6 +57,11 @@ export default function ProfileScreen() {
         <Button label="Modifier mes objectifs" variant="secondary" onPress={() => router.push('/preferences')} />
       </Card>
 
+      <LinkRow
+        label="Ma situation"
+        detail={habits ? 'Renseignées' : 'Facultatif'}
+        onPress={() => router.push('/habits')}
+      />
       <LinkRow label="Historique" detail={String(history.length)} onPress={() => router.push('/history')} />
       <LinkRow label="Favoris" detail={String(favorites.length)} onPress={() => router.push('/favorites')} />
 

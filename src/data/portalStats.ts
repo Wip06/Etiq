@@ -6,6 +6,10 @@ type CategoryStats = {
   references: number;
   per100gQuantiles: number[];
   alternatives: StoredAlternative[];
+  medianMassGrams?: number;
+  // Climat (kg CO₂e) et eau (m³ éq) du vêtement médian de la catégorie.
+  climateMedian?: number | null;
+  waterMedian?: number | null;
 };
 
 type StoredAlternative = {
@@ -104,4 +108,16 @@ export function findAlternatives(
     )
     .sort((a, b) => a.per100g - b.per100g)
     .slice(0, limit);
+}
+
+// Climat et eau d'un vêtement de cette catégorie et de ce poids, d'après le vêtement médian déclaré
+// sur le portail, ramené à la masse. Ordre de grandeur pour une estimation par étiquette : sans jeton,
+// le calculateur Ecobalyse ne donne que le coût total, pas le climat ni l'eau. La composition et les
+// pays n'y entrent donc pas.
+export function typicalImpacts(category: string, massGrams: number): { climate: number | null; water: number | null } {
+  const known = categories[category];
+  const mass = known?.medianMassGrams;
+  if (!known || !mass || massGrams <= 0) return { climate: null, water: null };
+  const scale = (median: number | null | undefined) => (typeof median === 'number' ? (median * massGrams) / mass : null);
+  return { climate: scale(known.climateMedian), water: scale(known.waterMedian) };
 }

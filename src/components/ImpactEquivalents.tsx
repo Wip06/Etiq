@@ -31,12 +31,15 @@ export function ImpactEquivalents({
   climate = null,
   plastic = null,
   plural = false,
+  typical = false,
 }: {
   cost?: number | null;
   water?: number | null;
   climate?: number | null;
   plastic?: number | null;
   plural?: boolean;
+  // Climat et eau estimés d'après les vêtements de même type et de même poids (estimation par étiquette).
+  typical?: boolean;
 }) {
   const rows: RowProps[] = [];
   const subject = plural ? 'ces vêtements' : 'ce vêtement';
@@ -52,15 +55,28 @@ export function ImpactEquivalents({
     });
   }
 
-  if (plastic !== null && toPlasticBottles(plastic) >= 1) {
+  if (plastic !== null) {
+    const bottles = toPlasticBottles(plastic);
     rows.push({
       icon: 'flask-outline',
       label: 'Plastique',
       explanation: PLASTIC_EXPLANATION,
-      headline: `Autant de plastique que ${pluralize(toPlasticBottles(plastic), 'bouteille')} d’eau de 1,5 L`,
-      note: `${formatCount(Math.round(plastic))} g de fibres synthétiques, des plastiques fabriqués à partir de pétrole.`,
+      headline:
+        plastic <= 0
+          ? 'Pas de plastique : aucune fibre synthétique'
+          : bottles >= 1
+            ? `Autant de plastique que ${pluralize(bottles, 'bouteille')} d’eau de 1,5 L`
+            : 'Moins de plastique qu’une bouteille d’eau de 1,5 L',
+      note:
+        plastic <= 0
+          ? 'D’après la composition lue sur l’étiquette.'
+          : `${formatCount(Math.round(plastic))} g de fibres synthétiques, des plastiques fabriqués à partir de pétrole.`,
     });
   }
+
+  const typicalNote = typical
+    ? ' Ordre de grandeur pour un vêtement de ce type et de ce poids déclaré sur le portail : la composition n’y entre pas.'
+    : '';
 
   if (climate !== null && climate > 0) {
     const km = toCarKilometers(climate);
@@ -69,7 +85,7 @@ export function ImpactEquivalents({
       label: 'Climat',
       explanation: CLIMATE_EXPLANATION,
       headline: km >= 1 ? `Autant de CO₂ que ${formatCount(km)} km en voiture` : 'Moins de CO₂ qu’un kilomètre en voiture',
-      note: `${climate.toLocaleString('fr-FR', { maximumFractionDigits: 1 })} kg CO₂e, sur tout le cycle de vie de ${subject}.`,
+      note: `${climate.toLocaleString('fr-FR', { maximumFractionDigits: 1 })} kg CO₂e, sur tout le cycle de vie de ${subject}.${typicalNote}`,
     });
   }
 
@@ -85,7 +101,7 @@ export function ImpactEquivalents({
           : `L’équivalent de ${pluralize(bottles, 'bouteille')} d’eau`,
       note: `${formatCount(Math.round(liters))} litres équivalents${
         showers >= 1 ? `, soit ${pluralize(bottles, 'bouteille')} de 1,5 L` : ''
-      }, pour produire les matières et le fil de ${subject}.`,
+      }, pour produire les matières et le fil de ${subject}.${typicalNote}`,
     });
   }
 

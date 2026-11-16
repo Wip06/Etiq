@@ -1,0 +1,655 @@
+ETIQ - DOSSIER TECHNIQUE
+Technologies de l'application : ce qui tourne dans le prototype (POC) et ce qu'il faudrait pour une
+commercialisation.
+État au 11 novembre 2026. Chiffres relevés dans le code et les données du dépôt à cette date.
+
+====================================================================================================
+SOMMAIRE
+====================================================================================================
+
+  1. Vue d'ensemble et schéma d'architecture
+  2. Application mobile (Expo, React Native)
+  3. Scan du code-barres
+  4. Lecture de l'étiquette de composition (« reconnaissance de texte »)
+  5. Calcul du coût environnemental (Ecobalyse)
+  6. Portail officiel de l'affichage environnemental
+  7. Données embarquées : base du portail et statistiques
+  8. Données de marques : relevés des fiches produits
+  9. Moteurs de calcul : recommandations, alternatives, quiz, repères
+ 10. Comptes, données personnelles, Etiq+
+ 11. Contenus : articles, lexiques, anecdotes, images, Tiko
+ 12. Mode hors ligne
+ 13. Sécurité
+ 14. Qualité, build, déploiement, exploitation
+ 15. Conformité réglementaire (coût environnemental, RGPD, stores)
+ 16. Tableau récapitulatif POC / commercialisation
+ 17. Coûts d'exploitation estimés
+
+
+====================================================================================================
+1. VUE D'ENSEMBLE ET SCHÉMA D'ARCHITECTURE
+====================================================================================================
+
+Etiq est une application mobile (iOS et Android) qui donne l'impact environnemental d'un vêtement :
+
+  - par son code-barres, si la marque l'a déclaré sur le portail officiel de l'État ;
+  - sinon, par une photo de son étiquette de composition, lue par un modèle de vision, puis calculée
+    avec la méthode officielle Ecobalyse.
+
+Architecture du prototype :
+
+    +-------------------------------- Téléphone (app Expo / React Native) ----------------------------+
+    |                                                                                                 |
+    |  Caméra (expo-camera)        Données embarquées (JSON)         Stockage local (AsyncStorage)    |
+    |   - codes-barres EAN/UPC      - statistiques du portail         - session, préférences          |
+    |   - photo d'étiquette         - relevés de 1 251 produits       - favoris, historique, quiz     |
+    |                               - marques, articles, lexiques     - cache hors ligne du portail   |
+    +-----------+----------------------------+-----------------------------+--------------------------+
+                |                            |                             |
+                | HTTPS GET                  | HTTPS POST (JSON)           | HTTPS POST (photo JPEG base64)
+                v                            v                             v
+    Portail officiel de l'affichage   Calculateur Ecobalyse         Fonction Supabase « read-label »
+    environnemental (beta.gouv)       v7.0.0 (beta.gouv)            (Deno, Edge Functions)
+     - coût par code-barres            - coût environnemental        - garde la clé Gemini
+     - étiquette officielle SVG          d'un vêtement décrit        - chaîne de 4 modèles
+                                                                              |
+                                                                              v
+                                                                    API Gemini (Google, offre gratuite)
+                                                                     - lecture de l'image
+                                                                     - réponse JSON contrainte
+
+    Hors de l'app (machine de développement) :
+     - scripts Node.js : téléchargement complet du portail (856 805 codes-barres), calcul des statistiques ;
+     - scripts Python / Node : relevés automatiques de fiches produits de marques.
+
+Principe directeur : aucun serveur propre à Etiq ne stocke de données utilisateur dans le prototype. Le
+seul composant serveur est une fonction sans état qui relaie la photo vers Gemini.
+
+
+====================================================================================================
+2. APPLICATION MOBILE
+====================================================================================================
+
+2.1 En place (POC)
+
+  Pile :
+  - Expo SDK 58 (paquet expo ~58.0.23), React Native 0.88.1, React 19.3.0, TypeScript ~6.0.3.
+  - Moteur JavaScript : Hermes (la compilation produit du bytecode .hbc pour Android et iOS).
+  - Navigation : Expo Router (routage par fichiers dans src/app/, routes typées activées :
+    experiments.typedRoutes). Pile de navigation (Stack) et onglets (Tabs), écrans protégés selon l'état
+    de la session (Stack.Protected : invité, connecté, onboarding à faire).
+  - Alias d'import « @/ » vers src/.
+  - Continuous Native Generation : les dossiers ios/ et android/ ne sont pas dans le dépôt ; ils sont
+    générés à partir de app.json et des config plugins (caméra, splash screen, web browser, polices,
+    images).
+
+  Modules natifs utilisés (tous inclus dans Expo Go, donc testables sans build natif) :
+  - expo-camera : aperçu caméra, lecture de codes-barres, prise de photo ;
+  - expo-image-manipulator : redimensionnement et compression de la photo d'étiquette ;
+  - expo-image : affichage des images d'articles avec cache disque ;
+  - expo-blur : flou d'arrière-plan du pop-up d'ouverture ;
+  - expo-web-browser : ouverture des articles sources dans un navigateur intégré ;
+  - expo-linking : liens sortants (Vinted, Google Maps, e-mail) ;
+  - expo-splash-screen, expo-system-ui : écran de démarrage natif, couleur de fond système ;
+  - react-native-webview : affichage de l'étiquette officielle SVG (voir 6.1) ;
+  - @react-native-async-storage/async-storage : stockage clé-valeur local.
+
+  Organisation du code (environ 90 fichiers TypeScript) :
+  - src/app/        écrans (une route par fichier) ;
+  - src/components/ composants réutilisables (Tiko, étiquette officielle, carte de marque…) ;
+  - src/data/       données et logique métier pure (recommandations, quiz, équivalences) ;
+  - src/services/   accès réseau (portail, Ecobalyse, lecture d'étiquette, cache hors ligne) ;
+  - src/session/    session et bibliothèque de l'utilisateur (React Context) ;
+  - src/theme/      palette.
+
+  État et données : React Context (SessionProvider, LibraryProvider) + AsyncStorage ; pas de
+  bibliothèque d'état externe.
+
+  Exécution : Expo Go (développement) via `npx expo start`. Pas de build natif publié, pas de
+  configuration EAS (eas.json absent).
+
+2.2 Pour une commercialisation
+
+  - Builds natifs signés avec EAS Build (profils development, preview, production), publication avec
+    EAS Submit sur l'App Store et Google Play.
+  - Mises à jour à chaud du JavaScript et des données avec EAS Update (canaux par version native),
+    notamment pour rafraîchir les statistiques du portail sans nouvelle version sur les stores.
+  - Mise à jour des 10 paquets signalés en retard par expo-doctor, et suivi des montées de SDK Expo
+    (Expo Go n'accepte que le dernier SDK).
+  - Gestion d'état serveur (TanStack Query ou équivalent) dès qu'une API Etiq existe : cache, retries,
+    invalidation.
+  - Internationalisation (au moins anglais) si l'app sort de France ; aujourd'hui tout est en français
+    et en dur dans le code.
+  - Accessibilité : audit VoiceOver / TalkBack complet (les libellés d'accessibilité sont posés sur les
+    éléments principaux, sans audit systématique).
+
+
+====================================================================================================
+3. SCAN DU CODE-BARRES
+====================================================================================================
+
+3.1 En place (POC)
+
+  - Lecture par le module de codes-barres d'expo-camera, qui s'appuie sur les API natives de chaque
+    plateforme (scanner de la caméra Android et AVFoundation sur iOS ; détail d'implémentation d'Expo,
+    à confirmer dans sa documentation si la question est posée).
+  - Formats acceptés : EAN-13, EAN-8, UPC-A, UPC-E (ceux des étiquettes de vêtements).
+  - Normalisation en GTIN au format du portail (src/utils/gtin.ts) : le portail range les UPC-A sur 13
+    chiffres avec un 0 devant. iOS renvoie déjà 13 chiffres, Android 12 ; les UPC-E (8 chiffres) sont
+    développés en UPC-A. Sans cette normalisation, une partie des codes-barres Android était
+    « introuvable ».
+  - Verrou anti-doublon : un code reste devant la caméra plusieurs images de suite ; le premier ouvre la
+    fiche, les suivants sont ignorés jusqu'au retour sur l'écran.
+  - Cadre de visée purement visuel (la détection porte sur toute l'image).
+
+3.2 Pour une commercialisation
+
+  - Vérification de la clé de contrôle GS1 avant l'appel réseau (rejet immédiat des lectures erronées).
+  - Gestion des étiquettes multi-codes (code interne de magasin et EAN du produit).
+  - Retour haptique et sonore à la détection, mode torche pour les magasins sombres.
+
+
+====================================================================================================
+4. LECTURE DE L'ÉTIQUETTE DE COMPOSITION (« RECONNAISSANCE DE TEXTE »)
+====================================================================================================
+
+C'est la brique qui différencie Etiq : elle couvre les vêtements que la marque n'a pas déclarés.
+
+4.1 Choix technique : un modèle de vision-langage plutôt qu'un OCR classique
+
+  Un OCR classique (reconnaissance de caractères) renvoie du texte brut. Une étiquette de composition pose
+  des problèmes qu'un OCR seul ne règle pas :
+  - texte multilingue (la même fibre écrite en 5 à 10 langues, à ne compter qu'une fois) ;
+  - plusieurs parties du vêtement (tissu principal, doublure, bord-côte) ;
+  - vocabulaire à convertir vers les 16 matières modélisées par Ecobalyse (polyamide -> nylon,
+    lyocell / modal / cupro -> viscose, soie et cachemire -> laine sous conditions) ;
+  - pays hors de la liste Ecobalyse, à rattacher à une région (Portugal -> Europe de l'Ouest).
+
+  Le prototype utilise donc un modèle multimodal (Gemini, de Google) qui fait en un seul appel : la
+  lecture du texte (OCR), la compréhension de la structure, la normalisation vers les identifiants
+  Ecobalyse, et le rejet des images qui ne sont pas des étiquettes.
+
+4.2 Chaîne de traitement en place (POC)
+
+  Côté téléphone (src/app/(tabs)/scan.tsx, src/app/label.tsx, src/services/labelReader.ts) :
+   1. Photo prise avec takePictureAsync (qualité 0,8), seulement après l'événement onCameraReady (sur
+      Android, une photo prise trop tôt échoue).
+   2. La photo est transmise à l'écran suivant par un identifiant en mémoire (src/services/photoStore.ts),
+      pas par l'URL : Expo Router décode les paramètres de route, ce qui cassait les chemins de fichiers
+      Android contenant des caractères encodés.
+   3. Redimensionnement (côté le plus long ramené à 1 568 px), compression JPEG 0,7, encodage base64,
+      avec expo-image-manipulator. Taille typique envoyée : quelques centaines de Ko.
+   4. Envoi HTTPS POST à la fonction Supabase, avec la clé publique (« publishable ») du projet en
+      en-tête apikey. Délai maximal côté client : 60 s (AbortController), avec un message d'erreur
+      précis par cas (délai dépassé, réseau absent, service saturé, configuration manquante).
+
+  Côté serveur (supabase/functions/read-label/index.ts, Supabase Edge Functions, environnement Deno) :
+   5. Vérification de la clé publique de l'app, de la méthode HTTP, de la présence et de la taille de
+      l'image (4 Mo maximum).
+   6. Appel à l'API Gemini avec le SDK officiel @google/genai 2.30.0 :
+      - instruction système détaillée (règles de lecture, table de correspondance des fibres, règle de
+        la soie, rattachement des pays aux régions, consigne « ne devine jamais ») ;
+      - température 0 (réponse déterministe autant que possible) ;
+      - sortie JSON contrainte par un schéma (responseJsonSchema) : les identifiants de matières et de
+        pays sont des énumérations, le modèle ne peut pas inventer une valeur hors liste ;
+      - réflexion minimale (ThinkingLevel.MINIMAL) et résolution d'image moyenne : lire une étiquette ne
+        demande pas de raisonnement, et ces deux réglages ont divisé la latence ;
+      - réessais automatiques du SDK désactivés (ils provoquaient des attentes de 78 à 150 s).
+   7. Chaîne de repli sur 4 modèles gratuits, dans l'ordre : gemini-3.5-flash-lite,
+      gemini-3.1-flash-lite, gemini-3.6-flash, gemini-3.8-flash. Chaque modèle a 10 s ; en cas de
+      saturation, de quota épuisé, de modèle indisponible (HTTP 404, 429, 500, 503) ou de délai dépassé,
+      on passe au suivant. Le secret GEMINI_MODEL permet de forcer un modèle en tête sans redéployer.
+   8. Réponse : { readable, materials[{ text, id, percent }], countryOfMaking, countryText, notes,
+      model }. Erreurs traduites en 503 (saturation) ou 502 (indisponibilité), avec un détail limité.
+
+  Mesures : 1,6 à 3,5 s par étiquette après réglage (5 nov. 2026), contre 93 à plus de 120 s avant
+  (le premier modèle de la liste était un modèle « réfléchissant » saturé). Tests de lecture réalisés
+  sur de fausses étiquettes et des étiquettes réelles, sans jeu d'évaluation formel.
+
+  Contrôle humain (src/components/CompositionEditor.tsx) :
+   - la composition lue est affichée pour relecture avant tout calcul ;
+   - l'utilisateur peut la corriger, ou tout saisir à la main si la lecture échoue ;
+   - les choix sont limités aux matières et pays d'Ecobalyse ; un total de 99 à 101 % est accepté
+     (arrondis des étiquettes) ;
+   - une matière non modélisée (« autre ») de moins de 20 % est écartée et les autres ramenées à 100 % ;
+     au-delà de 20 %, le vêtement est hors périmètre de la méthode et n'est pas calculé.
+
+4.3 Limites du POC
+
+  - Offre gratuite de Gemini : Google peut utiliser les requêtes pour améliorer ses produits et des
+    personnes peuvent les relire. Incompatible avec une promesse forte de confidentialité ; c'est dit dans
+    la politique de confidentialité de l'app.
+  - Pas de quota par utilisateur ni de limitation de débit : la clé publique n'empêche pas un tiers
+    d'appeler la fonction (voir 13).
+  - Disponibilité dépendante des quotas gratuits de Google, sans engagement de service.
+  - Pas de jeu de test étiqueté, donc pas de taux d'erreur mesuré.
+
+4.4 Pour une commercialisation
+
+  - Offre payante de Gemini via Vertex AI (Google Cloud) en région européenne : données non utilisées pour
+    l'entraînement, contrat de sous-traitance RGPD, quotas et engagement de service. Ordre de grandeur :
+    une étiquette coûte une fraction de centime avec un modèle Flash-Lite (à chiffrer sur la grille
+    tarifaire en vigueur).
+  - Architecture hybride pour baisser coût et latence :
+     1) OCR sur le téléphone (ML Kit Text Recognition sur Android, framework Vision d'Apple sur iOS),
+        gratuit, hors ligne, en moins d'une seconde ;
+     2) analyseur déterministe (expressions régulières et dictionnaire multilingue des fibres) qui
+        traite les étiquettes simples ;
+     3) appel au modèle de vision seulement en cas d'échec ou d'ambiguïté.
+    Cela suppose un module natif hors Expo Go, donc un build de développement.
+  - Contrôle qualité de l'image avant envoi (flou, reflet, cadrage) et recadrage automatique.
+  - Jeu d'évaluation de plusieurs centaines d'étiquettes réelles, annotées, multilingues ; métriques :
+    exactitude par fibre, erreur absolue sur les pourcentages, exactitude du pays ; test de non-régression
+    à chaque changement de modèle ou d'instruction.
+  - Journalisation sans image (seulement le résultat et le modèle utilisé), suivi de la latence et du
+    taux d'échec par modèle.
+  - Mise en cache : une même référence (GTIN) lue une fois n'a pas besoin d'être relue.
+  - Alternative souveraine à étudier : modèle de vision open source hébergé en Europe (coût fixe de GPU,
+    pas de dépendance à un fournisseur américain).
+
+
+====================================================================================================
+5. CALCUL DU COÛT ENVIRONNEMENTAL (ECOBALYSE)
+====================================================================================================
+
+5.1 En place (POC)
+
+  - API publique Ecobalyse, version réglementaire 7.0.0 :
+    POST https://ecobalyse.beta.gouv.fr/versions/v7.0.0/api/textile/simulator (sans authentification).
+  - Paramètres envoyés (src/services/ecobalyse.ts) : catégorie (11 catégories officielles), masse en kg,
+    composition (identifiants et parts dont la somme fait 1), pays de confection, pays de tissage et de
+    teinture (« --- » = inconnu, valeurs par défaut pénalisantes de la méthode), et selon le cas prix,
+    type d'entreprise (business), nombre de références au catalogue (numberOfReferences).
+  - Réponse utilisée : impacts.ecs, le coût environnemental en points d'impact.
+  - Masse par défaut : masse médiane de la catégorie sur le portail (calculée par coût total / coût pour
+    100 g), modifiable par l'utilisateur.
+  - Formule officielle (notice méthodologique, p. 8) :
+      coût = 1 000 000 × Σ (pondération_i × impact_i / normalisation_i), sur 16 indicateurs,
+    avec les facteurs de normalisation EF 3.1 (moyenne mondiale par habitant, 2010) et des pondérations
+    qui font 100 %. D'où la conversion affichée : 1 000 000 points = l'empreinte d'un habitant moyen de la
+    planète pendant un an.
+
+  Limite majeure : sans jeton d'API, le calculateur renvoie 0 pour tous les indicateurs détaillés
+  (climat, eau…). Seul le coût total est disponible. Les repères « km en voiture » et « douches » des
+  estimations par étiquette et du quiz viennent donc des médianes du portail (voir 9.4), pas du calcul
+  du vêtement lui-même.
+
+5.2 Pour une commercialisation
+
+  - Jeton d'API Ecobalyse (la documentation OpenAPI prévoit un en-tête token pour les impacts détaillés),
+    conservé côté serveur. Conditions d'obtention et gratuité à vérifier.
+  - Autre option : héberger Ecobalyse soi-même (code open source) pour ne plus dépendre de la
+    disponibilité d'un service public, en figeant la version réglementaire utilisée.
+  - Suivi des versions de la méthode : chaque calcul conserve la version utilisée (obligation de
+    justification, voir 15).
+  - File d'attente et cache côté serveur : le quiz déclenche jusqu'à 36 appels (voir 9.3), ce qui ne tient
+    pas à grande échelle sur une API publique.
+
+
+====================================================================================================
+6. PORTAIL OFFICIEL DE L'AFFICHAGE ENVIRONNEMENTAL
+====================================================================================================
+
+6.1 En place (POC)
+
+  Base : https://affichage-environnemental.ecobalyse.beta.gouv.fr/api (données sous Licence Ouverte).
+  - GET /produits/{gtin} : coût officiel d'un vêtement, détail par étape et par indicateur, coefficient de
+    durabilité ; 404 s'il n'est pas déclaré (src/services/portal.ts). Les étapes sont divisées par le
+    coefficient de durabilité pour que leur somme redonne le coût affiché ; un lot multi-composants est
+    additionné.
+  - GET /image?type=gtin&gtin=… : étiquette officielle en SVG ; GET /image?type=score&score=…&masse=… :
+    étiquette pour un coût calculé.
+  - Affichage de l'étiquette officielle : la charte graphique interdit de la redessiner. Le SVG est donc
+    affiché tel quel dans une WebView (react-native-webview), car le moteur SVG de React Native ignore la
+    police Marianne embarquée dans le fichier. Hauteur fixe de 80 px (charte de mars 2026), espace de
+    protection autour.
+  - Copie locale du SVG et des fiches consultées (voir 12).
+
+  Non fait : le dépôt d'un calcul sur le portail (POST /produits, jeton Bearer ProConnect ou
+  FranceConnect). C'est pourtant une obligation légale avant d'afficher publiquement une estimation (voir
+  15). Les estimations sont marquées « Prototype : ce calcul n'est pas encore publié sur le portail ».
+
+6.2 Pour une commercialisation
+
+  - Dépôt automatique de chaque estimation sur le portail avant affichage, via un compte d'organisation
+    (ProConnect), depuis un serveur Etiq qui conserve les justificatifs ; d'abord sur le serveur de test
+    https://test-affichage-environnemental.ecobalyse.beta.gouv.fr/.
+  - À vérifier avant tout : qu'un tiers peut déclarer par API un produit d'une marque qui n'est pas la
+    sienne (l'aide du portail sur ce point était vide en octobre 2026).
+  - Respect de la règle « pas plus d'une mise à jour tous les trois mois » pour une même référence.
+
+
+====================================================================================================
+7. DONNÉES EMBARQUÉES : BASE DU PORTAIL ET STATISTIQUES
+====================================================================================================
+
+7.1 En place (POC)
+
+  Téléchargement complet (scripts/portal/download.mjs, `npm run data:download`) :
+  - pagination de GET /produits/tous par pages de 500, soit 1 714 pages ;
+  - 3 requêtes simultanées au plus, 4 réessais avec délai exponentiel, reprise là où le script s'est
+    arrêté ;
+  - compactage de chaque produit (code-barres, référence, marque, catégorie, coût, coût pour 100 g,
+    durabilité, eau, climat, déclarant, version de méthode) ;
+  - résultat : 856 805 codes-barres, 119 427 références, 192 marques (copie du 26 octobre 2026), environ
+    260 Mo bruts, non versionnés (data/portal/ dans .gitignore).
+
+  Agrégation (scripts/portal/build-stats.mjs, `npm run data:stats`) -> src/data/generated/portal-stats.json
+  (240 Ko, embarqué dans l'app) :
+  - dédoublonnage par code-barres puis regroupement par référence (marque + référence interne) ;
+  - par catégorie : 21 quantiles du coût pour 100 g (pour situer un vêtement « à poids égal »), médianes
+    de masse, d'eau et de climat ;
+  - alternatives par catégorie : découpage en 6 tranches de masse (à effectifs égaux), 10 meilleures
+    références à poids égal par tranche, au plus 2 par marque ;
+  - par marque : nombre de références, part des références sous la médiane de leur catégorie,
+    durabilité médiane.
+
+  Comparaison avec la catégorie : position du vêtement par interpolation entre les quantiles, jamais
+  affichée « 0 % » ni « 100 % » ; seulement pour les catégories d'au moins 30 références.
+
+7.2 Pour une commercialisation
+
+  - Base PostgreSQL côté serveur (Supabase ou équivalent), synchronisée chaque nuit avec le portail par
+    tâche planifiée et en incrémental (date de déclaration).
+  - API Etiq pour les statistiques et les alternatives, au lieu d'un JSON figé dans l'app : données à jour
+    sans nouvelle version, et alternatives plus fines (même composition, même gamme de prix).
+  - Recherche plein texte des produits et marques (index PostgreSQL ou moteur dédié).
+
+
+====================================================================================================
+8. DONNÉES DE MARQUES : RELEVÉS DES FICHES PRODUITS
+====================================================================================================
+
+Le portail ne publie ni la composition ni les pays déclarés, et les marques les plus achetées par la cible
+(H&M, Zara, Shein, Mango, Sézane) n'y ont déclaré aucun produit. Les critères « fibres naturelles,
+moins de plastique » et « fabrication proche » reposent donc sur nos propres relevés des fiches produits,
+où la composition (règlement UE 1007/2011) et les pays de fabrication (loi AGEC) sont obligatoires.
+
+8.1 En place (POC)
+
+  - Protocole : 20 produits par marque, les premiers affichés dans 6 catégories, sans choisir ; date du
+    relevé ; une case vide compte comme une information absente (releves/README.md).
+  - Relevés à la main : fiches texte à remplir (releves/*.txt), 10 à 20 minutes par marque.
+  - Relevés automatiques (scripts/releves/auto/, Python et Node.js) :
+    - seulement sur les sites qui l'acceptent (robots.txt lu et respecté, pas d'interdiction des robots
+      d'IA), une page toutes les 3 à 5 secondes ;
+    - découverte des produits par le plan du site (sitemap.xml) ou le catalogue public des boutiques
+      Shopify ;
+    - extraction par libellés (« Composition », « Matière principale », « Tissu principal ») pour ne pas
+      confondre tissu principal et doublure ; classement des produits par le mot principal du nom ;
+    - un site (Asphalte) place ses données dans une fonction JavaScript de la page : elle est exécutée
+      uniquement dans un conteneur Docker isolé (sans réseau, système de fichiers en lecture seule, aucune
+      capacité), jamais sur la machine ;
+    - les protections anti-robots (H&M, Zara, Kiabi…) ne sont jamais contournées.
+  - Calculs par marque : part moyenne de fibres naturelles, artificielles (viscose, lyocell…) et
+    synthétiques, part des produits confectionnés en Europe, prix médian.
+  - Agrégation (scripts/releves/build-products.mjs, `npm run data:releves`) ->
+    src/data/generated/surveyed-products.json (620 Ko) : 1 251 produits de 38 marques, pour la recherche
+    avec filtres d'Etiq+. 52 marques au catalogue, dont 38 relevées.
+  - Services (réparation, seconde main) : vérifiés sur les sites ou dans la presse, avec la source et la
+    mention « à revérifier ».
+
+8.2 Pour une commercialisation
+
+  - Vérification juridique de la collecte automatique (conditions d'utilisation des sites, droit
+    sui generis des producteurs de bases de données) ; privilégier les partenariats et flux de données
+    fournis par les marques (les fiches AGEC existent déjà sous forme structurée chez elles).
+  - Données participatives : chaque étiquette scannée par un utilisateur, associée à sa marque, enrichit
+    la composition réelle par marque (avec modération et seuils statistiques).
+  - Passeport numérique produit (règlement européen ESPR, acte délégué textile prévu fin 2027) : source
+    structurée de composition et de traçabilité à intégrer dès qu'il existera.
+  - Rafraîchissement planifié des relevés (les collections changent chaque saison) et historique daté.
+
+
+====================================================================================================
+9. MOTEURS DE CALCUL : RECOMMANDATIONS, ALTERNATIVES, QUIZ, REPÈRES
+====================================================================================================
+
+Toute cette logique est en TypeScript pur dans src/data/, exécutée sur le téléphone, sans réseau sauf
+pour le quiz.
+
+9.1 Recommandations de marques (src/data/recommendations.ts)
+
+  - Entrées : objectifs de l'utilisateur dans son ordre de priorité, et budget.
+  - Chaque critère prend un statut : rempli (1 point), en partie (0,5), non rempli ou sans données (0).
+    Seuils publiés dans l'app (page « Nos critères ») :
+      fibres naturelles, moins de plastique : synthétique <= 25 %, en partie <= 50 % ;
+      fabrication proche : confection en Europe >= 50 %, en partie >= 25 % ;
+      vêtements qui durent : seconde main ou réparation (en partie si limitée à quelques magasins) ;
+      réduire mon impact : >= 60 % des références déclarées sous la médiane, en partie >= 40 %, sur au
+      moins 20 références ;
+      budget : prix médian dans la fourchette, en partie jusqu'à 1,5 fois.
+  - Pondération : avec n objectifs, l'objectif de rang r (à partir de 0) pèse n - r + 1 ; le budget pèse 1.
+  - Correspondance (%) = Σ (points × poids) / Σ poids. Tri par correspondance, puis par budget.
+  - Ce pourcentage mesure l'adéquation aux critères de la personne : ce n'est pas une note de la marque
+    (voir 15).
+
+9.2 Alternatives à un vêtement (src/data/portalStats.ts)
+
+  - Même catégorie, masse entre 75 % et 133 % de celle du vêtement, coût pour 100 g au moins 10 % plus
+    bas ; 3 meilleures, tirées des alternatives précalculées (7.1).
+
+9.3 Quiz « impact de la garde-robe » (src/data/quiz.ts)
+
+  - 12 questions : quantités achetées par catégorie, type de marque, matière, pays, part d'occasion.
+  - Pour chaque catégorie achetée : appel Ecobalyse avec la matière, le pays (tissage, teinture,
+    confection), le profil de marque (taille d'entreprise, réparation, nombre de références, prix) et la
+    masse médiane. Matière inconnue : déduite du type de marque à partir des vêtements types publiés par
+    Ecobalyse.
+  - Leviers : même calcul en changeant un seul paramètre (marque, matière, pays), plus l'effet de la part
+    d'occasion (proportionnel). Jusqu'à 36 appels, 4 à la fois.
+  - Historique des résultats (24 au plus) : c'est l'indicateur avant/après du profil.
+
+9.4 Repères parlants (src/data/equivalents.ts)
+
+  - Climat : 0,142 kg CO2e par km en voiture thermique moyenne, fabrication comprise (API Impact CO2 de
+    l'ADEME, lue le 26 oct. 2026).
+  - Eau : 60 L par douche ; l'indicateur Ecobalyse est en m3 équivalents (pondérés par la rareté locale),
+    d'où le terme « équivalent ».
+  - Plastique : part de fibres synthétiques × masse / 33 g (bouteille PET de 1,5 L).
+  - Empreinte : points / 1 000 000 × 365 jours.
+  - Pour le quiz et les estimations, climat et eau viennent des médianes du portail par catégorie (limite
+    décrite en 5.1).
+
+9.5 Pour une commercialisation
+
+  - Déplacer les calculs lourds (quiz, alternatives) côté serveur avec cache ; garder côté téléphone ce qui
+    doit marcher hors ligne.
+  - Tests unitaires de toute cette logique (aujourd'hui vérifiée par des scripts ponctuels).
+  - Revue des seuils et poids par l'équipe et un regard extérieur (association, expert ACV).
+
+
+====================================================================================================
+10. COMPTES, DONNÉES PERSONNELLES, ETIQ+
+====================================================================================================
+
+10.1 En place (POC)
+
+  - Connexion simulée (src/session/SessionProvider.tsx) : l'e-mail sert d'identifiant, le mot de passe
+    n'est pas vérifié, rien ne part sur un serveur. Mode invité possible.
+  - Données gardées sur le téléphone (AsyncStorage), sous des clés par compte (src/session/storageKeys.ts) :
+    préférences, prénom, bibliothèque (favoris, historique de 50 scans, garde-robe, résultats du quiz),
+    abonnement. Bouton « Supprimer mon compte » qui efface toutes ces clés.
+  - Etiq+ (15 € par an, fixé le 6 nov. 2026) : abonnement simulé, sans paiement. Fonctions : garde-robe et
+    impact cumulé, recherche avec filtres sur les produits relevés, liens vers la seconde main (recherche
+    Vinted, sans commission) et vers les magasins proches (recherche Google Maps).
+  - Demande d'ajout de marque : ouvre la messagerie de l'utilisateur avec un e-mail prérédigé (mailto).
+  - « Ma situation » (src/app/habits.tsx, src/data/habits.ts) : 7 questions facultatives en
+    tranches, plus la profession si la personne est en activité (âge, rayon, situation, profession inspirée
+    des catégories socioprofessionnelles de l'Insee, type de commune, budget mensuel, fréquence, lieux d'achat), chacune
+    avec « Je préfère ne pas répondre ». Accord de partage distinct, décoché par défaut, refusé aux moins
+    de 18 ans, enregistré avec sa date et la version du texte accepté (preuve du consentement). Gardé dans
+    la bibliothèque du compte, effacé avec lui. Aucun envoi dans le prototype.
+
+10.2 Pour une commercialisation
+
+  - Authentification réelle : Supabase Auth (ou équivalent) avec lien magique ou code par e-mail,
+    « Se connecter avec Apple » (obligatoire sur iOS si d'autres connexions sociales sont proposées) et
+    Google ; jetons JWT, renouvellement, suppression de compte côté serveur (exigée par l'App Store).
+  - Base de données utilisateurs PostgreSQL avec Row Level Security : chaque utilisateur ne lit que ses
+    lignes ; synchronisation entre appareils de la garde-robe, des favoris et du quiz.
+  - Paiement : un abonnement numérique vendu dans l'app doit passer par l'achat intégré d'Apple (StoreKit)
+    et de Google (Play Billing), avec une commission des stores (15 % pour un abonnement après la première
+    année, ou pour les petits développeurs selon les programmes en vigueur, à vérifier). Bibliothèque
+    RevenueCat ou équivalent, validation des reçus côté serveur, gestion des essais gratuits et des
+    résiliations.
+  - Formulaire de demande de marque côté serveur (au lieu d'un mailto) avec dédoublonnage.
+  - Données d'habitudes pour les études B2B : envoi au serveur des seules réponses avec accord, séparées
+    de l'identité (pseudonymisation), agrégation avant tout partage avec un seuil de 50 personnes par groupe
+    (et suppression des croisements trop fins), liste publique des catégories de partenaires, registre des
+    traitements, retrait de l'accord pris en compte dans les études suivantes. Validation par un juriste ou
+    un DPO avant toute commercialisation de ces données.
+  - Mesure d'audience respectueuse de la vie privée (sans publicité, hébergée en Europe), pour suivre
+    l'indicateur avant/après à l'échelle des utilisateurs.
+
+
+====================================================================================================
+11. CONTENUS : ARTICLES, LEXIQUES, ANECDOTES, IMAGES, TIKO
+====================================================================================================
+
+11.1 En place (POC)
+
+  - 20 articles rédigés par l'équipe avec leurs sources (src/data/articles.ts), images de couverture
+    chargées depuis le site de leur source et mises en cache par expo-image.
+  - Lexiques : 39 matières et 45 labels, résumés rédigés par l'équipe, renvoi vers les fiches de
+    The Good Goods (ouvertes dans le navigateur intégré).
+  - 38 anecdotes « Le savais-tu ? » reformulées à partir des fiches de The Good Goods, chacune avec son
+    lien, affichées dans un pop-up d'ouverture au-dessus de l'app floutée (expo-blur).
+  - Tiko, la mascotte : 9 poses détourées en PNG transparent à partir d'une capture (environ 200 px de
+    large), composant de bulle réutilisable, icône de l'app et écran de démarrage.
+
+11.2 Pour une commercialisation
+
+  - Droits : accord écrit avec The Good Goods pour les renvois et les anecdotes, licences des images de
+    couverture (aujourd'hui chargées depuis les sites sources), fichiers originaux de Tiko en haute
+    résolution et cession des droits de l'illustrateur.
+  - Contenus gérés hors du code (CMS « headless ») pour publier sans nouvelle version de l'app.
+
+
+====================================================================================================
+12. MODE HORS LIGNE
+====================================================================================================
+
+12.1 En place (POC)
+
+  - Les fiches du portail et les étiquettes officielles déjà consultées sont gardées en copie locale
+    (src/services/offlineCache.ts) ; au-delà de 8 s sans réponse, l'app se rabat sur cette copie.
+  - Les statistiques, alternatives, marques, relevés, articles et lexiques sont embarqués dans l'app.
+  - Ne marchent pas hors ligne : un nouveau code-barres, la lecture d'étiquette, le calcul Ecobalyse, le
+    quiz.
+
+12.2 Pour une commercialisation
+
+  - File d'attente des photos prises hors ligne, traitées au retour du réseau.
+  - Avec l'OCR sur le téléphone (4.4), estimation provisoire de la composition hors ligne.
+
+
+====================================================================================================
+13. SÉCURITÉ
+====================================================================================================
+
+13.1 En place (POC)
+
+  - Aucune clé secrète dans l'app : la clé Gemini est un secret de la fonction Supabase. La clé présente
+    dans l'app (.env.local, variables EXPO_PUBLIC_…) est la clé publique du projet, publique par
+    conception.
+  - .env.local ignoré par Git ; .env.example sert de modèle.
+  - Fonction déployée sans vérification de JWT (--no-verify-jwt) : seule la clé publique est contrôlée.
+  - Exécution de code tiers des relevés confinée dans un conteneur isolé (8.1).
+
+13.2 Pour une commercialisation
+
+  - Limitation de débit par utilisateur et par adresse IP sur la fonction de lecture (sinon n'importe qui
+    peut consommer le quota, ou la facture une fois en offre payante).
+  - Attestation de l'app : Firebase App Check, Play Integrity (Android) et App Attest (iOS), pour que seule
+    l'app officielle appelle les services.
+  - Fonctions appelées avec le JWT de l'utilisateur connecté.
+  - Audit des dépendances (npm audit, Dependabot), test d'intrusion avant lancement.
+
+
+====================================================================================================
+14. QUALITÉ, BUILD, DÉPLOIEMENT, EXPLOITATION
+====================================================================================================
+
+14.1 En place (POC)
+
+  - Vérification statique : TypeScript strict (`npx tsc --noEmit`), ESLint avec la configuration Expo
+    (`npx expo lint`), vérification du projet (`npx expo-doctor`), compilation des paquets Android et iOS
+    (`npx expo export`).
+  - Pas de tests automatisés, pas d'intégration continue, pas de suivi des plantages.
+
+14.2 Pour une commercialisation
+
+  - Tests unitaires (Jest) de la logique métier (src/data/), tests de composants (React Native Testing
+    Library), tests de bout en bout sur appareil (Maestro ou Detox) du parcours scan -> coût ->
+    alternatives.
+  - Intégration continue (GitHub Actions) : lint, typage, tests, builds EAS à chaque fusion.
+  - Suivi des plantages et des performances (Sentry), journaux structurés des fonctions serveur.
+  - Environnements séparés (développement, préproduction sur le serveur de test du portail, production).
+
+
+====================================================================================================
+15. CONFORMITÉ RÉGLEMENTAIRE
+====================================================================================================
+
+  Coût environnemental (décret n° 2025-957, arrêté du 6 septembre 2025) :
+  - Le coût déclaré par une marque est repris tel quel, avec l'étiquette officielle non modifiée : en
+    place.
+  - Une estimation par un tiers doit être déposée sur le portail avant d'être affichée, avec justificatifs
+    conservés pour la DGCCRF (art. D. 541-243 et R. 541-246) : non fait dans le POC, à mettre en place
+    (6.2).
+  - Toute note maison sur l'impact doit être accompagnée du coût officiel et ne pas le contredire
+    (art. D. 541-245) : le pourcentage de correspondance des marques et la position de Tiko ont été
+    conçus pour ne pas être lus comme une note environnementale ; à faire valider juridiquement.
+
+  RGPD :
+  - Registre des traitements, contrats de sous-traitance (Supabase, Google), hébergement et traitement en
+    Europe, durée de conservation, information des utilisateurs (la politique de confidentialité du POC
+    est à faire relire).
+
+  Stores :
+  - Abonnement par achat intégré, suppression de compte depuis l'app, déclaration des données collectées
+    (fiche « confidentialité » de l'App Store, section « sécurité des données » de Google Play).
+
+
+====================================================================================================
+16. TABLEAU RÉCAPITULATIF
+====================================================================================================
+
+  Brique                    | Prototype (POC)                          | Commercialisation
+  --------------------------+------------------------------------------+-----------------------------------------
+  App mobile                | Expo SDK 58, Expo Go                     | Builds EAS signés, EAS Update, stores
+  Code-barres               | expo-camera, normalisation GTIN          | + clé de contrôle GS1, torche
+  Lecture d'étiquette       | Gemini gratuit, 4 modèles, JSON contraint| OCR local + règles + VLM payant (UE)
+  Contrôle de la lecture    | Correction et saisie manuelle            | + contrôle qualité image, jeu d'éval.
+  Coût environnemental      | API Ecobalyse publique, coût total       | Jeton (impacts détaillés) ou auto-hébergé
+  Dépôt sur le portail      | Non fait                                 | Dépôt automatique avant affichage
+  Statistiques du portail   | JSON de 240 Ko embarqué (26 oct.)        | Base synchronisée chaque nuit + API
+  Données de marques        | 38 marques relevées, 1 251 produits      | Partenariats, données participatives, DPP
+  Recommandations           | Calcul local, seuils publiés             | Idem + revue externe, tests
+  Comptes                   | Simulés, sur le téléphone                | Supabase Auth, PostgreSQL + RLS
+  Etiq+                     | Simulé, sans paiement                    | StoreKit / Play Billing, reçus validés
+  Hors ligne                | Copie des fiches consultées              | + file d'attente des photos, OCR local
+  Sécurité                  | Secret côté serveur, clé publique        | Débit limité, App Check, JWT
+  Qualité                   | tsc, ESLint, expo-doctor                 | Tests, CI, Sentry
+  Contenus                  | En dur dans le code                      | CMS, droits formalisés
+
+
+====================================================================================================
+17. COÛTS D'EXPLOITATION ESTIMÉS (ORDRES DE GRANDEUR, À CHIFFRER)
+====================================================================================================
+
+  Aujourd'hui : 0 € (offres gratuites de Supabase et Gemini, API publiques de l'État).
+
+  En commercialisation, postes à chiffrer avec les grilles tarifaires en vigueur au lancement :
+  - Apple Developer Program (99 $ par an) et compte Google Play (25 $, une fois) ;
+  - Supabase (offre payante dès que l'usage dépasse l'offre gratuite : base, authentification,
+    fonctions) ;
+  - Vertex AI : coût par étiquette lue, réduit fortement par l'OCR local (seuls les cas difficiles vont au
+    modèle) ;
+  - EAS (offre gratuite limitée en nombre de builds, payante au-delà) ;
+  - Sentry, nom de domaine, e-mail transactionnel ;
+  - commission des stores sur les abonnements Etiq+.
+
+  Les montants exacts ne sont pas donnés ici : ils dépendent du volume d'utilisateurs et des tarifs à la
+  date du lancement, qu'il faut relever au moment de bâtir le budget.

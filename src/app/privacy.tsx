@@ -8,8 +8,8 @@ export default function PrivacyScreen() {
   return (
     <ScrollView style={styles.container} contentContainerStyle={styles.content}>
       <Section title="Ce que l’app garde">
-        Votre e-mail, votre prénom, vos objectifs, vos favoris, l’historique de vos scans, votre garde-robe (Etiq+) et vos
-        résultats au quiz, ainsi qu’une copie des fiches du portail que vous avez consultées, pour les retrouver sans
+        Votre e-mail, votre prénom, vos objectifs, vos favoris, l’historique de vos scans, votre garde-robe (Etiq+), vos
+        résultats au quiz, vos réponses facultatives à « Ma situation », ainsi qu’une copie des fiches du portail que vous avez consultées, pour les retrouver sans
         connexion. Ces données restent sur votre téléphone : elles ne sont envoyées à aucun serveur d’Etiq.
       </Section>
 
@@ -31,8 +31,17 @@ export default function PrivacyScreen() {
         contiennent aucune donnée personnelle.
       </Section>
 
+      <Section title="Votre situation (facultatif)">
+        Si vous les renseignez, vos réponses (tranche d’âge, situation et profession, budget, fréquence et lieux d’achat…) restent sur
+        votre téléphone. Elles ne sont partagées avec des partenaires (marques, instituts d’études) que si vous l’avez
+        accepté, séparément, et seulement anonymes et regroupées avec celles d’au moins 50 autres personnes : jamais
+        votre e-mail ni votre prénom. Vous pouvez retirer votre accord ou effacer vos réponses à tout moment. Aucun
+        partage n’est proposé aux moins de 18 ans. Dans le prototype, rien n’est envoyé.
+      </Section>
+
       <Section title="Ce que nous ne faisons pas">
-        Etiq n’affiche pas de publicité et ne vend aucune donnée. Aucune marque ne paie pour être mise en avant.
+        Etiq n’affiche pas de publicité et ne vend aucune donnée qui permette de vous identifier. Aucune marque ne paie
+        pour être mise en avant : un partenaire qui reçoit des études n’a aucun effet sur les marques proposées.
       </Section>
 
       <Section title="Supprimer vos données">

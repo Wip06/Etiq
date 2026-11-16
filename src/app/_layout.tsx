@@ -83,6 +83,7 @@ function AppStack({ isGuest, user }: Pick<ReturnType<typeof useSession>, 'isGues
       <Stack.Protected guard={user !== null && !needsOnboarding}>
         <Stack.Screen name="quiz" options={{ title: 'Quiz' }} />
         <Stack.Screen name="preferences" options={{ title: 'Mes objectifs' }} />
+        <Stack.Screen name="habits" options={{ title: 'Ma situation' }} />
         <Stack.Screen name="etiq-plus" options={{ title: 'Etiq+' }} />
         <Stack.Screen name="wardrobe" options={{ title: 'Ma garde-robe' }} />
         <Stack.Screen name="search" options={{ title: 'Recherche avec filtres' }} />
