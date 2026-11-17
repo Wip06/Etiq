@@ -75,6 +75,7 @@ Protocole dans `releves/` (20 produits par marque). Faits : Sézane, Uniqlo (à 
 - Encart matière (résumé du lexique + « En savoir plus » vers l'article The Good Goods) à côté de chaque matière lue sur une étiquette
 - Onboarding : 4 objectifs (réduire mon impact, acheter moins mais durable, moins de plastique, fabrication proche) et budget ; modifiables depuis le profil
 - Fin de l'onboarding : proposition de répondre à « Ma situation » (« Répondre maintenant » ou « Plus tard, depuis mon profil »), même formulaire que dans le profil (`src/components/HabitsForm.tsx`)
+- Budget mensuel (moins de 50 €, 50 à 100 €, 100 à 150 €, plus de 150 €), calé sur une étude : 82 € par mois en moyenne, 116 € chez les moins de 35 ans. Mêmes tranches à l'onboarding et dans « Ma situation » ; une marque correspond si un vêtement à son prix médian tient dans le budget du mois
 - Recommandations à l'accueil : « Marques pour vous » filtrées par les objectifs (pas de note de marque) et « À lire pour vous » ; page « Nos critères » ; section « Notre relevé » sur la fiche marque
 - Relevés Sézane (11 % de synthétique, 75 % confectionné en Europe) et Uniqlo (27 %, 0 %)
 - Profil : carte « Mon impact » (indicateur avant/après : évolution du quiz garde-robe depuis le premier, part des vêtements scannés sous la médiane de leur catégorie), prénom (demandé à l'onboarding, modifiable), page « Confidentialité », suppression du compte

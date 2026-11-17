@@ -20,7 +20,8 @@ export const CRITERIA = {
   minBelowMedianShare: 60,
   partialBelowMedianShare: 40,
   minDeclaredReferences: 20,
-  // Budget : prix médian dans la fourchette choisie, en partie jusqu'à 1,5 fois son haut.
+  // Budget mensuel, en supposant l'achat d'un vêtement par mois : prix médian de la marque au plus égal au
+  // haut de la tranche (100 € par mois : un vêtement à 100 €), en partie jusqu'à 1,5 fois ce haut.
   budgetTolerance: 1.5,
   // Poids du budget. Le dernier objectif pèse 2, et chaque rang au-dessus 1 de plus (3 objectifs : 4, 3, 2).
   budgetWeight: 1,

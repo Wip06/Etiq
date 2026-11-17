@@ -77,13 +77,18 @@ export const GOALS: Goal[] = [
   },
 ];
 
-export type BudgetId = 'low' | 'mid' | 'high';
+export type BudgetId = 'lt50' | '50-100' | '100-150' | 'gt150';
 
+// Budget vêtements par mois, demandé à l'onboarding et repris dans « Ma situation ». Tranches calées sur
+// un budget mode moyen de 82 € par mois, 116 € chez les moins de 35 ans (notre cible).
 export const BUDGETS: { id: BudgetId; label: string; maxEuros: number }[] = [
-  { id: 'low', label: 'Moins de 30 €', maxEuros: 30 },
-  { id: 'mid', label: '30 à 80 €', maxEuros: 80 },
-  { id: 'high', label: 'Plus de 80 €', maxEuros: Infinity },
+  { id: 'lt50', label: 'Moins de 50 €', maxEuros: 50 },
+  { id: '50-100', label: '50 à 100 €', maxEuros: 100 },
+  { id: '100-150', label: '100 à 150 €', maxEuros: 150 },
+  { id: 'gt150', label: 'Plus de 150 €', maxEuros: Infinity },
 ];
+
+export const isBudgetId = (value: unknown): value is BudgetId => BUDGETS.some((budget) => budget.id === value);
 
 export const getGoal = (id: GoalId) => GOALS.find((goal) => goal.id === id);
 

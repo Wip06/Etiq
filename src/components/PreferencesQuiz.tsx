@@ -67,8 +67,10 @@ export function PreferencesQuiz({
           </>
         ) : (
           <>
-            <Tiko pose="assisRegard" message="Quel budget pour un vêtement, en général ?" />
-            <Text style={styles.hint}>Pour vous proposer des marques dans vos prix.</Text>
+            <Tiko pose="assisRegard" message="Combien dépenses-tu en vêtements, par mois ?" />
+            <Text style={styles.hint}>
+              Pour vous proposer des marques dans vos prix, en supposant l’achat d’un vêtement par mois.
+            </Text>
             {BUDGETS.map((option) => {
               const selected = budget === option.id;
               return (

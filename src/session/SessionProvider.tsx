@@ -1,7 +1,7 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { createContext, use, useCallback, useEffect, useMemo, useState, type PropsWithChildren } from 'react';
 
-import type { BudgetId, GoalId } from '@/data/goals';
+import { isBudgetId, type BudgetId, type GoalId } from '@/data/goals';
 import { clearCache } from '@/services/offlineCache';
 import { firstNameKey, libraryKey, preferencesKey, premiumKey } from '@/session/storageKeys';
 
@@ -13,11 +13,12 @@ export type Preferences = {
   budget: BudgetId;
 };
 
-// Les préférences du premier questionnaire provisoire (priorités, budget en texte) ne sont plus
-// valables : le compte repasse par l'onboarding.
+// Les préférences du premier questionnaire provisoire (priorités, budget en texte) et celles dont le
+// budget était par vêtement (avant le budget mensuel) ne sont plus valables : le compte repasse par
+// l'onboarding.
 function readPreferences(value: unknown): Preferences | null {
   const candidate = value as Partial<Preferences> | null;
-  return candidate && Array.isArray(candidate.goals) && typeof candidate.budget === 'string'
+  return candidate && Array.isArray(candidate.goals) && isBudgetId(candidate.budget)
     ? (candidate as Preferences)
     : null;
 }

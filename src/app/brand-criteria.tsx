@@ -32,6 +32,14 @@ export default function BrandCriteriaScreen() {
             <Paragraph>{GOAL_RULES[goal.id]}</Paragraph>
           </View>
         ))}
+        <View style={styles.rule}>
+          <Text style={styles.ruleTitle}>Votre budget</Text>
+          <Paragraph>
+            Nous supposons l’achat d’un vêtement par mois : avec 100 € par mois, on peut acheter un vêtement à 100 €. Le
+            critère est rempli si le prix médian de la marque ne dépasse pas le haut de votre tranche, en partie jusqu’à{' '}
+            {CRITERIA.budgetTolerance.toLocaleString('fr-FR')} fois ce montant.
+          </Paragraph>
+        </View>
         <Paragraph>
           Toutes les marques relevées sont proposées, de la plus proche à la moins proche de vos critères. Chaque carte
           indique ce qui correspond ou non, et pourquoi. Une marque qui ne remplit aucun de vos objectifs est présentée

@@ -52,7 +52,7 @@ export default function ProfileScreen() {
           {user.preferences?.goals.map((id, rank) => `${rank + 1}. ${getGoal(id)?.label}`).join('\n')}
         </Text>
         <Text style={styles.text}>
-          Budget : {BUDGETS.find((budget) => budget.id === user.preferences?.budget)?.label}
+          Budget : {BUDGETS.find((budget) => budget.id === user.preferences?.budget)?.label} par mois
         </Text>
         <Button label="Modifier mes objectifs" variant="secondary" onPress={() => router.push('/preferences')} />
       </Card>

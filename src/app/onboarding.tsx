@@ -6,6 +6,7 @@ import { Button } from '@/components/Button';
 import { HabitsForm } from '@/components/HabitsForm';
 import { PreferencesQuiz } from '@/components/PreferencesQuiz';
 import { Tiko } from '@/components/Tiko';
+import type { Habits } from '@/data/habits';
 import { useLibrary } from '@/session/LibraryProvider';
 import { useSession, type Preferences } from '@/session/SessionProvider';
 import { colors } from '@/theme/colors';
@@ -78,10 +79,17 @@ export default function OnboardingScreen() {
   }
 
   if (step === 'situation') {
+    // Le budget mensuel vient d'être donné avec les objectifs : la question est préremplie.
+    const initial: Habits = {
+      sharing: null,
+      updatedAt: new Date().toISOString(),
+      ...habits,
+      answers: { budget: preferences ? [preferences.budget] : undefined, ...habits?.answers },
+    };
     return (
       <SafeAreaView style={styles.flex} edges={['top', 'left', 'right']}>
         <HabitsForm
-          initial={habits}
+          initial={initial}
           submitLabel="Découvrir mes recommandations"
           onSubmit={(answers) => {
             saveHabits(answers);

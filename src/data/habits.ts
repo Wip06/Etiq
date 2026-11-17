@@ -3,6 +3,8 @@
 // B2B), mais seulement avec l'accord explicite de la personne, et sous forme anonyme et regroupée.
 // Minimisation (RGPD) : des tranches plutôt que des valeurs exactes, et rien de sensible.
 
+import { BUDGETS } from '@/data/goals';
+
 export type HabitQuestionId =
   | 'age'
   | 'department'
@@ -95,10 +97,8 @@ export const HABIT_QUESTIONS: HabitQuestion[] = [
     id: 'budget',
     question: 'Votre budget vêtements, par mois',
     options: [
-      { id: 'lt30', label: 'Moins de 30 €' },
-      { id: '30-60', label: '30 à 60 €' },
-      { id: '60-100', label: '60 à 100 €' },
-      { id: 'gt100', label: 'Plus de 100 €' },
+      // Mêmes tranches qu'à l'onboarding.
+      ...BUDGETS.map(({ id, label }) => ({ id, label })),
       noAnswer,
     ],
   },
