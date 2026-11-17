@@ -3,18 +3,29 @@ import { KeyboardAvoidingView, Platform, StyleSheet, Text, TextInput, View } fro
 import { SafeAreaView } from 'react-native-safe-area-context';
 
 import { Button } from '@/components/Button';
+import { HabitsForm } from '@/components/HabitsForm';
 import { PreferencesQuiz } from '@/components/PreferencesQuiz';
 import { Tiko } from '@/components/Tiko';
-import { useSession } from '@/session/SessionProvider';
+import { useLibrary } from '@/session/LibraryProvider';
+import { useSession, type Preferences } from '@/session/SessionProvider';
 import { colors } from '@/theme/colors';
+
+type Step = 'name' | 'goals' | 'offer' | 'situation';
 
 export default function OnboardingScreen() {
   const { user, savePreferences, saveFirstName } = useSession();
+  const { habits, saveHabits } = useLibrary();
   const [firstName, setFirstName] = useState(user?.firstName ?? '');
   // Le prénom n'est demandé qu'une fois : un compte qui repasse par l'onboarding le garde.
-  const [askName, setAskName] = useState(!user?.firstName);
+  const [step, setStep] = useState<Step>(user?.firstName ? 'goals' : 'name');
+  // Les objectifs ne sont enregistrés qu'à la toute fin : les enregistrer termine l'onboarding et ouvre l'app.
+  const [preferences, setPreferences] = useState<Preferences | null>(null);
 
-  if (askName) {
+  const finish = () => {
+    if (preferences) savePreferences(preferences);
+  };
+
+  if (step === 'name') {
     return (
       <SafeAreaView style={styles.container}>
         <KeyboardAvoidingView style={styles.flex} behavior={Platform.OS === 'ios' ? 'padding' : undefined}>
@@ -38,7 +49,7 @@ export default function OnboardingScreen() {
             disabled={firstName.trim().length === 0}
             onPress={() => {
               saveFirstName(firstName.trim());
-              setAskName(false);
+              setStep('goals');
             }}
           />
         </KeyboardAvoidingView>
@@ -46,10 +57,54 @@ export default function OnboardingScreen() {
     );
   }
 
+  if (step === 'offer') {
+    return (
+      <SafeAreaView style={styles.container}>
+        <View style={styles.flex}>
+          <Text style={styles.title}>Ma situation</Text>
+          <Tiko pose="assisRegard" message="Dernière étape ! Tu veux bien m’en dire un peu plus sur toi ?" />
+          <Text style={styles.text}>
+            Quelques questions sur votre situation et vos habitudes d’achat, toutes facultatives. Elles nous aident à
+            comprendre comment on achète des vêtements. Vos réponses ne sont partagées que si vous l’acceptez.
+          </Text>
+          <Text style={styles.meta}>Vous pourrez répondre, modifier ou effacer vos réponses à tout moment dans votre profil.</Text>
+        </View>
+        <View style={styles.actions}>
+          <Button label="Répondre maintenant" onPress={() => setStep('situation')} />
+          <Button label="Plus tard, depuis mon profil" variant="secondary" onPress={finish} />
+        </View>
+      </SafeAreaView>
+    );
+  }
+
+  if (step === 'situation') {
+    return (
+      <SafeAreaView style={styles.flex} edges={['top', 'left', 'right']}>
+        <HabitsForm
+          initial={habits}
+          submitLabel="Découvrir mes recommandations"
+          onSubmit={(answers) => {
+            saveHabits(answers);
+            finish();
+          }}
+          header={<Text style={styles.title}>Ma situation</Text>}
+          footer={<Button label="Plus tard, depuis mon profil" variant="secondary" onPress={finish} />}
+        />
+      </SafeAreaView>
+    );
+  }
+
   return (
     <SafeAreaView style={styles.container}>
       <Text style={styles.title}>{user?.firstName ? `Bienvenue, ${user.firstName}` : 'Bienvenue sur Etiq'}</Text>
-      <PreferencesQuiz submitLabel="Découvrir mes recommandations" onSubmit={savePreferences} />
+      <PreferencesQuiz
+        initial={preferences}
+        submitLabel="Continuer"
+        onSubmit={(chosen) => {
+          setPreferences(chosen);
+          setStep('offer');
+        }}
+      />
     </SafeAreaView>
   );
 }
@@ -64,11 +119,25 @@ const styles = StyleSheet.create({
   flex: {
     flex: 1,
     gap: 16,
+    backgroundColor: colors.background,
   },
   title: {
     fontSize: 28,
     fontWeight: '700',
     color: colors.accent,
+  },
+  text: {
+    fontSize: 15,
+    lineHeight: 22,
+    color: colors.text,
+  },
+  meta: {
+    fontSize: 13,
+    lineHeight: 19,
+    color: colors.secondary,
+  },
+  actions: {
+    gap: 12,
   },
   input: {
     padding: 16,

@@ -74,6 +74,7 @@ Protocole dans `releves/` (20 produits par marque). Faits : Sézane, Uniqlo (à 
 - Résultat du quiz en km de voiture et en douches (achats × vêtement médian de chaque catégorie sur le portail, ordre de grandeur), avec la comparaison à la moyenne française
 - Encart matière (résumé du lexique + « En savoir plus » vers l'article The Good Goods) à côté de chaque matière lue sur une étiquette
 - Onboarding : 4 objectifs (réduire mon impact, acheter moins mais durable, moins de plastique, fabrication proche) et budget ; modifiables depuis le profil
+- Fin de l'onboarding : proposition de répondre à « Ma situation » (« Répondre maintenant » ou « Plus tard, depuis mon profil »), même formulaire que dans le profil (`src/components/HabitsForm.tsx`)
 - Recommandations à l'accueil : « Marques pour vous » filtrées par les objectifs (pas de note de marque) et « À lire pour vous » ; page « Nos critères » ; section « Notre relevé » sur la fiche marque
 - Relevés Sézane (11 % de synthétique, 75 % confectionné en Europe) et Uniqlo (27 %, 0 %)
 - Profil : carte « Mon impact » (indicateur avant/après : évolution du quiz garde-robe depuis le premier, part des vêtements scannés sous la médiane de leur catégorie), prénom (demandé à l'onboarding, modifiable), page « Confidentialité », suppression du compte

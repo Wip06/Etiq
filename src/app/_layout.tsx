@@ -76,7 +76,6 @@ function AppStack({ isGuest, user }: Pick<ReturnType<typeof useSession>, 'isGues
         <Stack.Screen name="favorites/[kind]" />
         <Stack.Screen name="history" options={{ title: 'Historique' }} />
         <Stack.Screen name="brand-criteria" options={{ title: 'Nos critères' }} />
-        <Stack.Screen name="privacy" options={{ title: 'Confidentialité' }} />
       </Stack.Protected>
 
       {/* Réservé aux comptes connectés : le résultat est gardé dans leur bibliothèque. */}
@@ -91,6 +90,12 @@ function AppStack({ isGuest, user }: Pick<ReturnType<typeof useSession>, 'isGues
 
       <Stack.Protected guard={needsOnboarding}>
         <Stack.Screen name="onboarding" options={{ headerShown: false }} />
+      </Stack.Protected>
+
+      {/* Aussi ouverte pendant l'onboarding, depuis les questions « Ma situation ». Placée après
+          l'onboarding pour ne jamais être le premier écran autorisé. */}
+      <Stack.Protected guard={hasChosen}>
+        <Stack.Screen name="privacy" options={{ title: 'Confidentialité' }} />
       </Stack.Protected>
 
       <Stack.Protected guard={user === null}>
