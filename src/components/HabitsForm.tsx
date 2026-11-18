@@ -25,7 +25,9 @@ export function HabitsForm({
   onSubmit,
   header,
   footer,
+  inOnboarding = false,
 }: {
+  inOnboarding?: boolean;
   initial: Habits | null;
   submitLabel: string;
   onSubmit: (habits: Habits) => void;
@@ -116,9 +118,14 @@ export function HabitsForm({
           Jamais votre e-mail ni votre prénom. Sans votre accord, vos réponses ne servent qu’à Etiq. Dans le prototype,
           rien n’est envoyé : tout reste sur votre téléphone.
         </Text>
-        <Pressable accessibilityRole="link" onPress={() => router.push('/privacy')}>
-          <Text style={styles.link}>Politique de confidentialité</Text>
-        </Pressable>
+        {/* Pendant l'onboarding, la page n'est pas ouverte : elle reste accessible depuis le profil. */}
+        {inOnboarding ? (
+          <Text style={styles.meta}>Notre politique de confidentialité est disponible dans votre profil.</Text>
+        ) : (
+          <Pressable accessibilityRole="link" onPress={() => router.push('/privacy')}>
+            <Text style={styles.link}>Politique de confidentialité</Text>
+          </Pressable>
+        )}
       </View>
 
       <Button label={submitLabel} onPress={submit} />

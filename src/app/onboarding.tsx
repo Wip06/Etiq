@@ -89,6 +89,7 @@ export default function OnboardingScreen() {
     return (
       <SafeAreaView style={styles.flex} edges={['top', 'left', 'right']}>
         <HabitsForm
+          inOnboarding
           initial={initial}
           submitLabel="Découvrir mes recommandations"
           onSubmit={(answers) => {
